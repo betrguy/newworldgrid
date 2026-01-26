@@ -12,17 +12,17 @@ layout: folder
 
   <div class="signal-card">
     <a href="/Energy-Tracker" class="signal-link"></a>
-    <div class="signal-title">⚡ E.A.T.</div>
-    <div class="signal-summary">THE ENERGY WAVE</div>
+    <div class="signal-title">⚡ THE SURGE</div>
+    <div class="signal-summary">ENERGY WAVES, TECH BREAKTHROUGHS</div>
     <div class="signal-description">
-      Is a tech breakthrough coming? Follow the Energy Acceleration Tracker. Catch up on the hiring waves and capital flows surging American industrial power.
+      Is a tech breakthrough coming? Follow our Energy Acceleration Tracker. Catch up on the hiring waves and capital flows surging American industrial power.
       <br><br><strong>[ACCESS DATA]</strong>
     </div>
   </div>
 
   <div class="signal-card">
     <a href="/Predictive-Engine" class="signal-link"></a>
-    <div class="signal-title">🔮 PREDICTIVE ENGINE</div>
+    <div class="signal-title">🔮 PREDICTIVE NEWS</div>
     <div class="signal-summary">SIGNAL OVER NOISE</div>
     <div class="signal-description">
       Stop reacting to chaos. Drown out the constant background stresses with these predictive signals for weather, tech, politics, finance. It happens here, soon. 
@@ -32,10 +32,10 @@ layout: folder
 
   <div class="signal-card">
     <a href="/Vance-Blueprint" class="signal-link"></a>
-    <div class="signal-title">📐 VANCE BLUEPRINT</div>
+    <div class="signal-title">📐 ADVANCE TO </div>
     <div class="signal-summary">A NEW ECONOMY?</div>
     <div class="signal-description">
-      Capital that flees is capital that survives. The Dividend Dollar...systems of sovereign contracts and assets... 
+      Capital that flees is capital that survives. The Dividend Dollar...systems of sovereign contracts and assets... The new incentives are already here.  
       <br><br><strong>[VIEW SCHEMATICS]</strong>
     </div>
   </div>
