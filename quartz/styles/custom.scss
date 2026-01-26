@@ -100,3 +100,50 @@
 .status-hot { color: #ff3333; font-weight: bold; } /* Red for "High Activity" */
 .status-warm { color: #ffcc00; font-weight: bold; }
 .status-stable { color: var(--gray); }
+
+/* CUSTOM INTEL BLOCKS (Usage: > [!signal] Header Text) */
+.callout[data-callout="signal"] {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid var(--gray);
+  border-left: 4px solid var(--secondary) !important; /* Terminal Green Bar */
+  border-radius: 0px !important; /* Sharp corners */
+  margin: 1.5rem 0;
+  box-shadow: none;
+}
+
+.callout[data-callout="signal"] .callout-title {
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--secondary);
+  background-color: transparent !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--darkgray);
+}
+
+.callout[data-callout="signal"] .callout-content {
+  font-family: "Source Sans Pro", sans-serif; /* Keep body readable */
+  padding-top: 0.5rem;
+  color: var(--darkgray);
+}
+
+/* DATELINE TRANSMISSION STYLE */
+.content-meta {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.8rem;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px dashed var(--gray);
+  padding-bottom: 1rem;
+  display: block;
+}
+
+/* Add the "TRANSMISSION" prefix automatically */
+.content-meta::before {
+  content: "// SIGNAL TRANSMISSION: ";
+  color: var(--secondary);
+  font-weight: bold;
+}
