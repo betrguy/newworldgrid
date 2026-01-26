@@ -66,3 +66,37 @@
   height: 100%;
   z-index: 10;
 }
+
+/* TERMINAL TABLES */
+.terminal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "JetBrains Mono", monospace;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.terminal-table th {
+  text-align: left;
+  border-bottom: 2px solid var(--secondary); /* Green Line */
+  padding: 10px;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.terminal-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--gray);
+  color: var(--darkgray);
+}
+
+.terminal-table tr:hover td {
+  background: rgba(0, 255, 65, 0.05); /* Subtle green highlight on hover */
+  color: var(--secondary);
+}
+
+/* Status Badges */
+.status-hot { color: #ff3333; font-weight: bold; } /* Red for "High Activity" */
+.status-warm { color: #ffcc00; font-weight: bold; }
+.status-stable { color: var(--gray); }
