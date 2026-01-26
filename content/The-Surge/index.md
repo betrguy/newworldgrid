@@ -1,5 +1,5 @@
 ---
-title: SURGE TEST
+title: The Surge
 layout: folder
 date: 2026-01-26
 ---
