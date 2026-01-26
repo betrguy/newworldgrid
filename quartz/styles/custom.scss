@@ -141,13 +141,6 @@
   display: block;
 }
 
-/* Add the "TRANSMISSION" prefix automatically */
-.content-meta::before {
-  content: "// SIGNAL TRANSMISSION: ";
-  color: var(--secondary);
-  font-weight: bold;
-}
-
 /* SUBTLE FOOTER */
 .footer {
   opacity: 0.3; /* Fade it out */
