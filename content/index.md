@@ -15,7 +15,7 @@ layout: folder
     <div class="signal-title">⚡ E.A.T.</div>
     <div class="signal-summary">THE ENERGY WAVE</div>
     <div class="signal-description">
-      Is a breakthrough coming? Follow the energy acceleration tracker. We're mapping the hiring waves and capital flows surging American industrial power.
+      Is a tech breakthrough coming? Follow the Energy Acceleration Tracker. Catch up on the hiring waves and capital flows surging American industrial power.
       <br><br><strong>[ACCESS DATA]</strong>
     </div>
   </div>
@@ -25,7 +25,7 @@ layout: folder
     <div class="signal-title">🔮 PREDICTIVE ENGINE</div>
     <div class="signal-summary">SIGNAL OVER NOISE</div>
     <div class="signal-description">
-      Stop reacting to chaos. Drown out the constant background stresses with predictive signals for weather, tech, politics, finance. All found here. 
+      Stop reacting to chaos. Drown out the constant background stresses with these predictive signals for weather, tech, politics, finance. It happens here, soon. 
       <br><br><strong>[READ INTELLIGENCE]</strong>
     </div>
   </div>
@@ -35,7 +35,7 @@ layout: folder
     <div class="signal-title">📐 VANCE BLUEPRINT</div>
     <div class="signal-summary">A NEW ECONOMY?</div>
     <div class="signal-description">
-      Capital that flees is capital that survives. A glimpse at your future in the breakaway economy of sovereign contracts and assets... 
+      Capital that flees is capital that survives. The Dividend Dollar...systems of sovereign contracts and assets... 
       <br><br><strong>[VIEW SCHEMATICS]</strong>
     </div>
   </div>
