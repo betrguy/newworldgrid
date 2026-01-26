@@ -7,13 +7,38 @@ layout: folder
 **Broadcast Date:** 2026-01-25
 **Location:** Unknown Node
 
-Welcome to the **New World Grid**. This is a sovereign publication dedicated to mapping the parallel economy, tracking energy acceleration, and monitoring humanity's shift away from legacy systems of capital and governance.
+> "We are living in the hour between midnight and dawn. The old world is dying. Its final, chaotic death-throes are the tremors you feel in your bank account and your courts."
 
-> "We are living in the hour between midnight and dawn. The old world is dying. It's final, chaotic death-throes are the tremors you feel in your bank account and your courts."
+<div class="signal-grid">
 
-### 📡 Active Signals
-* **[Energy Acceleration Tracker]**: Monitoring American domestic energy sector hiring/approval spikes. The loudest signal of definitive breakthroughs in America's energy grid. 
-* **[Predictive Engine]**: Analysis of the global restructuring which is currently taking place, often presenting in the news as collapse/kinetic conflicts. Read the latest here. 
-* **[Vance Blueprint]**: Systems of parallel infrastructures are emerging for payments, assets, and contracts. These new systems form the breakaway economy-- a system built to secure a future for Americans, defined by American tech and energy dominance. Learn how to prepare for the coming shift here. 
+  <div class="signal-card">
+    <a href="/Energy-Tracker" class="signal-link"></a>
+    <div class="signal-title">⚡ E.A.T.</div>
+    <div class="signal-summary">Domestic Energy Acceleration</div>
+    <div class="signal-description">
+      Monitoring domestic energy sector hiring spikes. The loudest signal of definitive breakthroughs in America's energy grid.
+      <br><br><strong>[ACCESS DATA]</strong>
+    </div>
+  </div>
 
----
+  <div class="signal-card">
+    <a href="/Predictive-Engine" class="signal-link"></a>
+    <div class="signal-title">👁️ PREDICTIVE ENGINE</div>
+    <div class="signal-summary">Global Restructuring Analysis</div>
+    <div class="signal-description">
+      Analysis of the collapse/kinetic conflicts currently presenting in the news. Situational awareness for the shift.
+      <br><br><strong>[READ INTELLIGENCE]</strong>
+    </div>
+  </div>
+
+  <div class="signal-card">
+    <a href="/Vance-Blueprint" class="signal-link"></a>
+    <div class="signal-title">📐 VANCE BLUEPRINT</div>
+    <div class="signal-summary">Parallel Infrastructure</div>
+    <div class="signal-description">
+      New systems for payments, assets, and contracts. Decoupling from the old world to secure a future defined by sovereignty.
+      <br><br><strong>[VIEW SCHEMATICS]</strong>
+    </div>
+  </div>
+
+</div>
