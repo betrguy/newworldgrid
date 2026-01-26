@@ -1,5 +1,5 @@
 ---
-title: STRATEGIC DASHBOARD
+title: New World Grid
 layout: folder
 ---
 
