@@ -147,3 +147,30 @@
   color: var(--secondary);
   font-weight: bold;
 }
+
+/* SUBTLE FOOTER */
+.footer {
+  opacity: 0.3; /* Fade it out */
+  font-size: 0.7rem; /* Make it tiny */
+  margin-top: 4rem;
+  border-top: 1px solid var(--darkgray); /* Thin, dark line */
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.footer a {
+  color: var(--gray) !important; /* Force grey, no neon green */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--secondary) !important; /* Only turn green if you hover */
+}

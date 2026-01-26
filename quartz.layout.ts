@@ -33,7 +33,11 @@ left: [
   ],
  right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.RecentNotes({ title: "LATEST SIGNALS", limit: 5 }),
+    Component.RecentNotes({
+      title: "LATEST SIGNALS",
+      limit: 5,
+      filter: (f) => !f.slug!.endsWith("index") && !f.slug!.endsWith("404") && !f.frontmatter?.noindex,
+    }),
   ],
 }
 
