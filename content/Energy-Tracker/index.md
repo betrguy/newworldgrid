@@ -1,11 +1,5 @@
 ---
-title: Energy Acceleration Tracker [EAT]
----
-### Intelligence Archive
-*Monitoring American domestic energy sector hiring/approval spikes. The loudest signal of definitive breakthroughs in America’s energy grid.*
-
----
-title: E.A.T. Terminal
+title: Track Innovation Acceleration
 layout: folder
 ---
 ### 📂 INTELLIGENCE LOG
@@ -16,9 +10,9 @@ layout: folder
 **Scope:** US Industrial Base / Grid Infrastructure
 **Tracking:** Hiring Spikes, Capital Inflows, Regulatory Approvals
 
-> "Energy is the loudest signal of definitive breakthroughs."
+> "Energy is the loudest signal of a definitive breakthrough."
 
-### 📡 SECTOR WATCHLIST (Real-Time)
+### 📡 ENERGY WATCHLIST (Real-Time)
 
 <table class="terminal-table">
   <thead>
