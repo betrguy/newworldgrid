@@ -17,4 +17,3 @@ Welcome to the **New World Grid**. This is a sovereign publication dedicated to 
 * **[Vance Blueprint]**: Systems of parallel infrastructures are emerging for payments, assets, and contracts. These new systems form the breakaway economy-- a system built to secure a future for Americans, defined by American tech and energy dominance. Learn how to prepare for the coming shift here. 
 
 ---
-*Select a signal from the wire on the right to expand.*
