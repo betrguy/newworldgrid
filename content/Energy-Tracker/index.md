@@ -1,8 +1,4 @@
----
-title: Track Innovation Acceleration
-layout: folder
----
-### 📂 INTELLIGENCE LOG
+### 📂 ARTICLE LOGS
 * **2026-01-24:** [Report: The Copper Squeeze is Beginning](/Energy-Tracker/copper-squeeze)
 * **2026-01-18:** [Analysis: Why The Grid Can't Handle AI](/Energy-Tracker/grid-ai-bottleneck)
 
@@ -28,25 +24,25 @@ layout: folder
       <td><strong>SPACEX (Starbase)</strong></td>
       <td>Aerospace / LNG</td>
       <td><span class="status-hot">████ CRITICAL</span></td>
-      <td>Massive hiring event for industrial welders in Brownsville.</td>
+      <td>Placeholder.</td>
     </tr>
     <tr>
       <td><strong>ANDURIL</strong></td>
       <td>Defense / Hardware</td>
       <td><span class="status-hot">███ HIGH</span></td>
-      <td>New "Arsenal" manufacturing plant permits approved.</td>
+      <td>Placeholder.</td>
     </tr>
     <tr>
       <td><strong>TERRAPOWER</strong></td>
       <td>Nuclear</td>
       <td><span class="status-warm">██ WARM</span></td>
-      <td>Wyoming site prep underway; waiting on NRC final.</td>
+      <td>Placeholder.</td>
     </tr>
     <tr>
       <td><strong>OKLO</strong></td>
       <td>Micro-Reactors</td>
       <td><span class="status-stable">█ STABLE</span></td>
-      <td>Stock accumulation detected; silence on regulatory front.</td>
+      <td>Placeholder.</td>
     </tr>
   </tbody>
 </table>
