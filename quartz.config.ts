@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "The New World Grid",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,16 +16,16 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "thenewworldgrid.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "JetBrains Mono",
+        body: "JetBrains Mono",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -40,15 +40,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0a0a0a",        // Pitch black background
+          lightgray: "#393639",    // Subtle borders
+          gray: "#646464",         // Muted text
+          darkgray: "#d4d4d4",     // Main text (readable grey-white)
+          dark: "#ffffff",         // Headings (stark white)
+          secondary: "#00ff41",    // THE TERMINAL GREEN (Links/Accents)
+          tertiary: "#ff3333",     // Alert Red (for hover states)
+          highlight: "rgba(0, 255, 65, 0.15)", // Green highlight
+          textHighlight: "#b3a06d88",
         },
       },
     },
@@ -88,7 +88,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },
