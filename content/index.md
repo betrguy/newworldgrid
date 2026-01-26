@@ -11,7 +11,7 @@ layout: folder
 <div class="signal-grid">
 
   <div class="signal-card">
-    <a href="/Energy-Tracker" class="signal-link"></a>
+    <a href="/The-Surge" class="signal-link"></a>
     <div class="signal-title">⚡ THE SURGE</div>
     <div class="signal-summary">ENERGY WAVES, TECH BREAKTHROUGHS</div>
     <div class="signal-description">
@@ -21,7 +21,7 @@ layout: folder
   </div>
 
   <div class="signal-card">
-    <a href="/Predictive-Engine" class="signal-link"></a>
+    <a href="/Predictive-News" class="signal-link"></a>
     <div class="signal-title">🔮 PREDICTIVE NEWS</div>
     <div class="signal-summary">SIGNAL OVER NOISE</div>
     <div class="signal-description">
@@ -31,7 +31,7 @@ layout: folder
   </div>
 
   <div class="signal-card">
-    <a href="/Vance-Blueprint" class="signal-link"></a>
+    <a href="/Advance-To" class="signal-link"></a>
     <div class="signal-title">📐 ADVANCE TO </div>
     <div class="signal-summary">A NEW ECONOMY?</div>
     <div class="signal-description">
