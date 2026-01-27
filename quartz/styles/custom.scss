@@ -37,12 +37,27 @@
 }
 
 /* The "Teaser" Text (Always Visible) */
+/* The "Teaser" Text (Truncated) */
 .signal-preview {
   font-size: 0.9rem;
   color: var(--darkgray);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;         /* Remove gap so it stays tight */
   font-weight: 600;
   opacity: 0.9;
+  
+  /* Force One Line & Ellipsis */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: block;
+}
+
+/* Ensure the subtitle span inside also flows correctly */
+.signal-preview span {
+  font-weight: normal;
+  opacity: 0.7;
+  margin-left: 0.5rem; /* Small space between Title and Hook */
 }
 
 /* The "Deep" Text (Hidden until hover) */
@@ -205,6 +220,13 @@ footer ul {
   margin: 0 !important;
   padding: 0 !important;
 }
+/* AUTO-SWITCH LOGO */
+:root[saved-theme="light"] .custom-logo {
+  content: url("/static/logo-light.png");
+}
+
+/* Optional: Invert colors if you don't have a second file yet */
+/* :root[saved-theme="light"] .custom-logo { filter: invert(1); } */
 
 .footer ul { list-style: none; padding: 0; }
 .footer li { display: inline-block; margin-right: 1rem; }
