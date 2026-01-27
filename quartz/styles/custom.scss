@@ -273,11 +273,11 @@ body[data-slug="index"] .article-title {
   display: none !important;
 }
 
-/* --- DASHBOARD HEADER LAYOUT (LOCKED ALIGNMENT) --- */
+/* --- DASHBOARD HEADER LAYOUT (OPTICAL ALIGNMENT) --- */
 .dashboard-header {
   display: flex;
   flex-direction: row;
-  align-items: center; /* FIXED: Vertically centers text with logo */
+  align-items: flex-start; /* Align to top so we can manually push text down */
   gap: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 1rem;
@@ -297,11 +297,12 @@ body[data-slug="index"] .article-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* Optical Nudge: Fonts sit slightly low, so we pull them up 2px */
-  margin-top: -2px; 
+  
+  /* PUSH DOWN: This moves the text block lower to match the logo center */
+  margin-top: 8px !important; 
 }
 
-/* 2. THE MAIN TITLE (Serif / Big) */
+/* 2. THE MAIN TITLE */
 .main-title {
   font-family: "Libre Baskerville", serif !important;
   font-size: 3.2rem !important;
@@ -311,22 +312,22 @@ body[data-slug="index"] .article-title {
   color: var(--dark) !important;
   
   /* KILL THE GHOST LINK */
-  pointer-events: none !important; /* Stops the clickable hand cursor */
+  pointer-events: none !important;
   cursor: default !important;
 }
 
-/* Remove the "chain" icon that Quartz automatically adds to headers */
+/* Remove the "chain" icon */
 .main-title a, .main-title .anchor-icon {
   display: none !important;
   pointer-events: none !important;
 }
 
-/* 3. THE SUBTITLE (Machine Code / Small) */
+/* 3. THE SUBTITLE */
 .sub-title {
   font-family: "JetBrains Mono", monospace !important;
   font-size: 0.85rem !important;
   color: var(--darkgray);
-  margin-top: 0.4rem !important; /* Precise gap */
+  margin-top: 0.4rem !important;
   opacity: 0.8;
   letter-spacing: 0.05em;
   line-height: 1.2;
