@@ -374,30 +374,25 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
-/* --- DASHBOARD CLEANUP (The Fix) --- */
+/* --- DASHBOARD CLEANUP (THE NUCLEAR OPTION) --- */
 
-/* Target the dashboard pages (Case-Insensitive) */
-body[data-slug="the-surge"], body[data-slug="The-Surge"],
-body[data-slug="predictive-news"], body[data-slug="Predictive-News"],
-body[data-slug="advance-to"], body[data-slug="Advance-To"] {
+/* 1. Hide the "0 items" text and file lists on ALL folder pages */
+/* This covers every known variation of the list container */
+.page-listing, 
+.folder-outer, 
+.section-list, 
+ul.section-ul,
+.popover-hint { 
+  display: none !important; 
+}
 
-  /* 1. Hide "Signal Transmission" Date & Read Time */
-  .content-meta {
-    display: none !important;
-  }
+/* 2. Hide the "Backlinks" footer (if present) */
+.backlinks {
+  display: none !important;
+}
 
-  /* 2. Hide the automatic file list ("0 items under this folder") */
-  .page-listing, .folder-outer {
-    display: none !important;
-  }
-
-  /* 3. Hide Breadcrumbs for a cleaner look */
-  .breadcrumb-container {
-    display: none !important;
-  }
-  
-  /* 4. Hide Backlinks footer */
-  .backlinks {
-    display: none !important;
-  }
+/* 3. OPTIONAL: Hide Breadcrumbs (Home > The Surge) if you still see them */
+/* If you want to keep them, delete this block */
+.breadcrumb-container {
+  display: none !important;
 }
