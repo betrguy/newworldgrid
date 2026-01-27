@@ -225,6 +225,11 @@ footer ul {
   content: url("/static/logo-light.png");
 }
 
+/* Hide the duplicate automatic title ONLY on the homepage */
+body[data-slug="index"] .article-title {
+  display: none !important;
+}
+
 /* Optional: Invert colors if you don't have a second file yet */
 /* :root[saved-theme="light"] .custom-logo { filter: invert(1); } */
 
