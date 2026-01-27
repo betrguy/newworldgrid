@@ -10,7 +10,7 @@ title: New World Grid
   <div class="signal-card">
     <a href="/The-Surge" class="signal-link"></a>
     <div class="signal-title">⚡ THE SURGE</div>
-    <div class="signal-summary">Energy waves & tech breakthroughs</div>
+    <div class="signal-summary">The new energy + tech paradigm</div>
     <div class="signal-description">
       Ready for the next breakthrough? We're sharing the hiring waves and capital flows surging American industrial power. Use our Energy Acceleration Tracker here. 
       <br><br><strong>[READ MORE]</strong>
