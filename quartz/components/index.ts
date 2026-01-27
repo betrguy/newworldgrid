@@ -23,6 +23,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import CustomBanner from "./CustomBanner" // <--- 1. ADDED IMPORT HERE
 
 export {
   ArticleTitle,
@@ -50,4 +51,5 @@ export {
   Comments,
   Flex,
   ConditionalRender,
+  CustomBanner, // <--- 2. ADDED EXPORT HERE
 }
