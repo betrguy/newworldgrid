@@ -19,7 +19,7 @@ layout: folder
     </div>
     <div class="signal-hidden-content">
       We're watching the hiring waves and capital flows surging American industrial power. Use our Energy Acceleration Tracker here at The Surge.
-      <br><br><strong>[ACCESS DATA]</strong>
+      <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
 
@@ -31,7 +31,7 @@ layout: folder
     </div>
     <div class="signal-hidden-content">
       Predictive signals for weather, tech, geopolitics, finance... It happens here, soon, with Predictive News.
-      <br><br><strong>[READ INTELLIGENCE]</strong>
+      <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
 
@@ -43,7 +43,7 @@ layout: folder
     </div>
     <div class="signal-hidden-content">
       Advance To: Dividend Dollars... new systems of sovereign contracts and assets... Capital that flees is capital that survives.
-      <br><br><strong>[VIEW SCHEMATICS]</strong>
+      <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
 
