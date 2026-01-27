@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "New_World_Grid",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: {
       provider: "plausible",
     },
