@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The New World Grid",
+    pageTitle: "New_World_Grid",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
