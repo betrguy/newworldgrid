@@ -27,8 +27,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "JetBrains Mono",
-        body: "JetBrains Mono",
+        // We add Libre Baskerville here so it downloads
+        header: "Libre Baskerville", 
+        body: "Source Sans Pro",
         code: "JetBrains Mono",
       },
       colors: {
