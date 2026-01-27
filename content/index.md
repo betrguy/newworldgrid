@@ -12,7 +12,7 @@ layout: folder
 </div>
 
 <div class="quote-section">
-  <h2 class="section-header">Where are we?</h2>
+  <h3 class="section-header">Where are we?</h3>
   <blockquote class="terminal-quote">
     "We are living in the hour between midnight and dawn. The old world is dying. Its final, chaotic death-throes are the tremors you feel in your bank account and your courts."
   </blockquote>

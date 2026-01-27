@@ -273,44 +273,51 @@ body[data-slug="index"] .article-title {
   display: none !important;
 }
 
-/* --- DASHBOARD HEADER LAYOUT --- */
+/* --- DASHBOARD HEADER LAYOUT (FIXED PROPORTIONS) --- */
 .dashboard-header {
   display: flex;
-  align-items: center; /* Vertically center logo with text block */
-  gap: 1.2rem;         /* Space between logo and text */
-  margin-bottom: 2.5rem;
+  flex-direction: row;
+  align-items: flex-start; /* Aligns items to the top for optical balance */
+  gap: 1.2rem;             /* Exact gap from mockup */
+  margin-bottom: 3rem;     /* Space before the "Where are we?" section */
+  margin-top: 1rem;
 }
 
+/* 1. THE LOGO (Constraint) */
 .custom-logo {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  flex-shrink: 0; /* Prevents logo from squishing on mobile */
+  width: 85px !important;      /* HARD LIMIT: Prevents the "Giant Logo" bug */
+  height: 85px !important;
+  min-width: 85px !important;  /* Prevents squishing on mobile */
+  object-fit: contain;
+  margin: 0 !important;
+  border-radius: 0 !important; /* Sharp corners or remove if your png has transparency */
 }
 
 .header-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 4px; /* Slight nudge down to align with logo top */
 }
 
-/* Tighten the Title */
+/* 2. THE MAIN TITLE (Serif / Big) */
 .main-title {
   font-family: "Libre Baskerville", serif !important;
-  font-size: 2.8rem !important;
-  line-height: 1 !important;
-  margin: 0 !important; /* Removes the gap below title */
-  padding: 0 !important;
-  letter-spacing: -0.03em;
+  font-size: 3.2rem !important; /* Large, Editorial size */
+  line-height: 0.9 !important;   /* Tight stacking */
+  margin: 0 !important;
+  letter-spacing: -0.04em;       /* Tight tracking like the mockup */
+  color: var(--dark) !important;
 }
 
-/* Tighten the Subtitle */
+/* 3. THE SUBTITLE (Machine Code / Small) */
 .sub-title {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.9rem;
+  font-family: "JetBrains Mono", monospace !important; /* FIXED: Machine Font */
+  font-size: 0.85rem !important;
   color: var(--darkgray);
-  margin-top: 0.5rem; /* Small gap between title and subtitle */
+  margin-top: 0.6rem; /* Gap between title and subtitle */
   opacity: 0.8;
+  letter-spacing: 0.05em; /* Spaced out slightly like code */
 }
 
 /* --- QUOTE SECTION --- */
@@ -323,13 +330,14 @@ body[data-slug="index"] .article-title {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
   color: var(--dark);
+  margin-top: 0;
 }
 
 .terminal-quote {
   font-family: "JetBrains Mono", monospace !important;
   font-size: 0.95rem;
   color: var(--gray);
-  border-left: 4px solid var(--secondary); /* The Green Bar */
+  border-left: 3px solid var(--secondary); /* The Green Bar */
   padding-left: 1rem;
   margin-left: 0;
   line-height: 1.5;
