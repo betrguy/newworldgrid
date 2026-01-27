@@ -18,7 +18,7 @@ layout: folder
     <a href="/The-Surge" class="signal-link"></a>
     <div class="signal-title">⚡ THE SURGE</div>
     <div class="signal-preview">
-      The new energy + tech paradigm. <span>Ready for the next breakthrough?</span>
+      A new energy paradigm... <span>Ready for the next breakthrough?</span>
     </div>
     <div class="signal-hidden-content">
       We're watching the hiring waves and capital flows surging American industrial power. Use our Energy Acceleration Tracker here at The Surge.
