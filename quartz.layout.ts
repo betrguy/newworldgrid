@@ -24,12 +24,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.TagList(),
   ],
-left: [
+  left: [
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    // ADDED: This ensures the sidebar tree appears on articles too
+    Component.Explorer({
+      title: "New World Grid",
+      folderDefaultState: "open",
+    }),
   ],
- right: [
+  right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.RecentNotes({
       title: "LATEST UPDATES",
@@ -39,7 +44,7 @@ left: [
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ContentMeta()],
   left: [
@@ -53,7 +58,10 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "New World Grid", // Custom Title
+      folderDefaultState: "open", // Keeps the tree open so users see content
+    }),
   ],
   right: [],
 }

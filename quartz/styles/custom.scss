@@ -373,3 +373,26 @@ h1, h2, h3, h4, h5, h6 {
 .anchor-icon {
   display: none !important;
 }
+
+/* --- HUB PAGE CLEANUP (The Surge, Predictive News, Advance To) --- */
+
+/* Target specific dashboards by their URL slug */
+body[data-slug="The-Surge"],
+body[data-slug="Predictive-News"],
+body[data-slug="Advance-To"] {
+
+  /* 1. Hide the "Signal Transmission" Date/Time line */
+  .content-meta {
+    display: none !important;
+  }
+
+  /* 2. Hide the "0 items under this folder" text and list */
+  .folder-outer {
+    display: none !important;
+  }
+  
+  /* 3. Hide the breadcrumbs (Home > The Surge) if you want a cleaner look */
+  .breadcrumb-container {
+    display: none !important;
+  }
+}
