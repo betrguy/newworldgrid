@@ -180,11 +180,49 @@
   font-weight: bold;
 }
 
-.footer {
-  opacity: 0.3;
-  font-size: 0.7rem;
-  margin-top: 4rem;
-  border-top: 1px solid var(--darkgray);
+/* --- FOOTER OVERRIDE --- */
+footer {
+  /* Layout: Force everything into one horizontal line */
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important; /* Center horizontally */
+  align-items: center !important;     /* Center vertically */
+  gap: 1rem !important;               /* Space between text and links */
+  
+  /* Appearance: Dim and Small */
+  opacity: 0.4 !important;
+  font-size: 0.75rem !important;
+  margin-top: 4rem !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* Force the paragraph (Created with...) and list (GitHub...) to behave */
+footer p, footer ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+}
+
+/* Remove bullet points from the links */
+footer ul {
+  list-style: none !important;
+}
+
+/* Make the links sit side-by-side */
+footer li {
+  display: inline-block !important;
+  margin-left: 1rem !important;
+}
+
+/* Color: Force everything Grey (unless hovered) */
+footer a, footer p {
+  color: var(--gray) !important;
+  text-decoration: none !important;
+}
+
+footer a:hover {
+  color: var(--secondary) !important; /* Only green on hover */
 }
 
 .footer ul { list-style: none; padding: 0; }
