@@ -374,25 +374,37 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
-/* --- DASHBOARD CLEANUP (THE NUCLEAR OPTION) --- */
+/* --- DASHBOARD CLEANUP (FORCE REMOVAL) --- */
 
-/* 1. Hide the "0 items" text and file lists on ALL folder pages */
-/* This covers every known variation of the list container */
-.page-listing, 
-.folder-outer, 
-.section-list, 
-ul.section-ul,
-.popover-hint { 
-  display: none !important; 
-}
+/* 1. Target "The Surge" (and others) specifically */
+body[data-slug="the-surge"], 
+body[data-slug="predictive-news"], 
+body[data-slug="advance-to"] {
 
-/* 2. Hide the "Backlinks" footer (if present) */
-.backlinks {
-  display: none !important;
-}
+  /* Hide the Date/Time metadata */
+  .content-meta {
+    display: none !important;
+  }
 
-/* 3. OPTIONAL: Hide Breadcrumbs (Home > The Surge) if you still see them */
-/* If you want to keep them, delete this block */
-.breadcrumb-container {
-  display: none !important;
+  /* Hide the "0 items under this folder" container */
+  /* We target multiple possible class names to be safe */
+  .page-listing, 
+  .folder-outer, 
+  div[class*="page-listing"] {
+    display: none !important;
+    opacity: 0 !important; /* Double-tap visibility */
+    height: 0 !important;  /* Collapse the space */
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Hide the text paragraph itself just in case */
+  .page-listing > p {
+    display: none !important;
+  }
+
+  /* Hide the Breadcrumbs (Home > The Surge) */
+  .breadcrumb-container {
+    display: none !important;
+  }
 }
