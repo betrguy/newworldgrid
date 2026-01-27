@@ -355,3 +355,21 @@ body[data-slug="index"] .article-title {
   margin-left: 0;
   line-height: 1.5;
 }
+
+/* --- GLOBAL HEADER CLEANUP --- */
+/* Hide the anchor link (chain icon) on ALL headers */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* Ensure the header itself doesn't look clickable */
+h1, h2, h3, h4, h5, h6 {
+  cursor: default !important;
+  pointer-events: auto; /* Keeps text selectable */
+}
+
+/* Double-tap to kill any lingering anchor icons */
+.anchor-icon {
+  display: none !important;
+}
