@@ -18,7 +18,7 @@ layout: folder
     <a href="/The-Surge" class="signal-link"></a>
     <div class="signal-title">⚡ THE SURGE</div>
     <div class="signal-preview">
-      A new energy paradigm... <span>Ready for the next breakthrough?</span>
+      A new energy + tech paradigm. <span>Ready for the next breakthrough?</span>
     </div>
     <div class="signal-hidden-content">
       We're watching the hiring waves and capital flows surging American industrial power. Use our Energy Acceleration Tracker here at The Surge.
@@ -30,10 +30,10 @@ layout: folder
     <a href="/Predictive-News" class="signal-link"></a>
     <div class="signal-title">🔮 PREDICTIVE NEWS</div>
     <div class="signal-preview">
-      Breaking news. <span>Stop reacting to chaos.</span>
+      Breaking news. <span>Stop reacting to chaos. Drown out the constant background stress...</span>
     </div>
     <div class="signal-hidden-content">
-      Drown out the constant background stresses with predictive signals for weather, tech, politics, finance... It happens here, soon, with Predictive News.
+      Get predictive signals for weather, tech, politics, finance... It happens here, soon, with Predictive News.
       <br><br><strong>[READ INTELLIGENCE]</strong>
     </div>
   </div>
@@ -42,7 +42,7 @@ layout: folder
     <a href="/Advance-To" class="signal-link"></a>
     <div class="signal-title">📐 ADVANCE TO</div>
     <div class="signal-preview">
-      The NEW economy? <span>The new incentives have arrived - And we can't ignore them.</span>
+      The NEW economy? <span>The new incentives have arrived - And we can't ignore them...</span>
     </div>
     <div class="signal-hidden-content">
       Advance To: Dividend Dollars... new systems of sovereign contracts and assets... Capital that flees is capital that survives.

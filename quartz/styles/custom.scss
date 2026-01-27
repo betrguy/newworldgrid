@@ -36,28 +36,29 @@
   gap: 0.5rem;
 }
 
-/* The "Teaser" Text (Always Visible) */
-/* The "Teaser" Text (Truncated) */
+/* The "Teaser" Text (Smart Wrap - 2 Lines Max) */
 .signal-preview {
-  font-size: 0.9rem;
-  color: var(--darkgray);
-  margin-bottom: 0;         /* Remove gap so it stays tight */
-  font-weight: 600;
-  opacity: 0.9;
+  font-size: 0.95rem;
+  color: var(--lightgray);
+  margin-bottom: 0;
+  font-weight: 700;
+  opacity: 1;
   
-  /* Force One Line & Ellipsis */
-  white-space: nowrap;
+  /* Smart Wrapping */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;          /* <--- This adds the standard property to fix the warning */
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
-  width: 100%;
-  display: block;
+  line-height: 1.3;
 }
 
-/* Ensure the subtitle span inside also flows correctly */
+/* The Hook Sentence (Inside the preview) */
 .signal-preview span {
-  font-weight: normal;
-  opacity: 0.7;
-  margin-left: 0.5rem; /* Small space between Title and Hook */
+  font-weight: 400;
+  color: #cccccc; /* Bright grey, distinct from the header */
+  opacity: 1; /* Full visibility */
+  margin-left: 0.4rem;
 }
 
 /* The "Deep" Text (Hidden until hover) */
@@ -66,24 +67,24 @@
   opacity: 0;
   overflow: hidden;
   transition: all 0.4s ease;
-  font-size: 0.85rem;
-  color: var(--gray);
-  border-top: 1px dashed var(--gray); /* Separator line */
+  
+  /* HIGH CONTRAST */
+  font-size: 0.9rem;
+  color: #ffffff; /* Pure White */
+  font-weight: 500;
+  
+  border-top: 1px solid var(--gray); /* Solid line, not dashed */
   margin-top: 0;
   padding-top: 0;
+  line-height: 1.5;
 }
 
-.signal-link {
-  position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
-  z-index: 10;
-}
-
-/* Hover Behavior */
-.signal-card:hover {
-  transform: translateX(5px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-  padding-bottom: 2rem; /* Make room for the expanding text */
+/* Hover Behavior: Make sure text stays visible */
+.signal-card:hover .signal-hidden-content {
+  max-height: 500px; /* Give it plenty of room */
+  opacity: 1;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
 }
 
 .signal-card:hover .signal-hidden-content {
