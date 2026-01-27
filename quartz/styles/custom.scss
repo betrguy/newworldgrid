@@ -277,47 +277,52 @@ body[data-slug="index"] .article-title {
 .dashboard-header {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; /* Aligns items to the top for optical balance */
-  gap: 1.2rem;             /* Exact gap from mockup */
-  margin-bottom: 3rem;     /* Space before the "Where are we?" section */
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
   margin-top: 1rem;
 }
 
-/* 1. THE LOGO (Constraint) */
+/* 1. THE LOGO */
 .custom-logo {
-  width: 85px !important;      /* HARD LIMIT: Prevents the "Giant Logo" bug */
+  width: 85px !important;
   height: 85px !important;
-  min-width: 85px !important;  /* Prevents squishing on mobile */
+  min-width: 85px !important;
   object-fit: contain;
   margin: 0 !important;
-  border-radius: 0 !important; /* Sharp corners or remove if your png has transparency */
+  border-radius: 0 !important;
 }
 
 .header-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 4px; /* Slight nudge down to align with logo top */
+  /* Push the text block down slightly so the Title Cap-Height aligns with the Logo Top */
+  padding-top: 8px; 
 }
 
 /* 2. THE MAIN TITLE (Serif / Big) */
 .main-title {
   font-family: "Libre Baskerville", serif !important;
-  font-size: 3.2rem !important; /* Large, Editorial size */
-  line-height: 0.9 !important;   /* Tight stacking */
+  font-size: 3.2rem !important;
+  line-height: 0.85 !important;   /* Tighter line height */
   margin: 0 !important;
-  letter-spacing: -0.04em;       /* Tight tracking like the mockup */
+  letter-spacing: -0.04em;
   color: var(--dark) !important;
 }
 
 /* 3. THE SUBTITLE (Machine Code / Small) */
 .sub-title {
-  font-family: "JetBrains Mono", monospace !important; /* FIXED: Machine Font */
+  font-family: "JetBrains Mono", monospace !important;
   font-size: 0.85rem !important;
   color: var(--darkgray);
-  margin-top: 0.6rem; /* Gap between title and subtitle */
+  
+  /* TIGHTER GAP HERE */
+  margin-top: 0.3rem !important; /* Reduced from 0.6rem */
+  
   opacity: 0.8;
-  letter-spacing: 0.05em; /* Spaced out slightly like code */
+  letter-spacing: 0.05em;
+  line-height: 1.2;
 }
 
 /* --- QUOTE SECTION --- */
