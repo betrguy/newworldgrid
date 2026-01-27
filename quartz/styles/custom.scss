@@ -374,37 +374,40 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
-/* --- DASHBOARD CLEANUP (FORCE REMOVAL) --- */
+/* --- UNIVERSAL KILL SWITCH for "0 Items" --- */
 
-/* 1. Target "The Surge" (and others) specifically */
-body[data-slug="the-surge"], 
-body[data-slug="predictive-news"], 
-body[data-slug="advance-to"] {
+/* 1. Target the specific empty folder message by its content structure */
+/* This works on ANY page that has this error, regardless of the URL slug */
+.page-listing > p {
+  font-size: 0 !important; /* Shrink text to invisible */
+  color: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
 
-  /* Hide the Date/Time metadata */
-  .content-meta {
-    display: none !important;
-  }
+/* 2. Hide the container if it's empty or just contains that message */
+.page-listing:not(:has(ul)), 
+.page-listing:not(:has(.section-li)) {
+  display: none !important;
+}
 
-  /* Hide the "0 items under this folder" container */
-  /* We target multiple possible class names to be safe */
-  .page-listing, 
-  .folder-outer, 
-  div[class*="page-listing"] {
-    display: none !important;
-    opacity: 0 !important; /* Double-tap visibility */
-    height: 0 !important;  /* Collapse the space */
-    margin: 0 !important;
-    padding: 0 !important;
-  }
+/* 3. Force hide any element containing the specific text string (Modern CSS) */
+/* This is the nuclear option if your browser supports :has() */
+p:has(text-content="0 items under this folder"),
+div:has(> p:first-child:contains("0 items")) {
+  display: none !important;
+}
 
-  /* Hide the text paragraph itself just in case */
-  .page-listing > p {
-    display: none !important;
-  }
-
-  /* Hide the Breadcrumbs (Home > The Surge) */
-  .breadcrumb-container {
+/* 4. DASHBOARD SPECIFIC CLEANUP (Keep this for the Date/Breadcrumbs) */
+/* We use the "attribute starts with" selector to catch sub-pages too */
+body[data-slug*="surge"], 
+body[data-slug*="predictive"], 
+body[data-slug*="advance"] {
+  .content-meta, 
+  .breadcrumb-container,
+  .backlinks {
     display: none !important;
   }
 }
