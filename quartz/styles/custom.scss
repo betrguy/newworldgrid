@@ -1,10 +1,10 @@
 @use "./base.scss";
 
-// --- THE WATERFALL LAYOUT ---
+// --- THE WATERFALL LAYOUT (V2) ---
 .signal-stack {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem; /* Tight spacing */
+  gap: 0.8rem; /* A bit more breathing room */
   margin-top: 2rem;
   width: 100%;
 }
@@ -13,11 +13,15 @@
   background: var(--lightgray);
   border: 1px solid var(--gray);
   padding: 1.5rem;
-  border-radius: 0px; /* Sharp corners */
+  border-radius: 0px;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  /* Make sure flex items stack correctly */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* Base Text Styles */
@@ -25,18 +29,33 @@
   font-family: "JetBrains Mono", monospace;
   font-weight: 800;
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.signal-description {
+/* The "Teaser" Text (Always Visible) */
+.signal-preview {
+  font-size: 0.9rem;
+  color: var(--darkgray);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* The "Deep" Text (Hidden until hover) */
+.signal-hidden-content {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
   transition: all 0.4s ease;
-  font-size: 0.9rem;
-  color: var(--darkgray);
+  font-size: 0.85rem;
+  color: var(--gray);
+  border-top: 1px dashed var(--gray); /* Separator line */
   margin-top: 0;
+  padding-top: 0;
 }
 
 .signal-link {
@@ -45,58 +64,39 @@
   z-index: 10;
 }
 
-/* Hover Behavior (Slide Right) */
+/* Hover Behavior */
 .signal-card:hover {
   transform: translateX(5px);
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  padding-bottom: 2rem; /* Make room for the expanding text */
 }
 
-.signal-card:hover .signal-description {
-  max-height: 200px;
+.signal-card:hover .signal-hidden-content {
+  max-height: 300px; /* Allow it to open */
   opacity: 1;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
 }
 
-/* --- SPECIFIC CARD STYLES (The Cascade) --- */
-
-/* 1. THE SURGE (Orange, Small Width) */
-.card-surge {
-  width: 30%;
-  border-left: 4px solid #ff9f1c;
-}
-.card-surge:hover {
-  border-color: #ff9f1c;
-  box-shadow: 0 0 15px rgba(255, 159, 28, 0.2);
-}
+/* --- SPECIFIC CARD STYLES --- */
+/* 1. THE SURGE (Orange, Small) */
+.card-surge { width: 35%; border-left: 5px solid #ff9f1c; }
 .card-surge .signal-title { color: #ff9f1c; }
+.card-surge:hover { border-color: #ff9f1c; }
 
-/* 2. PREDICTIVE (Green, Medium Width) */
-.card-predictive {
-  width: 60%;
-  border-left: 4px solid #00ff41;
-}
-.card-predictive:hover {
-  border-color: #00ff41;
-  box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
-}
+/* 2. PREDICTIVE (Green, Medium) */
+.card-predictive { width: 65%; border-left: 5px solid #00ff41; }
 .card-predictive .signal-title { color: #00ff41; }
+.card-predictive:hover { border-color: #00ff41; }
 
-/* 3. ADVANCE (Blue, Full Width) */
-.card-advance {
-  width: 100%;
-  border-left: 4px solid #00a8e8;
-}
-.card-advance:hover {
-  border-color: #00a8e8;
-  box-shadow: 0 0 15px rgba(0, 168, 232, 0.2);
-}
+/* 3. ADVANCE (Blue, Full) */
+.card-advance { width: 100%; border-left: 5px solid #00a8e8; }
 .card-advance .signal-title { color: #00a8e8; }
+.card-advance:hover { border-color: #00a8e8; }
 
-/* Mobile: Force Full Width */
+/* Mobile */
 @media (max-width: 768px) {
-  .card-surge, .card-predictive, .card-advance {
-    width: 100% !important;
-  }
+  .card-surge, .card-predictive, .card-advance { width: 100% !important; }
 }
 
 /* --- UTILITIES --- */
