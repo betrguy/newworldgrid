@@ -374,25 +374,30 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
-/* --- HUB PAGE CLEANUP (The Surge, Predictive News, Advance To) --- */
+/* --- DASHBOARD CLEANUP (The Fix) --- */
 
-/* Target specific dashboards by their URL slug */
-body[data-slug="The-Surge"],
-body[data-slug="Predictive-News"],
-body[data-slug="Advance-To"] {
+/* Target the dashboard pages (Case-Insensitive) */
+body[data-slug="the-surge"], body[data-slug="The-Surge"],
+body[data-slug="predictive-news"], body[data-slug="Predictive-News"],
+body[data-slug="advance-to"], body[data-slug="Advance-To"] {
 
-  /* 1. Hide the "Signal Transmission" Date/Time line */
+  /* 1. Hide "Signal Transmission" Date & Read Time */
   .content-meta {
     display: none !important;
   }
 
-  /* 2. Hide the "0 items under this folder" text and list */
-  .folder-outer {
+  /* 2. Hide the automatic file list ("0 items under this folder") */
+  .page-listing, .folder-outer {
+    display: none !important;
+  }
+
+  /* 3. Hide Breadcrumbs for a cleaner look */
+  .breadcrumb-container {
     display: none !important;
   }
   
-  /* 3. Hide the breadcrumbs (Home > The Surge) if you want a cleaner look */
-  .breadcrumb-container {
+  /* 4. Hide Backlinks footer */
+  .backlinks {
     display: none !important;
   }
 }
