@@ -8,17 +8,21 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "New_World_Grid",
+    pageTitle: "New World Grid",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: false,
+    enablePopovers: false, // We disabled this earlier, keep it false
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "thenewworldgrid.com",
+    
+    // --- SEO CRITICAL UPDATES ---
+    baseUrl: "thenewworldgrid.com", // NO "https://" here, just the domain
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
+    
+    // The "Meta Description" for Google
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
