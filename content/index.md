@@ -15,7 +15,7 @@ layout: folder
     <a href="/The-Surge" class="signal-link"></a>
     <div class="signal-title">⚡ THE SURGE</div>
     <div class="signal-preview">
-      The new energy + tech paradigm. <span>Ready for the next breakthrough?</span>
+      Energy + tech is surging. <span>Ready for the next breakthrough?</span>
     </div>
     <div class="signal-hidden-content">
       We're watching the hiring waves and capital flows surging American industrial power. Use our Energy Acceleration Tracker here at The Surge.
@@ -27,10 +27,10 @@ layout: folder
     <a href="/Predictive-News" class="signal-link"></a>
     <div class="signal-title">🔮 PREDICTIVE NEWS</div>
     <div class="signal-preview">
-      Breaking news. <span>Stop reacting to chaos. Drown out the constant background stress.</span>
+      Look ahead... <span>Stop reacting to chaos. Drown out the constant background stress...</span>
     </div>
     <div class="signal-hidden-content">
-      Get predictive signals for weather, tech, politics, finance... It happens here, soon, with Predictive News.
+      Predictive signals for weather, tech, geopolitics, finance... It happens here, soon, with Predictive News.
       <br><br><strong>[READ INTELLIGENCE]</strong>
     </div>
   </div>
