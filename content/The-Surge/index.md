@@ -1,7 +1,8 @@
 ---
 title: The Surge
+layout: page
+date: 2026-01-26
 ---
-
 ### 📂 ARTICLE LOGS
 * **2026-01-24:** [Report: The Copper Squeeze is Beginning](/The-Surge/copper-squeeze)
 * **2026-01-18:** [Analysis: Why The Grid Can't Handle AI](/The-Surge/grid-ai-bottleneck)
