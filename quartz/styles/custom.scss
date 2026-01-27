@@ -36,29 +36,34 @@
   gap: 0.5rem;
 }
 
-/* The "Teaser" Text (Smart Wrap - 2 Lines Max) */
+/* --- TEXT STYLES (THEME AWARE) --- */
+
+/* The "Teaser" Text (Always Visible) */
 .signal-preview {
-  font-size: 0.95rem;
-  color: var(--lightgray);
-  margin-bottom: 0;
+  /* Use --dark: Becomes White in Dark Mode, Black in Light Mode */
+  color: var(--dark); 
   font-weight: 700;
-  opacity: 1;
+  opacity: 1; /* Maximum visibility */
+  margin-bottom: 0;
   
-  /* Smart Wrapping */
+  /* Sizing: Slightly smaller to fit more words */
+  font-size: 0.9rem;
+  line-height: 1.3;
+  
+  /* Smart Wrapping: Allow 3 lines to prevents early cut-offs */
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;          /* <--- This adds the standard property to fix the warning */
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  line-height: 1.3;
 }
 
 /* The Hook Sentence (Inside the preview) */
 .signal-preview span {
   font-weight: 400;
-  color: #cccccc; /* Bright grey, distinct from the header */
-  opacity: 1; /* Full visibility */
-  margin-left: 0.4rem;
+  /* Use --gray: Becomes Light Grey in Dark Mode, Dark Grey in Light Mode */
+  color: var(--gray); 
+  margin-left: 0.3rem;
 }
 
 /* The "Deep" Text (Hidden until hover) */
@@ -68,27 +73,20 @@
   overflow: hidden;
   transition: all 0.4s ease;
   
-  /* HIGH CONTRAST */
+  /* HIGH CONTRAST BODY TEXT */
+  color: var(--dark); /* Auto-flips for Light/Dark mode */
   font-size: 0.9rem;
-  color: #ffffff; /* Pure White */
   font-weight: 500;
   
-  border-top: 1px solid var(--gray); /* Solid line, not dashed */
+  border-top: 1px solid var(--gray);
   margin-top: 0;
   padding-top: 0;
   line-height: 1.5;
 }
 
-/* Hover Behavior: Make sure text stays visible */
+/* Hover Behavior */
 .signal-card:hover .signal-hidden-content {
-  max-height: 500px; /* Give it plenty of room */
-  opacity: 1;
-  margin-top: 0.8rem;
-  padding-top: 0.8rem;
-}
-
-.signal-card:hover .signal-hidden-content {
-  max-height: 300px; /* Allow it to open */
+  max-height: 500px;
   opacity: 1;
   margin-top: 0.8rem;
   padding-top: 0.8rem;
