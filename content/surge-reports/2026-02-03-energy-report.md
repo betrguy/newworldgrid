@@ -11,17 +11,17 @@ tags: [energy, surge, automated]
 | Company | Open Roles | Delta |
 |---------|------------|-------|
 | Helion Energy | 111 | **-3** |
-| Anduril | 1388 | **+156** |
+| Anduril | 1384 | **+152** |
 | Commonwealth Fusion | 34 | **-7** |
 | Oklo | 59 | **-8** |
 | Kairos Power | 54 | **+5** |
 | Radiant | 66 | **+4** |
-| SpaceX | 1338 | **-104** |
+| SpaceX | 1344 | **-98** |
 
 ### 🏛️ Regulatory / Grid
-No immediate changes. 19 dockets active.
+No immediate changes. 0 active dockets (Scan Skipped)
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-03 19:20
-> **Report ID:** `20260203-19`
+> **Scan Time:** 2026-02-03 20:38
+> **Report ID:** `20260203-20`
 
