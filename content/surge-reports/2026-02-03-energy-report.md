@@ -19,9 +19,9 @@ tags: [energy, surge, automated]
 | SpaceX | 1344 | **-98** |
 
 ### 🏛️ Regulatory / Grid
-No immediate changes. 0 active dockets (Scan Skipped)
+No immediate changes. 19 active dockets.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-03 20:38
+> **Scan Time:** 2026-02-03 20:50
 > **Report ID:** `20260203-20`
 
