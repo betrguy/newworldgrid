@@ -1,4 +1,9 @@
-
+---
+title: "ENERGY SCAN: February 04, 2026"
+date: 2026-02-04
+description: "Automated energy signal report."
+tags: [energy, surge, automated]
+---
 
 ## ⚡ SIGNAL STRENGTH: HIGH 🟠
 
