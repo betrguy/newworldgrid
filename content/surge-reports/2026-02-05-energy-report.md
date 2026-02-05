@@ -1,5 +1,5 @@
 ---
-title: "Anduril +180, Kairos Power +5 | Energy Hiring Tracker - Feb 05, 2026"
+title: "Anduril +183, Kairos Power +5 | Energy Hiring Tracker - Feb 05, 2026"
 date: 2026-02-05
 description: "Tracking hiring velocity at Helion Energy, Anduril, Commonwealth Fusion, Oklo, Kairos Power, Radiant, SpaceX. Daily energy sector acceleration signals."
 tags: [energy, surge, automated]
@@ -11,7 +11,7 @@ tags: [energy, surge, automated]
 | Company | Open Roles | Delta |
 |---------|------------|-------|
 | Helion Energy | 113 | **-1** |
-| Anduril | 1412 | **+180** |
+| Anduril | 1415 | **+183** |
 | Commonwealth Fusion | 35 | **-6** |
 | Oklo | 58 | **-9** |
 | Kairos Power | 54 | **+5** |
@@ -21,7 +21,7 @@ tags: [energy, surge, automated]
 ### 📊 Company Analysis
 **Helion Energy** reduced listings by **1** since Jan 24. Helion Energy has **113** open roles. Helion is developing the world's first fusion power plant, aiming to deliver electricity by 2028 using pulsed non-ignition fusion.
 
-**Anduril** posted **+180** job listings since Jan 24. Anduril has **1412** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
+**Anduril** posted **+183** job listings since Jan 24. Anduril has **1415** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
 
 **Commonwealth Fusion** reduced listings by **6** since Jan 24. Commonwealth Fusion has **35** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
 
@@ -34,6 +34,6 @@ tags: [energy, surge, automated]
 **SpaceX** reduced listings by **77** since Jan 24. SpaceX has **1365** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-05 03:18
-> **Report ID:** `20260205-03`
+> **Scan Time:** 2026-02-05 04:18
+> **Report ID:** `20260205-04`
 
