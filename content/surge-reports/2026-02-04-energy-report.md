@@ -1,7 +1,7 @@
 ---
-title: "ENERGY SCAN: February 04, 2026"
+title: "Anduril +178, Kairos Power +5 | Energy Hiring Tracker - Feb 04, 2026"
 date: 2026-02-04
-description: "Automated energy signal report."
+description: "Tracking hiring velocity at Helion Energy, Anduril, Commonwealth Fusion, Oklo, Kairos Power, Radiant, SpaceX. Daily energy sector acceleration signals."
 tags: [energy, surge, automated]
 ---
 
@@ -16,7 +16,7 @@ tags: [energy, surge, automated]
 | Oklo | 58 | **-9** |
 | Kairos Power | 54 | **+5** |
 | Radiant | 66 | **+4** |
-| SpaceX | 1355 | **-87** |
+| SpaceX | 1356 | **-86** |
 
 ### 📊 Company Analysis
 **Helion Energy** reduced listings by **1** since Jan 24. Helion Energy has **113** open roles. Helion is developing the world's first fusion power plant, aiming to deliver electricity by 2028 using pulsed non-ignition fusion.
@@ -31,9 +31,9 @@ tags: [energy, surge, automated]
 
 **Radiant** posted **+4** job listings since Jan 24. Radiant has **66** open roles. Radiant is developing Kaleidos, a portable nuclear microreactor for remote and off-grid power applications.
 
-**SpaceX** reduced listings by **87** since Jan 24. SpaceX has **1355** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
+**SpaceX** reduced listings by **86** since Jan 24. SpaceX has **1356** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-04 20:51
-> **Report ID:** `20260204-20`
+> **Scan Time:** 2026-02-04 21:02
+> **Report ID:** `20260204-21`
 
