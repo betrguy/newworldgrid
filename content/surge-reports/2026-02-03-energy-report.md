@@ -1,7 +1,7 @@
 ---
-title: "ENERGY SCAN: February 03, 2026"
+title: "Anduril +152, Kairos Power +5 | Energy Hiring Tracker - Feb 03, 2026"
 date: 2026-02-03
-description: "Automated energy signal report."
+description: "Tracking hiring velocity at Helion Energy, Anduril, Commonwealth Fusion, Oklo, Kairos Power, Radiant, SpaceX. Daily energy sector acceleration signals."
 tags: [energy, surge, automated]
 ---
 
