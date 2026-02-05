@@ -29,6 +29,6 @@
 **SpaceX** reduced listings by **77** since Jan 24. SpaceX has **1365** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-05 02:18
-> **Report ID:** `20260205-02`
+> **Scan Time:** 2026-02-05 03:18
+> **Report ID:** `20260205-03`
 
