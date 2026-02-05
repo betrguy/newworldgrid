@@ -37,11 +37,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.RecentNotes({
-      title: "LATEST UPDATES",
-      limit: 5,
-      filter: (f) => !f.slug!.endsWith("index") && !f.slug!.endsWith("404") && !f.frontmatter?.noindex,
-    }),
   ],
 }
 

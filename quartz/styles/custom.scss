@@ -380,3 +380,35 @@ body[data-slug*="advance"] {
     display: none !important;
   }
 }
+
+/* --- SIDEBAR CLEANUP (THE FINAL POLISH) --- */
+
+/* 1. Hide the text "Table of Contents" completely */
+.toc > h3 {
+  display: none !important;
+}
+
+/* 2. Remove the top gap since the title is gone */
+.toc > ul {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 3. Style the links to look like a sleek system menu */
+.toc li a {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.8rem !important;
+  opacity: 0.6;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+/* 4. Highlight the active section (scrolling spy) */
+.toc li a.active {
+  opacity: 1;
+  color: var(--secondary) !important; 
+  font-weight: 700;
+  border-left: 2px solid var(--secondary);
+  padding-left: 8px; /* Indent the active item slightly */
+  margin-left: -10px; /* Pull it back to align visually */
+}
