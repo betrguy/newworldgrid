@@ -7,7 +7,7 @@
 |---------|------------|-------|
 | Helion Energy | 113 | **-1** |
 | Anduril | 1428 | **+196** |
-| Commonwealth Fusion | 0 | -- |
+| Commonwealth Fusion | 39 | **-2** |
 | Oklo | 57 | **-10** |
 | Kairos Power | 54 | **+5** |
 | Radiant | 66 | **+4** |
@@ -18,7 +18,7 @@
 
 **Anduril** posted **+196** job listings since Jan 24. Anduril has **1428** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
 
-**Commonwealth Fusion** maintained steady hiring since Jan 24. Commonwealth Fusion has **0** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
+**Commonwealth Fusion** reduced listings by **2** since Jan 24. Commonwealth Fusion has **39** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
 
 **Oklo** reduced listings by **10** since Jan 24. Oklo has **57** open roles. Oklo is developing Aurora, a compact fast fission reactor designed to recycle nuclear waste into clean energy.
 
@@ -29,6 +29,6 @@
 **SpaceX** reduced listings by **48** since Jan 24. SpaceX has **1394** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-05 20:01
-> **Report ID:** `20260205-20`
+> **Scan Time:** 2026-02-05 21:01
+> **Report ID:** `20260205-21`
 
