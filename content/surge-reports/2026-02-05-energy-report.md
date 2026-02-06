@@ -1,5 +1,5 @@
 ---
-title: "Anduril +197, Kairos Power +5 | Energy Hiring Tracker - Feb 05, 2026"
+title: "Anduril +196, Kairos Power +5 | Energy Hiring Tracker - Feb 05, 2026"
 date: 2026-02-05
 description: "Tracking hiring velocity at Helion Energy, Anduril, Commonwealth Fusion, Oklo, Kairos Power, Radiant, SpaceX. Daily energy sector acceleration signals."
 tags: [energy, surge, automated]
@@ -11,19 +11,19 @@ tags: [energy, surge, automated]
 | Company | Open Roles | Delta |
 |---------|------------|-------|
 | Helion Energy | 113 | **-1** |
-| Anduril | 1429 | **+197** |
-| Commonwealth Fusion | 39 | **-2** |
+| Anduril | 1428 | **+196** |
+| Commonwealth Fusion | 0 | -- |
 | Oklo | 57 | **-10** |
 | Kairos Power | 54 | **+5** |
 | Radiant | 66 | **+4** |
-| SpaceX | 1390 | **-52** |
+| SpaceX | 1394 | **-48** |
 
 ### 📊 Company Analysis
 **Helion Energy** reduced listings by **1** since Jan 24. Helion Energy has **113** open roles. Helion is developing the world's first fusion power plant, aiming to deliver electricity by 2028 using pulsed non-ignition fusion.
 
-**Anduril** posted **+197** job listings since Jan 24. Anduril has **1429** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
+**Anduril** posted **+196** job listings since Jan 24. Anduril has **1428** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
 
-**Commonwealth Fusion** reduced listings by **2** since Jan 24. Commonwealth Fusion has **39** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
+**Commonwealth Fusion** maintained steady hiring since Jan 24. Commonwealth Fusion has **0** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
 
 **Oklo** reduced listings by **10** since Jan 24. Oklo has **57** open roles. Oklo is developing Aurora, a compact fast fission reactor designed to recycle nuclear waste into clean energy.
 
@@ -31,9 +31,9 @@ tags: [energy, surge, automated]
 
 **Radiant** posted **+4** job listings since Jan 24. Radiant has **66** open roles. Radiant is developing Kaleidos, a portable nuclear microreactor for remote and off-grid power applications.
 
-**SpaceX** reduced listings by **52** since Jan 24. SpaceX has **1390** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
+**SpaceX** reduced listings by **48** since Jan 24. SpaceX has **1394** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-05 19:00
-> **Report ID:** `20260205-19`
+> **Scan Time:** 2026-02-05 20:01
+> **Report ID:** `20260205-20`
 
