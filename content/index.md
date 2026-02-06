@@ -36,7 +36,7 @@ layout: folder
   </div>
 
   <div class="signal-card card-advance">
-    <a href="/Shadow GDP" class="signal-link"></a>
+    <a href="/National-Shadow-GDP" class="signal-link"></a>
     <div class="signal-title">📐 NAT. SHADOW GDP</div>
     <div class="signal-preview">
       The NEW economy? <span>The new incentives have arrived - And we can't ignore them.</span>
