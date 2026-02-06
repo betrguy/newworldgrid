@@ -53,6 +53,7 @@ The divergence between **Grid Units** (↘ 1.2%) and **Official CPI** (Flat) sug
     margin: 20px 0;
     position: relative;
     overflow: hidden;
+    min-height: 200px;
   }
   .grid-canvas {
     display: grid;
@@ -83,6 +84,7 @@ The divergence between **Grid Units** (↘ 1.2%) and **Official CPI** (Flat) sug
     background: rgba(0,0,0,0.8);
     padding: 5px 10px;
     border: 1px solid #00ff41;
+    z-index: 10;
   }
   @keyframes scan {
     0% { top: -10%; opacity: 0; }
@@ -97,37 +99,58 @@ The divergence between **Grid Units** (↘ 1.2%) and **Official CPI** (Flat) sug
     background: linear-gradient(to bottom, transparent, #00ff41aa, transparent);
     animation: scan 4s infinite linear;
     pointer-events: none;
+    z-index: 5;
   }
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
+// Define the render function globally so it persists across navs
+window.renderShadowGrid = function() {
     const container = document.getElementById('grid-matrix-container');
-    const payload = JSON.parse(document.getElementById('grid-data-payload').textContent);
+    const dataDiv = document.getElementById('grid-data-payload');
     
-    // Clear loading text
-    container.innerHTML = '<div class="scan-line"></div><div class="grid-canvas"></div><div class="grid-overlay">NODE STATUS: ACTIVE</div>';
-    const canvas = container.querySelector('.grid-canvas');
-    
-    // Create 100 cells (10x10 representation of the grid)
-    // We use the Maker Velocity to determine how many are "Lit"
-    const totalCells = 200;
-    const intensity = Math.min(payload.maker_velocity / 10, 100); // Normalize velocity to %
-    
-    for (let i = 0; i < totalCells; i++) {
-        const cell = document.createElement('div');
-        cell.className = 'grid-cell';
+    // Safety checks: Element must exist, Data must exist, Must not already be loaded
+    if (!container || !dataDiv) return;
+    if (container.getAttribute('data-rendered') === 'true') return;
+
+    try {
+        const payload = JSON.parse(dataDiv.textContent);
         
-        // Randomly activate cells based on intensity probability
-        if (Math.random() * 100 < intensity) {
-            cell.classList.add('active');
-            // Random flicker effect
-            cell.style.animation = `pulse ${1 + Math.random()}s infinite alternate`;
-        } else {
-            cell.classList.add('dormant');
+        // Clear loading text and set up structure
+        container.innerHTML = '<div class="scan-line"></div><div class="grid-canvas"></div><div class="grid-overlay">NODE STATUS: ACTIVE</div>';
+        const canvas = container.querySelector('.grid-canvas');
+        
+        // Create 200 cells (20x10)
+        const totalCells = 200;
+        const intensity = Math.min(payload.maker_velocity / 5, 100); 
+        
+        for (let i = 0; i < totalCells; i++) {
+            const cell = document.createElement('div');
+            cell.className = 'grid-cell';
+            
+            // Randomly activate cells based on intensity probability
+            if (Math.random() * 100 < intensity) {
+                cell.classList.add('active');
+                cell.style.animation = `pulse ${1 + Math.random()}s infinite alternate`;
+            } else {
+                cell.classList.add('dormant');
+            }
+            canvas.appendChild(cell);
         }
-        canvas.appendChild(cell);
+        
+        // Mark as rendered so we don't re-render indefinitely
+        container.setAttribute('data-rendered', 'true');
+        
+    } catch (e) {
+        console.error("Shadow Grid Render Error:", e);
+        container.innerHTML = "<p style='color:red'>GRID DATA CORRUPTED</p>";
     }
-});
+};
+
+// 1. Run immediately (for hard refreshes)
+window.renderShadowGrid();
+
+// 2. Run on Quartz Navigation (The SPA fix)
+document.addEventListener('nav', window.renderShadowGrid);
 </script>
 
