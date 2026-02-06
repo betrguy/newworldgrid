@@ -11,7 +11,7 @@ tags:
 
 # ⚡ State of the Grid: 2026-02-05
 
-The **National Shadow GDP** tracks the *real* economy—measured in Energy, Compute, and Sovereign Production—ignoring the noise of the fiat dollar.
+The **National Shadow GDP** tracks the *real* economy—measured in Energy, Compute, and Sovereign Production—diminishing the noise of the fiat dollar.
 
 ## 🟢 Current Output: **7,282 kGU** <small class="trend">↘ 1.2%</small>
 
@@ -27,7 +27,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 
 * **Target Sector:** 📊 **Corporate Accounting**
 * **Mechanism:** Automated audit chains verifying ledgers without humans.
-* **Status:** <span style="color:red">MARGIN COLLAPSE IMMINENT</span>
+* **Status:** <span style="color:red">Margins squeezing</span>
 
 ---
 
