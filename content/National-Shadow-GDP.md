@@ -15,6 +15,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 
 > **Definition:** **kGU** (Kilo-Grid Unit) measures pure economic horsepower. It combines **Physical Energy** (MWh) and **Sovereign Code** to track utility rather than currency.
 
+<div id="grid-wrapper">
 <style>
 #grid-matrix-container {
   background: #0a0a0a;
@@ -72,6 +73,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
         <div class="grid-cell active" style="animation-duration: 1.96s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.48s;"></div><div class="grid-cell active" style="animation-duration: 1.16s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.05s;"></div><div class="grid-cell active" style="animation-duration: 1.54s;"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.48s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.63s;"></div><div class="grid-cell active" style="animation-duration: 1.19s;"></div><div class="grid-cell active" style="animation-duration: 1.74s;"></div><div class="grid-cell active" style="animation-duration: 1.91s;"></div><div class="grid-cell active" style="animation-duration: 1.75s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.03s;"></div><div class="grid-cell active" style="animation-duration: 1.45s;"></div><div class="grid-cell active" style="animation-duration: 1.03s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.12s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell active" style="animation-duration: 1.94s;"></div><div class="grid-cell active" style="animation-duration: 1.66s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.35s;"></div><div class="grid-cell active" style="animation-duration: 1.63s;"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.0s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.44s;"></div><div class="grid-cell active" style="animation-duration: 1.98s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.82s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.33s;"></div><div class="grid-cell active" style="animation-duration: 1.08s;"></div><div class="grid-cell active" style="animation-duration: 1.66s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.59s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.25s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.41s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.06s;"></div><div class="grid-cell active" style="animation-duration: 1.88s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.85s;"></div><div class="grid-cell active" style="animation-duration: 1.09s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.28s;"></div><div class="grid-cell active" style="animation-duration: 1.55s;"></div><div class="grid-cell active" style="animation-duration: 1.99s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.66s;"></div><div class="grid-cell active" style="animation-duration: 1.92s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.26s;"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.22s;"></div><div class="grid-cell active" style="animation-duration: 1.23s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.43s;"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell active" style="animation-duration: 1.64s;"></div><div class="grid-cell active" style="animation-duration: 1.18s;"></div><div class="grid-cell active" style="animation-duration: 1.75s;"></div><div class="grid-cell active" style="animation-duration: 1.56s;"></div><div class="grid-cell active" style="animation-duration: 1.37s;"></div><div class="grid-cell active" style="animation-duration: 1.47s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell active" style="animation-duration: 1.0s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.44s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.03s;"></div><div class="grid-cell active" style="animation-duration: 1.49s;"></div><div class="grid-cell active" style="animation-duration: 1.76s;"></div><div class="grid-cell active" style="animation-duration: 1.45s;"></div><div class="grid-cell active" style="animation-duration: 1.68s;"></div><div class="grid-cell active" style="animation-duration: 1.49s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.35s;"></div><div class="grid-cell active" style="animation-duration: 1.31s;"></div><div class="grid-cell active" style="animation-duration: 1.46s;"></div><div class="grid-cell active" style="animation-duration: 1.15s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.45s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.96s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.57s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.96s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.78s;"></div><div class="grid-cell active" style="animation-duration: 1.88s;"></div><div class="grid-cell active" style="animation-duration: 1.57s;"></div><div class="grid-cell active" style="animation-duration: 1.09s;"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell active" style="animation-duration: 1.77s;"></div><div class="grid-cell active" style="animation-duration: 1.97s;"></div><div class="grid-cell active" style="animation-duration: 1.55s;"></div><div class="grid-cell active" style="animation-duration: 1.24s;"></div><div class="grid-cell active" style="animation-duration: 1.68s;"></div><div class="grid-cell active" style="animation-duration: 1.07s;"></div><div class="grid-cell active" style="animation-duration: 1.38s;"></div><div class="grid-cell active" style="animation-duration: 1.58s;"></div><div class="grid-cell active" style="animation-duration: 1.97s;"></div><div class="grid-cell active" style="animation-duration: 1.44s;"></div><div class="grid-cell active" style="animation-duration: 1.46s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.21s;"></div><div class="grid-cell active" style="animation-duration: 1.07s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell active" style="animation-duration: 1.46s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.77s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.76s;"></div><div class="grid-cell active" style="animation-duration: 1.54s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.14s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.7s;"></div><div class="grid-cell active" style="animation-duration: 1.32s;"></div><div class="grid-cell active" style="animation-duration: 1.67s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.67s;"></div><div class="grid-cell active" style="animation-duration: 1.87s;"></div><div class="grid-cell active" style="animation-duration: 1.27s;"></div><div class="grid-cell active" style="animation-duration: 1.64s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.18s;"></div><div class="grid-cell active" style="animation-duration: 1.39s;"></div><div class="grid-cell active" style="animation-duration: 1.81s;"></div><div class="grid-cell active" style="animation-duration: 1.93s;"></div><div class="grid-cell active" style="animation-duration: 1.95s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.01s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell active" style="animation-duration: 1.29s;"></div><div class="grid-cell active" style="animation-duration: 1.2s;"></div><div class="grid-cell active" style="animation-duration: 1.85s;"></div><div class="grid-cell active" style="animation-duration: 1.38s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell active" style="animation-duration: 1.05s;"></div><div class="grid-cell active" style="animation-duration: 1.18s;"></div><div class="grid-cell active" style="animation-duration: 1.19s;"></div><div class="grid-cell active" style="animation-duration: 1.9s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.33s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell active" style="animation-duration: 1.05s;"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.53s;"></div><div class="grid-cell active" style="animation-duration: 1.87s;"></div><div class="grid-cell dormant"></div>
     </div>
 </div>
+</div>
 
 ### What is the Shadow GDP?
 
@@ -83,6 +85,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 
 ## Metric Analysis
 
+<div id="stats-wrapper">
 <style>
 .stat-grid {
   display: grid;
@@ -93,67 +96,78 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 .stat-card {
   background: #111;
   border: 1px solid #333;
-  padding: 15px;
+  padding: 20px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.stat-card h3 {
+.stat-title {
   margin: 0 0 10px 0;
-  font-size: 0.8em;
+  font-size: 0.85em;
   text-transform: uppercase;
   color: #888;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 .stat-value {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 .stat-desc {
-  font-size: 0.8em;
-  color: #aaa;
+  font-size: 0.95em;
+  color: #ccc;
   line-height: 1.5;
+  margin-bottom: 12px;
 }
 .stat-equation {
   display: block;
-  margin-top: 6px;
+  font-size: 0.9em;
+  font-weight: 700;
   color: #fff;
-  font-weight: 600;
-  background: #1a1a1a;
-  padding: 4px;
-  border-radius: 4px;
-  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.stat-highlight { color: #00ff41; }
+.stat-highlight { 
+  color: #00ff41; 
+  text-shadow: 0 0 10px rgba(0,255,65,0.3);
+}
 </style>
 <div class="stat-grid">
   <div class="stat-card">
-    <h3>Energy Base</h3>
+    <div class="stat-title">Energy Base</div>
     <div class="stat-value">4,350,000 MWh</div>
     <div class="stat-desc">
       The physical constraint of the digital world.
-      <span class="stat-equation">High Demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span></span>
+    </div>
+    <div class="stat-equation">
+      High Demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span>
     </div>
   </div>
   <div class="stat-card">
-    <h3>Deflation Index</h3>
+    <div class="stat-title">Deflation Index</div>
     <div class="stat-value">1.67x</div>
     <div class="stat-desc">
-      Your Purchasing Power Multiplier.
-      <span class="stat-equation">Cost-to-Serve 📉 = <span class="stat-highlight">Utility 📈</span></span>
+      As costs collapse, your purchasing power rises.
+    </div>
+    <div class="stat-equation">
+      Service Cost 📉 = <span class="stat-highlight">Your Surplus 📈</span>
     </div>
   </div>
   <div class="stat-card">
-    <h3>Maker Velocity</h3>
+    <div class="stat-title">Maker Velocity</div>
     <div class="stat-value">285 Nodes</div>
     <div class="stat-desc">
       The rise of the Sovereign Individual.
-      <span class="stat-equation">Rent-Seeking 🚫 = <span class="stat-highlight">Ownership ✅</span></span>
+    </div>
+    <div class="stat-equation">
+      Rent-Seeking 🚫 = <span class="stat-highlight">Ownership ✅</span>
     </div>
   </div>
+</div>
 </div>
 
 ---
