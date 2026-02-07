@@ -75,7 +75,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 
 > The Old Economy measures how much money changes hands (GDP). The Shadow Economy measures how much **utility** is created. 
 > 
-> When AI writes a contract for $0.01 that used to cost $500, official GDP goes *down*, but your life gets *better*. We track that missing value by monitoring the "Inputs" of reality (Energy & Compute) rather than the "Outputs" of banking (Dollars).
+> When AI writes a contract for 0.01 that used to cost 500, official GDP goes *down*, but your life gets *better*. We track that missing value by monitoring the "Inputs" of reality (Energy & Compute) rather than the "Outputs" of banking (Dollars).
 
 ---
 
@@ -132,7 +132,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
     <h3>Energy Base</h3>
     <div class="stat-value">4,350,000 MWh</div>
     <div class="stat-desc">
-      The physical constraint of the digital god.
+      The physical constraint of the digital world.
       <span class="stat-equation">High Demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span></span>
     </div>
   </div>
