@@ -13,6 +13,8 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 
 ## 🟢 Current Output: **7,279 kGU** <small class="trend">↗ 5.1%</small>
 
+> **Definition:** **kGU** (Kilo-Grid Unit) measures pure economic horsepower. It combines **Physical Energy** (MWh) and **Sovereign Code** to track utility rather than currency.
+
 <style>
 #grid-matrix-container {
   background: #0a0a0a;
