@@ -71,7 +71,8 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
     </div>
 </div>
 
-### What is the Shadow Grid?
+### What is the Shadow GDP?
+
 > The Old Economy measures how much money changes hands (GDP). The Shadow Economy measures how much **utility** is created. 
 > 
 > When AI writes a contract for $0.01 that used to cost $500, official GDP goes *down*, but your life gets *better*. We track that missing value by monitoring the "Inputs" of reality (Energy & Compute) rather than the "Outputs" of banking (Dollars).
@@ -80,58 +81,56 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 
 ## Metric Analysis
 
-    <style>
-      .stat-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 15px;
-        margin: 20px 0;
-      }
-      .stat-card {
-        background: #111;
-        border: 1px solid #333;
-        padding: 15px;
-        border-radius: 6px;
-      }
-      .stat-card h3 {
-        margin: 0 0 10px 0;
-        font-size: 0.9em;
-        text-transform: uppercase;
-        color: #888;
-        letter-spacing: 1px;
-      }
-      .stat-value {
-        font-size: 1.4em;
-        font-weight: bold;
-        color: #fff;
-        margin-bottom: 5px;
-      }
-      .stat-desc {
-        font-size: 0.85em;
-        color: #aaa;
-        line-height: 1.4;
-      }
-      .stat-highlight { color: #00ff41; }
-    </style>
-    
-    <div class="stat-grid">
-      <div class="stat-card">
-        <h3>Energy Base</h3>
-        <div class="stat-value">4,350,000 MWh</div>
-        <div class="stat-desc">The physical constraint of the digital god. High energy demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span>.</div>
-      </div>
-      <div class="stat-card">
-        <h3>Deflation Index</h3>
-        <div class="stat-value">1.67x</div>
-        <div class="stat-desc">Your Purchasing Power Multiplier. As corporate margins collapse to zero, the utility of every dollar you spend <span class="stat-highlight">Increases</span>.</div>
-      </div>
-      <div class="stat-card">
-        <h3>Maker Velocity</h3>
-        <div class="stat-value">285 Nodes</div>
-        <div class="stat-desc">The rise of the Sovereign Individual. New private repos and local models signaling a shift away from <span class="stat-highlight">Rent-Seeking</span>.</div>
-      </div>
-    </div>
-    
+<style>
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+.stat-card {
+  background: #111;
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 6px;
+}
+.stat-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+.stat-value {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.stat-desc {
+  font-size: 0.8em;
+  color: #aaa;
+  line-height: 1.4;
+}
+.stat-highlight { color: #00ff41; }
+</style>
+<div class="stat-grid">
+  <div class="stat-card">
+    <h3>Energy Base</h3>
+    <div class="stat-value">4,350,000 MWh</div>
+    <div class="stat-desc">The physical constraint. High demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span>.</div>
+  </div>
+  <div class="stat-card">
+    <h3>Deflation Index</h3>
+    <div class="stat-value">1.67x</div>
+    <div class="stat-desc">Your Purchasing Power. As corporate margins die, your dollar's utility <span class="stat-highlight">Increases</span>.</div>
+  </div>
+  <div class="stat-card">
+    <h3>Maker Velocity</h3>
+    <div class="stat-value">285 Nodes</div>
+    <div class="stat-desc">The rise of the Sovereign Individual. A shift away from <span class="stat-highlight">Rent-Seeking</span>.</div>
+  </div>
+</div>
 
 ---
 
