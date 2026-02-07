@@ -117,13 +117,18 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 }
 .stat-equation {
   display: block;
-  margin-top: 6px;
+  margin-top: 10px;
   color: #fff;
   font-weight: 600;
   background: #1a1a1a;
-  padding: 4px;
+  padding: 8px;
   border-radius: 4px;
   text-align: center;
+  font-size: 0.85em;
+  white-space: nowrap; /* Force one line */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #333;
 }
 .stat-highlight { color: #00ff41; }
 </style>
@@ -132,24 +137,24 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
     <h3>Energy Base</h3>
     <div class="stat-value">4,350,000 MWh</div>
     <div class="stat-desc">
-      The physical constraint of the digital god.
-      <span class="stat-equation">High Demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span></span>
+      The physical constraint of the digital god. High demand proves the activity exists, even if the dollar value is hidden.
+      <span class="stat-equation">Watts Spent ⚡ = Value Created 💎</span>
     </div>
   </div>
   <div class="stat-card">
     <h3>Deflation Index</h3>
     <div class="stat-value">1.67x</div>
     <div class="stat-desc">
-      Your Purchasing Power Multiplier.
-      <span class="stat-equation">Cost-to-Serve 📉 = <span class="stat-highlight">Utility 📈</span></span>
+      Your Purchasing Power Multiplier. Technology drives the cost of "doing things" to zero, making you richer.
+      <span class="stat-equation">Service Cost 📉 = Your Surplus 📈</span>
     </div>
   </div>
   <div class="stat-card">
     <h3>Maker Velocity</h3>
     <div class="stat-value">245 Nodes</div>
     <div class="stat-desc">
-      The rise of the Sovereign Individual.
-      <span class="stat-equation">Rent-Seeking 🚫 = <span class="stat-highlight">Ownership ✅</span></span>
+      The rise of the Sovereign Individual. We track the shift from corporate reliance to personal ownership.
+      <span class="stat-equation">Rent-Seeking 🚫 = Ownership ✅</span>
     </div>
   </div>
 </div>
