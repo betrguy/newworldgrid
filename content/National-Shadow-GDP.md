@@ -91,7 +91,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 .stat-card {
   background: #111;
   border: 1px solid #333;
-  padding: 15px;
+  padding: 20px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -99,62 +99,66 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 }
 .stat-card h3 {
   margin: 0 0 10px 0;
-  font-size: 0.8em;
+  font-size: 0.85em;
   text-transform: uppercase;
   color: #888;
   letter-spacing: 1px;
 }
 .stat-value {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 .stat-desc {
-  font-size: 0.8em;
-  color: #aaa;
+  font-size: 0.95em;
+  color: #ccc;
   line-height: 1.5;
+  margin-bottom: 12px;
 }
 .stat-equation {
   display: block;
-  margin-top: 10px;
+  font-size: 0.9em;
+  font-weight: 700;
   color: #fff;
-  font-weight: 600;
-  background: #1a1a1a;
-  padding: 8px;
-  border-radius: 4px;
-  text-align: center;
-  font-size: 0.85em;
-  white-space: nowrap; /* Force one line */
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border: 1px solid #333;
 }
-.stat-highlight { color: #00ff41; }
+.stat-highlight { 
+  color: #00ff41; 
+  text-shadow: 0 0 10px rgba(0,255,65,0.3);
+}
 </style>
 <div class="stat-grid">
   <div class="stat-card">
     <h3>Energy Base</h3>
     <div class="stat-value">4,350,000 MWh</div>
     <div class="stat-desc">
-      The physical constraint of the digital god. High demand proves the activity exists, even if the dollar value is hidden.
-      <span class="stat-equation">Watts Spent ⚡ = Value Created 💎</span>
+      The physical constraint of the digital god.
+    </div>
+    <div class="stat-equation">
+      High Demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span>
     </div>
   </div>
   <div class="stat-card">
     <h3>Deflation Index</h3>
     <div class="stat-value">1.67x</div>
     <div class="stat-desc">
-      Your Purchasing Power Multiplier. Technology drives the cost of "doing things" to zero, making you richer.
-      <span class="stat-equation">Service Cost 📉 = Your Surplus 📈</span>
+      As costs collapse, your purchasing power rises.
+    </div>
+    <div class="stat-equation">
+      Service Cost 📉 = <span class="stat-highlight">Your Surplus 📈</span>
     </div>
   </div>
   <div class="stat-card">
     <h3>Maker Velocity</h3>
-    <div class="stat-value">245 Nodes</div>
+    <div class="stat-value">246 Nodes</div>
     <div class="stat-desc">
-      The rise of the Sovereign Individual. We track the shift from corporate reliance to personal ownership.
-      <span class="stat-equation">Rent-Seeking 🚫 = Ownership ✅</span>
+      The rise of the Sovereign Individual.
+    </div>
+    <div class="stat-equation">
+      Rent-Seeking 🚫 = <span class="stat-highlight">Ownership ✅</span>
     </div>
   </div>
 </div>
