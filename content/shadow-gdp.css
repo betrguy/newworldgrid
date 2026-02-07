@@ -1,0 +1,101 @@
+
+/* --- SHADOW GRID STYLES --- */
+#grid-matrix-container {
+  background: #0a0a0a;
+  border: 1px solid #333;
+  padding: 0;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+}
+.grid-canvas {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 2px;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.grid-cell {
+  aspect-ratio: 1;
+  background: #1a1a1a;
+}
+.grid-cell.active {
+  background: #00ff41;
+  box-shadow: 0 0 5px #00ff41;
+  animation: pulse infinite alternate;
+}
+.grid-cell.dormant {
+  background: #222;
+}
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+@keyframes scan {
+  0% { top: -10%; opacity: 0; }
+  50% { opacity: 1; }
+  100% { top: 110%; opacity: 0; }
+}
+.scan-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to bottom, transparent, #00ff41aa, transparent);
+  animation: scan 4s infinite linear;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* --- STAT CARDS CSS --- */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+.stat-card {
+  background: #111;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.stat-title {
+  margin: 0 0 10px 0;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.stat-value {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.stat-desc {
+  font-size: 0.95em;
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.stat-equation {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stat-highlight { 
+  color: #00ff41; 
+  text-shadow: 0 0 10px rgba(0,255,65,0.3);
+}
