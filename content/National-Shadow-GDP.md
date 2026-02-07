@@ -91,7 +91,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 .stat-card {
   background: #111;
   border: 1px solid #333;
-  padding: 20px;
+  padding: 15px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -99,36 +99,33 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 }
 .stat-card h3 {
   margin: 0 0 10px 0;
-  font-size: 0.85em;
+  font-size: 0.8em;
   text-transform: uppercase;
   color: #888;
   letter-spacing: 1px;
 }
 .stat-value {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 .stat-desc {
-  font-size: 0.95em;
-  color: #ccc;
+  font-size: 0.8em;
+  color: #aaa;
   line-height: 1.5;
-  margin-bottom: 12px;
 }
 .stat-equation {
   display: block;
-  font-size: 0.9em;
-  font-weight: 700;
+  margin-top: 6px;
   color: #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-weight: 600;
+  background: #1a1a1a;
+  padding: 4px;
+  border-radius: 4px;
+  text-align: center;
 }
-.stat-highlight { 
-  color: #00ff41; 
-  text-shadow: 0 0 10px rgba(0,255,65,0.3);
-}
+.stat-highlight { color: #00ff41; }
 </style>
 <div class="stat-grid">
   <div class="stat-card">
@@ -136,19 +133,15 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
     <div class="stat-value">4,350,000 MWh</div>
     <div class="stat-desc">
       The physical constraint of the digital god.
-    </div>
-    <div class="stat-equation">
-      High Demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span>
+      <span class="stat-equation">High Demand + Flat GDP = <span class="stat-highlight">Efficiency Explosion</span></span>
     </div>
   </div>
   <div class="stat-card">
     <h3>Deflation Index</h3>
     <div class="stat-value">1.67x</div>
     <div class="stat-desc">
-      As costs collapse, your purchasing power rises.
-    </div>
-    <div class="stat-equation">
-      Service Cost 📉 = <span class="stat-highlight">Your Surplus 📈</span>
+      Your Purchasing Power Multiplier.
+      <span class="stat-equation">Cost-to-Serve 📉 = <span class="stat-highlight">Utility 📈</span></span>
     </div>
   </div>
   <div class="stat-card">
@@ -156,9 +149,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
     <div class="stat-value">246 Nodes</div>
     <div class="stat-desc">
       The rise of the Sovereign Individual.
-    </div>
-    <div class="stat-equation">
-      Rent-Seeking 🚫 = <span class="stat-highlight">Ownership ✅</span>
+      <span class="stat-equation">Rent-Seeking 🚫 = <span class="stat-highlight">Ownership ✅</span></span>
     </div>
   </div>
 </div>
