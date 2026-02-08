@@ -1,4 +1,9 @@
-
+---
+title: "Anduril +211, Radiant +6 | Energy Hiring Tracker - Feb 07, 2026"
+date: 2026-02-07
+description: "Tracking hiring velocity at Helion Energy, Anduril, Commonwealth Fusion, Oklo, Kairos Power, Radiant, SpaceX. Daily energy sector acceleration signals."
+tags: [energy, surge, automated]
+---
 
 ## ⚡ SIGNAL STRENGTH: HIGH 🟠
 
