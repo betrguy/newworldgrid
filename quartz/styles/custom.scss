@@ -381,6 +381,103 @@ body[data-slug*="advance"] {
   }
 }
 
+/* ==========================================================================
+   EXPLORER - EDITORIAL "SIGNALS" MENU
+   Clean grouped links, no file-browser feel
+   ========================================================================== */
+
+/* Title: "Signals" */
+.explorer .desktop-explorer h2 {
+  font-family: "Libre Baskerville", serif !important;
+  font-size: 0.85rem !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gray);
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.6rem;
+  margin: 0;
+}
+
+/* Hide the collapse chevron on the title bar */
+.explorer .desktop-explorer .fold {
+  display: none !important;
+}
+
+/* Hide ALL folder expand/collapse chevrons */
+.explorer .folder-icon {
+  display: none !important;
+}
+
+/* Hide nested sub-items (daily reports etc.) */
+.explorer .folder-outer {
+  display: none !important;
+}
+
+/* The link list container */
+.explorer .explorer-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* All nav items — both file links and folder links */
+.explorer .explorer-ul li > a,
+.explorer .folder-container div > a,
+.explorer .folder-container div > button {
+  font-family: "Libre Baskerville", serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  color: var(--darkgray) !important;
+  opacity: 1 !important;
+  text-decoration: none;
+  padding: 0.55rem 0;
+  display: block;
+  border-bottom: 1px solid var(--lightgray);
+  transition: color 0.2s ease, padding-left 0.2s ease;
+  line-height: 1.4;
+  letter-spacing: 0;
+  background: none;
+  border-left: 3px solid transparent;
+  padding-left: 0.6rem;
+}
+
+/* Hover state */
+.explorer .explorer-ul li > a:hover,
+.explorer .folder-container div > a:hover,
+.explorer .folder-container div > button:hover {
+  color: var(--secondary) !important;
+  border-left-color: var(--secondary);
+}
+
+/* Active page */
+.explorer .explorer-ul li > a.active,
+.explorer .folder-container.active div > a,
+.explorer .folder-container.active div > button {
+  color: var(--secondary) !important;
+  font-weight: 600 !important;
+  border-left-color: var(--secondary);
+}
+
+/* Folder container — remove default layout spacing */
+.explorer .folder-container {
+  display: block;
+}
+
+/* Remove nested list indentation since we're hiding children */
+.explorer .explorer-ul ul {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+/* Remove bullet styling from list items */
+.explorer .explorer-ul li {
+  list-style: none;
+}
+
 /* --- SIDEBAR CLEANUP (THE FINAL POLISH) --- */
 
 /* 1. Hide the text "Table of Contents" completely */

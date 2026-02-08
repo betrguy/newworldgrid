@@ -29,10 +29,35 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    // ADDED: This ensures the sidebar tree appears on articles too
     Component.Explorer({
-      title: "New World Grid",
-      folderDefaultState: "open",
+      title: "Signals",
+      folderDefaultState: "collapsed",
+      folderClickBehavior: "link",
+      useSavedState: false,
+      filterFn: (node) => {
+        if (node.slugSegment === "tags") return false
+        if (/^\d{4}-\d{2}-\d{2}/.test(node.slugSegment)) return false
+        return true
+      },
+      mapFn: (node) => {
+        const names: Record<string, string> = {
+          "The-Surge": "The Surge",
+          "National-Shadow-GDP": "Nat. Shadow GDP",
+          "Predictive-News": "Predictive News",
+        }
+        if (names[node.displayName]) {
+          node.displayName = names[node.displayName]
+        }
+      },
+      sortFn: (a, b) => {
+        const order = ["The Surge", "Predictive News", "Nat. Shadow GDP"]
+        const ai = order.indexOf(a.displayName)
+        const bi = order.indexOf(b.displayName)
+        if (ai !== -1 && bi !== -1) return ai - bi
+        if (ai !== -1) return -1
+        if (bi !== -1) return 1
+        return a.displayName.localeCompare(b.displayName)
+      },
     }),
   ],
   right: [
@@ -55,8 +80,34 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      title: "New World Grid", // Custom Title
-      folderDefaultState: "open", // Keeps the tree open so users see content
+      title: "Signals",
+      folderDefaultState: "collapsed",
+      folderClickBehavior: "link",
+      useSavedState: false,
+      filterFn: (node) => {
+        if (node.slugSegment === "tags") return false
+        if (/^\d{4}-\d{2}-\d{2}/.test(node.slugSegment)) return false
+        return true
+      },
+      mapFn: (node) => {
+        const names: Record<string, string> = {
+          "The-Surge": "The Surge",
+          "National-Shadow-GDP": "Nat. Shadow GDP",
+          "Predictive-News": "Predictive News",
+        }
+        if (names[node.displayName]) {
+          node.displayName = names[node.displayName]
+        }
+      },
+      sortFn: (a, b) => {
+        const order = ["The Surge", "Predictive News", "Nat. Shadow GDP"]
+        const ai = order.indexOf(a.displayName)
+        const bi = order.indexOf(b.displayName)
+        if (ai !== -1 && bi !== -1) return ai - bi
+        if (ai !== -1) return -1
+        if (bi !== -1) return 1
+        return a.displayName.localeCompare(b.displayName)
+      },
     }),
   ],
   right: [],
