@@ -11,65 +11,14 @@ tags:
 
 The **National Shadow GDP** tracks the *real* economy—measured in Energy, Compute, and Sovereign Production—quieting the noise of the fiat dollar.
 
-## 🟢 Current Output: **7,284 kGU** <small class="trend">↗ 5.1%</small>
+<div class="kgu-header">🟢 Current Output: 7,284 kGU <small class="trend">↗ 5.1%</small></div>
 
 > **Definition:** **kGU** (Kilo-Grid Unit) measures pure economic horsepower. It combines **Physical Energy** (MWh) and **Sovereign Code** to track utility rather than currency.
 
-<style>
-#grid-matrix-container {
-  background: #0a0a0a;
-  border: 1px solid #333;
-  padding: 0;
-  border-radius: 8px;
-  margin: 20px 0;
-  position: relative;
-  overflow: hidden;
-  min-height: 200px;
-}
-.grid-canvas {
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  gap: 2px;
-  opacity: 0.8;
-  width: 100%;
-  height: 100%;
-}
-.grid-cell {
-  aspect-ratio: 1;
-  background: #1a1a1a;
-}
-.grid-cell.active {
-  background: #00ff41;
-  box-shadow: 0 0 5px #00ff41;
-  animation: pulse infinite alternate;
-}
-.grid-cell.dormant {
-  background: #222;
-}
-@keyframes pulse {
-  0% { opacity: 0.4; }
-  100% { opacity: 1; }
-}
-@keyframes scan {
-  0% { top: -10%; opacity: 0; }
-  50% { opacity: 1; }
-  100% { top: 110%; opacity: 0; }
-}
-.scan-line {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 20px;
-  background: linear-gradient(to bottom, transparent, #00ff41aa, transparent);
-  animation: scan 4s infinite linear;
-  pointer-events: none;
-  z-index: 5;
-}
-</style>
 <div id="grid-matrix-container">
     <div class="scan-line"></div>
     <div class="grid-canvas">
-        <div class="grid-cell active" style="animation-duration: 1.96s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.48s;"></div><div class="grid-cell active" style="animation-duration: 1.16s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.05s;"></div><div class="grid-cell active" style="animation-duration: 1.54s;"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.48s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.63s;"></div><div class="grid-cell active" style="animation-duration: 1.19s;"></div><div class="grid-cell active" style="animation-duration: 1.74s;"></div><div class="grid-cell active" style="animation-duration: 1.91s;"></div><div class="grid-cell active" style="animation-duration: 1.75s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.03s;"></div><div class="grid-cell active" style="animation-duration: 1.45s;"></div><div class="grid-cell active" style="animation-duration: 1.03s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.12s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell active" style="animation-duration: 1.94s;"></div><div class="grid-cell active" style="animation-duration: 1.66s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.35s;"></div><div class="grid-cell active" style="animation-duration: 1.63s;"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.0s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.44s;"></div><div class="grid-cell active" style="animation-duration: 1.98s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.82s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.33s;"></div><div class="grid-cell active" style="animation-duration: 1.08s;"></div><div class="grid-cell active" style="animation-duration: 1.66s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.59s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.25s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.41s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.06s;"></div><div class="grid-cell active" style="animation-duration: 1.88s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.85s;"></div><div class="grid-cell active" style="animation-duration: 1.09s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.28s;"></div><div class="grid-cell active" style="animation-duration: 1.55s;"></div><div class="grid-cell active" style="animation-duration: 1.99s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.66s;"></div><div class="grid-cell active" style="animation-duration: 1.92s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.26s;"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.22s;"></div><div class="grid-cell active" style="animation-duration: 1.23s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.43s;"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell active" style="animation-duration: 1.64s;"></div><div class="grid-cell active" style="animation-duration: 1.18s;"></div><div class="grid-cell active" style="animation-duration: 1.75s;"></div><div class="grid-cell active" style="animation-duration: 1.56s;"></div><div class="grid-cell active" style="animation-duration: 1.37s;"></div><div class="grid-cell active" style="animation-duration: 1.47s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell active" style="animation-duration: 1.0s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.44s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.03s;"></div><div class="grid-cell active" style="animation-duration: 1.49s;"></div><div class="grid-cell active" style="animation-duration: 1.76s;"></div><div class="grid-cell active" style="animation-duration: 1.45s;"></div><div class="grid-cell active" style="animation-duration: 1.68s;"></div><div class="grid-cell active" style="animation-duration: 1.49s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.35s;"></div><div class="grid-cell active" style="animation-duration: 1.31s;"></div><div class="grid-cell active" style="animation-duration: 1.46s;"></div><div class="grid-cell active" style="animation-duration: 1.15s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.45s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.96s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.57s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.96s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.78s;"></div><div class="grid-cell active" style="animation-duration: 1.88s;"></div><div class="grid-cell active" style="animation-duration: 1.57s;"></div><div class="grid-cell active" style="animation-duration: 1.09s;"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell active" style="animation-duration: 1.77s;"></div><div class="grid-cell active" style="animation-duration: 1.97s;"></div><div class="grid-cell active" style="animation-duration: 1.55s;"></div><div class="grid-cell active" style="animation-duration: 1.24s;"></div><div class="grid-cell active" style="animation-duration: 1.68s;"></div><div class="grid-cell active" style="animation-duration: 1.07s;"></div><div class="grid-cell active" style="animation-duration: 1.38s;"></div><div class="grid-cell active" style="animation-duration: 1.58s;"></div><div class="grid-cell active" style="animation-duration: 1.97s;"></div><div class="grid-cell active" style="animation-duration: 1.44s;"></div><div class="grid-cell active" style="animation-duration: 1.46s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.21s;"></div><div class="grid-cell active" style="animation-duration: 1.07s;"></div><div class="grid-cell active" style="animation-duration: 1.3s;"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell active" style="animation-duration: 1.46s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.77s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.76s;"></div><div class="grid-cell active" style="animation-duration: 1.54s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.14s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.7s;"></div><div class="grid-cell active" style="animation-duration: 1.32s;"></div><div class="grid-cell active" style="animation-duration: 1.67s;"></div><div class="grid-cell active" style="animation-duration: 1.65s;"></div><div class="grid-cell active" style="animation-duration: 1.67s;"></div><div class="grid-cell active" style="animation-duration: 1.87s;"></div><div class="grid-cell active" style="animation-duration: 1.27s;"></div><div class="grid-cell active" style="animation-duration: 1.64s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.18s;"></div><div class="grid-cell active" style="animation-duration: 1.39s;"></div><div class="grid-cell active" style="animation-duration: 1.81s;"></div><div class="grid-cell active" style="animation-duration: 1.93s;"></div><div class="grid-cell active" style="animation-duration: 1.95s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.01s;"></div><div class="grid-cell active" style="animation-duration: 1.13s;"></div><div class="grid-cell active" style="animation-duration: 1.6s;"></div><div class="grid-cell active" style="animation-duration: 1.29s;"></div><div class="grid-cell active" style="animation-duration: 1.2s;"></div><div class="grid-cell active" style="animation-duration: 1.85s;"></div><div class="grid-cell active" style="animation-duration: 1.38s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell active" style="animation-duration: 1.05s;"></div><div class="grid-cell active" style="animation-duration: 1.18s;"></div><div class="grid-cell active" style="animation-duration: 1.19s;"></div><div class="grid-cell active" style="animation-duration: 1.9s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.33s;"></div><div class="grid-cell active" style="animation-duration: 1.42s;"></div><div class="grid-cell active" style="animation-duration: 1.05s;"></div><div class="grid-cell active" style="animation-duration: 1.36s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="animation-duration: 1.53s;"></div><div class="grid-cell active" style="animation-duration: 1.87s;"></div><div class="grid-cell dormant"></div>
+        <div class="grid-cell active" style="--anim-dur: 1.96s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.48s;"></div><div class="grid-cell active" style="--anim-dur: 1.16s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.05s;"></div><div class="grid-cell active" style="--anim-dur: 1.54s;"></div><div class="grid-cell active" style="--anim-dur: 1.6s;"></div><div class="grid-cell active" style="--anim-dur: 1.3s;"></div><div class="grid-cell active" style="--anim-dur: 1.48s;"></div><div class="grid-cell active" style="--anim-dur: 1.65s;"></div><div class="grid-cell active" style="--anim-dur: 1.63s;"></div><div class="grid-cell active" style="--anim-dur: 1.19s;"></div><div class="grid-cell active" style="--anim-dur: 1.74s;"></div><div class="grid-cell active" style="--anim-dur: 1.91s;"></div><div class="grid-cell active" style="--anim-dur: 1.75s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.03s;"></div><div class="grid-cell active" style="--anim-dur: 1.45s;"></div><div class="grid-cell active" style="--anim-dur: 1.03s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.12s;"></div><div class="grid-cell active" style="--anim-dur: 1.42s;"></div><div class="grid-cell active" style="--anim-dur: 1.94s;"></div><div class="grid-cell active" style="--anim-dur: 1.66s;"></div><div class="grid-cell active" style="--anim-dur: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.35s;"></div><div class="grid-cell active" style="--anim-dur: 1.63s;"></div><div class="grid-cell active" style="--anim-dur: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.0s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.44s;"></div><div class="grid-cell active" style="--anim-dur: 1.98s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.82s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.33s;"></div><div class="grid-cell active" style="--anim-dur: 1.08s;"></div><div class="grid-cell active" style="--anim-dur: 1.66s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.59s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.6s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.25s;"></div><div class="grid-cell active" style="--anim-dur: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.36s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.41s;"></div><div class="grid-cell active" style="--anim-dur: 1.42s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.06s;"></div><div class="grid-cell active" style="--anim-dur: 1.88s;"></div><div class="grid-cell active" style="--anim-dur: 1.3s;"></div><div class="grid-cell active" style="--anim-dur: 1.85s;"></div><div class="grid-cell active" style="--anim-dur: 1.09s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.28s;"></div><div class="grid-cell active" style="--anim-dur: 1.55s;"></div><div class="grid-cell active" style="--anim-dur: 1.99s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.66s;"></div><div class="grid-cell active" style="--anim-dur: 1.92s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.26s;"></div><div class="grid-cell active" style="--anim-dur: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.22s;"></div><div class="grid-cell active" style="--anim-dur: 1.23s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.43s;"></div><div class="grid-cell active" style="--anim-dur: 1.36s;"></div><div class="grid-cell active" style="--anim-dur: 1.64s;"></div><div class="grid-cell active" style="--anim-dur: 1.18s;"></div><div class="grid-cell active" style="--anim-dur: 1.75s;"></div><div class="grid-cell active" style="--anim-dur: 1.56s;"></div><div class="grid-cell active" style="--anim-dur: 1.37s;"></div><div class="grid-cell active" style="--anim-dur: 1.47s;"></div><div class="grid-cell active" style="--anim-dur: 1.13s;"></div><div class="grid-cell active" style="--anim-dur: 1.0s;"></div><div class="grid-cell active" style="--anim-dur: 1.65s;"></div><div class="grid-cell active" style="--anim-dur: 1.44s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.03s;"></div><div class="grid-cell active" style="--anim-dur: 1.49s;"></div><div class="grid-cell active" style="--anim-dur: 1.76s;"></div><div class="grid-cell active" style="--anim-dur: 1.45s;"></div><div class="grid-cell active" style="--anim-dur: 1.68s;"></div><div class="grid-cell active" style="--anim-dur: 1.49s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.35s;"></div><div class="grid-cell active" style="--anim-dur: 1.31s;"></div><div class="grid-cell active" style="--anim-dur: 1.46s;"></div><div class="grid-cell active" style="--anim-dur: 1.15s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.51s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.45s;"></div><div class="grid-cell active" style="--anim-dur: 1.65s;"></div><div class="grid-cell active" style="--anim-dur: 1.96s;"></div><div class="grid-cell active" style="--anim-dur: 1.3s;"></div><div class="grid-cell active" style="--anim-dur: 1.57s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.96s;"></div><div class="grid-cell active" style="--anim-dur: 1.65s;"></div><div class="grid-cell active" style="--anim-dur: 1.78s;"></div><div class="grid-cell active" style="--anim-dur: 1.88s;"></div><div class="grid-cell active" style="--anim-dur: 1.57s;"></div><div class="grid-cell active" style="--anim-dur: 1.09s;"></div><div class="grid-cell active" style="--anim-dur: 1.36s;"></div><div class="grid-cell active" style="--anim-dur: 1.77s;"></div><div class="grid-cell active" style="--anim-dur: 1.97s;"></div><div class="grid-cell active" style="--anim-dur: 1.55s;"></div><div class="grid-cell active" style="--anim-dur: 1.24s;"></div><div class="grid-cell active" style="--anim-dur: 1.68s;"></div><div class="grid-cell active" style="--anim-dur: 1.07s;"></div><div class="grid-cell active" style="--anim-dur: 1.38s;"></div><div class="grid-cell active" style="--anim-dur: 1.58s;"></div><div class="grid-cell active" style="--anim-dur: 1.97s;"></div><div class="grid-cell active" style="--anim-dur: 1.44s;"></div><div class="grid-cell active" style="--anim-dur: 1.46s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.21s;"></div><div class="grid-cell active" style="--anim-dur: 1.07s;"></div><div class="grid-cell active" style="--anim-dur: 1.3s;"></div><div class="grid-cell active" style="--anim-dur: 1.6s;"></div><div class="grid-cell active" style="--anim-dur: 1.46s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.77s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.76s;"></div><div class="grid-cell active" style="--anim-dur: 1.54s;"></div><div class="grid-cell active" style="--anim-dur: 1.65s;"></div><div class="grid-cell active" style="--anim-dur: 1.14s;"></div><div class="grid-cell active" style="--anim-dur: 1.13s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.7s;"></div><div class="grid-cell active" style="--anim-dur: 1.32s;"></div><div class="grid-cell active" style="--anim-dur: 1.67s;"></div><div class="grid-cell active" style="--anim-dur: 1.65s;"></div><div class="grid-cell active" style="--anim-dur: 1.67s;"></div><div class="grid-cell active" style="--anim-dur: 1.87s;"></div><div class="grid-cell active" style="--anim-dur: 1.27s;"></div><div class="grid-cell active" style="--anim-dur: 1.64s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.18s;"></div><div class="grid-cell active" style="--anim-dur: 1.39s;"></div><div class="grid-cell active" style="--anim-dur: 1.81s;"></div><div class="grid-cell active" style="--anim-dur: 1.93s;"></div><div class="grid-cell active" style="--anim-dur: 1.95s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.01s;"></div><div class="grid-cell active" style="--anim-dur: 1.13s;"></div><div class="grid-cell active" style="--anim-dur: 1.6s;"></div><div class="grid-cell active" style="--anim-dur: 1.29s;"></div><div class="grid-cell active" style="--anim-dur: 1.2s;"></div><div class="grid-cell active" style="--anim-dur: 1.85s;"></div><div class="grid-cell active" style="--anim-dur: 1.38s;"></div><div class="grid-cell active" style="--anim-dur: 1.42s;"></div><div class="grid-cell active" style="--anim-dur: 1.05s;"></div><div class="grid-cell active" style="--anim-dur: 1.18s;"></div><div class="grid-cell active" style="--anim-dur: 1.19s;"></div><div class="grid-cell active" style="--anim-dur: 1.9s;"></div><div class="grid-cell dormant"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.33s;"></div><div class="grid-cell active" style="--anim-dur: 1.42s;"></div><div class="grid-cell active" style="--anim-dur: 1.05s;"></div><div class="grid-cell active" style="--anim-dur: 1.36s;"></div><div class="grid-cell dormant"></div><div class="grid-cell active" style="--anim-dur: 1.53s;"></div><div class="grid-cell active" style="--anim-dur: 1.87s;"></div><div class="grid-cell dormant"></div>
     </div>
 </div>
 
@@ -83,53 +32,6 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
 
 ## Metric Analysis
 
-<style>
-.stat-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-  margin: 20px 0;
-}
-.stat-card {
-  background: #111;
-  border: 1px solid #333;
-  padding: 15px;
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.stat-header {
-  margin: 0 0 10px 0;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  color: #888;
-  letter-spacing: 1px;
-  font-weight: bold; /* Added bold to match previous h3 look */
-}
-.stat-value {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 8px;
-}
-.stat-desc {
-  font-size: 0.8em;
-  color: #aaa;
-  line-height: 1.5;
-}
-.stat-equation {
-  display: block;
-  margin-top: 6px;
-  color: #fff;
-  font-weight: 600;
-  background: #1a1a1a;
-  padding: 4px;
-  border-radius: 4px;
-  text-align: center;
-}
-.stat-highlight { color: #00ff41; }
-</style>
 <div class="stat-grid">
   <div class="stat-card">
     <div class="stat-header">Energy Base</div>
@@ -177,3 +79,116 @@ The divergence between **Grid Units** (↗ 5.1%) and **Official CPI** (Flat) sug
 The Federal Reserve cannot measure this because their tools are built for a world of scarcity. In a world of digital abundance, prices fall while quality rises. The **Shadow GDP** is the only metric that captures this "Invisible Wealth" accumulating in your pocket rather than in corporate bank accounts.
 
 *Data Sources: EIA (Energy), GitHub (Code), New World Grid Logic.*
+
+
+<style>
+/* --- GRID VISUALIZER --- */
+#grid-matrix-container {
+  background: #0a0a0a;
+  border: 1px solid #333;
+  padding: 0;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+}
+.grid-canvas {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 2px;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.grid-cell {
+  aspect-ratio: 1;
+  background: #1a1a1a;
+}
+.grid-cell.active {
+  background: #00ff41;
+  box-shadow: 0 0 5px #00ff41;
+  animation: pulse var(--anim-dur) infinite alternate; /* Uses var */
+}
+.grid-cell.dormant {
+  background: #222;
+}
+
+/* --- STAT CARDS --- */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+.stat-card {
+  background: #111;
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.stat-header {
+  margin: 0 0 10px 0;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.stat-value {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.stat-desc {
+  font-size: 0.8em;
+  color: #aaa;
+  line-height: 1.5;
+}
+.stat-equation {
+  display: block;
+  margin-top: 6px;
+  color: #fff;
+  font-weight: 600;
+  background: #1a1a1a;
+  padding: 4px;
+  border-radius: 4px;
+  text-align: center;
+}
+.stat-highlight { color: #00ff41; }
+
+/* --- ANIMATIONS --- */
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+@keyframes scan {
+  0% { top: -10%; opacity: 0; }
+  50% { opacity: 1; }
+  100% { top: 110%; opacity: 0; }
+}
+.scan-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to bottom, transparent, #00ff41aa, transparent);
+  animation: scan 4s infinite linear;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* --- CUSTOM HEADER STYLING (So we don't need ## in markdown) --- */
+.kgu-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+</style>
+
