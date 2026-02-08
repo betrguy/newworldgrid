@@ -11,7 +11,7 @@ tags:
 
 The **National Shadow GDP** tracks the *real* economy—measured in Energy, Compute, and Sovereign Production—quieting the noise of the fiat dollar.
 
-<div class="kgu-header">🟢 Current Output: 7,284 kGU <small class="trend">↗ 5.1%</small></div>
+<div class="kgu-header">🟢 Current Output: 7,285 kGU <small class="trend">↗ 5.1%</small></div>
 
 > **Definition:** **kGU** (Kilo-Grid Unit) measures pure economic horsepower. It combines **Physical Energy** (MWh) and **Sovereign Code** to track utility rather than currency.
 
@@ -51,7 +51,7 @@ The **National Shadow GDP** tracks the *real* economy—measured in Energy, Comp
   </div>
   <div class="stat-card">
     <div class="stat-header">Maker Velocity</div>
-    <div class="stat-value">287 Nodes</div>
+    <div class="stat-value">293 Nodes</div>
     <div class="stat-desc">
       The rise of the Sovereign Individual.
       <span class="stat-equation">Rent-Seeking 🚫 = <span class="stat-highlight">Ownership ✅</span></span>
