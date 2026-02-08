@@ -1,5 +1,5 @@
 ---
-title: "Anduril +211, Radiant +6 | Energy Hiring Tracker - Feb 07, 2026"
+title: "Anduril +210, Radiant +6 | Energy Hiring Tracker - Feb 07, 2026"
 date: 2026-02-07
 description: "Tracking hiring velocity at Helion Energy, Anduril, Commonwealth Fusion, Oklo, Kairos Power, Radiant, SpaceX. Daily energy sector acceleration signals."
 tags: [energy, surge, automated]
@@ -11,7 +11,7 @@ tags: [energy, surge, automated]
 | Company | Open Roles | Delta |
 |---------|------------|-------|
 | Helion Energy | 114 | -- |
-| Anduril | 1443 | **+211** |
+| Anduril | 1442 | **+210** |
 | Commonwealth Fusion | 44 | **+3** |
 | Oklo | 58 | **-9** |
 | Kairos Power | 54 | **+5** |
@@ -21,7 +21,7 @@ tags: [energy, surge, automated]
 ### 📊 Company Analysis
 **Helion Energy** maintained steady hiring since Jan 24. Helion Energy has **114** open roles. Helion is developing the world's first fusion power plant, aiming to deliver electricity by 2028 using pulsed non-ignition fusion.
 
-**Anduril** posted **+211** job listings since Jan 24. Anduril has **1443** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
+**Anduril** posted **+210** job listings since Jan 24. Anduril has **1442** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
 
 **Commonwealth Fusion** posted **+3** job listings since Jan 24. Commonwealth Fusion has **44** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
 
@@ -34,6 +34,6 @@ tags: [energy, surge, automated]
 **SpaceX** reduced listings by **38** since Jan 24. SpaceX has **1404** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-07 21:38
+> **Scan Time:** 2026-02-07 21:59
 > **Report ID:** `20260207-21`
 
