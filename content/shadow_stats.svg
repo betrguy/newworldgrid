@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%">
+    <style>
+        .title { fill: #888; font-family: monospace; font-size: 14px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; }
+        .val { fill: #fff; font-family: sans-serif; font-size: 28px; font-weight: bold; }
+        .desc { fill: #ccc; font-family: sans-serif; font-size: 12px; }
+        .eq-box { fill: #1a1a1a; stroke: #333; }
+        .eq-text { fill: #fff; font-family: monospace; font-size: 11px; font-weight: bold; }
+        .highlight { fill: #00ff41; }
+        .card-bg { fill: #111; stroke: #333; stroke-width: 1; }
+    </style>
+    <g transform="translate(0, 0)">
+        <rect width="253.33333333333334" height="220" rx="6" class="card-bg"/>
+        <text x="20" y="35" class="title">Energy Base</text>
+        <text x="20" y="75" class="val">4,350,000 MWh</text>
+        <text x="20" y="105" class="desc">The physical constraint of the</text>
+        <text x="20" y="120" class="desc">digital world.</text>
+        
+        <rect x="20" y="150" width="213.33333333333334" height="40" rx="4" class="eq-box"/>
+        <text x="126.66666666666667" y="175" text-anchor="middle" class="eq-text">Demand + Flat GDP = <tspan class="highlight">Efficiency</tspan></text>
+    </g>
+    <g transform="translate(273.33333333333337, 0)">
+        <rect width="253.33333333333334" height="220" rx="6" class="card-bg"/>
+        <text x="20" y="35" class="title">Deflation Index</text>
+        <text x="20" y="75" class="val">1.67x</text>
+        <text x="20" y="105" class="desc">As costs collapse, your</text>
+        <text x="20" y="120" class="desc">purchasing power rises.</text>
+        
+        <rect x="20" y="150" width="213.33333333333334" height="40" rx="4" class="eq-box"/>
+        <text x="126.66666666666667" y="175" text-anchor="middle" class="eq-text">Cost 📉 = <tspan class="highlight">Surplus 📈</tspan></text>
+    </g>
+    <g transform="translate(546.6666666666667, 0)">
+        <rect width="253.33333333333334" height="220" rx="6" class="card-bg"/>
+        <text x="20" y="35" class="title">Maker Velocity</text>
+        <text x="20" y="75" class="val">41 Nodes</text>
+        <text x="20" y="105" class="desc">The rise of the Sovereign</text>
+        <text x="20" y="120" class="desc">Individual.</text>
+        
+        <rect x="20" y="150" width="213.33333333333334" height="40" rx="4" class="eq-box"/>
+        <text x="126.66666666666667" y="175" text-anchor="middle" class="eq-text">Rent-Seeking 🚫 = <tspan class="highlight">Ownership</tspan></text>
+    </g></svg>
