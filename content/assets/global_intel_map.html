@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-07 21:36 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-02-07 22:02 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,8 +51,37 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "China responds to global news with factory explosion, AI advancements, and gold purchases amidst geopolitical tensions.",
+    "emojis": "⚔️💥⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "state media",
+      "China"
+    ],
+    "source_count": 28,
+    "timestamp": "10:02 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Netanyahu to discuss Iran with Trump amid tensions and talks over nuclear curbs and military expansion.",
+    "emojis": "🪖🚀☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "Israel"
+    ],
+    "source_count": 66,
+    "timestamp": "10:02 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces poverty, death penalty bills, security issues and controversies amidst global events and politics.",
+    "summary": "Israel faces economic crisis, rising poverty, security concerns and growing anti-Semitism, amidst political turmoil.",
     "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
@@ -60,80 +89,43 @@
     "actors": [
       "Ben Gvir",
       "Israeli government",
-      "Self-employed families",
-      "Teacher",
-      "Veteran reviewer",
-      "Soldier",
-      "Washington Post publisher",
-      "Leaders of foreign countries",
-      "Arab press"
+      "Israeli people"
     ],
-    "source_count": 34,
-    "timestamp": "09:36 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China overturns death sentence for Canadian drug smuggler, amid reports of nuclear test and gold purchases",
-    "emojis": "☢️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Canada"
-    ],
-    "source_count": 28,
-    "timestamp": "09:36 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran and Israel engage in tense talks as Netanyahu meets with Trump over Iran's nuclear ambitions.",
-    "emojis": "💥⚔️☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Israel",
-      "Iran",
-      "US"
-    ],
-    "source_count": 62,
-    "timestamp": "09:36 PM"
+    "source_count": 33,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "White House shared fake arrest image of Nekima Levy Armstrong amid US-DC protests and Black history fight.",
+    "summary": "Renewed fight over Black history coincides with US 250th anniversary protests in DC.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
+      "White House",
       "Nekima Levy Armstrong",
-      "The White House"
+      "ICE protesters"
     ],
     "source_count": 2,
-    "timestamp": "09:36 PM"
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "US pushes for peace deal in Ukraine by June, with Zelenskyy confirming US deadline",
+    "summary": "US pressures Ukraine and Russia for a June peace deal, amid ongoing war in Ukraine.",
     "emojis": "🪖⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Trump",
-      "US",
-      "Zelenskyy",
-      "Russia",
-      "Ukraine"
+      "Zelenskyy"
     ],
-    "source_count": 18,
-    "timestamp": "09:36 PM"
+    "source_count": 14,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces economic and security challenges, including attempted assassinations and blackouts.",
+    "summary": "Russia faces economic, security and health challenges with stocks steady, stabbing incidents reported.",
     "emojis": "🪖",
     "lat": 61.5,
     "lng": 105.3,
@@ -141,83 +133,84 @@
     "actors": [
       "Russia",
       "India",
-      "UAE",
-      "Peru",
-      "Russian military"
+      "UAE"
     ],
-    "source_count": 9,
-    "timestamp": "09:36 PM"
+    "source_count": 7,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US government leaks reveal Epstein's Russian ties and UFO footage over Middle East",
+    "summary": "US intelligence reports, leaked drone footage reveal connections between Epstein and Russian officials, UFO sightings in Middle East.",
     "emojis": "✈️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "NY Post"
+      "Epstein",
+      "Russian government figures"
     ],
     "source_count": 2,
-    "timestamp": "09:36 PM"
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "US-CA Chinese Consulate suspends visa services from Feb 16-18.",
+    "summary": "Chinese consulate in LA suspends visa services from Feb 16-18 due to unspecified reason.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
       "Chinese Consulate in Los Angeles",
-      "VisaHQ"
+      "US citizens seeking visas"
     ],
     "source_count": 1,
-    "timestamp": "09:36 PM"
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza faces severe water crisis as Hamas rejects ceasefire, calling it 'meaningless'.",
+    "summary": "Gaza faces severe water crisis, with Hamas denouncing recent ceasefire as 'meaningless'",
     "emojis": "🕊️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Hamas",
-      "ceasefire"
+      "Ceasefire negotiators"
     ],
     "source_count": 1,
-    "timestamp": "09:36 PM"
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "French investigator looks into former minister Jack Lang's ties to Epstein",
+    "summary": "French politician Jack Lang investigated for alleged Epstein links, quits prestigious institute role.",
     "emojis": "",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "Jack Lang"
+      "Jack Lang",
+      "France"
     ],
     "source_count": 1,
-    "timestamp": "09:36 PM"
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Four suspects arrested over alleged role in Pakistan mosque bombing that killed over 30 people.",
+    "summary": "Four suspects arrested after Pakistan mosque blast that killed over 30, amid suspicion of mastermind involvement.",
     "emojis": "💥💀💣",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
-      "Pakistan authorities"
+      "Pakistan authorities",
+      "suspects"
     ],
     "source_count": 1,
-    "timestamp": "09:36 PM"
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "UN peacekeepers in Lebanon report surge in Israeli violence",
+    "summary": "UN peacekeepers report increased Israeli violence towards them in Lebanon.",
     "emojis": "⚔️🕊️",
     "lat": 33.8,
     "lng": 35.8,
@@ -227,7 +220,7 @@
       "Israel"
     ],
     "source_count": 1,
-    "timestamp": "09:36 PM"
+    "timestamp": "10:02 PM"
   }
 ];
 
