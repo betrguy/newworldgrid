@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predictive News - Global Intelligence Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <style>
+        body { margin: 0; background: #0a0a0a; color: #ddd; font-family: 'Segoe UI', sans-serif; overflow: hidden; }
+        #map { height: calc(100vh - 50px); width: 100%; }
+        #ticker { position: fixed; bottom: 0; width: 100%; height: 50px; background: rgba(0,0,0,0.95); border-top: 2px solid #ff4444; overflow: hidden; display: flex; align-items: center; z-index: 1000; }
+        #ticker-content { display: inline-block; white-space: nowrap; animation: scroll 45s linear infinite; }
+        .ticker-item { display: inline-block; padding: 0 30px; font-size: 13px; color: #aaa; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; }
+        .ticker-item:hover { color: #fff; text-shadow: 0 0 5px #ff4444; }
+        .ticker-time { color: #ff4444; font-weight: bold; margin-right: 8px; }
+        @keyframes scroll { 0% { transform: translateX(100vw); } 100% { transform: translateX(-100%); } }
+        .controls { position: absolute; top: 15px; right: 15px; z-index: 1000; display: flex; gap: 10px; }
+        .btn { background: rgba(0,0,0,0.8); color: #ff4444; border: 1px solid #ff4444; padding: 10px 15px; cursor: pointer; font-size: 11px; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
+        .btn:hover { background: #ff4444; color: #000; }
+        #header { position: absolute; top: 15px; left: 15px; z-index: 1000; }
+        #header h1 { font-size: 14px; color: #ff4444; text-transform: uppercase; letter-spacing: 2px; margin: 0; }
+        #header .meta { font-size: 10px; color: #555; margin-top: 4px; }
+        .leaflet-popup-content-wrapper { background: rgba(10,10,10,0.95); color: #fff; border: 1px solid #ff4444; border-radius: 3px; }
+        .leaflet-popup-tip { background: #111; }
+        .popup-header { border-bottom: 1px solid #333; padding-bottom: 8px; margin-bottom: 8px; }
+        .popup-loc { color: #ff4444; font-weight: 800; font-size: 12px; text-transform: uppercase; }
+        .popup-emojis { font-size: 14px; margin-left: 8px; }
+        .popup-time { color: #666; font-size: 10px; float: right; }
+        .popup-body { font-size: 14px; line-height: 1.5; }
+        .popup-actors { font-size: 10px; color: #ffd700; margin-top: 8px; text-transform: uppercase; }
+        .popup-sources { font-size: 9px; color: #555; margin-top: 4px; }
+        .marker-pin { background: #ff0000; width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 10px #ff0000, 0 0 20px rgba(255,0,0,0.3); border: 2px solid white; }
+        .custom-div-icon:hover .marker-pin { transform: scale(1.5); box-shadow: 0 0 20px #ff0000; }
+        #event-count { position: absolute; bottom: 60px; right: 15px; z-index: 1000; font-size: 10px; color: #555; text-transform: uppercase; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="header">
+        <h1>Predictive News</h1>
+        <div class="meta">Generated 2026-02-07 21:36 UTC | 12 active regions</div>
+    </div>
+    <div class="controls">
+        <button class="btn" onclick="fitBounds()">FIT VIEW</button>
+    </div>
+    <div id="event-count">12 events tracked</div>
+    <div id="ticker"><div id="ticker-content"></div></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Embedded intel data (no backend required)
+        var INTEL_DATA = [
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces poverty, death penalty bills, security issues and controversies amidst global events and politics.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Ben Gvir",
+      "Israeli government",
+      "Self-employed families",
+      "Teacher",
+      "Veteran reviewer",
+      "Soldier",
+      "Washington Post publisher",
+      "Leaders of foreign countries",
+      "Arab press"
+    ],
+    "source_count": 34,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China overturns death sentence for Canadian drug smuggler, amid reports of nuclear test and gold purchases",
+    "emojis": "☢️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Canada"
+    ],
+    "source_count": 28,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran and Israel engage in tense talks as Netanyahu meets with Trump over Iran's nuclear ambitions.",
+    "emojis": "💥⚔️☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Israel",
+      "Iran",
+      "US"
+    ],
+    "source_count": 62,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "White House shared fake arrest image of Nekima Levy Armstrong amid US-DC protests and Black history fight.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Nekima Levy Armstrong",
+      "The White House"
+    ],
+    "source_count": 2,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "US pushes for peace deal in Ukraine by June, with Zelenskyy confirming US deadline",
+    "emojis": "🪖⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Trump",
+      "US",
+      "Zelenskyy",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 18,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces economic and security challenges, including attempted assassinations and blackouts.",
+    "emojis": "🪖",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "India",
+      "UAE",
+      "Peru",
+      "Russian military"
+    ],
+    "source_count": 9,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US government leaks reveal Epstein's Russian ties and UFO footage over Middle East",
+    "emojis": "✈️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "NY Post"
+    ],
+    "source_count": 2,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "US-CA Chinese Consulate suspends visa services from Feb 16-18.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Chinese Consulate in Los Angeles",
+      "VisaHQ"
+    ],
+    "source_count": 1,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Gaza faces severe water crisis as Hamas rejects ceasefire, calling it 'meaningless'.",
+    "emojis": "🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Hamas",
+      "ceasefire"
+    ],
+    "source_count": 1,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "French investigator looks into former minister Jack Lang's ties to Epstein",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Jack Lang"
+    ],
+    "source_count": 1,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Four suspects arrested over alleged role in Pakistan mosque bombing that killed over 30 people.",
+    "emojis": "💥💀💣",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Pakistan authorities"
+    ],
+    "source_count": 1,
+    "timestamp": "09:36 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "UN peacekeepers in Lebanon report surge in Israeli violence",
+    "emojis": "⚔️🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "UN",
+      "Israel"
+    ],
+    "source_count": 1,
+    "timestamp": "09:36 PM"
+  }
+];
+
+        var map = L.map('map').setView([25, 0], 2);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap &copy; CARTO',
+            maxZoom: 18
+        }).addTo(map);
+
+        var markerIcon = L.divIcon({
+            className: 'custom-div-icon',
+            html: "<div class='marker-pin'></div>",
+            iconSize: [16, 16],
+            iconAnchor: [8, 8]
+        });
+
+        var markers = L.featureGroup().addTo(map);
+        var allMarkers = [];
+        var currentIdx = -1;
+
+        function loadData() {
+            markers.clearLayers();
+            allMarkers = [];
+            var ticker = document.getElementById('ticker-content');
+            var tickerHtml = '';
+
+            INTEL_DATA.forEach(function(e) {
+                var emojis = e.emojis || '';
+                var emojiDisplay = emojis ? '<span class="popup-emojis">' + emojis + '</span>' : '';
+                var actorList = Array.isArray(e.actors) ? e.actors.join(', ') : (e.actors || 'Unknown');
+                var popup =
+                    '<div class="popup-header">' +
+                        '<span class="popup-loc">' + e.location + '</span>' +
+                        emojiDisplay +
+                        '<span class="popup-time">' + e.timestamp + '</span>' +
+                    '</div>' +
+                    '<div class="popup-body">' + e.summary + '</div>' +
+                    '<div class="popup-actors">Actors: ' + actorList + '</div>' +
+                    '<div class="popup-sources">' + e.source_count + ' sources</div>';
+
+                var m = L.marker([e.lat, e.lng], {icon: markerIcon}).bindPopup(popup);
+                markers.addLayer(m);
+                allMarkers.push(m);
+
+                var tickerEmojis = emojis ? emojis + ' ' : '';
+                tickerHtml += '<span class="ticker-item" onclick="flyTo(' + e.lat + ',' + e.lng + ')">' +
+                    '<span class="ticker-time">[' + e.location + ']</span> ' +
+                    tickerEmojis + e.summary + '</span>';
+            });
+
+            ticker.innerHTML = tickerHtml || '<span class="ticker-item">No active events</span>';
+            ticker.style.animationDuration = Math.max(30, INTEL_DATA.length * 6) + 's';
+            if (INTEL_DATA.length > 0) fitBounds();
+        }
+
+        function flyTo(lat, lng) { map.flyTo([lat, lng], 5, {duration: 1}); }
+        function fitBounds() { if (markers.getLayers().length > 0) map.fitBounds(markers.getBounds(), {padding: [50, 50]}); }
+
+        document.addEventListener('keydown', function(e) {
+            if (allMarkers.length === 0) return;
+            if (e.key === 'ArrowRight') { currentIdx = (currentIdx + 1) % allMarkers.length; }
+            else if (e.key === 'ArrowLeft') { currentIdx = (currentIdx - 1 + allMarkers.length) % allMarkers.length; }
+            else return;
+            var m = allMarkers[currentIdx];
+            map.flyTo(m.getLatLng(), 5);
+            m.openPopup();
+        });
+
+        loadData();
+    </script>
+</body>
+</html>
