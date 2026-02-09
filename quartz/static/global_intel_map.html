@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-07 22:08 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-02-08 19:29 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,170 +52,154 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: CHINA",
-    "summary": "China reports factory explosion, announces strategic AI push, buys gold, and reverses Canadian drug smuggler's death penalty.",
-    "emojis": "⚔️💥",
+    "summary": "China's economy and politics dominate headlines with currency, tourism, energy tech, and PM visits making global news.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "North China factory",
-      "China's Strategic Surge",
-      "Canadian authorities",
-      "US government"
+      "PBOC",
+      "Octopus boss",
+      "China government",
+      "Trump",
+      "Xi Jinping",
+      "RAF & US aces"
     ],
-    "source_count": 28,
-    "timestamp": "10:07 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Netanyahu meets with Trump to discuss Iran, amid warnings of strikes on US bases and Israeli demands",
-    "emojis": "💥🚀⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      " Netanyahu",
-      "Trump"
-    ],
-    "source_count": 66,
-    "timestamp": "10:07 PM"
+    "source_count": 39,
+    "timestamp": "07:29 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces poverty, security issues, and human rights concerns amid political turmoil and global scrutiny.",
-    "emojis": "",
+    "summary": "Israel's security cabinet approves West Bank control expansion and prepares for possible Iran attacks.",
+    "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "government",
-      "society"
+      "Donald Trump",
+      "Mohammed Bin Salman",
+      "Israeli government",
+      "Iranian dissident"
     ],
-    "source_count": 33,
-    "timestamp": "10:07 PM"
+    "source_count": 38,
+    "timestamp": "07:29 PM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Protesters, including Nekima Levy Armstrong, speak out against White House's fake arrest image on US anniversary",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "title": "SITREP: IRAN",
+    "summary": "Iran faces oil tanker seizures, diplomatic tensions with US and Oman, amid arrest of reformist politicians",
+    "emojis": "🚢⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "White House",
-      "Nekima Levy Armstrong"
+      "India",
+      "US",
+      "Iran"
     ],
-    "source_count": 2,
-    "timestamp": "10:07 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "US pressures Ukraine and Russia to reach agreement by June for peace deal, amid ongoing conflict.",
-    "emojis": "🪖⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Trump",
-      "Zelenskyy"
-    ],
-    "source_count": 14,
-    "timestamp": "10:07 PM"
+    "source_count": 37,
+    "timestamp": "07:29 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia: Stocks fall, students stabbed in Ufa, general shot in Moscow, and attempts to sell fake aircraft",
-    "emojis": "🪖✈️",
+    "summary": "Russia faces spy pigeon espionage, annexation concerns & general shooting suspect detention",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia"
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 7,
-    "timestamp": "10:07 PM"
+    "source_count": 4,
+    "timestamp": "07:29 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia fires 101 drones, Ukraine seeks US peace agreement deadline; suspect detained in Putin general shooting",
+    "emojis": "✈️⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine",
+      "US",
+      "Putin",
+      "Trump"
+    ],
+    "source_count": 4,
+    "timestamp": "07:29 PM"
+  },
+  {
+    "title": "SITREP: VENEZUELA",
+    "summary": "Venezuela frees high-profile opposition figure Juan Pablo Guanipa after 4 years in prison.",
+    "emojis": "",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
+    "actors": [
+      "Nicolas Maduro",
+      "Juan Pablo Guanipa"
+    ],
+    "source_count": 1,
+    "timestamp": "07:29 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US-NY: Epstein's Russian ties and leaked UFO footage surfaces.",
-    "emojis": "✈️",
+    "summary": "Israeli jets escort commercial flight amid reported 'terrorist' threat, while Iranian Nobel laureate faces hunger strike end",
+    "emojis": "✈️💥🔺",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "New York Post"
+      "NYC",
+      "Iran"
     ],
     "source_count": 2,
-    "timestamp": "10:07 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Chinese Consulate in LA suspends visa services from Feb 16-18.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "Chinese Consulate",
-      "Los Angeles"
-    ],
-    "source_count": 1,
-    "timestamp": "10:07 PM"
+    "timestamp": "07:29 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza faces severe water crisis while Hamas rejects ceasefire as 'meaningless'",
-    "emojis": "🕊️",
+    "summary": "Hamas condemns Israel's West Bank settlement expansion, alleging attempt to displace Palestinians.",
+    "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Hamas",
-      "Israeli authorities"
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "10:07 PM"
+    "timestamp": "07:29 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "France investigates ex-minister Jack Lang over Epstein links, forcing him to quit prestigious institute role.",
+    "title": "SITREP: INDIA",
+    "summary": "India may negotiate with US for discounted Russian crude to secure Nayara's future.",
     "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Jack Lang",
-      "France"
+      "Times of India",
+      "US",
+      "India"
     ],
     "source_count": 1,
-    "timestamp": "10:07 PM"
+    "timestamp": "07:29 PM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan arrests suspected mastermind and three accomplices after mosque blast kills over 30 people.",
-    "emojis": "💥💀💣",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: SYRIA",
+    "summary": "Assad flees Damascus as Syria's 25-year regime collapses, amidst growing opposition and international pressure.",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
     "actors": [
-      "Pakistan authorities",
-      "suspected mastermind"
+      "Bashar al-Assad",
+      "Syrian opposition"
     ],
     "source_count": 1,
-    "timestamp": "10:07 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "UN peacekeepers report surge in Israeli violence, raising concerns for their safety and mission,",
-    "emojis": "⚔️🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Unknown"
-    ],
-    "source_count": 1,
-    "timestamp": "10:08 PM"
+    "timestamp": "07:29 PM"
   }
 ];
 
