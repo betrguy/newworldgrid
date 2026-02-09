@@ -24,6 +24,8 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import CustomBanner from "./CustomBanner" // <--- 1. ADDED IMPORT HERE
+import NewsletterSignup from "./NewsletterSignup"
+import SponsorCTA from "./SponsorCTA"
 
 export {
   ArticleTitle,
@@ -52,4 +54,6 @@ export {
   Flex,
   ConditionalRender,
   CustomBanner, // <--- 2. ADDED EXPORT HERE
+  NewsletterSignup,
+  SponsorCTA,
 }
