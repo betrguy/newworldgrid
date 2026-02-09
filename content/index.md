@@ -48,3 +48,7 @@ layout: folder
   </div>
 
 </div>
+
+<div class="sponsor-footer" style="text-align: center; margin-top: 3rem; padding: 1rem 0; border-top: 1px solid rgba(255,255,255,0.08); opacity: 0.5; font-size: 0.8rem; font-family: var(--bodyFont);">
+  <a href="/sponsor" style="color: var(--gray); text-decoration: none;">Sponsor The New World Grid</a>
+</div>
