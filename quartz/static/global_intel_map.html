@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-08 19:29 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-02-09 12:20 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,58 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China's economy and politics dominate headlines with currency, tourism, energy tech, and PM visits making global news.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "PBOC",
-      "Octopus boss",
-      "China government",
-      "Trump",
-      "Xi Jinping",
-      "RAF & US aces"
-    ],
-    "source_count": 39,
-    "timestamp": "07:29 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel's security cabinet approves West Bank control expansion and prepares for possible Iran attacks.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Donald Trump",
-      "Mohammed Bin Salman",
-      "Israeli government",
-      "Iranian dissident"
-    ],
-    "source_count": 38,
-    "timestamp": "07:29 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran faces oil tanker seizures, diplomatic tensions with US and Oman, amid arrest of reformist politicians",
-    "emojis": "🚢⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "India",
-      "US",
-      "Iran"
-    ],
-    "source_count": 37,
-    "timestamp": "07:29 PM"
-  },
-  {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces spy pigeon espionage, annexation concerns & general shooting suspect detention",
-    "emojis": "",
+    "summary": "Russia faces budget deficit, troop losses, and global criticism amid ongoing attacks on Ukraine's gas facilities.",
+    "emojis": "🪖⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
@@ -110,96 +61,126 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 4,
-    "timestamp": "07:29 PM"
+    "source_count": 14,
+    "timestamp": "12:20 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces condemnation from EU, Arab states and Muslim countries over tightened West Bank control.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "EU",
+      "Arab states",
+      "Muslim countries"
+    ],
+    "source_count": 39,
+    "timestamp": "12:20 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran escalates security measures amid rising tensions with US and Israel, arrests reformist figures.",
+    "emojis": "🚀☢️🚫",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Israel"
+    ],
+    "source_count": 32,
+    "timestamp": "12:20 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China continues to reshape global markets with AI regulations, bans yuan stablecoins, and expands surveillance",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "EU"
+    ],
+    "source_count": 21,
+    "timestamp": "12:20 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Tensions rise in Gaza as Israeli forces capture Hamas ally, kill militants and civilians, amid ongoing conflict.",
+    "emojis": "✈️⚔️🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli forces",
+      "Hamas",
+      "Palestinians"
+    ],
+    "source_count": 6,
+    "timestamp": "12:20 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia fires 101 drones, Ukraine seeks US peace agreement deadline; suspect detained in Putin general shooting",
-    "emojis": "✈️⚔️🕊️",
+    "summary": "Russia's attacks escalate, halving Ukraine's nuclear power output and hitting energy facilities again.",
+    "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine",
-      "US",
-      "Putin",
-      "Trump"
+      "Ukraine"
     ],
-    "source_count": 4,
-    "timestamp": "07:29 PM"
+    "source_count": 7,
+    "timestamp": "12:20 PM"
   },
   {
-    "title": "SITREP: VENEZUELA",
-    "summary": "Venezuela frees high-profile opposition figure Juan Pablo Guanipa after 4 years in prison.",
+    "title": "SITREP: US-DC",
+    "summary": "Ghislaine Maxwell, Epstein associate, refuses to answer questions from US Congress on sex trafficking allegations.",
     "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "Nicolas Maduro",
-      "Juan Pablo Guanipa"
+      "US Congress",
+      "Ghislaine Maxwell",
+      "Jeffrey Epstein"
     ],
     "source_count": 1,
-    "timestamp": "07:29 PM"
+    "timestamp": "12:20 PM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Israeli jets escort commercial flight amid reported 'terrorist' threat, while Iranian Nobel laureate faces hunger strike end",
-    "emojis": "✈️💥🔺",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: UK",
+    "summary": "Global human rights concerns arise in Russia, Iran, and Hong Kong.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "NYC",
-      "Iran"
+      "Experts",
+      "Iranian protesters",
+      "Hong Kong authorities"
     ],
-    "source_count": 2,
-    "timestamp": "07:29 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Hamas condemns Israel's West Bank settlement expansion, alleging attempt to displace Palestinians.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Hamas",
-      "Israel"
-    ],
-    "source_count": 1,
-    "timestamp": "07:29 PM"
+    "source_count": 3,
+    "timestamp": "12:20 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India may negotiate with US for discounted Russian crude to secure Nayara's future.",
+    "summary": "India shifts energy sourcing to national interest, diversifying imports from Russia and other countries.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Times of India",
-      "US",
+      "Vikram Misri",
+      "Trump",
       "India"
     ],
-    "source_count": 1,
-    "timestamp": "07:29 PM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Assad flees Damascus as Syria's 25-year regime collapses, amidst growing opposition and international pressure.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Bashar al-Assad",
-      "Syrian opposition"
-    ],
-    "source_count": 1,
-    "timestamp": "07:29 PM"
+    "source_count": 4,
+    "timestamp": "12:20 PM"
   }
 ];
 
