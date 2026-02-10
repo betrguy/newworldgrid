@@ -1,6 +1,8 @@
 ---
 title: New World Grid
 layout: folder
+description: "Intelligence signals for the new economy. Energy, predictions, shadow GDP."
+socialImage: https://thenewworldgrid.com/static/og-image.png
 ---
   <div class="quote-section">
   <h3 class="section-header">Where are we?</h3>
