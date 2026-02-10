@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-09 13:04 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-02-10 11:13 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,137 +51,164 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: GAZA",
-    "summary": "Violence escalates in Gaza as EL AL faces fines, Israeli forces kill militants and civilians.",
-    "emojis": "✈️⚔️🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel takes steps to control West Bank, amid tensions with PA and Hezbollah, while dealing with domestic issues.",
+    "emojis": "⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "EL AL",
-      "Israeli forces",
-      "Hamas"
+      "Israel",
+      "PA",
+      "Hezbollah"
     ],
-    "source_count": 8,
-    "timestamp": "01:03 PM"
+    "source_count": 38,
+    "timestamp": "11:12 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Netanyahu's visit to US amid tensions with Iran and nuclear talks, amid concerns over regime change in Iran.",
+    "emojis": "☢️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Netanyahu",
+      "Iran"
+    ],
+    "source_count": 30,
+    "timestamp": "11:12 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China responds to Japan election, regulates yuan stablecoins, and infiltrates US airspace amidst global market pressures.",
+    "summary": "China explores AI in anti-corruption, boosts auto sales, and supports Cuba amid fuel shortages.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Japan",
-      "US"
+      "USA"
     ],
-    "source_count": 22,
-    "timestamp": "01:03 PM"
+    "source_count": 36,
+    "timestamp": "11:12 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US military activity increases in NY, amid Israeli President's visit to Australia and C-17 deployments",
+    "emojis": "🚀🪖",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US Military",
+      "Israeli President",
+      "Australian"
+    ],
+    "source_count": 2,
+    "timestamp": "11:12 AM"
+  },
+  {
+    "title": "SITREP: VENEZUELA",
+    "summary": "Venezuela struggles with political instability, economic crisis, and humanitarian issues, uncertainty about its future trajectory.",
+    "emojis": "",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
+    "actors": [
+      "Zeihan on Geopolitics",
+      "Venezuela"
+    ],
+    "source_count": 1,
+    "timestamp": "11:12 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Abuse reported in Syria's al-Roj camp as women and children face chaos during chaotic handover process.",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "UN High Commissioner for Refugees",
+      "Syrian Government Officials"
+    ],
+    "source_count": 1,
+    "timestamp": "11:12 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Violence escalates in Gaza with multiple drone strikes killing civilians, as Indonesia prepares to deploy troops.",
+    "emojis": "🪖✈️💥",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli forces",
+      "Indonesia",
+      "Palestinians"
+    ],
+    "source_count": 7,
+    "timestamp": "11:12 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine faces escalating attacks, devastating energy outages, and war mobilization amid Russia's ongoing aggression.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Russia's war in Ukraine worsens losses, EU demands concessions, and families threatened with Starlink registration.",
+    "emojis": "🪖✈️⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine"
+      "Ukraine",
+      "EU"
     ],
-    "source_count": 10,
-    "timestamp": "01:03 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel passes new West Bank measures, faces EU and Arab criticism over tightened grip and military actions.",
-    "emojis": "🪖",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "EU",
-      "Arab states",
-      "Israel",
-      "Palestinians",
-      "Iran"
-    ],
-    "source_count": 43,
-    "timestamp": "01:03 PM"
+    "source_count": 11,
+    "timestamp": "11:12 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces budget deficit, troop losses, diplomatic tensions, and attacks on gas facilities amidst global opposition.",
-    "emojis": "🪖⚔️⚡",
+    "summary": "Russia tensions rise amid talks, trade, and economic concerns with EU, China, and US.",
+    "emojis": "⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "RUSSIA",
+      "EU",
+      "China",
       "US",
-      "Serbia"
+      "Russia"
     ],
-    "source_count": 12,
-    "timestamp": "01:03 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran offers to dilute enriched uranium in exchange for sanctions relief amid rising tensions with US.",
-    "emojis": "🚀☢️🚫",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 34,
-    "timestamp": "01:04 PM"
+    "source_count": 32,
+    "timestamp": "11:13 AM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Ghislaine Maxwell refuses to answer Congress questions, escalating concerns about Jeffrey Epstein's associates' accountability.",
-    "emojis": "",
+    "summary": "19 Buddhist monks walk 108 days from TX to DC advocating for peace, set to end in nation's capital.",
+    "emojis": "🕊️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Congress",
-      "Ghislaine Maxwell"
+      "Monks",
+      "US Government"
     ],
     "source_count": 1,
-    "timestamp": "01:04 PM"
+    "timestamp": "11:13 AM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK faces export concerns and Iran cracks down on protesters, with some sentenced to death",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Experts",
-      "Iranian protesters"
-    ],
-    "source_count": 2,
-    "timestamp": "01:04 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India diversifies energy sources, ups oil imports to reduce reliance on Russia.",
+    "title": "SITREP: GERMANY",
+    "summary": "Berlin's historic Russian houses stuck in bureaucratic red tape, awaiting resolution and preservation.",
     "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "Vikram Misri",
-      "Trump",
-      "Indian government"
+      "German authorities",
+      "local residents"
     ],
-    "source_count": 4,
-    "timestamp": "01:04 PM"
+    "source_count": 1,
+    "timestamp": "11:13 AM"
   }
 ];
 
