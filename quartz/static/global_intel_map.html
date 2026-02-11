@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-10 11:13 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-02-11 12:24 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,164 +51,215 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel takes steps to control West Bank, amid tensions with PA and Hezbollah, while dealing with domestic issues.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "PA",
-      "Hezbollah"
-    ],
-    "source_count": 38,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Netanyahu's visit to US amid tensions with Iran and nuclear talks, amid concerns over regime change in Iran.",
-    "emojis": "☢️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Netanyahu",
-      "Iran"
-    ],
-    "source_count": 30,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China explores AI in anti-corruption, boosts auto sales, and supports Cuba amid fuel shortages.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "USA"
-    ],
-    "source_count": 36,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US military activity increases in NY, amid Israeli President's visit to Australia and C-17 deployments",
-    "emojis": "🚀🪖",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "US Military",
-      "Israeli President",
-      "Australian"
-    ],
-    "source_count": 2,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: VENEZUELA",
-    "summary": "Venezuela struggles with political instability, economic crisis, and humanitarian issues, uncertainty about its future trajectory.",
-    "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
-    "actors": [
-      "Zeihan on Geopolitics",
-      "Venezuela"
-    ],
-    "source_count": 1,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Abuse reported in Syria's al-Roj camp as women and children face chaos during chaotic handover process.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "UN High Commissioner for Refugees",
-      "Syrian Government Officials"
-    ],
-    "source_count": 1,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Violence escalates in Gaza with multiple drone strikes killing civilians, as Indonesia prepares to deploy troops.",
-    "emojis": "🪖✈️💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli forces",
-      "Indonesia",
-      "Palestinians"
-    ],
-    "source_count": 7,
-    "timestamp": "11:12 AM"
-  },
-  {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia's war in Ukraine worsens losses, EU demands concessions, and families threatened with Starlink registration.",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Russia suffers heavy casualties, while Ukraine prepares for new peace talks and a pregnant mother survives attacks.",
+    "emojis": "💥⚔️🔴",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
       "Ukraine",
-      "EU"
+      "Russia"
     ],
-    "source_count": 11,
-    "timestamp": "11:12 AM"
+    "source_count": 13,
+    "timestamp": "12:23 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Netanyahu joins board to discuss Gaza reconstruction, while Israel's tech industry flourishes and public opinion shifts.",
+    "emojis": "🕊️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      " Netanyahu",
+      "Israel's tech industry",
+      "Gaza reconstruction"
+    ],
+    "source_count": 33,
+    "timestamp": "12:23 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US, Israel push for Iran deal as Iran commemorates revolution and tensions rise.",
+    "emojis": "⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Nikki Haley",
+      "Netanyahu",
+      "Trump"
+    ],
+    "source_count": 39,
+    "timestamp": "12:23 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia tensions rise amid talks, trade, and economic concerns with EU, China, and US.",
-    "emojis": "⚡",
+    "summary": "Russia maintains nuclear arms limits if US does, amid evacuations and restricted access to Telegram.",
+    "emojis": "☢️🕊️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "EU",
-      "China",
       "US",
       "Russia"
     ],
-    "source_count": 32,
-    "timestamp": "11:13 AM"
+    "source_count": 13,
+    "timestamp": "12:24 PM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "19 Buddhist monks walk 108 days from TX to DC advocating for peace, set to end in nation's capital.",
-    "emojis": "🕊️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "title": "SITREP: US-TX",
+    "summary": "FAA reopens airspace over El Paso after week-long closure due to 'cartel drone incursion'",
+    "emojis": "🪖✈️",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
-      "Monks",
-      "US Government"
+      "FAA",
+      "Cartel"
+    ],
+    "source_count": 3,
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China sees mixed signals on relations, economic ties, and security as global news raises eyebrows.",
+    "emojis": "💥",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "US",
+      "China",
+      "Lithuania",
+      "Vietnam",
+      "Canada",
+      "Ecuador",
+      "Germany",
+      "Palau",
+      "Australia"
+    ],
+    "source_count": 27,
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Indonesia prepares troops for Gaza, while Israel's actions raise global concerns over exceptionalism and international stability.",
+    "emojis": "🪖",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "IFCJ",
+      "Middle East Monitor",
+      "Middle East Institute"
+    ],
+    "source_count": 4,
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan faces a complex web of military-backed terrorism and proxy forces fueling regional instability.",
+    "emojis": "🪖🔺",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Pakistan",
+      "Generals",
+      "proxies"
     ],
     "source_count": 1,
-    "timestamp": "11:13 AM"
+    "timestamp": "12:24 PM"
   },
   {
-    "title": "SITREP: GERMANY",
-    "summary": "Berlin's historic Russian houses stuck in bureaucratic red tape, awaiting resolution and preservation.",
+    "title": "SITREP: TAIWAN",
+    "summary": "Australia charges 2 Chinese nationals with foreign interference in election process.",
     "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
     "actors": [
-      "German authorities",
-      "local residents"
+      "Taiwan government",
+      "Australian authorities"
     ],
     "source_count": 1,
-    "timestamp": "11:13 AM"
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Deadly mass shooting in BC sparks debate on Canada's gun laws, UK boosts Middle East fighter jet presence.",
+    "emojis": "✈️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Canada",
+      "UK"
+    ],
+    "source_count": 2,
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: VENEZUELA",
+    "summary": "Venezuela faces ongoing geopolitical tensions, US strategic interests, and domestic governance failures amidst economic crisis.",
+    "emojis": "⚡",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
+    "actors": [
+      "US",
+      "Venezuelan Government"
+    ],
+    "source_count": 1,
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Iraqi artists thrive, digital infrastructure advances with new deals between T964 and Nokia.",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "AD Middle East",
+      "Capacity Global",
+      "T964",
+      "Nokia"
+    ],
+    "source_count": 2,
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "China leads Syria rebuild effort through Beirut operations, involving various actors.",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "China",
+      "Syria",
+      "Beirut",
+      "various"
+    ],
+    "source_count": 1,
+    "timestamp": "12:24 PM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Syria faces challenges in achieving 'stabilization first', as 'stabilization' might mask ongoing conflict and humanitarian crises.",
+    "emojis": "⚔️",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "actor1",
+      "actor2"
+    ],
+    "source_count": 1,
+    "timestamp": "12:24 PM"
   }
 ];
 
