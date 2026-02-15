@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-12 12:42 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-02-14 20:54 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,160 +51,141 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "US pressures Iran to cut oil sales, amid global protests calling for regime change and nuclear talks.",
+    "emojis": "⚔️☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "China",
+      "Israel"
+    ],
+    "source_count": 42,
+    "timestamp": "08:53 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China's Wang Yi meets Canada foreign minister, while China's dating scene and stock market see changes.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Wang Yi",
+      "Canadian foreign minister"
+    ],
+    "source_count": 17,
+    "timestamp": "08:53 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "US Secy of State Rubio supports Trump's end to Russia-Ukraine war, while Zelensky criticizes Trump's approach.",
+    "emojis": "🚢⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Marco Rubio",
+      "Vladimir Putin",
+      "Volodymyr Zelenskyy"
+    ],
+    "source_count": 11,
+    "timestamp": "08:53 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel amid bans, protests, and election uncertainty with Gaza tensions easing slightly.",
-    "emojis": "⚡",
+    "summary": "Israel launches strikes on Hezbollah, maintains military readiness amid Gaza threat and tunnel demolitions.",
+    "emojis": "🪖💥🚀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Hamas",
-      "Palestine",
-      "Trump"
+      "Hezbollah",
+      "IDF",
+      "US",
+      "Netanyahu",
+      "Hamas"
     ],
-    "source_count": 46,
-    "timestamp": "12:42 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Jeremy Corbyn accuses UK of complicity over alleged Gaza abuses, amid controversy following MP's admission.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Jeremy Corbyn",
-      "MP Streeting"
-    ],
-    "source_count": 1,
-    "timestamp": "12:42 PM"
+    "source_count": 40,
+    "timestamp": "08:54 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia cracks down on WhatsApp, blocks messaging service as it promotes state-backed alternative.",
-    "emojis": "",
+    "summary": "Vladimir Putin faced backlash amid reports of poisoning Alexei Navalny with dart frog toxin, stock market decline.",
+    "emojis": "🚢🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "WhatsApp"
+      "Alexei Navalny",
+      "UK",
+      "European allies"
     ],
-    "source_count": 40,
-    "timestamp": "12:42 PM"
+    "source_count": 28,
+    "timestamp": "08:54 PM"
   },
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran protests lead to 7,000+ deaths and skepticism from Netanyahu on Iran deal with Trump's conditions.",
+    "title": "SITREP: GAZA",
+    "summary": "MSF suspends work at Gaza's Nasser Hospital due to armed presence, amid violence and criticism from politicians.",
     "emojis": "",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Benjamin Netanyahu",
-      "Trump"
+      "MSF",
+      "on site gunmen",
+      "Israelis",
+      "John",
+      "AOC"
     ],
-    "source_count": 21,
-    "timestamp": "12:42 PM"
-  },
-  {
-    "title": "SITREP: US-MN",
-    "summary": "Minnesota immigration enforcement surge ends, two US citizens killed in Minneapolis crackdown",
-    "emojis": "💀",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
-    "actors": [
-      "Trump",
-      "US citizens"
-    ],
-    "source_count": 1,
-    "timestamp": "12:42 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces economic slowdown, rising US-China tensions and space race, amidst Latin America visit by Trump.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Trump",
-      "China",
-      "US"
-    ],
-    "source_count": 39,
-    "timestamp": "12:42 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies attacks on Ukraine, strikes heating, drones, and refineries, amid concerns about Putin's regime.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 11,
-    "timestamp": "12:42 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Ukrainian Olympian disqualified for helmet honoring war dead, sparking controversy over patriotic expression.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Ukrainian Olympian",
-      "International Olympic Committee"
-    ],
-    "source_count": 1,
-    "timestamp": "12:42 PM"
-  },
-  {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "Kim Jong Un has chosen Kim Ju Ae as his apparent heir, sparking succession speculation.",
-    "emojis": "",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
-    "actors": [
-      "South Korea's spy agency"
-    ],
-    "source_count": 1,
-    "timestamp": "12:42 PM"
+    "source_count": 5,
+    "timestamp": "08:54 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Manchester United co-owner criticized for colonialism claim, CIA recruits Chinese military officers as informants.",
-    "emojis": "🪖",
+    "summary": "Protesters in London demonstrate against Iranian regime, expressing solidarity with Iranian dissidents and opposition groups.",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Manchester United",
-      "CIA"
+      "UK Government",
+      "Iranian Dissidents"
     ],
-    "source_count": 2,
-    "timestamp": "12:42 PM"
+    "source_count": 1,
+    "timestamp": "08:54 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Syria and Iraq reconciliation appears unlikely due to historical tensions and ongoing conflicts in the region.",
-    "emojis": "⚔️⚡",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "title": "SITREP: US-NY",
+    "summary": "European governments express concern over Navalny's poisoning and US unpredictability, leading to de-risking from US in Munich.",
+    "emojis": "🚢",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "US",
-      "Iran"
+      "Europe",
+      "US"
     ],
     "source_count": 2,
-    "timestamp": "12:42 PM"
+    "timestamp": "08:54 PM"
+  },
+  {
+    "title": "SITREP: VENEZUELA",
+    "summary": "US deploys Ford aircraft carrier to Middle East amid tensions in Venezuela.",
+    "emojis": "✈️⚡",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
+    "actors": [
+      "US",
+      "Venezuela"
+    ],
+    "source_count": 1,
+    "timestamp": "08:54 PM"
   }
 ];
 
