@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-15 14:27 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-02-16 18:58 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,139 +52,147 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: CHINA",
-    "summary": "China boosts cultural ties, launches rockets, relaxes visa rules and accelerates AI development amidst global changes.",
-    "emojis": "🚀☢️",
+    "summary": "China relaxes visa policies, invests in AI, and pressures Japan amidst global economic and security shifts.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "United States"
+      "China"
     ],
-    "source_count": 28,
-    "timestamp": "02:27 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US, Israel negotiate Iran deal as Netanyahu sets conditions and Trump vows to support strikes if no deal.",
-    "emojis": "💥⚔️🚀",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "Israel",
-      "US",
-      "Netanyahu",
-      "Trump"
-    ],
-    "source_count": 55,
-    "timestamp": "02:27 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces backlash from anti-Israel groups, protests, and Gazan petitions amid US military aid phase-out concerns.",
-    "emojis": "🪖",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Anti-Israel groups",
-      "Jewish camps",
-      "Netanyahu",
-      "Gazans",
-      "IDF troops"
-    ],
-    "source_count": 50,
-    "timestamp": "02:27 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Global protests against Iranian government surge amid calls for change, sparking international concern.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "US",
-      "Europe"
-    ],
-    "source_count": 1,
-    "timestamp": "02:27 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "At least 12 Palestinians killed, several injured in Israeli airstrikes on Gaza",
-    "emojis": "💥⚔️💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians"
-    ],
-    "source_count": 6,
-    "timestamp": "02:27 PM"
+    "source_count": 30,
+    "timestamp": "06:57 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "UKRAINE war continues with strikes, detentions, and condemnation as peace talks approach.",
+    "summary": "Conflict escalates in Ukraine as Russia launches new strikes amid ongoing talks with US and Ukraine.",
     "emojis": "💥⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
+      "US",
       "Ukraine"
     ],
-    "source_count": 7,
-    "timestamp": "02:27 PM"
+    "source_count": 13,
+    "timestamp": "06:57 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran and US engage in military posturing ahead of nuclear talks in Geneva, amid tense diplomatic situation.",
+    "emojis": "🪖⚔️☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 50,
+    "timestamp": "06:57 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise in Israel as UN condemns Israeli actions, protests erupt over Jerusalem and Gaza aid.",
+    "emojis": "🕊️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "UN",
+      "LeBron James",
+      "Pro-Palestine groups",
+      "Israeli government"
+    ],
+    "source_count": 29,
+    "timestamp": "06:57 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia escalates tensions with European sabotage, poisoning accusations, and extradition requests amid Navalny's death investigation.",
-    "emojis": "🚢⚔️⚡",
+    "summary": "Russia experiences earthquake, rejects Navalny claims, expands FSB powers, and signals broader agenda in trilateral talks.",
+    "emojis": "🚢💥🕊️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Western Officials",
-      "Russian Leaders",
-      "European Leaders",
-      "Alexei Navalny",
-      "Putin",
-      "Zelenskyy"
+      "Russia",
+      "FSB"
     ],
-    "source_count": 13,
-    "timestamp": "02:27 PM"
+    "source_count": 12,
+    "timestamp": "06:57 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Syria expected to form new government with US support",
+    "title": "SITREP: MEXICO",
+    "summary": "Meta's unreleased chatbot fails to protect kids from exploitation in internal testing",
     "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
     "actors": [
-      "US",
-      "Syria"
+      "Meta",
+      "Kids"
     ],
     "source_count": 1,
-    "timestamp": "02:27 PM"
+    "timestamp": "06:58 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "British Museum under fire for removing references to ‘Palestine' from exhibits, sparking criticism about cultural erasure.",
+    "summary": "British Museum removes 'Palestine' from displays amid controversy, sparking backlash and criticism.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "actor1",
-      "actor2"
+      "British Museum",
+      "Elon Musk-backed Restore Britain party"
+    ],
+    "source_count": 3,
+    "timestamp": "06:58 PM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Australian IS families and Israelis arrested crossing into Syria to support Jewish settlements",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Australian IS families",
+      "Israelis",
+      "Islamic State group"
+    ],
+    "source_count": 2,
+    "timestamp": "06:58 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India navigates a shifting global landscape, influenced by emerging economies and evolving international relations.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "China",
+      "US",
+      "India"
     ],
     "source_count": 1,
-    "timestamp": "02:27 PM"
+    "timestamp": "06:58 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Congress proposes amendment to block Trump pardons, gaining Republican backing.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Speaker of House",
+      "Senate Leader"
+    ],
+    "source_count": 1,
+    "timestamp": "06:58 PM"
   }
 ];
 
