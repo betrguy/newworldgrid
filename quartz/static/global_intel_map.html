@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-17 10:52 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-02-18 20:28 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,85 +51,108 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China showcases AI, robots, and environmental efforts during Lunar New Year, amidst global market fluctuations.",
-    "emojis": "⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China"
-    ],
-    "source_count": 27,
-    "timestamp": "10:51 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Key developments in Israel include diplomatic efforts, security concerns, and shifting global policy stances.",
-    "emojis": "🔺🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Qatar's PM",
-      "Israel's FM",
-      "Macron"
-    ],
-    "source_count": 30,
-    "timestamp": "10:52 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces EU sanctions, Telegram block, and escalating tensions with India and Ukraine.",
-    "emojis": "🚢🚫⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "EU",
-      "Russia",
-      "India",
-      "Ukraine"
-    ],
-    "source_count": 15,
-    "timestamp": "10:52 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Russia, Belarus allowed to compete at Paralympics; France releases Russian tanker after fine paid",
-    "emojis": "🚢",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Russia",
-      "Belarus",
-      "Anne-Claire Legendre",
-      "Jean-Noël Barrot"
-    ],
-    "source_count": 4,
-    "timestamp": "10:52 AM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran hold nuclear talks, China cuts Treasury holdings amid shifting global economic landscape.",
-    "emojis": "☢️",
+    "summary": "US escalates tensions with Iran, amid Russia's warnings and military buildup in the Middle East.",
+    "emojis": "🪖💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump Administration",
-      "China",
+      "US",
+      "Russia",
       "Iran"
     ],
-    "source_count": 60,
-    "timestamp": "10:52 AM"
+    "source_count": 78,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Search for Nancy Guthrie, 84-yr-old mother of US presenter Savannah Guthrie, intensifies in Mexico.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Savannah Guthrie",
+      "Nancy Guthrie"
+    ],
+    "source_count": 1,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "U.N. meets on Gaza amid rising death toll, now exceeding 75,000 confirmed deaths.",
+    "emojis": "🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "U.N.",
+      "Gaza residents"
+    ],
+    "source_count": 2,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions escalate in Israel as protests call for a complete constitution, while Hamas reasserts control in Gaza.",
+    "emojis": "✈️💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hamas"
+    ],
+    "source_count": 38,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China focuses on development projects, economic reforms & green initiatives amid intensifying US-China rivalry",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "US",
+      "South Korea"
+    ],
+    "source_count": 18,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "U.S. deploys largest air power in Mideast, amid tensions and concerns about regional stability.",
+    "emojis": "🔴⚡",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "U.S."
+    ],
+    "source_count": 1,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Putin opposes US sanctions on Cuba, urges against US blockade, amid tensions with Russia.",
+    "emojis": "🚫⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "US"
+    ],
+    "source_count": 8,
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine start 3rd round of peace talks in Geneva, amid ongoing conflict and US pressure.",
-    "emojis": "🚀⚔️🕊️",
+    "summary": "Ukraine dissatisfied with talks, US sees progress, while Russia-Ukraine peace talks end without breakthrough.",
+    "emojis": "🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -138,37 +161,51 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 20,
-    "timestamp": "10:52 AM"
+    "source_count": 14,
+    "timestamp": "08:27 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "US President Donald Trump hints at providing military aid to Taiwan in response to North Korea's aggression.",
-    "emojis": "🪖",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: US-NY",
+    "summary": "Tucker Carlson claims detainment in Israeli airport, but ambassador disputes incident as routine customs check.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "US",
-      "Taiwan",
-      "North Korea"
+      "Tucker Carlson",
+      "Israeli Ambassador"
     ],
     "source_count": 1,
-    "timestamp": "10:52 AM"
+    "timestamp": "08:27 PM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "US Board of Peace for Gaza proposes plans, but funding remains uncertain amidst controversy over US involvement.",
-    "emojis": "🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: UK",
+    "summary": "Trump criticizes UK over Chagos deal, calling it 'horrendous' and 'very unfair'",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Trump Administration",
-      "Palestinian Authorities"
+      "UK",
+      "US",
+      "Trump"
     ],
-    "source_count": 2,
-    "timestamp": "10:52 AM"
+    "source_count": 1,
+    "timestamp": "08:28 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Les Wexner testifies before Congress, claiming he was 'naive' and 'conned' by Jeffrey Epstein.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Les Wexner",
+      "Jeffrey Epstein"
+    ],
+    "source_count": 1,
+    "timestamp": "08:28 PM"
   }
 ];
 
