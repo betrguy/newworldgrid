@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-22 22:02 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-02-23 18:27 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,23 +51,53 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia attacks Ukraine, escalating conflict; rallies held worldwide to mark anniversary",
-    "emojis": "⚔️🔴",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: US-NY",
+    "summary": "US President Trump faces classified documents report, while Binance employees uncover $1.7 billion sent to Iranian entities.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "The New York Times",
+      "Binance Employees",
+      "Trump"
     ],
-    "source_count": 18,
-    "timestamp": "10:01 PM"
+    "source_count": 2,
+    "timestamp": "06:26 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah disarmament efforts gain momentum amid heightened security concerns in Lebanon.",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "US Embassy",
+      "Hezbollah"
+    ],
+    "source_count": 2,
+    "timestamp": "06:26 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces violence, measles outbreak, international condemnation and controversy over West Bank moves and rhetoric.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Settlers",
+      "Israel government",
+      "India"
+    ],
+    "source_count": 27,
+    "timestamp": "06:26 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China reacts to US Supreme Court tariff ruling, urges US to lift unilateral tariffs and assess potential impact.",
-    "emojis": "",
+    "summary": "China tests nuclear weapons, expands arsenal; US claims harm national security amid trade tensions and tariffs.",
+    "emojis": "☢️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
@@ -75,110 +105,142 @@
       "US",
       "China"
     ],
-    "source_count": 24,
-    "timestamp": "10:02 PM"
+    "source_count": 27,
+    "timestamp": "06:26 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Tensions escalate between US and Iran amid potential strike, talks resume despite fears of retaliation.",
-    "emojis": "💥⚡",
+    "summary": "US-Iran tensions escalate amid planned talks, military buildup and protests, with Trump denying warnings of war.",
+    "emojis": "🪖⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
+      "Trump",
+      "US military",
       "Iran"
     ],
-    "source_count": 66,
-    "timestamp": "10:02 PM"
+    "source_count": 50,
+    "timestamp": "06:26 PM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces internal conflicts, relations with US and Gaza, while also dealing with domestic issues",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: FRANCE",
+    "summary": "French minister blocks US envoy Charles Kushner from government access amid Russia tanker seizure and Chinese New Year celebrations",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "Democrats",
-      "Ben Gvir",
-      "US government",
-      "Hamas",
-      "Israeli citizens"
+      "French minister",
+      "Charles Kushner",
+      "US",
+      "Russia",
+      "France"
     ],
-    "source_count": 21,
-    "timestamp": "10:02 PM"
+    "source_count": 3,
+    "timestamp": "06:26 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia-Putin faces criticism, nuclear talks with US & China, amid ongoing Ukraine conflict and invasion anniversary.",
+    "emojis": "⚔️🔴☢️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia-Putin",
+      "US",
+      "China",
+      "Ukraine"
+    ],
+    "source_count": 14,
+    "timestamp": "06:26 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia-Ukraine peace talks stall, EU imposes sanctions as war enters its fifth year.",
+    "emojis": "🪖⚔️🔴",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "EU",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 16,
+    "timestamp": "06:26 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "El Mencho, Mexico's top drug lord, killed in military operation.",
+    "summary": "Violence erupts across Mexico after killing of notorious cartel leader El Mencho, affecting locals and tourists.",
     "emojis": "🪖💀",
     "lat": 23.6,
     "lng": -102.5,
     "location": "MEXICO",
     "actors": [
-      "Mexico",
-      "Military"
+      "Middle East Eye",
+      "BBC"
     ],
-    "source_count": 1,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Budget fast fashion in small towns India gains popularity, shifting consumer behavior towards affordable brands.",
-    "emojis": "⚔️",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Retailers",
-      "Consumers"
-    ],
-    "source_count": 1,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces European sanctions, energy damage, and WW3 warnings amid ongoing conflict with Ukraine.",
-    "emojis": "🚀⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "EU",
-      "Hungary",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 11,
-    "timestamp": "10:02 PM"
+    "source_count": 3,
+    "timestamp": "06:26 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza struggles continue as DNC officials work on report, yoga classes offer respite to traumatized children.",
-    "emojis": "🕊️",
+    "summary": "Displaced Gazans face challenges during Ramadan, with a secret DNC report showing war stance negatively impacting Harris campaign.",
+    "emojis": "⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Democrat Officials",
-      "Children"
+      "Middle East Monitor",
+      "DNC’s",
+      "Harris campaign"
     ],
-    "source_count": 2,
-    "timestamp": "10:02 PM"
+    "source_count": 3,
+    "timestamp": "06:26 PM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Armed man killed after breaching Trump residence perimeter, Secret Service reports.",
-    "emojis": "💀",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "title": "SITREP: INDIA",
+    "summary": "India blocks Middle East Eye journalist's Twitter account in response to perceived criticism.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Secret Service"
+      "India",
+      "Middle East Eye"
     ],
     "source_count": 1,
-    "timestamp": "10:02 PM"
+    "timestamp": "06:26 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Former UK Ambassador Peter Mandelson arrested in US amid investigation into alleged misconduct related to Epstein probe",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Peter Mandelson",
+      "US authorities"
+    ],
+    "source_count": 1,
+    "timestamp": "06:26 PM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Israeli Consulate withdraws funding from Atlanta Jewish Film Festival due to juror's social media posts.",
+    "emojis": "",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "Israeli Consulate",
+      "Atlanta Jewish Film Festival jurors"
+    ],
+    "source_count": 1,
+    "timestamp": "06:27 PM"
   }
 ];
 
