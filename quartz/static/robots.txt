@@ -1,0 +1,17 @@
+# robots.txt — thenewworldgrid.com
+
+# Standard crawlers: index the live site, exclude the LLM archive files
+User-agent: Googlebot
+Disallow: /llms.txt
+Disallow: /llms-full.txt
+
+User-agent: Bingbot
+Disallow: /llms.txt
+Disallow: /llms-full.txt
+
+# Allow all other bots (including LLM agents) full access
+User-agent: *
+Allow: /
+
+# LLM content discovery
+# https://thenewworldgrid.com/llms.txt

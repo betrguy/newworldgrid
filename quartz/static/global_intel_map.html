@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-21 18:52 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-02-22 22:02 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,133 +51,134 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia attacks Ukraine, escalating conflict; rallies held worldwide to mark anniversary",
+    "emojis": "⚔️🔴",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 18,
+    "timestamp": "10:01 PM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China's outbound travel demand surges, new visa-free policies & record-breaking travel numbers amid cultural shifts.",
+    "summary": "China reacts to US Supreme Court tariff ruling, urges US to lift unilateral tariffs and assess potential impact.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "TravelMole",
-      "VisaHQ",
-      "South China Morning Post"
+      "US",
+      "China"
     ],
-    "source_count": 27,
-    "timestamp": "06:51 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "US Ambassador sparks uproar by claiming Israel has right to Middle East territory, prompting Arab outrage.",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US Ambassador",
-      "Netanyahu Gov't",
-      "Middle East Leaders"
-    ],
-    "source_count": 49,
-    "timestamp": "06:51 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ongoing conflict in Ukraine, with strikes against Russian industry and tensions over oil shipments rise.",
-    "emojis": "🪖💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Boris Johnson",
-      "Vladimir Putin",
-      "Volodymyr Zelensky"
-    ],
-    "source_count": 27,
-    "timestamp": "06:51 PM"
+    "source_count": 24,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran faces increasing US military presence and potential strikes, amidst growing anti-regime protests and diplomatic tensions.",
-    "emojis": "🪖💥⚡",
+    "summary": "Tensions escalate between US and Iran amid potential strike, talks resume despite fears of retaliation.",
+    "emojis": "💥⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran",
-      "Hezbollah"
+      "Iran"
     ],
-    "source_count": 45,
-    "timestamp": "06:51 PM"
+    "source_count": 66,
+    "timestamp": "10:02 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah vows resistance after deadly Israeli strikes in eastern Lebanon, killing 8 members.",
-    "emojis": "💥💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces internal conflicts, relations with US and Gaza, while also dealing with domestic issues",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Hezbollah",
-      "Israel"
+      "Democrats",
+      "Ben Gvir",
+      "US government",
+      "Hamas",
+      "Israeli citizens"
     ],
-    "source_count": 4,
-    "timestamp": "06:51 PM"
+    "source_count": 21,
+    "timestamp": "10:02 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "El Mencho, Mexico's top drug lord, killed in military operation.",
+    "emojis": "🪖💀",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Mexico",
+      "Military"
+    ],
+    "source_count": 1,
+    "timestamp": "10:02 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Budget fast fashion in small towns India gains popularity, shifting consumer behavior towards affordable brands.",
+    "emojis": "⚔️",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Retailers",
+      "Consumers"
+    ],
+    "source_count": 1,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "NATO allies counter Russia with low-cost drones, while Putin tightens internet control and Russian forces exploit visa scams.",
-    "emojis": "✈️",
+    "summary": "Russia faces European sanctions, energy damage, and WW3 warnings amid ongoing conflict with Ukraine.",
+    "emojis": "🚀⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "EU",
+      "Hungary",
       "Russia",
-      "NATO",
-      "Putin",
-      "Colombian tourist"
+      "Ukraine"
     ],
-    "source_count": 8,
-    "timestamp": "06:51 PM"
+    "source_count": 11,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli airstrikes kill 2 Palestinians in Gaza amid Ramadan, sparking tensions and protests.",
-    "emojis": "💥⚡",
+    "summary": "Gaza struggles continue as DNC officials work on report, yoga classes offer respite to traumatized children.",
+    "emojis": "🕊️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli army",
-      "Palestinians"
+      "Democrat Officials",
+      "Children"
     ],
-    "source_count": 1,
-    "timestamp": "06:52 PM"
+    "source_count": 2,
+    "timestamp": "10:02 PM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "2026 San Francisco Chinese New Year Parade details to be announced",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "06:52 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Trump's Iran policy relies on perceived weakness, potentially misjudging Iranian resilience and response.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: US-DC",
+    "summary": "Armed man killed after breaching Trump residence perimeter, Secret Service reports.",
+    "emojis": "💀",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "US-NY",
-      "Iran"
+      "Secret Service"
     ],
     "source_count": 1,
-    "timestamp": "06:52 PM"
+    "timestamp": "10:02 PM"
   }
 ];
 

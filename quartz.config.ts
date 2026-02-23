@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     
     // --- SEO CRITICAL UPDATES ---
     baseUrl: "thenewworldgrid.com", // NO "https://" here, just the domain
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "archive"],
     defaultDateType: "modified",
     
     // The "Meta Description" for Google
