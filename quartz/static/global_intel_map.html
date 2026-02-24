@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-23 18:27 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-02-24 11:56 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,196 +51,166 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: US-NY",
-    "summary": "US President Trump faces classified documents report, while Binance employees uncover $1.7 billion sent to Iranian entities.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "The New York Times",
-      "Binance Employees",
-      "Trump"
-    ],
-    "source_count": 2,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah disarmament efforts gain momentum amid heightened security concerns in Lebanon.",
-    "emojis": "",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "US Embassy",
-      "Hezbollah"
-    ],
-    "source_count": 2,
-    "timestamp": "06:26 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces violence, measles outbreak, international condemnation and controversy over West Bank moves and rhetoric.",
+    "summary": "India's PM Modi visits Israel, amid protests and diplomatic efforts to strengthen ties.",
     "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Settlers",
-      "Israel government",
-      "India"
+      "PM Modi",
+      "Indian protesters"
     ],
-    "source_count": 27,
-    "timestamp": "06:26 PM"
+    "source_count": 36,
+    "timestamp": "11:56 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China tests nuclear weapons, expands arsenal; US claims harm national security amid trade tensions and tariffs.",
-    "emojis": "☢️⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US",
-      "China"
-    ],
-    "source_count": 27,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions escalate amid planned talks, military buildup and protests, with Trump denying warnings of war.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "US military",
-      "Iran"
-    ],
-    "source_count": 50,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "French minister blocks US envoy Charles Kushner from government access amid Russia tanker seizure and Chinese New Year celebrations",
+    "title": "SITREP: US-DC",
+    "summary": "States experiment with ICE resistance strategies amid Congressional gridlock on reforms.",
     "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "French minister",
-      "Charles Kushner",
-      "US",
-      "Russia",
-      "France"
+      "State Governments",
+      "ICE"
     ],
-    "source_count": 3,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia-Putin faces criticism, nuclear talks with US & China, amid ongoing Ukraine conflict and invasion anniversary.",
-    "emojis": "⚔️🔴☢️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia-Putin",
-      "US",
-      "China",
-      "Ukraine"
-    ],
-    "source_count": 14,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia-Ukraine peace talks stall, EU imposes sanctions as war enters its fifth year.",
-    "emojis": "🪖⚔️🔴",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "EU",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 16,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Violence erupts across Mexico after killing of notorious cartel leader El Mencho, affecting locals and tourists.",
-    "emojis": "🪖💀",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Middle East Eye",
-      "BBC"
-    ],
-    "source_count": 3,
-    "timestamp": "06:26 PM"
+    "source_count": 1,
+    "timestamp": "11:56 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Displaced Gazans face challenges during Ramadan, with a secret DNC report showing war stance negatively impacting Harris campaign.",
-    "emojis": "⚔️",
+    "summary": "Aid groups in Gaza petition Israeli court against new rules banning their work",
+    "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Middle East Monitor",
-      "DNC’s",
-      "Harris campaign"
+      "Israeli government",
+      "aid groups"
     ],
-    "source_count": 3,
-    "timestamp": "06:26 PM"
+    "source_count": 2,
+    "timestamp": "11:56 AM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India blocks Middle East Eye journalist's Twitter account in response to perceived criticism.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: IRAN",
+    "summary": "US-Iran nuclear talks stall, amid strikes and protests in Iran, with Lebanon urging caution on Hezbollah involvement.",
+    "emojis": "💥☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "India",
-      "Middle East Eye"
+      "US",
+      "Iran",
+      "Lebanon",
+      "Hezbollah"
     ],
-    "source_count": 1,
-    "timestamp": "06:26 PM"
+    "source_count": 40,
+    "timestamp": "11:56 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces trade shift, tech competition, and geopolitical tensions with US and Japan.",
+    "emojis": "⚔️⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "US",
+      "Japan",
+      "Vietnam"
+    ],
+    "source_count": 37,
+    "timestamp": "11:56 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia accuses Ukraine of acquiring nuclear weapon, while Kyiv denies claims amid escalating conflict",
+    "emojis": "⚔️🔴☢️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 30,
+    "timestamp": "11:56 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Former UK Ambassador Peter Mandelson arrested in US amid investigation into alleged misconduct related to Epstein probe",
-    "emojis": "",
+    "summary": "UK councillors pledge to uphold Palestinian rights, sanctions Georgian TV channels for Russian disinformation.",
+    "emojis": "🚫",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Peter Mandelson",
-      "US authorities"
+      "Middle East Eye",
+      "U.S. News & World Report"
     ],
-    "source_count": 1,
-    "timestamp": "06:26 PM"
+    "source_count": 2,
+    "timestamp": "11:56 AM"
   },
   {
-    "title": "SITREP: US-GA",
-    "summary": "Israeli Consulate withdraws funding from Atlanta Jewish Film Festival due to juror's social media posts.",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia shows little compromise as war enters fifth year, escalating tensions with Ukraine and global powers.",
+    "emojis": "✈️⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Israeli Consulate",
-      "Atlanta Jewish Film Festival jurors"
+      "Ukraine",
+      "Russia",
+      "USA",
+      "Europe"
+    ],
+    "source_count": 10,
+    "timestamp": "11:56 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon warns of potential Israeli attack on airport after being informed by Western countries.",
+    "emojis": "⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Western countries",
+      "Lebanon"
     ],
     "source_count": 1,
-    "timestamp": "06:27 PM"
+    "timestamp": "11:56 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Armed group frees 23 inmates from Mexico jail in Puerto Vallarta, sparking violence and manhunt.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Mexico",
+      "armed group"
+    ],
+    "source_count": 1,
+    "timestamp": "11:56 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Iran prepares for potential war amid normalcy, with global implications and involvement from US-NY region.",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Iran",
+      "US",
+      "NY"
+    ],
+    "source_count": 1,
+    "timestamp": "11:56 AM"
   }
 ];
 
