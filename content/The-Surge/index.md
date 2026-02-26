@@ -10,43 +10,43 @@
 | Company | Open Roles | Delta |
 |---------|------------|-------|
 | Helion Energy | 0 | **-114** |
-| Anduril | 1543 | **+311** |
-| Commonwealth Fusion | 42 | **+1** |
-| Oklo | 67 | -- |
-| Kairos Power | 54 | **+5** |
+| Anduril | 1553 | **+321** |
+| Commonwealth Fusion | 41 | -- |
+| Oklo | 65 | **-2** |
+| Kairos Power | 51 | **+2** |
 | Radiant | 0 | **-62** |
-| SpaceX | 1531 | **+89** |
+| SpaceX | 1550 | **+108** |
 
 ### 📊 Company Analysis
 **Helion Energy** reduced listings by **114** since Jan 24. Helion Energy has **0** open roles. Helion is developing the world's first fusion power plant, aiming to deliver electricity by 2028 using pulsed non-ignition fusion.
 
-**Anduril** posted **+311** job listings since Jan 24. Anduril has **1543** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
+**Anduril** posted **+321** job listings since Jan 24. Anduril has **1553** open roles. Anduril is a cutting-edge American defense technology company specializing in autonomous systems and AI-powered military hardware.
 
-**Commonwealth Fusion** posted **+1** job listings since Jan 24. Commonwealth Fusion has **42** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
+**Commonwealth Fusion** maintained steady hiring since Jan 24. Commonwealth Fusion has **41** open roles. Commonwealth Fusion Systems is building SPARC, a compact tokamak designed to demonstrate net energy gain from fusion.
 
-**Oklo** maintained steady hiring since Jan 24. Oklo has **67** open roles. Oklo is developing Aurora, a compact fast fission reactor designed to recycle nuclear waste into clean energy.
+**Oklo** reduced listings by **2** since Jan 24. Oklo has **65** open roles. Oklo is developing Aurora, a compact fast fission reactor designed to recycle nuclear waste into clean energy.
 
-**Kairos Power** posted **+5** job listings since Jan 24. Kairos Power has **54** open roles. Kairos Power is building Hermes, a fluoride salt-cooled high-temperature reactor focused on low-cost nuclear deployment.
+**Kairos Power** posted **+2** job listings since Jan 24. Kairos Power has **51** open roles. Kairos Power is building Hermes, a fluoride salt-cooled high-temperature reactor focused on low-cost nuclear deployment.
 
 **Radiant** reduced listings by **62** since Jan 24. Radiant has **0** open roles. Radiant is developing Kaleidos, a portable nuclear microreactor for remote and off-grid power applications.
 
-**SpaceX** posted **+89** job listings since Jan 24. SpaceX has **1531** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
+**SpaceX** posted **+108** job listings since Jan 24. SpaceX has **1550** open roles. SpaceX is pioneering reusable rocket technology and satellite internet, with deep energy infrastructure needs for Starship manufacturing.
 
 > [!abstract] SYSTEM STATUS
-> **Scan Time:** 2026-02-24 11:56
-> **Report ID:** `20260224-11`
+> **Scan Time:** 2026-02-25 21:00
+> **Report ID:** `20260225-21`
 
 <!-- NEWS_HUNTER_SURGE_START -->
 
 <div id="intelligence-brief"></div>
 
-## Energy Intelligence Brief - Feb 24, 2026
+## Energy Intelligence Brief - Feb 25, 2026
 
-The EAT tracker signals that defense companies are scaling up significantly, with **Anduril** hiring an additional 311 engineers to reach 1543 open job listings, and **Kairos Power** adding 5 more staff to reach 54 open positions. These numbers imply a growing demand for autonomous systems.
+The hiring velocity of **SpaceX** has accelerated to **1550** open job listings, an increase of **108** from the previous count and a **7%** growth rate. **Anduril**, another defense robotics company, is scaling up its workforce by 321 more employees, reaching a total of **1553** open positions.
 
-Meanwhile, energy producers such as **SpaceX**, which scaled up its workforce by 89 engineers to 1531 open job listings, are also expanding. The EAT tracker suggests that this growth is indicative of an increasing supply of energy.
+These hiring signals are indicative of industrial acceleration in the energy sector. The rapid expansion of companies like **SpaceX**, which build launch infrastructure, suggests that the demand for energy is growing. Conversely, the increase in hiring at defense robotics companies like **Anduril**, which produce autonomous systems, implies that there is a guaranteed market for their products.
 
-The juxtaposition of these two trends - more megawatts coming online and defense systems scaling up - hints at industrial acceleration. These numbers indicate a maturation of the energy infrastructure supporting both sectors, which in turn supports their expansion.
+The EAT tracker signals that both producers and consumers are scaling up, with **SpaceX**'s growth indicating an increasing need for energy to support its operations, while **Anduril**'s expansion suggests a demand for energy to power its own products.
 
 ---
 *Generated by News Hunter | Source: RSS feeds, EAT signals*

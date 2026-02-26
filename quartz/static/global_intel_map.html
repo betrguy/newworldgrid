@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-24 11:56 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-02-25 21:01 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,166 +51,134 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine war intensifies with escalating tensions, new troop deployments and potential nuclear incident fears.",
+    "emojis": "🚀✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Putin",
+      "Zelenskyy",
+      "Trump"
+    ],
+    "source_count": 10,
+    "timestamp": "09:01 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "India's PM Modi visits Israel, amid protests and diplomatic efforts to strengthen ties.",
-    "emojis": "",
+    "summary": "India strengthens ties with Israel, while Israeli military expands presence and faces criticism over journalist killings.",
+    "emojis": "🪖🚢",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "PM Modi",
-      "Indian protesters"
+      "India",
+      "Israel"
     ],
     "source_count": 36,
-    "timestamp": "11:56 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "States experiment with ICE resistance strategies amid Congressional gridlock on reforms.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "State Governments",
-      "ICE"
-    ],
-    "source_count": 1,
-    "timestamp": "11:56 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Aid groups in Gaza petition Israeli court against new rules banning their work",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli government",
-      "aid groups"
-    ],
-    "source_count": 2,
-    "timestamp": "11:56 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US-Iran nuclear talks stall, amid strikes and protests in Iran, with Lebanon urging caution on Hezbollah involvement.",
-    "emojis": "💥☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran",
-      "Lebanon",
-      "Hezbollah"
-    ],
-    "source_count": 40,
-    "timestamp": "11:56 AM"
+    "timestamp": "09:01 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China faces trade shift, tech competition, and geopolitical tensions with US and Japan.",
-    "emojis": "⚔️⚡",
+    "summary": "China strengthens economic ties, boosts investment in Bangladesh and improves relations with Germany and Japan.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "US",
+      "Germany",
       "Japan",
-      "Vietnam"
+      "Beijing"
     ],
-    "source_count": 37,
-    "timestamp": "11:56 AM"
+    "source_count": 31,
+    "timestamp": "09:01 PM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia accuses Ukraine of acquiring nuclear weapon, while Kyiv denies claims amid escalating conflict",
-    "emojis": "⚔️🔴☢️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: IRAN",
+    "summary": "US, Iran to resume nuclear talks amid military threat and sanctions",
+    "emojis": "🪖☢️🚫",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "US",
+      "Iran"
     ],
-    "source_count": 30,
-    "timestamp": "11:56 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK councillors pledge to uphold Palestinian rights, sanctions Georgian TV channels for Russian disinformation.",
-    "emojis": "🚫",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Middle East Eye",
-      "U.S. News & World Report"
-    ],
-    "source_count": 2,
-    "timestamp": "11:56 AM"
+    "source_count": 52,
+    "timestamp": "09:01 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia shows little compromise as war enters fifth year, escalating tensions with Ukraine and global powers.",
-    "emojis": "✈️⚔️⚡",
+    "summary": "Russia strengthens military, sanctions discussion amidst war tensions with Ukraine and potential hypersonic missile deployment.",
+    "emojis": "🚀🪖⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Ukraine",
-      "Russia",
-      "USA",
-      "Europe"
+      "RUSSIA"
     ],
-    "source_count": 10,
-    "timestamp": "11:56 AM"
+    "source_count": 8,
+    "timestamp": "09:01 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon warns of potential Israeli attack on airport after being informed by Western countries.",
+    "title": "SITREP: GERMANY",
+    "summary": "Germany's Merz announces Airbus order to China during meeting with Xi, amid tensions with US,",
+    "emojis": "⚡",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Unknown"
+    ],
+    "source_count": 2,
+    "timestamp": "09:01 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Pentagon prepares to blacklist Anthropic, Trump teases AI electricity pledge and demands Muslim Congress members' deportation.",
     "emojis": "⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "Israel",
-      "Western countries",
-      "Lebanon"
+      "US-Pentagon",
+      "Trump",
+      "Congress",
+      "Tech Giants"
     ],
-    "source_count": 1,
-    "timestamp": "11:56 AM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Armed group frees 23 inmates from Mexico jail in Puerto Vallarta, sparking violence and manhunt.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mexico",
-      "armed group"
-    ],
-    "source_count": 1,
-    "timestamp": "11:56 AM"
+    "source_count": 3,
+    "timestamp": "09:01 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Iran prepares for potential war amid normalcy, with global implications and involvement from US-NY region.",
-    "emojis": "⚔️",
+    "summary": "Escalating tensions amid US embassy services offer to West Bank settlement, amidst AI system preparedness concerns.",
+    "emojis": "⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "Iran",
       "US",
-      "NY"
+      "AI systems",
+      "West Bank"
+    ],
+    "source_count": 2,
+    "timestamp": "09:01 PM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Armenian refugees face statelessness, nation-building challenges in French Mandate Syria after 1918.",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Victoria Abrahamyan",
+      "French authorities"
     ],
     "source_count": 1,
-    "timestamp": "11:56 AM"
+    "timestamp": "09:01 PM"
   }
 ];
 
