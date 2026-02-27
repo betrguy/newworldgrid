@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-02-25 21:01 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-02-26 19:34 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,134 +51,161 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine war intensifies with escalating tensions, new troop deployments and potential nuclear incident fears.",
-    "emojis": "🚀✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: IRAN",
+    "summary": "Trump moves more military might to the Middle East as Iran fails to make deal ah",
+    "emojis": "🪖☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Putin",
-      "Zelenskyy",
-      "Trump"
+      "google_iran",
+      "google_middle_east"
     ],
-    "source_count": 10,
-    "timestamp": "09:01 PM"
+    "source_count": 67,
+    "timestamp": "07:33 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "U.S. and Iranian Officials Wrap Up Latest Round of Talks - The New York Times",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "axios",
+      "google_iran"
+    ],
+    "source_count": 2,
+    "timestamp": "07:33 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "India strengthens ties with Israel, while Israeli military expands presence and faces criticism over journalist killings.",
-    "emojis": "🪖🚢",
+    "summary": "India’s Shift In Middle East: From Neutrality To Strategic Partnership With Isra",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "India",
-      "Israel"
+      "google_geopolitics",
+      "google_israel",
+      "google_middle_east"
     ],
-    "source_count": 36,
-    "timestamp": "09:01 PM"
+    "source_count": 20,
+    "timestamp": "07:33 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "A Belarusian woman complained that her son was seriously wounded while fighting ",
+    "emojis": "💥🚀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 10,
+    "timestamp": "07:33 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China strengthens economic ties, boosts investment in Bangladesh and improves relations with Germany and Japan.",
+    "summary": "China Strengthens Export Controls While Trump Eases Tech Restrictions - Fine Day",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "Germany",
-      "Japan",
-      "Beijing"
+      "google_china"
     ],
-    "source_count": 31,
-    "timestamp": "09:01 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US, Iran to resume nuclear talks amid military threat and sanctions",
-    "emojis": "🪖☢️🚫",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 52,
-    "timestamp": "09:01 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia strengthens military, sanctions discussion amidst war tensions with Ukraine and potential hypersonic missile deployment.",
-    "emojis": "🚀🪖⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "RUSSIA"
-    ],
-    "source_count": 8,
-    "timestamp": "09:01 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Germany's Merz announces Airbus order to China during meeting with Xi, amid tensions with US,",
-    "emojis": "⚡",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Unknown"
-    ],
-    "source_count": 2,
-    "timestamp": "09:01 PM"
+    "source_count": 30,
+    "timestamp": "07:33 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon prepares to blacklist Anthropic, Trump teases AI electricity pledge and demands Muslim Congress members' deportation.",
-    "emojis": "⚔️",
+    "summary": "US-DC negotiations stalled; Ghislaine Maxwell linked Bill Clinton to Epstein's orbit",
+    "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "US-Pentagon",
-      "Trump",
-      "Congress",
-      "Tech Giants"
-    ],
-    "source_count": 3,
-    "timestamp": "09:01 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Escalating tensions amid US embassy services offer to West Bank settlement, amidst AI system preparedness concerns.",
-    "emojis": "⚡",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "US",
-      "AI systems",
-      "West Bank"
+      "Pentagon",
+      "Bill Clinton",
+      "Ghislaine Maxwell"
     ],
     "source_count": 2,
-    "timestamp": "09:01 PM"
+    "timestamp": "07:33 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Armenian refugees face statelessness, nation-building challenges in French Mandate Syria after 1918.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine peace talks continue amid ongoing conflict, with Russia refusing deadlines for ending war.",
+    "emojis": "⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Victoria Abrahamyan",
-      "French authorities"
+      "Russia",
+      "Ukraine",
+      "US",
+      "China",
+      "South Africa"
+    ],
+    "source_count": 16,
+    "timestamp": "07:33 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli airstrikes kill Syrian teenager in Bekaa Valley, Lebanon.",
+    "emojis": "💥⚔️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Syria"
+    ],
+    "source_count": 2,
+    "timestamp": "07:33 PM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "US citizens on stolen boat engaged in fatal gunfight with Cuban coast guard.",
+    "emojis": "💀",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "US citizens",
+      "Cuban coast guard"
     ],
     "source_count": 1,
-    "timestamp": "09:01 PM"
+    "timestamp": "07:34 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli intelligence agent charged with smuggling goods into Gaza, amid ongoing conflict and tensions.",
+    "emojis": "⚔️⚡",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Gaza"
+    ],
+    "source_count": 1,
+    "timestamp": "07:34 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK accused of using Israeli spyware to aid genocide in Xinjiang region",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "Israel"
+    ],
+    "source_count": 1,
+    "timestamp": "07:34 PM"
   }
 ];
 
