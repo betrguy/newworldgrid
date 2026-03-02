@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-01 10:34 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-03-02 12:32 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,91 +52,79 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "At least 153 dead after reported strike on school, Iran says",
-    "emojis": "💥⚔️",
+    "summary": "Trump says war against Iran moving \"substantially ahead\" of schedule",
+    "emojis": "🪖💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "google_iran",
-      "bbc_world",
+      "axios",
       "google_israel",
-      "axios"
+      "google_geopolitics"
     ],
-    "source_count": 103,
-    "timestamp": "10:33 AM"
+    "source_count": 92,
+    "timestamp": "12:31 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China's economy, politics, and tech sectors continue to evolve with new developments and guidelines.",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China"
+    ],
+    "source_count": 10,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Iran launches missile attacks on Israel, causing injuries and fatalities, amid escalating geopolitical tensions.",
+    "emojis": "⚔️🚀⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Iran",
+      "Israel",
+      "Hezbollah"
+    ],
+    "source_count": 8,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Brazil and Mexico offer safe haven for investors amid Middle East turmoil",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Brazil",
+      "Mexico"
+    ],
+    "source_count": 1,
+    "timestamp": "12:32 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia warns of oil choke due to closure of Strait of Hormuz - Reuters",
+    "summary": "Russia addresses global concerns on trade, Middle East tensions and Ukraine while maintaining diplomatic focus.",
     "emojis": "⚔️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "google_russia"
+      "Putin",
+      "Saudi MBS"
     ],
-    "source_count": 12,
-    "timestamp": "10:33 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Live updates: Joint US - Israel military offensive Operation Epic Fury - LiveNOW",
-    "emojis": "🪖💥🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 9,
-    "timestamp": "10:33 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Beyond Geopolitics: What’s Blocking India Inc’s C-Suite from Achieving ESG Targe",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "google_geopolitics"
-    ],
-    "source_count": 1,
-    "timestamp": "10:34 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China Calls for Cessation of Military Operations, De-escalation in Middle East -",
-    "emojis": "🪖📈",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "google_china",
-      "google_geopolitics"
-    ],
-    "source_count": 16,
-    "timestamp": "10:34 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK citizens in Middle East urged to register, personnel near Iranian missile strike site",
-    "emojis": "💥🚀",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "British and Irish citizens",
-      "UK personnel"
-    ],
-    "source_count": 2,
-    "timestamp": "10:34 AM"
+    "source_count": 13,
+    "timestamp": "12:32 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia's war in Ukraine enters its fifth year, with ongoing strikes and casualties, no end in sight.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Ukraine-Russia conflict escalates with drone attacks, peace talks planned in Abu Dhabi, amid ongoing violence.",
+    "emojis": "✈️⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -144,22 +132,93 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 8,
-    "timestamp": "10:34 AM"
+    "source_count": 7,
+    "timestamp": "12:32 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "Belgium and France seize Russian 'shadow fleet' tanker in North Sea.",
-    "emojis": "🚢",
+    "summary": "France faces worst air travel disruption since Covid due to Middle East war, mobilizing aid for stranded nationals.",
+    "emojis": "⚔️",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "Belgium",
-      "France"
+      "FRANCE",
+      "Air France-KLM"
+    ],
+    "source_count": 3,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India and Canada sign landmark nuclear energy deal, including uranium supply, to reset diplomatic ties.",
+    "emojis": "☢️",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Mark Carn",
+      "India",
+      "Canada"
     ],
     "source_count": 1,
-    "timestamp": "10:34 AM"
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "US senior envoy explores potential APEC roles during upcoming Taipei trip.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "US Envoy",
+      "Taiwan"
+    ],
+    "source_count": 1,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan continues to acquire Chinese arms despite growing concerns over credibility and potential security risks.",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Pakistani government",
+      "Chinese manufacturers"
+    ],
+    "source_count": 1,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK DB sponsor covenant resilience threatened by rising geopolitical risk in Middle East conflict.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      " actor1: UK DB sponsor",
+      " actor2: Investment & Pensions Europe",
+      " actor3: The Guardian"
+    ],
+    "source_count": 2,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "IRC programs in Lebanon suspended due to escalating hostilities putting staff and clients at risk.",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "International Rescue Committee"
+    ],
+    "source_count": 1,
+    "timestamp": "12:32 PM"
   }
 ];
 
