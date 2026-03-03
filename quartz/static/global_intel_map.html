@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-03 15:36 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-03-03 15:53 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,191 +52,201 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran war live updates: U.S. shuts embassies after drone attacks; Israel stages i",
+    "summary": "Iran-US conflict escalates, with US attacks and Iranian retaliation, sparking global market fluctuations and regional instability.",
     "emojis": "✈️⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "google_middle_east",
-      "google_iran",
-      "google_russia",
-      "google_israel"
+      "US",
+      "Iran",
+      "Israel",
+      "UK",
+      "Russia"
     ],
-    "source_count": 73,
-    "timestamp": "03:35 PM"
+    "source_count": 77,
+    "timestamp": "03:52 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "Country by country, here’s how the unfolding war is affecting the Middle East - ",
-    "emojis": "⚔️",
+    "summary": "US-CA tensions escalate, sparking regional instability and global concern",
+    "emojis": "⚔️⚡",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "google_middle_east"
+      "US",
+      "CA"
     ],
     "source_count": 1,
-    "timestamp": "03:35 PM"
+    "timestamp": "03:52 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Western Governments Rush to Evacuate Travelers in the Middle East - The New York",
-    "emojis": "",
+    "summary": "Western governments evacuate travelers from the Middle East amid escalating tensions",
+    "emojis": "⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "google_middle_east"
+      "Western Governments",
+      "travelers"
     ],
     "source_count": 1,
-    "timestamp": "03:35 PM"
+    "timestamp": "03:52 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel Advances in Lebanon and Seizes More Land, as Hezbollah Fight Escalates - ",
+    "summary": "Israel advances in Lebanon, detains Turkish journalists, and plans airlift as Hezbollah escalates conflict.",
     "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "google_israel"
+      "Israel",
+      "Hezbollah",
+      "Turkey",
+      "US"
     ],
     "source_count": 9,
-    "timestamp": "03:35 PM"
+    "timestamp": "03:52 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia’s central bank files lawsuit in Luxembourg challenging the freezing of Ru",
-    "emojis": "🚫",
+    "summary": "Russia takes legal action, resumes space work, and returns to cultural events amidst ongoing sanctions and conflicts.",
+    "emojis": "⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "google_russia"
+      "Russia",
+      "EU",
+      "UK",
+      "Russia",
+      "US (Epstein)",
+      "Russia",
+      "Iran",
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 14,
-    "timestamp": "03:35 PM"
+    "source_count": 13,
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Nvidia's China Access Questioned - TradingView",
+    "summary": "China faces trade, security, and political challenges, with rare earth ban sparking Japan-India partnership.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "google_china"
+      "China",
+      "Japan",
+      "India"
     ],
     "source_count": 12,
-    "timestamp": "03:35 PM"
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Settlement of war between Russia and Ukraine is \"very high\" - Trump - Українські",
+    "summary": "Russia and Ukraine negotiations show signs of progress, with Trump expressing a high chance of settlement.",
     "emojis": "⚔️🔴",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "google_russia"
+      "Trump",
+      "Russia",
+      "Ukraine"
     ],
     "source_count": 2,
-    "timestamp": "03:35 PM"
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "White House rationale for war keeps shifting - The Washington Post",
-    "emojis": "⚔️",
+    "summary": "US-DC tensions rise as White House shifts war rationale, fueling uncertainty and speculation.",
+    "emojis": "⚔️⚡",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "google_iran"
+      "Washington Post",
+      "White House"
     ],
     "source_count": 1,
-    "timestamp": "03:35 PM"
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "Macron says France is sending its aircraft carrier to the Mediterranean - France",
-    "emojis": "✈️",
+    "summary": "France deploys aircraft carrier to Mediterranean amid unspecified tensions",
+    "emojis": "✈️⚡",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "google_middle_east"
+      "Macron",
+      "France"
     ],
     "source_count": 1,
-    "timestamp": "03:36 PM"
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: GERMANY",
-    "summary": "Joschka Fischer Urges Tourism Industry to Address Geopolitical Risks at ITB Berl",
+    "summary": "Joschka Fischer advises tourism industry to address geopolitical risks at ITB Berlin 2026.",
     "emojis": "",
     "lat": 51.1,
     "lng": 10.4,
     "location": "GERMANY",
     "actors": [
-      "google_geopolitics"
+      "Joschka Fischer",
+      "tourism industry"
     ],
     "source_count": 1,
-    "timestamp": "03:36 PM"
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: US-GA",
-    "summary": "Guilty verdict for US father of teenage school shooter",
+    "summary": "US father Colin Gray guilty of failure to prevent son's mass shooting, killing 4 at high school.",
     "emojis": "",
     "lat": 33.74,
     "lng": -84.38,
     "location": "US-GA",
     "actors": [
-      "bbc_world"
+      "US",
+      "Colin Gray"
     ],
     "source_count": 1,
-    "timestamp": "03:36 PM"
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "We need more updates, say British nationals stuck in Middle East - BBC",
+    "summary": "UK maintains close ties with US amid criticism from Trump, while addressing British nationals stuck in the Middle East",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "google_middle_east",
-      "google_iran"
+      "BBC",
+      "UK minister",
+      "Trump"
     ],
     "source_count": 2,
-    "timestamp": "03:36 PM"
+    "timestamp": "03:53 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "US closes 3 Gulf embassies, urges Americans to leave, sparking speculation of a large-scale operation.",
-    "emojis": "",
+    "summary": "US closes 3 Gulf embassies amid Middle East tensions, fueling speculation about a potential Donald Trump move.",
+    "emojis": "⚡",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
+      "The Times of India",
       "US",
       "Donald Trump"
     ],
     "source_count": 1,
-    "timestamp": "03:36 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah drags Lebanon into another war, leaving the country battered and isolated.",
-    "emojis": "⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Hezbollah",
-      "Lebanon"
-    ],
-    "source_count": 1,
-    "timestamp": "03:36 PM"
+    "timestamp": "03:53 PM"
   }
 ];
 
