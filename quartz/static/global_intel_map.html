@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-03 15:53 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-03-03 16:09 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,24 +52,57 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran-US conflict escalates, with US attacks and Iranian retaliation, sparking global market fluctuations and regional instability.",
-    "emojis": "✈️⚔️",
+    "summary": "US escalates tensions with Iran, amid attacks, war powers debate, and shifting global market dynamics.",
+    "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran",
-      "Israel",
-      "UK",
-      "Russia"
+      "Iran"
     ],
-    "source_count": 77,
-    "timestamp": "03:52 PM"
+    "source_count": 80,
+    "timestamp": "04:09 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia tackles sanctions, missile deals, and international relations amid ongoing global tensions and business challenges.",
+    "emojis": "🚀🚫⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "US",
+      "Venezuela",
+      "India",
+      "EU",
+      "UK"
+    ],
+    "source_count": 11,
+    "timestamp": "04:09 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces policy challenges, trade disputes, and turmoil in the Middle East and Iran-Saudi Arabia conflict",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "EU",
+      "Japan",
+      "India",
+      "Iran",
+      "Saudi Arabia"
+    ],
+    "source_count": 9,
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "US-CA tensions escalate, sparking regional instability and global concern",
+    "summary": "US-CA situation: escalating tensions in the Middle East",
     "emojis": "⚔️⚡",
     "lat": 34.05,
     "lng": -118.24,
@@ -79,25 +112,25 @@
       "CA"
     ],
     "source_count": 1,
-    "timestamp": "03:52 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Western governments evacuate travelers from the Middle East amid escalating tensions",
-    "emojis": "⚡",
+    "summary": "Western Governments rush to evacuate travelers from the Middle East amid unknown threats, amid Lutnick's Epstein ties testimony",
+    "emojis": "⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "Western Governments",
-      "travelers"
+      "Howard Lutnick"
     ],
-    "source_count": 1,
-    "timestamp": "03:52 PM"
+    "source_count": 2,
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel advances in Lebanon, detains Turkish journalists, and plans airlift as Hezbollah escalates conflict.",
+    "summary": "Israel escalates conflict in Lebanon, detains journalists, and prepares airlift to rescue stranded citizens.",
     "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
@@ -105,52 +138,15 @@
     "actors": [
       "Israel",
       "Hezbollah",
-      "Turkey",
-      "US"
+      "Turkey"
     ],
     "source_count": 9,
-    "timestamp": "03:52 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia takes legal action, resumes space work, and returns to cultural events amidst ongoing sanctions and conflicts.",
-    "emojis": "⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "EU",
-      "UK",
-      "Russia",
-      "US (Epstein)",
-      "Russia",
-      "Iran",
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 13,
-    "timestamp": "03:53 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces trade, security, and political challenges, with rare earth ban sparking Japan-India partnership.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Japan",
-      "India"
-    ],
-    "source_count": 12,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine negotiations show signs of progress, with Trump expressing a high chance of settlement.",
-    "emojis": "⚔️🔴",
+    "summary": "Tensions high as Trump suggests settlement, amid reports of Ukraine's invasion and Russia's involvement.",
+    "emojis": "⚔️🔴⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -160,40 +156,40 @@
       "Ukraine"
     ],
     "source_count": 2,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "US-DC tensions rise as White House shifts war rationale, fueling uncertainty and speculation.",
-    "emojis": "⚔️⚡",
+    "summary": "White House justifies war with changing rationale, sparking concerns among lawmakers and the public.",
+    "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
       "Washington Post",
-      "White House"
+      "US government"
     ],
     "source_count": 1,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France deploys aircraft carrier to Mediterranean amid unspecified tensions",
+    "summary": "France deploys aircraft carrier to Mediterranean amid unspecified tensions.",
     "emojis": "✈️⚡",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "Macron",
-      "France"
+      "France",
+      "Macron"
     ],
     "source_count": 1,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: GERMANY",
-    "summary": "Joschka Fischer advises tourism industry to address geopolitical risks at ITB Berlin 2026.",
-    "emojis": "",
+    "summary": "Joschka Fischer warns tourism industry about geopolitical risks at ITB Berlin 2026",
+    "emojis": "⚔️",
     "lat": 51.1,
     "lng": 10.4,
     "location": "GERMANY",
@@ -202,51 +198,37 @@
       "tourism industry"
     ],
     "source_count": 1,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: US-GA",
-    "summary": "US father Colin Gray guilty of failure to prevent son's mass shooting, killing 4 at high school.",
+    "summary": "US father Colin Gray found guilty of failing to prevent his teenage son's school shooting",
     "emojis": "",
     "lat": 33.74,
     "lng": -84.38,
     "location": "US-GA",
     "actors": [
-      "US",
-      "Colin Gray"
+      "Colin Gray",
+      "US father",
+      "teenage son"
     ],
     "source_count": 1,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK maintains close ties with US amid criticism from Trump, while addressing British nationals stuck in the Middle East",
+    "summary": "British nationals stuck in Middle East amid uncertain US-UK relations post-Trump criticism",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "BBC",
-      "UK minister",
-      "Trump"
+      "Trump",
+      "UK minister"
     ],
     "source_count": 2,
-    "timestamp": "03:53 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "US closes 3 Gulf embassies amid Middle East tensions, fueling speculation about a potential Donald Trump move.",
-    "emojis": "⚡",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "The Times of India",
-      "US",
-      "Donald Trump"
-    ],
-    "source_count": 1,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:09 PM"
   }
 ];
 
