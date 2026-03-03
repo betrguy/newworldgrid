@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-02 23:06 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-03 15:36 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,147 +51,192 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China sees personnel changes, economic shifts, and military drills amidst its national congress meeting.",
-    "emojis": "🪖",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Renesas Electronics",
-      "US"
-    ],
-    "source_count": 28,
-    "timestamp": "11:06 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US, Israel strike Iran; China defends Iran's sovereignty, US denies missile sales, Russia distances itself",
-    "emojis": "💥🚀⚔️",
+    "summary": "Iran war live updates: U.S. shuts embassies after drone attacks; Israel stages i",
+    "emojis": "✈️⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Israel",
-      "China",
-      "Russia"
+      "google_middle_east",
+      "google_iran",
+      "google_russia",
+      "google_israel"
     ],
-    "source_count": 60,
-    "timestamp": "11:06 PM"
+    "source_count": 73,
+    "timestamp": "03:35 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia issues WW3 warning, Putin's $2.5 trillion military gamble raises global concerns and tensions.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: US-CA",
+    "summary": "Country by country, here’s how the unfolding war is affecting the Middle East - ",
+    "emojis": "⚔️",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "Putin",
-      "Russia"
-    ],
-    "source_count": 2,
-    "timestamp": "11:06 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Dozens killed in Israeli attacks across Lebanon, causing widespread destruction and civilian casualties.",
-    "emojis": "⚔️💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
+      "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "11:06 PM"
+    "timestamp": "03:35 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Western Governments Rush to Evacuate Travelers in the Middle East - The New York",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 1,
+    "timestamp": "03:35 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Iranian threats escalate, prompting US evacuation warning and creative Purim celebrations in Israel.",
-    "emojis": "🚀⚔️",
+    "summary": "Israel Advances in Lebanon and Seizes More Land, as Hezbollah Fight Escalates - ",
+    "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "US",
-      "Iran",
-      "Israel"
+      "google_israel"
     ],
-    "source_count": 4,
-    "timestamp": "11:06 PM"
+    "source_count": 9,
+    "timestamp": "03:35 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan detects 5 Chinese naval ships surrounding the nation, raising regional tensions.",
-    "emojis": "🚢⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia’s central bank files lawsuit in Luxembourg challenging the freezing of Ru",
+    "emojis": "🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "China",
-      "Taiwan"
+      "google_russia"
     ],
-    "source_count": 1,
-    "timestamp": "11:06 PM"
+    "source_count": 14,
+    "timestamp": "03:35 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Nvidia's China Access Questioned - TradingView",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "google_china"
+    ],
+    "source_count": 12,
+    "timestamp": "03:35 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia launches massive strikes on Ukraine, marking slowest advance since 2024 amid technological setbacks.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Settlement of war between Russia and Ukraine is \"very high\" - Trump - Українські",
+    "emojis": "⚔️🔴",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "google_russia"
     ],
-    "source_count": 3,
-    "timestamp": "11:06 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Texas gunman killed, photo reveals Iranian symbol on shirt sparking potential terrorism investigation.",
-    "emojis": "💀🔺",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "US-TX",
-      "CBS News"
-    ],
-    "source_count": 1,
-    "timestamp": "11:06 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "US warns Americans to leave Middle East countries amid potential security threats.",
-    "emojis": "⚔️",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "US Government",
-      "American Citizens"
-    ],
-    "source_count": 1,
-    "timestamp": "11:06 PM"
+    "source_count": 2,
+    "timestamp": "03:35 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Trump ends White House Correspondents' Dinner boycott, plans to attend this year.",
-    "emojis": "",
+    "summary": "White House rationale for war keeps shifting - The Washington Post",
+    "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "President Trump",
-      "White House"
+      "google_iran"
     ],
     "source_count": 1,
-    "timestamp": "11:06 PM"
+    "timestamp": "03:35 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Macron says France is sending its aircraft carrier to the Mediterranean - France",
+    "emojis": "✈️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 1,
+    "timestamp": "03:36 PM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Joschka Fischer Urges Tourism Industry to Address Geopolitical Risks at ITB Berl",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "google_geopolitics"
+    ],
+    "source_count": 1,
+    "timestamp": "03:36 PM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Guilty verdict for US father of teenage school shooter",
+    "emojis": "",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "bbc_world"
+    ],
+    "source_count": 1,
+    "timestamp": "03:36 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "We need more updates, say British nationals stuck in Middle East - BBC",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "google_middle_east",
+      "google_iran"
+    ],
+    "source_count": 2,
+    "timestamp": "03:36 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "US closes 3 Gulf embassies, urges Americans to leave, sparking speculation of a large-scale operation.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "US",
+      "Donald Trump"
+    ],
+    "source_count": 1,
+    "timestamp": "03:36 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah drags Lebanon into another war, leaving the country battered and isolated.",
+    "emojis": "⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Lebanon"
+    ],
+    "source_count": 1,
+    "timestamp": "03:36 PM"
   }
 ];
 
