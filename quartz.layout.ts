@@ -49,16 +49,16 @@ export const defaultContentPageLayout: PageLayout = {
       },
       mapFn: (node) => {
         const names: Record<string, string> = {
-          "The-Surge": "The Surge",
-          "National-Shadow-GDP": "Nat. Shadow GDP",
+          "State-of-the-Grid": "State of the Grid",
           "Predictive-News": "Predictive News",
+          "Optimism": "Daily Optimism",
         }
         if (names[node.displayName]) {
           node.displayName = names[node.displayName]
         }
       },
       sortFn: (a, b) => {
-        const order = ["The Surge", "Predictive News", "Nat. Shadow GDP"]
+        const order = ["Predictive News", "Daily Optimism", "State of the Grid"]
         const ai = order.indexOf(a.displayName)
         const bi = order.indexOf(b.displayName)
         if (ai !== -1 && bi !== -1) return ai - bi
@@ -100,16 +100,16 @@ export const defaultListPageLayout: PageLayout = {
       },
       mapFn: (node) => {
         const names: Record<string, string> = {
-          "The-Surge": "The Surge",
-          "National-Shadow-GDP": "Nat. Shadow GDP",
+          "State-of-the-Grid": "State of the Grid",
           "Predictive-News": "Predictive News",
+          "Optimism": "Daily Optimism",
         }
         if (names[node.displayName]) {
           node.displayName = names[node.displayName]
         }
       },
       sortFn: (a, b) => {
-        const order = ["The Surge", "Predictive News", "Nat. Shadow GDP"]
+        const order = ["Predictive News", "Daily Optimism", "State of the Grid"]
         const ai = order.indexOf(a.displayName)
         const bi = order.indexOf(b.displayName)
         if (ai !== -1 && bi !== -1) return ai - bi
