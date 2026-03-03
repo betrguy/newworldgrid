@@ -49,6 +49,18 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     </div>
   </div>
 
+  <div class="signal-card card-optimism">
+    <a href="/Optimism" class="signal-link"></a>
+    <div class="signal-title">✨ DAILY OPTIMISM</div>
+    <div class="signal-preview">
+      The signal through the noise. <span>Every breakthrough, acceleration, and win — distilled daily.</span>
+    </div>
+    <div class="signal-hidden-content">
+      Cut through the fog. The Optimism Engine scans the bleeding edge of science and technology to surface the metrics that matter: the speedups, the breakthroughs, the numbers pointing up.
+      <br><br><strong>[VIEW MORE]</strong>
+    </div>
+  </div>
+
 </div>
 
 <div class="sponsor-footer" style="text-align: center; margin-top: 3rem; padding: 1rem 0; border-top: 1px solid rgba(255,255,255,0.08); opacity: 0.5; font-size: 0.8rem; font-family: var(--bodyFont);">

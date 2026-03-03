@@ -131,8 +131,12 @@ h1 {
 .card-advance .signal-title { color: #00a8e8; }
 .card-advance:hover { border-color: #00a8e8; }
 
+.card-optimism { width: 100%; border-left: 5px solid #f4c542; }
+.card-optimism .signal-title { color: #f4c542; }
+.card-optimism:hover { border-color: #f4c542; }
+
 @media (max-width: 768px) {
-  .card-surge, .card-predictive, .card-advance { width: 100% !important; }
+  .card-surge, .card-predictive, .card-advance, .card-optimism { width: 100% !important; }
 }
 
 /* ==========================================================================
@@ -353,9 +357,10 @@ h1, h2, h3, h4, h5, h6 {
    Targeting by partial URL matches to catch any variation
    ========================================================================== */
 
-body[data-slug*="surge"], 
-body[data-slug*="predictive"], 
-body[data-slug*="advance"] {
+body[data-slug*="surge"],
+body[data-slug*="predictive"],
+body[data-slug*="advance"],
+body[data-slug*="optimism"] {
 
   /* 1. HIDE THE DATE/METADATA */
   .content-meta {
