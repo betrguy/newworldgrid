@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-03 17:07 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-03 21:04 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,99 +52,115 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran escalates tensions with attacks, US warns Iran, Israel takes military action",
-    "emojis": "🪖💥⚔️",
+    "summary": "Iran escalates attacks, US warns of 'overwhelming' firepower, and global markets react to escalating tensions.",
+    "emojis": "✈️💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Israel",
-      "Iran"
-    ],
-    "source_count": 84,
-    "timestamp": "05:07 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions escalate between Israel and Iran, with US backing Israel in strikes, amid heightened violence.",
-    "emojis": "💥⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US",
       "Iran",
-      "Israel"
-    ],
-    "source_count": 11,
-    "timestamp": "05:07 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Netflix co-CEO Ted Sarandos denied meeting with Trump, White House war rationale shifts again.",
-    "emojis": "⚔️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 2,
-    "timestamp": "05:07 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia's stocks decline, while India signs missile deal despite US sanctions, and Russia sues EU over frozen assets",
-    "emojis": "🚀🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
+      "US",
       "Russia",
-      "India",
-      "US"
+      "China"
     ],
-    "source_count": 6,
-    "timestamp": "05:07 PM"
+    "source_count": 86,
+    "timestamp": "09:03 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's 'Two Sessions', trade disputes, rare earth ban, and Hormuz Strait safety concerns dominate headlines",
+    "summary": "China's manufacturing and services activity show signs of improvement, with some adjustments to regulations",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "RNZ",
-      "TradingView",
-      "CryptoRank",
-      "The Economic Times",
-      "Undercurrent News"
+      "China",
+      "Greek owner",
+      "Eileen Gu"
     ],
-    "source_count": 6,
-    "timestamp": "05:07 PM"
+    "source_count": 20,
+    "timestamp": "09:03 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Pentagon identifies 4 US soldiers killed in Iranian strike on Kuwait base, White House meeting scandal unfolds",
+    "emojis": "🪖💥💀",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Pentagon",
+      "US soldiers",
+      "White House"
+    ],
+    "source_count": 2,
+    "timestamp": "09:03 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia sees mixed news on NK POWs, stocks, missile deal, and pressure from US & Venezuela.",
+    "emojis": "🚀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Yoo",
+      "Trump",
+      "Russia",
+      "India",
+      "US",
+      "Venezuela"
+    ],
+    "source_count": 5,
+    "timestamp": "09:03 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise between Israel, Iran, and Lebanon as Trump and Netanyahu discuss military actions.",
+    "emojis": "🪖⚔️🔴",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Trump",
+      "Netanyahu",
+      "Iran",
+      "Lebanon"
+    ],
+    "source_count": 11,
+    "timestamp": "09:03 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Conflict escalates as Putin's troops face challenges, with over 1 million casualties reported",
-    "emojis": "🪖⚔️💀",
+    "summary": "Russia deploys new air-launched cruise missile in Ukraine, as German official says over 1 million people have died.",
+    "emojis": "🚀⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Ukraine",
       "Russia",
-      "Trump",
       "Germany"
     ],
     "source_count": 4,
-    "timestamp": "05:07 PM"
+    "timestamp": "09:04 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Nearly 900 killed in Middle East fighting, Western governments rush to evacuate travelers",
+    "emojis": "💀",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US",
+      "NY"
+    ],
+    "source_count": 2,
+    "timestamp": "09:04 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "US-CA tensions escalate amid Middle East war, with potential global implications for US interests.",
+    "summary": "US-CA tensions escalate as global conflict spreads, affecting Middle East nations",
     "emojis": "⚔️⚡",
     "lat": 34.05,
     "lng": -118.24,
@@ -154,49 +170,7 @@
       "CA"
     ],
     "source_count": 1,
-    "timestamp": "05:07 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Western governments rush to evacuate travelers from the Middle East amid uncertain developments.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Western Governments",
-      "Commerce Secretary Howard Lutnick"
-    ],
-    "source_count": 2,
-    "timestamp": "05:07 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France deploys aircraft carrier to Mediterranean amid unspecified tensions or operations.",
-    "emojis": "✈️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Macron"
-    ],
-    "source_count": 1,
-    "timestamp": "05:07 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Joschka Fischer advises tourism industry to address geopolitical risks at ITB Berlin 2026.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Joschka Fischer",
-      "tourism industry"
-    ],
-    "source_count": 1,
-    "timestamp": "05:07 PM"
+    "timestamp": "09:04 PM"
   }
 ];
 
