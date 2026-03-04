@@ -6,9 +6,13 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 
 <!-- GRID_ENGINE_CONTENT -->
 
-## Energy Pulse
+<div class="energy-pulse">
 
-Global energy infrastructure faces acute strain as artificial intelligence data centers consume unprecedented power, forcing grid operators to confront hard saturation limits that reshape investment priorities. Nuclear power reclaims strategic relevance in 2026 with fifteen new reactors coming online and Japan restarting its largest facility to stabilize baseload supply. Simultaneously, battery technology advances through BYD's second-generation blade batteries and NIO's upcoming flash charging events, signaling a shift toward higher-density storage solutions. However, physical security threats disrupt this expansion; Amazon data centers suffer direct damage from drone strikes in the Middle East while geopolitical tensions escalate over Iran's nuclear program and Russian missile deployments in Ukraine. These conflicts interrupt supply chains and threaten the operational continuity of critical compute infrastructure. Air links between India and China strengthen despite regional instability, yet the convergence of military conflict, energy scarcity, and massive data demand creates a fragile environment where grid constraints dictate the pace of technological growth.
+Nuclear energy reclaims critical relevance in 2026 as fifteen new reactors come online and Meta announces projects unlocking six point six gigawatts of firm power for the grid. Simultaneously, Kairos Power secures initial US approval to begin construction on next-generation nuclear facilities while Japan restarts its largest plant. These developments directly address surging data center demand that ERCOT identifies as requiring two hundred twenty-six gigawatts of large-load capacity, effectively reshaping energy investments through reliable baseload generation rather than intermittent sources.
+
+Grid constraints force a fundamental reshaping of infrastructure investment strategies as AI data center power demands saturate existing transmission limits. This physical bottleneck compels operators to seek alternative solutions like flash charging technology from BYD and advanced battery systems from NIO to manage load profiles efficiently. The convergence of these energy storage innovations with nuclear expansion illustrates how grid saturation is driving a strategic pivot toward firm, dispatchable power sources to sustain the accelerating compute infrastructure boom without causing systemic electric shocks to the broader economy.
+
+</div>
 
 ---
 
@@ -32,12 +36,14 @@ Global energy infrastructure faces acute strain as artificial intelligence data 
 | DOE LPO Headlines (30d) | 4 |
 | Defense Hardware (30d) | $0.0B |
 
----
+<div class="kg-index-description">
 
-The dominant signal is an immediate structural divergence where grid stress, evidenced by a 0.2 kG decline in the Kilo Grid Index despite a 4.3 TW interconnection queue, forces industrial capital into dual-use defense sectors. While regulatory pressure stalls conventional energy infrastructure expansion, private hiring accelerates sharply at SpaceX and Anduril, with roles surging 14% and 35% respectively, reflecting a market pivot toward resilience over efficiency. Geopolitical instability drives sovereign capital away from commercial hardware contracts toward security guarantees, as geopolitical tensions in the Middle East redirect investment toward political risk mitigation rather than pure capacity growth. China's manufacturing PMI contraction further complicates supply chains, reinforcing volatility that concentrates industrial output on advanced battery tech and military requirements. This realignment prioritizes survival metrics against escalating regional threats, creating a trajectory where energy infrastructure evolution becomes secondary to security imperatives. The market now values the ability to withstand conflict over optimizing for peak efficiency, ensuring that future build-outs serve both national defense and critical energy needs simultaneously.
+The **Kilo Grid Index** (kG) is a composite acceleration metric scored 0.0–5.0. It is derived from five components, each normalized against a historical ceiling and clamped to 1.0, then multiplied by its weight and summed: ERCOT interconnection queue depth (35%, ceiling 4.3 TW), NRC regulatory docket activity (20%, ceiling 20 dockets), DOE Loan Programs Office financing pace (20%, ceiling 10 headlines/month), DoD defense hardware contract flow (15%, ceiling $15B/month), and net hiring delta at SpaceX and Anduril (10%, ceiling +200 combined). The weighted sum is scaled to the 0–5 kG range. A score above 3.0 kG indicates coordinated acceleration across energy capacity, sovereign capital, and industrial build-out. The index measures the pace of physical infrastructure commitment — not output.
+
+</div>
 
 > [!abstract] SCAN STATUS
-> **Updated:** 2026-03-03 20:59
+> **Updated:** 2026-03-03 21:40
 
 <!-- /GRID_ENGINE_CONTENT -->
 
