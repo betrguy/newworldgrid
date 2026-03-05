@@ -8,9 +8,9 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 
 <div class="energy-pulse">
 
-Geopolitical instability in the Middle East has forced a recalibration of data center expansion plans, with South Korean chip manufacturers expressing concern that ongoing conflict will disrupt regional infrastructure development. Simultaneously, global nuclear construction accelerates as over seventy reactors advance worldwide under new financing programs designed to meet surging demand. This dual pressure reveals how geopolitical risk directly impacts the physical timeline for building essential compute and energy assets in volatile regions while policy interventions attempt to stabilize supply chains against immediate threats.
+Global energy infrastructure faces acute strain as artificial intelligence data centers drive electricity consumption growth rates upward across the United States, causing prices to rise at double the rate of inflation. Simultaneously, over seventy nuclear reactors under construction worldwide signal a strategic pivot toward baseload power to sustain this digital expansion. The Department of Energy's accelerated deployment initiatives and Japan restarting its largest plant confirm that nuclear energy is reclaiming relevance to meet the surging demand for compute capacity without collapsing the grid.
 
-The artificial intelligence boom is driving an urgent reckoning with grid constraints, compelling tech leaders to promise containment of soaring electricity costs despite federal policies favoring clean energy transitions. New reactor projects and molten salt allocations signal a strategic pivot toward nuclear baseload power to support data center loads that traditional grids cannot sustainably absorb. Consequently, investment strategies are reshaping around these hard limits, prioritizing secure energy sources over rapid bandwidth expansion where physical capacity fails to match the exponential growth in computational requirements globally.
+Geopolitical volatility in the Middle East complicates regional bandwidth expansion plans, with South Korean chip manufacturers expressing concern that ongoing conflict will disrupt data center construction projects. While military strikes continue and US submarines engage Iranian assets, the physical build-out of digital infrastructure remains tethered to stable supply chains for advanced semiconductors. This tension highlights how geopolitical instability directly threatens the timeline for deploying new compute capacity, forcing a reassessment of where critical bandwidth expansion can safely occur amidst widening regional hostilities.
 
 </div>
 
@@ -19,20 +19,20 @@ The artificial intelligence boom is driving an urgent reckoning with grid constr
 <div class="sotg-dashboard">
   <div class="sotg-panels">
     <div class="sotg-snapshot">
-      <div class="sotg-kg-value">1.91 <span class="sotg-kg-unit">kG</span></div>
-      <div class="sotg-kg-delta">▲ +0.65 vs. last reading</div>
+      <div class="sotg-kg-value">1.77 <span class="sotg-kg-unit">kG</span></div>
+      <div class="sotg-kg-delta">▼ -0.14 vs. last reading</div>
       <div class="sotg-kg-label">KILO GRID INDEX</div>
     </div>
     <div class="sotg-sparkline">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 108" style="width:100%;max-width:560px;display:block;overflow:visible;font-family:JetBrains Mono,monospace"><line x1="10" y1="76.0" x2="550" y2="76.0" stroke="#333" stroke-width="1"/><polyline points="10.0,76.0 190.0,14.0 370.0,69.3 550.0,52.7" fill="none" stroke="#ffb703" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="550.0" cy="52.7" r="4.5" fill="#ffb703"/><text x="10" y="104" fill="#646464" font-size="10">2024-01-15</text><text x="550" y="104" fill="#646464" font-size="10" text-anchor="end">2026-03-04</text><text x="540.0" y="44.7" fill="#00ff41" font-size="11" text-anchor="end">+0.65 kG</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 108" style="width:100%;max-width:560px;display:block;overflow:visible;font-family:JetBrains Mono,monospace"><line x1="10" y1="76.0" x2="550" y2="76.0" stroke="#333" stroke-width="1"/><polyline points="10.0,76.0 145.0,14.0 280.0,69.3 415.0,52.7 550.0,56.3" fill="none" stroke="#ffb703" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="550.0" cy="56.3" r="4.5" fill="#ffb703"/><text x="10" y="104" fill="#646464" font-size="10">2024-01-15</text><text x="550" y="104" fill="#646464" font-size="10" text-anchor="end">2026-03-05</text><text x="540.0" y="48.3" fill="#ff3333" font-size="11" text-anchor="end">-0.14 kG</text></svg>
     </div>
   </div>
 </div>
 
 | Signal | Value |
 |---|---|
-| Nuclear / SMR RSS (48h) | 37 articles |
-| Compute / AI Infra RSS (48h) | 0 articles |
+| Nuclear / SMR RSS (48h) | 13 articles |
+| Compute / AI Infra RSS (48h) | 5 articles |
 | ERCOT Interconnection Queue | 4.35 TW |
 | Defense Hardware (30d) | $0.0B |
 
@@ -43,7 +43,7 @@ The **Kilo Grid Index** (kG) is a momentum-weighted composite scored 0.0–5.0 t
 </div>
 
 > [!abstract] SCAN STATUS
-> **Updated:** 2026-03-04 20:53
+> **Updated:** 2026-03-05 11:43
 
 <!-- /GRID_ENGINE_CONTENT -->
 
