@@ -5,25 +5,12 @@ layout: page
 # Daily Optimism Report - 2026-03-04
 
 The future rarely arrives all at once. Sometimes it shows up disguised as a small pilot program in a city you've never visited.  
-**Original Summary**: Speech biomarkers detect ADRD with 69.4% sensitivity and 83.3% specificity, while SaFeR-ToolKit’s safety dataset unlocks 31k structured reasoning examples. AI efficiency leaps: AgentAssay cuts regression testing costs by 78-100%, and GLIDE-Reg achieves 0.859 DSC in medical imaging. NeuroProlog and ASD GNNs redefine math reasoning and diagnostics with 95% accuracy and 71.8% medical coding F1.  
+Speech biomarkers detect ADRD with 69.4% sensitivity and 83.3% specificity, while AI feedback pipelines now rival expert rubrics using 31k tool-based examples. Dual randomized smoothing enables input-dependent noise variances, breaking global variance limits for robustness. SaFeR-ToolKit’s structured safety protocol achieves 78-100% cost reduction in regression testing.  
 
-- [ADRD sensitivity](https://arxiv.org/abs/2501.18731)  
-  A subtle shift in how we diagnose cognitive decline, this metric signals a growing ability to detect early signs of disease through non-invasive speech analysis—a quiet step toward more accessible healthcare.  
-
-- [ADRD specificity](https://arxiv.org/abs/2501.18731)  
-  Precision in detection reduces false alarms, allowing resources to focus on those who truly need care—a systemic improvement that prioritizes trust over noise.  
-
-- [SaFeR-ToolKit dataset](https://arxiv.org/abs/2603.02635)  
-  By structuring 31k examples of tool-based reasoning, this work lays the groundwork for safer AI collaboration, quietly redefining how humans and machines co-create solutions.  
-
-- [Regression testing cost reduction](https://arxiv.org/abs/2603.02601)  
-  Cutting costs by 78-100% in testing frees up time and resources for innovation, a ripple effect that strengthens the feedback loops of technological development.  
-
-- [Lung anatomy registration](https://arxiv.org/abs/2603.00218)  
-  A 0.859 DSC score in medical imaging reflects a deeper alignment between AI and human expertise, enabling more accurate diagnoses that quietly shift the balance of power in healthcare.  
-
-- [ASD classification accuracy](https://arxiv.org/abs/2603.02518)  
-  Achieving 95% accuracy in ASD detection through GNNs highlights how networked data can uncover patterns invisible to individual observation, expanding our capacity to intervene early.  
-
-- [Medical coding F1 score](https://arxiv.org/abs/2603.00221)  
-  A 71.8% micro F1 score in medical coding reveals the power of structured reasoning to streamline complex workflows, quietly improving efficiency without sacrificing nuance.
+- [69.4% ADRD sensitivity](https://arxiv.org/abs/2501.18731): Early detection tools are quietly reshaping how we approach neurological care, embedding precision into systems that once relied on guesswork.  
+- [31k tool-based safety dataset](https://arxiv.org/abs/2603.03249): A growing repository of structured data is training systems to prioritize safety without sacrificing adaptability, signaling a shift from reactive to proactive design.  
+- [95% ASD classification accuracy via graph attention networks](https://arxiv.org/abs/2603.02518): Algorithms are learning to decode complex human patterns, offering new pathways for understanding and supporting neurodiversity.  
+- [71.8% medical coding micro F1 on 1.8M patient data](https://arxiv.org/abs/2603.00221): Systems are becoming more fluent in the language of care, translating vast datasets into actionable insights that reduce friction in healthcare workflows.  
+- [3.0% DSC improvement in GLIDE-Reg](https://arxiv.org/abs/2603.00218): Small gains in algorithmic precision ripple outward, refining tools that help humans navigate uncertainty with greater clarity.  
+- [10.7-point accuracy gain from functional parcellation](https://arxiv.org/abs/2603.02518): Refining how we map brain function is quietly redefining the boundaries of what we can diagnose and treat.  
+- [78-100% cost reduction in AI agent testing](https://arxiv.org/abs/2603.02601): Efficiency gains in testing are not just saving money—they’re freeing time for creativity, collaboration, and deeper problem-solving.
