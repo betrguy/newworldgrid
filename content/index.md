@@ -41,10 +41,10 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     <a href="/State-of-the-Grid" class="signal-link"></a>
     <div class="signal-title">⚡ STATE OF THE GRID</div>
     <div class="signal-preview">
-      The physical floor. <span>Energy, industrial hiring, and sovereign capital — measured in kilo Grid units.</span>
+      Tracking the state of the grid. <span>Energy, defense, and industrial hiring — measured in kilo Grid units.</span>
     </div>
     <div class="signal-hidden-content">
-      Where real power is being built. The kilo Grid synthesizes energy capacity, NRC regulatory activity, DOE capital deployment, defense hardware procurement, and industrial hiring into one living index.
+      Reactors permitted. Gigawatts funded. Defense contracts signed. The kilo Grid reads NRC regulatory filings, DOE capital deployment, grid interconnection queues, and industrial hiring — converting hard infrastructure signals into one composite index.
       <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
