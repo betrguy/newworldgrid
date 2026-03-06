@@ -8,9 +8,11 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 
 <div class="energy-pulse">
 
-The geopolitical volatility surrounding the Middle East conflict directly threatens regional energy stability as repeated strikes on Tehran and Beirut risk damaging critical power generation and transmission assets. Simultaneously, international diplomatic friction emerges over Ukraine's grid security, with major powers voting against IAEA resolutions that would condemn attacks targeting essential electrical infrastructure. These actions signal a dangerous decoupling of global norms protecting physical energy networks from kinetic warfare, potentially leaving vital grids in conflict zones vulnerable to further degradation and prolonged outages without immediate remediation or international enforcement mechanisms.
+Escalating kinetic strikes across Tehran, Beirut, and Iranian military bases reveal severe physical degradation of regional energy infrastructure through direct attacks on power generation nodes. Concurrently, geopolitical tensions surrounding Ukraine's grid protection highlight a global vulnerability where state actors actively undermine critical transmission stability. These events signal an acute risk to the continuity of baseload electricity supply chains, forcing immediate reallocation of reserve capacity to maintain essential services amidst widespread physical destruction of substations and generation facilities in conflict zones.
 
-Cyber threats now complement kinetic risks by targeting telecommunications providers with advanced malware toolkits designed to disrupt bandwidth reliability and data integrity across national borders. While military capabilities expand through new nuclear attack boat fleets and missile strike systems, the underlying digital infrastructure supporting these operations faces sophisticated espionage attempts that could compromise command and control networks. This dual-layered assault on both physical power lines and digital communication channels suggests a comprehensive strategy to degrade an adversary's operational capacity by simultaneously crippling their energy supply chains and severing their high-speed data connectivity essential for modern warfare.
+State-sponsored cyber operations targeting telecommunications networks expose emerging bandwidth fragility as malicious code seeks to disrupt data routing protocols within critical infrastructure sectors. This digital threat vector complements the kinetic warfare destroying physical nodes, creating a hybrid environment where both copper and fiber assets face simultaneous degradation from electromagnetic pulses and software-based sabotage. The expansion of naval strike capabilities further threatens undersea cable landing stations, suggesting that future bandwidth outages will stem from coordinated attacks on the very vessels protecting global data arteries from hostile maritime forces.
+
+Geophysical monitoring indicates persistent instability in the magnetosphere as solar wind interactions with the shifting magnetic poles generate elevated radiation levels reaching Earth's surface. Satellite imagery of struck military bases confirms ongoing geomagnetic disturbances that interfere with navigation systems reliant on precise magnetic field readings for long-range missile guidance and aircraft routing. These magnetic anomalies, combined with increased cosmic ray flux during periods of heightened solar activity, create a hazardous environment for low-Earth orbit assets while complicating the accurate modeling of atmospheric electricity distribution across vulnerable continental landmasses.
 
 </div>
 
@@ -19,20 +21,20 @@ Cyber threats now complement kinetic risks by targeting telecommunications provi
 <div class="sotg-dashboard">
   <div class="sotg-panels">
     <div class="sotg-snapshot">
-      <div class="sotg-kg-value">1.77 <span class="sotg-kg-unit">kG</span></div>
-      <div class="sotg-kg-delta">▼ -0.14 vs. last reading</div>
+      <div class="sotg-kg-value">0.87 <span class="sotg-kg-unit">kG</span></div>
+      <div class="sotg-kg-delta">▼ -0.9 vs. last reading</div>
       <div class="sotg-kg-label">KILO GRID INDEX</div>
     </div>
     <div class="sotg-sparkline">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 108" style="width:100%;max-width:560px;display:block;overflow:visible;font-family:JetBrains Mono,monospace"><line x1="10" y1="76.0" x2="550" y2="76.0" stroke="#333" stroke-width="1"/><polyline points="10.0,76.0 145.0,14.0 280.0,69.3 415.0,52.7 550.0,56.3" fill="none" stroke="#ffb703" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="550.0" cy="56.3" r="4.5" fill="#ffb703"/><text x="10" y="104" fill="#646464" font-size="10">2024-01-15</text><text x="550" y="104" fill="#646464" font-size="10" text-anchor="end">2026-03-05</text><text x="540.0" y="48.3" fill="#ff3333" font-size="11" text-anchor="end">-0.14 kG</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 108" style="width:100%;max-width:560px;display:block;overflow:visible;font-family:JetBrains Mono,monospace"><line x1="10" y1="76.0" x2="550" y2="76.0" stroke="#333" stroke-width="1"/><polyline points="10.0,72.8 118.0,14.0 226.0,66.5 334.0,50.7 442.0,54.1 550.0,76.0" fill="none" stroke="#ffb703" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="550.0" cy="76.0" r="4.5" fill="#ffb703"/><text x="10" y="104" fill="#646464" font-size="10">2024-01-15</text><text x="550" y="104" fill="#646464" font-size="10" text-anchor="end">2026-03-06</text><text x="540.0" y="68.0" fill="#ff3333" font-size="11" text-anchor="end">-0.9 kG</text></svg>
     </div>
   </div>
 </div>
 
 | Signal | Value |
 |---|---|
-| Nuclear / SMR RSS (48h) | 13 articles |
-| Compute / AI Infra RSS (48h) | 5 articles |
+| Nuclear / SMR RSS (48h) | 8 articles |
+| Compute / AI Infra RSS (48h) | 1 articles |
 | ERCOT Interconnection Queue | 4.35 TW |
 | Defense Hardware (30d) | $0.0B |
 
@@ -43,7 +45,7 @@ The **Kilo Grid Index** (kG) is a momentum-weighted composite scored 0.0–5.0 t
 </div>
 
 > [!abstract] SCAN STATUS
-> **Updated:** 2026-03-05 23:07
+> **Updated:** 2026-03-06 00:39
 
 <!-- /GRID_ENGINE_CONTENT -->
 
