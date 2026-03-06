@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-05 20:03 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-05 23:07 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,147 +52,135 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran tensions escalate with US, Israel, and Russia involved, amid war and potential succession crisis.",
-    "emojis": "🚀⚔️⚡",
+    "summary": "US, Israel intensify strikes on Iran, while Trump demands role in choosing Iran's leader",
+    "emojis": "💥⚔️💣",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
       "Israel",
-      "Russia"
+      "Trump",
+      "Iran"
     ],
-    "source_count": 39,
-    "timestamp": "08:02 PM"
+    "source_count": 76,
+    "timestamp": "11:07 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China addresses Taiwan, birth rate, defense, climate, and trade issues, while strengthening domestic industries",
-    "emojis": "",
+    "summary": "China tackles AI competition, economic slowdown, and climate change amidst growing tensions and shifting global priorities.",
+    "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
       "US",
-      "Taiwan"
+      "China"
     ],
-    "source_count": 80,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "South Florida natives criticize US officials for abandoning them, seeking help to leave Middle East",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "CBS News"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 PM"
+    "source_count": 23,
+    "timestamp": "11:07 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "France warns of large-scale digital attacks from Russia, while Russia's LNG tanker faces repeated attacks in Mediterranean.",
-    "emojis": "⚔️",
+    "summary": "Russia: Increased emergency response cooperation with Vietnam, concert controversy, composer return, and gender roles ordered.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "France",
-      "Russia"
+      "Vietnam",
+      "Russia",
+      "the-sun.com"
     ],
-    "source_count": 2,
-    "timestamp": "08:02 PM"
+    "source_count": 4,
+    "timestamp": "11:07 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Americans in Israel face lengthy journeys home amid growing concern over Israel's safety",
-    "emojis": "",
+    "summary": "Israel launches airstrikes against Beirut, amid mass evacuations and suspected Iranian missile debris",
+    "emojis": "💥🚀💣",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "NBC News",
-      "Forbes",
-      "Jewish Journal",
-      "CBS News"
+      "Israel",
+      "Hezbollah",
+      "Iran"
+    ],
+    "source_count": 10,
+    "timestamp": "11:07 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "First nonstop flight from Middle East to US West Coast lands at San Francisco International Airport",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "US",
+      "CA"
+    ],
+    "source_count": 1,
+    "timestamp": "11:07 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India faces challenges from Gulf tensions and Russian oil resumption amid war, with US waiver granted.",
+    "emojis": "🚢⚔️⚡",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India",
+      "US",
+      "Russia"
     ],
     "source_count": 4,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia claims Ukraine drone attack on LNG tanker in Mediterranean, with Ukraine denying involvement.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 5,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan detects 8 Chinese ships patrolling its coast, raising tensions",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan",
-      "China"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Stealth bombers to land at UK bases in days following Trump's pressure on Starmer, report says.",
-    "emojis": "✈️💣",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "US President Trump",
-      "UK PM Starmer"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: VENEZUELA",
-    "summary": "Venezuela inks multimillion-dollar gold deal with US, amid reports of prisoner smuggling of messages from jail.",
-    "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
-    "actors": [
-      "Trump officials",
-      "Venezuelan state-owned mining company",
-      "Venezuelan prisoners"
-    ],
-    "source_count": 2,
-    "timestamp": "08:02 PM"
+    "timestamp": "11:07 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Mass displacement crisis in southern Lebanon due to Israeli attacks and threats",
+    "summary": "Hezbollah warns Israel to evacuate towns near border, sparking panic in Beirut and questions about their involvement.",
     "emojis": "⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
-      "Lebanon"
+      "Reuters",
+      "The New York Times",
+      "Al Jazeera"
+    ],
+    "source_count": 3,
+    "timestamp": "11:07 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine and Russia exchange 200 POWs, US seeks Kyiv's drone expertise amid stalled Russia talks.",
+    "emojis": "✈️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 9,
+    "timestamp": "11:07 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Stranded travelers in NYC share intense, personal accounts of Middle Eastern experiences.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "NBC New York",
+      "travelers"
     ],
     "source_count": 1,
-    "timestamp": "08:03 PM"
+    "timestamp": "11:07 PM"
   }
 ];
 
