@@ -2,15 +2,16 @@
 title: Daily Optimism
 layout: page
 ---
-# Daily Optimism Report - 2026-03-04
+# Daily Optimism Report - 2026-03-05
 
 The future rarely arrives all at once. Sometimes it shows up disguised as a small pilot program in a city you've never visited.  
-Speech biomarkers detect ADRD with 69.4% sensitivity and 83.3% specificity, while AI feedback pipelines now rival expert rubrics using 31k tool-based examples. Dual randomized smoothing enables input-dependent noise variances, breaking global variance limits for robustness. SaFeR-ToolKit’s structured safety protocol achieves 78-100% cost reduction in regression testing.  
+Transformer quantization accuracy recovers to near-FP32 with mixed precision PTQ (89.42%) and PEG quantization, while 2-bit Polish LLMs maintain 71.92% benchmark performance. Clinical QA models show 33-43% accuracy with high consistency, and PhyPrompt achieves 40.8% physically plausible video generation. ToolRLA boosts task completion by 47% in financial advisory systems, and NeuroProlog ensures verifiable math reasoning with 61% accuracy.  
 
-- [69.4% ADRD sensitivity](https://arxiv.org/abs/2501.18731): Early detection tools are quietly reshaping how we approach neurological care, embedding precision into systems that once relied on guesswork.  
-- [31k tool-based safety dataset](https://arxiv.org/abs/2603.03249): A growing repository of structured data is training systems to prioritize safety without sacrificing adaptability, signaling a shift from reactive to proactive design.  
-- [95% ASD classification accuracy via graph attention networks](https://arxiv.org/abs/2603.02518): Algorithms are learning to decode complex human patterns, offering new pathways for understanding and supporting neurodiversity.  
-- [71.8% medical coding micro F1 on 1.8M patient data](https://arxiv.org/abs/2603.00221): Systems are becoming more fluent in the language of care, translating vast datasets into actionable insights that reduce friction in healthcare workflows.  
-- [3.0% DSC improvement in GLIDE-Reg](https://arxiv.org/abs/2603.00218): Small gains in algorithmic precision ripple outward, refining tools that help humans navigate uncertainty with greater clarity.  
-- [10.7-point accuracy gain from functional parcellation](https://arxiv.org/abs/2603.02518): Refining how we map brain function is quietly redefining the boundaries of what we can diagnose and treat.  
-- [78-100% cost reduction in AI agent testing](https://arxiv.org/abs/2603.02601): Efficiency gains in testing are not just saving money—they’re freeing time for creativity, collaboration, and deeper problem-solving.
+- [Mixed precision PTQ](https://arxiv.org/abs/2603.04308) recovers 89.42% accuracy despite a 35.33pt drop, signaling how efficiency gains can preserve performance in resource-constrained systems.  
+- [Polish LLMs at 2-bit quantization](https://arxiv.org/abs/2603.04162) maintain 71.92% performance, demonstrating that human ingenuity can shrink computational footprints without sacrificing utility.  
+- [Physically plausible video generation](https://arxiv.org/abs/2603.03505) achieves 40.8% joint success, a small but meaningful step toward systems that simulate reality with greater fidelity.  
+- [ToolRLA in financial advisory systems](https://arxiv.org/abs/2603.01620) improves task completion by 47%, reflecting how incremental tool integration can refine real-world problem-solving.  
+- [Verifiable math reasoning](https://arxiv.org/abs/2603.03475) reaches 61% accuracy, a quiet signal that trust in AI’s logic is becoming more tangible and accountable.  
+- [Multi-model consensus for citation detection](https://arxiv.org/abs/2603.03299) achieves 95.6% accuracy, showing how collaboration across systems can outperform individual efforts in complex tasks.  
+- [Linear MLP routing](https://arxiv.org/abs/2603.03459) enables 56% efficiency with <1% perplexity cost, a subtle but critical advance in balancing speed and reliability.  
+- [Gemma 2 in clinical QA](https://arxiv.org/abs/2603.00917) achieves 88.8% consistency, underscoring how AI’s reliability in high-stakes domains is slowly becoming a given.
