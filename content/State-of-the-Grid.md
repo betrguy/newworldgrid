@@ -19,15 +19,14 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 </div>
 | Signal | Value |
 |---|---|
-| Nuclear RSS | 7 |
-| Compute RSS | 1 |
-| Geopolitical RSS | 0 |
+| Grid Activity Score | 0.00 |
 | ERCOT Queue | 4.30 TW |
-| Defense hardware | $0.0B |
+| Defense Hardware | $0.0B |
 <div class="kg-index-description">
 
 The **Grid Index** is a momentum-weighted composite scored 0.0–5.0 that measures the expansion velocity of civilization's physical substrate. Measured in **Kilo Grid Units (KGU)**, it tracks the actual movement of energy, compute, and sovereign capital. The index is derived from: **Grid Activity (40%)** — composite of interconnection queue acceleration and load momentum; **Nuclear (15%)**, **Compute (15%)**, and **Geopolitical Energy (15%)** news velocity; and **Sovereign Capital (15%)** — the flow of defense hardware contracts. A score above 3.0 KGU indicates a coordinated phase-shift into a higher-energy state.
 
 </div>
+
 <!-- /GRID_ENGINE_CONTENT -->
 
