@@ -5,7 +5,6 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
-<div class="energy-pulse"></div>
 
 ---
 
@@ -22,7 +21,7 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 
 | Signal | Value |
 |---|---|
-| Grid Activity | 0.00 |
+| Grid Activity Score | 0.00 |
 | ERCOT Queue | 4.30 TW |
 | Defense Hardware | $0.0B |
 
@@ -31,6 +30,6 @@ The **Grid Index** is a momentum-weighted composite scored 0.0–5.0 that measur
 </div>
 
 ### Grid Analyst Briefing
-Awaiting industrial signal synchronization...
+Monitoring grid substrate for significant momentum shifts. Data synchronization in progress.
 <!-- /GRID_ENGINE_CONTENT -->
 
