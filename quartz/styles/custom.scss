@@ -136,6 +136,51 @@ h1 {
 }
 
 /* ==========================================================================
+   STATE OF THE GRID — BYLINE
+   ========================================================================== */
+
+.sotg-byline {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  margin: 0.2rem 0 1.8rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px dashed var(--gray);
+}
+
+.sotg-author {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #ffb703;
+}
+
+.sotg-byline-sep {
+  font-family: "JetBrains Mono", monospace !important;
+  color: var(--gray);
+  font-size: 0.78rem;
+  opacity: 0.5;
+}
+
+.sotg-timestamp {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.78rem;
+  color: var(--gray);
+  letter-spacing: 0.05em;
+}
+
+.sotg-byline-role {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.72rem;
+  color: var(--gray);
+  opacity: 0.45;
+  letter-spacing: 0.03em;
+  margin-left: 0.2rem;
+}
+
+/* ==========================================================================
    STATE OF THE GRID — ENERGY PULSE
    ========================================================================== */
 
