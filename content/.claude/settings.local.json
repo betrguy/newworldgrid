@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//mnt/c/Users/**)",
+      "Read(//c/Users/bertb/**)"
+    ]
+  }
+}
