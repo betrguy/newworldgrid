@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-07 20:54 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-07 21:20 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,37 +51,38 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "Iran-US conflict escalates amid Middle East realignment and attacks on oil facilities",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "Israel"
+    ],
+    "source_count": 91,
+    "timestamp": "09:20 PM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China boosts brain-computer tech, explores yuan internationalization, talent flows, and 5-year mobility plan",
+    "summary": "China to explore brain-computer tech, expand international trade, and boost tourism amid economic diversification",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "US"
-    ],
-    "source_count": 17,
-    "timestamp": "08:53 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US, Israel, and Iran locked in escalating tensions, with attacks and strikes reported across the Middle East.",
-    "emojis": "✈️💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
       "US",
-      "Israel",
-      "Iran"
+      "Russia"
     ],
-    "source_count": 85,
-    "timestamp": "08:53 PM"
+    "source_count": 13,
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strike on hotel in central Beirut kills at least 6 people, including 4 in Beirut.",
+    "summary": "Israeli strike kills at least 6 in Beirut hotel, injuries reported",
     "emojis": "💥💀",
     "lat": 33.8,
     "lng": 35.8,
@@ -91,25 +92,25 @@
       "Lebanon"
     ],
     "source_count": 2,
-    "timestamp": "08:53 PM"
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces sanctions, economic struggles, and escalating conflicts, with devastating consequences for its citizens.",
-    "emojis": "⚔️🚀🚫",
+    "summary": "Russia faces economic pressure, escalating losses, and sanctions, while profiting from Middle East conflicts and facing military strikes.",
+    "emojis": "🪖💥⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "US",
-      "Russia"
+      "The Guardian",
+      "The New York Post"
     ],
-    "source_count": 5,
-    "timestamp": "08:53 PM"
+    "source_count": 4,
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "US approves Israel munitions sale, anti-war protests rise, and conflict escalates in Lebanon and Israel.",
+    "summary": "Tensions escalate in Israel as US approves munitions sale, strikes vow, and deadly clashes occur",
     "emojis": "🪖💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
@@ -119,80 +120,80 @@
       "Israel",
       "Iran"
     ],
-    "source_count": 16,
-    "timestamp": "08:54 PM"
+    "source_count": 18,
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Trump criticizes UK response to crisis, Iranian ambassador warns of further involvement",
-    "emojis": "⚔️",
+    "summary": "Trump says British help is too late in relation to a crisis, without specifying the nature of the crisis",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "Trump",
-      "UK",
-      "Iran"
+      "Britain"
     ],
-    "source_count": 4,
-    "timestamp": "08:54 PM"
+    "source_count": 3,
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US-NY faces global food crisis & chaotic evacuation amid Middle East war",
+    "summary": "US military campaign in Middle East faces global food production threat, evacuation challenges",
     "emojis": "🪖💥⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "actor1",
-      "actor2"
+      "US",
+      "Middle Eastern nations"
     ],
     "source_count": 3,
-    "timestamp": "08:54 PM"
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia launches drone and missile strikes in Ukraine, killing at least 32 civilians, including children.",
+    "summary": "Russian missile strikes in Ukraine kill at least 32, with two children among the dead.",
     "emojis": "✈️💥🚀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine"
+      "Ukraine",
+      "Putin",
+      "Zelenskyy"
     ],
-    "source_count": 13,
-    "timestamp": "08:54 PM"
+    "source_count": 11,
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India to buy Russian oil without permission, Chinese airline to return to Kolkata in April",
+    "summary": "India to buy Russian oil without permission, Chinese airline considers return to Kolkata airport",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
-      "Chinese airline"
+      "Government Officials",
+      "Chinese Airline"
     ],
     "source_count": 2,
-    "timestamp": "08:54 PM"
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: US-MN",
-    "summary": "Middle East strikes continue overnight, sparking global concern and tension.",
-    "emojis": "💥⚡",
+    "summary": "Continued strikes in the Middle East spark global concern",
+    "emojis": "💥",
     "lat": 44.97,
     "lng": -93.26,
     "location": "US-MN",
     "actors": [
       "FOX 9 Minneapolis-St. Paul",
-      "actor1",
-      "actor2"
+      "US-MN"
     ],
     "source_count": 1,
-    "timestamp": "08:54 PM"
+    "timestamp": "09:20 PM"
   },
   {
     "title": "SITREP: US-CA",
@@ -203,10 +204,10 @@
     "location": "US-CA",
     "actors": [
       "CBS News",
-      "Chinese community"
+      "San Francisco"
     ],
     "source_count": 1,
-    "timestamp": "08:54 PM"
+    "timestamp": "09:20 PM"
   }
 ];
 
