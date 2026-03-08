@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-07 22:16 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-08 16:08 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,69 +52,137 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: CHINA",
-    "summary": "China navigates complex relations with Japan, US, Taiwan, and Africa, while pushing yuan internationalization.",
-    "emojis": "🪖",
+    "summary": "China expands tax refund network, introduces 'One-Stop China', resumes flights to Europe, and continues to diversify energy and airfield investments.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Japan",
-      "US",
-      "Taiwan",
-      "Africa"
+      "Russian oil",
+      "India",
+      "European airlines"
     ],
-    "source_count": 14,
-    "timestamp": "10:15 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces protests, renewed conflict, and US military support amid ongoing Middle East tensions.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US",
-      "Israel",
-      "Venezuela",
-      "Arab Press"
-    ],
-    "source_count": 16,
-    "timestamp": "10:16 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Tensions rise between Russia and West amid Middle East conflict and sanctions, while China-Russia ties strengthen",
-    "emojis": "⚔️🚫⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "China",
-      "Russia",
-      "US"
-    ],
-    "source_count": 6,
-    "timestamp": "10:16 PM"
+    "source_count": 19,
+    "timestamp": "04:07 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran strikes back at Israel, US warns of ",
-    "emojis": "🚀🪖💥",
+    "summary": "Iran under threat after US and Israeli air strikes, new supreme leader elected, and international tensions escalate",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Unknown"
+      "US",
+      "Israel",
+      "Iran"
     ],
-    "source_count": 92,
-    "timestamp": "10:16 PM"
+    "source_count": 86,
+    "timestamp": "04:07 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon reports nearly 400 deaths in Israeli strikes, with a US service member confirmed killed",
+    "emojis": "💥⚔️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "US"
+    ],
+    "source_count": 2,
+    "timestamp": "04:07 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Texas Tech University System pauses all business travel to Middle East",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Texas Tech University System",
+      "KCBD"
+    ],
+    "source_count": 1,
+    "timestamp": "04:07 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Trump vows to hold up bills until Congress passes voting bill",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Trump",
+      "Congress"
+    ],
+    "source_count": 1,
+    "timestamp": "04:07 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces repercussions from war, while Putin's health and international appearances dominate headlines",
+    "emojis": "⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Putin"
+    ],
+    "source_count": 10,
+    "timestamp": "04:07 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Lebanese Villagers Bury Hezbollah Fighters, Praising Their Defiance of Israel - ",
+    "emojis": "💥",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "google_israel",
+      "google_middle_east"
+    ],
+    "source_count": 16,
+    "timestamp": "04:07 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK involved in Middle East conflict from naval operations to air strikes against ISIS and extremist groups",
+    "emojis": "🚢💥⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "ISIS"
+    ],
+    "source_count": 1,
+    "timestamp": "04:07 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Eileen Gu serves as grand marshal for Chinese New Year parade in San Francisco",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Eileen Gu",
+      "Fox News"
+    ],
+    "source_count": 1,
+    "timestamp": "04:08 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian missile strikes kill 10-12 people in Ukraine, including children, amid ongoing conflict.",
-    "emojis": "💥🚀⚔️",
+    "summary": "Russia escalates ballistic missile attacks on Ukraine, while prisoners are exchanged in a large prisoner swap.",
+    "emojis": "⚔️🚀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -122,77 +190,50 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 8,
-    "timestamp": "10:16 PM"
+    "source_count": 4,
+    "timestamp": "04:08 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Four killed in Israeli strike on hotel in Beirut",
-    "emojis": "💥⚔️💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 3,
-    "timestamp": "10:16 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Trump says British help is too late in response to a crisis or disaster, exact nature unspecified",
+    "title": "SITREP: US-MN",
+    "summary": "US charter flights evacuate Americans from the Middle East",
     "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "lat": 44.97,
+    "lng": -93.26,
+    "location": "US-MN",
     "actors": [
-      "Trump",
-      "Britain"
-    ],
-    "source_count": 6,
-    "timestamp": "10:16 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "2026 San Francisco Chinese New Year Parade photos and video released",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "ABC7 San Francisco"
+      "FOX 9",
+      "Americans"
     ],
     "source_count": 1,
-    "timestamp": "10:16 PM"
+    "timestamp": "04:08 PM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "US-NY faces global food production threat amid Middle East conflict, evacuation challenges",
-    "emojis": "🪖💥⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: IRAQ",
+    "summary": "Iraq navigates complex Middle East dynamics, balancing regional influence and security concerns",
+    "emojis": "⚔️",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "Iraq",
+      "Regional actors"
+    ],
+    "source_count": 1,
+    "timestamp": "04:08 PM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "US strikes continue in Middle East amid honoring fallen service members, as Trump remembers the 6 US service members killed",
+    "emojis": "💥💀",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
     "actors": [
       "US",
-      "NY"
+      "Trump"
     ],
-    "source_count": 3,
-    "timestamp": "10:16 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India to buy Russian oil without permission, Chinese airline eyes return to Kolkata airport",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "India",
-      "China"
-    ],
-    "source_count": 2,
-    "timestamp": "10:16 PM"
+    "source_count": 1,
+    "timestamp": "04:08 PM"
   }
 ];
 
