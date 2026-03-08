@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-07 21:56 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-07 22:16 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,53 +51,41 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran strikes Israeli refinery amid US-Iran tensions, protests erupt in US cities",
-    "emojis": "🪖💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US",
-      "Israel"
-    ],
-    "source_count": 90,
-    "timestamp": "09:55 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China focuses on brain-computer tech, internationalization, and tourism, amid tensions with US and Africa",
-    "emojis": "⚡",
+    "summary": "China navigates complex relations with Japan, US, Taiwan, and Africa, while pushing yuan internationalization.",
+    "emojis": "🪖",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
+      "Japan",
       "US",
-      "China Eastern",
-      "Trump"
+      "Taiwan",
+      "Africa"
     ],
-    "source_count": 13,
-    "timestamp": "09:55 PM"
+    "source_count": 14,
+    "timestamp": "10:15 PM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russian missile strike kills at least 10 in Ukraine, amid ongoing conflict and diplomatic complications.",
-    "emojis": "💥🚀⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces protests, renewed conflict, and US military support amid ongoing Middle East tensions.",
+    "emojis": "🪖⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "US",
+      "Israel",
+      "Venezuela",
+      "Arab Press"
     ],
-    "source_count": 10,
-    "timestamp": "09:55 PM"
+    "source_count": 16,
+    "timestamp": "10:16 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Tensions rise between Russia and the West amid ongoing conflicts and economic sanctions",
+    "summary": "Tensions rise between Russia and West amid Middle East conflict and sanctions, while China-Russia ties strengthen",
     "emojis": "⚔️🚫⚡",
     "lat": 61.5,
     "lng": 105.3,
@@ -107,13 +95,40 @@
       "Russia",
       "US"
     ],
-    "source_count": 5,
-    "timestamp": "09:55 PM"
+    "source_count": 6,
+    "timestamp": "10:16 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran strikes back at Israel, US warns of ",
+    "emojis": "🚀🪖💥",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Unknown"
+    ],
+    "source_count": 92,
+    "timestamp": "10:16 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian missile strikes kill 10-12 people in Ukraine, including children, amid ongoing conflict.",
+    "emojis": "💥🚀⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 8,
+    "timestamp": "10:16 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Four killed in Israeli strike on hotel in Beirut, at least two others injured in nearby building.",
-    "emojis": "💥💀",
+    "summary": "Four killed in Israeli strike on hotel in Beirut",
+    "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -121,93 +136,63 @@
       "Israel",
       "Lebanon"
     ],
-    "source_count": 2,
-    "timestamp": "09:55 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel as US approves munitions sale, deadly clashes erupt in Lebanon",
-    "emojis": "🪖💥⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US",
-      "Israel",
-      "Iran",
-      "Lebanon"
-    ],
-    "source_count": 16,
-    "timestamp": "09:55 PM"
+    "source_count": 3,
+    "timestamp": "10:16 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Trump criticizes British response to crisis, saying help arrived too late",
+    "summary": "Trump says British help is too late in response to a crisis or disaster, exact nature unspecified",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "Trump",
-      "British Government"
+      "Britain"
     ],
-    "source_count": 5,
-    "timestamp": "09:55 PM"
+    "source_count": 6,
+    "timestamp": "10:16 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "2026 San Francisco Chinese New Year Parade photos and video released",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "ABC7 San Francisco"
+    ],
+    "source_count": 1,
+    "timestamp": "10:16 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US faces food production threat & chaos in Middle East after military campaign, evacuation struggles reported",
+    "summary": "US-NY faces global food production threat amid Middle East conflict, evacuation challenges",
     "emojis": "🪖💥⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "US",
-      "Middle East"
+      "NY"
     ],
     "source_count": 3,
-    "timestamp": "09:55 PM"
+    "timestamp": "10:16 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India to bypass Russian oil import permission, Chinese airline to return to Kolkata",
+    "summary": "India to buy Russian oil without permission, Chinese airline eyes return to Kolkata airport",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "officials",
-      "Chinese airline"
+      "India",
+      "China"
     ],
     "source_count": 2,
-    "timestamp": "09:55 PM"
-  },
-  {
-    "title": "SITREP: US-MN",
-    "summary": "Continued strikes in the Middle East continue overnight, with no updates on FOX 9 Minneapolis.",
-    "emojis": "💥",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
-    "actors": [
-      "FOX 9 Minneapolis"
-    ],
-    "source_count": 1,
-    "timestamp": "09:56 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Chinese New Year Parade in San Francisco celebrates Year of the Horse",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "CBS News",
-      "San Francisco"
-    ],
-    "source_count": 1,
-    "timestamp": "09:56 PM"
+    "timestamp": "10:16 PM"
   }
 ];
 
