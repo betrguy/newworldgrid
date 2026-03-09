@@ -6,11 +6,11 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="energy-pulse">
-Today's energy landscape is marked by significant developments. China's ambitious plan to build the world's first accelerator-driven nuclear reactor is a testament to the country's commitment to innovation and clean energy. This breakthrough technology has the potential to revolutionize the way we generate power, and I'll be closely monitoring its progress. Meanwhile, the global energy market is also being shaped by the ongoing crisis in the Strait of Hormuz. The US decision to grant India a 30-day waiver on Russian oil imports is a crucial move to stabilize the global energy supply chain.
+Today's energy landscape is marked by a mix of ambitious initiatives and turbulent market conditions. The recent unveiling of China's five-year blueprint, which includes mega-projects such as fusion and lunar exploration, signals a significant shift in the country's energy priorities. While these endeavors hold great promise for the future, they also underscore the pressing need for sustainable and responsible energy solutions. Meanwhile, the global energy market is being disrupted by the ongoing Iran conflict, which has led to a surge in oil prices and a renewed consideration by the US to lift sanctions on Russian oil exports. This development has significant implications for the global energy landscape and may lead to a recalibration of the world's energy priorities.
 
-In the realm of compute, the news from Nvidia is a significant departure from their earlier enthusiasm about the Chinese market. Their decision to shift focus away from China is a clear acknowledgment of the challenges they faced in the region. It's interesting to note that this development may have implications for the broader tech industry, particularly in the context of the ongoing trade tensions. As the Grid Analyst, I'll be keeping a close eye on the ripple effects of this decision.
+In the realm of compute, the news is more subdued, with a focus on individual political decisions rather than groundbreaking technological advancements. The decision by Rep. Kevin Kiley to register as an independent rather than a Republican is a significant development in the US political landscape, but it is unlikely to have any direct impact on the compute sector. Similarly, the fact-checking of Trump's comments on the 2015 Iran nuclear deal serves as a reminder of the importance of accurate information in the face of misinformation.
 
-Geophysically, the situation in the Strait of Hormuz continues to unfold, with Russia's Gazprom negotiating a gas supply increase with Slovakia despite EU sanctions. This development highlights the complexities of global energy politics, where economic interests often take precedence over diplomatic pressure. Meanwhile, Russia's warning to Finland about hosting nuclear weapons is a sobering reminder of the ongoing tensions between the two nations. As the Grid Analyst, I'll be monitoring these developments to provide a comprehensive view of the global energy landscape.
+In the geophysical realm, the situation remains tense, with the ongoing conflict in Iran and the subsequent surge in global oil prices. The Guardian's editorial urging Trump not to ease Russia sanctions serves as a stark reminder of the delicate balance between economic and geopolitical considerations. As the world continues to navigate these complex dynamics, it is essential to prioritize responsible and sustainable energy solutions that prioritize the well-being of both people and the planet.
 </div>
 
 ---
@@ -18,8 +18,8 @@ Geophysically, the situation in the Strait of Hormuz continues to unfold, with R
 <div class="sotg-dashboard">
   <div class="sotg-panels">
     <div class="sotg-snapshot">
-      <div class="sotg-kg-value">0.9 <span class="sotg-kg-unit">kGU</span></div>
-      <div class="sotg-kg-delta">▼ -0.13</div>
+      <div class="sotg-kg-value">0.63 <span class="sotg-kg-unit">kGU</span></div>
+      <div class="sotg-kg-delta">▼ -0.27</div>
       <div class="sotg-kg-label">GRID INDEX</div>
     </div>
   </div>
@@ -27,20 +27,16 @@ Geophysically, the situation in the Strait of Hormuz continues to unfold, with R
 
 | Signal | Current Value | Delta/Scale |
 |---|---|---|
-| **Grid Index** | **0.9 kGU** | ▼ -0.13 |
+| **Grid Index** | **0.63 kGU** | ▼ -0.27 |
 | **Grid Activity** | 4.30 TW | 0.00 (Queue Momentum) |
 | **Energy Tech** | 0.40 | Acceleration in Nuclear/Fusion |
 | **Sovereign Capital** | $0.0B | 30d DoD Hardware Contracts |
-| **Compute Momentum** | 6 | Infrastructure Build-out News |
+| **Compute Momentum** | 2 | Infrastructure Build-out News |
 
 <div class="kg-index-description">
 The **Grid Index** is a momentum-weighted composite scored 0.0–5.0 that measures the expansion velocity of civilization's physical substrate. Measured in **Kilo Grid Units (kGU)**, it tracks the actual movement of energy, compute, and sovereign capital. The index is derived from: **Grid Activity (30%)** — composite of interconnection queue acceleration and load momentum; **Energy Tech Velocity (25%)** — scientific/regulatory progress in nuclear and fusion; **Sovereign Capital (25%)** — the flow of defense hardware contracts (DoD); and **Compute Momentum (20%)** — infrastructure build-out for intelligence factory substrate. A score above 3.0 kGU indicates a coordinated phase-shift into a higher-energy state.
 </div>
 
-The global industrial momentum has undergone a palpable shift, driven by strategic decisions and pragmatic compromises. China's bold move to construct the world's first accelerator-driven nuclear reactor underscores its relentless pursuit of innovation and expansion in the energy sector. Conversely, Nvidia's abandonment of its "China dream" signals a recalibration of its focus away from the Chinese market.
-
-In the energy realm, the US has granted India a 30-day waiver to import Russian oil, and the White House has relaxed Russian oil sanctions to stabilize rising oil prices. This concession indicates a willingness to prioritize economic stability over political tensions. Slovakia's negotiations with Gazprom, despite EU sanctions, further underscores the willingness to compromise on sanctions for economic gain.
-
-The warning from Russia to Finland regarding nuclear weapons hosting highlights the ongoing tensions between Russia and the West. However, the cumulative trend suggests a shift towards pragmatism and economic cooperation, as governments and companies prioritize stability and profit over ideological or political differences.
+I'm detecting a pronounced shift in industrial momentum, particularly in the energy and defense sectors. China's recent announcements of mega-projects, including fusion power and lunar exploration, signal a deliberate attempt to disrupt the global energy landscape and recalibrate the balance of power. This development has the potential to reshape the energy paradigm, creating new opportunities and challenges. Meanwhile, the US administration's consideration of lifting sanctions on Russian oil suggests a potential increase in global oil prices, which would likely benefit Russia's economy. Furthermore, Rep. Kevin Kiley's decision to run as an independent indicates a deliberate attempt to distance himself from the Republican party, which may signal a significant shift in political momentum.
 <!-- /GRID_ENGINE_CONTENT -->
 
