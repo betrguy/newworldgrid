@@ -4,7 +4,7 @@ layout: page
 date: 2026-01-26
 ---
 ### Intelligence Archive
-*Analysis of the global restructuring which is currently taking place, often presenting in the news as collapse/kinetic conflicts. Read the latest here.*
+*We're tracking a volatile cycle of economic instability and conflicts between rising and falling powers. Where are we going next? Read our thoughts here.*
 
 <!-- NEWS_HUNTER_JUMP -->
 <a href="#intelligence-brief" style="display:inline-block;padding:6px 14px;background:#1a1a1a;border:1px solid #ff4444;color:#ff4444;text-decoration:none;font-size:0.8em;text-transform:uppercase;letter-spacing:1px;border-radius:3px;margin-bottom:16px;">Jump to Briefing</a>
