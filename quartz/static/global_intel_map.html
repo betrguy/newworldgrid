@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-10 10:56 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-10 11:21 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,150 +51,156 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: US-NY",
+    "summary": "US relaxes energy limits on Russia amid soaring oil prices, amid growing global energy tensions.",
+    "emojis": "⚡",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US",
+      "Russia"
+    ],
+    "source_count": 1,
+    "timestamp": "11:19 AM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Trump sends mixed signals on Iran war end date, as US, Israel, and Iran engage in escalating conflict.",
-    "emojis": "💥⚔️",
+    "summary": "US and Iran engage in intense airstrikes and cyber retaliation amid ongoing conflict",
+    "emojis": "💥⚔️💀",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran",
-      "Israel"
+      "Iran"
     ],
-    "source_count": 49,
-    "timestamp": "10:55 AM"
+    "source_count": 51,
+    "timestamp": "11:19 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces international criticism, sanctions, and unrest amid ongoing war and human rights concerns.",
+    "summary": "Russia faces sanctions, criticism, and UN inquiry over Middle East involvement and human rights abuses.",
     "emojis": "⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "EU",
       "Russia",
-      "US",
-      "Iran",
-      "Ukraine"
-    ],
-    "source_count": 14,
-    "timestamp": "10:55 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces missile war, cyber attacks, and human rights concerns amid conflict with Hezbollah.",
-    "emojis": "⚔️🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Hezbollah",
+      "EU",
+      "North Korea",
+      "UN",
+      "Ukraine",
       "Iran"
     ],
-    "source_count": 13,
-    "timestamp": "10:55 AM"
+    "source_count": 16,
+    "timestamp": "11:19 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China navigates diplomatic, economic, and technological shifts amid COVID-19, US-China decoupling, and aging population.",
+    "summary": "China resumes passenger trains to North Korea, eyes lunar cooperation, and plans for Xi-Trump summit",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
+      "North Korea",
       "US",
-      "Japan",
-      "Thailand",
       "Xi Jinping",
-      "Trump",
-      "Azerbaijan",
-      "Nio",
-      "Liu",
-      "Gu"
+      "Trump"
     ],
-    "source_count": 25,
-    "timestamp": "10:55 AM"
+    "source_count": 27,
+    "timestamp": "11:20 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia claims Ukraine used laser to damage drone cable, while Ukraine makes progress in military operations",
+    "emojis": "🪖✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 11,
+    "timestamp": "11:20 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "A two-front war should be no problem for Israel, analysts say - Breaking Defense",
+    "emojis": "🚀⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 14,
+    "timestamp": "11:21 AM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Syrian ex-colonel stands trial for crimes against humanity committed in 2011-2012",
+    "summary": "Syrian ex-colonel faces trial for crimes against humanity committed in 2011 and 2012.",
     "emojis": "",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "actor1",
-      "actor2"
+      "Salem Michel Al-Salem"
     ],
     "source_count": 1,
-    "timestamp": "10:56 AM"
+    "timestamp": "11:21 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Al-Qard Al-Hassan is a Hezbollah-linked financial institution suspected of money laundering and illicit activities.",
-    "emojis": "",
+    "summary": "Al-Qard Al-Hassan is a Hezbollah-linked financial institution accused of funding terrorist activities.",
+    "emojis": "🔺",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "actor1",
-      "actor2"
+      "Hezbollah",
+      "Al Jazeera"
     ],
     "source_count": 1,
-    "timestamp": "10:56 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine gains ground against Russia, EU pressures for peace, while Finland warns of potential Russian espionage.",
-    "emojis": "✈️🚀⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "Finland",
-      "EU"
-    ],
-    "source_count": 13,
-    "timestamp": "10:56 AM"
+    "timestamp": "11:21 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India eases Chinese investment rules, snaps up Russian oil after US waiver",
+    "summary": "India eases Chinese investment rules, snaps up Russian oil after US grants temporary waiver",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
+      "India's Cabinet",
       "US",
-      "China"
+      "India",
+      "China",
+      "Russia"
     ],
     "source_count": 3,
-    "timestamp": "10:56 AM"
+    "timestamp": "11:21 AM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan deploys naval escort for its ships in the Middle East amid regional security concerns.",
+    "summary": "Pakistan deploys naval escort for ships in the Middle East amid regional security concerns.",
     "emojis": "🚢",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
       "Pakistan",
-      "unknown"
+      "Unknown"
     ],
     "source_count": 1,
-    "timestamp": "10:56 AM"
+    "timestamp": "11:21 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "FTSE indexes rebound as Trump hints at Middle East war end, boosting British markets",
+    "summary": "FTSE indexes in UK rebound as US President Trump hints at possible end to Middle East war",
     "emojis": "⚔️",
     "lat": 55.3,
     "lng": -3.4,
@@ -204,21 +210,7 @@
       "Trump"
     ],
     "source_count": 1,
-    "timestamp": "10:56 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Wildflowers cover Death Valley in vibrant display, the best since 2016.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "California",
-      "Nature"
-    ],
-    "source_count": 1,
-    "timestamp": "10:56 AM"
+    "timestamp": "11:21 AM"
   }
 ];
 

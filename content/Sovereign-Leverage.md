@@ -25,7 +25,7 @@ The gap between what institutions control and what individuals can deploy widens
 |---|---|---|
 | **Leverage Index** | **4.31 LI** | ▲ +0.0 |
 | **Geomagnetic (Kp)** | ███░░░░░░ 3.0 | Unsettled |
-| **24h Kp avg / max** | 2.52 / 3.3 | Geo component: 0.65 |
+| **24h Kp avg / max** | 2.71 / 3.3 | Geo component: 0.65 |
 | **Solar Phase** | 11.54h day | Winter, ↑ Lengthening, 79d to solstice |
 | **OS Velocity** | 40 HN + 10 trending repos | Score: 1.00 |
 
@@ -35,7 +35,7 @@ The gap between what institutions control and what individuals can deploy widens
 
 The **planetary K-index** (Kp) measures disturbance in Earth&rsquo;s magnetic field on a 0&ndash;9 scale. Quiet conditions (Kp &lt; 3) correspond to stable propagation, reduced satellite drag, and an undisrupted electromagnetic substrate. Geomagnetic storms (Kp &gt; 5) are natural disruptions &mdash; uncontrolled, unpredictable, and universal.
 
-Current 24h window: avg **2.52**, peak **3.3** &mdash; **Unsettled**.
+Current 24h window: avg **2.71**, peak **3.3** &mdash; **Unsettled**.
 
 ## Solar Phase
 
