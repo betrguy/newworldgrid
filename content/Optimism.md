@@ -3,45 +3,29 @@ title: Daily Optimism
 layout: page
 ---
 
-<div class="energy-pulse">
-Breakthroughs in AI, such as the [Baochip-1x](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/), are paving the way for more secure and efficient computing systems, enabling faster and more energy-efficient devices. Meanwhile, in physics, researchers have successfully predicted the amplitude of sunspot cycles using a machine learning-based approach, with an accuracy of +/- 4% rms. In biology, scientists have made progress in understanding protein folding, capturing the moment of a protein folding in real-time using a new technique. The field of materials science has seen advancements in creating liquid crystal droplets that can switch on and off in nanoseconds, controlling light with light. In the realm of energy, researchers have proposed a new kinetic route to helicity-constrained decay, enabling the study of sub-ion turbulence. The latest discoveries in space are focused on understanding the behavior of agents in autonomous systems, such as the [Layered Governance Architecture](https://arxiv.org/abs/2603.07191). In engineering, the development of more accurate predictors of sunspot cycle amplitude is a significant breakthrough, enabling the prediction of larger sunspot cycles than previously estimated. The [Behavioral Inference at Scale](https://arxiv.org/abs/2509.05624) project has established empirical bounds on behavioral inference through controlled experiments at scale, revealing a fundamental asymmetry between motivations and belief systems. 
+Biology and silicon are converging faster than anyone scheduled.
 
-</div>
+<div class="energy-pulse">
+The gap between possible and deployed shrank again this week. It keeps doing that. Baochip-1x, a mostly-open 22nm SOC, is being designed with high-assurance applications in mind, and its development might accelerate similar efforts across industries. Meanwhile, nanosecond light-by-light switching in liquid crystal droplets could revolutionize computing and communication technologies. In the realm of physics, a remarkably accurate predictor of sunspot cycle amplitudes was discovered, allowing for precise predictions years in advance. Additionally, researchers are using continuum images to study the behavior of sub-ion turbulence, shedding light on the fundamental limits of magnetic helicity. In the field of materials, a new technique for capturing the moment of protein folding in real-time could have a significant impact on our understanding of biological systems.</div>
 
 ---
 
 
 ### Real-World Implications
 
-- A laptop-scale model now matches last year's cloud frontier on reasoning tasks, enabling faster and more efficient computing systems.
-- Researchers have successfully predicted the amplitude of sunspot cycles using a machine learning-based approach, with an accuracy of +/- 4% rms.
-- The technique offers an objective, physically based predictor of cycle amplitudes 3-4 years ahead of their maxima, given a stable source of continuum full disk photospheric images.
-- Controlling light with light is a long-sought goal for computing and communication technologies, potentially enabling faster and more energy-efficient devices.
-- The development of more accurate predictors of sunspot cycle amplitude is a significant breakthrough, enabling the prediction of larger sunspot cycles than previously estimated.
-- Scientists have made progress in understanding protein folding, capturing the moment of a protein folding in real-time using a new technique.
-- Researchers are using the gap between possible and deployed to shrink, with the [Layered Governance Architecture](https://arxiv.org/abs/2603.07191) providing a framework for high-assurance applications.
-- The field of materials science is focused on creating liquid crystal droplets that can switch on and off in nanoseconds, controlling light with light.
+- Achieving nanosecond light-by-light switching with liquid crystal droplets could enable faster and more energy-efficient devices, revolutionizing computing and communication technologies.
+- The discovery of a remarkably accurate predictor of sunspot cycle amplitudes could provide a stable source of information 3-4 years ahead of their maxima, enabling more accurate forecasting and predictions.
+- The development of Baochip-1x, a mostly-open 22nm SOC, might accelerate similar efforts across industries, leading to more secure and reliable systems.
+- The real-time technique for capturing the moment of protein folding could help develop better diagnostics and treatments for women's health, by providing a more nuanced understanding of the complexities of human biology.
+- The study of sub-ion turbulence using continuum images could lead to a deeper understanding of the fundamental limits of magnetic helicity, with potential applications in fields such as plasma physics and materials science.
 ---
-
-## Sovereign Signals
-
-<div class="sotg-dashboard">
-  <div class="sotg-panels">
-    <div class="sotg-snapshot">
-      <div class="sotg-kg-value">2.48 <span class="sotg-kg-unit">LI</span></div>
-      <div class="sotg-kg-delta">&darr; -1.83</div>
-      <div class="sotg-kg-label">LEVERAGE INDEX</div>
-    </div>
-  </div>
-</div>
 
 | Signal | Value | Status |
 |---|---|---|
-| **Leverage Index** | **2.48 LI** | &darr; -1.83 from yesterday |
-| **Geomagnetic (Kp)** | &block;&block;&block;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617; 3.0 | Unsettled |
-| **24h Kp avg / max** | 2.71 / 3.3 | &mdash; |
+| **Leverage Index** | **4.31 LI** | &uarr; +0.0 from yesterday |
+| **Geomagnetic (Kp)** | Kp 3.0 | Unsettled |
 | **Solar Phase** | 11.54h day | Winter, &uarr; Lengthening, 79d to solstice |
-| **OS Velocity** | 0 HN &plus; 10 trending | Score: 0.33 |
+| **OS Velocity** | 39 HN &plus; 10 trending | Score: 1.00 |
 
 ---
 
@@ -59,12 +43,16 @@ Day length today: **11.54 hours** (Winter, &uarr; lengthening). 79 days to the n
 
 **GitHub Trending Today:**
 
-- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-- [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)
-- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) &mdash; A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish) &mdash; A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) &mdash; The agent that grows with you
+- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) &mdash; Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.
+- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) &mdash; Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
 
 **Hacker News &mdash; Open Source Signal:**
 
-_No HN open-source signal today._
+- Chinese Propaganda in Open Source AI: Moxie Marlinspike's Confer
+- Open-source AI tool beats LLMs in literature reviews – and gets citations right
+- Crypto grifters are recruiting open-source AI developers
+- Mozilla's open source AI strategy
+- Show HN: Open-source AI workflows with read-only auth scopes
