@@ -6,29 +6,30 @@ layout: page
 Biology and silicon are converging faster than anyone scheduled.
 
 <div class="energy-pulse">
-The gap between possible and deployed shrank again this week. It keeps doing that. Sovereign silicon is getting closer to reality with each passing day, as the latest breakthroughs in high-assurance computing bring us one step closer to a fully realized sovereign technology stack. Meanwhile, advances in soft matter and nanotechnology are opening up new possibilities for energy-efficient devices.
+The gap between possible and deployed shrank again this week. It keeps doing that. Sovereign Tech's Layered Governance Architecture (LGA) is being evaluated on a bilingual benchmark of 1,081 tool-call samples, while researchers are capturing the moment when proteins fold in real-time using a new technique. Meanwhile, nanosecond light-by-light switching has been achieved in liquid crystal droplets, and the amplitudes of sunspot cycles are being predicted with remarkable accuracy. Calm, observant tone prevails in the discovery of a fundamental asymmetry between motivations and belief systems in behavioral inference. A new platform for computing and communication technologies is emerging, and the importance of disaggregating data by sex is becoming increasingly clear. 
 </div>
 
 ---
 
 
-Today's pattern of progress is marked by an accelerating convergence of biology and silicon, with breakthroughs in protein folding, liquid crystal optical switching, and high-assurance computing bringing us closer to a world where technology is both more powerful and more sustainable.
-
 ### Real-World Implications
 
-- Proteins assume complex 3D shapes even faster than does DNA, which is a simpler molecule. [Nature](https://www.nature.com/articles/d41586-026-00755-x) &mdash; present tense.
-- Uncharted territories in women's health are being mapped, providing new insights into the complex relationships between biology and society. [Nature](https://www.nature.com/articles/d41586-026-00526-8) &mdash; present tense.
-- The first mostly open-source 22nm SoC for high-assurance computing is being developed, bringing sovereign silicon one step closer to reality. [Baochip-1x](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/) &mdash; present tense.
-- Nanosecond light-by-light control in droplets is opening up new possibilities for energy-efficient photonic devices. [Phys.org](https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) &mdash; present tense.
-- Behavioral inference at scale is being explored, with breakthroughs in understanding motivations and belief systems providing new insights into the complex relationships between humans and machines. [Sovereign Tech](https://arxiv.org/abs/2509.05624) &mdash; present tense.
-- The future of computing is being reimagined, with advances in 2D3V PIC simulations and kinetic route to helicity-constrained decay bringing us closer to a world where technology is more sustainable and more powerful. [arXiv](https://arxiv.org/abs/2602.17514) &mdash; present tense.
+- A new class of energy-efficient photonic devices is being explored. 
+- [Baochip-1x](https://arxiv.org/abs/2603.07191) &mdash; the first mostly open-source 22nm SoC for high-assurance computing brings sovereign silicon one step closer to reality.
+- [Layered Governance Architecture](https://arxiv.org/abs/2603.07191) &mdash; a four-layer framework comprising execution sandboxing, intent verification, zero-trust inter-agent authorization, and immutable audit logging.
+- Uncharted territory is being explored in the development of better diagnostics and treatments for women's health.
+- A fundamental asymmetry is emerging in both magnitude and structure in behavioral inference through controlled experiments at scale. 
+- [Liquid Crystal Optical Switching](https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) &mdash; nanosecond light-by-light control in droplets opens a new class of energy-efficient photonic devices.
+- The International Prediction Panel is being outperformed in the prediction of sunspot cycle amplitudes.
+- A new technique is capturing the moment when proteins fold in real-time, with remarkable accuracy. 
+- The importance of disaggregating data by sex is becoming increasingly clear, with applications in diagnostics and treatments for women's health.
 ---
 
 ### Geomagnetic Environment
 
 The **planetary K-index** (Kp) measures disturbance in Earth&rsquo;s magnetic field on a 0&ndash;9 scale. Quiet conditions (Kp &lt; 3) correspond to stable propagation, reduced satellite drag, and an undisrupted electromagnetic substrate. Geomagnetic storms (Kp &gt; 5) are natural disruptions &mdash; uncontrolled, unpredictable, and universal.
 
-Today&rsquo;s window: avg **2.71**, peak **3.3** &mdash; **Unsettled**. Minor geomagnetic activity possible. Storms unlikely.
+Today&rsquo;s window: avg **2.95**, peak **3.7** &mdash; **Unsettled**. Minor geomagnetic activity possible. Storms unlikely.
 
 ### Solar Phase
 

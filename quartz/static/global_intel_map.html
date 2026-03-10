@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-10 11:21 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-10 14:09 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,8 +51,128 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine-Russia peace talks stall amid conflicting claims of front-line progress and US brokered talks on hold",
+    "emojis": "⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "US",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 9,
+    "timestamp": "02:06 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China spying case: Labour MP received £2,400 donation from husband’s firm - The ",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "google_china"
+    ],
+    "source_count": 21,
+    "timestamp": "02:07 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces criticism over children deportation, prepares military systems, and struggles with healthcare and budget issues.",
+    "emojis": "🪖✈️🚀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "UN",
+      "US court",
+      "Russia",
+      "NATO",
+      "Finland",
+      "Portugal"
+    ],
+    "source_count": 21,
+    "timestamp": "02:08 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions escalate as US, Israel pound Iran, sparking oil price surge and global concern",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Israel",
+      "Iran"
+    ],
+    "source_count": 60,
+    "timestamp": "02:08 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel denies women in Gaza living conditions, war expands to Beirut, and Iran hit in luxury hotel",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Iran",
+      "Hezbollah",
+      "US",
+      "China"
+    ],
+    "source_count": 13,
+    "timestamp": "02:08 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Zendaya shows off gold wedding ring at Paris Fashion Week, joins Stella McCartney's horse show",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Zendaya",
+      "Stella McCartney"
+    ],
+    "source_count": 1,
+    "timestamp": "02:08 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israel strikes Lebanon, envoy suggests disarm Hezbollah to end war",
+    "emojis": "💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israeli forces",
+      "Hezbollah"
+    ],
+    "source_count": 3,
+    "timestamp": "02:08 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Russian oil prices rise, but tanker costs offset gains, as British Airways suspends Middle East flights.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Yahoo Finance UK",
+      "WSJ"
+    ],
+    "source_count": 2,
+    "timestamp": "02:08 PM"
+  },
+  {
     "title": "SITREP: US-NY",
-    "summary": "US relaxes energy limits on Russia amid soaring oil prices, amid growing global energy tensions.",
+    "summary": "US relaxes energy restrictions on Russia amid rising oil prices, potentially easing tensions.",
     "emojis": "⚡",
     "lat": 40.71,
     "lng": -74.0,
@@ -62,155 +182,21 @@
       "Russia"
     ],
     "source_count": 1,
-    "timestamp": "11:19 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US and Iran engage in intense airstrikes and cyber retaliation amid ongoing conflict",
-    "emojis": "💥⚔️💀",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 51,
-    "timestamp": "11:19 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces sanctions, criticism, and UN inquiry over Middle East involvement and human rights abuses.",
-    "emojis": "⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "EU",
-      "North Korea",
-      "UN",
-      "Ukraine",
-      "Iran"
-    ],
-    "source_count": 16,
-    "timestamp": "11:19 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China resumes passenger trains to North Korea, eyes lunar cooperation, and plans for Xi-Trump summit",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "North Korea",
-      "US",
-      "Xi Jinping",
-      "Trump"
-    ],
-    "source_count": 27,
-    "timestamp": "11:20 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia claims Ukraine used laser to damage drone cable, while Ukraine makes progress in military operations",
-    "emojis": "🪖✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 11,
-    "timestamp": "11:20 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "A two-front war should be no problem for Israel, analysts say - Breaking Defense",
-    "emojis": "🚀⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 14,
-    "timestamp": "11:21 AM"
+    "timestamp": "02:09 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Syrian ex-colonel faces trial for crimes against humanity committed in 2011 and 2012.",
+    "summary": "Syrian ex-colonel faces trial for crimes against humanity in Syria, 2011-2012",
     "emojis": "",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "Salem Michel Al-Salem"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "11:21 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Al-Qard Al-Hassan is a Hezbollah-linked financial institution accused of funding terrorist activities.",
-    "emojis": "🔺",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Hezbollah",
-      "Al Jazeera"
-    ],
-    "source_count": 1,
-    "timestamp": "11:21 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India eases Chinese investment rules, snaps up Russian oil after US grants temporary waiver",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "India's Cabinet",
-      "US",
-      "India",
-      "China",
-      "Russia"
-    ],
-    "source_count": 3,
-    "timestamp": "11:21 AM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan deploys naval escort for ships in the Middle East amid regional security concerns.",
-    "emojis": "🚢",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Pakistan",
-      "Unknown"
-    ],
-    "source_count": 1,
-    "timestamp": "11:21 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "FTSE indexes in UK rebound as US President Trump hints at possible end to Middle East war",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Reuters",
-      "Trump"
-    ],
-    "source_count": 1,
-    "timestamp": "11:21 AM"
+    "timestamp": "02:09 PM"
   }
 ];
 
