@@ -6,22 +6,22 @@ layout: page
 Biology and silicon are converging faster than anyone scheduled.
 
 <div class="energy-pulse">
-The gap between possible and deployed shrank again this week. It keeps doing that. Baochip-1x, a mostly-open 22nm SOC, is part of this trend, enabling high-assurance applications. Meanwhile, researchers captured the moment of a protein folding in real-time. Nanosecond light-by-light switching was achieved in liquid crystal droplets. Layered Governance Architecture (LGA) was applied to OpenClaw, a representative open-source agent framework. A remarkable predictor of sunspot cycle amplitude was demonstrated.
+The gap between possible and deployed shrank again this week. It keeps doing that. OpenClaw, a representative open-source agent framework, was used to evaluate the Layered Governance Architecture (LGA), a four-layer framework comprising execution sandboxing, intent verification, zero-trust inter-agent authorization, and immutable audit logging.
 </div>
 
 ---
 
 
-Today's pattern of progress reveals a growing emphasis on high-assurance systems and more efficient, energy-efficient technologies.
+Today's progress follows a familiar pattern: breakthroughs are multiplying, and the pace is accelerating. From the convergence of biology and silicon to the development of new materials and energy sources, the pace of innovation is relentless.
 
-- Baochip-1x (https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/) enables the development of secure AI systems. 
-- Real-time protein folding capture (https://www.nature.com/articles/d41586-026-00755-x) could accelerate disease research and discovery.
-- Nanosecond light-by-light switching (https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) holds promise for faster and more energy-efficient computing devices.
-- Layered Governance Architecture (https://arxiv.org/abs/2603.07191) provides a robust framework for ensuring the reliability and trustworthiness of AI systems.
-- A remarkable predictor of sunspot cycle amplitude (https://arxiv.org/abs/2307.03047) could enable more accurate forecasting and better management of solar energy resources.
-- Uncharted territory in women's health (https://www.nature.com/articles/d41586-026-00526-8) is being explored through the aggregation of data by sex.
-- Kinetic route to helicity-constrained decay (https://arxiv.org/abs/2602.17514) has the potential to improve our understanding of magnetic field behavior in plasma environments.
-- How fast does a protein fold? (https://www.nature.com/articles/d41586-026-00755-x) is now a topic of real-time study.
+- The Layered Governance Architecture (LGA) could significantly improve the security of autonomous agent systems by providing a robust framework for execution sandboxing, intent verification, zero-trust inter-agent authorization, and immutable audit logging.
+- The Baochip-1x, a mostly-open 22nm SoC for high-assurance applications, could enable faster and more energy-efficient devices in various industries.
+- Nanosecond light-by-light switching achieved in liquid crystal droplet could revolutionize computing and communication technologies by allowing optical signals to be processed without converting them into electrical signals.
+- The new technique for capturing protein folding could lead to the development of more effective treatments for diseases.
+- Uncharted: understanding women&rsquo;s health across the body could lead to the development of better diagnostics and treatments for women.
+- Kinetic Route to Helicity-Constrained Decay could provide insights into the behavior of magnetic fields and could be used to improve the performance of particle accelerators.
+- The prediction of sunspot cycle amplitudes using continuum images from the SOHO Michelson Doppler Imager and SDO Heliospheric Magnetic Imager could enable more accurate forecasts of solar activity.
+- A remarkably accurate predictor of sunspot cycle amplitude was achieved, allowing for the prediction of a larger Cycle 25 than estimated by the International Prediction Panel, 3 years before maximum.
 ---
 
 ### Geomagnetic Environment
