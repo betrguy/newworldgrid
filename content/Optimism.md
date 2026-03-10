@@ -6,22 +6,22 @@ layout: page
 Biology and silicon are converging faster than anyone scheduled.
 
 <div class="energy-pulse">
-The gap between possible and deployed shrank again this week. It keeps doing that. OpenClaw, a representative open-source agent framework, was used to evaluate the Layered Governance Architecture (LGA), a four-layer framework comprising execution sandboxing, intent verification, zero-trust inter-agent authorization, and immutable audit logging.
+The gap between possible and deployed shrank again this week. It keeps doing that. Sovereign silicon is getting closer to reality with each passing day, as the latest breakthroughs in high-assurance computing bring us one step closer to a fully realized sovereign technology stack. Meanwhile, advances in soft matter and nanotechnology are opening up new possibilities for energy-efficient devices.
 </div>
 
 ---
 
 
-Today's progress follows a familiar pattern: breakthroughs are multiplying, and the pace is accelerating. From the convergence of biology and silicon to the development of new materials and energy sources, the pace of innovation is relentless.
+Today's pattern of progress is marked by an accelerating convergence of biology and silicon, with breakthroughs in protein folding, liquid crystal optical switching, and high-assurance computing bringing us closer to a world where technology is both more powerful and more sustainable.
 
-- The Layered Governance Architecture (LGA) could significantly improve the security of autonomous agent systems by providing a robust framework for execution sandboxing, intent verification, zero-trust inter-agent authorization, and immutable audit logging.
-- The Baochip-1x, a mostly-open 22nm SoC for high-assurance applications, could enable faster and more energy-efficient devices in various industries.
-- Nanosecond light-by-light switching achieved in liquid crystal droplet could revolutionize computing and communication technologies by allowing optical signals to be processed without converting them into electrical signals.
-- The new technique for capturing protein folding could lead to the development of more effective treatments for diseases.
-- Uncharted: understanding women&rsquo;s health across the body could lead to the development of better diagnostics and treatments for women.
-- Kinetic Route to Helicity-Constrained Decay could provide insights into the behavior of magnetic fields and could be used to improve the performance of particle accelerators.
-- The prediction of sunspot cycle amplitudes using continuum images from the SOHO Michelson Doppler Imager and SDO Heliospheric Magnetic Imager could enable more accurate forecasts of solar activity.
-- A remarkably accurate predictor of sunspot cycle amplitude was achieved, allowing for the prediction of a larger Cycle 25 than estimated by the International Prediction Panel, 3 years before maximum.
+### Real-World Implications
+
+- Proteins assume complex 3D shapes even faster than does DNA, which is a simpler molecule. [Nature](https://www.nature.com/articles/d41586-026-00755-x) &mdash; present tense.
+- Uncharted territories in women's health are being mapped, providing new insights into the complex relationships between biology and society. [Nature](https://www.nature.com/articles/d41586-026-00526-8) &mdash; present tense.
+- The first mostly open-source 22nm SoC for high-assurance computing is being developed, bringing sovereign silicon one step closer to reality. [Baochip-1x](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/) &mdash; present tense.
+- Nanosecond light-by-light control in droplets is opening up new possibilities for energy-efficient photonic devices. [Phys.org](https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) &mdash; present tense.
+- Behavioral inference at scale is being explored, with breakthroughs in understanding motivations and belief systems providing new insights into the complex relationships between humans and machines. [Sovereign Tech](https://arxiv.org/abs/2509.05624) &mdash; present tense.
+- The future of computing is being reimagined, with advances in 2D3V PIC simulations and kinetic route to helicity-constrained decay bringing us closer to a world where technology is more sustainable and more powerful. [arXiv](https://arxiv.org/abs/2602.17514) &mdash; present tense.
 ---
 
 ### Geomagnetic Environment
