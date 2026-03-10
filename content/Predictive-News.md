@@ -1,4 +1,8 @@
 ---
+title: Predictive News
+layout: page
+date: 2026-01-26
+---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
@@ -8,11 +12,6 @@
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
-
-title: Predictive News
-layout: page
-date: 2026-01-26
----
 ### Intelligence Archive
 *We're tracking a volatile cycle of economic instability and conflicts between rising and falling powers. Where are we going next? Read our thoughts here.*
 
