@@ -4,22 +4,23 @@ layout: page
 ---
 
 <div class="energy-pulse">
-The gap between possible and deployed shrank again this week. It keeps doing that. Nanosecond-scale liquid-crystal droplets can now switch on and off with light, a key step towards optical computing. The field is inching closer to a laptop-scale model that matches last year's cloud frontier on reasoning tasks. Meanwhile, proteins are folding faster than DNA, with real-time techniques capturing their complex 3D shapes. The discovery of a new predictor of sunspot cycle amplitudes could help forecast solar flares for decades to come. 
+Breakthroughs in AI, such as the [Baochip-1x](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/), are paving the way for more secure and efficient computing systems, enabling faster and more energy-efficient devices. Meanwhile, in physics, researchers have successfully predicted the amplitude of sunspot cycles using a machine learning-based approach, with an accuracy of +/- 4% rms. In biology, scientists have made progress in understanding protein folding, capturing the moment of a protein folding in real-time using a new technique. The field of materials science has seen advancements in creating liquid crystal droplets that can switch on and off in nanoseconds, controlling light with light. In the realm of energy, researchers have proposed a new kinetic route to helicity-constrained decay, enabling the study of sub-ion turbulence. The latest discoveries in space are focused on understanding the behavior of agents in autonomous systems, such as the [Layered Governance Architecture](https://arxiv.org/abs/2603.07191). In engineering, the development of more accurate predictors of sunspot cycle amplitude is a significant breakthrough, enabling the prediction of larger sunspot cycles than previously estimated. The [Behavioral Inference at Scale](https://arxiv.org/abs/2509.05624) project has established empirical bounds on behavioral inference through controlled experiments at scale, revealing a fundamental asymmetry between motivations and belief systems. 
+
 </div>
 
 ---
 
 
-Today's progress was marked by breakthroughs in AI, physics, and biology. Researchers established empirical bounds on behavioral inference through controlled experiments at scale, revealing a fundamental asymmetry between motivations and belief systems. In physics, continuum images were used to predict sunspot cycle amplitudes with unprecedented accuracy, enabling early warning systems for solar flares. In biology, proteins are folding faster than DNA, with real-time techniques capturing their complex 3D shapes. A new predictor of sunspot cycle amplitudes could help forecast solar flares for decades to come. Layered Governance Architecture (LGA) for Autonomous Agent Systems proposes a four-layer framework to address vulnerabilities in AI systems.
-
 ### Real-World Implications
 
-- A laptop-scale model now matches last year's cloud frontier on reasoning tasks, enabling faster and more energy-efficient AI systems.
-- Proteins are folding faster than DNA, with real-time techniques capturing their complex 3D shapes, enabling better understanding of protein function.
-- The discovery of a new predictor of sunspot cycle amplitudes could help forecast solar flares for decades to come, mitigating the impact of space weather on Earth's magnetic field.
-- A new technique for controlling light with light has been achieved in liquid crystal droplets, paving the way for optical computing technologies.
-- Layered Governance Architecture (LGA) for Autonomous Agent Systems proposes a four-layer framework to address vulnerabilities in AI systems, ensuring more secure and reliable autonomous systems.
-- The new LGA framework could be applied to various domains, including energy and space, to improve the development of autonomous systems.
+- A laptop-scale model now matches last year's cloud frontier on reasoning tasks, enabling faster and more efficient computing systems.
+- Researchers have successfully predicted the amplitude of sunspot cycles using a machine learning-based approach, with an accuracy of +/- 4% rms.
+- The technique offers an objective, physically based predictor of cycle amplitudes 3-4 years ahead of their maxima, given a stable source of continuum full disk photospheric images.
+- Controlling light with light is a long-sought goal for computing and communication technologies, potentially enabling faster and more energy-efficient devices.
+- The development of more accurate predictors of sunspot cycle amplitude is a significant breakthrough, enabling the prediction of larger sunspot cycles than previously estimated.
+- Scientists have made progress in understanding protein folding, capturing the moment of a protein folding in real-time using a new technique.
+- Researchers are using the gap between possible and deployed to shrink, with the [Layered Governance Architecture](https://arxiv.org/abs/2603.07191) providing a framework for high-assurance applications.
+- The field of materials science is focused on creating liquid crystal droplets that can switch on and off in nanoseconds, controlling light with light.
 ---
 
 ## Sovereign Signals
@@ -27,8 +28,8 @@ Today's progress was marked by breakthroughs in AI, physics, and biology. Resear
 <div class="sotg-dashboard">
   <div class="sotg-panels">
     <div class="sotg-snapshot">
-      <div class="sotg-kg-value">4.31 <span class="sotg-kg-unit">LI</span></div>
-      <div class="sotg-kg-delta">&uarr; +0.0</div>
+      <div class="sotg-kg-value">2.48 <span class="sotg-kg-unit">LI</span></div>
+      <div class="sotg-kg-delta">&darr; -1.83</div>
       <div class="sotg-kg-label">LEVERAGE INDEX</div>
     </div>
   </div>
@@ -36,7 +37,34 @@ Today's progress was marked by breakthroughs in AI, physics, and biology. Resear
 
 | Signal | Value | Status |
 |---|---|---|
-| **Leverage Index** | **4.31 LI** | &uarr; +0.0 from yesterday |
-| **Geomagnetic (Kp)** | 3.0 | Unsettled |
-| **Solar Phase** | 11.54h day | Winter, &uarr; 79d to solstice |
-| **OS Velocity** | 20 HN &plus; 10 trending | Score: 1.00 |
+| **Leverage Index** | **2.48 LI** | &darr; -1.83 from yesterday |
+| **Geomagnetic (Kp)** | &block;&block;&block;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617; 3.0 | Unsettled |
+| **24h Kp avg / max** | 2.71 / 3.3 | &mdash; |
+| **Solar Phase** | 11.54h day | Winter, &uarr; Lengthening, 79d to solstice |
+| **OS Velocity** | 0 HN &plus; 10 trending | Score: 0.33 |
+
+---
+
+### Geomagnetic Environment
+
+The **planetary K-index** (Kp) measures disturbance in Earth&rsquo;s magnetic field on a 0&ndash;9 scale. Quiet conditions (Kp &lt; 3) correspond to stable propagation, reduced satellite drag, and an undisrupted electromagnetic substrate. Geomagnetic storms (Kp &gt; 5) are natural disruptions &mdash; uncontrolled, unpredictable, and universal.
+
+Current 24h window: avg **2.71**, peak **3.3** &mdash; **Unsettled**.
+
+### Solar Phase
+
+Day length today: **11.54 hours** (Winter, &uarr; lengthening). 79 days to the next solstice. The solar cycle sets the biological clock of every organism on the planet &mdash; a free, universal timing signal available to anyone paying attention. Day 69 of 365.
+
+### Open Source Velocity
+
+**GitHub Trending Today:**
+
+- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)
+- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+
+**Hacker News &mdash; Open Source Signal:**
+
+_No HN open-source signal today._
