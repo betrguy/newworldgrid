@@ -12,7 +12,6 @@ date: 2026-01-26
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
-### Intelligence Archive
 *We're tracking a volatile cycle of economic instability and conflicts between rising and falling powers. Where are we going next? Read our thoughts here.*
 
 <!-- NEWS_HUNTER_JUMP -->

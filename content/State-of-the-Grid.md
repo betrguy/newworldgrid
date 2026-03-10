@@ -13,7 +13,7 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 </div>
 
 <div class="energy-pulse">
-Today's energy landscape is marked by a mix of uncertainty and innovation. The potential widespread adoption of brain-computer technology in China within the next 3-5 years is a significant development that could have far-reaching implications for the global energy sector. As the world continues to grapple with the challenges posed by climate change, the integration of brain-computer interfaces with energy systems could potentially unlock new avenues for sustainable and efficient energy production and consumption.
+<p class="meridian-lede">Today's energy landscape is marked by a mix of uncertainty and innovation. The potential widespread adoption of brain-computer technology in China within the next 3-5 years is a significant development that could have far-reaching implications for the global energy sector. As the world continues to grapple with the challenges posed by climate change, the integration of brain-computer interfaces with energy systems could potentially unlock new avenues for sustainable and efficient energy production and consumption. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
 
 Meanwhile, the situation in the Middle East remains tense, with reports emerging that the US and Israel are considering a special forces operation to seize Iran's nuclear stockpile. This development underscores the ongoing tensions in the region and the need for continued diplomatic efforts to address the nuclear aspirations of various nations. In a related development, US energy officials have defended a waiver on Russian oil sanctions, attributing higher gas prices to fear rather than actual supply and demand dynamics.
 
