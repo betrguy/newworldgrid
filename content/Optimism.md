@@ -6,31 +6,33 @@ layout: page
 Biology and silicon are converging faster than anyone scheduled.
 
 <div class="energy-pulse">
-The gap between possible and deployed shrank again this week. It keeps doing that. Researchers at Sovereign Tech proposed the Layered Governance Architecture (LGA) for autonomous agent systems, which comprises execution sandboxing, intent verification, zero-trust inter-agent authorization, and immutable audit logging. The open-source Baochip-1x SoC offers a mostly open 22nm design for high assurance applications. In physics, researchers achieved nanosecond light-by-light switching in liquid crystal droplets. The Nature articles on protein folding and women's health shed light on the complexities of molecular biology and the importance of disaggregating data by sex. New simulations revealed the Kinetic Route to Helicity-Constrained Decay in plasma physics. In energy, the SOHO Michelson Doppler Imager and SDO Heliospheric Magnetic Imager enabled a remarkably accurate predictor of sunspot cycle amplitude.
+The gap between possible and deployed shrank again this week. It keeps doing that. Baochip-1x, a mostly-open 22nm SOC, is part of this trend, enabling high-assurance applications. Meanwhile, researchers captured the moment of a protein folding in real-time. Nanosecond light-by-light switching was achieved in liquid crystal droplets. Layered Governance Architecture (LGA) was applied to OpenClaw, a representative open-source agent framework. A remarkable predictor of sunspot cycle amplitude was demonstrated.
 </div>
 
 ---
 
 
-### Real-World Implications
+Today's pattern of progress reveals a growing emphasis on high-assurance systems and more efficient, energy-efficient technologies.
 
-- With the Baochip-1x SoC, developers can now design more secure and reliable AI systems for high-assurance applications. 
-- Nanosecond light-by-light switching in liquid crystal droplets could revolutionize the way we process optical signals, enabling faster and more energy-efficient devices. 
-- The breakthroughs in protein folding and women's health could lead to more effective diagnostics and treatments for various diseases. 
-- The Kinetic Route to Helicity-Constrained Decay could inform new strategies for managing plasma instabilities in fusion energy applications. 
-- By predicting sunspot cycle amplitude, researchers can better forecast space weather events, protecting both Earth's magnetic field and satellite communications. 
-- The Layered Governance Architecture could become a new standard for developing and deploying autonomous systems in various industries.
+- Baochip-1x (https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/) enables the development of secure AI systems. 
+- Real-time protein folding capture (https://www.nature.com/articles/d41586-026-00755-x) could accelerate disease research and discovery.
+- Nanosecond light-by-light switching (https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) holds promise for faster and more energy-efficient computing devices.
+- Layered Governance Architecture (https://arxiv.org/abs/2603.07191) provides a robust framework for ensuring the reliability and trustworthiness of AI systems.
+- A remarkable predictor of sunspot cycle amplitude (https://arxiv.org/abs/2307.03047) could enable more accurate forecasting and better management of solar energy resources.
+- Uncharted territory in women's health (https://www.nature.com/articles/d41586-026-00526-8) is being explored through the aggregation of data by sex.
+- Kinetic route to helicity-constrained decay (https://arxiv.org/abs/2602.17514) has the potential to improve our understanding of magnetic field behavior in plasma environments.
+- How fast does a protein fold? (https://www.nature.com/articles/d41586-026-00755-x) is now a topic of real-time study.
 ---
 
 ### Geomagnetic Environment
 
 The **planetary K-index** (Kp) measures disturbance in Earth&rsquo;s magnetic field on a 0&ndash;9 scale. Quiet conditions (Kp &lt; 3) correspond to stable propagation, reduced satellite drag, and an undisrupted electromagnetic substrate. Geomagnetic storms (Kp &gt; 5) are natural disruptions &mdash; uncontrolled, unpredictable, and universal.
 
-Current 24h window: avg **2.71**, peak **3.3** &mdash; **Unsettled**.
+Today&rsquo;s window: avg **2.71**, peak **3.3** &mdash; **Unsettled**. Minor geomagnetic activity possible. Storms unlikely.
 
 ### Solar Phase
 
-Day length today: **11.54 hours** (Winter, &uarr; lengthening). 79 days to the next solstice. The solar cycle sets the biological clock of every organism on the planet &mdash; a free, universal timing signal available to anyone paying attention. Day 69 of 365.
+Day length today: **11.54 hours** (Winter, &uarr; lengthening). 79 days to the next solstice. The solar cycle sets the biological clock of every organism on the planet &mdash; a free, universal timing signal available to anyone paying attention. The days are getting longer. Lean into the returning light &mdash; shift your morning routine 5 minutes earlier each week and front-load demanding work while momentum is building. Day 69 of 365.
 
 ### Open Source Velocity
 
@@ -44,8 +46,8 @@ Day length today: **11.54 hours** (Winter, &uarr; lengthening). 79 days to the n
 
 **Hacker News &mdash; Open Source Signal:**
 
-- Chinese Propaganda in Open Source AI: Moxie Marlinspike's Confer
-- Open-source AI tool beats LLMs in literature reviews – and gets citations right
-- Crypto grifters are recruiting open-source AI developers
-- Mozilla's open source AI strategy
-- Show HN: Open-source AI workflows with read-only auth scopes
+- [Chinese Propaganda in Open Source AI: Moxie Marlinspike's Confer](https://gagliardoni.net/#20260224_confer)
+- [Open-source AI tool beats LLMs in literature reviews – and gets citations right](https://www.nature.com/articles/d41586-026-00347-9)
+- [Crypto grifters are recruiting open-source AI developers](https://www.seangoedecke.com/gas-and-ralph/)
+- [Mozilla's open source AI strategy](https://blog.mozilla.org/en/mozilla/mozilla-open-source-ai-strategy/)
+- [Show HN: Open-source AI workflows with read-only auth scopes](https://github.com/seer-engg/seer)
