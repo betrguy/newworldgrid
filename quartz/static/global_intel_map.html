@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-11 12:48 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-03-11 12:59 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -52,37 +52,38 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: LEBANON",
-    "summary": "Escalating Israeli attacks displace 750,000 in Lebanon, sparking a widening humanitarian crisis.",
+    "summary": "Lebanon faces worsening humanitarian crisis and power struggles amid ongoing conflict and displacement",
     "emojis": "⚔️💀🕊️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
-      "Hezbollah"
+      "UN",
+      "Pope",
+      "Hezbollah",
+      "Lebanese Government"
     ],
     "source_count": 4,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces diplomatic challenges, including Spain's removal of ambassador and US military aid controversy",
-    "emojis": "🪖⚔️",
+    "summary": "Spain withdraws ambassador, AIPAC targets, Israel plans Red Sea foothold amidst regional tensions and arms trade growth",
+    "emojis": "⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Spain",
-      "US",
-      "Israel",
-      "AIPAC"
+      "AIPAC",
+      "Israel"
     ],
     "source_count": 18,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran lays mines in Strait of Hormuz, sparking US response and escalating Middle East tensions",
+    "summary": "Tensions escalate as Iran lays mines in Strait of Hormuz, targeting US and allied vessels, sparking global concern.",
     "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
@@ -90,29 +91,31 @@
     "actors": [
       "Iran",
       "US",
+      "Israel",
       "Russia",
-      "Israel"
+      "US Allies"
     ],
     "source_count": 74,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine strikes Russian plant, regains territory, and expands drone operations in the Middle East.",
-    "emojis": "✈️💥🚀",
+    "summary": "Ukraine hits Russian plant producing missile electronics, recovers territory, and expands drone operations",
+    "emojis": "✈️🚀⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Ukraine",
-      "Russia"
+      "Russia",
+      "Britain"
     ],
     "source_count": 8,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: GERMANY",
-    "summary": "Russian anthem played again at Paralympics despite German athletes' protest at Milan Cortina",
+    "summary": "Russian anthem played at Paralympics again after German athletes protested against its playing",
     "emojis": "",
     "lat": 51.1,
     "lng": 10.4,
@@ -122,71 +125,84 @@
       "Russia"
     ],
     "source_count": 6,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "IEA releases record emergency oil reserves amid Middle East war tensions and market volatility",
+    "summary": "IEA to release record emergency oil reserves amid Middle East tensions and market volatility",
     "emojis": "⚔️⚡",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
+      "France 24",
       "IEA",
-      "France 24"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Death toll rises in Russia after Ukrainian attack, while EU considers lifting sanctions and Russia expands internet controls.",
+    "summary": "Russia faces escalating violence, sanctions, and internet shutdowns amid Ukraine conflict and global space competition",
     "emojis": "⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "Russia",
       "Ukraine",
       "EU",
-      "Russia"
+      "China",
+      "UK"
     ],
     "source_count": 14,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China shifts focus to tech power, deploys new energy storage, and urges global oversight on AI and warfare.",
+    "summary": "China signals strategic shift to tech power, deploys new energy projects, and warns on AI security risks.",
     "emojis": "🚀⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "China's government"
+      "China",
+      "China"
     ],
     "source_count": 18,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   },
   {
     "title": "SITREP: US-GA",
-    "summary": "GA runoff: Republican Clay Fuller vs Democrat Shawn Harris to replace Marjorie Taylor Greene",
+    "summary": "Georgia runoff election to replace Marjorie Taylor Greene expected between Republican Clay Fuller and Democrat Shawn Harris.",
     "emojis": "",
     "lat": 33.74,
     "lng": -84.38,
     "location": "US-GA",
     "actors": [
-      "Clay Fuller",
-      "Shawn Harris"
+      "Republican",
+      "Democrat"
     ],
     "source_count": 1,
-    "timestamp": "12:48 PM"
+    "timestamp": "12:59 PM"
   }
 ];
 
-        var map = L.map('map').setView([25, 0], 2);
+        var map = L.map('map', {
+            minZoom: 2,
+            maxBounds: [[-90, -180], [90, 180]],
+            maxBoundsViscosity: 1.0,
+            worldCopyJump: false
+        }).setView([25, 0], 2);
+
         L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; OpenStreetMap &copy; CARTO',
-            maxZoom: 18
+            maxZoom: 18,
+            noWrap: true,
+            bounds: [[-90, -180], [90, 180]]
         }).addTo(map);
 
         var markerIcon = L.divIcon({
