@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-10 21:37 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-03-10 23:01 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,40 +51,73 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces criticism and economic sanctions amid human rights concerns and cultural controversies",
-    "emojis": "🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: CHINA",
+    "summary": "China: Criticism of Eileen Gu, F1's sprint challenge, and crackdown on telecom fraud dominate headlines.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "UN",
-      "Portuguese authorities",
-      "EU",
-      "Putin",
-      "Trump administration"
+      "Alysa Liu",
+      "Eileen Gu",
+      "F1",
+      "China"
     ],
-    "source_count": 7,
-    "timestamp": "09:37 PM"
+    "source_count": 13,
+    "timestamp": "11:00 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US launches intense strikes on Iran amid escalating tensions, mixed US-Israeli messaging",
-    "emojis": "💥⚔️⚡",
+    "summary": "Escalating conflict between Israel, Iran, and US with over 100 US service members wounded and civilian sites targeted",
+    "emojis": "💥🚀⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "Israel",
+      "Iran",
+      "US"
+    ],
+    "source_count": 80,
+    "timestamp": "11:01 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel's military activities escalate, with strikes and budget expansions amid regional tensions and humanitarian concerns.",
+    "emojis": "🪖💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
       "US",
+      "China",
+      "Lebanon",
       "Iran"
     ],
-    "source_count": 82,
-    "timestamp": "09:37 PM"
+    "source_count": 10,
+    "timestamp": "11:01 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces criticism over human rights, trade, and cultural funding decisions",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "U.N.",
+      "EU",
+      "Russia",
+      "Portugal"
+    ],
+    "source_count": 5,
+    "timestamp": "11:01 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "US strikes Iranian mine-laying vessels amid escalating Middle East tensions",
-    "emojis": "💥⚔️⚡",
+    "summary": "US strikes Iranian mine-laying vessels amid intensified Middle East conflict",
+    "emojis": "💥⚔️",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
@@ -93,25 +126,11 @@
       "Iran"
     ],
     "source_count": 1,
-    "timestamp": "09:37 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China intensifies crackdown on telecoms and online fraud, while easing investment rules and transforming tourism",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US"
-    ],
-    "source_count": 9,
-    "timestamp": "09:37 PM"
+    "timestamp": "11:01 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Missiles, drones, and airstrikes intensify in the Middle East for 12th consecutive day of war.",
+    "summary": "Middle East conflict intensifies with missile strikes, drones, and airstrikes on the 12th day of war.",
     "emojis": "✈️💥🚀",
     "lat": 40.71,
     "lng": -74.0,
@@ -121,65 +140,65 @@
       "NY"
     ],
     "source_count": 2,
-    "timestamp": "09:37 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel intensifies strikes, expands outreach, and rejects Lebanon's request for 'cessation' amid regional tensions.",
-    "emojis": "🪖💥⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "US",
-      "Lebanon"
-    ],
-    "source_count": 13,
-    "timestamp": "09:37 PM"
+    "timestamp": "11:01 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Tensions escalate as Ukraine and Russia claim progress, while US-brokered talks are on hold.",
+    "summary": "Ukraine conflict continues with claims of progress and strikes, as tensions rise between Ukraine and Russia.",
     "emojis": "💥⚔️⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Zelenskyy",
-      "Hungary",
       "Ukraine",
       "Russia",
+      "Hungary",
       "US"
     ],
-    "source_count": 8,
-    "timestamp": "09:37 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "US-TX: Classic car arrives in Orkney after transatlantic journey from New Zealand.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Hans Compter"
-    ],
-    "source_count": 1,
-    "timestamp": "09:37 PM"
+    "source_count": 5,
+    "timestamp": "11:01 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Dresden to be evacuated due to discovery of 250kg WW2 British flying bomb",
+    "summary": "British Airways reduces flights to Middle East, Dresden evacuated due to WW2 bomb discovery",
     "emojis": "💣",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK authorities"
+      "British Airways",
+      "British"
+    ],
+    "source_count": 2,
+    "timestamp": "11:01 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "US Maronite bishops mourn priest killed in Israeli strike on Lebanon village",
+    "emojis": "💥💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "US Maronite bishops",
+      "Israeli forces"
     ],
     "source_count": 1,
-    "timestamp": "09:37 PM"
+    "timestamp": "11:01 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "US-TX: Dutchman Hans Compter delivers classic car from New Zealand to Orkney",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "actor1",
+      "actor2"
+    ],
+    "source_count": 1,
+    "timestamp": "11:01 PM"
   }
 ];
 
