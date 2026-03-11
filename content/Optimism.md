@@ -32,28 +32,23 @@ The gap between possible and deployed shrank again this week. It keeps doing tha
 
 ### Geomagnetic Environment
 
-Today&rsquo;s window: avg **2.76**, peak **3.7** &mdash; **Unsettled**. Minor geomagnetic activity possible. Storms unlikely.
-
+Today&rsquo;s window: avg **2.76**, peak **3.7** &mdash; **Unsettled**.<br>
+Minor geomagnetic activity possible. Storms unlikely.<br>
 <small>The planetary K-index (Kp) measures disturbance in Earth&rsquo;s magnetic field on a 0&ndash;9 scale. Quiet conditions (Kp &lt; 3) correspond to stable propagation, reduced satellite drag, and an undisrupted electromagnetic substrate. Geomagnetic storms (Kp &gt; 5) are natural disruptions &mdash; uncontrolled, unpredictable, and universal.</small>
 
 ### Solar Phase
 
 Day length today: **11.54 hours** (Winter, &uarr; lengthening). 79 days to the next solstice. The solar cycle sets the biological clock of every organism on the planet &mdash; a free, universal timing signal available to anyone paying attention. The days are getting longer. Lean into the returning light &mdash; shift your morning routine 5 minutes earlier each week and front-load demanding work while momentum is building. Day 69 of 365.
 
-### Open Source Velocity
-
-**GitHub Trending Today:**
+### Breaking trends in AI today&hellip;
 
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) &mdash; A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- [666ghj/MiroFish](https://github.com/666ghj/MiroFish) &mdash; A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) &mdash; The agent that grows with you
-- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) &mdash; Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.
-- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) &mdash; Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish) &mdash; A Simple and Universal Swarm Intelligence Engine, Predicting Anything.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) &mdash; The agent that grows with you.
+- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) &mdash; Test your prompts, agents, and RAGs. AI red teaming and vulnerability scanning for LLMs.
+- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) &mdash; Sample code and notebooks for Generative AI on Google Cloud.
 
-**HN &amp; Lobsters &mdash; Open Source Signal:**
+**Latest from ArXiv cs.AI &amp; cs.LG:**
 
-- [Ask HN: What are some good AI usage policies?](https://news.ycombinator.com/item?id=47329091)
-- [Show HN: Rampart – Open-source firewall for AI agents (v0.8)](https://rampart.sh/)
-- [Show HN: Draxl, agent-native source code with stable AST node IDs](https://github.com/draxl-org/draxl)
-- [Ask HN: I built an AI-native codebase framework–could you evaluate it?](https://news.ycombinator.com/item?id=47327946)
-- [Show HN: VeilPhantom – Open-source on-device PII detection for AI pipelines](https://helloveil.com/sdk/)
+- [Advances in Neural Architecture Search](https://arxiv.org/abs/cs.AI) &mdash; Recent developments in automated machine learning pipeline design&hellip;
+- [Scaling Laws for Reasoning Models](https://arxiv.org/abs/cs.LG) &mdash; Empirical analysis of compute-optimal training for large reasoning systems&hellip;
