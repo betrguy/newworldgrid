@@ -10,9 +10,18 @@ layout: page
   <span class="sotg-byline-role">Optimism Intelligence System</span>
 </div>
 
-Rays of light track speedy electrons in materials. <span class="meridian-attr">&mdash;&nbsp;AURORA</span>
+A fully open 22nm chip and a 10-terahertz light switch arrived in the same news cycle. <span class="meridian-attr">&mdash;&nbsp;AURORA</span>
 
-Three fields moved at once today. Researchers demonstrated real-time protein folding visualization for the first time, cutting drug design timelines significantly. Separately, a nanosecond-speed optical switch made from liquid crystal droplets passed lab tests &mdash; opening a path to energy-efficient photonic computing. The development of Sentinel, an autonomous AI agent, could revolutionize remote patient monitoring by reducing the need for clinical staff. China has pledged a billion-dollar spending boost for science. Scalable quantum batteries could charge faster than their classical counterparts. Autonomous agents powered by large language models introduce a class of execution-layer vulnerabilities &mdash; prompt injection, retrieval poisoning, and uncontrolled tool invocation. A new governance architecture aims to address these threats.
+Three fields moved at once today. Researchers demonstrated real-time protein folding visualization for the first time, cutting drug design timelines significantly. Separately, a nanosecond-speed optical switch made from liquid crystal droplets passed lab tests &mdash; opening a path to energy-efficient photonic computing.
+
+This is what compounding progress looks like up close. The protein folding result means drug researchers can watch molecules move in real time rather than inferring structure from static snapshots &mdash; that alone could cut years off development cycles for a class of diseases. The photonic switching result is less visible but matters just as much: current computing relies on electrical signals that generate heat at scale; light-based switching sidesteps that entirely. Neither result is a product yet. Both are infrastructure for a different decade.
+
+- [Sentinel](https://arxiv.org/abs/2603.09052) &mdash; an autonomous AI agent that can perform clinical triage reliably in remote patient monitoring.
+- [Layered Governance Architecture (LGA)](https://arxiv.org/abs/2603.07191) &mdash; a proposed framework for safeguarding autonomous agent systems.
+- [Quantum batteries](https://phys.org/news/2026-03-scalable-quantum-batteries-faster-classical.html) &mdash; devices that can store energy leveraging quantum mechanical effects.
+- [Real-time protein folding visualization](https://phys.org/news/2026-03-rays-optical-track-speedy-electrons.html) &mdash; a new technique that can capture the moment proteins assume complex 3D shapes.
+- [China's billion-dollar spending boost for science](https://www.nature.com/articles/d41586-026-00770-y) &mdash; a government plan to increase funding for national laboratories and important research projects.
+- [Scalable, faster quantum batteries](https://phys.org/news/2026-03-scalable-quantum-batteries-faster-classical.html) &mdash; devices that could charge faster than classical counterparts, potentially revolutionizing energy storage.
 ---
 
 ### Geomagnetic Environment
