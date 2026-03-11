@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-10 14:39 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-10 20:47 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,38 +51,127 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel escalates strikes, expands military outreach, and budget allocation amid Iran tensions and US definition disputes.",
+    "emojis": "🪖💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "US",
+      "Israel",
+      "Iran"
+    ],
+    "source_count": 13,
+    "timestamp": "08:46 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine and Russia claim progress on front lines as US-brokered talks stall, attacks continue.",
+    "emojis": "💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Zelenskyy",
+      "Hungary",
+      "Ukraine",
+      "Russia",
+      "US"
+    ],
+    "source_count": 11,
+    "timestamp": "08:46 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China eases investment rules, boosts exports, and cracks down on crypto and spying activities amidst trade tensions.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "India",
+      "US",
+      "Wang Yi"
+    ],
+    "source_count": 10,
+    "timestamp": "08:46 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Tensions escalate in Iran conflict, with US, Israel, and Russia involved, amid oil price surge and regional instability.",
-    "emojis": "🚀🪖💥",
+    "summary": "US launches airstrikes against Iran, with escalating tensions and unclear goals",
+    "emojis": "💥🚀⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Israel",
-      "Russia"
+      "Iran"
     ],
-    "source_count": 63,
-    "timestamp": "02:38 PM"
+    "source_count": 78,
+    "timestamp": "08:46 PM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine and Russia claim frontline gains despite US-led talks being put on hold.",
-    "emojis": "🪖💥🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: US-NY",
+    "summary": "Tensions escalate in Middle East, no specific incidents mentioned in New York Times report",
+    "emojis": "⚔️⚡",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "Ukraine",
-      "Russia"
+      "US",
+      "NY"
     ],
-    "source_count": 12,
-    "timestamp": "02:38 PM"
+    "source_count": 1,
+    "timestamp": "08:46 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Classic car delivery from NZ to Orkney via US-TX",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Hans Compter"
+    ],
+    "source_count": 1,
+    "timestamp": "08:46 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Dresden city evacuated after 250kg WW2 bomb discovered",
+    "emojis": "💣",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Evacuation team",
+      "Local authorities"
+    ],
+    "source_count": 1,
+    "timestamp": "08:47 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces economic, diplomatic, and humanitarian crises amid escalating tensions with Ukraine and the EU.",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "EU",
+      "Ukraine"
+    ],
+    "source_count": 9,
+    "timestamp": "08:47 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "White House tells House Republicans to stop discussing mass deportations",
-    "emojis": "",
+    "summary": "White House denies escorting tanker in Hormuz, tells House Republicans to stop mass deportations talk",
+    "emojis": "🪖",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
@@ -90,44 +179,13 @@
       "White House",
       "House Republicans"
     ],
-    "source_count": 1,
-    "timestamp": "02:38 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces missile attacks, deportation crises, economic concerns and health issues amid ongoing conflict and sanctions.",
-    "emojis": "✈️⚔️🚀",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "UN",
-      "US",
-      "Russia",
-      "Portugal",
-      "Russia"
-    ],
-    "source_count": 21,
-    "timestamp": "02:39 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China's economy and politics continue to evolve with varying global implications and recent developments.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China"
-    ],
-    "source_count": 19,
-    "timestamp": "02:39 PM"
+    "source_count": 2,
+    "timestamp": "08:47 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Tensions escalate in Lebanon with Israeli strikes near Beirut, potential for open war with Hezbollah",
-    "emojis": "💥⚔️⚡",
+    "summary": "Tensions escalate as Israel and Hezbollah face off in Lebanon, raising concerns of open war.",
+    "emojis": "⚔️⚡",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -135,69 +193,8 @@
       "Israel",
       "Hezbollah"
     ],
-    "source_count": 3,
-    "timestamp": "02:39 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel denies Gaza women basic living conditions amid war expansion and diplomatic efforts, amid geopolitical tensions.",
-    "emojis": "⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Iran",
-      "China",
-      "Trump",
-      "Iranians",
-      "Jews",
-      "Germany"
-    ],
-    "source_count": 8,
-    "timestamp": "02:39 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Zendaya shines at Paris Fashion Week in a gold band and Stella McCartney's luxurious horses",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Zendaya",
-      "Stella McCartney"
-    ],
     "source_count": 1,
-    "timestamp": "02:39 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Russian oil prices rise, but tanker costs negate gains; British Airways suspends Middle East flights",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Yahoo Finance UK",
-      "WSJ"
-    ],
-    "source_count": 2,
-    "timestamp": "02:39 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US relaxes energy restrictions on Russia amid soaring oil prices",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "US",
-      "Russia"
-    ],
-    "source_count": 1,
-    "timestamp": "02:39 PM"
+    "timestamp": "08:47 PM"
   }
 ];
 
