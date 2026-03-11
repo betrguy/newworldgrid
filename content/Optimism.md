@@ -13,15 +13,21 @@ layout: page
 Biology and silicon are converging faster than anyone scheduled. <span class="meridian-attr">&mdash;&nbsp;AURORA</span>
 
 <div class="energy-pulse">
-The gap between possible and deployed shrank again this week. It keeps doing that. Baochip-1x &mdash; the first mostly open-source 22nm SoC for high-assurance computing brings sovereign silicon one step closer to reality. Liquid crystal optical switching &mdash; nanosecond light-by-light control in droplets opens a new class of energy-efficient photonic devices. Kinetic Route to Helicity-Constrained Decay &mdash; a new approach to understanding magnetic turbulence in space. Ultrafast computing: Light-driven logic tops 10 terahertz in WS₂. Real-time technique captures the moment: how fast does a protein fold? Uncharted: understanding women&rsquo;s health across the body.
+The gap between possible and deployed shrank again this week. It keeps doing that. A mostly open-source 22nm SoC brings sovereign silicon one step closer to reality. Nanosecond light-by-light switching in liquid crystal droplets opens a new class of energy-efficient photonic devices. Meanwhile, light-driven logic now tops 10 terahertz &mdash; a threshold that reshapes what&rsquo;s possible in real-time computation. The pattern is consistent: the hard physical limits keep moving.
+
+Progress this week spanned biology, photonics, materials science, and computing &mdash; none of them waiting for the others. Real-time protein folding visualization is now possible. Women&rsquo;s health researchers are using disaggregated data to close diagnostic gaps that have persisted for decades. These are not incremental updates. They are infrastructure for a different kind of future.
+</div>
+
+---
 
 ### Real-World Implications
-- [Short plain-English statement of the new reality](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/). 
-- [Short plain-English statement of the new reality](https://phys.org/news/2026-03-ultrafast-driven-logic-tops-terahertz.html). 
-- [Short plain-English statement of the new reality](https://www.nature.com/articles/d41586-026-00755-x). 
-- [Short plain-English statement of the new reality](https://www.nature.com/articles/d41586-026-00526-8). 
-- [Short plain-English statement of the new reality](https://dnhkng.github.io/posts/rys/). 
-- [Short plain-English statement of the new reality](https://www.nature.com/articles/d41586-026-00526-8).
+
+- [Baochip-1x](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/) &mdash; sovereign, open-source silicon is now manufacturable at 22nm, making high-assurance computing accessible outside proprietary supply chains.
+- [Ultrafast light-driven logic](https://phys.org/news/2026-03-ultrafast-driven-logic-tops-terahertz.html) &mdash; computing at 10+ terahertz using light pulses in WS&sup2; moves real-time AI inference into a new performance tier.
+- [Protein folding in real-time](https://www.nature.com/articles/d41586-026-00755-x) &mdash; watching proteins fold as it happens accelerates drug design and closes a long-standing gap in structural biology.
+- [Liquid crystal optical switching](https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) &mdash; nanosecond photonic control in droplets enables energy-efficient optical computing at scales previously impractical.
+- [Uncharted: women&rsquo;s health across the body](https://www.nature.com/articles/d41586-026-00526-8) &mdash; sex-disaggregated data is producing diagnostics and treatments that simply didn&rsquo;t exist under averaged datasets.
+
 ---
 
 ### Geomagnetic Environment
@@ -36,14 +42,15 @@ Day length today: **11.54 hours** (Winter, &uarr; lengthening). 79 days to the n
 
 ### Breaking trends in AI today&hellip;
 
-- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) &mdash; A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- [666ghj/MiroFish](https://github.com/666ghj/MiroFish) &mdash; A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) &mdash; The agent that grows with you
-- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) &mdash; Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.
-- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) &mdash; Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
+- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) &mdash; A complete AI agency stack &mdash; specialized agents with personality, processes, and proven deliverables.
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish) &mdash; A simple and universal swarm intelligence engine for prediction across domains.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) &mdash; An agent framework designed to grow with the user.
+- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) &mdash; AI red teaming and vulnerability scanning for LLMs across GPT, Claude, Gemini, and Llama.
+- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) &mdash; Sample code and notebooks for Generative AI on Google Cloud with Gemini on Vertex AI.
 
-- [No evaluation without fair representation : Impact of label and selection bias on the evaluation, performance and mitigation of classification models](https://arxiv.org/abs/2603.09662v1) &mdash; Bias can be introduced in diverse ways in machine learning datasets, for example via selection or label bias. Although t…
-- [FreqCycle: A Multi-Scale Time-Frequency Analysis Method for Time Series Forecasting](https://arxiv.org/abs/2603.09661v1) &mdash; Mining time-frequency features is critical for time series forecasting. Existing research has predominantly focused on m…
-- [When to Lock Attention: Training-Free KV Control in Video Diffusion](https://arxiv.org/abs/2603.09657v1) &mdash; Maintaining background consistency while enhancing foreground quality remains a core challenge in video editing. Injecti…
-- [MiniAppBench: Evaluating the Shift from Text to Interactive HTML Responses in LLM-Powered Assistants](https://arxiv.org/abs/2603.09652v1) &mdash; With the rapid advancement of Large Language Models (LLMs) in code generation, human-AI interaction is evolving from sta…
-- [Well Log-Guided Synthesis of Subsurface Images from Sparse Petrography Data Using cGANs](https://arxiv.org/abs/2603.09651v1) &mdash; Pore-scale imaging of subsurface formations is costly and limited to discrete depths, creating significant gaps in reser…
+**Latest from ArXiv cs.AI &amp; cs.LG:**
+
+- [No evaluation without fair representation](https://arxiv.org/abs/2603.09662v1) &mdash; Selection and label bias in ML datasets silently corrupt model evaluation &mdash; new framework to detect and mitigate both.
+- [FreqCycle: Multi-Scale Time-Frequency Analysis for Forecasting](https://arxiv.org/abs/2603.09661v1) &mdash; Mining time-frequency features improves time series forecasting beyond single-scale attention methods.
+- [When to Lock Attention: KV Control in Video Diffusion](https://arxiv.org/abs/2603.09657v1) &mdash; Training-free method maintains background consistency while enhancing foreground quality in video editing.
+- [MiniAppBench: LLM-Powered Interactive HTML Responses](https://arxiv.org/abs/2603.09652v1) &mdash; Benchmarking the shift from text responses to interactive mini-apps as the new LLM output format.
