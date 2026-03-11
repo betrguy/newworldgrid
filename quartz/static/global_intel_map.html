@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-10 21:17 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-03-10 21:37 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,37 +51,68 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China: Easing investment rules, transforming tourism, and cracking down on crypto crimes amidst economic growth and trade surpluses.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces criticism and economic sanctions amid human rights concerns and cultural controversies",
+    "emojis": "🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "China"
+      "UN",
+      "Portuguese authorities",
+      "EU",
+      "Putin",
+      "Trump administration"
     ],
-    "source_count": 9,
-    "timestamp": "09:14 PM"
+    "source_count": 7,
+    "timestamp": "09:37 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Israel intensify airstrikes against Iran amid concerns of escalating conflict",
-    "emojis": "💥⚔️💣",
+    "summary": "US launches intense strikes on Iran amid escalating tensions, mixed US-Israeli messaging",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Israel",
       "Iran"
     ],
     "source_count": 82,
-    "timestamp": "09:14 PM"
+    "timestamp": "09:37 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "US strikes Iranian mine-laying vessels amid escalating Middle East tensions",
+    "emojis": "💥⚔️⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 1,
+    "timestamp": "09:37 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China intensifies crackdown on telecoms and online fraud, while easing investment rules and transforming tourism",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "US"
+    ],
+    "source_count": 9,
+    "timestamp": "09:37 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Middle East under attack for 12th day, missiles, drones, and airstrikes escalate conflict",
-    "emojis": "✈️💥⚔️",
+    "summary": "Missiles, drones, and airstrikes intensify in the Middle East for 12th consecutive day of war.",
+    "emojis": "✈️💥🚀",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
@@ -90,56 +121,43 @@
       "NY"
     ],
     "source_count": 2,
-    "timestamp": "09:14 PM"
+    "timestamp": "09:37 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions escalate between Israel and Iran, US, amid escalating violence and budget expansions.",
+    "summary": "Israel intensifies strikes, expands outreach, and rejects Lebanon's request for 'cessation' amid regional tensions.",
     "emojis": "🪖💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Iran",
-      "US"
+      "US",
+      "Lebanon"
     ],
-    "source_count": 14,
-    "timestamp": "09:15 PM"
+    "source_count": 13,
+    "timestamp": "09:37 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine and Russia claim progress on front lines despite US-brokered talks on hold.",
-    "emojis": "💥⚔️",
+    "summary": "Tensions escalate as Ukraine and Russia claim progress, while US-brokered talks are on hold.",
+    "emojis": "💥⚔️⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "Zelenskyy",
+      "Hungary",
       "Ukraine",
       "Russia",
       "US"
     ],
-    "source_count": 10,
-    "timestamp": "09:15 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces probes, sanctions, and criticism over exports, art funding, and human rights issues.",
-    "emojis": "🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "authorities",
-      "EU",
-      "Trump administration"
-    ],
-    "source_count": 7,
-    "timestamp": "09:15 PM"
+    "source_count": 8,
+    "timestamp": "09:37 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Dutchman Hans Compter drives classic car from New Zealand to Orkney",
+    "summary": "US-TX: Classic car arrives in Orkney after transatlantic journey from New Zealand.",
     "emojis": "",
     "lat": 30.26,
     "lng": -97.74,
@@ -148,35 +166,20 @@
       "Hans Compter"
     ],
     "source_count": 1,
-    "timestamp": "09:15 PM"
+    "timestamp": "09:37 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Dresden evacuated after 250kg WWII bomb found, largest evacuation in city's history",
+    "summary": "Dresden to be evacuated due to discovery of 250kg WW2 British flying bomb",
     "emojis": "💣",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK",
-      "German authorities"
+      "UK authorities"
     ],
     "source_count": 1,
-    "timestamp": "09:16 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "White House denies US military escorted tanker in Hormuz after deleted post - Al",
-    "emojis": "🪖",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "axios",
-      "google_iran"
-    ],
-    "source_count": 2,
-    "timestamp": "09:17 PM"
+    "timestamp": "09:37 PM"
   }
 ];
 
