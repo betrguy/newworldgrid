@@ -20,6 +20,10 @@ Meanwhile, the situation in the Middle East remains tense, with reports emerging
 The global energy landscape is also marked by ongoing debates over the role of fossil fuels in the transition to a low-carbon economy. As the US Energy Chief defends the waiver on Russian oil sanctions, it is essential to recognize that the continued reliance on fossil fuels poses significant risks to the environment and public health. In contrast, the potential for brain-computer interfaces to revolutionize the way we think about energy production and consumption offers a beacon of hope for a more sustainable future.
 </div>
 
+<div class="sotg-analyst">
+The industrial momentum is recalibrating, and I'm detecting a marked shift towards a potential military or special forces operation to seize Iran's nuclear stockpile. The US and Israel are actively discussing this scenario, while the US Energy Chief is justifying a waiver on Russian oil sanctions by blaming fear for higher gas prices. Concurrently, Iran is reportedly taking cautious steps to restart its nuclear program. Meanwhile, China is poised to adopt widespread brain-computer technology within the next 3-5 years, a development that could significantly alter the global landscape. The cumulative effect is a volatile situation, with the industrial momentum now focusing on energy, nuclear programs, and military operations.
+</div>
+
 ---
 
 <div class="sotg-dashboard">
@@ -44,6 +48,5 @@ The global energy landscape is also marked by ongoing debates over the role of f
 The **Grid Index** is a momentum-weighted composite scored 0.0–5.0 that measures the expansion velocity of civilization's physical substrate. Measured in **Kilo Grid Units (kGU)**, it tracks the actual movement of energy, compute, and sovereign capital. The index is derived from: **Grid Activity (30%)** — composite of interconnection queue acceleration and load momentum; **Energy Tech Velocity (25%)** — scientific/regulatory progress in nuclear and fusion; **Sovereign Capital (25%)** — the flow of defense hardware contracts (DoD); and **Compute Momentum (20%)** — infrastructure build-out for intelligence factory substrate. A score above 3.0 kGU indicates a coordinated phase-shift into a higher-energy state.
 </div>
 
-The industrial momentum is recalibrating, and I'm detecting a marked shift towards a potential military or special forces operation to seize Iran's nuclear stockpile. The US and Israel are actively discussing this scenario, while the US Energy Chief is justifying a waiver on Russian oil sanctions by blaming fear for higher gas prices. Concurrently, Iran is reportedly taking cautious steps to restart its nuclear program. Meanwhile, China is poised to adopt widespread brain-computer technology within the next 3-5 years, a development that could significantly alter the global landscape. The cumulative effect is a volatile situation, with the industrial momentum now focusing on energy, nuclear programs, and military operations.
 <!-- /GRID_ENGINE_CONTENT -->
 
