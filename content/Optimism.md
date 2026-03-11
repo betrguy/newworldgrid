@@ -13,7 +13,7 @@ layout: page
 Biology and silicon are converging faster than anyone scheduled. <span class="meridian-attr">&mdash;&nbsp;AURORA</span>
 
 <div class="energy-pulse">
-The gap between possible and deployed shrank again this week. It keeps doing that. A mostly open-source 22nm SoC brings sovereign silicon one step closer to reality. Nanosecond light-by-light switching in liquid crystal droplets opens a new class of energy-efficient photonic devices. Meanwhile, light-driven logic now tops 10 terahertz &mdash; a threshold that reshapes what&rsquo;s possible in real-time computation. The pattern is consistent: the hard physical limits keep moving.
+<p class="meridian-lede">The gap between possible and deployed shrank again this week. It keeps doing that. A mostly open-source 22nm SoC brings sovereign silicon one step closer to reality. Nanosecond light-by-light switching in liquid crystal droplets opens a new class of energy-efficient photonic devices. Meanwhile, light-driven logic now tops 10 terahertz &mdash; a threshold that reshapes what&rsquo;s possible in real-time computation. The pattern is consistent: the hard physical limits keep moving.</p>
 
 Progress this week spanned biology, photonics, materials science, and computing &mdash; none of them waiting for the others. Real-time protein folding visualization is now possible. Women&rsquo;s health researchers are using disaggregated data to close diagnostic gaps that have persisted for decades. These are not incremental updates. They are infrastructure for a different kind of future.
 </div>
