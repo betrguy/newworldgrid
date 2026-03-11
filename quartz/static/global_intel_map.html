@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-11 12:18 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-11 12:48 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,8 +51,38 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: LEBANON",
+    "summary": "Escalating Israeli attacks displace 750,000 in Lebanon, sparking a widening humanitarian crisis.",
+    "emojis": "⚔️💀🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Hezbollah"
+    ],
+    "source_count": 4,
+    "timestamp": "12:48 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces diplomatic challenges, including Spain's removal of ambassador and US military aid controversy",
+    "emojis": "🪖⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Spain",
+      "US",
+      "Israel",
+      "AIPAC"
+    ],
+    "source_count": 18,
+    "timestamp": "12:48 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Iran escalates tensions, threatens US and Israeli finance hubs, and attacks ships, oil facilities, and airports.",
+    "summary": "Iran lays mines in Strait of Hormuz, sparking US response and escalating Middle East tensions",
     "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
@@ -60,74 +90,29 @@
     "actors": [
       "Iran",
       "US",
-      "Israel",
-      "Russia"
-    ],
-    "source_count": 67,
-    "timestamp": "12:17 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces diplomatic isolation and escalating tensions with Spain and US, amid regional conflicts and military aid concerns.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Spain",
-      "US",
+      "Russia",
       "Israel"
     ],
-    "source_count": 17,
-    "timestamp": "12:17 PM"
+    "source_count": 74,
+    "timestamp": "12:48 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine regains territory, hits Russian missile plant, amid claims of British involvement in Russian strike",
+    "summary": "Ukraine strikes Russian plant, regains territory, and expands drone operations in the Middle East.",
     "emojis": "✈️💥🚀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Ukraine",
-      "Russia",
-      "Britain"
+      "Russia"
     ],
-    "source_count": 7,
-    "timestamp": "12:17 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "IEA to release record oil reserves amid Middle East tensions, impacting global markets.",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "12:17 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces escalating crises as Ukraine attacks, internet outages spread, and EU reconsiders sanctions.",
-    "emojis": "⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "EU"
-    ],
-    "source_count": 13,
-    "timestamp": "12:17 PM"
+    "source_count": 8,
+    "timestamp": "12:48 PM"
   },
   {
     "title": "SITREP: GERMANY",
-    "summary": "Russian anthem played at Paralympics despite Germany athletes' protest over Milan Cortina",
+    "summary": "Russian anthem played again at Paralympics despite German athletes' protest at Milan Cortina",
     "emojis": "",
     "lat": 51.1,
     "lng": 10.4,
@@ -136,69 +121,65 @@
       "Germany",
       "Russia"
     ],
-    "source_count": 4,
-    "timestamp": "12:17 PM"
+    "source_count": 6,
+    "timestamp": "12:48 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Humanitarian crisis in Lebanon amid war displacement, Pope mourns priest's death, prays for Middle East peace.",
-    "emojis": "⚔️💀🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: FRANCE",
+    "summary": "IEA releases record emergency oil reserves amid Middle East war tensions and market volatility",
+    "emojis": "⚔️⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "Vatican",
-      "Pope",
-      "UN/Lebanon",
-      "NBC News"
+      "IEA",
+      "France 24"
     ],
-    "source_count": 2,
-    "timestamp": "12:17 PM"
+    "source_count": 1,
+    "timestamp": "12:48 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Death toll rises in Russia after Ukrainian attack, while EU considers lifting sanctions and Russia expands internet controls.",
+    "emojis": "⚔️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Ukraine",
+      "EU",
+      "Russia"
+    ],
+    "source_count": 14,
+    "timestamp": "12:48 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China shifts focus from resource power to tech power, amid security and global partnerships.",
-    "emojis": "🚀",
+    "summary": "China shifts focus to tech power, deploys new energy storage, and urges global oversight on AI and warfare.",
+    "emojis": "🚀⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China"
+      "China",
+      "China's government"
     ],
-    "source_count": 28,
-    "timestamp": "12:18 PM"
+    "source_count": 18,
+    "timestamp": "12:48 PM"
   },
   {
     "title": "SITREP: US-GA",
-    "summary": "Georgia runoff election to replace Marjorie Taylor Greene between Republican Clay Fuller and Democrat Shawn Harris",
+    "summary": "GA runoff: Republican Clay Fuller vs Democrat Shawn Harris to replace Marjorie Taylor Greene",
     "emojis": "",
     "lat": 33.74,
     "lng": -84.38,
     "location": "US-GA",
     "actors": [
-      "Georgia",
-      "US",
       "Clay Fuller",
       "Shawn Harris"
     ],
     "source_count": 1,
-    "timestamp": "12:18 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Hamas' leadership and future plans amid growing global interest in 'technocracy' and potential model from Hezbollah.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Hamas",
-      "Hezbollah",
-      "West",
-      "Hamas leaders"
-    ],
-    "source_count": 1,
-    "timestamp": "12:18 PM"
+    "timestamp": "12:48 PM"
   }
 ];
 
