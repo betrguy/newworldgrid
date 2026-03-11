@@ -573,6 +573,46 @@ h1, h2, h3, h4, h5, h6 {
    Targeting by partial URL matches to catch any variation
    ========================================================================== */
 
+/* ==========================================================================
+   DAILY OPTIMISM — SERIF BODY
+   ========================================================================== */
+
+body[data-slug*="optimism"] {
+  .article-title ~ * p,
+  .article-title ~ * li {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.02rem;
+    line-height: 1.85;
+  }
+
+  // Hook sentence (plain paragraph immediately after byline)
+  .article-title ~ * > p:first-of-type {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.08rem;
+    font-style: italic;
+    line-height: 1.9;
+    color: var(--dark);
+  }
+
+  h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffb703;
+    margin-top: 2.2rem;
+    border-bottom: 1px solid rgba(255, 183, 3, 0.25);
+    padding-bottom: 0.4rem;
+  }
+
+  small {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.78rem;
+    color: var(--gray);
+    line-height: 1.6;
+  }
+}
+
 body[data-slug*="predictive"],
 body[data-slug*="optimism"],
 body[data-slug*="state-of-the-grid"] {
