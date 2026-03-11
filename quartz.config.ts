@@ -28,8 +28,8 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         // We add Libre Baskerville here so it downloads
-        header: "Libre Baskerville", 
-        body: "Source Sans Pro",
+        header: "Libre Baskerville",
+        body: "Libre Baskerville",
         code: "JetBrains Mono",
       },
       colors: {

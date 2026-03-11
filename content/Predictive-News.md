@@ -8,11 +8,11 @@ date: 2026-01-26
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 10, 2026 — 20:47</span>
+  <span class="sotg-timestamp">March 10, 2026 — 21:17</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
-*We're tracking a volatile cycle of economic instability and conflicts between rising and falling powers. Where are we going next? Read our thoughts here.*
+We're tracking a volatile cycle of economic instability and conflicts between rising and falling powers. Where are we going next? Read our thoughts here.
 
 <!-- NEWS_HUNTER_JUMP -->
 <a href="#intelligence-brief" style="display:inline-block;padding:6px 14px;background:#1a1a1a;border:1px solid #ff4444;color:#ff4444;text-decoration:none;font-size:0.8em;text-transform:uppercase;letter-spacing:1px;border-radius:3px;margin-bottom:16px;">Jump to Briefing</a>

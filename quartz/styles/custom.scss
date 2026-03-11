@@ -574,26 +574,10 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 /* ==========================================================================
-   DAILY OPTIMISM — SERIF BODY
+   DAILY OPTIMISM — SECTION HEADERS & SMALL TEXT
    ========================================================================== */
 
 body[data-slug*="optimism"] {
-  .article-title ~ * p,
-  .article-title ~ * li {
-    font-family: "Libre Baskerville", serif;
-    font-size: 1.02rem;
-    line-height: 1.85;
-  }
-
-  // Hook sentence (plain paragraph immediately after byline)
-  .article-title ~ * > p:first-of-type {
-    font-family: "Libre Baskerville", serif;
-    font-size: 1.08rem;
-    font-style: italic;
-    line-height: 1.9;
-    color: var(--dark);
-  }
-
   h3 {
     font-family: "JetBrains Mono", monospace;
     font-size: 0.82rem;
