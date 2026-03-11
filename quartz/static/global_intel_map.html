@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-10 23:01 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-10 23:28 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,73 +51,72 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China: Criticism of Eileen Gu, F1's sprint challenge, and crackdown on telecom fraud dominate headlines.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Alysa Liu",
-      "Eileen Gu",
-      "F1",
-      "China"
-    ],
-    "source_count": 13,
-    "timestamp": "11:00 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Escalating conflict between Israel, Iran, and US with over 100 US service members wounded and civilian sites targeted",
+    "summary": "Iran conflict escalates with US-Israel strikes, protests and threat of retaliation against civilians and protesters.",
     "emojis": "💥🚀⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "US",
       "Israel",
-      "Iran",
-      "US"
+      "Iran"
     ],
-    "source_count": 80,
-    "timestamp": "11:01 PM"
+    "source_count": 75,
+    "timestamp": "11:27 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces criticism, economic concerns, and crackdowns amid global tensions and shifting political landscape",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Eileen Gu",
+      "US",
+      "Pyongyang"
+    ],
+    "source_count": 16,
+    "timestamp": "11:27 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel's military activities escalate, with strikes and budget expansions amid regional tensions and humanitarian concerns.",
+    "summary": "Israel secures 3rd place in Pool D, while facing criticism, strikes targets and receives military aid contracts.",
     "emojis": "🪖💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
+      "Netherlands",
       "Israel",
       "US",
-      "China",
-      "Lebanon",
-      "Iran"
+      "Iran",
+      "Lebanon"
     ],
     "source_count": 10,
-    "timestamp": "11:01 PM"
+    "timestamp": "11:27 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces criticism over human rights, trade, and cultural funding decisions",
+    "summary": "Russia faces international condemnation for human rights abuses and economic concerns with Russian ties.",
     "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "U.N.",
-      "EU",
-      "Russia",
-      "Portugal"
+      "authorities",
+      "Russia"
     ],
-    "source_count": 5,
-    "timestamp": "11:01 PM"
+    "source_count": 3,
+    "timestamp": "11:28 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "US strikes Iranian mine-laying vessels amid intensified Middle East conflict",
-    "emojis": "💥⚔️",
+    "summary": "US strikes Iranian vessels amid Middle East tensions, escalating regional conflict.",
+    "emojis": "💥⚔️⚡",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
@@ -126,12 +125,12 @@
       "Iran"
     ],
     "source_count": 1,
-    "timestamp": "11:01 PM"
+    "timestamp": "11:28 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Middle East conflict intensifies with missile strikes, drones, and airstrikes on the 12th day of war.",
-    "emojis": "✈️💥🚀",
+    "summary": "Middle East region experiences 12th consecutive day of missile, drone, and airstrike attacks",
+    "emojis": "✈️💥⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
@@ -140,37 +139,39 @@
       "NY"
     ],
     "source_count": 2,
-    "timestamp": "11:01 PM"
+    "timestamp": "11:28 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine conflict continues with claims of progress and strikes, as tensions rise between Ukraine and Russia.",
-    "emojis": "💥⚔️⚡",
+    "summary": "Zelenskyy accuses Hungary of banditry over seized gold, talks between Ukraine and Russia remain on hold.",
+    "emojis": "💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Ukraine",
-      "Russia",
+      "Zelenskyy",
       "Hungary",
-      "US"
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 5,
-    "timestamp": "11:01 PM"
+    "source_count": 4,
+    "timestamp": "11:28 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "British Airways reduces flights to Middle East, Dresden evacuated due to WW2 bomb discovery",
+    "summary": "British Airways cuts flights to Middle East, Dresden to evacuate due to WWII bomb discovery",
     "emojis": "💣",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "British Airways",
-      "British"
+      "Britain",
+      "actor1",
+      "actor2"
     ],
     "source_count": 2,
-    "timestamp": "11:01 PM"
+    "timestamp": "11:28 PM"
   },
   {
     "title": "SITREP: LEBANON",
@@ -180,15 +181,16 @@
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "US Maronite bishops",
-      "Israeli forces"
+      "US",
+      "Israel",
+      "Lebanon"
     ],
     "source_count": 1,
-    "timestamp": "11:01 PM"
+    "timestamp": "11:28 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "US-TX: Dutchman Hans Compter delivers classic car from New Zealand to Orkney",
+    "summary": "Dutchman Hans Compter traveled the world with a classic car from New Zealand to Orkney for delivery.",
     "emojis": "",
     "lat": 30.26,
     "lng": -97.74,
@@ -198,7 +200,7 @@
       "actor2"
     ],
     "source_count": 1,
-    "timestamp": "11:01 PM"
+    "timestamp": "11:28 PM"
   }
 ];
 
