@@ -245,6 +245,39 @@ h1 {
 }
 
 /* ==========================================================================
+   STATE OF THE GRID — AXIOS BULLETS
+   ========================================================================== */
+
+.sotg-bullets {
+  margin: 1.6rem 0;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid #ffb703;
+  background: rgba(255, 183, 3, 0.04);
+
+  ul, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li, p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.97rem;
+    line-height: 1.7;
+    color: var(--dark);
+    padding: 0.25rem 0;
+
+    strong {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #ffb703;
+    }
+  }
+}
+
+/* ==========================================================================
    STATE OF THE GRID — KG INDEX DESCRIPTION
    ========================================================================== */
 

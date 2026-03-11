@@ -17,6 +17,14 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 
 Meanwhile, the situation in the Middle East remains tense, with reports emerging that the US and Israel are considering a special forces operation to seize Iran's nuclear stockpile. This development underscores the ongoing tensions in the region and the need for continued diplomatic efforts to address the nuclear aspirations of various nations. In a related development, US energy officials have defended a waiver on Russian oil sanctions, attributing higher gas prices to fear rather than actual supply and demand dynamics.
 
+<div class="sotg-bullets">
+
+- **Why it matters:** The convergence of nuclear program developments and energy infrastructure attacks signals a new phase of physical-layer geopolitical competition.
+- **The big picture:** Sovereign actors are treating energy infrastructure as a primary strategic target, compressing the timeline for grid resilience investment.
+- **What to watch:** Whether US-Israel coordination on Iran's nuclear stockpile translates into action — and how it reshapes energy supply routes through the Strait of Hormuz.
+
+</div>
+
 The global energy landscape is also marked by ongoing debates over the role of fossil fuels in the transition to a low-carbon economy. As the US Energy Chief defends the waiver on Russian oil sanctions, it is essential to recognize that the continued reliance on fossil fuels poses significant risks to the environment and public health. In contrast, the potential for brain-computer interfaces to revolutionize the way we think about energy production and consumption offers a beacon of hope for a more sustainable future.
 </div>
 
