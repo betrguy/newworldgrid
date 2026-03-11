@@ -19,23 +19,23 @@ The gap between possible and deployed shrank again this week. The new 22nm SoC [
 ---
 
 
-Today's pattern of progress is one of accelerating convergence across disciplines, with breakthroughs in fields like [Behavioral Inference at Scale](https://arxiv.org/abs/2509.05624) and [Kinetic Route to Helicity-Constrained Decay](https://arxiv.org/abs/2602.17514) yielding new insights into complex systems and materials.
+Today's pattern of progress is one of accelerating convergence across disciplines, with breakthroughs in behavioral inference at scale and kinetic routes to helicity-constrained decay yielding new insights into complex systems and materials.
 
 ### Real-World Implications
 
-- [Predictive modeling for sunspot cycles](https://arxiv.org/abs/2307.03047) allows for accurate predictions of solar activity. Present tense.
-- [Optical switching in liquid crystals](https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) enables faster and more energy-efficient devices. Present tense.
-- [Uncharted territories in women's health](https://www.nature.com/articles/d41586-026-00526-8) are being explored with the help of disaggregated data. Present tense.
-- [High-assurance computing with open-source SoCs](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/) advances the field. Present tense.
-- [Protein folding at the speed of light](https://www.nature.com/articles/d41586-026-00755-x) could revolutionize fields like medicine and biotechnology. Present tense.
-- [Behavioral inference and AI safety](https://arxiv.org/abs/2509.05624) becomes increasingly important as AI systems interact with humans. Present tense.
+- [Predictive modeling for sunspot cycles](https://arxiv.org/abs/2307.03047) allows for accurate predictions of solar activity.
+- [Optical switching in liquid crystals](https://phys.org/news/2026-03-nanosecond-liquid-crystal-droplet.html) enables faster and more energy-efficient devices.
+- [Uncharted territories in women's health](https://www.nature.com/articles/d41586-026-00526-8) are being explored with the help of disaggregated data.
+- [High-assurance computing with open-source SoCs](https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/) advances the field.
+- [Protein folding at the speed of light](https://www.nature.com/articles/d41586-026-00755-x) could revolutionize fields like medicine and biotechnology.
+- [Behavioral inference and AI safety](https://arxiv.org/abs/2509.05624) becomes increasingly important as AI systems interact with humans.
 ---
 
 ### Geomagnetic Environment
 
-The **planetary K-index** (Kp) measures disturbance in Earth&rsquo;s magnetic field on a 0&ndash;9 scale. Quiet conditions (Kp &lt; 3) correspond to stable propagation, reduced satellite drag, and an undisrupted electromagnetic substrate. Geomagnetic storms (Kp &gt; 5) are natural disruptions &mdash; uncontrolled, unpredictable, and universal.
-
 Today&rsquo;s window: avg **2.95**, peak **3.7** &mdash; **Unsettled**. Minor geomagnetic activity possible. Storms unlikely.
+
+<small>The planetary K-index (Kp) measures disturbance in Earth&rsquo;s magnetic field on a 0&ndash;9 scale. Quiet conditions (Kp &lt; 3) correspond to stable propagation, reduced satellite drag, and an undisrupted electromagnetic substrate. Geomagnetic storms (Kp &gt; 5) are natural disruptions &mdash; uncontrolled, unpredictable, and universal.</small>
 
 ### Solar Phase
 
