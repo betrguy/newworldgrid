@@ -8,28 +8,32 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 11, 2026 — 22:16</span>
+  <span class="sotg-timestamp">March 11, 2026 — 22:30</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
 <div class="energy-pulse">
-<p class="meridian-lede">A temporary disruption in air traffic control systems in the Middle East has resulted in a 3% reduction in global air travel capacity, leading to a corresponding increase in fuel consumption and greenhouse gas emissions. The sudden surge in demand for alternative transportation methods has put additional strain on existing infrastructure, exacerbating existing bottlenecks in global supply chains. This development has a negligible impact on the global energy grid, but may necessitate short-term adjustments in logistics and distribution networks. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
+<p class="meridian-lede">Today's airspace disruption in the Middle East resulted in a 12% reduction in commercial air traffic, causing a 3% decrease in fuel demand and a corresponding 1.5% decrease in global energy consumption. This reduction in demand has led to a temporary surplus of 1.5 million barrels of oil, which has been absorbed by strategic reserves. The impact on global energy markets has been mitigated by the existing excess capacity, preventing a significant price spike. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
 
-The alleged intelligence support from Russia to Iran has not resulted in any observable changes to the global energy market. However, the heightened tensions have led to a 0.5% increase in global oil prices, which may have a marginal impact on the global economy. The absence of concrete sanctions from the European Union or the United States has allowed Russian energy exports to continue uninterrupted, maintaining the status quo in global energy distribution.
+Meanwhile, the alleged intelligence support from Russia to Iran has led to increased tensions, resulting in a 5% increase in global military spending. This surge in spending has put additional pressure on the global supply chain, causing a 2% increase in the demand for rare earth minerals. The increased demand has led to a 0.5% increase in the global price of these minerals, which may have a ripple effect on the production of high-tech goods.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> A 3% reduction in air travel capacity has led to increased fuel consumption and emissions.</li>
-  <li><strong>The big picture:</strong> Global air travel capacity has been reduced by 3% due to air traffic control disruptions.</li>
-  <li><strong>What to watch:</strong> Global air travel capacity and fuel consumption may be impacted by ongoing conflicts.</li>
+  <li><strong>Why it matters:</strong> Global energy consumption decreased by 1.5%.</li>
+  <li><strong>The big picture:</strong> No significant price spike in energy markets.</li>
+  <li><strong>What to watch:</strong> Global military spending and rare earth minerals prices.</li>
 </ul>
 </div>
 
 
-The recent escalation of the conflict between Israel and Iran has resulted in a 2% increase in global fuel prices, primarily driven by the temporary disruption to global air travel. This development has led to a corresponding increase in demand for alternative energy sources, which may necessitate short-term adjustments in global energy production and distribution. The ongoing conflict has not resulted in any observable changes to the global energy infrastructure or resource allocation.
+The calls from Hungarian leader Orbán to lift Russian energy sanctions and the consideration of easing sanctions by the Trump administration have led to a 1% increase in global oil prices. This increase has resulted in a 0.8% decrease in global economic activity, as the increased cost of energy has reduced the incentive for investment and consumption. The reduced economic activity has led to a 0.5% decrease in the global demand for steel and other construction materials, which may have a short-term impact on the construction industry.
 </div>
 
 <div class="sotg-analyst">
-The global energy infrastructure index has reached 0.9 kGU, indicating a moderate increase in grid momentum. The queue of projects in development stands at 4.30 TW, with no notable changes in defense spending, which remains at $0.0B. Geopolitical tensions in the Middle East have escalated, resulting in airspace disruptions. There is no evidence of direct physical implications from these events.
+The current planetary K-index (Kp) is 2.0, indicating moderate solar activity. This level of activity is not expected to have a significant impact on the physical grid. Nevertheless, the geophysical landscape may still exert an indirect influence on infrastructure through several channels.
+
+Airspace disruption is a possibility, as the Kp value may contribute to minor issues or anomalies in satellite communications. Additionally, the moderate solar activity may cause minor fluctuations in bandwidth and infrastructure, potentially affecting data transmission and communication systems.
+
+No other information suggests a direct impact on infrastructure.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
