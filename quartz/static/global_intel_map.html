@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-11 12:59 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-03-11 22:43 UTC | 15 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">15 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,40 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon faces worsening humanitarian crisis and power struggles amid ongoing conflict and displacement",
-    "emojis": "⚔️💀🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "UN",
-      "Pope",
-      "Hezbollah",
-      "Lebanese Government"
-    ],
-    "source_count": 4,
-    "timestamp": "12:59 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Spain withdraws ambassador, AIPAC targets, Israel plans Red Sea foothold amidst regional tensions and arms trade growth",
-    "emojis": "⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Spain",
-      "AIPAC",
-      "Israel"
-    ],
-    "source_count": 18,
-    "timestamp": "12:59 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Tensions escalate as Iran lays mines in Strait of Hormuz, targeting US and allied vessels, sparking global concern.",
-    "emojis": "⚔️⚡",
+    "summary": "Iran war escalates with Iran laying mines, US and Israel intercepting drones, and UN condemning retaliatory strikes.",
+    "emojis": "✈️💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -92,102 +61,213 @@
       "Iran",
       "US",
       "Israel",
-      "Russia",
-      "US Allies"
+      "UN"
     ],
-    "source_count": 74,
-    "timestamp": "12:59 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine hits Russian plant producing missile electronics, recovers territory, and expands drone operations",
-    "emojis": "✈️🚀⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "Britain"
-    ],
-    "source_count": 8,
-    "timestamp": "12:59 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Russian anthem played at Paralympics again after German athletes protested against its playing",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Germany",
-      "Russia"
-    ],
-    "source_count": 6,
-    "timestamp": "12:59 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "IEA to release record emergency oil reserves amid Middle East tensions and market volatility",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France 24",
-      "IEA",
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "12:59 PM"
+    "source_count": 77,
+    "timestamp": "10:42 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces escalating violence, sanctions, and internet shutdowns amid Ukraine conflict and global space competition",
-    "emojis": "⚔️🚫",
+    "summary": "Russia faces diplomatic pressures, military tensions escalate, and economic support is withdrawn",
+    "emojis": "🪖⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
-      "Ukraine",
-      "EU",
+      "Putin",
       "China",
-      "UK"
+      "USA",
+      "European Nations"
     ],
-    "source_count": 14,
-    "timestamp": "12:59 PM"
+    "source_count": 6,
+    "timestamp": "10:42 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California law enforcement on high alert for possible Iranian drone attacks amid escalating conflict.",
+    "emojis": "✈️⚔️",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "FBI",
+      "California officials"
+    ],
+    "source_count": 4,
+    "timestamp": "10:42 PM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Russian envoy meets with Trump officials in Florida, discussing unspecified topics.",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "Russian President",
+      "Trump officials"
+    ],
+    "source_count": 2,
+    "timestamp": "10:42 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China signals strategic shift to tech power, deploys new energy projects, and warns on AI security risks.",
-    "emojis": "🚀⚔️",
+    "summary": "China: Economic tensions, travel updates, ethnic unity, and state firm squeezes amid US-China trade probes and budget strains.",
+    "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "China",
-      "China"
+      "US",
+      "EU",
+      "India"
     ],
-    "source_count": 18,
-    "timestamp": "12:59 PM"
+    "source_count": 13,
+    "timestamp": "10:42 PM"
   },
   {
-    "title": "SITREP: US-GA",
-    "summary": "Georgia runoff election to replace Marjorie Taylor Greene expected between Republican Clay Fuller and Democrat Shawn Harris.",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
+    "title": "SITREP: UKRAINE",
+    "summary": "UKRAINE: Russia accuses Britain of involvement in missile strike, as tensions rise with Hungary over oil pipeline.",
+    "emojis": "💥🚀⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Republican",
-      "Democrat"
+      "Kremlin",
+      "Britain",
+      "Hungary"
+    ],
+    "source_count": 3,
+    "timestamp": "10:42 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel launches strikes in Lebanon, with some criticizing media portrayal of soldiers, amid ongoing tensions.",
+    "emojis": "🪖💥💣",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hezbollah",
+      "US/America",
+      "Palestinians"
+    ],
+    "source_count": 13,
+    "timestamp": "10:42 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US grocery store owner says it's impossible to compete with big chain prices in New York",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "grocer",
+      "big chain"
+    ],
+    "source_count": 2,
+    "timestamp": "10:42 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah remains strong in South Lebanon, contradicting Israeli perceptions and concerns about its presence.",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israeli government",
+      "Hezbollah"
     ],
     "source_count": 1,
-    "timestamp": "12:59 PM"
+    "timestamp": "10:42 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Middle East war escalates, France expresses concern through UNO.",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "UNO"
+    ],
+    "source_count": 1,
+    "timestamp": "10:43 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Middle East tensions cause 37,000 flight cancellations globally, including in Mexico",
+    "emojis": "⚡",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Middle East",
+      "Mexico"
+    ],
+    "source_count": 1,
+    "timestamp": "10:43 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK criticizes Russian draft resolution for failing to address region's concerns over unprovoked attacks",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "Russia"
+    ],
+    "source_count": 1,
+    "timestamp": "10:43 PM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Chinese Type 055 destroyers join Taiwan-focused command, escalating tensions in Taiwan Strait.",
+    "emojis": "⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "China",
+      "Taiwan"
+    ],
+    "source_count": 1,
+    "timestamp": "10:43 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US missile hits Iranian school, Pentagon probe confirms incident, amid escalating tensions between US and Iran.",
+    "emojis": "🚀⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 1,
+    "timestamp": "10:43 PM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Chicago's Iranian community shares concerns and reactions to the ongoing war in the Middle East.",
+    "emojis": "⚔️",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "WBEZ Chicago",
+      "Chicago's Iranian community"
+    ],
+    "source_count": 1,
+    "timestamp": "10:43 PM"
   }
 ];
 
