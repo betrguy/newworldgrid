@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-11 22:43 UTC | 15 active regions</div>
+        <div class="meta">Generated 2026-03-12 12:15 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">15 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,68 +52,66 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran war escalates with Iran laying mines, US and Israel intercepting drones, and UN condemning retaliatory strikes.",
-    "emojis": "✈️💥⚔️",
+    "summary": "US-Israel face off with Iran, oil prices surge, and Iran's new supreme leader vows to block Strait of Hormuz",
+    "emojis": "⚔️☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Iran",
       "US",
       "Israel",
-      "UN"
+      "Iran"
     ],
-    "source_count": 77,
-    "timestamp": "10:42 PM"
+    "source_count": 68,
+    "timestamp": "12:14 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "China calls for an urgent 'stop' to war and warns of fallout - RBC-Ukraine",
+    "emojis": "🪖💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "google_china",
+      "google_russia"
+    ],
+    "source_count": 8,
+    "timestamp": "12:15 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Violence and threats escalate in Israel-Lebanon conflict, with airstrikes and rocket barrages reported",
+    "emojis": "💥⚔️🚀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hezbollah",
+      "Lebanon"
+    ],
+    "source_count": 15,
+    "timestamp": "12:15 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces diplomatic pressures, military tensions escalate, and economic support is withdrawn",
-    "emojis": "🪖⚡",
+    "summary": "Russia faces unrest, court convictions, and deadly attacks, amid fears of internet blackouts and EU funding loss.",
+    "emojis": "⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Putin",
-      "China",
-      "USA",
-      "European Nations"
+      "Latvia",
+      "Russia"
     ],
-    "source_count": 6,
-    "timestamp": "10:42 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "California law enforcement on high alert for possible Iranian drone attacks amid escalating conflict.",
-    "emojis": "✈️⚔️",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "FBI",
-      "California officials"
-    ],
-    "source_count": 4,
-    "timestamp": "10:42 PM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Russian envoy meets with Trump officials in Florida, discussing unspecified topics.",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "Russian President",
-      "Trump officials"
-    ],
-    "source_count": 2,
-    "timestamp": "10:42 PM"
+    "source_count": 19,
+    "timestamp": "12:15 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China: Economic tensions, travel updates, ethnic unity, and state firm squeezes amid US-China trade probes and budget strains.",
-    "emojis": "⚡",
+    "summary": "China: Tariffs, EV sales, monkey incident, NPC closure, and cross-border train service resumption dominate headlines",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
@@ -121,153 +119,85 @@
       "China",
       "US",
       "EU",
-      "India"
+      "Tesla",
+      "North Korea",
+      "India",
+      "Africa",
+      "Bangladesh",
+      "NPC"
     ],
-    "source_count": 13,
-    "timestamp": "10:42 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "UKRAINE: Russia accuses Britain of involvement in missile strike, as tensions rise with Hungary over oil pipeline.",
-    "emojis": "💥🚀⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Kremlin",
-      "Britain",
-      "Hungary"
-    ],
-    "source_count": 3,
-    "timestamp": "10:42 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel launches strikes in Lebanon, with some criticizing media portrayal of soldiers, amid ongoing tensions.",
-    "emojis": "🪖💥💣",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Hezbollah",
-      "US/America",
-      "Palestinians"
-    ],
-    "source_count": 13,
-    "timestamp": "10:42 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US grocery store owner says it's impossible to compete with big chain prices in New York",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "grocer",
-      "big chain"
-    ],
-    "source_count": 2,
-    "timestamp": "10:42 PM"
+    "source_count": 19,
+    "timestamp": "12:15 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Hezbollah remains strong in South Lebanon, contradicting Israeli perceptions and concerns about its presence.",
-    "emojis": "",
+    "summary": "Escalation in Lebanon: Israeli military orders evacuations, airstrikes, and double-tap strikes kill displaced civilians.",
+    "emojis": "🪖💥📈",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israeli government",
-      "Hezbollah"
+      "Israeli military",
+      "Lebanese civilians",
+      "Israeli air force"
     ],
-    "source_count": 1,
-    "timestamp": "10:42 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Middle East war escalates, France expresses concern through UNO.",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "UNO"
-    ],
-    "source_count": 1,
-    "timestamp": "10:43 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Middle East tensions cause 37,000 flight cancellations globally, including in Mexico",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Middle East",
-      "Mexico"
-    ],
-    "source_count": 1,
-    "timestamp": "10:43 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK criticizes Russian draft resolution for failing to address region's concerns over unprovoked attacks",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK",
-      "Russia"
-    ],
-    "source_count": 1,
-    "timestamp": "10:43 PM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Chinese Type 055 destroyers join Taiwan-focused command, escalating tensions in Taiwan Strait.",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "China",
-      "Taiwan"
-    ],
-    "source_count": 1,
-    "timestamp": "10:43 PM"
+    "source_count": 6,
+    "timestamp": "12:15 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "US missile hits Iranian school, Pentagon probe confirms incident, amid escalating tensions between US and Iran.",
-    "emojis": "🚀⚡",
+    "summary": "Rep. Jim Clyburn, 85, seeks re-election despite generational revolt, defying convention in US Congress.",
+    "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "US",
-      "Iran"
+      "Jim Clyburn",
+      "generational revolt"
     ],
     "source_count": 1,
-    "timestamp": "10:43 PM"
+    "timestamp": "12:15 PM"
   },
   {
-    "title": "SITREP: US-IL",
-    "summary": "Chicago's Iranian community shares concerns and reactions to the ongoing war in the Middle East.",
-    "emojis": "⚔️",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
+    "title": "SITREP: UK",
+    "summary": "CFOs no longer boardroom essential, Chief Geopolitical Officers gaining prominence in corporate risk management and strategy",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "WBEZ Chicago",
-      "Chicago's Iranian community"
+      "SEC Newgate UK"
     ],
     "source_count": 1,
-    "timestamp": "10:43 PM"
+    "timestamp": "12:15 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "F1 teams await decision on Bahrain, Saudi Arabia races amid Middle East war",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "F1 teams",
+      "Middle East nations"
+    ],
+    "source_count": 1,
+    "timestamp": "12:15 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France's nuclear capabilities raise concerns about trustworthiness, sparking geopolitical questions among European allies.",
+    "emojis": "☢️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Europe",
+      "France"
+    ],
+    "source_count": 1,
+    "timestamp": "12:15 PM"
   }
 ];
 
