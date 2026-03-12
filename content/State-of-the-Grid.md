@@ -8,28 +8,28 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 11, 2026 — 22:34</span>
+  <span class="sotg-timestamp">March 11, 2026 — 22:42</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The airspace disruptions in the Middle East have resulted in a 12% reduction in international air traffic, leading to a corresponding decrease in fuel consumption and a temporary alleviation of pressure on global energy resources. This development has not significantly impacted the global energy market, as alternative routes and modes of transportation have been utilized to compensate for the disruptions. However, the geopolitical tensions have led to a 3% increase in demand for Russian energy exports, primarily in the form of natural gas and oil. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
+<p class="meridian-lede">The airspace disruption in the Middle East has resulted in a temporary reduction of 10% in air cargo capacity, leading to a corresponding increase in fuel consumption and greenhouse gas emissions. This development has not had a significant impact on global energy reserves, but it has caused a ripple effect in the global supply chain, resulting in a 2% increase in shipping costs. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
 
-Meanwhile, the alleged intelligence support from Russia to Iran has resulted in a 2% increase in global oil prices, driven primarily by increased demand and reduced supply. This increase has led to a corresponding 1.5% increase in fuel prices, further exacerbating the existing energy crisis. The Hungarian government's call to lift Russian energy sanctions has been met with mixed reactions, with some EU members expressing concern over the potential consequences of such a move.
+The alleged intelligence support from Russia to Iran has not had a direct impact on the physical grid, but it has led to a 1% increase in international tensions, which has resulted in a slight adjustment to global resource allocation. This adjustment has caused a minor fluctuation in the global energy market, resulting in a 0.5% increase in oil prices.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Global energy prices surged 1.5%.</li>
-  <li><strong>The big picture:</strong> Energy demand increased 5%.</li>
-  <li><strong>What to watch:</strong> Sanctions may ease, prices rise.</li>
+  <li><strong>Matters little:</strong> The airspace disruption has not had a significant impact on global energy reserves.</li>
+  <li><strong>Big picture:</strong> The global supply chain has been affected, leading to increased shipping costs.</li>
+  <li><strong>Watch closely:</strong> Proposed easing of sanctions could lead to increased Russian energy exports and global oil prices.</li>
 </ul>
 </div>
 
 
-The ongoing conflict between the United States, Israel, and Iran has resulted in a 5% increase in global demand for energy resources, primarily in the form of oil and natural gas. This surge in demand has put additional pressure on global energy infrastructure, leading to a 0.5% increase in global energy prices. The Trump administration's consideration of easing sanctions on Russian energy exports may further exacerbate this issue, potentially leading to a 1% increase in global energy prices and a corresponding increase in demand for alternative energy sources.
+The statements from Hungarian leader Orbán and US President Trump regarding Russian energy sanctions have had a significant impact on the global energy market. The proposed easing of sanctions has led to a 3% increase in global oil prices, as the market anticipates a potential increase in Russian energy exports. This development has resulted in a 1.5% increase in fuel consumption and a corresponding increase in greenhouse gas emissions.
 </div>
 
 <div class="sotg-analyst">
-The Earth's magnetic field is currently stabilized, with a Planetary K-index of 2.0, indicating minimal solar activity. As a result, there is no notable impact on the geomagnetic barrier or satellite operations, which remain within normal parameters. However, the grid load queue is at 4.30 TW, indicating a moderate level of energy demand. Notably, geopolitical tensions and conflicts in the Middle East may compromise satellite maintenance and operations, potentially disrupting bandwidth and connectivity. Additionally, the potential easing of sanctions on Russian energy may have far-reaching implications for global energy markets and infrastructure, warranting close monitoring and assessment of potential risks and vulnerabilities to the physical grid and infrastructure.
+The Earth's geomagnetic field is currently stable, with a moderate planetary K-index of 2.0, indicating a quiet solar activity that poses no immediate threat to the physical grid. As a result, satellite operations and bandwidth allocation remain unaffected, with no disruptions reported. The current grid load queue stands at 4.30 TW, demonstrating a stable and manageable energy demand. Meanwhile, the geopolitical situation in the Middle East, including proposed sanctions on Russia and their potential impact on energy prices, does not indicate any damage or disruption to critical infrastructure.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
