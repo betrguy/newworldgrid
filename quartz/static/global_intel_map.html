@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-12 21:15 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-12 21:24 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,53 +51,25 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran under threat from Israel, US, and Iraqi groups amid rising tensions and military attacks.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "Israel",
-      "US",
-      "Iraq"
-    ],
-    "source_count": 59,
-    "timestamp": "09:14 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia tightens online censorship, restricts internet access, while making a comeback in sports and arts.",
-    "emojis": "⚔️💀",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "China"
-    ],
-    "source_count": 6,
-    "timestamp": "09:14 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Cuban FM speaks with Chinese and Russian counterparts, indicating diplomatic engagement and cooperation.",
+    "title": "SITREP: CHINA",
+    "summary": "China navigates economic, geopolitical, and security challenges with cross-border trains and AI advancements.",
     "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Cuba",
       "China",
-      "Russia"
+      "North Korea",
+      "US",
+      "allies",
+      "China's vice premier"
     ],
-    "source_count": 1,
-    "timestamp": "09:14 PM"
+    "source_count": 13,
+    "timestamp": "09:23 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Middle East as Israel, Hezbollah, and Iran engage in escalating conflict and violence",
+    "summary": "Conflict escalates in Israel, Hezbollah, and Iran, with multiple attacks and warnings of increasing violence.",
     "emojis": "💥⚔️💀",
     "lat": 31.0,
     "lng": 35.0,
@@ -107,45 +79,70 @@
       "Hezbollah",
       "Iran"
     ],
-    "source_count": 35,
-    "timestamp": "09:14 PM"
+    "source_count": 34,
+    "timestamp": "09:24 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran tensions escalate with Israel and US involved, violence and revenge threats, multiple attacks reported.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Israel",
+      "US",
+      "Iran"
+    ],
+    "source_count": 58,
+    "timestamp": "09:24 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia escalates online censorship, convicts 19 over concert hall attack, and reasserts presence in sports and arts.",
+    "emojis": "⚔️💀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "China"
+    ],
+    "source_count": 6,
+    "timestamp": "09:24 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Cuban foreign minister holds talks with Chinese and Russian counterparts",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Cuban foreign minister",
+      "Chinese foreign minister",
+      "Russian foreign minister"
+    ],
+    "source_count": 1,
+    "timestamp": "09:24 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Multiple attacks in US, including synagogue attack in Michigan and Middle East conflict, reported on Thursday.",
-    "emojis": "⚔️",
+    "summary": "Tensions rise in NY as attacks in Middle East and Michigan spark concerns and fears for Jewish communities",
+    "emojis": "⚔️⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "NY Times",
-      "US"
+      "actor1",
+      "actor2"
     ],
     "source_count": 2,
-    "timestamp": "09:14 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China: Train service launched with N. Korea, stability projected, AI lab, and US tariffs in focus",
-    "emojis": "⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Yonhap News Agency",
-      "Elk Valley Times",
-      "Bloomberg",
-      "CBS News",
-      "New York Post",
-      "Spectrum News",
-      "IndexBox"
-    ],
-    "source_count": 11,
-    "timestamp": "09:14 PM"
+    "timestamp": "09:24 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli forces strike Hezbollah command centers in southern Lebanon, sparking condemnations from Qatar.",
+    "summary": "Israeli tank fire kills Maronite priest, Qatar condemns Israeli attacks on Lebanon, Hezbollah command centers targeted",
     "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
@@ -156,49 +153,50 @@
       "Qatar"
     ],
     "source_count": 3,
-    "timestamp": "09:14 PM"
+    "timestamp": "09:24 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "US military refueling plane crashes in Iraq, sparking rescue efforts and announcement of loss of aircraft.",
+    "summary": "US military plane crashes in Iraq, rescue efforts underway",
     "emojis": "🪖✈️",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
+      "US military",
       "US military"
     ],
     "source_count": 3,
-    "timestamp": "09:14 PM"
+    "timestamp": "09:24 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon explores AI in warfare without clear guardrails, sparking concerns over military AI risks.",
-    "emojis": "🪖⚔️",
+    "summary": "Pentagon adopts AI in warfare, raises concerns over lack of guardrails and potential risks.",
+    "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Pentagon",
-      "US government"
+      "Bloomberg",
+      "Pentagon"
     ],
     "source_count": 2,
-    "timestamp": "09:15 PM"
+    "timestamp": "09:24 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine's anti-drone tech gains interest from Gulf and NATO nations, amid rising drone threats and instability.",
-    "emojis": "✈️",
+    "summary": "Ukraine's anti-drone tech attracts interest from Gulf states and NATO, amid growing concern over drone attacks.",
+    "emojis": "✈️⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Ukraine",
       "NATO",
-      "Gulf nations"
+      "Gulf states"
     ],
     "source_count": 1,
-    "timestamp": "09:15 PM"
+    "timestamp": "09:24 PM"
   }
 ];
 
