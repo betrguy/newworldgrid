@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-12 12:15 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-12 20:24 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,153 +51,124 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Violence erupts in Michigan as gunman attacks Temple Israel synagogue, killing suspect and injuring children.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "FBI",
+      "Netanyahu",
+      "Israel",
+      "US military"
+    ],
+    "source_count": 33,
+    "timestamp": "08:23 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia: Convictions rise, censorship tightens, and criticism mounts over human rights abuses and cultural exclusions.",
+    "emojis": "⚔️💀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "China",
+      "UK Parliament",
+      "European Ministers"
+    ],
+    "source_count": 8,
+    "timestamp": "08:23 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "US-Israel face off with Iran, oil prices surge, and Iran's new supreme leader vows to block Strait of Hormuz",
-    "emojis": "⚔️☢️",
+    "summary": "US aircraft crashes in Iraq amid ongoing Iran conflict, with Iran vowing retaliation across Gulf and oil routes.",
+    "emojis": "🪖✈️⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Israel",
       "Iran"
     ],
-    "source_count": 68,
-    "timestamp": "12:14 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "China calls for an urgent 'stop' to war and warns of fallout - RBC-Ukraine",
-    "emojis": "🪖💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "google_china",
-      "google_russia"
-    ],
-    "source_count": 8,
-    "timestamp": "12:15 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Violence and threats escalate in Israel-Lebanon conflict, with airstrikes and rocket barrages reported",
-    "emojis": "💥⚔️🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Hezbollah",
-      "Lebanon"
-    ],
-    "source_count": 15,
-    "timestamp": "12:15 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces unrest, court convictions, and deadly attacks, amid fears of internet blackouts and EU funding loss.",
-    "emojis": "⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Latvia",
-      "Russia"
-    ],
-    "source_count": 19,
-    "timestamp": "12:15 PM"
+    "source_count": 71,
+    "timestamp": "08:23 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China: Tariffs, EV sales, monkey incident, NPC closure, and cross-border train service resumption dominate headlines",
-    "emojis": "",
+    "summary": "China: Train service resumes, stability projected, AI research advances, trade talks underway, and tariffs imposed.",
+    "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "North Korea",
       "China",
       "US",
-      "EU",
-      "Tesla",
-      "North Korea",
-      "India",
-      "Africa",
-      "Bangladesh",
-      "NPC"
+      "Trump"
     ],
-    "source_count": 19,
-    "timestamp": "12:15 PM"
+    "source_count": 16,
+    "timestamp": "08:23 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Escalation in Lebanon: Israeli military orders evacuations, airstrikes, and double-tap strikes kill displaced civilians.",
-    "emojis": "🪖💥📈",
+    "summary": "Israeli forces strike Hezbollah command centers in southern Lebanon, condemning by Qatar and mourning Maronite priest",
+    "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israeli military",
-      "Lebanese civilians",
-      "Israeli air force"
+      "Qatar",
+      "Hezbollah",
+      "Israeli forces",
+      "Maronite priest"
     ],
-    "source_count": 6,
-    "timestamp": "12:15 PM"
+    "source_count": 3,
+    "timestamp": "08:23 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "US refueling plane crashes in Iraq, sparking rescue efforts",
+    "emojis": "🪖✈️",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "US military",
+      "US military"
+    ],
+    "source_count": 3,
+    "timestamp": "08:23 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Rep. Jim Clyburn, 85, seeks re-election despite generational revolt, defying convention in US Congress.",
-    "emojis": "",
+    "summary": "Pentagon explores AI in warfare without clear guardrails, raising concerns about AI's potential misuse.",
+    "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Jim Clyburn",
-      "generational revolt"
+      "Bloomberg",
+      "Pentagon"
     ],
-    "source_count": 1,
-    "timestamp": "12:15 PM"
+    "source_count": 2,
+    "timestamp": "08:23 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "CFOs no longer boardroom essential, Chief Geopolitical Officers gaining prominence in corporate risk management and strategy",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: GAZA",
+    "summary": "Israel drops charges against soldiers accused of Gaza detainee abuse, sparking human rights concerns.",
+    "emojis": "🪖",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "SEC Newgate UK"
+      "Israeli military",
+      "soldiers accused"
     ],
     "source_count": 1,
-    "timestamp": "12:15 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "F1 teams await decision on Bahrain, Saudi Arabia races amid Middle East war",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "F1 teams",
-      "Middle East nations"
-    ],
-    "source_count": 1,
-    "timestamp": "12:15 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France's nuclear capabilities raise concerns about trustworthiness, sparking geopolitical questions among European allies.",
-    "emojis": "☢️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Europe",
-      "France"
-    ],
-    "source_count": 1,
-    "timestamp": "12:15 PM"
+    "timestamp": "08:24 PM"
   }
 ];
 
