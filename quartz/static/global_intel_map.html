@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-12 20:24 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-03-12 20:32 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,40 +52,63 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Violence erupts in Michigan as gunman attacks Temple Israel synagogue, killing suspect and injuring children.",
+    "summary": "Gunman dead in Temple Israel synagogue attack, FBI investigates as 'targeted' act of violence.",
     "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "FBI",
-      "Netanyahu",
+      "Iran",
       "Israel",
-      "US military"
+      "Netanyahu"
     ],
-    "source_count": 33,
-    "timestamp": "08:23 PM"
+    "source_count": 32,
+    "timestamp": "08:31 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "No Middle East conflict summary provided",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US",
+      "NY"
+    ],
+    "source_count": 1,
+    "timestamp": "08:31 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia: Convictions rise, censorship tightens, and criticism mounts over human rights abuses and cultural exclusions.",
+    "summary": "Russia faces criticism over human rights, censorship, and artistic exclusion amid global economic and cultural shifts.",
     "emojis": "⚔️💀",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "BBC",
+      "China",
+      "Russia",
+      "European Ministers",
       "Russia",
       "China",
-      "UK Parliament",
-      "European Ministers"
+      "Russia",
+      "Russia",
+      "European Ministers",
+      "Russia",
+      "Russia",
+      "UN",
+      "Russia"
     ],
     "source_count": 8,
-    "timestamp": "08:23 PM"
+    "timestamp": "08:31 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US aircraft crashes in Iraq amid ongoing Iran conflict, with Iran vowing retaliation across Gulf and oil routes.",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Tensions rise in Iran amid US airstrikes, with one US aircraft crashing in Iraq and concerns about a 'forever war'.",
+    "emojis": "✈️💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -93,58 +116,60 @@
       "US",
       "Iran"
     ],
-    "source_count": 71,
-    "timestamp": "08:23 PM"
+    "source_count": 70,
+    "timestamp": "08:31 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China: Train service resumes, stability projected, AI research advances, trade talks underway, and tariffs imposed.",
+    "summary": "China: Train service with NK, stability projections, AI research, drug trafficking, trade talks, solar recycling",
     "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "North Korea",
-      "China",
-      "US",
-      "Trump"
+      "Yonhap News Agency",
+      "Elk Valley Times",
+      "Bloomberg",
+      "CBS News",
+      "New York Post",
+      "Spectrum News",
+      "IndexBox"
     ],
-    "source_count": 16,
-    "timestamp": "08:23 PM"
+    "source_count": 14,
+    "timestamp": "08:31 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli forces strike Hezbollah command centers in southern Lebanon, condemning by Qatar and mourning Maronite priest",
+    "summary": "Violent clashes escalate in Lebanon as Israeli tank fire kills Maronite priest, Qatar condemns Israeli attacks.",
     "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Qatar",
+      "Israel",
       "Hezbollah",
-      "Israeli forces",
-      "Maronite priest"
+      "Lebanon",
+      "Qatar"
     ],
     "source_count": 3,
-    "timestamp": "08:23 PM"
+    "timestamp": "08:32 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "US refueling plane crashes in Iraq, sparking rescue efforts",
+    "summary": "US refueling plane crashes in Iraq, prompting rescue effort and military response.",
     "emojis": "🪖✈️",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
-      "US military",
       "US military"
     ],
     "source_count": 3,
-    "timestamp": "08:23 PM"
+    "timestamp": "08:32 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon explores AI in warfare without clear guardrails, raising concerns about AI's potential misuse.",
+    "summary": "Pentagon embracing AI in warfare raises concerns about guardrails and ethics",
     "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
@@ -154,11 +179,25 @@
       "Pentagon"
     ],
     "source_count": 2,
-    "timestamp": "08:23 PM"
+    "timestamp": "08:32 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine's anti-drone tech in demand, major Russian hub hit in Ukrainian drone strike",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 2,
+    "timestamp": "08:32 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israel drops charges against soldiers accused of Gaza detainee abuse, sparking human rights concerns.",
+    "summary": "Israeli military drops charges against soldiers accused of Gaza detainee abuse",
     "emojis": "🪖",
     "lat": 31.5,
     "lng": 34.46,
@@ -168,7 +207,7 @@
       "soldiers accused"
     ],
     "source_count": 1,
-    "timestamp": "08:24 PM"
+    "timestamp": "08:32 PM"
   }
 ];
 
