@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-12 20:32 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-12 20:46 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,96 +51,78 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Gunman dead in Temple Israel synagogue attack, FBI investigates as 'targeted' act of violence.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "FBI",
-      "Iran",
-      "Israel",
-      "Netanyahu"
-    ],
-    "source_count": 32,
-    "timestamp": "08:31 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "No Middle East conflict summary provided",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "US",
-      "NY"
-    ],
-    "source_count": 1,
-    "timestamp": "08:31 PM"
-  },
-  {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces criticism over human rights, censorship, and artistic exclusion amid global economic and cultural shifts.",
+    "summary": "Russia tightens online censorship, restricts internet access, accuses abduction of children, and makes sports, arts comeback",
     "emojis": "⚔️💀",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "Russia",
+      "China",
       "BBC",
-      "China",
-      "Russia",
-      "European Ministers",
-      "Russia",
-      "China",
-      "Russia",
-      "Russia",
-      "European Ministers",
-      "Russia",
-      "Russia",
-      "UN",
-      "Russia"
+      "European Ministers"
     ],
-    "source_count": 8,
-    "timestamp": "08:31 PM"
+    "source_count": 9,
+    "timestamp": "08:45 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Escalating conflict between Israel and Hezbollah, US FBI investigation into synagogue attack in Michigan",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hezbollah",
+      "US",
+      "FBI"
+    ],
+    "source_count": 31,
+    "timestamp": "08:45 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "No summary provided for US-NY",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [],
+    "source_count": 1,
+    "timestamp": "08:45 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Tensions rise in Iran amid US airstrikes, with one US aircraft crashing in Iraq and concerns about a 'forever war'.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Iran-US tensions escalate with wave of attacks, crashes and military threats, raising concerns of a 'forever war',",
+    "emojis": "🪖✈️⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Iran"
+      "Unknown"
     ],
-    "source_count": 70,
-    "timestamp": "08:31 PM"
+    "source_count": 63,
+    "timestamp": "08:45 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China: Train service with NK, stability projections, AI research, drug trafficking, trade talks, solar recycling",
+    "summary": "China maintains stability, expands AI research, and faces US trade probes and flight disruptions.",
     "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Yonhap News Agency",
-      "Elk Valley Times",
-      "Bloomberg",
-      "CBS News",
-      "New York Post",
-      "Spectrum News",
-      "IndexBox"
+      "China",
+      "US"
     ],
     "source_count": 14,
-    "timestamp": "08:31 PM"
+    "timestamp": "08:45 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Violent clashes escalate in Lebanon as Israeli tank fire kills Maronite priest, Qatar condemns Israeli attacks.",
+    "summary": "Israeli forces strike Lebanon, killing Maronite priest, as Qatar condemns attacks on southern Lebanon.",
     "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
@@ -148,42 +130,42 @@
     "actors": [
       "Israel",
       "Hezbollah",
-      "Lebanon",
-      "Qatar"
+      "Qatar",
+      "Maronite Priest"
     ],
     "source_count": 3,
-    "timestamp": "08:32 PM"
+    "timestamp": "08:45 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "US refueling plane crashes in Iraq, prompting rescue effort and military response.",
+    "summary": "US military refueling plane crashes in Iraq, sparking rescue effort after aircraft is downed.",
     "emojis": "🪖✈️",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
-      "US military"
+      "US military",
+      "US"
     ],
     "source_count": 3,
-    "timestamp": "08:32 PM"
+    "timestamp": "08:45 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon embracing AI in warfare raises concerns about guardrails and ethics",
+    "summary": "Pentagon heavily invests in AI for warfare, but lacks clear guardrails and regulations to govern its use.",
     "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Bloomberg",
-      "Pentagon"
+      "Bloomberg"
     ],
     "source_count": 2,
-    "timestamp": "08:32 PM"
+    "timestamp": "08:46 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine's anti-drone tech in demand, major Russian hub hit in Ukrainian drone strike",
+    "summary": "Ukraine's anti-drone tech in demand, Russian oil hub targeted by Ukrainian drone strike in Krasnodar Krai.",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -193,7 +175,7 @@
       "Russia"
     ],
     "source_count": 2,
-    "timestamp": "08:32 PM"
+    "timestamp": "08:46 PM"
   },
   {
     "title": "SITREP: GAZA",
@@ -204,10 +186,10 @@
     "location": "GAZA",
     "actors": [
       "Israeli military",
-      "soldiers accused"
+      "soldiers accused of abuse"
     ],
     "source_count": 1,
-    "timestamp": "08:32 PM"
+    "timestamp": "08:46 PM"
   }
 ];
 
