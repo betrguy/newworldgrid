@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-12 21:43 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-12 22:03 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,60 +51,76 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "US and Russia discuss oil amid global energy crisis, as Ukraine war continues",
-    "emojis": "⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "US",
-      "Russia"
-    ],
-    "source_count": 1,
-    "timestamp": "09:42 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran faces escalating tensions and conflicts, including US attacks and Iranian retaliation",
-    "emojis": "⚔️⚡",
+    "summary": "Iran's decentralized warfare escalates tensions with India, Israel, and the US, affecting global energy supplies.",
+    "emojis": "✈️🚀⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
       "US",
-      "Hezbollah"
+      "Israel",
+      "India"
     ],
-    "source_count": 54,
-    "timestamp": "09:42 PM"
+    "source_count": 57,
+    "timestamp": "10:02 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK BBC funding uncertain, Cuban foreign minister speaks to Chinese and Russian counterparts",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK government",
+      "BBC",
+      "Cuba"
+    ],
+    "source_count": 2,
+    "timestamp": "10:02 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia's Putin envoy claims US better understands Russian oil importance amid energy crisis",
+    "emojis": "⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Putin envoy",
+      "US"
+    ],
+    "source_count": 1,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China maintains stability amid Middle East tensions, while dealing with global disruptions and AI advancements.",
-    "emojis": "⚡",
+    "summary": "China navigates global developments: tourism, AI, trade, security, and diplomatic tensions amidst Middle East conflict.",
+    "emojis": "⚔️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
       "US",
-      "Asia",
-      "N. Korea",
-      "Hong Kong",
       "Japan",
       "Thailand",
       "South Korea",
+      "North Korea",
+      "Hong Kong",
+      "India",
       "UAE",
       "Qatar",
-      "India"
+      "Canada"
     ],
-    "source_count": 14,
-    "timestamp": "09:42 PM"
+    "source_count": 12,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "US allows Russian oil sale at sea amid Middle East tensions, while Scott Bessent meets with He Lifeng in Paris",
+    "summary": "US allows sale of Russian oil, amid Middle East tensions and increasing energy prices",
     "emojis": "⚔️⚡",
     "lat": 46.2,
     "lng": 2.2,
@@ -112,31 +128,28 @@
     "actors": [
       "US",
       "Russia",
-      "France",
-      "Scott Bessent",
-      "He Lifeng"
+      "France"
     ],
     "source_count": 2,
-    "timestamp": "09:42 PM"
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Escalating war between Israel and Hezbollah sparks multiple attacks and casualties, including Iranian nuclear scientists",
-    "emojis": "💥⚔️💀",
+    "summary": "Escalating Israel-Hezbollah war affects civilians, with multiple reported wounded and suspicious attacks",
+    "emojis": "💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Hezbollah",
-      "Iran"
+      "Hezbollah"
     ],
-    "source_count": 31,
-    "timestamp": "09:42 PM"
+    "source_count": 28,
+    "timestamp": "10:02 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia escalates online censorship, convicts 19 over concert hall attack, while making a comeback in sports & arts",
+    "summary": "Russia escalates online censorship, convicts 19 over concert hall attack, and makes a comeback in sports and arts.",
     "emojis": "⚔️💀",
     "lat": 61.5,
     "lng": 105.3,
@@ -146,41 +159,25 @@
       "China"
     ],
     "source_count": 6,
-    "timestamp": "09:42 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Cuban FM speaks to Chinese & Russian counterparts",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Cuban FM",
-      "China",
-      "Russia"
-    ],
-    "source_count": 1,
-    "timestamp": "09:42 PM"
+    "timestamp": "10:03 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Violence erupts in the Middle East and a synagogue attack in Michigan, causing concern and casualties.",
-    "emojis": "⚔️💀",
+    "summary": "Attacks in Middle East and Michigan, including a synagogue attack and ongoing conflict, reported in the news.",
+    "emojis": "⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "US-NY",
       "actor1",
       "actor2"
     ],
     "source_count": 2,
-    "timestamp": "09:42 PM"
+    "timestamp": "10:03 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Violence erupts in Lebanon amid Israeli strikes on Hezbollah command centers and a Maronite priest's killing",
+    "summary": "Israeli strikes in southern Lebanon kill Maronite priest, Qatar condemns attacks, and Hezbollah command centers targeted",
     "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
@@ -188,37 +185,39 @@
     "actors": [
       "Israeli forces",
       "Hezbollah",
-      "Israeli"
+      "Qatar",
+      "Maronite priest"
     ],
     "source_count": 3,
-    "timestamp": "09:42 PM"
+    "timestamp": "10:03 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "US military refueling plane crashes in Iraq, sparking rescue efforts and operation",
+    "summary": "US military refueling plane crashes in Iraq, rescue effort underway",
     "emojis": "🪖✈️",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
-      "US military"
+      "US military",
+      "rescue teams"
     ],
     "source_count": 3,
-    "timestamp": "09:42 PM"
+    "timestamp": "10:03 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon explores AI in warfare, raising concerns over guardrails and ethics",
+    "summary": "Pentagon integrates AI in warfare, raises concerns about guardrails and ethics, sparking global scrutiny.",
     "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Pentagon",
-      "congress"
+      "Bloomberg",
+      "Pentagon"
     ],
     "source_count": 2,
-    "timestamp": "09:43 PM"
+    "timestamp": "10:03 PM"
   }
 ];
 
