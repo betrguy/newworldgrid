@@ -574,7 +574,10 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 body[data-slug*="optimism"] {
-  .toc {
+  .toc,
+  .toc-header,
+  .toc-content,
+  .right.sidebar {
     display: none !important;
   }
 
@@ -591,7 +594,7 @@ body[data-slug*="optimism"] {
 
   small {
     font-family: "JetBrains Mono", monospace;
-    font-size: 0.78rem;
+    font-size: 0.72rem;
     color: var(--gray);
     line-height: 1.6;
   }
