@@ -20,7 +20,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
       Look ahead... <span>Stop reacting to chaos. Drown out the constant background stress...</span>
     </div>
     <div class="signal-hidden-content">
-      Predictive signals for weather, tech, geopolitics, finance... It happens here, soon, with Predictive News.
+      ORACLE scans the signal layer beneath the news cycle — geopolitics, technology, weather, and finance — and maps what is likely to happen next. Stop reacting. Start anticipating.
       <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
@@ -32,7 +32,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
       The signal through the noise. <span>Every breakthrough, acceleration, and win — distilled daily.</span>
     </div>
     <div class="signal-hidden-content">
-      Cut through the fog. The Optimism Engine scans the bleeding edge of science and technology to surface the metrics that matter: the speedups, the breakthroughs, the numbers pointing up.
+      AURORA scans the bleeding edge of science and technology to surface what is genuinely improving — the speedups, the breakthroughs, the findings that compound. Good news that earns it.
       <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
