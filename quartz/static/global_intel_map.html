@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-13 21:55 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-03-13 22:09 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,35 +51,54 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Global tensions rise over Israel, Iran, and US intervention, with military action and protests against Israel",
+    "emojis": "🪖⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Iran",
+      "US"
+    ],
+    "source_count": 24,
+    "timestamp": "10:08 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "US bombs Iranian military targets, threatens oil infrastructure, amid escalating conflict and rising casualties.",
-    "emojis": "🪖⚔️💀",
+    "summary": "US airstrikes in Iran cause over 2K deaths, despite ongoing tensions with Russia and Iran's ballistic missile capabilities.",
+    "emojis": "💥⚔️🚀",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
+      "Russia",
       "Iran"
     ],
-    "source_count": 47,
-    "timestamp": "09:54 PM"
+    "source_count": 48,
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China strengthens tech dominance, expands market, and predicts AI prices, while cracking down on exports and military use.",
-    "emojis": "🪖",
+    "summary": "China faces trade tensions, tech challenges, and economic shifts amid global market fluctuations and AI advancements.",
+    "emojis": "⚔️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China"
+      "China",
+      "US",
+      "Brazil",
+      "China (Alibaba)"
     ],
-    "source_count": 9,
-    "timestamp": "09:54 PM"
+    "source_count": 11,
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine prepares for peace talks amidst US-Russia tensions, with Zelensky in Paris for talks on pressuring Russia.",
+    "summary": "Ukraine prepares for peace talks amid US-Russia tensions and President Zelensky's Paris visit",
     "emojis": "⚔️🕊️⚡",
     "lat": 48.3,
     "lng": 31.1,
@@ -87,75 +106,57 @@
     "actors": [
       "Ukraine",
       "US",
-      "Russia",
-      "Zelensky"
+      "Russia"
     ],
     "source_count": 3,
-    "timestamp": "09:55 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel as Trump's war alliance reshapes the Middle East and Iran launches missile strikes",
-    "emojis": "💥🚀⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Trump",
-      "Iran",
-      "Israel"
-    ],
-    "source_count": 22,
-    "timestamp": "09:55 PM"
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia sees sanctions relief, returns to energy market, with Trump's uranium offer rejected and economic trends shifting",
+    "summary": "US lifts Russia oil sanctions, amid criticism of Trump's handling of sanctions relief",
     "emojis": "☢️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Trump",
-      "Russia",
       "US",
-      "China",
-      "Europe"
+      "Russia",
+      "Trump"
     ],
-    "source_count": 31,
-    "timestamp": "09:55 PM"
+    "source_count": 32,
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India's energy dependence and geopolitical tensions with the US intensify with a military buildup in the Middle East.",
+    "summary": "India's energy dependence, US military presence in Middle East, and colonial history exhibition reported",
     "emojis": "🪖⚔️🔴",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
-      "US"
+      "The Times of India",
+      "Tribune India"
     ],
     "source_count": 3,
-    "timestamp": "09:55 PM"
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US sends more troops to Middle East amid ongoing conflicts and protests in NYC",
-    "emojis": "🪖⚔️",
+    "summary": "US sends more troops to Middle East amid rising tensions, protests clash in NYC",
+    "emojis": "🪖⚔️⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "US",
-      "NYC protests"
+      "Protesters in NYC"
     ],
-    "source_count": 5,
-    "timestamp": "09:55 PM"
+    "source_count": 4,
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon deploys USS Tripoli and thousands of Marines to the Middle East to maintain Strait of Hormuz security.",
+    "summary": "Pentagon deploys USS Tripoli and additional Marines, warships to Middle East for Strait of Hormuz security",
     "emojis": "🚢⚔️",
     "lat": 38.9,
     "lng": -77.03,
@@ -164,28 +165,30 @@
       "Pentagon"
     ],
     "source_count": 14,
-    "timestamp": "09:55 PM"
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Tensions rise near Lebanon border as Israelis maintain normal life amid Hezbollah threat, while Trump accused of aiding Russia.",
-    "emojis": "🚫⚡",
+    "summary": "Israelis near Lebanon border cope with Hezbollah threat, while US Democrats accuse Trump of aiding Russia.",
+    "emojis": "🚫",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "PBS",
-      "Trump",
+      "Israel",
+      "Hezbollah",
+      "US",
       "Russia",
-      "Hezbollah"
+      "Trump",
+      "Democrats"
     ],
     "source_count": 2,
-    "timestamp": "09:55 PM"
+    "timestamp": "10:08 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Geopolitical tensions impact UK financial institutions, affecting investments, trade, and regulatory compliance.",
-    "emojis": "⚡",
+    "summary": "UK financial institutions face geopolitical risks, impacting operations, investments, and regulatory compliance.",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
@@ -194,11 +197,11 @@
       "UK financial institutions"
     ],
     "source_count": 1,
-    "timestamp": "09:55 PM"
+    "timestamp": "10:09 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "US airmen die in crash, 2,500 Marines deployed to Middle East",
+    "summary": "Six U.S. airmen die in crash while 2,500 Marines are deployed to the Middle East.",
     "emojis": "🚀",
     "lat": 34.05,
     "lng": -118.24,
@@ -208,21 +211,7 @@
       "actor2"
     ],
     "source_count": 1,
-    "timestamp": "09:55 PM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "French soldier killed in drone strike in Iraq's Kurdistan region",
-    "emojis": "✈️💥💀",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "France",
-      "Iraq"
-    ],
-    "source_count": 1,
-    "timestamp": "09:55 PM"
+    "timestamp": "10:09 PM"
   }
 ];
 
