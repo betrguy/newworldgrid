@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-13 12:31 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-13 21:43 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,29 +51,24 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel targets Iranian checkpoints, destroys Lebanese bridge, and responds to Temple Israel attack",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine faces escalating tensions with Russia and the US, amid peace talks and war in the Middle East",
+    "emojis": "⚔️🕊️⚡",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Israel",
-      "Iran",
-      "Lebanon",
-      "Hezbollah",
       "Ukraine",
-      "FBI",
-      "Temple Israel",
-      "Ukraine"
+      "US",
+      "Russia"
     ],
-    "source_count": 24,
-    "timestamp": "12:31 PM"
+    "source_count": 3,
+    "timestamp": "09:42 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Tensions escalate between US and Iran, with 6 killed in plane crash and Iran's new supreme leader seen as vulnerable.",
-    "emojis": "⚔️💀🚫",
+    "summary": "US conducts strikes on Iran's Kharg Island, escalating tensions with Iran and impact on global oil markets",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -81,42 +76,12 @@
       "US",
       "Iran"
     ],
-    "source_count": 53,
-    "timestamp": "12:31 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine and allies oppose easing Russian sanctions, while Macron urges Russia to reconsider its actions.",
-    "emojis": "⚔️🚫",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "France",
-      "U.S."
-    ],
-    "source_count": 11,
-    "timestamp": "12:31 PM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "US military plane crashes in Iraq, killing all 6 crew members",
-    "emojis": "🪖✈️💀",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "US Military",
-      "Iraq"
-    ],
-    "source_count": 5,
-    "timestamp": "12:31 PM"
+    "source_count": 43,
+    "timestamp": "09:42 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "US eases sanctions on Russian oil, boosting Putin, while Canada maintains sanctions and Macron vows no respite for Russia.",
+    "summary": "Russia receives benefits from US oil sanctions waiver, while Democrats accuse Trump of aiding Russia",
     "emojis": "☢️🚫",
     "lat": 61.5,
     "lng": 105.3,
@@ -124,107 +89,139 @@
     "actors": [
       "US",
       "Russia",
-      "Canada",
-      "Macron",
-      "Putin",
-      "Zelenskyy"
+      "Trump"
     ],
-    "source_count": 25,
-    "timestamp": "12:31 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Suspect in synagogue attack lost family in Israeli strike on Lebanon, amid war's civilian casualties",
-    "emojis": "💥⚔️💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 4,
-    "timestamp": "12:31 PM"
+    "source_count": 30,
+    "timestamp": "09:42 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China relaxes iron ore ban, deepens automotive ties, and cuts app store fees amid regulatory pressure and military tensions.",
-    "emojis": "🪖⚡",
+    "summary": "China strengthens tech dominance, eases iron ore ban, and predicts cryptocurrency prices, while warning on AI use",
+    "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Serbia",
-      "Mercedes",
-      "Geely",
-      "Alibaba",
-      "Apple"
-    ],
-    "source_count": 22,
-    "timestamp": "12:31 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France returns looted artifact, Macron defends Middle East role amid soldier's death",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Macron",
-      "Ivory Coast",
-      "UN",
-      "EU",
-      "French soldiers"
+      "US",
+      "Brazil",
+      "Australia",
+      "Alibaba"
     ],
     "source_count": 8,
-    "timestamp": "12:31 PM"
+    "timestamp": "09:42 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "US deploys assault ship to Middle East amid geopolitical tensions, highlighting India's fragile energy dependence",
+    "emojis": "⚔️🔴⚡",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "US",
+      "India"
+    ],
+    "source_count": 3,
+    "timestamp": "09:42 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise in Israel as Iran launches strikes, a potential ground invasion looms, and violence erupts at synagogues.",
+    "emojis": "🪖💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Iran",
+      "Israel",
+      "Palestine"
+    ],
+    "source_count": 21,
+    "timestamp": "09:43 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US sending more troops to Middle East amid rising tensions and protests in NYC",
+    "emojis": "🪖⚔️⚡",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US Government",
+      "Protesters"
+    ],
+    "source_count": 5,
+    "timestamp": "09:43 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon deploys additional Marines and warships to the Middle East.",
+    "summary": "Pentagon deploys USS Tripoli and additional Marines to Middle East, keeping Strait of Hormuz open",
     "emojis": "🚢⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "US Military",
       "Pentagon"
     ],
+    "source_count": 14,
+    "timestamp": "09:43 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israelis near Lebanon border maintain normal life despite Hezbollah threat, while Democrats accuse Trump of aiding Russia.",
+    "emojis": "🚫",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "PBS",
+      "Democrats",
+      "Trump"
+    ],
     "source_count": 2,
-    "timestamp": "12:31 PM"
+    "timestamp": "09:43 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "US dollar benefits from Middle East conflict due to sanctions on Iran and Iraq, increasing petro-dollar demand",
-    "emojis": "⚔️🚫",
+    "summary": "Geopolitical tensions affect UK financial institutions, impacting investment, trade, and regulatory landscape.",
+    "emojis": "⚡",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "US",
-      "Iran",
-      "Iraq"
+      "Norton Rose Fulbright"
     ],
     "source_count": 1,
-    "timestamp": "12:31 PM"
+    "timestamp": "09:43 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "Nvidia CEO Jensen Huang to discuss new inference chip, India's top court rejects menstrual leave petition",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: US-CA",
+    "summary": "US airman deaths reported; 2,500 Marines deployed to Middle East in separate incident.",
+    "emojis": "🚀",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "India",
-      "Nvidia",
-      "India's top court"
+      "US Air Force",
+      "US Marines"
     ],
-    "source_count": 2,
-    "timestamp": "12:31 PM"
+    "source_count": 1,
+    "timestamp": "09:43 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "French soldier killed in drone strike in Iraq's Kurdistan region",
+    "emojis": "✈️💥💀",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "France",
+      "IRAQ"
+    ],
+    "source_count": 1,
+    "timestamp": "09:43 PM"
   }
 ];
 
