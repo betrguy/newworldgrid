@@ -119,31 +119,31 @@ h1 {
 }
 
 /* --- SPECIFIC CARD COLORS --- */
-.card-predictive { width: 35%; border-left: 5px solid #2563eb; }
-.card-predictive .signal-title { color: #2563eb; }
-.card-predictive:hover { border-color: #2563eb; }
+.card-predictive { width: 35%; border-left: 5px solid #00d4ff; }
+.card-predictive .signal-title { color: #00d4ff; }
+.card-predictive:hover { border-color: #00d4ff; }
 
-.card-optimism { width: 65%; border-left: 5px solid #e11d48; }
-.card-optimism .signal-title { color: #e11d48; }
-.card-optimism:hover { border-color: #e11d48; }
+.card-optimism { width: 65%; border-left: 5px solid #f72585; }
+.card-optimism .signal-title { color: #f72585; }
+.card-optimism:hover { border-color: #f72585; }
 
-.card-grid { width: 100%; border-left: 5px solid #7c3aed; }
-.card-grid .signal-title { color: #7c3aed; }
-.card-grid:hover { border-color: #7c3aed; }
+.card-grid { width: 100%; border-left: 5px solid #a855f7; }
+.card-grid .signal-title { color: #a855f7; }
+.card-grid:hover { border-color: #a855f7; }
 
-/* Light mode: slightly darker shades for extra contrast on pale backgrounds */
+/* Light mode: darker shades for contrast on pale backgrounds */
 :root[saved-theme="light"] {
-  .card-predictive { border-left-color: #1d4ed8; }
-  .card-predictive .signal-title { color: #1d4ed8; }
-  .card-predictive:hover { border-color: #1d4ed8; }
+  .card-predictive { border-left-color: #0369a1; }
+  .card-predictive .signal-title { color: #0369a1; }
+  .card-predictive:hover { border-color: #0369a1; }
 
-  .card-optimism { border-left-color: #be123c; }
-  .card-optimism .signal-title { color: #be123c; }
-  .card-optimism:hover { border-color: #be123c; }
+  .card-optimism { border-left-color: #be185d; }
+  .card-optimism .signal-title { color: #be185d; }
+  .card-optimism:hover { border-color: #be185d; }
 
-  .card-grid { border-left-color: #6d28d9; }
-  .card-grid .signal-title { color: #6d28d9; }
-  .card-grid:hover { border-color: #6d28d9; }
+  .card-grid { border-left-color: #7e22ce; }
+  .card-grid .signal-title { color: #7e22ce; }
+  .card-grid:hover { border-color: #7e22ce; }
 }
 
 @media (max-width: 768px) {
