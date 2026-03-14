@@ -13,23 +13,23 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 </div>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The recent escalation in the Middle East has led to a significant disruption in the global energy market. The loss of a US refueling plane in Iraq and the reported strikes on Tehran have resulted in a heightened sense of uncertainty, causing a surge in demand for alternative energy sources. This development has revived interest in nuclear power, as countries seek to diversify their energy portfolios and mitigate the risk of supply chain disruptions. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
+<p class="meridian-lede">The Middle East crisis has led to a significant escalation of military strikes, resulting in the destruction of critical infrastructure and the loss of a US refuelling plane in Iraq. This development has created a ripple effect on global energy markets, reviving interest in nuclear power as a viable alternative. The crisis has also led to a surge in demand for emergency oil stockpiles, highlighting the limited options available to mitigate the impact on prices. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
 
-The situation has also had a profound impact on the global computing landscape. The increased uncertainty has led to a renewed focus on the importance of domestic nuclear capabilities, with some advocating for the development of a robust nuclear industry in the United States. This shift in perspective has sparked concerns that the cost of AI services may never return to its current low prices, as companies may be forced to reassess their pricing strategies in response to the changed global landscape.
+The situation has also had a profound impact on the global AI industry, as the uncertainty surrounding the conflict has led to a shift in market dynamics. The increased tension has resulted in a reassessment of resource allocation, with companies reevaluating their pricing strategies. This development has significant implications for the long-term viability of the industry.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The recent escalation in the Middle East has led to a surge in demand for alternative energy sources, including nuclear power, which could have significant implications for the global energy market and the cost of AI services.</li>
-  <li><strong>The big picture:</strong> The situation has sparked concerns that the cost of AI services may never return to its current low prices, as companies may be forced to reassess their pricing strategies in response to the changed global landscape.</li>
-  <li><strong>What to watch:</strong> The crisis has led to a renewed focus on the importance of maintaining robust and resilient power grids, as seen in the recent attacks on Ukraine's grid infrastructure.</li>
+  <li><strong>Why it matters:</strong> The crisis has led to a significant reassessment of resource allocation in the global AI industry, with companies reevaluating their pricing strategies.</li>
+  <li><strong>The big picture:</strong> The situation has significant implications for the long-term viability of the AI industry, as companies adjust to the new market dynamics.</li>
+  <li><strong>What to watch:</strong> The impact of the crisis on the global AI industry will be closely monitored for any changes in pricing strategies and resource allocation.</li>
 </ul>
 </div>
 
 
-Meanwhile, the ongoing conflict has also had significant implications for the global geophysical infrastructure. The reported strikes on Iranian nuclear facilities have heightened tensions and increased the risk of a catastrophic event. The situation has also led to a reevaluation of the global nuclear landscape, with some countries reexamining their nuclear capabilities and others reaffirming their commitments to nuclear non-proliferation. The crisis has also led to a renewed focus on the importance of maintaining robust and resilient power grids, as seen in the recent attacks on Ukraine's grid infrastructure.
+Meanwhile, the crisis has also had far-reaching consequences for the global nuclear industry. The loss of a US refuelling plane in Iraq has heightened concerns over the security of critical infrastructure, leading to a renewed focus on domestic nuclear capabilities. The situation has also led to a reevaluation of international partnerships, with Russia's state nuclear corporation Rosatom stating its intention to maintain its presence in Iran despite the conflict.
 </div>
 
 <div class="sotg-analyst">
-The Earth's geomagnetic field remains stable, with no significant perturbations or disruptions reported. Solar activity is currently moderate, as indicated by a Planetary K-index of 2.0, with no notable effects on satellite operations or bandwidth. The geomagnetic barrier, a theoretical boundary that protects the planet from intense solar radiation, is not currently being breached or compromised. As a result, there are no reported issues with satellite systems, communication networks, or the energy grid.
+The current Planetary K-index of 2.0 indicates a period of relatively low solar activity, which is unlikely to cause significant disruptions to satellite and bandwidth infrastructure. As there are no reports of recent geomagnetic storms or anomalies, the risk of satellite communications or infrastructure disruptions is minimal.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
