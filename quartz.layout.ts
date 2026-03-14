@@ -69,7 +69,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.TableOfContents()),
+      condition: (page) => page.fileData.slug !== "Optimism",
+    }),
   ],
 }
 
