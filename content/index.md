@@ -41,10 +41,10 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     <a href="/State-of-the-Grid" class="signal-link"></a>
     <div class="signal-title">⚡ STATE OF THE GRID</div>
     <div class="signal-preview">
-      Tracking the state of the grid. <span>Energy, defense, and industrial hiring — measured in kilo Grid units.</span>
+      The substrate beneath the news cycle. <span>Energy infrastructure, compute buildout, and Earth's geomagnetic state — read daily.</span>
     </div>
     <div class="signal-hidden-content">
-      Reactors permitted. Gigawatts funded. Defense contracts signed. The kilo Grid reads NRC regulatory filings, DOE capital deployment, grid interconnection queues, and industrial hiring — converting hard infrastructure signals into one composite index.
+      MERIDIAN monitors the physical grid: what's being built on the energy network, where compute is accumulating, and what Earth's geomagnetic environment looks like today. No indexes. Declarative prose on the infrastructure beneath the headlines.
       <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
