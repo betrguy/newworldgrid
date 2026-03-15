@@ -13,23 +13,23 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 </div>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Recent events have led to a temporary lifting of sanctions on Russian oil, allowing for increased supply and potential price stabilization amid the ongoing conflict in Iran. This move has sparked concerns about unintended benefits accruing to Russia. The impact is felt globally, with energy prices remaining high despite this development. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
+<p class="meridian-lede">The recent Israeli strikes on Iranian nuclear scientists have not resulted in any direct impact on the physical grid or industrial capacity. The incident remains a geopolitical event without tangible effects on infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span></p>
 
-The situation has also had an indirect effect on the global AI chip market, as China's ByteDance gains access to top Nvidia AI chips. This shift may have implications for industrial capacity and resource allocation in the tech sector.
+In response to rising energy prices, the US administration has temporarily lifted sanctions on Russian oil, allowing for increased supply and potentially mitigating price pressures. This move may lead to a slight increase in global oil availability, which could stabilize markets and reduce strain on existing energy infrastructure. However, the long-term implications of this decision remain uncertain.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The temporary lifting of sanctions on Russian oil has significant implications for global energy prices and the ongoing conflict in Iran.</li>
-  <li><strong>The big picture:</strong> This move may inadvertently benefit Russia, while also having far-reaching consequences for the global economy and energy markets.</li>
-  <li><strong>What to watch:</strong> Monitor developments closely as this situation unfolds, particularly with regards to potential price stabilization and unintended benefits.</li>
+  <li><strong>Why it matters:</strong> The US administration's temporary lifting of sanctions on Russian oil may lead to increased global oil availability, stabilizing markets and reducing strain on existing energy infrastructure.</li>
+  <li><strong>The big picture:</strong> This move could potentially mitigate price pressures and have long-term implications for the global economy.</li>
+  <li><strong>What to watch:</strong> Closely monitor the short-term effects of this decision on energy prices and market stability.</li>
 </ul>
 </div>
 
 
-No significant disruptions or damage to physical infrastructure have been reported in relation to these events.
+The acquisition by China's ByteDance of top Nvidia AI chips does not have any immediate impact on the physical grid or industrial capacity.
 </div>
 
 <div class="sotg-analyst">
-The current planetary K-index value stands at Kp=2.0 (24h max), indicating a moderate level of geomagnetic activity. This means that solar flares and coronal mass ejections may cause disruptions to satellite operations, including communication systems, as well as navigation systems such as GPS. Although the Earth's magnetic field does not directly impact the physical grid, it plays a crucial role in affecting satellite and communication systems. As a result, geomagnetic storms caused by CMEs can potentially disrupt satellite communications and navigation systems, compromising global connectivity and energy transmission infrastructure.
+As of 24 hours ago, the planetary K-index value has stabilized at Kp=2.0, indicating a moderate level of geomagnetic activity. This does not pose an immediate threat to satellite operations or HF radio communications, as any potential disruptions would require a significantly higher K-index reading. Furthermore, this level of activity is unlikely to have any noticeable impact on the power grid, as it would need to exceed 5-6 units to cause significant disturbances in electrical transmission lines and distribution systems.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
