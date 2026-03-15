@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-15 12:04 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-15 12:29 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,39 +52,39 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel responds to concerns over Hezbollah involvement and interceptors, amid tensions with Palestinians and critics.",
-    "emojis": "⚔️⚡",
+    "summary": "Israel releases settler suspects, continues airstrikes on Iran, and announces slain brother was Hezbollah commander.",
+    "emojis": "💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
+      "Israel Police",
+      "Iran",
       "Hezbollah",
-      "Palestinians",
       "Netanyahu"
     ],
-    "source_count": 20,
-    "timestamp": "12:03 PM"
+    "source_count": 21,
+    "timestamp": "12:28 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran, Israel exchange strikes amid US efforts to reopen Hormuz Strait and prevent escalation of war.",
-    "emojis": "💥⚔️📈",
+    "summary": "Iran-US conflict escalates with Israel launching strikes, Iran reciprocating and US expressing caution",
+    "emojis": "🪖💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "US",
       "Israel",
-      "Iran",
-      "US"
+      "Iran"
     ],
-    "source_count": 59,
-    "timestamp": "12:03 PM"
+    "source_count": 60,
+    "timestamp": "12:28 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "US-China trade talks open in Paris, amid fragile truce and potential Trump-Xi summit",
-    "emojis": "",
+    "summary": "US-China trade talks in Paris, amid fragile truce and Trump-Xi summit, amidst growing US allies towards Beijing.",
+    "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
@@ -92,12 +92,12 @@
       "US",
       "China"
     ],
-    "source_count": 14,
-    "timestamp": "12:03 PM"
+    "source_count": 10,
+    "timestamp": "12:28 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine waits for US, Russia agreement on next peace talks as global attention shifts to Middle East",
+    "summary": "Ukraine waits for US and Russia to set next round of peace talks as global attention shifts.",
     "emojis": "🕊️",
     "lat": 48.3,
     "lng": 31.1,
@@ -108,40 +108,54 @@
       "Russia"
     ],
     "source_count": 24,
-    "timestamp": "12:03 PM"
+    "timestamp": "12:28 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Russian tanker nears Malta, highlighting oil's role in Middle Eastern conflict stakes.",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France 24",
+      "Russia"
+    ],
+    "source_count": 2,
+    "timestamp": "12:28 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Arctic tensions rise as Nordic leaders meet in Oslo, while a Russian teacher challenges Kremlin propaganda.",
-    "emojis": "⚡",
+    "summary": "Russia strikes near Chernihiv, meets with Nordic leaders amid Arctic tensions and criticizes Putin",
+    "emojis": "💥⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "Russia",
       "Nordic leaders",
-      "Carney",
-      "Russian teacher"
+      "Putin"
     ],
-    "source_count": 3,
-    "timestamp": "12:03 PM"
+    "source_count": 4,
+    "timestamp": "12:29 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK considers various options to secure Strait of Hormuz amid concerns for maritime security.",
-    "emojis": "",
+    "summary": "UK considers all options to secure Strait of Hormuz after security concerns amid Iran tensions.",
+    "emojis": "⚡",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "BBC",
-      "Miliband"
+      "Miliband",
+      "Iran"
     ],
     "source_count": 1,
-    "timestamp": "12:04 PM"
+    "timestamp": "12:29 PM"
   },
   {
     "title": "SITREP: TAIWAN",
-    "summary": "Taiwan reports large-scale Chinese military aircraft presence, amid rising tensions and gray-zone pressure.",
+    "summary": "Taiwan reports large-scale Chinese military aircraft presence near island, increasing tensions.",
     "emojis": "🪖✈️⚡",
     "lat": 23.6,
     "lng": 120.9,
@@ -151,11 +165,11 @@
       "Taiwan"
     ],
     "source_count": 2,
-    "timestamp": "12:04 PM"
+    "timestamp": "12:29 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli attacks in Lebanon kill 4 people, foreign minister denies talks and reports of interceptor shortages.",
+    "summary": "Israeli attacks in Lebanon kill four people, amid reported denial of diplomatic talks and interceptor shortages.",
     "emojis": "⚔️",
     "lat": 33.8,
     "lng": 35.8,
@@ -165,49 +179,18 @@
       "Lebanon"
     ],
     "source_count": 2,
-    "timestamp": "12:04 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France weighs oil influence on regional stability amid Middle East conflicts and energy security concerns.",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Middle Eastern countries"
-    ],
-    "source_count": 1,
-    "timestamp": "12:04 PM"
+    "timestamp": "12:29 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Ceasefire not in place in Gaza, conflict continues despite reports of no new attacks.",
+    "summary": "No ceasefire in Gaza, ongoing conflict and violence reported by Middle East Eye.",
     "emojis": "⚔️🕊️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
-    "actors": [
-      "Middle East Eye",
-      "Gaza"
-    ],
+    "actors": [],
     "source_count": 1,
-    "timestamp": "12:04 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Indian auto industry requests US ban on Chinese carmakers amid trade tensions.",
-    "emojis": "⚡",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "India",
-      "US"
-    ],
-    "source_count": 1,
-    "timestamp": "12:04 PM"
+    "timestamp": "12:29 PM"
   }
 ];
 
