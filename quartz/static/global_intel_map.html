@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-14 20:17 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-14 21:08 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,39 +51,55 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise with Iran, Lebanon, and the US over Israel's military operations and missile defenses.",
-    "emojis": "🪖💥🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Iran",
-      "Israel",
-      "US",
-      "Lebanon"
-    ],
-    "source_count": 27,
-    "timestamp": "08:17 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran-US conflict escalates with missile strikes, war bets, and Trump's warnings, amid regional tensions and attacks.",
-    "emojis": "💥⚔️🚀",
+    "summary": "Iran continues aggression in Middle East, prompting Trump's warnings to allies and potential strikes",
+    "emojis": "🚢💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
+      "Iran",
+      "US"
+    ],
+    "source_count": 82,
+    "timestamp": "09:07 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces sanctions extension, military cooperation with China and Iran, while Putin's power struggles continue.",
+    "emojis": "🪖🚫⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "China",
+      "Iran",
+      "EU"
+    ],
+    "source_count": 6,
+    "timestamp": "09:07 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Violence erupts in Israel as crime wave intensifies, amid ongoing conflicts and diplomatic tensions.",
+    "emojis": "⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Palestine",
+      "US",
       "Iran"
     ],
-    "source_count": 75,
-    "timestamp": "08:17 PM"
+    "source_count": 28,
+    "timestamp": "09:07 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia strikes Kyiv region, killing 4 and wounding 15, as peace talks stall, amid EU sanctions extension",
-    "emojis": "💥⚔️💀",
+    "summary": "Russia's war against Ukraine intensifies with attacks, EU extends sanctions, and international condemnation grows.",
+    "emojis": "💥⚔️🚫",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -92,12 +108,55 @@
       "Ukraine",
       "EU"
     ],
-    "source_count": 13,
-    "timestamp": "08:17 PM"
+    "source_count": 11,
+    "timestamp": "09:07 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China news: Strait of Hormuz tensions, tech self-reliance, and social work guidelines amidst rising oil prices.",
+    "emojis": "🚢⚔️⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Trump",
+      "China",
+      "UK"
+    ],
+    "source_count": 7,
+    "timestamp": "09:07 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "US military confirms 6 crew members killed in crash of KC-135 refueling aircraft in Iraq.",
+    "emojis": "🪖✈️💀",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "CBS News",
+      "The Guardian"
+    ],
+    "source_count": 2,
+    "timestamp": "09:08 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "F.C.C. Chair threatens to revoke broadcasters' licenses for war coverage, raising concerns about media freedom.",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "F.C.C. Chair",
+      "Broadcasters"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon deploys 5,000 troops to Middle East region",
+    "summary": "Pentagon deploys 5,000 troops to the Middle East amid unknown reasons",
     "emojis": "🪖",
     "lat": 38.9,
     "lng": -77.03,
@@ -107,24 +166,11 @@
       "Pentagon"
     ],
     "source_count": 1,
-    "timestamp": "08:17 PM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "Six US service members killed in aircraft crash in Iraq",
-    "emojis": "✈️💀",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "US military"
-    ],
-    "source_count": 1,
-    "timestamp": "08:17 PM"
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Trump urges UK to send warships to secure Strait of Hormuz amid Iranian attacks",
+    "summary": "Donald Trump urges UK to send warships to secure Strait of Hormuz after Iranian attacks",
     "emojis": "🚢⚔️",
     "lat": 55.3,
     "lng": -3.4,
@@ -134,82 +180,36 @@
       "UK"
     ],
     "source_count": 4,
-    "timestamp": "08:17 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia confirms military cooperation, EU extends sanctions, girls' basketball news, and WWII image collector's escape",
-    "emojis": "🪖🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "EU",
-      "Russia"
-    ],
-    "source_count": 4,
-    "timestamp": "08:17 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China: controversy over arcade prizes, new social work guidelines, and F1 news dominate headlines",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US Sun",
-      "Latest news from Azerbaijan",
-      "Toto Wolff",
-      "Lewis Hamilton",
-      "Xinhua"
-    ],
-    "source_count": 6,
-    "timestamp": "08:17 PM"
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza faces humanitarian crisis, international attention and aid often hindered by political tensions and conflict.",
-    "emojis": "⚔️⚡",
+    "summary": "Gaza faces humanitarian crisis, international attention, and aid, despite ongoing conflict and economic struggles.",
+    "emojis": "⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "actor1",
-      "actor2"
+      "Palestinians",
+      "International Community"
     ],
     "source_count": 1,
-    "timestamp": "08:17 PM"
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "UN urges diplomacy in Lebanon, while Israel strikes kill medical staff, displacing thousands",
+    "summary": "Lebanon faces diplomatic push vs. military solution amid Israeli strikes, displacement of people on one-year anniversary",
     "emojis": "🪖💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "UN",
-      "Israel",
-      "Lebanon"
+      "UN chief Guterres",
+      "Lebanon",
+      "Israel"
     ],
-    "source_count": 4,
-    "timestamp": "08:17 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Oscars 2026: Enhanced security measures implemented due to Middle East tensions at Dolby Theatre",
-    "emojis": "⚡",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "FOX 11 Los Angeles"
-    ],
-    "source_count": 1,
-    "timestamp": "08:17 PM"
+    "source_count": 2,
+    "timestamp": "09:08 PM"
   }
 ];
 
