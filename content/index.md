@@ -56,7 +56,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
       The global contest for transport dominance. <span>Battery chemistry, charging infrastructure, and the Chinese EV grid — tracked daily.</span>
     </div>
     <div class="signal-hidden-content">
-      ARC maps the electric transport transition: who is winning the battery wars, where charging networks are expanding, and what the Chinese EV machine is doing that Western manufacturers are not. The race is on.
+      ARC maps the electric transport build-out: who is charging the most batteries, where the next wave of charging stations is landing, and how the U.S. and China are competing to win the race. No side taken — just the numbers, the infrastructure, and what comes next.
       <br><br><strong>[VIEW MORE]</strong>
     </div>
   </div>
