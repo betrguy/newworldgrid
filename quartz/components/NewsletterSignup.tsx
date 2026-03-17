@@ -27,7 +27,7 @@ export default ((userOpts?: Options) => {
             <h3 class="newsletter-title">{opts.title}</h3>
             <p class="newsletter-subtitle">{opts.subtitle}</p>
             <div class="newsletter-placeholder">
-              <span class="terminal-blink">_</span> Newsletter coming soon
+              <span class="terminal-blink">_</span> Sign up at anything@thenewworldgrid.com
             </div>
           </div>
         </div>

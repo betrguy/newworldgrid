@@ -43,7 +43,7 @@ We reserve the right to decline sponsorships that don't align with our editorial
 
 ### How to Sponsor
 
-Contact us at **sponsor@thenewworldgrid.com** with:
+Contact us at **anything@thenewworldgrid.com** with:
 
 1. Your company or product description
 2. Preferred sponsorship slot
