@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-17 17:36 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-17 18:37 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,25 +52,41 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US tensions escalate with Iran as Trump weighs military action, while Russia expands cooperation and US eases Venezuela sanctions.",
-    "emojis": "🪖💀🚫",
+    "summary": "Iran conflict escalates with airstrikes, US delays trip to China, Russia condemns strikes on nuclear plant.",
+    "emojis": "💥⚔️☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Russia",
       "Iran",
-      "US government",
+      "US",
+      "Russia",
       "Israel"
     ],
     "source_count": 71,
-    "timestamp": "05:36 PM"
+    "timestamp": "06:36 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China: ZTO Express sees revenue rise, EV battery makers dominate global market, while Trudeau delays China trip amid diplomatic tensions.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "ZTO Express",
+      "Chinese government",
+      "Nvidia",
+      "US President Trump",
+      "Canadian Prime Minister Trudeau"
+    ],
+    "source_count": 12,
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel launches airstrikes on Iranian officials, prompting concerns of escalation and global repercussions.",
-    "emojis": "💥⚔️📈",
+    "summary": "Israel conducts strikes targeting top Iranian officials, amid growing tensions and potential for Iranian regime collapse.",
+    "emojis": "💥⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
@@ -78,59 +94,43 @@
       "Israel",
       "Iran"
     ],
-    "source_count": 16,
-    "timestamp": "05:36 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China leads in EV battery production, delaying Trump's China trip to 5-6 weeks, as US President shifts spotlight.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Trump",
-      "Xi Jinping",
-      "Nvidia",
-      "China"
-    ],
-    "source_count": 12,
-    "timestamp": "05:36 PM"
+    "source_count": 15,
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia proposes new prisons, offers fuel to Cuba, and possibly supports Trump-Putin peace deal amid various crises.",
-    "emojis": "⚔️🕊️",
+    "summary": "US Senators ask Rubio to designate former US man imprisoned in Russia as political prisoner, amid reports of Russian super-prisons and fuel crisis relief for Cuba.",
+    "emojis": "⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
-      "Cuba",
-      "Trump",
-      "Putin"
+      "Cline",
+      "Warner",
+      "Kaine",
+      "Rubio"
     ],
-    "source_count": 4,
-    "timestamp": "05:36 PM"
+    "source_count": 5,
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California pipeline resumes oil flow amid Trump administration's reversal of California environmental regulations.",
+    "summary": "California pipeline resumes oil flow after Trump administration order, sparking controversy and environmental concerns.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
       "Trump Administration",
-      "California Environmental Agencies"
+      "Environmental Groups/Regulators"
     ],
     "source_count": 1,
-    "timestamp": "05:36 PM"
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Air strike hits Kabul rehab centre during dinner, killing unknown number of people in Monday night's Pakistan attack.",
-    "emojis": "💥⚔️💀",
+    "summary": "Air strike hits Kabul rehab centre, killing patients during dinner; Pakistan's involvement unclear.",
+    "emojis": "💥💀",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
@@ -139,11 +139,11 @@
       "BBC"
     ],
     "source_count": 1,
-    "timestamp": "05:36 PM"
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukrainian PM Zelensky warns of Russian weapons tech; Sean Penn donates Oscar made from train carriage hit by Russia to Ukraine.",
+    "summary": "Ukrainian PM Zelensky warns of Russian advanced weapons tech during British visit, while Sean Penn gifts Oscar made from train carriage damaged by Russia.",
     "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -152,12 +152,12 @@
       "Zelensky",
       "Sean Penn"
     ],
-    "source_count": 7,
-    "timestamp": "05:36 PM"
+    "source_count": 6,
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: TAIWAN",
-    "summary": "Taiwan reports 28 Chinese military aircraft in ADIZ, with 21 entering cross-median line",
+    "summary": "28 Chinese military aircraft spotted in Taiwan ADIZ, 21 enter cross median line airspace",
     "emojis": "🪖✈️",
     "lat": 23.6,
     "lng": 120.9,
@@ -167,26 +167,27 @@
       "Taiwan"
     ],
     "source_count": 1,
-    "timestamp": "05:36 PM"
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: US-IL",
-    "summary": "Iranian leader killed in strikes escalating across Middle East region, amid rising tensions and violent conflict.",
-    "emojis": "💥⚔️💀",
+    "summary": "Top Iranian leader killed in strikes across Middle East amid escalating tensions with the US and Israel.",
+    "emojis": "💥💀⚡",
     "lat": 41.87,
     "lng": -87.62,
     "location": "US-IL",
     "actors": [
-      "Iranian leader",
-      "attacker/launchers (unclear)"
+      "Iranian government",
+      "US",
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "05:36 PM"
+    "timestamp": "06:37 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Pope Leo calls for ceasefire in Middle East amid conflict, offers special prayers for Lebanon.",
-    "emojis": "⚔️🕊️",
+    "summary": "Pope Leo urges Middle East ceasefire, offers special prayers for Lebanon's stability and security",
+    "emojis": "🕊️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -195,21 +196,7 @@
       "Lebanon"
     ],
     "source_count": 1,
-    "timestamp": "05:36 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Mexican state supports EV startup Olinia with funding and incentives, enabling its growth in the country.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mexican government",
-      "Olinia"
-    ],
-    "source_count": 1,
-    "timestamp": "05:36 PM"
+    "timestamp": "06:37 PM"
   }
 ];
 
