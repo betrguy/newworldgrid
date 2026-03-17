@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-17 16:01 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-17 16:27 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,81 +52,93 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran's Soleimani killed, US Marines deployed to Middle East amid airstrikes, China backs down from Trump's call on Hormuz",
-    "emojis": "🚀🪖💥",
+    "summary": "Iran responds to US-Israel airstrikes with military buildup, Russia shares satellite imagery and drone tech, and a top commander is killed.",
+    "emojis": "🚀🪖✈️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
+      "Russia",
       "US",
-      "Israel",
-      "China"
+      "Israel"
     ],
-    "source_count": 91,
-    "timestamp": "04:01 PM"
+    "source_count": 94,
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel launches strikes on UN Lebanon base, kills Iranian security chief, amid escalating tensions and protests in the Middle East.",
-    "emojis": "💥⚡",
+    "summary": "Israel carries out strikes killing top Iranian leaders, sparks UN warnings and escalating tensions in Middle East.",
+    "emojis": "💥⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Iran",
-      "Hezbollah",
-      "Palestinians"
+      "Iran"
     ],
-    "source_count": 17,
-    "timestamp": "04:01 PM"
+    "source_count": 11,
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Nvidia considers restarting H200 chip production for China, amid Trump's delayed trip to the country.",
+    "summary": "Nvidia considers H200 chip production for China, Trump delays China trip to 5-6 weeks.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "Huang",
-      "Trump",
-      "Tencent"
+      "Trump"
     ],
-    "source_count": 9,
-    "timestamp": "04:01 PM"
+    "source_count": 11,
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia proposes ",
+    "summary": "Russia proposes 'super-prisons' with pre-trial detention and labor, while providing Cuba with fuel relief amid African recruitment issues.",
     "emojis": "⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Unknown"
+      "Russia",
+      "Cuba"
     ],
-    "source_count": 3,
-    "timestamp": "04:01 PM"
+    "source_count": 4,
+    "timestamp": "04:27 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California pipeline resumes oil flow after Trump administration lifted moratorium, sparking environmental and local concerns.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Trump administration",
+      " Californians supporting pipeline"
+    ],
+    "source_count": 1,
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Air strike hits Kabul rehab centre, killing patients during dinner, in Pakistan's military operation against Taliban.",
-    "emojis": "🪖💥💀",
+    "summary": "Pakistan air strike hits Kabul rehab centre, killing patients while they ate dinner on Monday night.",
+    "emojis": "💥💀",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
-      "Pakistan military",
-      "Taliban"
+      "Pakistan",
+      "BBC"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine PM Zelensky warns of Russian weapons tech; Sean Penn gifted Oscar made from train carriage hit by Russia.",
+    "summary": "Ukrainian PM Zelensky warns of Russian weapons tech; Sean Penn gifted Oscar made from train carriage damaged by Russia; water cut in Moldova after oil spill.",
     "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -134,14 +146,15 @@
     "actors": [
       "Zelensky",
       "Russia",
-      "Sean Penn"
+      "Sean Penn",
+      "Moldova"
     ],
-    "source_count": 15,
-    "timestamp": "04:01 PM"
+    "source_count": 12,
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: TAIWAN",
-    "summary": "Taiwan reports 28 Chinese military aircraft entering its ADIZ, with 21 crossing the median line.",
+    "summary": "Taiwan reports 28 Chinese military aircraft entering ADIZ, 21 crossing median line in Taiwan Strait.",
     "emojis": "🪖✈️",
     "lat": 23.6,
     "lng": 120.9,
@@ -151,12 +164,12 @@
       "Taiwan"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: US-IL",
-    "summary": "Iranian leader killed in strikes across Middle East amid escalating tensions.",
-    "emojis": "💥💀⚡",
+    "summary": "Iranian leader killed in strikes escalating across Middle East, amid rising tensions and military operations.",
+    "emojis": "🪖💥💀",
     "lat": 41.87,
     "lng": -87.62,
     "location": "US-IL",
@@ -165,11 +178,11 @@
       "US"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Pope Leo urges ceasefire in Middle East, calls for prayers for Lebanon amid conflict",
+    "summary": "Pope Leo urges Middle East ceasefire, requesting special prayers for Lebanon amid ongoing conflict.",
     "emojis": "⚔️🕊️",
     "lat": 33.8,
     "lng": 35.8,
@@ -178,21 +191,21 @@
       "Pope Leo"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "04:27 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France increases military presence in Middle East amid Macron's postwar talks, amid heightened tensions with Iran.",
-    "emojis": "🪖⚔️⚡",
+    "summary": "France increases military presence in Middle East amid postwar talks with Israel, as Macron seeks stability in region.",
+    "emojis": "🪖⚔️",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "France",
-      "Iran"
+      "Macron",
+      "France"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "04:27 PM"
   }
 ];
 
