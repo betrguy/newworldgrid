@@ -12,11 +12,12 @@ The New World Grid delivers high-signal intelligence briefings to decision-maker
 - **Defense and policy analysts** monitoring geopolitical realignment signals
 - **Investors and traders** using predictive intelligence and alternative economic metrics
 - **Technology leaders** building on emerging energy and compute infrastructure
+- **EV and transport professionals** following battery chemistry, charging infrastructure, and Chinese EV market dynamics
 
 ### Available Sponsorship Slots
 
 #### Briefing Sponsor
-**Location:** Top of daily intelligence briefings (The Surge, Predictive News, Shadow GDP)
+**Location:** Top of daily intelligence briefings (Predictive News, Daily Optimism, State of the Grid, The Electric Race)
 **Format:** 150-word description + link
 **Rate:** $500/month
 

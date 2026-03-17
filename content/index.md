@@ -49,6 +49,18 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     </div>
   </div>
 
+  <div class="signal-card card-electric">
+    <a href="/The-Electric-Race" class="signal-link"></a>
+    <div class="signal-title">🔋 THE ELECTRIC RACE</div>
+    <div class="signal-preview">
+      The global contest for transport dominance. <span>Battery chemistry, charging infrastructure, and the Chinese EV grid — tracked daily.</span>
+    </div>
+    <div class="signal-hidden-content">
+      ARC maps the electric transport transition: who is winning the battery wars, where charging networks are expanding, and what the Chinese EV machine is doing that Western manufacturers are not. The race is on.
+      <br><br><strong>[VIEW MORE]</strong>
+    </div>
+  </div>
+
 </div>
 
 <div class="sponsor-footer" style="text-align: center; margin-top: 3rem; padding: 1rem 0; border-top: 1px solid rgba(255,255,255,0.08); opacity: 0.5; font-size: 0.8rem; font-family: var(--bodyFont);">

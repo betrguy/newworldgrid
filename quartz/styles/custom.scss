@@ -131,8 +131,12 @@ h1 {
 .card-grid .signal-title { color: #c2620a; }
 .card-grid:hover { border-color: #c2620a; }
 
+.card-electric { width: 100%; border-left: 5px solid #2ecc71; }
+.card-electric .signal-title { color: #2ecc71; }
+.card-electric:hover { border-color: #2ecc71; }
+
 @media (max-width: 768px) {
-  .card-predictive, .card-optimism, .card-grid { width: 100% !important; }
+  .card-predictive, .card-optimism, .card-grid, .card-electric { width: 100% !important; }
 }
 
 /* ==========================================================================
