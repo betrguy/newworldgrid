@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-18 14:42 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-18 15:12 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,125 +51,138 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces ongoing conflict and instability, with escalating violence in Lebanon and cluster bomb attacks.",
+    "emojis": "⚔️🚀💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hezbollah"
+    ],
+    "source_count": 11,
+    "timestamp": "03:11 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Iran launches missile attacks on Israel and Gulf states amid escalating war, sparking global concern and economic impact.",
-    "emojis": "⚔️🚀",
+    "summary": "Iran launches barrage of missiles, escalating conflict with Israel and US, amid rising tensions in Middle East.",
+    "emojis": "✈️⚔️🚀",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
       "Israel",
-      "United States"
+      "US"
     ],
-    "source_count": 68,
-    "timestamp": "02:41 PM"
+    "source_count": 70,
+    "timestamp": "03:11 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine advances in 'kill zone', receives aid, while Russia faces trial over archaeological excavation.",
+    "summary": "Ukraine advances in 'kill zone', receives aid despite Middle East distraction, as Russian archaeologist faces trial.",
     "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Ukraine",
-      "Russia",
-      "Middle East"
+      "Ukrainian leaders",
+      "Russian archaeologist",
+      "Polish judge",
+      "Zelensky",
+      "Ukrainian people"
     ],
     "source_count": 6,
-    "timestamp": "02:41 PM"
+    "timestamp": "03:11 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Middle East conflict drives US diesel prices up due to supply chain disruptions and increased demand.",
+    "summary": "Middle East conflict drives diesel price surge from Texas to New Jersey, impacting energy markets.",
     "emojis": "⚔️",
     "lat": 30.26,
     "lng": -97.74,
     "location": "US-TX",
     "actors": [
-      "Reuters",
-      "US traders"
+      "Reuters"
     ],
     "source_count": 1,
-    "timestamp": "02:41 PM"
+    "timestamp": "03:12 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "Trump pays respects to US service members killed in Middle East, attends ceremony in Delaware.",
+    "summary": "Trump pays respects to 6 US service members killed in Middle East in Delaware",
     "emojis": "⚔️💀",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
       "Trump",
-      "US Service Members"
+      "US service members"
     ],
     "source_count": 1,
-    "timestamp": "02:41 PM"
+    "timestamp": "03:12 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China waits as Trump delays Beijing summit, sparking concerns over US-China negotiations and military tensions.",
-    "emojis": "🪖⚡",
+    "summary": "Trump delays China trip, sparking uncertainty and speculation about US-China relations.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Trump",
-      "China"
+      "White House",
+      "China",
+      "Trump"
     ],
-    "source_count": 13,
-    "timestamp": "02:41 PM"
+    "source_count": 10,
+    "timestamp": "03:12 PM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel struggles with cluster missile attacks, Hezbollah resistance, and international pressure amid ongoing war.",
-    "emojis": "🪖⚔️🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: US-NY",
+    "summary": "US-NY news: Resignation letter sparks controversy, abandoned Russian tanker poses environmental threat.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "Iran",
-      "Hezbollah",
-      "Israel",
-      "Trump",
-      "Vatican"
+      "Joe Kent",
+      "Russia"
     ],
-    "source_count": 8,
-    "timestamp": "02:41 PM"
+    "source_count": 2,
+    "timestamp": "03:12 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Middle East conflict risks hindering Syria's fragile recovery, threatening its post-war reconstruction efforts.",
+    "summary": "UN Security Council warns of Middle East conflict risks undermining Syria's fragile recovery.",
     "emojis": "⚔️",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "United Nations",
-      "Syria"
+      "UN",
+      "Middle Eastern countries"
     ],
     "source_count": 1,
-    "timestamp": "02:41 PM"
+    "timestamp": "03:12 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "US declares war, Congress or President hold power",
+    "summary": "US President or Congress holds power to declare war, with both branches having some authority.",
     "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Congress",
-      "President"
+      "President",
+      "Congress"
     ],
     "source_count": 1,
-    "timestamp": "02:41 PM"
+    "timestamp": "03:12 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "Turkey offers to extend Iraq's oil pipeline amidst escalating tensions and the Hormuz crisis.",
+    "summary": "Turkey proposes extending an Iraqi oil pipeline amid rising tensions in the Strait of Hormuz.",
     "emojis": "⚡",
     "lat": 33.2,
     "lng": 43.6,
@@ -179,35 +192,21 @@
       "Iraq"
     ],
     "source_count": 1,
-    "timestamp": "02:41 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Abandoned Russian tanker drifts at sea, raising concerns about potential environmental hazard and international response.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "US-NY",
-      "International Community"
-    ],
-    "source_count": 1,
-    "timestamp": "02:41 PM"
+    "timestamp": "03:12 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia plans naval convoys for merchant ships amid geopolitical tensions with US.",
-    "emojis": "🚢⚔️☢️",
+    "summary": "Russia plans naval convoys to protect merchant ships from potential attacks or blockade.",
+    "emojis": "🚢⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Putin",
-      "US"
+      "Russia",
+      "Putin Aide"
     ],
-    "source_count": 2,
-    "timestamp": "02:42 PM"
+    "source_count": 1,
+    "timestamp": "03:12 PM"
   }
 ];
 
