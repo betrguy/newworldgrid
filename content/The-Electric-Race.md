@@ -8,7 +8,7 @@ date: 2026-03-17
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 18, 2026 — 14:29</span>
+  <span class="sotg-timestamp">March 18, 2026 — 14:43</span>
   <span class="sotg-byline-role">Electric Transport Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
@@ -21,31 +21,22 @@ Tracking the global transition to electric transport — battery chemistry, char
 
 **Today's Briefing**
 
-Washington has opened Tesla's direct EV sales loophole to Rivian and Lucid, allowing these companies to bypass traditional dealership channels. The US fast-charging industry is growing rapidly, with a 4.6% increase in charging ports in Q1 of 2024. China's CATL has reported a 42% surge in battery profit growth, driven by increasing EV adoption.
+Washington has opened Tesla’s direct EV sales loophole to Rivian and Lucid, allowing them to sell electric vehicles directly to consumers without going through dealerships. This move is significant for these companies, which aim to expand their reach and cut costs. In China, CATL continued to dominate the EV battery market in February 2026, with a market share of 49.10%, followed by BYD.
 
-China's Geely and BYD are competing for market share, with Geely leading in sales and CATL dominating the battery market. The build-out of public charging points is crucial for widespread EV adoption, as outlined in the IEA's Global EV Outlook 2025. Next Gen EV Batteries will deliver 500-mile range using lithium-metal chemistry.
+China's CATL has beaten estimates with battery profit growth, indicating a strengthening position in the global supply chain. The company's EV battery usage is expected to increase from 38% in 2024 to 53.5% in 2027. Global EV charging infrastructure is expanding, with the IEA predicting a significant build-out of public charging points in the coming years.
 
-The Arcfox Alpha S5 has entered the Chinese EV market at $14,520, while Toyota aims to increase its BEV driving range to over 800 miles with its Lithium-Ion "Performance" battery. Advancements in thermal adhesives are enhancing battery cell-to-pack and cell-to-ribbon performance for EVs.
-
----
+Next Gen EV Batteries Will Deliver 500-Mile Range on lithium-metal chemistry, offering greater energy density than today's batteries. Toyota has announced its battery technology roadmap, aiming to increase BEV driving range to over 800 miles using the Lithium-Ion "Performance" battery. Advancements in thermal adhesives are enhancing battery cell-to-pack and cell-to-ribbon performance for EVs.
 
 **The American Front**
 
-**Ford**
-Ford's priority is to close the gap in commercial and fleet market penetration, where it currently lags behind China. Its F-150 Lightning has a truck-first install base but hemorrhages money on EV production, highlighting its need to improve profitability. The company must build a credible charging network to support its commercial ambitions.
-
-**GM**
-GM's priority is to deliver a single, credible win in the Western market, having ceded software and charging infrastructure to others. It has made significant investments in its Ultium battery platform but must now execute on its promise. A successful autonomous unit would be a major confidence booster for the company.
-
-**Tesla**
-Tesla's priority is not catching up with China but defending its charging network as the de facto US standard while building out its global footprint. The company owns the Supercharger network, battery supply relationships, and software update cycle, giving it a unique advantage in the market.
-
----
+* **Ford**: Ford needs to address its commercial and fleet market advantage, which is currently unchallenged by China. The company hemorrhages money on EV production due to inefficient manufacturing processes and lacks a credible charging network.
+* **GM**: GM's single most important strategic priority is to deliver a single, credible win in the EV market. The company has made significant bets on the Ultium battery platform but has struggled with execution. It needs to close the gap between its software and charging infrastructure capabilities.
+* **Tesla**: Tesla's priority is not catching up to China but defending its charging network as the de facto US standard while expanding globally. The company owns the Supercharger network, battery supply relationships, and software update cycle, which provides a significant competitive advantage.
 
 **Thought Exercise: Three Startups That Could Leap China**
 
-* **ChargingHub**: A startup that aims to create a blockchain-based charging station locator, allowing consumers to find and pay for EV charging points seamlessly. By integrating with existing charging networks, ChargingHub can address the fragmented charging infrastructure landscape.
-* **MineralMind**: A company focused on developing AI-powered mineral recycling solutions for Western manufacturers. MineralMind's technology could help reduce the environmental impact of EV production by upcycling used battery materials.
-* **Autonav**: A startup that aims to create a modular, open-source autonomous driving platform for Western manufacturers. Autonav's solution would address GM's failed Cruise unit and provide a more cost-effective alternative for companies looking to establish their own autonomous services.
+* **ChargingHub**: ChargingHub aims to build a modular, open-source charging network that can be easily integrated into existing infrastructure. This would enable the widespread adoption of EVs by making charging more convenient and affordable.
+* **BatteryRevive**: BatteryRevive develops advanced recycling technologies for spent EV batteries, aiming to reduce waste and increase the efficiency of the global battery supply chain. By capturing valuable materials from retired batteries, these startups could help stabilize prices and improve sustainability.
+* **GridForge**: GridForge is working on developing intelligent grid management software that can optimize energy distribution and consumption in real-time. This technology would enable EVs to better integrate with the grid, reducing strain on charging infrastructure and promoting more efficient energy use.
 
 <!-- ELECTRIC_ENGINE_END -->
