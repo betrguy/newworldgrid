@@ -8,7 +8,7 @@ date: 2026-03-17
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 17, 2026 — 18:58</span>
+  <span class="sotg-timestamp">March 18, 2026 — 14:28</span>
   <span class="sotg-byline-role">Electric Transport Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
@@ -17,32 +17,22 @@ Tracking the global transition to electric transport — battery chemistry, char
 
 <!-- ELECTRIC_ENGINE_START -->
 
-## Daily Electric Brief — Mar 17, 2026
+## Daily Electric Brief — Mar 18, 2026
 
 **Today's Briefing**
 
-China's grip on the global EV battery market is tightening, with CATL and BYD dominating the supply chain. The latest data from CnEVPost shows that China now controls 69% of the global EV battery market, with CATL leading at 49.10% and BYD at 13.56%. This strengthens China's position in the industry, which could have implications for Western manufacturers trying to replicate their success.
-
-The charging infrastructure buildout is also gaining momentum, with a 6.3% increase in the number of EV charging ports in Q2 2024, according to Alternative Fuels Data Center. This growth in public charging points will be crucial in supporting widespread adoption of electric vehicles.
-
-There are no notable non-commercial EV developments mentioned in today's headlines.
-
----
+Washington has opened Tesla’s direct EV sales loophole to Rivian and Lucid, allowing these companies to bypass traditional dealership structures. China's battery market remains dominated by CATL and BYD, with CATL beating estimates in Q1 2026 due to increased profit growth. The Chinese EV grid is expanding, with Geely surpassing BYD in sales and CATL's profit surging 42%. In the US, PwC predicts electric vehicle charging market growth will be 2030.
 
 **The American Front**
 
-**Ford**: Its most important strategic priority is to build a credible commercial and fleet market presence, which China has not yet dominated in North America. Ford's advantage lies in its established brand recognition and customer base in this segment, but it needs to invest heavily in charging infrastructure to support its electric vehicles.
-
-**GM**: GM's top priority is to deliver on its Ultium battery platform and overcome the execution issues that have plagued its EV efforts so far. The company must address software and charging infrastructure gaps to regain traction with consumers and businesses.
-
-**Tesla**: Tesla's focus remains on defending its position as a leader in the global EV market, particularly in terms of cost per kWh and charging network dominance. The company must continue to invest in its Supercharger network and battery supply relationships to maintain its competitive edge against Chinese rivals like BYD.
-
----
+* **Ford**: Ford needs a credible charging network to back up its commercial and fleet EV advantage. Its F-150 Lightning has been hemorrhaging money on production and lacks an extensive charging infrastructure.
+* **GM**: GM must deliver a single, winnable strategy after fumbling execution with the Ultium battery platform. It ceded software and charging infrastructure to others, exposing this weakness.
+* **Tesla**: Tesla prioritizes staying ahead of BYD on cost per kWh while defending its Supercharger network as the de facto US standard.
 
 **Thought Exercise: Three Startups That Could Leap China**
 
-* **Aerius Energy**: Aerius Energy is developing a decentralized, peer-to-peer charging platform that would allow EV owners to sell excess energy back into the grid. This could help address the intermittency of renewable energy sources and create new revenue streams for EV owners.
-* **NanoCell Solutions**: NanoCell Solutions is working on a novel approach to battery recycling, using advanced nanotechnology to recover valuable materials like lithium and cobalt from spent batteries. This could provide a critical supply chain link for Western manufacturers trying to reduce their reliance on Chinese suppliers.
-* **GridVest Technologies**: GridVest Technologies is creating an open-source, modular manufacturing platform for EV batteries that would enable smaller, more agile manufacturers to compete with the likes of CATL and BYD. By reducing the barriers to entry in the battery supply chain, GridVest could help level the playing field for Western companies.
+* **Cobalt Recycling Co.**: A startup targeting recycling of critical minerals from EV battery waste, providing a closed-loop supply chain and reducing reliance on primary sources.
+* **ChargingHub Network**: A company developing a peer-to-peer charging network that enables households to share their charging capacity with neighbors, increasing adoption rates in rural areas.
+* **MetMiner Technologies**: A startup focusing on advanced manufacturing tooling for EV battery production, including precision casting and 3D printing, to increase efficiency and reduce costs.
 
 <!-- ELECTRIC_ENGINE_END -->
