@@ -17,7 +17,7 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 </div>
 
 <div class="sotg-analyst">
-As of the current 24-hour geomagnetic window, the Kp index remains at a low level of 0.7, indicating a Quiet condition. The 24-hour average Kp value of 1.1 and peak Kp value of 1.7 further support this assessment, revealing minimal disruptions to satellite operations and only minor HF radio communications interference.
+As of the current 24-hour geomagnetic window, the Kp index has peaked at a value of 2.0, with both the 24-hour average and peak indices reporting the same value. This situation is classified as Unknown, indicating a quiet period in the Earth's magnetic field with no significant solar wind or magnetospheric activity.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
