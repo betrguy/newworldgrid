@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-18 15:12 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-18 15:30 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,138 +51,137 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "US intel chief downplays Iran threat, energy market soars after Israel strikes Iranian gas field.",
+    "emojis": "💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Tulsi Gabbard",
+      "Israel"
+    ],
+    "source_count": 76,
+    "timestamp": "03:30 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces ongoing conflict and instability, with escalating violence in Lebanon and cluster bomb attacks.",
-    "emojis": "⚔️🚀💀",
+    "summary": "Ongoing conflict in Lebanon and Israel, with increased military presence and civilian casualties.",
+    "emojis": "🪖🚀⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Hezbollah"
+      "Hezbollah",
+      "Iran"
     ],
-    "source_count": 11,
-    "timestamp": "03:11 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran launches barrage of missiles, escalating conflict with Israel and US, amid rising tensions in Middle East.",
-    "emojis": "✈️⚔️🚀",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "Israel",
-      "US"
-    ],
-    "source_count": 70,
-    "timestamp": "03:11 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine advances in 'kill zone', receives aid despite Middle East distraction, as Russian archaeologist faces trial.",
-    "emojis": "⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukrainian leaders",
-      "Russian archaeologist",
-      "Polish judge",
-      "Zelensky",
-      "Ukrainian people"
-    ],
-    "source_count": 6,
-    "timestamp": "03:11 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Middle East conflict drives diesel price surge from Texas to New Jersey, impacting energy markets.",
-    "emojis": "⚔️",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Reuters"
-    ],
-    "source_count": 1,
-    "timestamp": "03:12 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Trump pays respects to 6 US service members killed in Middle East in Delaware",
-    "emojis": "⚔️💀",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "Trump",
-      "US service members"
-    ],
-    "source_count": 1,
-    "timestamp": "03:12 PM"
+    "source_count": 12,
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Trump delays China trip, sparking uncertainty and speculation about US-China relations.",
+    "summary": "China dominates EV batteries, postpones summit with US, and launches luxury electric van while monitoring politics.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "White House",
       "China",
-      "Trump"
+      "US"
     ],
-    "source_count": 10,
-    "timestamp": "03:12 PM"
+    "source_count": 7,
+    "timestamp": "03:30 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine-Russia war escalates with long-range strikes and disease outbreak, while Russian archaeologist faces trial in Ukraine.",
+    "emojis": "💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "U.S. Department of War",
+      "Russia",
+      "Ukraine",
+      "Alexander Butyagin"
+    ],
+    "source_count": 6,
+    "timestamp": "03:30 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Middle East war creates diesel storage shortage across US, affecting Texas to New Jersey traders.",
+    "emojis": "⚔️",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Reuters",
+      "U.S. News & World Report"
+    ],
+    "source_count": 2,
+    "timestamp": "03:30 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Trump pays respects to US service members killed in Middle East at Delaware ceremony.",
+    "emojis": "⚔️💀",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "US President Trump",
+      "US service members"
+    ],
+    "source_count": 1,
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US-NY news: Resignation letter sparks controversy, abandoned Russian tanker poses environmental threat.",
+    "summary": "US Rep. Joe Kent resigns, sparking controversy over honesty in his departure letter to party leadership.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "Joe Kent",
-      "Russia"
+      "Rep. Joe Kent",
+      "Republican Party Leadership"
     ],
-    "source_count": 2,
-    "timestamp": "03:12 PM"
+    "source_count": 1,
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "UN Security Council warns of Middle East conflict risks undermining Syria's fragile recovery.",
+    "summary": "UN Security Council warns Middle East war risks Syria's fragile recovery and stability.",
     "emojis": "⚔️",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "UN",
-      "Middle Eastern countries"
+      "United Nations",
+      "Syria"
     ],
     "source_count": 1,
-    "timestamp": "03:12 PM"
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "US President or Congress holds power to declare war, with both branches having some authority.",
+    "summary": "US declares war through Congress, not President.",
     "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "President",
-      "Congress"
+      "Congress",
+      "President"
     ],
     "source_count": 1,
-    "timestamp": "03:12 PM"
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "Turkey proposes extending an Iraqi oil pipeline amid rising tensions in the Strait of Hormuz.",
+    "summary": "Turkey proposes extending Iraq's oil pipeline amid tensions over Iran-orchestrated Hormuz crisis",
     "emojis": "⚡",
     "lat": 33.2,
     "lng": 43.6,
@@ -192,21 +191,7 @@
       "Iraq"
     ],
     "source_count": 1,
-    "timestamp": "03:12 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia plans naval convoys to protect merchant ships from potential attacks or blockade.",
-    "emojis": "🚢⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Putin Aide"
-    ],
-    "source_count": 1,
-    "timestamp": "03:12 PM"
+    "timestamp": "03:30 PM"
   }
 ];
 
