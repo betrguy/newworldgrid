@@ -52,13 +52,14 @@ export const defaultContentPageLayout: PageLayout = {
           "State-of-the-Grid": "State of the Grid",
           "Predictive-News": "Predictive News",
           "Optimism": "Daily Optimism",
+          "Final-Frontier": "Final Frontier",
         }
         if (names[node.displayName]) {
           node.displayName = names[node.displayName]
         }
       },
       sortFn: (a, b) => {
-        const order = ["Predictive News", "Daily Optimism", "State of the Grid"]
+        const order = ["Predictive News", "Daily Optimism", "Final Frontier", "State of the Grid"]
         const ai = order.indexOf(a.displayName)
         const bi = order.indexOf(b.displayName)
         if (ai !== -1 && bi !== -1) return ai - bi
@@ -106,13 +107,14 @@ export const defaultListPageLayout: PageLayout = {
           "State-of-the-Grid": "State of the Grid",
           "Predictive-News": "Predictive News",
           "Optimism": "Daily Optimism",
+          "Final-Frontier": "Final Frontier",
         }
         if (names[node.displayName]) {
           node.displayName = names[node.displayName]
         }
       },
       sortFn: (a, b) => {
-        const order = ["Predictive News", "Daily Optimism", "State of the Grid"]
+        const order = ["Predictive News", "Daily Optimism", "Final Frontier", "State of the Grid"]
         const ai = order.indexOf(a.displayName)
         const bi = order.indexOf(b.displayName)
         if (ai !== -1 && bi !== -1) return ai - bi

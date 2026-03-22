@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-22 11:05 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-22 18:57 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,159 +51,147 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia launches cargo ship to ISS, signs energy deal with Vietnam amid tensions and Trump backlash.",
-    "emojis": "⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "US",
-      "Russia",
-      "Vietnam"
-    ],
-    "source_count": 21,
-    "timestamp": "11:05 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces escalating tensions and missile strikes from Iran and Hezbollah, sparking air pollution concerns.",
-    "emojis": "🪖💥🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Iran",
-      "Hezbollah",
-      "Israel"
-    ],
-    "source_count": 23,
-    "timestamp": "11:05 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions escalate as Iran vows to destroy key infrastructure after Trump's power plant threat, global economy at risk.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Iran"
-    ],
-    "source_count": 68,
-    "timestamp": "11:05 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China faces mixed global views on participation, innovation, and growth, with ongoing tensions and military advancements.",
-    "emojis": "🪖⚡",
+    "summary": "Trump and Xi reschedule meeting, US-China trade talks progress, while China expands diplomatic efforts abroad.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "US",
-      "Taiwan",
-      "China"
+      "China",
+      "Xi Jinping"
     ],
-    "source_count": 22,
-    "timestamp": "11:05 AM"
+    "source_count": 9,
+    "timestamp": "06:57 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK to remain involved in Middle East conflict despite efforts to stay out, report states.",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel warns of weeks-long fighting in Middle East, targets Lebanese bridges and defends against Iranian missile attacks.",
+    "emojis": "⚔️🚀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Britain",
+      "Israeli forces",
+      "Iranian forces",
+      "Hamas members"
+    ],
+    "source_count": 34,
+    "timestamp": "06:57 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine makes territorial gains, Russia loses Starlink access, amid escalating tensions and diplomatic talks.",
+    "emojis": "⚡",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia",
       "US"
     ],
+    "source_count": 9,
+    "timestamp": "06:57 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US and Iran escalate tensions, oil prices rise as conflict enters its 4th week.",
+    "emojis": "⚔️⚡📈",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 67,
+    "timestamp": "06:57 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli air strikes kill 4 Palestinians in Gaza, amid settler violence in West Bank",
+    "emojis": "💥⚔️💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Palestinians"
+    ],
+    "source_count": 4,
+    "timestamp": "06:57 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Dems focus on childhood traumas in 2028 presidential campaign, with potential candidates starting to emerge.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Democrat Party"
+    ],
     "source_count": 1,
-    "timestamp": "11:05 AM"
+    "timestamp": "06:57 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia stocks steady, EU relations strained as US sanctions relief sparks concerns and Mueller dies.",
+    "emojis": "🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "US",
+      "EU",
+      "Russia"
+    ],
+    "source_count": 12,
+    "timestamp": "06:57 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "China's elite face travel restrictions amid unexplained overseas disappearances",
-    "emojis": "",
+    "summary": "Ex-Pak Envoy's strike threat lifted, Chandigarh society awaits MC nod for EV charging units after 3 months.",
+    "emojis": "💥",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Chinese government",
-      "victims' families"
+      "India",
+      "Pakistan",
+      "Chandigarh MC"
     ],
-    "source_count": 1,
-    "timestamp": "11:05 AM"
+    "source_count": 2,
+    "timestamp": "06:57 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes target Lebanon, killing 4 and wounding 7, amid reported attacks on Israeli soldiers",
+    "summary": "Israel attacks Lebanon, including bridges and military sites, prompting warnings of ground invasion.",
     "emojis": "🪖💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Hezbollah",
-      "Israel"
+      "NBC News",
+      "Al Jazeera",
+      "Middle East Eye",
+      "Lebanon's Aoun"
     ],
-    "source_count": 5,
-    "timestamp": "11:05 AM"
+    "source_count": 8,
+    "timestamp": "06:57 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Syria lifts Damascus alcohol ban following public backlash against restrictive measure.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "residents"
-    ],
+    "title": "SITREP: US-NY",
+    "summary": "No information provided, cannot create a summary",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [],
     "source_count": 1,
-    "timestamp": "11:05 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Zelensky seeks clarity on Russia's intent amid worsening Ukraine war and potential new drone threats.",
-    "emojis": "✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine"
-    ],
-    "source_count": 4,
-    "timestamp": "11:05 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Tensions escalate in Middle East conflict, France weighs response to regional instability.",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Middle Eastern countries"
-    ],
-    "source_count": 1,
-    "timestamp": "11:05 AM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "2026 Genesis GV60 targets luxury buyers in cooling EV market, emphasizing comfort and features.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Genesis",
-      "Electric Vehicle Market"
-    ],
-    "source_count": 1,
-    "timestamp": "11:05 AM"
+    "timestamp": "06:57 PM"
   }
 ];
 
