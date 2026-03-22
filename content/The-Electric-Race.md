@@ -21,22 +21,31 @@ Tracking the global transition to electric transport — battery chemistry, char
 
 **Today's Briefing**
 
-The dominant signal from today's data is China's continued dominance in the global EV battery market. According to CnEVPost, CATL and BYD accounted for 55% of the market share in February 2026, with CATL holding 49.10% and BYD at 13.56%. This vertical integration by Chinese companies exposes weaknesses in the Western supply chain, particularly in terms of manufacturing scale and battery chemistry. China's CALB ranked fourth in January 2026 with an installation volume of 3.8 GWh, highlighting the need for Western manufacturers to replicate this level of efficiency.
+China's EV battery market continued to grow, with CATL remaining the market leader in February 2026, followed by BYD and CALB. The global EV battery market share in January 2026 was dominated by Chinese manufacturers, with CATL at 45.2% and BYD at 13.8%. This growth is driven by China's vertically integrated supply chain, which has allowed it to reduce costs and increase efficiency.
 
-The buildout of public charging points continues, with a 6.3% increase in the number of EV charging ports in Q2 of 2024, according to Alternative Fuels Data Center. This trend is driven by the growth of Tesla's Supercharger network and BMW's plans to construct a Bavarian battery plant for its electric vehicles.
+The build-out of public charging points is a critical component of the EV transition, with PwC predicting that the US electric vehicle charging market will grow by 2030. The IEA also emphasizes the importance of charging infrastructure in its Global EV Outlook 2025 report.
 
-In other news, Toyota targets to increase its BEVs' driving range to over 800 miles with its Lithium-Ion "Performance" battery technology roadmap. Graphene nanoplatelets are expected to play a significant role in EV batteries, with the market forecast pointing higher toward 2035 on EV battery demand according to IndexBox.
+No notable non-commercial EV development was reported today.
+
+---
 
 **The American Front**
 
-* **Ford**: Its advantage lies in the commercial and fleet market, where it needs to overcome China's dominance in North America. Ford hemorrhages money on EV production and lacks a credible charging network.
-* **GM**: GM made a large bet on the Ultium battery platform but has ceded software and charging infrastructure to others. It needs a single, deliverable win to catch up with China's lead.
-* **Tesla**: Its priority is not catching up but defending its charging network as the de facto U.S. standard while China builds its own global footprint.
+**Ford**
+Ford's priority is to leverage its commercial and fleet market advantage, which it has not yet seen replicated by Chinese manufacturers. However, Ford's struggles with production costs and the lack of a credible charging network expose a significant weakness in its strategy.
+
+**GM**
+GM's challenge is to overcome its execution issues with the Ultium battery platform and deliverable software and charging infrastructure solutions. Its focus on autonomous vehicles has also led to a notable misstep, highlighting the need for a coherent EV strategy.
+
+**Tesla**
+Tesla's priority remains defending its charging network as the de facto US standard while China builds its own global footprint. The company must continue to lead in cost per kWh and software update cycles to maintain its competitive edge.
+
+---
 
 **Thought Exercise: Three Startups That Could Leap China**
 
-* **Neuromesh**: A startup that aims to develop an AI-powered charging network optimization platform, allowing EV manufacturers to optimize their charging networks and reduce energy costs.
-* **EcoCycle**: A company targeting the recycling of EV batteries, which could provide a critical component in reducing waste and increasing the sustainability of EVs.
-* **Mineralux**: A startup focused on developing a proprietary mineral extraction technology that would enable more efficient and cost-effective production of rare earth minerals necessary for EV battery manufacturing.
+* **ChargingHub**: A startup that aims to create a decentralized, blockchain-based charging network for EVs, enabling peer-to-peer energy trading and reducing reliance on traditional grid infrastructure.
+* **MinerX**: A company focused on developing advanced mineral extraction technologies to increase the efficiency of EV battery production, addressing the structural gap in Western supply chains.
+* **GridSync**: A startup that seeks to create a modular, software-defined grid management platform for EV charging, enabling seamless integration with existing grid systems and facilitating widespread adoption.
 
 <!-- ELECTRIC_ENGINE_END -->
