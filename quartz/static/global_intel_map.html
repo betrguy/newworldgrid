@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-21 20:08 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-22 11:05 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,145 +51,159 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions escalate as Israel intensifies attacks on Iran, with Iranian missile strikes evading Israeli interceptors.",
-    "emojis": "🪖💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Israel",
-      "Iran"
-    ],
-    "source_count": 53,
-    "timestamp": "08:08 PM"
-  },
-  {
     "title": "SITREP: RUSSIA",
-    "summary": "Former FBI Director Robert Mueller dies at 81, sparking tributes and reflections on his Russia-Trump investigation.",
-    "emojis": "",
+    "summary": "Russia launches cargo ship to ISS, signs energy deal with Vietnam amid tensions and Trump backlash.",
+    "emojis": "⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Robert Mueller"
-    ],
-    "source_count": 31,
-    "timestamp": "08:08 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China news: Glacier awareness, VW's China strategy, Apple CEO visit, Air China resuming flights to Delhi",
-    "emojis": "⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "VW Chief",
-      "Apple CEO Tim Cook",
-      "Air China",
-      "Chinese Embassy"
-    ],
-    "source_count": 10,
-    "timestamp": "08:08 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Violence escalates in Ukraine-Russia conflict, with drone attacks and casualties reported ahead of US talks.",
-    "emojis": "✈️⚔️💀",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
+      "US",
       "Russia",
-      "Ukraine"
+      "Vietnam"
     ],
-    "source_count": 8,
-    "timestamp": "08:08 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Tensions rise in Middle East, US unmoved by Iranian missiles strike, as Robert Mueller passes away at 81.",
-    "emojis": "💥🚀⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "The New York Times",
-      "Iran"
-    ],
-    "source_count": 3,
-    "timestamp": "08:08 PM"
+    "source_count": 21,
+    "timestamp": "11:05 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Iranian missiles strike southern Israel, injuring dozens and triggering a state of emergency.",
-    "emojis": "💥🚀",
+    "summary": "Israel faces escalating tensions and missile strikes from Iran and Hezbollah, sparking air pollution concerns.",
+    "emojis": "🪖💥🚀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Iran",
+      "Hezbollah",
       "Israel"
     ],
-    "source_count": 18,
-    "timestamp": "08:08 PM"
+    "source_count": 23,
+    "timestamp": "11:05 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Gaza mourns on Mother's Day, celebrates Eid with limited resources due to Israeli restrictions.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: IRAN",
+    "summary": "Tensions escalate as Iran vows to destroy key infrastructure after Trump's power plant threat, global economy at risk.",
+    "emojis": "🪖⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Israel",
-      "Palestinians"
+      "Trump",
+      "Iran"
     ],
-    "source_count": 4,
-    "timestamp": "08:08 PM"
+    "source_count": 68,
+    "timestamp": "11:05 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces mixed global views on participation, innovation, and growth, with ongoing tensions and military advancements.",
+    "emojis": "🪖⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "US",
+      "Taiwan",
+      "China"
+    ],
+    "source_count": 22,
+    "timestamp": "11:05 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK to remain involved in Middle East conflict despite efforts to stay out, report states.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Britain",
+      "US"
+    ],
+    "source_count": 1,
+    "timestamp": "11:05 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "China's elite face travel restrictions amid unexplained overseas disappearances",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Chinese government",
+      "victims' families"
+    ],
+    "source_count": 1,
+    "timestamp": "11:05 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Mortar fire from Lebanon injures 2 Israeli reservists, sparking potential escalation in conflict.",
-    "emojis": "⚔️📈",
+    "summary": "Israeli strikes target Lebanon, killing 4 and wounding 7, amid reported attacks on Israeli soldiers",
+    "emojis": "🪖💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
-      "Lebanon"
+      "Hezbollah",
+      "Israel"
     ],
-    "source_count": 1,
-    "timestamp": "08:08 PM"
+    "source_count": 5,
+    "timestamp": "11:05 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "US deploys 2,500 California Marines to Middle East, sparking concerns among local families.",
+    "title": "SITREP: SYRIA",
+    "summary": "Syria lifts Damascus alcohol ban following public backlash against restrictive measure.",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
     "actors": [
-      "FOX 11 Los Angeles",
-      "Local families"
+      "residents"
     ],
     "source_count": 1,
-    "timestamp": "08:08 PM"
+    "timestamp": "11:05 AM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Judge rules Pentagon press restrictions violate First Amendment rights for journalists and reporters.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "title": "SITREP: UKRAINE",
+    "summary": "Zelensky seeks clarity on Russia's intent amid worsening Ukraine war and potential new drone threats.",
+    "emojis": "✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Pentagon",
-      "reporters/journalists"
+      "Ukraine"
+    ],
+    "source_count": 4,
+    "timestamp": "11:05 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Tensions escalate in Middle East conflict, France weighs response to regional instability.",
+    "emojis": "⚔️⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "Middle Eastern countries"
     ],
     "source_count": 1,
-    "timestamp": "08:08 PM"
+    "timestamp": "11:05 AM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "2026 Genesis GV60 targets luxury buyers in cooling EV market, emphasizing comfort and features.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Genesis",
+      "Electric Vehicle Market"
+    ],
+    "source_count": 1,
+    "timestamp": "11:05 AM"
   }
 ];
 
