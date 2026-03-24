@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-22 18:57 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-23 22:40 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,147 +51,188 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "Trump and Xi reschedule meeting, US-China trade talks progress, while China expands diplomatic efforts abroad.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US",
-      "China",
-      "Xi Jinping"
-    ],
-    "source_count": 9,
-    "timestamp": "06:57 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel warns of weeks-long fighting in Middle East, targets Lebanese bridges and defends against Iranian missile attacks.",
-    "emojis": "⚔️🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israeli forces",
-      "Iranian forces",
-      "Hamas members"
-    ],
-    "source_count": 34,
-    "timestamp": "06:57 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine makes territorial gains, Russia loses Starlink access, amid escalating tensions and diplomatic talks.",
-    "emojis": "⚡",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "US"
-    ],
-    "source_count": 9,
-    "timestamp": "06:57 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran escalate tensions, oil prices rise as conflict enters its 4th week.",
-    "emojis": "⚔️⚡📈",
+    "summary": "US, Israel launch offensive against Iran's energy infrastructure, Tehran rejects Trump's peace claims.",
+    "emojis": "⚔️➡️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran"
-    ],
-    "source_count": 67,
-    "timestamp": "06:57 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli air strikes kill 4 Palestinians in Gaza, amid settler violence in West Bank",
-    "emojis": "💥⚔️💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
       "Israel",
-      "Palestinians"
+      "Iran",
+      "Trump"
     ],
-    "source_count": 4,
-    "timestamp": "06:57 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Dems focus on childhood traumas in 2028 presidential campaign, with potential candidates starting to emerge.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Democrat Party"
-    ],
-    "source_count": 1,
-    "timestamp": "06:57 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia stocks steady, EU relations strained as US sanctions relief sparks concerns and Mueller dies.",
-    "emojis": "🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "US",
-      "EU",
-      "Russia"
-    ],
-    "source_count": 12,
-    "timestamp": "06:57 PM"
+    "source_count": 51,
+    "timestamp": "10:40 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Ex-Pak Envoy's strike threat lifted, Chandigarh society awaits MC nod for EV charging units after 3 months.",
-    "emojis": "💥",
+    "summary": "India faces economic concerns amid US tech charges, Middle East war risks and UK university expansion plans.",
+    "emojis": "⚔️",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
+      "US",
       "India",
-      "Pakistan",
-      "Chandigarh MC"
+      "UK"
     ],
-    "source_count": 2,
-    "timestamp": "06:57 PM"
+    "source_count": 4,
+    "timestamp": "10:40 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Israel attacks Lebanon, including bridges and military sites, prompting warnings of ground invasion.",
-    "emojis": "🪖💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: ISRAEL",
+    "summary": "Escalating violence in Israel, Palestine, and Lebanon sparks condemnation from international leaders and experts.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "NBC News",
-      "Al Jazeera",
-      "Middle East Eye",
-      "Lebanon's Aoun"
+      "Israel",
+      "Palestinians",
+      "Hezbollah",
+      "Iran"
     ],
-    "source_count": 8,
-    "timestamp": "06:57 PM"
+    "source_count": 10,
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China: US-Kim summit uncertainty, wood chip prices rise, and China approves world's first implantable BCI.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Ex-U.S. official",
+      "Trump",
+      "Kim",
+      "US government",
+      "China",
+      "Korea",
+      "Silicon Valley tech founder",
+      "Furniture China",
+      "Shenzhen authorities"
+    ],
+    "source_count": 28,
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia strengthens energy ties, amid EU concerns over Hungary's potential leaks to Russia.",
+    "emojis": "☢️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "EU",
+      "Hungary",
+      "Russia",
+      "Vietnam"
+    ],
+    "source_count": 15,
+    "timestamp": "10:40 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "No information provided, cannot create a summary",
-    "emojis": "⚔️",
+    "summary": "US-NY markets rally amid eased Middle East tensions, LaGuardia Airport crash under investigation.",
+    "emojis": "⚔️⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
-    "actors": [],
+    "actors": [
+      "US",
+      "NY"
+    ],
+    "source_count": 6,
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "EV adoption in Mexico hindered by structural and market barriers, limiting growth for electric vehicle industry.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Mexico Government",
+      "Automotive Industry"
+    ],
     "source_count": 1,
-    "timestamp": "06:57 PM"
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia establishes long-range drone bases in Belarus, amid Ukraine strikes key Russian oil port near Finland border.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Finland",
+      "Zelenskyy"
+    ],
+    "source_count": 2,
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "US airstrike kills 7 fighters in western Iraq, latest incident in ongoing conflict.",
+    "emojis": "💥⚔️",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "US Military",
+      "Terrorist Group"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California shifts to electric vehicles as gasoline prices surge, in response to environmental and economic concerns.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      " Californian Government",
+      "Automakers"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "US-IL gas prices rise amid Middle East war, affecting consumers nationwide.",
+    "emojis": "⚔️",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "FOX 32 Chicago"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 PM"
+  },
+  {
+    "title": "SITREP: COLOMBIA",
+    "summary": "Colombian military plane crashes, killing 125 people in what defence minister calls a tragic accident.",
+    "emojis": "🪖",
+    "lat": 4.57,
+    "lng": -74.29,
+    "location": "COLOMBIA",
+    "actors": [
+      "Colombia's defence minister",
+      "passengers on board"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 PM"
   }
 ];
 
