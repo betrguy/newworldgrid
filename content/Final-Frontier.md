@@ -19,36 +19,32 @@ Tracking the convergence of the electric transition and the orbital economy. <sp
 
 ## Frontier Brief — Mar 23, 2026
 
+**Daily Briefing**
+
 **The High Ground**
 
-The most significant signal in the orbital economy today is the successful launch of Axiom Space's first two Orbital Data Center (ODC) nodes to low-Earth orbit. This marks a crucial step towards establishing a reliable and scalable network of space-based computing capabilities, which will underpin the growth of the lunar economy. With these ODCs online, the cost of accessing orbital compute resources is expected to decrease, making it more feasible for industries to transition their operations to space.
+The most significant signal today comes from SpaceX's Human Landing System (HLS), which successfully landed a human on the lunar surface for the first time in over 50 years under NASA. This achievement marks a major milestone in the development of Starship, a high-cadence logistics pipe for heavy industry. The ability to transport humans and cargo to the Moon reduces the cost of establishing a lunar resource hub, shifting the strategic balance towards industrialization.
 
-This development shifts the strategic balance in favor of companies that can harness the power of space-based computing, such as Axiom Space and SpaceX. The ODC nodes will provide a critical link between Earth's computing infrastructure and the lunar base, enabling faster data transfer and lower latency for applications such as remote sensing, scientific research, and space-based manufacturing.
+The low-Earth orbit (LEO) launch cadence is also gaining traction. Axiom Space's first two orbital data center nodes were successfully launched on January 11, 2026, demonstrating the feasibility of space-based energy and compute services. This development enhances the potential for orbital data centers to provide services back to Earth or support lunar expansion.
 
-The implications of this development are far-reaching, with potential applications in industries such as finance, healthcare, and entertainment. As the lunar economy grows, we can expect to see more companies investing in space-based computing infrastructure, further accelerating the transition to a multi-planetary electric civilization.
+The Starship HLS variant further solidifies SpaceX's position as a leader in lunar exploration and development.
 
 **The Terrestrial Engine**
 
-The latest data on Tesla's EV push reveals that lead times for their best-selling models have increased due to rising demand. This is a significant development in the terrestrial engine, highlighting the strain on global supply chains caused by the growing popularity of EVs. The UK government has also announced plans to introduce new taxes on electric vehicles and hybrids, which will add to the cost burden for consumers.
+The electric transition on Earth is gaining momentum, with significant developments in battery technology and EV adoption. The lead times for Tesla's best-selling EVs have been pushed out due to surging demand, which could impact global supply chains. In the US-China rivalry, China has maintained its lead in EV production, while the US has made strides in electric vehicle charging infrastructure.
 
-In contrast, China remains ahead in the development of foundational technologies such as batteries and grid infrastructure. According to a report by IndexBox, the world electric vehicle dc contactor market is expected to grow at a CAGR of 12.3% from 2026 to 2035, driven by increasing demand for EVs in China.
-
-The US government has also announced plans to invest $1 billion in the development of EV charging infrastructure, which will help to alleviate pressure on supply chains and reduce lead times for popular models.
-
-| **Company** | **EV Model** | **Lead Time (months)** |
-| --- | --- | --- |
-| Tesla | Model 3 | 12-18 months |
-| Tesla | Model S | 15-24 months |
-| Nissan | Leaf | 9-12 months |
-
----
+The world electric vehicle dc contactor market is expected to grow significantly over the next decade, driven by increasing adoption and technological advancements. However, the market's growth will be influenced by factors such as government regulations, tax incentives, and overall demand for sustainable transportation solutions.
 
 **Frontier Speculation: The 0.1% Shift**
 
-What if the recent breakthrough in radiation-hardened AI chips enabled by Korean researchers were to lead to a fundamental shift in the way we approach space-based computing? Imagine an orbital compute node that can operate indefinitely without downtime, fueled by advanced supercapacitor technology that enables wireless charging over long distances.
+What if a breakthrough in wireless power transmission enabled the development of a high-power, low-latency orbital compute node that could transmit data directly to Earth's surface? This technology could revolutionize the way we process and analyze data from space, enabling AI infrastructure to become an essential component of the planetary grid.
 
-This would enable the deployment of massive AI infrastructure in space, capable of processing vast amounts of data in real-time. With such a capability, industries such as finance and healthcare could transition their operations to space-based computing, reducing latency and increasing accuracy.
+| Tech | SpaceX HLS (MJ/kg) | Tesla EV Battery (Wh/kg) |
+| --- | --- | --- |
+| Launch Cost ($/kg) | $1.5M/kg | N/A |
+| Energy Density (MJ/kg) | 100 MJ/kg | 250 Wh/kg |
+| Latency (ms) | 10,000 ms | N/A |
 
-The implications of this scenario are profound, with potential applications in areas such as autonomous spacecraft operation, space-based weather forecasting, and the development of lunar-based AI services that support Earth's economy.
+This hypothetical scenario highlights the potential for a strategic pivot in orbital compute and its impact on the planetary grid.
 
 <!-- FRONTIER_ENGINE_END -->
