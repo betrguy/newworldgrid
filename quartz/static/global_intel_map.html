@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-25 23:15 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-26 09:50 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,144 +51,148 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel amid Temple attack, death penalty bill debate, rocket attacks, and diplomatic shifts.",
-    "emojis": "⚔️🚀⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Hezbollah",
-      "Netanyahu",
-      "US"
-    ],
-    "source_count": 11,
-    "timestamp": "11:15 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran rejects US cease-fire offer, amid escalating Israeli strikes and Russia deploying drones to support Iran.",
-    "emojis": "✈️💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Israel",
-      "Russia"
-    ],
-    "source_count": 52,
-    "timestamp": "11:15 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China focuses on upgrading industries and collaborating with countries like Singapore, while expanding EV exports.",
-    "emojis": "☣️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Singapore"
-    ],
-    "source_count": 33,
-    "timestamp": "11:15 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia restricts cash, gold exports amid sanctions pressure and Ukraine conflict",
-    "emojis": "⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Putin",
-      "DOJ"
-    ],
-    "source_count": 6,
-    "timestamp": "11:15 PM"
-  },
-  {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine responds to Russian aggression with drone attack, strikes Russian ship, amid civil unrest and foreign casualties.",
-    "emojis": "🚢✈️💥",
+    "summary": "Russia escalates Ukraine war, US considers aid diversion & Ukraine seeks African geopolitical influence.",
+    "emojis": "🪖🚢⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "Pentagon",
       "Russia",
-      "Ukraine",
-      "Zimbabwe"
+      "Ukraine"
     ],
-    "source_count": 3,
-    "timestamp": "11:15 PM"
+    "source_count": 8,
+    "timestamp": "09:49 AM"
   },
   {
-    "title": "SITREP: IRAQ",
-    "summary": "Spanish PM warns Middle East war poses greater threat to global stability than Iraq conflict in 2003.",
-    "emojis": "⚔️",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "11:15 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli airstrike hits displacement camp in Gaza, causing damage and potentially harming civilians.",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: IRAN",
+    "summary": "Iran tensions escalate with Israeli strikes, US pressure on Tehran amid Ukraine distraction and Russia's spring offensive.",
+    "emojis": "🚢💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
       "Israel",
-      "Palestinians"
+      "US",
+      "Russia",
+      "Iran"
+    ],
+    "source_count": 50,
+    "timestamp": "09:50 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Teen volunteer paramedic killed, Israeli soldier also reported KIA in separate incidents in Lebanon.",
+    "emojis": "💥💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israeli military",
+      "Palestinian/Lebanese civilian"
     ],
     "source_count": 2,
-    "timestamp": "11:15 PM"
+    "timestamp": "09:50 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces economic challenges, military strikes, and cyber threats amidst global tensions.",
+    "emojis": "🪖💥🕊️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "China",
+      "EU",
+      "Russia"
+    ],
+    "source_count": 17,
+    "timestamp": "09:50 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces Iranian attacks, military build-up and potential war amid regional tensions and internal conflict.",
+    "emojis": "🪖⚔️💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Iran"
+    ],
+    "source_count": 13,
+    "timestamp": "09:50 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China reports strong economic growth, expands trade and infrastructure, while diversifying into clean energy and space exploration.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China"
+    ],
+    "source_count": 27,
+    "timestamp": "09:50 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India's climate commitments balance growth, transition, and geopolitics, while Nucleus Genomics expands embryo testing to India and Middle East.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India",
+      "Nucleus Genomics"
+    ],
+    "source_count": 2,
+    "timestamp": "09:50 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK authorises armed forces to board Russian tankers and shadow fleet ships in British waters.",
+    "summary": "UK faces geopolitical and economic challenges, including declining Bitcoin and uncertain Middle East ties.",
     "emojis": "🚢",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Downing Street",
-      "British forces"
+      "BBC News",
+      "UK Government",
+      "AA Survey",
+      "Reuters"
     ],
-    "source_count": 3,
-    "timestamp": "11:15 PM"
+    "source_count": 5,
+    "timestamp": "09:50 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "No information provided, article not available for summarization.",
-    "emojis": "⚔️",
+    "summary": "Subaru unveils new EV SUV at New York Auto Show.",
+    "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "11:15 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "White House delays CDC director pick indefinitely, postponing permanent selection.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
     "actors": [
-      "Biden Administration",
-      "CDC Staff"
+      "Kelley Blue Book",
+      "Subaru"
     ],
     "source_count": 1,
-    "timestamp": "11:15 PM"
+    "timestamp": "09:50 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "XPeng enters Mexico, targeting Latin America's AI mobility lead by 2028.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Eletric-Vehicles.com"
+    ],
+    "source_count": 1,
+    "timestamp": "09:50 AM"
   }
 ];
 
