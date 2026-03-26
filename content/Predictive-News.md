@@ -8,7 +8,7 @@ date: 2026-01-26
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 24, 2026 — 22:13</span>
+  <span class="sotg-timestamp">March 25, 2026 — 23:15</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
@@ -24,23 +24,18 @@ We're tracking a volatile cycle of economic instability and conflicts between ri
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Mar 24, 2026
+## Daily Intelligence Brief - Mar 25, 2026
 
-Global power dynamics are shifting as multiple actors reposition for a multipolar world.
+The situation continues to unfold in multiple theaters. Israel launched a fresh wave of strikes across Iran, targeting Lebanon (**Lebanon**). In response, the US demanded that Iran accept a defeat, while Iran rejected a proposed ceasefire. Meanwhile, China is strengthening its presence in Asia, with **Singapore** announcing that China can play a bigger role in maintaining regional stability.
 
-The **US** is sending a peace plan to Iran, according to the New York Times. This development could potentially ease tensions in the region.
+In other developments, **BASF**, a German chemical company, has completed construction on a multibillion-euro complex in China. This move highlights the growing importance of Chinese industry and investment.
 
-Meanwhile, the **Philippines** has declared an energy emergency due to the impact of the Iran war, with President Rodrigo Duterte citing high grain prices as a cause for concern. 
-
-China's economy is facing challenges, with feed costs surging due to war-related disruptions. The situation is further complicated by M&G's 20-year anniversary in China, highlighting the country's growing influence in the region.
-
-Tensions are rising in Asia-Pacific, with Taiwan seeking to establish itself as a drone hub and navigating its supply chain strategy to avoid being labeled "red." 
-
-The global energy landscape is evolving, with new nuclear projects emerging and distributed generation becoming increasingly prominent.
+The tensions between Israel and Iran are escalating, with both sides engaging in military exchanges. The US is struggling to mediate these conflicts, with its offers being rejected by Iran.
 
 Watch for:
-- The impact of the Iran peace plan on regional dynamics
-- Further disruptions to China's economy due to grain price volatility
-- Development of Taiwan's drone hub ambitions
+
+* Further escalation of Israel-Iran conflict
+* Chinese economic influence expanding in Southeast Asia
+* Iranian response to US demands regarding the ceasefire proposal
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->

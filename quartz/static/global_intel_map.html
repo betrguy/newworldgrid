@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-24 22:13 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-03-25 23:15 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,172 +51,144 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China experiences protests, drone hub push, economic shifts amidst global politics and trade tensions.",
-    "emojis": "✈️⚔️⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise in Israel amid Temple attack, death penalty bill debate, rocket attacks, and diplomatic shifts.",
+    "emojis": "⚔️🚀⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "China",
-      "Taiwan",
-      "Japan",
+      "Hezbollah",
+      "Netanyahu",
       "US"
     ],
-    "source_count": 21,
-    "timestamp": "10:12 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Octopus Energy launches EV charging scheme in France, while US deploys elite army brigade to Middle East.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Octopus Energy",
-      "US"
-    ],
-    "source_count": 2,
-    "timestamp": "10:12 PM"
+    "source_count": 11,
+    "timestamp": "11:15 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran faces growing tensions with US and allies amid escalating conflicts and peace negotiations.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran rejects US cease-fire offer, amid escalating Israeli strikes and Russia deploying drones to support Iran.",
+    "emojis": "✈️💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran"
+      "Israel",
+      "Russia"
     ],
-    "source_count": 53,
-    "timestamp": "10:12 PM"
+    "source_count": 52,
+    "timestamp": "11:15 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China focuses on upgrading industries and collaborating with countries like Singapore, while expanding EV exports.",
+    "emojis": "☣️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Singapore"
+    ],
+    "source_count": 33,
+    "timestamp": "11:15 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia restricts cash, gold exports amid sanctions pressure and Ukraine conflict",
+    "emojis": "⚔️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "DOJ"
+    ],
+    "source_count": 6,
+    "timestamp": "11:15 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies attacks on Ukraine with nearly 400 drones and largest daytime barrage since war began.",
-    "emojis": "✈️⚔️➡️",
+    "summary": "Ukraine responds to Russian aggression with drone attack, strikes Russian ship, amid civil unrest and foreign casualties.",
+    "emojis": "🚢✈️💥",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine"
+      "Ukraine",
+      "Zimbabwe"
     ],
-    "source_count": 13,
-    "timestamp": "10:13 PM"
+    "source_count": 3,
+    "timestamp": "11:15 PM"
   },
   {
-    "title": "SITREP: VENEZUELA",
-    "summary": "Venezuela's Rubio testimony reveals international intrigue, assassination plot and secret funds involving coded names.",
-    "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
+    "title": "SITREP: IRAQ",
+    "summary": "Spanish PM warns Middle East war poses greater threat to global stability than Iraq conflict in 2003.",
+    "emojis": "⚔️",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Rubio",
-      "unknown"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "10:13 PM"
+    "timestamp": "11:15 PM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel under attack from Lebanon & Iran, as Israeli war continues to escalate",
-    "emojis": "⚔️🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Lebanon",
-      "Iran",
-      "Israel"
-    ],
-    "source_count": 25,
-    "timestamp": "10:13 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India shares concerns about escalating tensions in the Middle East, urging diplomacy to resolve regional conflicts.",
-    "emojis": "⚔️⚡",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "India",
-      "global community"
-    ],
-    "source_count": 1,
-    "timestamp": "10:13 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli military issues new evacuation warning for Beirut; Trump reportedly approves sending more troops",
-    "emojis": "🪖⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: GAZA",
+    "summary": "Israeli airstrike hits displacement camp in Gaza, causing damage and potentially harming civilians.",
+    "emojis": "💥",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
       "Israel",
-      "US"
+      "Palestinians"
     ],
     "source_count": 2,
-    "timestamp": "10:13 PM"
+    "timestamp": "11:15 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia hosts Prime Minister, tackles human rights and environmental issues, amidst espionage concerns.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: UK",
+    "summary": "UK authorises armed forces to board Russian tankers and shadow fleet ships in British waters.",
+    "emojis": "🚢",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Prime Minister",
-      "Vietnam"
+      "Downing Street",
+      "British forces"
     ],
-    "source_count": 4,
-    "timestamp": "10:13 PM"
+    "source_count": 3,
+    "timestamp": "11:15 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US sends 2000 paratroopers to Middle East amid ongoing war and conflicts.",
+    "summary": "No information provided, article not available for summarization.",
     "emojis": "⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [],
-    "source_count": 2,
-    "timestamp": "10:13 PM"
+    "source_count": 1,
+    "timestamp": "11:15 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon deploys 2,000 troops and faces criticism for treatment of AI company Anthropic",
-    "emojis": "🪖",
+    "summary": "White House delays CDC director pick indefinitely, postponing permanent selection.",
+    "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "The Hill",
-      "Judge",
-      "Pentagon",
-      "82nd Airborne",
-      "Anthropic"
+      "Biden Administration",
+      "CDC Staff"
     ],
-    "source_count": 2,
-    "timestamp": "10:13 PM"
-  },
-  {
-    "title": "SITREP: COLOMBIA",
-    "summary": "69 killed in Colombian military plane crash, search operation ends.",
-    "emojis": "🪖💀",
-    "lat": 4.57,
-    "lng": -74.29,
-    "location": "COLOMBIA",
-    "actors": [],
     "source_count": 1,
-    "timestamp": "10:13 PM"
+    "timestamp": "11:15 PM"
   }
 ];
 
