@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-26 09:50 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-03-26 22:31 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,148 +51,137 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates Ukraine war, US considers aid diversion & Ukraine seeks African geopolitical influence.",
-    "emojis": "🪖🚢⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Pentagon",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 8,
-    "timestamp": "09:49 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran tensions escalate with Israeli strikes, US pressure on Tehran amid Ukraine distraction and Russia's spring offensive.",
-    "emojis": "🚢💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Israel",
-      "US",
-      "Russia",
-      "Iran"
-    ],
-    "source_count": 50,
-    "timestamp": "09:50 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Teen volunteer paramedic killed, Israeli soldier also reported KIA in separate incidents in Lebanon.",
-    "emojis": "💥💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli military",
-      "Palestinian/Lebanese civilian"
-    ],
-    "source_count": 2,
-    "timestamp": "09:50 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces economic challenges, military strikes, and cyber threats amidst global tensions.",
-    "emojis": "🪖💥🕊️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "China",
-      "EU",
-      "Russia"
-    ],
-    "source_count": 17,
-    "timestamp": "09:50 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces Iranian attacks, military build-up and potential war amid regional tensions and internal conflict.",
-    "emojis": "🪖⚔️💀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Iran"
-    ],
-    "source_count": 13,
-    "timestamp": "09:50 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China reports strong economic growth, expands trade and infrastructure, while diversifying into clean energy and space exploration.",
-    "emojis": "",
+    "summary": "China makes advances in robotics, detains ships, boosts banks, and strengthens military ties amid global tensions.",
+    "emojis": "🪖⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China"
+      "China",
+      "US",
+      "India",
+      "France",
+      "Philippines"
     ],
-    "source_count": 27,
-    "timestamp": "09:50 AM"
+    "source_count": 52,
+    "timestamp": "10:30 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India's climate commitments balance growth, transition, and geopolitics, while Nucleus Genomics expands embryo testing to India and Middle East.",
+    "summary": "India faces challenges from climate change, poverty, and inequality, while experiencing economic growth and technological advancements.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
-      "Nucleus Genomics"
+      "Government",
+      "Civil Society"
     ],
-    "source_count": 2,
-    "timestamp": "09:50 AM"
+    "source_count": 1,
+    "timestamp": "10:30 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK faces geopolitical and economic challenges, including declining Bitcoin and uncertain Middle East ties.",
-    "emojis": "🚢",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: US-DC",
+    "summary": "Pentagon considers sending 10,000 more troops to Middle East amid escalating tensions and policy disputes.",
+    "emojis": "🪖⚔️⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "BBC News",
-      "UK Government",
-      "AA Survey",
-      "Reuters"
+      "The White House",
+      "the Pentagon"
     ],
-    "source_count": 5,
-    "timestamp": "09:50 AM"
+    "source_count": 6,
+    "timestamp": "10:30 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran's military campaign raises war powers concerns amid US-Iran tensions, economic impact on China",
+    "emojis": "🪖⚔️💀",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Israel",
+      "China",
+      "Iran"
+    ],
+    "source_count": 60,
+    "timestamp": "10:30 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Hezbollah rockets fall on Israel, amid Israeli response and US-Israel tensions over Iran.",
+    "emojis": "🚀⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Hezbollah",
+      "Israel",
+      "Iran"
+    ],
+    "source_count": 11,
+    "timestamp": "10:30 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces international condemnation over mass abduction of Ukrainian children and support for Iran's war efforts.",
+    "emojis": "⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "source_count": 2,
+    "timestamp": "10:30 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia and Ukraine capture frontline villages, Pentagon considers diverting aid to Middle East amid escalating conflict.",
+    "emojis": "🪖⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 6,
+    "timestamp": "10:30 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California's electric vehicle (EV) growth heavily relies on apartment complexes for charging infrastructure development.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California Government",
+      "Apartment Complex Owners/Developers"
+    ],
+    "source_count": 1,
+    "timestamp": "10:31 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Subaru unveils new EV SUV at New York Auto Show.",
-    "emojis": "",
+    "summary": "Middle East conflict updates, including US involvement and regional tensions",
+    "emojis": "⚔️⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "Kelley Blue Book",
-      "Subaru"
+      "US",
+      "NY"
     ],
     "source_count": 1,
-    "timestamp": "09:50 AM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "XPeng enters Mexico, targeting Latin America's AI mobility lead by 2028.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Eletric-Vehicles.com"
-    ],
-    "source_count": 1,
-    "timestamp": "09:50 AM"
+    "timestamp": "10:31 PM"
   }
 ];
 

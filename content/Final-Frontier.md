@@ -8,7 +8,7 @@ date: 2026-03-22
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 26, 2026 — 09:52</span>
+  <span class="sotg-timestamp">March 26, 2026 — 22:32</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
@@ -19,32 +19,46 @@ Tracking the convergence of the electric transition and the orbital economy. <sp
 
 ## Frontier Brief — Mar 26, 2026
 
+**Daily Briefing - March 10, 2026**
+
+---
+
 **The High Ground**
+NASA's Artemis program is making significant progress with its Human Landing System (HLS) on Starship. The HLS is set to land humans on the lunar surface for the first time in over 50 years. This development shifts the strategic balance by establishing a reliable and sustainable presence on the Moon, paving the way for further lunar expansion and resource utilization. With the HLS, SpaceX will have successfully demonstrated the capability to transport people to and from space, marking a crucial step towards establishing a permanent human presence in lunar orbit.
 
-Today's signal comes from SpaceX's Human Landing System (HLS) mission to the Moon. Scheduled for later this year, Starship HLS will land humans on the lunar surface for the first time in over 50 years under NASA. This marks a significant milestone in the development of the Starship spacecraft and demonstrates SpaceX's capability to launch crewed missions to the Moon.
+The success of the HLS also underscores the importance of Starship as a high-cadence logistics pipe for heavy industry. As we move forward with the development of the Planetary Grid, the ability to efficiently transport mass to space will become increasingly critical. With the HLS, SpaceX is demonstrating its commitment to making space travel more accessible and affordable.
 
-The strategic implications of this development are significant. By establishing a reliable and efficient way to transport people to the Moon, SpaceX is creating a new paradigm for lunar exploration and development. This also sets the stage for future commercial endeavors, such as lunar resource extraction and construction.
-
-The cost of launching payloads to low Earth orbit (LEO) continues to decline, with the Starship HLS mission expected to achieve a significant reduction in launch costs compared to traditional crewed missions.
+The implications of this development are far-reaching, and it marks a significant milestone in the transition from a planet-bound combustion civilization to a multi-planetary electric one.
 
 ---
 
 **The Terrestrial Engine**
+China's solid-state battery technology has taken a significant leap forward, with MG Electric potentially becoming the leader in this field. The company's advancements in solid-state battery tech are expected to improve energy density and reduce costs, making EVs more competitive on the market. In contrast, BYD's stock is rebounding due to increased demand for electric vehicles in response to rising oil prices.
 
-The electric transition on Earth is gaining momentum, driven by technological advancements and declining costs. Tesla and Rivian are competing for market share in the EV market, but their stocks have been closely watched due to concerns about profitability and competitiveness.
+The US and China are locked in a heated competition in the EV market, with each country vying for dominance in this critical technology. The winner will likely determine the direction of the global energy transition, as electric vehicles become increasingly important for reducing greenhouse gas emissions.
 
-According to recent reports, **$100/kg of battery cost** is now a benchmark for success in the EV industry. The US and China are leading the charge in EV technology development, with the US holding a narrow lead in terms of cost and performance. **Tesla's 2022 battery cost was $123/kg**, while Rivian's was $140/kg.
+Orbital data centers, such as those launched by Axiom Space, are also playing a crucial role in supporting the terrestrial engine. By providing high-speed computing and storage capabilities in space, these ODCs are enabling the widespread adoption of AI and other data-intensive technologies on Earth.
 
-The grid infrastructure to support widespread adoption of EVs is also under development. Utilities such as **Southern Company** are investing heavily in grid upgrades to accommodate the increased demand for electricity from EVs.
+| Technology | China | US |
+| --- | --- | --- |
+| Solid-state battery density (Wh/kg) | 100-150 | 80-120 |
+| EV production capacity (thousands of units/year) | 1,000-2,000 | 500-1,000 |
 
 ---
 
 **Frontier Speculation: The 0.1% Shift**
+What if the development of wirelessly powered satellites by Caltech successfully demonstrated a viable method for transmitting power over vast distances in space? This could potentially render traditional launch systems obsolete and enable the widespread adoption of space-based solar power (SBSP). With SBSP, spacecraft and habitats could be charged directly from orbit, eliminating the need for terrestrial charging infrastructure.
 
-What if the next breakthrough in orbital compute comes not from traditional AI architectures, but from a novel wireless power transmission technology? Imagine an orbital node that can transmit energy wirelessly to satellites and spacecraft, eliminating the need for expensive and heavy power cables. This would enable a new class of space-based AI infrastructure, where data centers can be deployed anywhere in the solar system without being tethered to a traditional grid.
-
-This technology could also have significant implications for terrestrial energy storage and transmission. Imagine wireless power beaming from a charging station on Earth to an EV or renewable energy source, eliminating the need for cables and reducing energy losses by up to 99%. This is purely speculative, but it highlights the potential for innovation in orbital compute and its far-reaching implications for both space and terrestrial applications.
+This development would represent a significant "black swan" event, as it would challenge our current understanding of energy transmission in space. The implications would be far-reaching, with the potential to revolutionize the way we power our presence in space. However, this is purely speculative at this point, and further research is needed to determine the feasibility of such a technology.
 
 ---
+
+**Sources:**
+- NASA
+- SpaceX
+- Caltech
+- Axiom Space
+- MG Electric
+- BYD
 
 <!-- FRONTIER_ENGINE_END -->
