@@ -17,7 +17,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     <a href="/Predictive-News" class="signal-link"></a>
     <div class="signal-title">🔮 PREDICTIVE NEWS</div>
     <div class="signal-preview">
-      Look ahead... <span>Stop reacting to chaos. Drown out the constant background stress...</span>
+      Look ahead... <span>Stop reacting to chaos.</span>
     </div>
     <div class="signal-hidden-content">
       ORACLE scans the signal layer beneath the news cycle — geopolitics, technology, weather, and finance — and maps what is likely to happen next. Stop reacting. Start anticipating.
