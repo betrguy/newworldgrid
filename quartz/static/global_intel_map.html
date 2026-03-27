@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-27 18:27 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-03-27 19:28 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,36 +51,75 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions escalate between Iran and Israel, with strikes on Iranian nuclear sites imminent",
-    "emojis": "💥⚔️☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Israel",
-      "Iran"
-    ],
-    "source_count": 72,
-    "timestamp": "06:26 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces intense conflict with Hezbollah, with widespread destruction and casualties reported",
-    "emojis": "⚔️🚀💀",
+    "summary": "Multiple attacks, including Iranian missile strikes and firebombing plot, target Israel amid escalating tensions.",
+    "emojis": "💥⚔️🚀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Hezbollah",
-      "Israel"
+      "Iran",
+      "Israel",
+      "anti-Israel activists"
     ],
-    "source_count": 14,
-    "timestamp": "06:26 PM"
+    "source_count": 17,
+    "timestamp": "07:27 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran tensions escalate with hacking, war threats, Israeli attacks and US troop deployments amid Middle East conflict.",
+    "emojis": "🚀⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "FBI",
+      "Marco Rubio",
+      "Israel",
+      "US",
+      "Houthis",
+      "Saudi Arabia",
+      "Trump"
+    ],
+    "source_count": 83,
+    "timestamp": "07:27 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China navigates diplomatic efforts, trade tensions, and economic challenges amid regional disputes and strained ties.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "South Africa",
+      "Philippines",
+      "India",
+      "Indian Rice",
+      "BYD",
+      "Tesla"
+    ],
+    "source_count": 9,
+    "timestamp": "07:27 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia to ban gasoline exports, prioritize domestic supply, amid economic and geopolitical tensions.",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "Lavrov"
+    ],
+    "source_count": 7,
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: NORTH KOREA",
-    "summary": "Escaped North Korean, Geumseong's mum remains in N.Korea, risking deportation.",
+    "summary": "North Korean refugee Geumseong's mom remains in North Korea, sparking concerns for her potential repatriation.",
     "emojis": "",
     "lat": 40.3,
     "lng": 127.5,
@@ -90,12 +129,12 @@
       "North Korea"
     ],
     "source_count": 1,
-    "timestamp": "06:26 PM"
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "U.S. denies ceding land to Russia for security deal, while Putin pleads with oligarchs for economic aid.",
-    "emojis": "⚔️",
+    "summary": "Tensions rise as US denies Ukraine land cedure, Russia pleads for oligarch aid amid economic woes.",
+    "emojis": "⚔️⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -104,116 +143,51 @@
       "Zelenskyy",
       "Putin"
     ],
-    "source_count": 10,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China responds to news reports, retaliates against US trade, and maintains diplomatic relations with India",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US",
-      "India"
-    ],
-    "source_count": 8,
-    "timestamp": "06:26 PM"
+    "source_count": 9,
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon considers sending 10K more troops to Middle East, while TSA workers receive paychecks amid airport chaos.",
+    "summary": "Pentagon considers sending 10K more troops to Middle East amid airport chaos and congressional inaction.",
     "emojis": "🪖⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "US Government"
+      "Pentagon",
+      "Congress",
+      "Trump"
     ],
     "source_count": 3,
-    "timestamp": "06:26 PM"
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US government trolls use memes to engage with online communities in the Middle East.",
+    "summary": "US gov secretly uses memes to counter online propaganda in Middle East conflict",
     "emojis": "⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "US Government",
-      "Online Communities"
+      "Iran/ISIS"
     ],
     "source_count": 1,
-    "timestamp": "06:26 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia announces ban on gasoline exports starting Apr 1 amid rising prices and geopolitical tensions.",
-    "emojis": "⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Putin",
-      "Lavrov"
-    ],
-    "source_count": 9,
-    "timestamp": "06:26 PM"
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes in Lebanon kill 121 children, displace 370,000 over three weeks.",
-    "emojis": "💥",
+    "summary": "121 children killed and 370,000 displaced in Lebanon due to Israeli strikes over three weeks.",
+    "emojis": "💥💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
-      "Lebanon"
+      "Israeli Forces",
+      "Lebanese Civilians"
     ],
     "source_count": 1,
-    "timestamp": "06:27 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Two aid ships to Cuba go missing off Mexico coast; navy launches rescue mission.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mexico's navy"
-    ],
-    "source_count": 1,
-    "timestamp": "06:27 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "FTSE 100 falls due to lingering Middle East concerns, affecting market sentiment and investment decisions.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Reuters",
-      "investors"
-    ],
-    "source_count": 1,
-    "timestamp": "06:27 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France not mentioned directly, but Europe-wide trend on social media ban for children under-14 reported.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "06:27 PM"
+    "timestamp": "07:28 PM"
   }
 ];
 
