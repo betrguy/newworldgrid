@@ -21,14 +21,11 @@ Tracking the convergence of the electric transition and the orbital economy. <sp
 
 **The High Ground**
 
-Cloud computing and AI/ML capabilities are being rewritten in orbit with Axiom Space's LEO compute node leading the charge. This revolutionizes more than just cloud infrastructure – it unlocks new opportunities for data processing, real-time analytics, and precision navigation in space. Orbiting data centers will be the norm, transforming industries and markets forever.
+Orbital data centers are revolutionizing cloud computing and AI/ML capabilities in space, with Axiom Space's LEO compute node leading the charge. This seismic shift goes beyond traditional LEO constellations, catering to skyrocketing demand for advanced computational resources in orbit.
 
-### **The EV Race**
-
-As gas prices rise, US-based Ford expands its electric vehicle lineup, while China continues to fuel its EV growth with massive investments and production ramps. The market is shifting, with 2022 seeing a whopping 72% increase in EV sales worldwide. Meanwhile, the "miracle" battery breakthrough touted by WSJ may be too little, too late. With China dominating the global market share at 46%, the US must adapt or risk losing its foothold.
+**The EV Race**
+As the global electric vehicle (EV) landscape continues to evolve, a high-stakes competition is unfolding between US-based companies like Ford and Tesla and their Chinese counterparts. The recent surge in US gas prices has, predictably, pushed some buyers toward EVs. However, this shift remains a trickle rather than a tidal wave, as the economics of mass adoption still lie in favor of traditional vehicles. What's changing is the math: with battery costs plummeting at an unprecedented rate – 73% decline since 2015, according to BloombergNEF – and charging infrastructure expanding rapidly, the price gap between EVs and their gas-guzzling counterparts is narrowing by the day.
 
 *What follows is purely a thought experiment. This is a forward-looking scenario by ARC.*
-
-Imagine a world where the collective impact of rising gas prices, expanded EV charging infrastructure, and the proliferation of "miracle" batteries sparks an unprecedented tipping point in global consumer behavior. As more people opt for electric vehicles, a previously untapped market segment – the used EV industry – experiences explosive growth. What if the sheer volume of retired Teslas, Leafs, and Bolts creates a new economic dynamic? Perhaps, unforeseen by regulators, the influx of used EVs could suddenly render certain types of fossil fuels obsolete, causing their value to plummet overnight.
 
 <!-- /FRONTIER_ENGINE_END -->
