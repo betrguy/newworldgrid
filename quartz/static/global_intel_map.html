@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-27 22:04 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-03-27 22:11 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,121 +51,123 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Violence erupts across Israel following Iranian attacks, targeting pro-Israel activists and Israeli citizens.",
-    "emojis": "💥⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: CHINA",
+    "summary": "China's EV makers adapt, CH-7 UAV completes autonomous takeoff, amid diplomatic efforts and price wars with EU.",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Iran",
-      "Pro-Israel Activists",
-      "Israelis"
+      "South China Morning Post",
+      "news.cgtn.com",
+      "Eurasia Review",
+      "China",
+      "Philippines",
+      "South Africa",
+      "China",
+      "LILLEY: Michael Ma's clarification on China questions doesn't add up",
+      "The Express Tribune"
     ],
-    "source_count": 14,
-    "timestamp": "10:04 PM"
+    "source_count": 8,
+    "timestamp": "10:11 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Israel launches strikes on Iran, US envoy hopeful for talks, while Israel struggles to counter Iranian missiles.",
-    "emojis": "💥🚀☢️",
+    "summary": "Tensions escalate between Iran and Israel, with US involvement, as airstrikes on Iranian targets intensify.",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Israel",
       "US",
+      "Israel",
       "Iran"
     ],
     "source_count": 88,
-    "timestamp": "10:04 PM"
+    "timestamp": "10:11 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Violence and tensions surge in Israel amid pro-Israel plot, Iranian missile attacks, anti-Israel activism.",
+    "emojis": "💥⚔️🚀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Iran"
+    ],
+    "source_count": 14,
+    "timestamp": "10:11 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US strike on Saudi base injures 12 American troops, amid ongoing Middle East conflict.",
+    "summary": "US base attacked in Saudi Arabia, injuring 12 American troops and 2 seriously.",
     "emojis": "🪖💥⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "US Military",
-      "Saudi Government"
+      "US",
+      "Saudi Arabia"
     ],
-    "source_count": 3,
-    "timestamp": "10:04 PM"
+    "source_count": 2,
+    "timestamp": "10:11 PM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China updates on autonomous UAV, trade concerns, and bilateral talks with Philippines and South Africa.",
-    "emojis": "🪖",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strikes hit Nabatieh and Bekaa Valley towns in Lebanon, killing 1, injuring 17.",
+    "emojis": "💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "China",
-      "Philippines",
-      "South Africa"
+      "Israel",
+      "Lebanon"
     ],
-    "source_count": 7,
-    "timestamp": "10:04 PM"
+    "source_count": 2,
+    "timestamp": "10:11 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia bans gasoline exports starting April 1, amid tensions with West and internal economic shifts.",
+    "summary": "Russia takes steps to prioritize domestic supply, amid tensions with West and EU",
     "emojis": "⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Marco Rubio",
-      "Kaja Kallas",
-      "Sergei Lavrov"
+      "Russia"
     ],
-    "source_count": 7,
-    "timestamp": "10:04 PM"
+    "source_count": 6,
+    "timestamp": "10:11 PM"
   },
   {
     "title": "SITREP: NORTH KOREA",
-    "summary": "North Korean defector Geumseong's mother remains in North Korea, risking possible detention or deportation.",
+    "summary": "Geumseong's mom is trapped in North Korea while he escaped with his mother to South Korea.",
     "emojis": "",
     "lat": 40.3,
     "lng": 127.5,
     "location": "NORTH KOREA",
     "actors": [
       "Geumseong",
-      "North Korea"
+      "his mum"
     ],
     "source_count": 1,
-    "timestamp": "10:04 PM"
+    "timestamp": "10:11 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Tensions rise in Ukraine as pro-Ukraine lawmakers confront Russian delegation, while US considers weapon diversion.",
+    "summary": "UKRAINE tensions escalate as Russia and US engage in complex diplomacy, economic strain mounts",
     "emojis": "⚔️⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Ukraine government",
-      "Russian delegation",
-      "US policymakers"
+      "Russia",
+      "US"
     ],
-    "source_count": 5,
-    "timestamp": "10:04 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Pentagon considers deploying 10,000 additional US ground troops to the Middle East.",
-    "emojis": "🪖",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Fox Business",
-      "Fox News"
-    ],
-    "source_count": 2,
-    "timestamp": "10:04 PM"
+    "source_count": 4,
+    "timestamp": "10:11 PM"
   }
 ];
 
