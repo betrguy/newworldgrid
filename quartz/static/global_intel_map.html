@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-27 20:57 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-03-27 22:04 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,23 +51,67 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Violence erupts across Israel following Iranian attacks, targeting pro-Israel activists and Israeli citizens.",
+    "emojis": "💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Iran",
+      "Pro-Israel Activists",
+      "Israelis"
+    ],
+    "source_count": 14,
+    "timestamp": "10:04 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Tensions escalate between US, Israel, and Iran over military actions in Middle East region.",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Israel launches strikes on Iran, US envoy hopeful for talks, while Israel struggles to counter Iranian missiles.",
+    "emojis": "💥🚀☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
       "Israel",
+      "US",
       "Iran"
     ],
-    "source_count": 85,
-    "timestamp": "08:56 PM"
+    "source_count": 88,
+    "timestamp": "10:04 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US strike on Saudi base injures 12 American troops, amid ongoing Middle East conflict.",
+    "emojis": "🪖💥⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US Military",
+      "Saudi Government"
+    ],
+    "source_count": 3,
+    "timestamp": "10:04 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China updates on autonomous UAV, trade concerns, and bilateral talks with Philippines and South Africa.",
+    "emojis": "🪖",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Philippines",
+      "South Africa"
+    ],
+    "source_count": 7,
+    "timestamp": "10:04 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia announces ban on gasoline exports from April 1, amid international tensions and security concerns.",
+    "summary": "Russia bans gasoline exports starting April 1, amid tensions with West and internal economic shifts.",
     "emojis": "⚡",
     "lat": 61.5,
     "lng": 105.3,
@@ -75,89 +119,43 @@
     "actors": [
       "Marco Rubio",
       "Kaja Kallas",
-      "Lavrov"
+      "Sergei Lavrov"
     ],
-    "source_count": 8,
-    "timestamp": "08:56 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Memes used as a form of warfare in online platforms during the Middle East conflict",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "NYT",
-      "Governments"
-    ],
-    "source_count": 2,
-    "timestamp": "08:57 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Violence erupts as Iranian attacks on Israel escalate amid anti-Israel protests and far-right moral degradation.",
-    "emojis": "💥⚔️🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Iranian",
-      "Israel",
-      "anti-Israel activists",
-      "far-right"
-    ],
-    "source_count": 13,
-    "timestamp": "08:57 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China expands infrastructure cooperation with South Africa & Philippines, while escalating disputes and trade concerns.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "South Africa",
-      "China",
-      "Philippines",
-      "India"
-    ],
-    "source_count": 5,
-    "timestamp": "08:57 PM"
+    "source_count": 7,
+    "timestamp": "10:04 PM"
   },
   {
     "title": "SITREP: NORTH KOREA",
-    "summary": "Geumseong escaped North Korea with mum, risking mother's possible re-arrest",
+    "summary": "North Korean defector Geumseong's mother remains in North Korea, risking possible detention or deportation.",
     "emojis": "",
     "lat": 40.3,
     "lng": 127.5,
     "location": "NORTH KOREA",
     "actors": [
       "Geumseong",
-      "his mum"
+      "North Korea"
     ],
     "source_count": 1,
-    "timestamp": "08:57 PM"
+    "timestamp": "10:04 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia-Ukraine war: US, Ukraine, and Russia engage in diplomatic efforts as conflict escalates.",
-    "emojis": "⚔️",
+    "summary": "Tensions rise in Ukraine as pro-Ukraine lawmakers confront Russian delegation, while US considers weapon diversion.",
+    "emojis": "⚔️⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "US",
-      "Ukraine",
-      "Russia"
+      "Ukraine government",
+      "Russian delegation",
+      "US policymakers"
     ],
-    "source_count": 6,
-    "timestamp": "08:57 PM"
+    "source_count": 5,
+    "timestamp": "10:04 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon considers deploying 10,000 additional US troops to Middle East region.",
+    "summary": "Pentagon considers deploying 10,000 additional US ground troops to the Middle East.",
     "emojis": "🪖",
     "lat": 38.9,
     "lng": -77.03,
@@ -167,21 +165,7 @@
       "Fox News"
     ],
     "source_count": 2,
-    "timestamp": "08:57 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Russian national in TX accused of stealing $1.7M from Medicare.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "FOX 26 Houston",
-      "Russian national"
-    ],
-    "source_count": 1,
-    "timestamp": "08:57 PM"
+    "timestamp": "10:04 PM"
   }
 ];
 
