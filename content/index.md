@@ -51,7 +51,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
 
   <div class="signal-card card-frontier">
     <a href="/Final-Frontier" class="signal-link"></a>
-    <div class="signal-title">🔋 THE ELECTRIC RACE</div>
+    <div class="signal-title">🔋 FINAL FRONTIER</div>
     <div class="signal-preview">
       The convergence of the electric transition and the orbital economy. <span>Battery chemistry, charging infrastructure, and the Chinese EV grid — tracked daily.</span>
     </div>
