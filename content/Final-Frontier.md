@@ -8,7 +8,7 @@ date: 2026-03-22
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 28, 2026 — 08:08</span>
+  <span class="sotg-timestamp">March 29, 2026 — 20:13</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
@@ -17,15 +17,18 @@ Tracking the convergence of the electric transition and the orbital economy. <sp
 
 <!-- FRONTIER_ENGINE_START -->
 
-## Frontier Brief — Mar 28, 2026
+## Frontier Brief — Mar 29, 2026
 
 **The High Ground**
 
-Orbital data centers are revolutionizing cloud computing and AI/ML capabilities in space, with Axiom Space's LEO compute node leading the charge. This seismic shift goes beyond traditional LEO constellations, catering to skyrocketing demand for advanced computational resources in orbit.
+Space computing just got a massive boost as Axiom Space's LEO compute node takes center stage, revolutionizing cloud computing and AI/ML capabilities in orbit. This seismic shift goes beyond traditional LEO constellations, catering to skyrocketing demand for advanced computational resources in space.
 
 **The EV Race**
-As the global electric vehicle (EV) landscape continues to evolve, a high-stakes competition is unfolding between US-based companies like Ford and Tesla and their Chinese counterparts. The recent surge in US gas prices has, predictably, pushed some buyers toward EVs. However, this shift remains a trickle rather than a tidal wave, as the economics of mass adoption still lie in favor of traditional vehicles. What's changing is the math: with battery costs plummeting at an unprecedented rate – 73% decline since 2015, according to BloombergNEF – and charging infrastructure expanding rapidly, the price gap between EVs and their gas-guzzling counterparts is narrowing by the day.
+
+The global electric vehicle (EV) landscape is witnessing a seismic shift as China solidifies its grip on the market. A recent CNBC article highlights the alarming trend, where US-based manufacturers like Tesla struggle to gain traction amidst intense competition from Chinese players like BYD Auto. Unsubsidized gas prices have created an existential crisis for internal combustion engines, compelling consumers to reassess their options. With China's EV market share surging 30% YoY in 2025 alone, the writing is on the wall – US-based companies must either adapt or risk becoming relics of a bygone era.
 
 *What follows is purely a thought experiment. This is a forward-looking scenario by ARC.*
+
+Imagine a world where SpaceX's Starship V3 becomes the catalyst for a tectonic shift in global energy markets. As the capacity to launch massive payloads into low Earth orbit increases, the economics of terrestrial renewable energy production take an unexpected turn. With Axiom Space's orbital data centers fueling AI-driven optimization and real-time monitoring of solar panel arrays, wind farms, and other green energy sources, the marginal cost of renewable energy plummets. This seismic change in cost structures sparks a global scramble to repurpose decommissioned oil refineries into massive battery recycling facilities, creating a new industry that not only reduces e-waste but also flips the script on the electric vehicle market. BYD Auto and Tesla's dominance is challenged as their EV charging hubs become mere stepping stones for a swarm of startup battery recyclers, redefining the business models for both automakers and energy companies alike.
 
 <!-- /FRONTIER_ENGINE_END -->

@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-28 08:07 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-03-29 20:12 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,54 +52,67 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran-backed Houthis target Israel and US forces, escalating Middle East war",
-    "emojis": "🚀⚔️",
+    "summary": "Iran, Israel, US, and Russia engaged in escalating tensions with attacks and intelligence sharing.",
+    "emojis": "🪖✈️⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Houthis",
+      "US",
+      "Russia",
       "Iran",
-      "Israel",
-      "US"
+      "Israel"
     ],
-    "source_count": 67,
-    "timestamp": "08:06 AM"
+    "source_count": 54,
+    "timestamp": "08:12 PM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan hosts talks with Türkiye, Saudi Arabia, and Egypt on Middle East war, inviting regional leaders.",
-    "emojis": "⚔️",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia's LNG rerouting options hindered by high shipping costs, while local stocks remain steady.",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Pakistan",
-      "Türkiye",
-      "Saudi Arabia",
-      "Egypt"
+      "Russia"
     ],
     "source_count": 2,
-    "timestamp": "08:06 AM"
+    "timestamp": "08:12 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Escalating violence and tensions in Middle East, with Iran-backed Houthis launching attacks on Israel.",
-    "emojis": "💥⚔️⚡",
+    "summary": "Multiple countries accuse Israel of war crimes and missile attacks from neighboring countries.",
+    "emojis": "⚔️🚀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Iran-backed Houthis",
-      "Israel"
+      "Israel",
+      "Lebanon",
+      "Hezbollah",
+      "Iran"
     ],
-    "source_count": 27,
-    "timestamp": "08:06 AM"
+    "source_count": 18,
+    "timestamp": "08:12 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China discusses oil cooperation with PH, amid a fire in a Chinese high-rise leaving one dead and 25 injured.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Philippines",
+      "China"
+    ],
+    "source_count": 2,
+    "timestamp": "08:12 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia continues to barrage Ukraine, as leaders discuss potential cease-fire and seek alternative energy sources.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Russian drone strikes destroy Ukrainian maternity hospital, leaving newborns in peril.",
+    "emojis": "✈️💥",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -107,107 +120,50 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 8,
-    "timestamp": "08:07 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK misses 2030 electric car goal due to charger unreliability, while Trump makes optimistic comments about Middle East peace.",
-    "emojis": "🕊️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Trump",
-      "UK government"
-    ],
     "source_count": 2,
-    "timestamp": "08:07 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India faces geopolitical unrest, rising crude oil prices, but gold prices remain stable.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "The Times of India",
-      "Aasiya Andrabi"
-    ],
-    "source_count": 2,
-    "timestamp": "08:07 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China ramps up senior care support while facing security concerns and trade probes amidst regional tensions.",
-    "emojis": "⚔️⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US",
-      "Philippines",
-      "France"
-    ],
-    "source_count": 21,
-    "timestamp": "08:07 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia stops petrol export, loses troops and artillery, hits maternity hospital and educational institutions in Ukraine.",
-    "emojis": "🪖✈️💣",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "RUSSIA"
-    ],
-    "source_count": 9,
-    "timestamp": "08:07 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Russian bakery faces financial crisis after severe tax hike in NYC.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "NYC government",
-      "Russian bakery owners"
-    ],
-    "source_count": 1,
-    "timestamp": "08:07 AM"
+    "timestamp": "08:12 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "Chinese firms dominate northern France's EV battery supply chain, leveraging 'Battery Valley' region.",
+    "summary": "Iconic landmarks in France and Spain turn off lights for Earth Hour tonight.",
     "emojis": "",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "China",
-      "France"
+      "France",
+      "Spain"
     ],
     "source_count": 1,
-    "timestamp": "08:07 AM"
+    "timestamp": "08:12 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Made-in-India EV solutions gain traction as global manufacturers cut reliance on rare earths.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "CNA",
+      "EV makers"
+    ],
+    "source_count": 1,
+    "timestamp": "08:12 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Over 1m displaced in Lebanon, families describe homes destroyed and lives upended by ongoing conflict.",
-    "emojis": "⚔️",
+    "summary": "Israeli strike on south Lebanon kills 7, wounds 8, including 3 journalists covering the war.",
+    "emojis": "💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "BBC",
-      "Hugo Bachega"
+      "Israel",
+      "Journalists"
     ],
-    "source_count": 1,
-    "timestamp": "08:07 AM"
+    "source_count": 2,
+    "timestamp": "08:12 PM"
   }
 ];
 

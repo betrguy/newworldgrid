@@ -8,7 +8,7 @@ date: 2026-01-26
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 28, 2026 — 08:07</span>
+  <span class="sotg-timestamp">March 29, 2026 — 20:12</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
@@ -24,18 +24,20 @@ We're tracking a volatile cycle of economic instability and conflicts between ri
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Mar 28, 2026
+## Daily Intelligence Brief - Mar 29, 2026
 
-The situation is complex and multifaceted, with various actors repositioning in response to the ongoing Middle East conflict.
+Russia has provided detailed intelligence to Iran, helping the latter wound US troops at an airbase. Ukrainian President Volodymyr Zelenskyy acknowledged Russia's role in this incident.
 
-The US, Israel, and its allies are engaged in a protracted war that has drawn in multiple regional powers. **Iran**-backed Houthis have launched missile strikes against Israel, marking the first time since the conflict began. These attacks are part of a broader escalation, with nighttime strikes killing at least 5 in Ukraine as Zelenskyy discusses drone defense during a visit to the UAE.
+Meanwhile, Russia's options for rerouting liquefied natural gas (LNG) from Europe are limited by high shipping costs. This constraint is affecting Russia's ability to bypass sanctions and maintain its energy influence in the region.
 
-The international community is witnessing increased fragmentation and realignment, with multiple power centers emerging. Diplomatic efforts are underway, including talks hosted by **Pakistan** for **Turkey**, **Saudi Arabia**, and **Egypt** on Middle East peace.
+Tensions between Israel and Lebanon have escalated, with Lebanon accusing Israel of committing a war crime during recent hostilities. The Israeli military has been investigating alleged misconduct among its personnel, including suspected betting on an Iran war.
+
+The oil market is experiencing volatility due to geopolitical risks, particularly in the US shale industry. Drilling plans are being delayed or put on hold as investors and companies weigh the potential impact of sanctions and conflicts on global energy markets.
 
 Watch for:
 
-* Iran's missile capabilities and potential responses to Israeli strikes
-* The impact of the conflict on global energy markets and prices
-* Further diplomatic overtures from major powers in response to the escalating situation
+* Increased Iranian aggression towards US military bases and personnel
+* Russian attempts to diversify its LNG supply chain despite shipping costs constraints
+* Further escalation in tensions between Israel and Lebanon
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
