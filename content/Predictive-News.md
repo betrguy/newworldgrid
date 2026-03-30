@@ -8,7 +8,7 @@ date: 2026-01-26
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 29, 2026 — 20:12</span>
+  <span class="sotg-timestamp">March 30, 2026 — 11:40</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
@@ -24,20 +24,20 @@ We're tracking a volatile cycle of economic instability and conflicts between ri
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Mar 29, 2026
+## Daily Intelligence Brief - Mar 30, 2026
 
-Russia has provided detailed intelligence to Iran, helping the latter wound US troops at an airbase. Ukrainian President Volodymyr Zelenskyy acknowledged Russia's role in this incident.
+A multipolar world is taking shape as global power structures realign.
 
-Meanwhile, Russia's options for rerouting liquefied natural gas (LNG) from Europe are limited by high shipping costs. This constraint is affecting Russia's ability to bypass sanctions and maintain its energy influence in the region.
+The US has deployed more troops to the Middle East, increasing its military presence in the region (MSN). This move could be seen as an attempt to strengthen US influence and counterbalance Iranian expansion. Meanwhile, Iran's grip on the Strait of Hormuz is loosening, with Tehran signaling a willingness to allow the waterway to reopen under certain conditions.
 
-Tensions between Israel and Lebanon have escalated, with Lebanon accusing Israel of committing a war crime during recent hostilities. The Israeli military has been investigating alleged misconduct among its personnel, including suspected betting on an Iran war.
+The Biden administration has floated plans for a siege on Iran's stronghold in Iraq, but details remain scarce (foxnews.com). In contrast, Russia is expanding its energy influence by delivering sanctioned oil to Cuba, marking the first such shipment this year (Laredo Morning Times).
 
-The oil market is experiencing volatility due to geopolitical risks, particularly in the US shale industry. Drilling plans are being delayed or put on hold as investors and companies weigh the potential impact of sanctions and conflicts on global energy markets.
+A new wave of M&A activity is underway, with **Vici** acquiring a Canadian portfolio and **IHG** expanding into India, China, and Africa (Hotel Investment Tod). These deals may be indicative of a broader shift in global power dynamics.
 
-Watch for:
+Watch for: 
 
-* Increased Iranian aggression towards US military bases and personnel
-* Russian attempts to diversify its LNG supply chain despite shipping costs constraints
-* Further escalation in tensions between Israel and Lebanon
+* Iranian response to US troop deployments
+* Details on Russia's sanctioned oil deliveries to Cuba
+* Potential US-Iran negotiations over the Strait of Hormuz
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
