@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-03-30 11:40 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-03-31 10:40 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,144 +52,197 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: CHINA",
-    "summary": "China updates on business, travel, and diplomacy amid recent news on China Eastern, Toyota, and visiting officials.",
-    "emojis": "",
+    "summary": "China intensifies labor concerns, peace talks, and EV adoption amidst regional tensions and relations with Taiwan.",
+    "emojis": "🕊️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Vici",
-      "Eric Swalwell",
-      "China Eastern",
-      "Toyota",
-      "Finance minister"
+      "China",
+      "Pakistan",
+      "Taiwan",
+      "Japan"
     ],
-    "source_count": 12,
-    "timestamp": "11:39 AM"
+    "source_count": 23,
+    "timestamp": "10:39 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US, Iran tensions escalate amid Trump's threat to destroy energy and water infrastructure, diplomatic talks stall.",
+    "summary": "Tensions escalate between Iran and global powers, with US gas prices rising amid war threat",
     "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
+      "US",
       "Iran",
-      "US"
+      "Russia"
     ],
-    "source_count": 42,
-    "timestamp": "11:39 AM"
+    "source_count": 41,
+    "timestamp": "10:39 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel continues to face international criticism for targeting journalists and increasing tensions in the Middle East.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "Tensions rise in Middle East as Israel imposes death penalty law, fights terrorism and threatens Lebanon",
+    "emojis": "🔺⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Iran",
-      "Cuba",
-      "Lebanon",
-      "Gaza",
-      "Yemen",
-      "Houthis",
-      "Netanyahu",
-      "Palestinians"
+      "Palestinians",
+      "France",
+      "Jordan",
+      "Lebanon"
     ],
     "source_count": 20,
-    "timestamp": "11:40 AM"
+    "timestamp": "10:40 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Tensions rise between Russia and Western countries amid espionage allegations, sanctions breaches, and diplomatic expulsions.",
-    "emojis": "🚫⚡",
+    "summary": "Russia faces economic cuts, military threats, and diplomatic tensions amid growing shadow war with global powers.",
+    "emojis": "🪖🚀⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
-      "US",
-      "UK",
-      "Apple",
-      "Ukraine"
+      "Reuters",
+      "Japan",
+      "Cuba US Russia Oil",
+      "UK media",
+      "Latvia",
+      "The Guardian",
+      "CEPA",
+      "UNITED24 Media"
     ],
-    "source_count": 17,
-    "timestamp": "11:40 AM"
+    "source_count": 14,
+    "timestamp": "10:40 AM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK sees game-changing home charging improvements, energy leaders meet amidst geopolitical tensions and property scandals.",
-    "emojis": "⚡",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: LEBANON",
+    "summary": "Escalation in Lebanon: Israeli invasion, rising death toll, and attacks on Lebanese civilians intensify conflict.",
+    "emojis": "💥⚔️🔴",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "TechRadar",
-      "Aurora Energy Research",
-      "AML Intelligence"
+      "Middle East Eye",
+      "JNS",
+      "KBTX News 3"
     ],
-    "source_count": 3,
-    "timestamp": "11:40 AM"
+    "source_count": 4,
+    "timestamp": "10:40 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine ready for ceasefire, allies send signals to reduce Russian oil strikes",
-    "emojis": "💥⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: IRAQ",
+    "summary": "Strike in western Iraq kills two militants, no civilian casualties reported.",
+    "emojis": "💥💀",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Zelensky",
-      "Russia",
-      "Ukraine allies"
-    ],
-    "source_count": 7,
-    "timestamp": "11:40 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "US-CA sees surge in EV insurance costs amid global sales boom reaching 17M, with Alaska joining California's fold.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "actor1",
-      "actor2"
+      "IRAQ government",
+      "US-led coalition"
     ],
     "source_count": 1,
-    "timestamp": "11:40 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Pentagon deploys thousands to Middle East amid Trump hint at ground ops",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Trump",
-      "US-Pentagon"
-    ],
-    "source_count": 1,
-    "timestamp": "11:40 AM"
+    "timestamp": "10:40 AM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France reports that Asian economies are most vulnerable to oil market disruption from a Middle East war.",
-    "emojis": "⚔️",
+    "summary": "France increases financial aid for EV charging points in communal car parks.",
+    "emojis": "",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "France 24"
+      "Government"
     ],
     "source_count": 1,
-    "timestamp": "11:40 AM"
+    "timestamp": "10:40 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia-Ukraine war intensifies with drone attacks, European ministers visit Ukraine on Bucha atrocities anniversary",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "European Ministers",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 3,
+    "timestamp": "10:40 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Wolf attacks woman in Hamburg shopping street, marking possible first human attack since animals' reintroduction.",
+    "emojis": "⚔️",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "German authorities",
+      "woman"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "At least 25 sanctioned Russian ships pass through UK waters after receiving threat warning",
+    "emojis": "⚔️🚫",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "Russia"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Pentagon's Anthropic culture war sparks controversy over AI health tools.",
+    "emojis": "⚔️",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US-DC",
+      "Anthropic"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli strikes in Gaza kill five, according to medical sources.",
+    "emojis": "💥",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Gaza Strip"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "EMO Energy expands last-mile EV charging network to 5,000+ fast chargers by mid-2027 in India.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "EMO Energy"
+    ],
+    "source_count": 1,
+    "timestamp": "10:40 AM"
   }
 ];
 

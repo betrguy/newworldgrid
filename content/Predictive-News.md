@@ -8,7 +8,7 @@ date: 2026-01-26
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">March 30, 2026 — 11:40</span>
+  <span class="sotg-timestamp">March 31, 2026 — 10:40</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
@@ -24,20 +24,27 @@ We're tracking a volatile cycle of economic instability and conflicts between ri
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Mar 30, 2026
+## Daily Intelligence Brief - Mar 31, 2026
 
-A multipolar world is taking shape as global power structures realign.
+A multipolar world is taking shape, with power centers repositioning in response to structural realignment. 
 
-The US has deployed more troops to the Middle East, increasing its military presence in the region (MSN). This move could be seen as an attempt to strengthen US influence and counterbalance Iranian expansion. Meanwhile, Iran's grip on the Strait of Hormuz is loosening, with Tehran signaling a willingness to allow the waterway to reopen under certain conditions.
+China has deepened its forced labour risk under its Five-Year Plan, according to Ecotextile News. This step increases leverage for Beijing in the global supply chain.
 
-The Biden administration has floated plans for a siege on Iran's stronghold in Iraq, but details remain scarce (foxnews.com). In contrast, Russia is expanding its energy influence by delivering sanctioned oil to Cuba, marking the first such shipment this year (Laredo Morning Times).
+In the Middle East, China and Pakistan have called for an immediate ceasefire, along with a 5-point peace plan, as per i24news.tv. 
 
-A new wave of M&A activity is underway, with **Vici** acquiring a Canadian portfolio and **IHG** expanding into India, China, and Africa (Hotel Investment Tod). These deals may be indicative of a broader shift in global power dynamics.
+Russian oil infrastructure has been targeted by Ukrainian drone strikes at a key hub in Azerbaijan, as reported by Latest news from Azerbaijan. This move can be seen as a counter to Russia's energy leverage.
 
-Watch for: 
+The current state of China-Taiwan relations is uncertain, with various news outlets providing conflicting information.
 
-* Iranian response to US troop deployments
-* Details on Russia's sanctioned oil deliveries to Cuba
-* Potential US-Iran negotiations over the Strait of Hormuz
+Japan has deployed long-range missiles capable of reaching mainland China, a strategic development that could increase Tokyo's military leverage in the region, according to Australian Broadcasting Corporation.
+
+Russia claims Mojtaba Khamenei, an Iranian nuclear scientist, is in Iran, as per Breakingthenews.net. This move may be related to Moscow's efforts to disrupt Tehran's energy sector.
+
+US President Trump has urged other nations to 'go get their own oil', which could reduce the United States' influence in the global energy market, according to cnn.com.
+
+Watch for:
+- Increased tensions between China and Taiwan, potentially leading to military action
+- Further escalation of Ukraine-Russia conflicts over energy infrastructure
+- Japan's potential use of its new long-range missiles against mainland China or other targets
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
