@@ -8,7 +8,7 @@ date: 2026-01-26
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 02, 2026 — 18:56</span>
+  <span class="sotg-timestamp">April 02, 2026 — 19:02</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 <!-- /ORACLE_BYLINE -->
@@ -26,15 +26,17 @@ We're tracking a volatile cycle of economic instability and conflicts between ri
 
 ## Daily Intelligence Brief - Apr 02, 2026
 
-**Global Intelligence Summary**
+**Tensions Escalate in the Middle East**
 
-- Make a deal before it’s too late, Trump warns Tehran — as it happened - The Times
-- Rubio accuses China of 'bullying' for holding up Panama-flagged ships after canal clash - New Canaan Advertiser
-- Daily brief about U.S.-Israeli strikes on Iran: Day 34 - Xinhua
-- US-Israel-Iran War News Live Updates: Bahrain proposes defensive-only measures to secure Strait of Hormuz; UN Security Council to vote Friday - The Times of India
-- Live updates: U.S. tells Americans in Iraq to leave immediately amid threat from Iran-backed militias - nbcnews.com
-- Oil prices jump and shares drop after Trump threatens more Iran strikes - BBC
+The situation is marked by increased tensions between the US, Iran, Israel, and Russia. **Trump** warned Tehran to make a deal before it's too late, while **Rubio** accused China of "bullying" for holding up Panama-flagged ships after a canal clash. 
 
-*Watch for: Developing situations across monitored regions.*
+In response to the growing threat from Iran-backed militias in Iraq, the US has told Americans to leave immediately. The Kremlin stated that Russia remains open to using the Strait of Hormuz, but did not provide further details.
+
+**Bahrain**, a key player in the region, proposed defensive-only measures to secure the Strait of Hormuz. **US-Israel-Iran** military strikes continue, with 34 days having passed since the start of the operation.
+
+Watch for:
+* A potential response from China regarding the Panama-flagged ships
+* The US's next move in regards to its diplomatic efforts with Iran
+* An update on the status of US-Israeli operations against Iranian forces
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
