@@ -8,7 +8,7 @@ date: 2026-03-22
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 02, 2026 — 19:04</span>
+  <span class="sotg-timestamp">April 03, 2026 — 11:00</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
@@ -17,18 +17,17 @@ Tracking the convergence of the electric transition and the orbital economy. <sp
 
 <!-- FRONTIER_ENGINE_START -->
 
-## Frontier Brief — Apr 02, 2026
+## Frontier Brief — Apr 03, 2026
 
 **The High Ground**
 
-A seismic shift is underway in the space economy. Elon Musk's SpaceX is no longer just a pioneer in private space travel, but now a dominant force in orbital infrastructure. The company's plan to launch up to 1 million satellites for its orbital data centers marks a turning point. These massive networks will enable AI computing power and disrupt traditional cloud computing infrastructure.
+A new orbit has taken shape in the space economy, and it's not just about SpaceX's satellite ambitions anymore. Axiom Space's bold plan for orbital data centers marks a critical pivot point. By delivering cloud computing above the clouds, Axiom is pioneering a next-generation data infrastructure that could disrupt traditional cloud computing.
 
 **The EV Race**
-
-A seismic shift is underway in the electric vehicle market as US and Chinese players jockey for dominance. Gas prices may have stabilized, but rising environmental concerns and government incentives have created a perfect storm. With Rivian topping delivery estimates, it's no surprise that Ford's CEO has his sights set on Tesla's Model Y and Model 3 under $40,000. Toyota is also expanding its own "Tesla killer" EV lineup in the US market. Meanwhile, China's BYD is leveraging battery breakthroughs to catapult itself into a leadership position. The math is clear: with over 1 million new charging stations expected by 2025, consumers are voting with their wallets – and it's not just about Tesla anymore.
+As the global electric vehicle (EV) landscape heats up, a crucial battle is unfolding between US-based Tesla and China's BYD for market supremacy. Gas prices have no role to play here, as this is about strategic positioning in a rapidly evolving industry. With 7.5% to 11% estimated US market share by the end of 2025, American players are gaining ground. Meanwhile, BYD's surge has been fueled by its strong presence in China and expanding international footprint.
 
 *What follows is purely a thought experiment. This is a forward-looking scenario by ARC.*
 
-Imagine a world where the explosion of low-Earth orbit data centers and AI computing power, fueled by SpaceX's ambitious plans for a million satellites, creates a ripple effect on the global energy grid. As these orbital data nodes become hubs for distributed computing and artificial intelligence processing, they inadvertently generate vast amounts of untapped renewable energy in the form of microwave radiation. This previously overlooked resource could be harnessed to power entire cities or even regions, potentially disrupting traditional fossil fuel markets and rendering them obsolete.
+Imagine a world where the sudden proliferation of orbital data centers, enabled by Axiom Space and SpaceX, creates a new high-stakes game in the global lithium-ion battery separator market. As electric vehicle adoption surges, driven by the likes of Rivian and Tesla's continued dominance, the demand for energy storage solutions skyrockets. With the majority of EVs still relying on traditional grid connectivity, the sudden availability of orbital data centers and their inherent latency advantages could disrupt the supply chain for lithium-ion battery separators. Axiom Space's orbital infrastructure becomes a game-changer in securing this critical component, essentially cornering the market and pricing out competitors. As a result, companies like BYD and Ford are forced to adapt rapidly, investing heavily in R&D to develop alternative energy storage solutions or face being left behind in the rapidly evolving EV landscape.
 
 <!-- /FRONTIER_ENGINE_END -->
