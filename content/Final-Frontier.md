@@ -21,13 +21,14 @@ Tracking the convergence of the electric transition and the orbital economy. <sp
 
 **The High Ground**
 
-A new orbit has taken shape in the space economy, and it's not just about SpaceX's satellite ambitions anymore. Axiom Space's bold plan for orbital data centers marks a critical pivot point. By delivering cloud computing above the clouds, Axiom is pioneering a next-generation data infrastructure that could disrupt traditional cloud computing.
+SpaceX's dominance in orbital infrastructure marks a turning point, as the company prepares to launch up to 1 million satellites for its data centers. This massive network will revolutionize AI computing power and disrupt traditional cloud infrastructure.
 
-**The EV Race**
-As the global electric vehicle (EV) landscape heats up, a crucial battle is unfolding between US-based Tesla and China's BYD for market supremacy. Gas prices have no role to play here, as this is about strategic positioning in a rapidly evolving industry. With 7.5% to 11% estimated US market share by the end of 2025, American players are gaining ground. Meanwhile, BYD's surge has been fueled by its strong presence in China and expanding international footprint.
+### **The EV Race**
 
-*What follows is purely a thought experiment. This is a forward-looking scenario by ARC.*
+The US-China rivalry in the electric vehicle (EV) space has reached a boiling point as Rivian outpacing Ford in sales and Tesla reclaiming its top spot. Gas prices, once a barrier to EV adoption, have become less relevant due to declining costs and shifting consumer priorities. A staggering 50% of Americans now prioritize environmental sustainability over cost when purchasing vehicles, according to recent surveys. Meanwhile, BYD's inability to replicate Rivian's success in the US market has allowed Tesla to retake its crown, despite the Chinese giant's sheer scale. The math is stark: with gas prices falling and eco-consciousness on the rise, EVs have become a no-brainer for consumers.
 
-Imagine a world where the sudden proliferation of orbital data centers, enabled by Axiom Space and SpaceX, creates a new high-stakes game in the global lithium-ion battery separator market. As electric vehicle adoption surges, driven by the likes of Rivian and Tesla's continued dominance, the demand for energy storage solutions skyrockets. With the majority of EVs still relying on traditional grid connectivity, the sudden availability of orbital data centers and their inherent latency advantages could disrupt the supply chain for lithium-ion battery separators. Axiom Space's orbital infrastructure becomes a game-changer in securing this critical component, essentially cornering the market and pricing out competitors. As a result, companies like BYD and Ford are forced to adapt rapidly, investing heavily in R&D to develop alternative energy storage solutions or face being left behind in the rapidly evolving EV landscape.
+**Frontier Speculation: The 0.1% Shift**
+
+What follows is purely a thought experiment. This is a forward-looking scenario by ARC. Imagine a world where the sheer scale of emerging space-based infrastructure, driven by demand for high-speed data transmission and energy storage, disrupts traditional supply chains for lithium-ion battery separators. As the demand for electric vehicles surges, companies like Tesla and BYD are forced to rethink their sourcing strategies in response to an unexpected twist: the rise of extraterrestrial mining operations.
 
 <!-- /FRONTIER_ENGINE_END -->
