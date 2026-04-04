@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-03 10:59 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-04-04 09:49 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,163 +51,173 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia engages in diplomatic efforts and economic talks while facing economic challenges and geopolitical tensions.",
-    "emojis": "⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Putin",
-      "Erdogan"
-    ],
-    "source_count": 19,
-    "timestamp": "10:58 AM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US fighter jet shot down in Iran, pilot ejected, amid escalating tensions between countries.",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Search for missing US pilot continues amidst ongoing conflict and military evacuations from Iran's Bushehr plant.",
+    "emojis": "🪖💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "US",
       "Iran",
-      "US"
+      "Russia"
     ],
-    "source_count": 56,
-    "timestamp": "10:58 AM"
+    "source_count": 52,
+    "timestamp": "09:48 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel's military actions escalate tensions with Palestine, Lebanon, and Iran, sparking international criticism.",
-    "emojis": "🪖⚔️⚡",
+    "summary": "Israel responds to Hezbollah attacks with airstrikes and cluster bomb strikes amid central Israel damage.",
+    "emojis": "🪖💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Palestine",
-      "Lebanon",
-      "Iran"
+      "Hezbollah",
+      "Israel"
     ],
-    "source_count": 13,
-    "timestamp": "10:58 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "UN reports 3 peacekeepers wounded in blast in Lebanon.",
-    "emojis": "🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "United Nations",
-      "Lebanon"
-    ],
-    "source_count": 1,
-    "timestamp": "10:58 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates attacks on Ukraine, Zelensky speaks with Pope amid Easter ceasefire concerns",
-    "emojis": "⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Zelensky",
-      "Pope"
-    ],
-    "source_count": 17,
-    "timestamp": "10:59 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "White House requests $1.5 trillion in defense funding from US Congress.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "White House",
-      "US Congress"
-    ],
-    "source_count": 1,
-    "timestamp": "10:59 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France: Asian nations boost coal power amid Middle East energy crisis, while Muslim gathering ban is overturned.",
-    "emojis": "🔺",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Asian nations",
-      "Paris police department"
-    ],
-    "source_count": 2,
-    "timestamp": "10:59 AM"
+    "source_count": 27,
+    "timestamp": "09:48 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China prepares for 90m railway trips, strengthens ties with Africa and Pakistan, while facing US export restrictions.",
-    "emojis": "🕊️",
+    "summary": "China's economic and political influence expands, with various sectors including industry, security, and science making headlines.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "US",
-      "African Union",
-      "Pakistan"
+      "US"
     ],
-    "source_count": 16,
-    "timestamp": "10:59 AM"
+    "source_count": 17,
+    "timestamp": "09:48 AM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "Mexico's Chinese EV market is expected to grow, driven by government incentives and increased investment.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia intensifies attacks on Ukraine, replaces Dutch components in drones and blocks UN resolution",
+    "emojis": "✈️⚔️☣️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "government",
-      "Chinese automakers"
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 1,
-    "timestamp": "10:59 AM"
+    "source_count": 13,
+    "timestamp": "09:48 AM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan struggles with authoritarian rule and complex geopolitical relationships, posing challenges to national stability.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: UKRAINE",
+    "summary": "Deadly strikes in Ukraine, with Russia escalating attacks amidst Zelenskyy's talks with Erdogan.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Pakistan government",
-      "International community"
+      "Russia",
+      "Ukraine",
+      "Zelenskyy",
+      "Erdogan"
     ],
-    "source_count": 1,
-    "timestamp": "10:59 AM"
+    "source_count": 36,
+    "timestamp": "09:49 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strikes hit hospital in Tyre, southern Lebanon; ground invasion advances and air strikes target southern region.",
+    "emojis": "💥🔴",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 2,
+    "timestamp": "09:49 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India imports Iranian crude without payment issues, marking first deal in seven years.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India"
+    ],
+    "source_count": 3,
+    "timestamp": "09:49 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "New UK EV taxes may deter buyers, affecting market growth and traveler/business owner interests.",
+    "summary": "Britain struggles with maintaining urban utopias, facing challenges such as gentrification and affordable housing shortages.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK government",
-      "electric vehicle owners"
+      "Reuters",
+      "Pavel Otdelnov"
     ],
     "source_count": 1,
-    "timestamp": "10:59 AM"
+    "timestamp": "09:49 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan strengthens self-deterrence to counter growing Chinese military threat and assert sovereignty.",
+    "emojis": "🪖",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "09:49 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Tensions escalate in Middle East with UNSC vote on Strait of Hormuz postponed, US plane crash, and search for missing crew member.",
+    "emojis": "⚔️⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France 24"
+    ],
+    "source_count": 3,
+    "timestamp": "09:49 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Trump submits Pentagon-focused budget, betting on military spending to secure re-election",
+    "emojis": "🪖⚔️",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "President Trump",
+      "Pentagon"
+    ],
+    "source_count": 1,
+    "timestamp": "09:49 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli jazz musicians impacted by Gaza War, affecting their careers and personal lives in NYC.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israelis",
+      "Gaza residents"
+    ],
+    "source_count": 1,
+    "timestamp": "09:49 AM"
   }
 ];
 
