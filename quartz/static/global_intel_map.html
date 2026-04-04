@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-04 13:36 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-04 14:18 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,59 +51,85 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "US-Iran conflict escalates, with Iran shooting down US fighter jet and Western airlines seizing market share.",
-    "emojis": "✈️⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US",
-      "Western Airlines"
-    ],
-    "source_count": 81,
-    "timestamp": "01:36 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia claims gains, condemns strikes, and attacks Ukraine, while facing VPN crackdowns and energy sector scrutiny.",
-    "emojis": "💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "CNN",
-      "Putin’s law",
-      "US hearing",
-      "Telegram founder",
-      "Armenia leader",
-      "Orbán",
-      "Russian drones",
-      "Russian forces"
-    ],
-    "source_count": 12,
-    "timestamp": "01:36 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Violence escalates across Israel as death penalty law sparks protests and clashes with Lebanon, Syria, and Iran.",
-    "emojis": "⚔️💀",
+    "summary": "Tensions escalate as Israel prepares for Iranian energy attacks, while violence in Lebanon and Gaza continues.",
+    "emojis": "⚔️💀⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Lebanon",
-      "Syria",
+      "Iran",
+      "Hezbollah",
+      "US",
+      "Palestinians",
+      "Gaza"
+    ],
+    "source_count": 19,
+    "timestamp": "02:17 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces criticism for human rights abuses, energy sector links to Ukraine child abductions, and economic strain.",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "Armenia"
+    ],
+    "source_count": 11,
+    "timestamp": "02:18 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions escalate between US, Israel and Iran amid airstrikes, naval attacks, and diplomatic ultimatums.",
+    "emojis": "🚢💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Israel",
       "Iran"
     ],
-    "source_count": 15,
-    "timestamp": "01:36 PM"
+    "source_count": 85,
+    "timestamp": "02:18 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Xi Jinping tightens grip, China innovates and competes globally while facing supply chain disputes with US.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Xi Jinping",
+      "US",
+      "China"
+    ],
+    "source_count": 7,
+    "timestamp": "02:18 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli forces destroy UN cameras & strike building in Lebanon's Tyre, escalating tensions in southern Lebanon.",
+    "emojis": "💥🕊️⚡",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon",
+      "UN"
+    ],
+    "source_count": 2,
+    "timestamp": "02:18 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine trade strikes amidst ongoing conflict, with devastating civilian casualties reported.",
+    "summary": "Russia and Ukraine exchange strikes amid ongoing war, peace talks on hold due to Middle East conflict.",
     "emojis": "🪖💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -112,13 +138,13 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 30,
-    "timestamp": "01:36 PM"
+    "source_count": 17,
+    "timestamp": "02:18 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "UAE condemns pro-Palestine protests at its embassy in Syria, amid escalating tensions.",
-    "emojis": "⚡",
+    "summary": "UAE condemns pro-Palestine protests at embassy in Syria, targeting its diplomatic mission.",
+    "emojis": "",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
@@ -127,74 +153,34 @@
       "protesters"
     ],
     "source_count": 1,
-    "timestamp": "01:36 PM"
+    "timestamp": "02:18 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "US arrests relatives of late Iranian military commander in Los Angeles, sparking tensions with Iran.",
+    "summary": "US arrests Iranian relatives in LA, escalating tensions amid Iran-US relations.",
     "emojis": "🪖⚡",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
       "US authorities",
-      "Iran"
+      "Iranian relatives"
     ],
     "source_count": 1,
-    "timestamp": "01:36 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China tests hydrogen turboprop engine, US and China compete for lunar access, trade tensions rise globally.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US",
-      "China"
-    ],
-    "source_count": 7,
-    "timestamp": "01:36 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes hit Lebanon's Tyre, damaging hospital and advancing ground invasion.",
-    "emojis": "💥🔴",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 2,
-    "timestamp": "01:36 PM"
+    "timestamp": "02:18 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "Bee Charged EV expands US presence with new charging platform and Mexico City launch.",
+    "summary": "Bee Charged EV expands to US, launches new charging platform and Mexico City hub.",
     "emojis": "",
     "lat": 23.6,
     "lng": -102.5,
     "location": "MEXICO",
     "actors": [
-      "Bee Charged EV",
-      "US market"
+      "Bee Charged EV"
     ],
     "source_count": 3,
-    "timestamp": "01:36 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India denies rumors of payment hurdle for Iranian crude imports, dismissing concerns.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "01:36 PM"
+    "timestamp": "02:18 PM"
   }
 ];
 
