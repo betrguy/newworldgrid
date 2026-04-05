@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-04 14:39 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-04 21:32 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,117 +51,157 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "China sees increased diplomatic tensions, production shifts, and nuclear expansion amidst global travel disruptions.",
+    "emojis": "☢️🕊️⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Taiwan opposition leader",
+      "US Senator",
+      "BMW",
+      "Tibet Airlines",
+      "China Southern"
+    ],
+    "source_count": 13,
+    "timestamp": "09:31 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise as Iran launches missiles, Israel threatens strikes, amid strained US-Israel relations and protests.",
+    "emojis": "💥🚀⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Iran",
+      "Israel",
+      "US"
+    ],
+    "source_count": 25,
+    "timestamp": "09:31 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces challenges in motorcycle tourism, economic downturn, and nuclear risks amid ongoing conflict with Ukraine.",
+    "emojis": "⚔️☢️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "South Korea",
+      "Singapore",
+      "Malaysia",
+      "Russia",
+      "United States",
+      "Australia",
+      "Air China",
+      "China Eastern",
+      "Madagascar",
+      "Defense Express",
+      "MOEX",
+      "News.az",
+      "Yahoo News UK",
+      "Meduza",
+      "CNN"
+    ],
+    "source_count": 12,
+    "timestamp": "09:31 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "NY shooting, Ukraine conflict escalate amid Easter ceasefire pleas and ongoing US war in Middle East",
+    "emojis": "✈️⚔️🚀",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US",
+      "Russia",
+      "Ukraine",
+      "NY"
+    ],
+    "source_count": 3,
+    "timestamp": "09:31 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Tensions rise in Iran as US and Israel conduct strikes, prompting evacuations and threats of nuclear risk.",
-    "emojis": "💥⚔️☢️",
+    "summary": "Tensions escalate between US, Iran, and Israel as protests call for ending war, downed jets, and strikes",
+    "emojis": "✈️💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Israel",
-      "Russia"
+      "Iran",
+      "Israel"
     ],
-    "source_count": 85,
-    "timestamp": "02:39 PM"
+    "source_count": 79,
+    "timestamp": "09:32 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine trade strikes, amid ongoing conflict and peace talks stalled due to Middle East war.",
-    "emojis": "🪖💥⚔️",
+    "summary": "Tensions escalate in Ukraine conflict with Russia, EU sanctions debated and mediation efforts continue.",
+    "emojis": "💥⚔️🚫",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Erdogan",
-      "Putin",
-      "Zelenskyy"
-    ],
-    "source_count": 18,
-    "timestamp": "02:39 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions escalate as Israel prepares for Iranian energy site attacks and responds to Hezbollah incidents.",
-    "emojis": "⚔️💀⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "US",
-      "Hezbollah"
-    ],
-    "source_count": 19,
-    "timestamp": "02:39 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces criticism over Ukrainian claims, energy sector links and gas prices amid ongoing protests and crackdowns.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
       "Russia",
       "Ukraine",
-      "US",
-      "Armenia",
-      "Telegram",
-      "Putin's government"
+      "EU"
     ],
-    "source_count": 12,
-    "timestamp": "02:39 PM"
+    "source_count": 5,
+    "timestamp": "09:32 PM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "72,291 dead, ongoing Israeli strikes in Gaza result in one fatality and multiple injuries.",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: IRAQ",
+    "summary": "Michael Jordan's non-opinion on Iraq sparked ridicule, as if his views were not critical or relevant.",
+    "emojis": "⚔️",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Israeli military",
-      "Palestinian civilians"
+      "reporters",
+      "Michael Jordan",
+      "Basketball Network"
     ],
-    "source_count": 2,
-    "timestamp": "02:39 PM"
+    "source_count": 1,
+    "timestamp": "09:32 PM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "Xi Jinping deepens purge, tests hydrogen engine, and China's influence grows in Pakistan & Nepal.",
+    "title": "SITREP: INDIA",
+    "summary": "India introduces e-arrival card for Chinese travelers, marking shift in spotlight from Bengal's stage queen Chapal Bhaduri.",
     "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
       "China",
-      "US",
-      "Pakistan",
-      "Nepal"
+      "India"
     ],
-    "source_count": 6,
-    "timestamp": "02:39 PM"
+    "source_count": 2,
+    "timestamp": "09:32 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli forces destroy UN cameras & strike building in Lebanon's Tyre, sparking escalating tensions.",
-    "emojis": "💥🕊️⚡",
+    "summary": "Escalation in southern Lebanon with Israeli strikes killing girls and soldiers, destroying UN cameras.",
+    "emojis": "🪖💥💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
-      "UN",
-      "Lebanon"
+      "Israeli forces",
+      "Lebanese people"
     ],
-    "source_count": 2,
-    "timestamp": "02:39 PM"
+    "source_count": 4,
+    "timestamp": "09:32 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "UAE condemns protests at its embassy in Syria amidst pro-Palestine demonstrations.",
-    "emojis": "",
+    "summary": "UAE condemns protests at its Syria embassy over pro-Palestine stance, amid escalating tensions in region.",
+    "emojis": "⚡",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
@@ -170,34 +210,34 @@
       "protesters"
     ],
     "source_count": 1,
-    "timestamp": "02:39 PM"
+    "timestamp": "09:32 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "US arrests Iranian relatives in LA, sparking tensions with Iran over late military commander's death.",
-    "emojis": "🪖⚡",
+    "summary": "Trump administration arrests relatives of Iranian general Qasem Soleimani's family in Los Angeles.",
+    "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "US authorities",
-      "Iranian relatives"
+      "US Administration",
+      "Iran"
     ],
     "source_count": 1,
-    "timestamp": "02:39 PM"
+    "timestamp": "09:32 PM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "Bee Charged EV expands US presence, launches new charging platform and Mexico City location.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "title": "SITREP: GAZA",
+    "summary": "Gaza genocide death toll rises to 72,291 amid ongoing Israeli strikes and casualties,",
+    "emojis": "💥💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Bee Charged EV"
+      "Unknown"
     ],
-    "source_count": 3,
-    "timestamp": "02:39 PM"
+    "source_count": 2,
+    "timestamp": "09:32 PM"
   }
 ];
 
