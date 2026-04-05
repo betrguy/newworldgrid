@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-05 08:34 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-04-05 19:00 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,107 +52,124 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US service member rescued after Iran shot down US fighter jet, Trump threatens to retaliate with bombings.",
-    "emojis": "✈️💥💣",
+    "summary": "US resumes airstrikes, threatens Iran with total destruction amid Strait of Hormuz tensions and war concerns.",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Iran",
-      "US"
+      "US",
+      "Iran"
     ],
-    "source_count": 64,
-    "timestamp": "08:33 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China executes French national, sees economic slowdown and welcomes mainland visits amidst global concerns and tourism surge.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "France",
-      "China"
-    ],
-    "source_count": 18,
-    "timestamp": "08:33 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia continues strikes in Ukraine, as Zelenskyy warns Middle East war erodes US support.",
-    "emojis": "💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Zelenskyy",
-      "US"
-    ],
-    "source_count": 10,
-    "timestamp": "08:33 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces supply chain disruptions, blackouts, and fuel leaks amid drone attacks and severe storms.",
-    "emojis": "✈️💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Belarus",
-      "Hungary",
-      "Russia"
-    ],
-    "source_count": 16,
-    "timestamp": "08:33 AM"
+    "source_count": 67,
+    "timestamp": "06:59 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces escalating tensions and attacks from Iran, Hezbollah, amid anti-war protests and military operations.",
-    "emojis": "🪖⚔️⚡",
+    "summary": "Iranian attacks and protests escalate tensions in Israel amid ongoing conflict with Hezbollah.",
+    "emojis": "💥⚔️🚀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Iran",
       "Hezbollah",
-      "Israel"
+      "Israel",
+      "US",
+      "UNIFIL"
     ],
-    "source_count": 24,
-    "timestamp": "08:33 AM"
+    "source_count": 17,
+    "timestamp": "07:00 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China's AI ambitions & tourism industry continue to grow, reflecting the country's increasing global presence.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "AI"
+    ],
+    "source_count": 3,
+    "timestamp": "07:00 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Democrats seeking 2028 White House run consider huge tax cuts for middle class, increased taxes on wealthy donors.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Democrat Campaigners"
+    ],
+    "source_count": 2,
+    "timestamp": "07:00 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia escalates war with Ukraine, amid US concerns over long Middle East conflict impacting support.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "US"
+    ],
+    "source_count": 11,
+    "timestamp": "07:00 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "At least 14 people killed in Israeli airstrikes across Lebanon on Easter Sunday, country celebrates despite attacks.",
+    "emojis": "💥⚔️💣",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 8,
+    "timestamp": "07:00 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia resumes crude loading, amid drone attacks and food imports, as tensions ease with China",
+    "emojis": "✈️⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "China"
+    ],
+    "source_count": 14,
+    "timestamp": "07:00 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Avalanches and Middle East conflict impact UK, affecting tourists and fish and chip shops.",
-    "emojis": "⚔️",
+    "summary": "UK police arrest 7 protesters near RAF base used by US, sparking controversy over military presence.",
+    "emojis": "🪖",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Chinese tourists",
-      "Britain's fish and chip shops"
-    ],
-    "source_count": 4,
-    "timestamp": "08:33 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Teen vulnerability to Big Tech social media linked to neuroscience explanations in landmark LA jury decision.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "Los Angeles Jury"
+      "Al Jazeera",
+      "US",
+      "UK police",
+      "RAF"
     ],
     "source_count": 1,
-    "timestamp": "08:34 AM"
+    "timestamp": "07:00 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli fire kills four Palestinians in Gaza, medics confirm",
-    "emojis": "",
+    "summary": "Israeli airstrike in Gaza City kills 4 Palestinians, injuring several others in escalating humanitarian crisis.",
+    "emojis": "💥💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
@@ -160,75 +177,51 @@
       "Israel",
       "Palestinians"
     ],
-    "source_count": 1,
-    "timestamp": "08:34 AM"
+    "source_count": 3,
+    "timestamp": "07:00 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India resumes Iranian oil imports after a 7-year hiatus due to Middle East tensions.",
-    "emojis": "⚡",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Indian Government",
-      "Iran"
-    ],
-    "source_count": 1,
-    "timestamp": "08:34 AM"
-  },
-  {
-    "title": "SITREP: US-MN",
-    "summary": "Electric vehicle sales in MN decline after years of record growth.",
+    "title": "SITREP: US-IL",
+    "summary": "Illinois gains 72 new EV fast chargers, expanding charging infrastructure.",
     "emojis": "",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
     "actors": [
-      "Star Tribune",
-      "Minnesota"
+      "CleanTechnica",
+      "Illinois"
     ],
     "source_count": 1,
-    "timestamp": "08:34 AM"
+    "timestamp": "07:00 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah claims hitting Israeli warship with cruise missile, sparking conflict in the Mediterranean.",
-    "emojis": "🚢💥🚀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: TAIWAN",
+    "summary": "UK's fish and chip shops impacted by Middle East war tensions, affecting global food supply chains.",
+    "emojis": "⚔️⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
     "actors": [
-      "Hezbollah",
+      "Taipei Times",
+      "Middle East"
+    ],
+    "source_count": 1,
+    "timestamp": "07:00 PM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Hundreds rally in Berlin opposing US-Israeli actions in Middle East.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Protesters",
+      "US",
       "Israel"
     ],
-    "source_count": 4,
-    "timestamp": "08:34 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US-NY conflict situation report unavailable, article appears to be unrelated, cannot provide a summary.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [],
     "source_count": 1,
-    "timestamp": "08:34 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Controversy in Germany over Ramstein base's role, US rescues pilot from downed fighter jet in Middle East.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France 24",
-      "US"
-    ],
-    "source_count": 2,
-    "timestamp": "08:34 AM"
+    "timestamp": "07:00 PM"
   }
 ];
 
