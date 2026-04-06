@@ -31,5 +31,7 @@ As geopolitical tensions escalate, US efforts to tighten its grip on Venezuelan 
 <div class="sotg-analyst">
 The current geomagnetic activity exhibits a Kp value of 1.0, indicating a quiet period with no significant disturbances. However, the 24-hour average Kp index stands at 2.28, suggesting an increase in activity over the past day. The peak Kp value reached 3.0, signifying a moderate level of disturbance and classifying the condition as Unsettled.
 </div>
+
+<p><a href="/Optimism#geomagnetic-environment">Read more on the Kp index here at Daily Optimism.</a></p>
 <!-- /GRID_ENGINE_CONTENT -->
 
