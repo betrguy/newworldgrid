@@ -49,7 +49,42 @@ Minor fluctuations in Earth&rsquo;s field. Compass needles may show slight devia
 
 ### Solar Phase
 
-Day length today: **12.51 hours** (Spring, &uarr; lengthening). 77 days to the next solstice. The solar cycle sets the biological clock of every organism on the planet &mdash; a free, universal timing signal available to anyone paying attention. Days are lengthening rapidly. Energy and mood typically climb with day length &mdash; this is the window for ambitious projects. Prioritize deep work in the morning hours. Day 95 of 365.
+<div style="margin-top: 0.9rem; padding: 0.95rem; border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; background: linear-gradient(180deg, rgba(255,214,102,0.05), rgba(255,255,255,0.02));">
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.85rem;">
+    <div style="font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.68;">Solar phase</div>
+    <div style="font-size: 0.68rem; opacity: 0.72;">Day <strong>95</strong> of <strong>365</strong></div>
+  </div>
+  <div style="display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(170px, 0.9fr); gap: 0.9rem; align-items: center;">
+    <div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.35rem; margin-bottom: 0.55rem; font-size: 0.68rem; text-align: center;">
+        <div style="padding: 0.42rem 0.2rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.08); opacity: 0.58;">&#10052;<br>Winter</div>
+        <div style="padding: 0.42rem 0.2rem; border-radius: 10px; border: 1px solid rgba(255,214,102,0.22); background: rgba(255,214,102,0.08); box-shadow: inset 0 0 0 1px rgba(255,214,102,0.1);">&#127793;<br><strong>Spring</strong></div>
+        <div style="padding: 0.42rem 0.2rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.08); opacity: 0.58;">&#9728;<br>Summer</div>
+        <div style="padding: 0.42rem 0.2rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.08); opacity: 0.58;">&#127810;<br>Autumn</div>
+      </div>
+      <div style="display: grid; grid-template-columns: auto 1fr auto; gap: 0.55rem; align-items: center;">
+        <div style="font-size: 0.9rem; opacity: 0.75;">&#127749;</div>
+        <div style="height: 8px; border-radius: 999px; background: linear-gradient(90deg, rgba(122,190,255,0.35) 0%, rgba(255,214,102,0.95) 52%, rgba(255,152,102,0.45) 100%); position: relative; overflow: hidden;">
+          <div style="position: absolute; inset: 1px auto 1px 0; width: 52.1%; border-radius: 999px; background: linear-gradient(90deg, rgba(255,241,199,0.32), rgba(255,214,102,0.14));"></div>
+        </div>
+        <div style="font-size: 0.9rem; opacity: 0.75;">&#127751;</div>
+      </div>
+      <div style="display: flex; justify-content: space-between; margin-top: 0.35rem; font-size: 0.66rem; opacity: 0.68;">
+        <span>March equinox</span>
+        <span>June solstice in <strong>77 days</strong></span>
+      </div>
+    </div>
+    <div style="min-height: 170px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.08); background: radial-gradient(circle at 50% 38%, rgba(255,225,128,0.32), rgba(255,200,90,0.06) 42%, rgba(255,255,255,0.02) 70%); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0.85rem;">
+      <div style="font-size: 2rem; line-height: 1;">&#9728;</div>
+      <div style="margin-top: 0.35rem; font-size: 1.5rem; line-height: 1; font-weight: 700;">12.51h</div>
+      <div style="margin-top: 0.28rem; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.72;">Day length today</div>
+      <div style="margin-top: 0.55rem; font-size: 0.78rem;"><strong>Spring</strong> &nbsp;&middot;&nbsp; &uarr; lengthening</div>
+      <div style="margin-top: 0.32rem; font-size: 0.72rem; opacity: 0.76;">77 days to the next solstice.</div>
+    </div>
+  </div>
+</div>
+
+<p style="margin-top: 0.8rem;">The solar cycle sets the biological clock of every organism on the planet &mdash; a free, universal timing signal available to anyone paying attention. Days are lengthening rapidly, and energy and mood typically climb with day length. This is the window for ambitious projects; prioritize deep work in the morning hours.</p>
 
 ### Breaking trends in AI today&hellip;
 
