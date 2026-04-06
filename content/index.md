@@ -37,7 +37,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     </div>
   </div>
 
-  <div class="signal-card card-grid">
+  <div class="signal-card card-grid" style="order: 4;">
     <a href="/State-of-the-Grid" class="signal-link"></a>
     <div class="signal-title">⚡ STATE OF THE GRID</div>
     <div class="signal-preview">
@@ -49,7 +49,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     </div>
   </div>
 
-  <div class="signal-card card-frontier">
+  <div class="signal-card card-frontier" style="order: 3;">
     <a href="/Final-Frontier" class="signal-link"></a>
     <div class="signal-title">🔋 FINAL FRONTIER</div>
     <div class="signal-preview">
