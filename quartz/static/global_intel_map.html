@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-05 20:39 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-05 20:51 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -52,93 +52,112 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: CHINA",
-    "summary": "China's tourism surges, AI ambitions intensify amid record domestic trips and cultural engagement amidst global developments.",
-    "emojis": "🕊️",
+    "summary": "China's mining industry shifts, tourism surges with Spring Festival, while AI ambitions and global connectivity expand.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Global"
+      "Opposition leader",
+      "Apple"
     ],
     "source_count": 10,
-    "timestamp": "08:38 PM"
+    "timestamp": "08:51 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces drone attacks, fuel shortages, and diplomatic tensions with China & Ukraine.",
+    "emojis": "✈️⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Drone attack",
+      "China",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 13,
+    "timestamp": "08:51 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran warns US of 'Living Hell' if Strait of Hormuz not reopened, amid tensions over recent US-Iran conflict.",
-    "emojis": "⚔️🚀⚡",
+    "summary": "Iran threatens Strait of Hormuz, US warns Iran will strike if not reopened, amid rising oil prices and tensions.",
+    "emojis": "💥⚔️🚀",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Iran"
+      "Iran",
+      "US",
+      "Israel"
     ],
-    "source_count": 73,
-    "timestamp": "08:38 PM"
+    "source_count": 67,
+    "timestamp": "08:51 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "At least 11 killed in Israeli airstrikes in Lebanon on Easter Sunday, death toll rising.",
+    "emojis": "💥⚔️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 5,
+    "timestamp": "08:51 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Ukraine's Zelensky meets new Syrian leader, pushes for military deals and food aid in Damascus.",
+    "summary": "Ukraine's Zelensky meets Syria’s new leader, seeking military deals and extending overtures with food offer.",
     "emojis": "🪖",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
       "Zelensky",
-      "Syrian Leader"
+      "Syria's new leader"
     ],
     "source_count": 2,
-    "timestamp": "08:38 PM"
+    "timestamp": "08:51 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions escalate in Middle East as Israel renews strikes, protesters demand prisoner release",
-    "emojis": "💥⚡",
+    "summary": "Tensions escalate in Israel as strikes, protests and Iranian missile attacks continue across the region.",
+    "emojis": "💥⚔️🚀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Hezbollah",
       "Iran",
-      "Syria"
+      "Hezbollah",
+      "Syria",
+      "US"
     ],
-    "source_count": 15,
-    "timestamp": "08:38 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia downed 148 Ukrainian drones, while Egypt receives food imports and Russian ports resume operations.",
-    "emojis": "✈️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "Egypt"
-    ],
-    "source_count": 11,
-    "timestamp": "08:38 PM"
+    "source_count": 16,
+    "timestamp": "08:51 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Democrats consider tax cuts for middle class, higher taxes on wealthy individuals ahead of 2028 presidential elections.",
+    "summary": "Democrats eyeing 2028 White House runs propose massive tax cuts for middle class, but significant hikes for wealthy elites.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Democrat Party"
+      " politician1",
+      "politician2"
     ],
     "source_count": 2,
-    "timestamp": "08:39 PM"
+    "timestamp": "08:51 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia, Ukraine tensions escalate with strikes and oil disruptions amid Middle East conflict, US pressure.",
+    "summary": "Ukraine-Russia conflict escalates with drone strikes, oil facility attacks and potential Middle East distraction",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -149,39 +168,25 @@
       "Ukraine"
     ],
     "source_count": 8,
-    "timestamp": "08:39 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "At least 11 killed in Israeli airstrikes in Lebanon on Easter Sunday, amid rising death toll.",
-    "emojis": "💥💣💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 4,
-    "timestamp": "08:39 PM"
+    "timestamp": "08:51 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK police arrest 7 protesters near RAF base used by US military, amid anti-US protests.",
-    "emojis": "🪖",
+    "summary": "UK police arrest 7 protesters near RAF base used by US, amid tensions over military cooperation.",
+    "emojis": "🪖⚡",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK Police",
-      "Protesters"
+      "Al Jazeera",
+      "UK police"
     ],
     "source_count": 1,
-    "timestamp": "08:39 PM"
+    "timestamp": "08:51 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli airstrike kills 4 in Gaza City, injuring others, sparking humanitarian crisis concerns.",
+    "summary": "Israeli air strike in Gaza City kills 4 Palestinians, injuring several others amid escalating humanitarian crisis.",
     "emojis": "💥💀",
     "lat": 31.5,
     "lng": 34.46,
@@ -191,7 +196,7 @@
       "Palestinians"
     ],
     "source_count": 3,
-    "timestamp": "08:39 PM"
+    "timestamp": "08:51 PM"
   }
 ];
 
