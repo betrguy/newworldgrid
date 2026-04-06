@@ -25,7 +25,7 @@ Artemis's stunning Moon pictures have been beamed back to Earth from the Artemis
 
 Tesla has reclaimed its position as the top global electric vehicle (EV) seller, surpassing BYD. This development has significant implications for buyers and manufacturers alike. Meanwhile, Helios Charging is expanding its charging infrastructure with seven fast-charger installations in Breckenridge, a crucial step in addressing the pressing need for reliable and rapid EV recharging options.
 
-### **Frontier Speculation: The 0.1% Shift**
+**Frontier Speculation: The 0.1% Shift**
 
 What follows is purely a thought experiment. This is a forward-looking scenario by ARC. If Helios Charging's latest move to install seven fast-chargers for electric vehicles in Breckenridge, as reported by SummitDaily.com, accelerates the transition to EVs, it may inadvertently trigger a ripple effect in global lithium demand. As Tesla reclaims leadership in global EV sales, surpassing BYD, their increased production might outstrip existing supply chains, causing prices to surge. This could create an unexpected opportunity for companies like Helios Charging or others to capitalize on the short-term lithium shortage by developing niche, high-margin products catering to niche industries, such as off-grid energy solutions or specialized automotive applications.
 
