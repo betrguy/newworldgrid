@@ -32,7 +32,53 @@ These discoveries collectively signify a significant leap forward in our ability
 
 Today&rsquo;s window: avg **2.28**, peak **3.0** &mdash; **Unsettled**.<br>
 Minor fluctuations in Earth&rsquo;s field. Compass needles may show slight deviation at polar latitudes. No significant impacts on infrastructure.<br>
-<small>Kp&nbsp;0&ndash;1 (quiet &mdash; no effects) &nbsp;&bull;&nbsp; <strong>Kp&nbsp;2&ndash;3 (unsettled &mdash; weak polar aurora)</strong> &nbsp;&bull;&nbsp; Kp&nbsp;4 (active &mdash; aurora at 65&deg;+ latitude) &nbsp;&bull;&nbsp; Kp&nbsp;5 (minor storm &mdash; aurora to 60&deg;) &nbsp;&bull;&nbsp; Kp&nbsp;6 (moderate storm &mdash; aurora to 55&deg;) &nbsp;&bull;&nbsp; Kp&nbsp;7 (strong storm &mdash; aurora to 50&deg;) &nbsp;&bull;&nbsp; Kp&nbsp;8 (severe storm &mdash; aurora to 45&deg;, grid stress) &nbsp;&bull;&nbsp; Kp&nbsp;9 (extreme storm &mdash; aurora to 40&deg;+, outages possible)</small>
+<table style="width: 100%; margin-top: 0.75rem; border-collapse: collapse; font-size: 0.82rem; line-height: 1.35;">
+  <tr>
+    <th style="text-align: left; padding: 0.35rem 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.12);">Kp</th>
+    <th style="text-align: left; padding: 0.35rem 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.12);">State</th>
+    <th style="text-align: left; padding: 0.35rem 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.12);">Typical effect</th>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>0&ndash;1</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Quiet</td>
+    <td style="padding: 0.35rem 0.5rem;">No meaningful visible or infrastructure effects.</td>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>2&ndash;3</strong></td>
+    <td style="padding: 0.35rem 0.5rem;"><strong>Unsettled</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Weak polar aurora; minor field fluctuations.</td>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>4</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Active</td>
+    <td style="padding: 0.35rem 0.5rem;">Aurora possible near 65&deg;+ latitude.</td>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>5</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Minor storm</td>
+    <td style="padding: 0.35rem 0.5rem;">Aurora may reach roughly 60&deg; latitude.</td>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>6</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Moderate storm</td>
+    <td style="padding: 0.35rem 0.5rem;">Aurora may reach roughly 55&deg; latitude.</td>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>7</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Strong storm</td>
+    <td style="padding: 0.35rem 0.5rem;">Aurora may reach roughly 50&deg; latitude.</td>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>8</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Severe storm</td>
+    <td style="padding: 0.35rem 0.5rem;">Aurora may reach roughly 45&deg;; some grid stress possible.</td>
+  </tr>
+  <tr>
+    <td style="padding: 0.35rem 0.5rem;"><strong>9</strong></td>
+    <td style="padding: 0.35rem 0.5rem;">Extreme storm</td>
+    <td style="padding: 0.35rem 0.5rem;">Aurora may reach 40&deg;+; outage risk rises.</td>
+  </tr>
+</table>
 
 ### Solar Phase
 
