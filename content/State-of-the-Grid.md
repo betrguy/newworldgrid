@@ -8,28 +8,28 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 05, 2026 - 22:32</span>
+  <span class="sotg-timestamp">April 06, 2026 - 09:43</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The global energy landscape is being reshaped by unprecedented US sanctions and OPEC+ policy uncertainty, while China and Russia are poised to intervene in the Strait of Hormuz crisis, amidst growing concerns over grid security vulnerabilities following a rare power outage across Spain and Portugal. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Russian crude loading resumes at Baltic port following attacks, marking a significant recovery in global energy infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The global energy grid's resilience is under stress due to escalating geopolitical tensions and infrastructure attacks. The recent OPEC+ policy uncertainty and U.S. sanctions on Iran/Venezuela have disrupted supply chains, forcing refiners to seek alternative crude sources and tightening heavy oil markets. This shift in the global energy landscape underscores the critical need for robust supply chain resilience and grid stability.</p>
+<p class="meridian-lede">The global energy grid's resilience is being tested by recent attacks on Russian Baltic ports, which have resumed crude loading after Bloomberg News reported the disruptions. This development underscores the importance of robust supply chain resilience and grid stability in the face of escalating geopolitical tensions.</p>
 
-As a result of these developments, it is essential to monitor US-Venezuela relations for signs of heightened risk.
+In light of these events, it is crucial to monitor the impact on global oil markets and potential effects on US refineries, as they may be forced to seek alternative crude sources amidst tightening heavy oil markets.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The global energy grid's resilience is under stress due to escalating geopolitical tensions and infrastructure attacks.</li>
-  <li><strong>The big picture:</strong> This shift in the global energy landscape underscores the critical need for robust supply chain resilience and grid stability.</li>
-  <li><strong>What to watch:</strong> US-Venezuela relations for signs of heightened risk.</li>
+  <li><strong>Why it matters:</strong> The recent attacks on Russian Baltic ports have significant implications for global energy market stability.</li>
+  <li><strong>The big picture:</strong> This event highlights the need for robust supply chain resilience in the face of escalating geopolitical tensions and its impact on global energy security.</li>
+  <li><strong>What to watch:</strong> Monitor the potential effects on US refineries and their possible shift towards alternative crude sources.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-As of the current geomagnetic window, the Kp index is holding at 1.0, indicating a relatively quiet period; however, the 24-hour average Kp has reached 2.28 and peaked at 3.0, signaling an Unsettled condition. This condition may cause minor disruptions to satellite operations, potentially affecting accuracy and stability, as well as increased noise and interference in HF radio communications, with slight fluctuations in power grid frequency and voltage unlikely to impact overall stability.
+As of the current geomagnetic window, the Kp index has reached a peak value of 3.0 and an average of 1.9, with a current value of 2.0, corresponding to an Unsettled condition. This moderate level of solar wind activity may cause increased drag on orbits, potentially impacting satellite stability and propulsion systems, as well as minor disruptions or signal degradation in HF radio communications due to ionospheric disturbances.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
