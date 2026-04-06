@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-05 20:51 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-05 21:08 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,54 +52,79 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: CHINA",
-    "summary": "China's mining industry shifts, tourism surges with Spring Festival, while AI ambitions and global connectivity expand.",
+    "summary": "China shifts from coal to noodles, resumes flights, detains ships, sees tourism surge and cultural engagement.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Opposition leader",
-      "Apple"
+      "US",
+      "Pyongyang"
     ],
-    "source_count": 10,
-    "timestamp": "08:51 PM"
+    "source_count": 14,
+    "timestamp": "09:07 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces drone attacks, fuel shortages, and diplomatic tensions with China & Ukraine.",
-    "emojis": "✈️⚔️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: US-NY",
+    "summary": "No specific information about US-NY conflict found.",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [],
+    "source_count": 1,
+    "timestamp": "09:08 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Multiple attacks, strikes & closures reported in Israel amid ongoing tensions and Iran missile strike.",
+    "emojis": "💥⚔️🚀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Drone attack",
-      "China",
-      "Russia",
-      "Ukraine"
+      "ISRAEL",
+      "Iran",
+      "Hezbollah"
     ],
-    "source_count": 13,
-    "timestamp": "08:51 PM"
+    "source_count": 16,
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran threatens Strait of Hormuz, US warns Iran will strike if not reopened, amid rising oil prices and tensions.",
-    "emojis": "💥⚔️🚀",
+    "summary": "Iran launches missiles at Israel, threatens Strait of Hormuz, amid escalating tensions and US warnings",
+    "emojis": "🚀⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
+      "Israel",
       "US",
-      "Israel"
+      "Trump"
     ],
-    "source_count": 67,
-    "timestamp": "08:51 PM"
+    "source_count": 70,
+    "timestamp": "09:08 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces drone attacks, fire at refinery, and disruptions to key ports amid escalating tensions with Ukraine.",
+    "emojis": "✈️⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 12,
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "At least 11 killed in Israeli airstrikes in Lebanon on Easter Sunday, death toll rising.",
-    "emojis": "💥⚔️💀",
+    "summary": "Israeli airstrikes kill 11+ in Lebanon on Easter Sunday, with rising death toll amid conflict",
+    "emojis": "💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -107,12 +132,12 @@
       "Israel",
       "Lebanon"
     ],
-    "source_count": 5,
-    "timestamp": "08:51 PM"
+    "source_count": 6,
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Ukraine's Zelensky meets Syria’s new leader, seeking military deals and extending overtures with food offer.",
+    "summary": "Ukraine's Zelensky meets Syria's new leader in Damascus to discuss military deals.",
     "emojis": "🪖",
     "lat": 34.8,
     "lng": 38.9,
@@ -121,43 +146,26 @@
       "Zelensky",
       "Syria's new leader"
     ],
-    "source_count": 2,
-    "timestamp": "08:51 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions escalate in Israel as strikes, protests and Iranian missile attacks continue across the region.",
-    "emojis": "💥⚔️🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Iran",
-      "Hezbollah",
-      "Syria",
-      "US"
-    ],
-    "source_count": 16,
-    "timestamp": "08:51 PM"
+    "source_count": 1,
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Democrats eyeing 2028 White House runs propose massive tax cuts for middle class, but significant hikes for wealthy elites.",
+    "summary": "2028 Dems mull huge tax cuts for middle class, but hike taxes on rich, revisiting 2020 campaign positions.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      " politician1",
-      "politician2"
+      "Democrats",
+      "Politicians"
     ],
     "source_count": 2,
-    "timestamp": "08:51 PM"
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine-Russia conflict escalates with drone strikes, oil facility attacks and potential Middle East distraction",
+    "summary": "Russia escalates with strikes, drones and ultimatums, as Ukraine fights back and seeks international support.",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -167,36 +175,36 @@
       "US",
       "Ukraine"
     ],
-    "source_count": 8,
-    "timestamp": "08:51 PM"
+    "source_count": 5,
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK police arrest 7 protesters near RAF base used by US, amid tensions over military cooperation.",
-    "emojis": "🪖⚡",
+    "summary": "UK police arrest 7 protesters near RAF base used by US, sparking controversy and international attention.",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Al Jazeera",
-      "UK police"
+      "UK Police",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "08:51 PM"
+    "timestamp": "09:08 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli air strike in Gaza City kills 4 Palestinians, injuring several others amid escalating humanitarian crisis.",
-    "emojis": "💥💀",
+    "summary": "Israeli air strike hits crowd in Gaza City, exacerbating humanitarian crisis.",
+    "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Israel",
-      "Palestinians"
+      "Gaza"
     ],
-    "source_count": 3,
-    "timestamp": "08:51 PM"
+    "source_count": 2,
+    "timestamp": "09:08 PM"
   }
 ];
 
