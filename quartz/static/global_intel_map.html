@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-07 09:55 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-04-07 12:01 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,152 +51,68 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Trump threatens 'whole civilization' if Iran deal isn't reached, amid airstrikes and war tensions escalating.",
-    "emojis": "💥⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Iran"
-    ],
-    "source_count": 54,
-    "timestamp": "09:54 AM"
-  },
-  {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia delays lunar missions, declares digital superpower status while navigating Middle East trade opportunities.",
-    "emojis": "⚔️☢️",
+    "summary": "Russia and China veto UN resolution to reopen Strait of Hormuz, amid tensions with Western nations.",
+    "emojis": "✈️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "US"
+      "China"
     ],
-    "source_count": 12,
-    "timestamp": "09:54 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel as military actions and protests escalate globally, with Iran and Turkey on high alert.",
-    "emojis": "🚀🪖⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Iran",
-      "Turkey",
-      "US"
-    ],
-    "source_count": 9,
-    "timestamp": "09:54 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK records highest EV registrations, new car sales hit four-year high, with electric vehicle demand soaring,",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Unknown"
-    ],
-    "source_count": 9,
-    "timestamp": "09:54 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah fighting forces Israelis to flee, but some vow to stay on northern border.",
-    "emojis": "",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Hezbollah",
-      "Israelis"
-    ],
-    "source_count": 2,
-    "timestamp": "09:54 AM"
+    "source_count": 17,
+    "timestamp": "12:00 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China sees growing cross-border travel, rising MEG prices and economic growth amid increased diplomatic efforts.",
-    "emojis": "💥💣",
+    "summary": "China sees growth in cross-border travel, tensions rise with Pakistan, and Nexperia shifts to local chip production.",
+    "emojis": "🕊️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Xinhua News",
-      "US government",
-      "Xi Jinping",
-      "Taiwanese opposition leader"
+      "China",
+      "Pakistan",
+      "Nexperia"
     ],
-    "source_count": 13,
-    "timestamp": "09:54 AM"
+    "source_count": 7,
+    "timestamp": "12:00 PM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine-Russia war intensifies with new casualties, while Ukraine targets Russian refineries amid global oil crisis.",
-    "emojis": "🪖⚔️💀",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise in Israel as Iran launches missile attacks, US strikes Kharg Island, and Netanyahu vows to crush Iranian regime.",
+    "emojis": "💥⚔️🚀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 18,
-    "timestamp": "09:54 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "XPeng achieves record month in Germany with 549 electric vehicle registrations in March.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "automaker",
-      "government regulations"
-    ],
-    "source_count": 1,
-    "timestamp": "09:54 AM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Honda pauses electric vehicle rollout due to rising losses and financial struggles.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Toyota",
-      "Tesla"
-    ],
-    "source_count": 1,
-    "timestamp": "09:54 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Ceasefire strains as Israel launches airstrike in Gaza, killing at least 10 near school, exacerbating water crisis.",
-    "emojis": "💥🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
+      "Iran",
       "Israel",
-      "Palestinians"
+      "US"
     ],
-    "source_count": 2,
-    "timestamp": "09:54 AM"
+    "source_count": 9,
+    "timestamp": "12:00 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions escalate between US, Iran, and Russia over Strait of Hormuz and nuclear threats.",
+    "emojis": "☢️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Russia"
+    ],
+    "source_count": 46,
+    "timestamp": "12:00 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "Train collision in France kills driver, amid tensions from US-Israeli war in Middle East.",
-    "emojis": "⚔️⚡",
+    "summary": "France opposes US-Israeli attacks on Iranian infrastructure, amid concerns of Middle East war escalation.",
+    "emojis": "🚢⚔️📈",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
@@ -206,45 +122,78 @@
       "Israel"
     ],
     "source_count": 2,
-    "timestamp": "09:54 AM"
+    "timestamp": "12:00 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India extends IPO approval period due to Middle East conflict, amid concerns for global market volatility.",
-    "emojis": "⚔️",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: UKRAINE",
+    "summary": "Moscow escalates threats against Baltic states, Russia's oil prices surge while Ukrainian strikes intensify",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Reuters"
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 6,
+    "timestamp": "12:00 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK travel demand impacted by Middle East war, while EV registrations hit record high in March 2026.",
+    "emojis": "🚢⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "IHG",
+      "UK government"
+    ],
+    "source_count": 4,
+    "timestamp": "12:00 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon struggles with ongoing civil war and conflict, escalating to Israel's northern border.",
+    "emojis": "🚢⚔️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israelis",
+      "Lebanese government"
+    ],
+    "source_count": 5,
+    "timestamp": "12:00 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "WHO suspends Gaza medical evacuations following contractor's killing by Israeli troops.",
+    "emojis": "🪖💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "WHO",
+      "Israeli troops"
     ],
     "source_count": 1,
-    "timestamp": "09:55 AM"
+    "timestamp": "12:00 PM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "Gunman shot dead outside Israeli consulate in Istanbul, 2 others injured.",
+    "title": "SITREP: US-DC",
+    "summary": "Trump seeks to allow Chinese automakers in US market, but faces opposition from Congress.",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "ABC7 Los Angeles",
-      "Israeli consulate"
+      "Trump",
+      "Congress"
     ],
     "source_count": 1,
-    "timestamp": "09:55 AM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Former Migos rapper Offset shot in Florida, in stable condition according to reports.",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "09:55 AM"
+    "timestamp": "12:01 PM"
   }
 ];
 
