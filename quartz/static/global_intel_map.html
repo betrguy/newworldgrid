@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-07 22:22 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-04-08 07:36 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,117 +51,153 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: INDIA",
+    "summary": "Tata Motors launches Intra EV Pickup & MegaCharge partners NHEV for India's E-Highway network, strengthening ties with UAE.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Tata Motors",
+      "MegaCharge",
+      "India",
+      "United Arab Emirates"
+    ],
+    "source_count": 3,
+    "timestamp": "07:35 AM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran agree on two-week ceasefire, as Trump reverses strike threats following Greta Thunberg's criticism",
-    "emojis": "💥🕊️",
+    "summary": "US and Iran agree to 2-week ceasefire, relief boosts markets and stock indices.",
+    "emojis": "⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Iran",
-      "Greta Thunberg"
+      "US",
+      "Iran"
     ],
-    "source_count": 85,
-    "timestamp": "10:21 PM"
+    "source_count": 65,
+    "timestamp": "07:35 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China focuses on growth, trade, and infrastructure while maintaining military readiness and economic ties.",
-    "emojis": "🪖",
+    "summary": "China engages in diplomatic efforts, explores peace solutions and economic ties amidst human rights concerns.",
+    "emojis": "🕊️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Japan"
+      "Afghanistan",
+      "Pakistan",
+      "Taiwan",
+      "North Korea"
     ],
-    "source_count": 20,
-    "timestamp": "10:21 PM"
+    "source_count": 23,
+    "timestamp": "07:35 AM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Global economic impact from Middle East war tensions reported by France 24.",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine intensifies attacks on Russian energy sites, expands military operations in Vinnytsia region",
+    "emojis": "🪖⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "France 24"
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 1,
-    "timestamp": "10:21 PM"
+    "source_count": 10,
+    "timestamp": "07:35 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "China and Russia veto UN resolution to reopen Strait of Hormuz, blocking shipping lane protection.",
-    "emojis": "",
+    "summary": "Russia faces Ukrainian missile threat, saboteurs target rail lines, and diplomatic tensions rise globally.",
+    "emojis": "🚀⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "China",
+      "Ukraine",
       "Russia"
     ],
-    "source_count": 14,
-    "timestamp": "10:21 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel intercepts cluster bombs amid ceasefire, responds to Iranian ballistic missile fire and protests",
-    "emojis": "💥🚀🔴",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Iran",
-      "US"
-    ],
-    "source_count": 4,
-    "timestamp": "10:22 PM"
+    "source_count": 15,
+    "timestamp": "07:35 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Civilians trapped as Israel invades southern Lebanon, sparking international concern and humanitarian response efforts.",
-    "emojis": "🔴",
+    "summary": "Hezbollah urges displaced not to return, Lebanon excluded from ceasefire due to ongoing Israeli strikes.",
+    "emojis": "💥🕊️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
+      "Hezbollah",
       "Israel",
-      "Lebanese civilians"
+      "Lebanon"
     ],
-    "source_count": 1,
-    "timestamp": "10:22 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Germany intel agency warns of Russian cyber spying via APT28, escalating tensions between Russia and Germany.",
-    "emojis": "⚔️⚡",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Russia",
-      "Germany"
-    ],
-    "source_count": 1,
-    "timestamp": "10:22 PM"
+    "source_count": 2,
+    "timestamp": "07:35 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "US disrupts Russian military DNS hijacking network, according to Justice Department.",
-    "emojis": "🪖",
+    "summary": "UK politics, Kia EVs, and BYD's UK sales make headlines as Starmer visits Gulf, with electric cars gaining traction.",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "US",
-      "Russian military"
+      "Starmer",
+      "Kia",
+      "BYD"
+    ],
+    "source_count": 3,
+    "timestamp": "07:36 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel continues operations in Lebanon despite ceasefire, amid criticism and rising antisemitism",
+    "emojis": "⚔️🕊️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Hezbollah",
+      "Israel",
+      "Trump"
+    ],
+    "source_count": 5,
+    "timestamp": "07:36 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan's increasing influence as a geopolitical asset shapes its role in regional and global affairs.",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "China",
+      "India",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "10:22 PM"
+    "timestamp": "07:36 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Chinese FM visits North Korea, marking recent diplomatic efforts in region.",
+    "emojis": "",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "China",
+      "North Korea"
+    ],
+    "source_count": 1,
+    "timestamp": "07:36 AM"
   }
 ];
 
