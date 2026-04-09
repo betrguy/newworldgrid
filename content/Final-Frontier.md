@@ -8,25 +8,25 @@ date: 2026-03-22
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 09, 2026 - 09:15</span>
+  <span class="sotg-timestamp">April 09, 2026 - 16:47</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-NASA's Artemis-II success intensifies competition for China to achieve its 2030 crewed lunar landing goal while Australia experiences record growth in electric vehicle sales driven by Tesla, BYD, and MG Motor. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Amazon's Kuiper project is now launching over 100 satellites to establish its low-Earth orbit internet constellation while simultaneously developing home EV charging solutions with BYD and Humax. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 **The High Ground**
 
-NASA's Artemis-II success sharpens focus on China's 2030 crewed landing goal. This new development elevates the stakes in the race for national and private expeditions to cislunar space.
+Amazon's Project Kuiper has rebranded as Amazon Leo, marking a significant shift in the orbital infrastructure landscape. This change highlights the importance of satellite constellations in shaping the low Earth orbit internet economy. Amazon Leo is planning to launch more than 100 missions to deploy its initial low Earth orbit satellite internet constellation, which will have a significant impact on payload economics and logistics networks supporting space-based industries.
 
 **The EV Race**
 
-A critical shift in the Australian market is evident: Tesla, BYD, and MG Motor are driving record growth in electric vehicle sales, as reported by [ev market]. This surge demands attention from manufacturers and grid operators alike. The focus now shifts to battery supply chain implications. CATL's announcement of solid-state battery production by 2027 has been made public through its recent ESG Report, which showcases the company's sustainability efforts.
+A sudden shift in the Australian market has emerged as BYD and Humax drive record growth in electric vehicle sales, according to News.az. This explosive demand necessitates attention from manufacturers and grid operators alike.
 
 *What follows is purely a thought experiment.*
 
-In 2032, China's CATL solid-state battery breakthrough accelerates the adoption of electric aircraft in commercial aviation. As a result, NASA's Artemis program faces a sudden surge in demand for lithium from UK-based battery recyclers, leading to a global price spike. This unexpected supply chain shockwave forces Elon Musk to rethink Tesla's space-focused battery sourcing strategy, potentially redefining the company's role in the emerging lunar infrastructure market.
+As Amazon Leo's low-Earth orbit satellite internet constellation expands to over 100 missions by 2030, SpaceX's one million orbital data centers, fueled by this demand, inadvertently disrupt the global supply chain for high-speed internet cables used in undersea fiber-optic networks. With an unprecedented surge in demand for satellite-based connectivity, a critical shortage of these undersea cables emerges, causing a ripple effect on international financial markets and disrupting global communication infrastructure. The consequences? A sudden 20% increase in global shipping costs due to the scarcity of reliable data transmission lines, devastating small businesses reliant on fast and secure online transactions.
 
 <!-- /FRONTIER_ENGINE_END -->
