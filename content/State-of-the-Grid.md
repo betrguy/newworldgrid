@@ -8,28 +8,28 @@ description: "The physical floor of the new economy. Energy, industrial hiring, 
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 09, 2026 - 09:10</span>
+  <span class="sotg-timestamp">April 09, 2026 - 09:13</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Geopolitical tensions in the Middle East are increasingly influencing global energy and infrastructure dynamics. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+The US grid is poised for a transformative shift with the potential for over $1 billion in transmission rebilling and the introduction of small modular reactors to deliver reliable, low-carbon power. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The grid's resilience is being tested as Persian Gulf geopolitics influence CF Industries' nitrogen business, potentially disrupting global fertilizer production and supply chains. This development highlights the interconnectedness of energy systems and the need for robust contingency planning to mitigate potential outages.</p>
+<p class="meridian-lede">The global energy grid is undergoing a significant transformation as PJM estimates FERC's order will require over $1 billion in transmission rebilling, highlighting the need for strategic investments to ensure system resilience and reliability. This development underscores the importance of upgrading aging infrastructure to accommodate growing demand and integrate intermittent renewable sources.</p>
 
-In light of these tensions, it is essential to emphasize the importance of domestic grid stability. The recent decision by a Maryland utility to reduce fluoride in water supplies due to Middle East conflict underscores the vulnerability of critical infrastructure. As the grid continues to evolve with the rapid deployment of grid-scale battery storage and solar power, it is crucial that we prioritize resilience and reliability measures to ensure the uninterrupted supply of essential services.
+In light of these changes, it is essential to prioritize grid-scale battery storage and solar power integration to enhance overall energy security. The recent advancements in Small Modular Reactors (SMRs) also hold significant promise for delivering reliable, low-carbon power.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The Persian Gulf's influence on fertilizer production poses a significant risk to global food security.</li>
-  <li><strong>The big picture:</strong> This development highlights the systemic vulnerability of critical infrastructure and the need for robust contingency planning in the face of geopolitical tensions.</li>
-  <li><strong>What to watch:</strong> Monitor the impact of any potential disruptions on global fertilizer prices and supply chains.</li>
+  <li><strong>Why it matters:</strong> FERC's order will require over $1 billion in transmission rebilling, highlighting the need for strategic investments to ensure system resilience and reliability.</li>
+  <li><strong>The big picture:</strong> The global energy grid is undergoing a significant transformation, requiring strategic investments to integrate intermittent renewable sources and upgrade aging infrastructure.</li>
+  <li><strong>What to watch:</strong> Monitor advancements in Small Modular Reactors (SMRs) for their potential impact on delivering reliable, low-carbon power.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic activity exhibits a Kp peak value of 2.3, corresponding to a Quiet condition with an average Kp of 1.67 and a current reading of 1.3. This quiet state ensures uninterrupted satellite operations and normal HF radio communications, while also precluding any potential disruptions to the power grid.
+Geophysical substrate synchronization in progress. Geomagnetic stability remains within normal parameters.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
