@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-10 12:01 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-04-10 13:38 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,64 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China strengthens ties with US, promotes trade and cooperation; focuses on tech and EV exports.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US"
-    ],
-    "source_count": 19,
-    "timestamp": "12:00 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine and Russia near peace deal amid Easter ceasefire, with Kyiv producing more drones to aid effort.",
-    "emojis": "✈️⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Zelenskyy",
-      "Russia"
-    ],
-    "source_count": 11,
-    "timestamp": "12:00 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia cracks down on internet, designates Stanford University as undesirable organization and jails former defense minister.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Stanford University"
-    ],
-    "source_count": 12,
-    "timestamp": "12:00 PM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Florida's fuel supply vulnerable due to Middle East conflict, raising concerns for energy security.",
-    "emojis": "⚔️",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "Reuters"
-    ],
-    "source_count": 1,
-    "timestamp": "12:01 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran embarks on peace talks, wary of Trump, amid ongoing conflict with US and Israel.",
-    "emojis": "✈️⚔️🕊️",
+    "summary": "US-Iran-Israel tensions escalate, with bombing campaigns and ceasefire talks amid Middle East conflicts.",
+    "emojis": "💥🚀⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -118,67 +63,136 @@
       "Israel"
     ],
     "source_count": 40,
-    "timestamp": "12:01 PM"
+    "timestamp": "01:38 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China strengthens military presence amid Taiwan tensions, while promoting diplomacy and trade with US and Zimbabwe.",
+    "emojis": "🪖⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Taiwan",
+      "US",
+      "Zimbabwe"
+    ],
+    "source_count": 18,
+    "timestamp": "01:38 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces backlash and criticism from Democrats, Spain, and Lebanon over military actions and policies.",
-    "emojis": "🪖⚔️",
+    "summary": "Israel and Hezbollah trade fire as Lebanon heads to historic talks with few hopes for bloodshed resolution.",
+    "emojis": "💥",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "AIPAC",
-      "Fetterman",
-      "Spain",
-      "Netanyahu",
+      "Israel",
+      "Hezbollah",
       "Lebanon"
     ],
-    "source_count": 17,
-    "timestamp": "12:01 PM"
+    "source_count": 22,
+    "timestamp": "01:38 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia imposes restrictions on Ukrainian relations, designates Stanford University as undesirable organization.",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "Stanford University"
+    ],
+    "source_count": 9,
+    "timestamp": "01:38 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "JD Vance visits Pakistan amidst rising Middle East tensions and global uncertainty.",
+    "emojis": "⚡",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "JD Vance"
+    ],
+    "source_count": 1,
+    "timestamp": "01:38 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia announces 32-hour ceasefire for Orthodox Easter, amid ongoing Ukraine war tensions and drone clashes.",
+    "emojis": "✈️⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Putin",
+      "Zelenskyy"
+    ],
+    "source_count": 7,
+    "timestamp": "01:38 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Macron and Pope Leo XIV urge Middle East dialogue to promote peace and stability.",
+    "emojis": "🕊️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "Pope Leo XIV"
+    ],
+    "source_count": 1,
+    "timestamp": "01:38 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Intense Israeli attacks strike Lebanon, killing dozens, with drones spotted hours before and after",
-    "emojis": "✈️💥⚔️",
+    "summary": "Israeli airstrikes hit Lebanon, injuring a reservist and causing civil casualties, with India condemning reports.",
+    "emojis": "🪖💥🚀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
       "Israel",
-      "Lebanon"
+      "Lebanon",
+      "India"
     ],
-    "source_count": 3,
-    "timestamp": "12:01 PM"
+    "source_count": 4,
+    "timestamp": "01:38 PM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Florida's fuel supply vulnerable due to Middle East war, sparking concerns and market fluctuations.",
+    "emojis": "⚔️",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "Reuters",
+      "TradingView"
+    ],
+    "source_count": 2,
+    "timestamp": "01:38 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK to send missiles to Middle East amid US reaffirmed NATO commitment, while Honda launches compact EV.",
+    "summary": "Britain to send hundreds of missiles to Middle East as US reaffirms NATO commitment.",
     "emojis": "🚀",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Britain",
       "US",
-      "Honda"
-    ],
-    "source_count": 2,
-    "timestamp": "12:01 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Iranian American Congress member criticizes Trump's war, calls him mentally unstable and pushes for removal.",
-    "emojis": "⚔️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Iranian American",
-      "Trump"
+      "UK"
     ],
     "source_count": 1,
-    "timestamp": "12:01 PM"
+    "timestamp": "01:38 PM"
   }
 ];
 
