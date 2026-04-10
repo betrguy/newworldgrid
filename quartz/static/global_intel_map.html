@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-10 09:10 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-04-10 12:01 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,125 +51,96 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran ceasefire at stake as Israel and Hezbollah exchange strikes ahead of high-stakes US-Iran talks.",
-    "emojis": "💥⚔️🕊️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Israel",
-      "Hezbollah",
-      "US",
-      "Iran"
-    ],
-    "source_count": 45,
-    "timestamp": "09:10 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine move towards potential peace deal amid ongoing conflict and Russian military expansion.",
-    "emojis": "🪖⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 11,
-    "timestamp": "09:10 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise between Israel and Lebanon, with potential talks and diplomatic efforts underway.",
-    "emojis": "💥🕊️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Lebanon",
-      "France",
-      "US",
-      "Spain",
-      "UK",
-      "Canada",
-      "Australia",
-      "Mexico",
-      "Netherlands",
-      "China",
-      "Germany",
-      "Japan"
-    ],
-    "source_count": 19,
-    "timestamp": "09:10 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Honda Super-N Compact EV arrives in UK, while Britain's influence wanes in Middle East and electric vehicle tech advances.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Honda",
-      "Keir Starmer",
-      "Lotus"
-    ],
-    "source_count": 3,
-    "timestamp": "09:10 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China's economic and diplomatic landscape shifts with new car sales, EV launches, and significant summits with US and Taiwan.",
+    "summary": "China strengthens ties with US, promotes trade and cooperation; focuses on tech and EV exports.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Hyundai",
-      "Kim Jong Un",
-      "Xi Jinping",
-      "Trump"
+      "China",
+      "US"
     ],
-    "source_count": 16,
-    "timestamp": "09:10 AM"
+    "source_count": 19,
+    "timestamp": "12:00 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine and Russia near peace deal amid Easter ceasefire, with Kyiv producing more drones to aid effort.",
+    "emojis": "✈️⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Zelenskyy",
+      "Russia"
+    ],
+    "source_count": 11,
+    "timestamp": "12:00 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces decline in space power, sanctions impact, and ongoing international influence amid economic struggles.",
-    "emojis": "⚔️🚫",
+    "summary": "Russia cracks down on internet, designates Stanford University as undesirable organization and jails former defense minister.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "United States",
-      "Europe",
-      "Hungary",
-      "Cuba"
+      "Russia",
+      "Stanford University"
     ],
-    "source_count": 11,
-    "timestamp": "09:10 AM"
+    "source_count": 12,
+    "timestamp": "12:00 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India observes shifting global dynamics as Islamabad talks gain momentum.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: US-FL",
+    "summary": "Florida's fuel supply vulnerable due to Middle East conflict, raising concerns for energy security.",
+    "emojis": "⚔️",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
     "actors": [
-      "India",
-      "Pakistan"
+      "Reuters"
     ],
     "source_count": 1,
-    "timestamp": "09:10 AM"
+    "timestamp": "12:01 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran embarks on peace talks, wary of Trump, amid ongoing conflict with US and Israel.",
+    "emojis": "✈️⚔️🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Israel"
+    ],
+    "source_count": 40,
+    "timestamp": "12:01 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces backlash and criticism from Democrats, Spain, and Lebanon over military actions and policies.",
+    "emojis": "🪖⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "AIPAC",
+      "Fetterman",
+      "Spain",
+      "Netanyahu",
+      "Lebanon"
+    ],
+    "source_count": 17,
+    "timestamp": "12:01 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes kill over 300 people in Lebanon, escalating violence in region.",
-    "emojis": "💥",
+    "summary": "Intense Israeli attacks strike Lebanon, killing dozens, with drones spotted hours before and after",
+    "emojis": "✈️💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -177,22 +148,37 @@
       "Israel",
       "Lebanon"
     ],
-    "source_count": 1,
-    "timestamp": "09:10 AM"
+    "source_count": 3,
+    "timestamp": "12:01 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan opposition leader calls for reconciliation after meeting Xi Jinping, marking first meeting in a decade.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: UK",
+    "summary": "UK to send missiles to Middle East amid US reaffirmed NATO commitment, while Honda launches compact EV.",
+    "emojis": "🚀",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Xi Jinping",
-      "Taiwan opposition leader"
+      "Britain",
+      "US",
+      "Honda"
     ],
     "source_count": 2,
-    "timestamp": "09:10 AM"
+    "timestamp": "12:01 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Iranian American Congress member criticizes Trump's war, calls him mentally unstable and pushes for removal.",
+    "emojis": "⚔️",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Iranian American",
+      "Trump"
+    ],
+    "source_count": 1,
+    "timestamp": "12:01 PM"
   }
 ];
 

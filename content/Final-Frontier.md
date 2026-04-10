@@ -9,27 +9,29 @@ socialImage: finalfrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 10, 2026 - 09:12</span>
+  <span class="sotg-timestamp">April 10, 2026 - 12:02</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-China's lunar probe development accelerates while Ohio expands its electric vehicle charging infrastructure. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Russia's repurposing of North Korean rocket technology into ground drones may have implications for orbital economy development, while Ohio's expansion of electric vehicle charging infrastructure could facilitate the widespread adoption of EVs in the grid. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
-**The High Ground**
+### **The High Ground**
 
-China will launch Chang'e-7 lunar probe in the second half of 2026, according to Xinhua News. This marks another important step in China's ongoing efforts to explore and utilize the Moon's resources.
+Russia has repurposed a North Korean rocket launcher into a crewless ground drone weapon, as reported by UNITED24 Media on April 10, 2026. This development highlights Russia's focus on infrastructure development and utilization in the orbital economy.
 
 ### **The EV Race**
 
-A crucial charging station expansion has started in Ohio, with Valley location 1 of 64 sites announced [1]. This development underscores the mounting pressure on grid operators to ensure widespread and reliable access to electric vehicle (EV) charging infrastructure.
+A significant expansion of electric vehicle charging infrastructure has taken hold in Ohio, with 64 new sites announced this week, backed by $51 million in federal funding [1]. This development puts pressure on grid operators to ensure widespread and reliable access to EV charging stations. For buyers, the increased availability of charging points means reduced range anxiety, allowing for greater adoption of electric vehicles.
 
-[1] WKBN.com: "Valley location 1 of 64 in Ohio to get new EV charging station"
+[1] Ohio to expand EV charging network with 64 new sites backed by $51M in federal funding: See the Greater Cleveland locations
+
+### **Frontier Speculation: The 0.1% Shift**
 
 *What follows is purely a thought experiment.*
 
-Imagine a world 9 years from now where CATL's solid-state battery production breakthrough in 2027 has catalyzed an unexpected chain reaction. China's dominance in the global EV battery market, amplified by their early mover advantage, has led to a significant shift in international trade dynamics. By 2036, the sheer scale of China's recycled lithium supply – courtesy of UK-based recycling pioneers recyling 97% of EV batteries – has enabled Beijing to corner the global cobalt market. This new stranglehold allows China to dictate the development and deployment of advanced space mining technologies, effectively blocking Western nations from accessing crucial resources for their own lunar and asteroid missions.
+Here's a hypothetical scenario: In the next decade, China's massive battery buildout drives down global costs, making electric vehicles (EVs) with advanced energy storage a staple in North Korean and Russian armies. This sparks an unprecedented arms race for high-tech mobility, as other nations rush to equip their military units with similar capabilities. Russia, leveraging its new North Korean-made rocket-turned-drone tech, becomes the go-to provider of autonomous logistics systems for both Chinese and US military forces.
 
 <!-- /FRONTIER_ENGINE_END -->
