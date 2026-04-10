@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-09 16:46 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-04-09 22:45 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,178 +52,119 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran tensions escalate amid US-Israel war threats, world anxiously waits for ceasefire impact",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran's leaders emerge from war confident, while Trump and Xi weigh in on Iran conflict",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Israel",
-      "Iran"
+      "Trump",
+      "Xi",
+      "Khamenei",
+      "Netanyahu"
     ],
-    "source_count": 41,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Vladimir Putin announces 32-hour ceasefire in Ukraine for Orthodox Easter",
-    "emojis": "⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Putin",
-      "Ukraine"
-    ],
-    "source_count": 17,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China expands global influence with robotics, tourism, and military moves, while seeking calm on tensions.",
-    "emojis": "🪖⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Panama president",
-      "China",
-      "India",
-      "Russia",
-      "Taiwan"
-    ],
-    "source_count": 8,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel launches strikes on Lebanon, US hosts talks to discuss ceasefire, amid escalating tensions.",
-    "emojis": "💥💀🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Lebanon",
-      "US",
-      "Hezbollah",
-      "Benjamin Netanyahu"
-    ],
-    "source_count": 26,
-    "timestamp": "04:45 PM"
+    "source_count": 37,
+    "timestamp": "10:43 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Tensions rise with France over possible war, sanctions take toll on Russia's economy and military",
-    "emojis": "🪖⚔️🚫",
+    "summary": "Russia supports Cuba, blocks UN resolution on Hormuz Strait, and bans VPN tracker website.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "France",
+      "Russia",
+      "China"
+    ],
+    "source_count": 4,
+    "timestamp": "10:44 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Netanyahu approves Israel-Lebanon talks amid escalating tensions and airstrikes, defying ceasefire claims",
+    "emojis": "💥⚔️🕊️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Netanyahu",
+      "Hezbollah"
+    ],
+    "source_count": 20,
+    "timestamp": "10:44 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia announces 32-hour ceasefire in Ukraine for Orthodox Easter weekend, following Zelenskyy's push.",
+    "emojis": "🪖⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Vladimir Putin",
+      "Ukraine",
       "Russia"
     ],
-    "source_count": 14,
-    "timestamp": "04:45 PM"
+    "source_count": 17,
+    "timestamp": "10:44 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK detects 3 Russian spy submarines near Britain, deploys military to protect undersea cables.",
-    "emojis": "🪖🚢",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK",
-      "Russia"
-    ],
-    "source_count": 3,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Kia invests $600M in Mexico expansion and electric vehicle push.",
+    "title": "SITREP: CHINA",
+    "summary": "China engages with international partners on various fronts, strengthening economic ties and diplomatic relations.",
     "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Mexico Government",
-      "Kia Corporation"
+      "China",
+      "India",
+      "North Korea"
     ],
-    "source_count": 1,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Melania Trump denies friendship with convicted sex offender Jeffrey Epstein in rare public address.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Melania Trump",
-      "Jeffrey Epstein"
-    ],
-    "source_count": 2,
-    "timestamp": "04:46 PM"
-  },
-  {
-    "title": "SITREP: COLOMBIA",
-    "summary": "Colombia takes steps to mitigate impact of Middle East war and interest rate hikes on economy.",
-    "emojis": "⚔️",
-    "lat": 4.57,
-    "lng": -74.29,
-    "location": "COLOMBIA",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "04:46 PM"
+    "source_count": 22,
+    "timestamp": "10:45 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Volkswagen to end electric vehicle production at Tennessee plant, impacting US-NY region.",
-    "emojis": "",
+    "summary": "Middle East conflict updates",
+    "emojis": "⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "The New York Times",
-      "Volkswagen"
+      "US",
+      "NY"
     ],
     "source_count": 1,
-    "timestamp": "04:46 PM"
+    "timestamp": "10:45 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Ceasefire in Iran sparks outrage and fear among Iranians amid criticism of Trump's handling of situation.",
-    "emojis": "🕊️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: UK",
+    "summary": "Russian submarines allegedly targeted UK submarine communications cables.",
+    "emojis": "🚢",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Trump",
-      "Iran"
+      "Russia",
+      "UK"
     ],
     "source_count": 1,
-    "timestamp": "04:46 PM"
+    "timestamp": "10:45 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Nuncio in Lebanon urges ceasefire, calling war 'not the right path' amidst conflict.",
-    "emojis": "⚔️🕊️",
+    "summary": "Beirut hospitals overwhelmed by Israeli attacks, struggling to treat wounded civilians.",
+    "emojis": "⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Catholic Church",
-      "Lebanese government"
+      "Israel",
+      "Lebanon/Civilians"
     ],
     "source_count": 1,
-    "timestamp": "04:46 PM"
+    "timestamp": "10:45 PM"
   }
 ];
 
