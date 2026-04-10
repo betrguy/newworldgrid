@@ -2,6 +2,7 @@
 title: Predictive News
 layout: page
 date: 2026-01-26
+socialImage: predictivenews.png
 ---
 
 <!-- ORACLE_BYLINE -->

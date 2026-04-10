@@ -2,6 +2,7 @@
 title: State of the Grid
 layout: page
 description: "The physical floor of the new economy. Energy, industrial hiring, and sovereign capital."
+socialImage: stateofthegrid.png
 ---
 
 <!-- GRID_ENGINE_CONTENT -->

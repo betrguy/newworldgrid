@@ -1,6 +1,7 @@
 ---
 title: Daily Optimism
 layout: page
+socialImage: dailyoptimism.png
 ---
 
 <div class="sotg-byline">

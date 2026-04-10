@@ -2,6 +2,7 @@
 title: Final Frontier
 layout: page
 date: 2026-03-22
+socialImage: finalfrontier.png
 ---
 
 <!-- ARC_BYLINE -->
