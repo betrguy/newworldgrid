@@ -26,6 +26,7 @@ import ConditionalRender from "./ConditionalRender"
 import CustomBanner from "./CustomBanner" // <--- 1. ADDED IMPORT HERE
 import NewsletterSignup from "./NewsletterSignup"
 import SponsorCTA from "./SponsorCTA"
+import AudioBroadcastPlayer from "./AudioBroadcastPlayer"
 
 export {
   ArticleTitle,
@@ -56,4 +57,5 @@ export {
   CustomBanner, // <--- 2. ADDED EXPORT HERE
   NewsletterSignup,
   SponsorCTA,
+  AudioBroadcastPlayer,
 }

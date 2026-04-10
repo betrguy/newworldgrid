@@ -5,6 +5,28 @@ date: 2026-03-22
 socialImage: finalfrontier.png
 ---
 
+<!-- NWG_AUDIO_PLAYER_START -->
+<div class="nwg-audio-shell" data-audio-src="/assets/audio/final_frontier.wav">
+  <div class="nwg-audio-head">
+    <div class="nwg-audio-title">ARC BROADCAST // APR 10</div>
+    <div class="nwg-audio-time">
+      <span data-current-time>00:00</span>
+      <span> / </span>
+      <span data-total-time>01:39</span>
+    </div>
+  </div>
+
+  <div class="nwg-audio-bar">
+    <div class="nwg-audio-progress" data-progress></div>
+  </div>
+
+  <div class="nwg-audio-controls">
+    <button class="nwg-audio-btn" type="button" data-role="rewind">-10s</button>
+    <button class="nwg-audio-btn" type="button" data-role="play">Play</button>
+    <button class="nwg-audio-btn" type="button" data-role="forward">+10s</button>
+  </div>
+</div>
+<!-- NWG_AUDIO_PLAYER_END -->
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>

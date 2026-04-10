@@ -4,7 +4,30 @@ layout: folder
 description: "Intelligence signals for the new economy. Energy, predictions, shadow GDP."
 socialImage: https://thenewworldgrid.com/static/og-image.png
 ---
-  <div class="quote-section">
+  
+<!-- NWG_AUDIO_PLAYER_START -->
+<div class="nwg-audio-shell" data-audio-src="/assets/audio/index_master_summary.wav">
+  <div class="nwg-audio-head">
+    <div class="nwg-audio-title">MASTER BROADCAST // APR 10</div>
+    <div class="nwg-audio-time">
+      <span data-current-time>00:00</span>
+      <span> / </span>
+      <span data-total-time>01:21</span>
+    </div>
+  </div>
+
+  <div class="nwg-audio-bar">
+    <div class="nwg-audio-progress" data-progress></div>
+  </div>
+
+  <div class="nwg-audio-controls">
+    <button class="nwg-audio-btn" type="button" data-role="rewind">-10s</button>
+    <button class="nwg-audio-btn" type="button" data-role="play">Play</button>
+    <button class="nwg-audio-btn" type="button" data-role="forward">+10s</button>
+  </div>
+</div>
+<!-- NWG_AUDIO_PLAYER_END -->
+<div class="quote-section">
   <h3 class="section-header">Where are we?</h3>
   <blockquote class="terminal-quote">
     "We are living in the hour between midnight and dawn. The old world is dying. Its final, chaotic death-throes are the tremors you feel in your bank account and your courts."

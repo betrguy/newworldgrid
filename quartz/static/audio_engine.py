@@ -313,209 +313,26 @@ def build_player_block(summary_title: str, audio_url: str, duration_label: str) 
     safe_title = html.escape(summary_title)
     safe_audio_url = html.escape(audio_url, quote=True)
     safe_duration = html.escape(duration_label)
-    component_id = re.sub(r"[^a-z0-9]+", "-", summary_title.lower()).strip("-")
     return f"""<!-- {PLAYER_MARKER}_START -->
-<div class="nwg-audio-shell" data-nwg-audio-player="{component_id}" data-audio-src="{safe_audio_url}">
-  <style>
-    .nwg-audio-shell[data-nwg-audio-player="{component_id}"] {{
-      --nwg-bg: linear-gradient(180deg, rgba(8,10,14,0.96), rgba(13,18,25,0.94));
-      --nwg-panel: rgba(255, 255, 255, 0.05);
-      --nwg-border: rgba(117, 198, 255, 0.22);
-      --nwg-text: #edf6ff;
-      --nwg-subtle: #7f97ac;
-      --nwg-accent: #75c6ff;
-      --nwg-accent-strong: #b7ecff;
-      margin: 1.1rem 0 1.5rem;
-      border: 1px solid var(--nwg-border);
-      background: var(--nwg-bg);
-      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.05);
-      border-radius: 18px;
-      padding: 1rem;
-      overflow: hidden;
-      position: relative;
-    }}
-    .nwg-audio-shell[data-nwg-audio-player="{component_id}"]::before {{
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at top right, rgba(117,198,255,0.14), transparent 34%),
-        linear-gradient(90deg, transparent, rgba(117,198,255,0.08), transparent);
-      pointer-events: none;
-    }}
-    .nwg-audio-head-{component_id} {{
-      display: flex;
-      justify-content: space-between;
-      gap: 1rem;
-      align-items: center;
-      margin-bottom: 0.9rem;
-      position: relative;
-      z-index: 1;
-    }}
-    .nwg-audio-title-{component_id} {{
-      color: var(--nwg-text);
-      font-size: 0.86rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      font-weight: 700;
-      line-height: 1.4;
-    }}
-    .nwg-audio-time-{component_id} {{
-      color: var(--nwg-subtle);
-      font-variant-numeric: tabular-nums;
-      font-size: 0.8rem;
-      white-space: nowrap;
-    }}
-    .nwg-audio-bar-{component_id} {{
-      position: relative;
-      z-index: 1;
-      height: 5px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.08);
-      overflow: hidden;
-      margin-bottom: 0.95rem;
-    }}
-    .nwg-audio-progress-{component_id} {{
-      height: 100%;
-      width: 0%;
-      background: linear-gradient(90deg, var(--nwg-accent), var(--nwg-accent-strong));
-      box-shadow: 0 0 18px rgba(117,198,255,0.45);
-      transition: width 120ms linear;
-    }}
-    .nwg-audio-controls-{component_id} {{
-      position: relative;
-      z-index: 1;
-      display: flex;
-      gap: 0.75rem;
-      align-items: center;
-      flex-wrap: wrap;
-    }}
-    .nwg-audio-btn-{component_id} {{
-      appearance: none;
-      border: 1px solid rgba(117,198,255,0.26);
-      background: rgba(255,255,255,0.04);
-      color: var(--nwg-text);
-      border-radius: 999px;
-      min-width: 3rem;
-      height: 3rem;
-      padding: 0 1rem;
-      font-size: 0.82rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
-    }}
-    .nwg-audio-btn-{component_id}:hover {{
-      transform: translateY(-1px);
-      border-color: rgba(183,236,255,0.65);
-      background: rgba(117,198,255,0.12);
-    }}
-    .nwg-audio-btn-{component_id}[data-role="play"] {{
-      background: linear-gradient(180deg, rgba(117,198,255,0.22), rgba(117,198,255,0.08));
-      font-weight: 700;
-      min-width: 5.5rem;
-    }}
-    @media (max-width: 720px) {{
-      .nwg-audio-head-{component_id} {{
-        align-items: flex-start;
-        flex-direction: column;
-      }}
-      .nwg-audio-controls-{component_id} {{
-        width: 100%;
-      }}
-      .nwg-audio-btn-{component_id}[data-role="play"] {{
-        flex: 1 1 100%;
-      }}
-    }}
-  </style>
-
-  <div class="nwg-audio-head-{component_id}">
-    <div class="nwg-audio-title-{component_id}">{safe_title}</div>
-    <div class="nwg-audio-time-{component_id}">
+<div class="nwg-audio-shell" data-audio-src="{safe_audio_url}">
+  <div class="nwg-audio-head">
+    <div class="nwg-audio-title">{safe_title}</div>
+    <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
       <span data-total-time>{safe_duration}</span>
     </div>
   </div>
 
-  <div class="nwg-audio-bar-{component_id}">
-    <div class="nwg-audio-progress-{component_id}" data-progress></div>
+  <div class="nwg-audio-bar">
+    <div class="nwg-audio-progress" data-progress></div>
   </div>
 
-  <div class="nwg-audio-controls-{component_id}">
-    <button class="nwg-audio-btn-{component_id}" type="button" data-role="rewind">-10s</button>
-    <button class="nwg-audio-btn-{component_id}" type="button" data-role="play">Play</button>
-    <button class="nwg-audio-btn-{component_id}" type="button" data-role="forward">+10s</button>
+  <div class="nwg-audio-controls">
+    <button class="nwg-audio-btn" type="button" data-role="rewind">-10s</button>
+    <button class="nwg-audio-btn" type="button" data-role="play">Play</button>
+    <button class="nwg-audio-btn" type="button" data-role="forward">+10s</button>
   </div>
-
-  <script>
-    (() => {{
-      const root = document.querySelector('[data-nwg-audio-player="{component_id}"]');
-      if (!root || root.dataset.bound === "true") return;
-      root.dataset.bound = "true";
-
-      const audio = new Audio(root.dataset.audioSrc);
-      audio.preload = "metadata";
-
-      const currentNode = root.querySelector("[data-current-time]");
-      const totalNode = root.querySelector("[data-total-time]");
-      const progressNode = root.querySelector("[data-progress]");
-      const playButton = root.querySelector('[data-role="play"]');
-      const rewindButton = root.querySelector('[data-role="rewind"]');
-      const forwardButton = root.querySelector('[data-role="forward"]');
-
-      const formatTime = (seconds) => {{
-        if (!Number.isFinite(seconds) || seconds < 0) return "00:00";
-        const whole = Math.floor(seconds);
-        const mins = String(Math.floor(whole / 60)).padStart(2, "0");
-        const secs = String(whole % 60).padStart(2, "0");
-        return `${{mins}}:${{secs}}`;
-      }};
-
-      const syncUi = () => {{
-        currentNode.textContent = formatTime(audio.currentTime);
-        const duration = Number.isFinite(audio.duration) && audio.duration > 0 ? audio.duration : 0;
-        if (duration > 0) {{
-          totalNode.textContent = formatTime(duration);
-          progressNode.style.width = `${{(audio.currentTime / duration) * 100}}%`;
-        }} else {{
-          progressNode.style.width = "0%";
-        }}
-        playButton.textContent = audio.paused ? "Play" : "Pause";
-      }};
-
-      playButton.addEventListener("click", async () => {{
-        if (audio.paused) {{
-          try {{
-            await audio.play();
-          }} catch (error) {{
-            console.error("Audio playback failed", error);
-          }}
-        }} else {{
-          audio.pause();
-        }}
-        syncUi();
-      }});
-
-      rewindButton.addEventListener("click", () => {{
-        audio.currentTime = Math.max(audio.currentTime - 10, 0);
-        syncUi();
-      }});
-
-      forwardButton.addEventListener("click", () => {{
-        const duration = Number.isFinite(audio.duration) && audio.duration > 0 ? audio.duration : audio.currentTime + 10;
-        audio.currentTime = Math.min(audio.currentTime + 10, duration);
-        syncUi();
-      }});
-
-      audio.addEventListener("loadedmetadata", syncUi);
-      audio.addEventListener("timeupdate", syncUi);
-      audio.addEventListener("ended", syncUi);
-      audio.addEventListener("pause", syncUi);
-      audio.addEventListener("play", syncUi);
-      syncUi();
-    }})();
-  </script>
 </div>
 <!-- {PLAYER_MARKER}_END -->"""
 
