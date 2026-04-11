@@ -20,8 +20,8 @@ from kokoro import KPipeline
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434/api/generate")
 DEFAULT_MODEL = os.environ.get("OLLAMA_MODEL", "mannix/llama3.1-8b-abliterated")
-DEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "am_michael")
-DEFAULT_SPEED = float(os.environ.get("KOKORO_SPEED", "0.94"))
+DEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "am_michael")        
+DEFAULT_SPEED = float(os.environ.get("KOKORO_SPEED", "0.94"))       
 SAMPLE_RATE = 24000
 PLAYER_MARKER = "NWG_AUDIO_PLAYER"
 SCRIPT_WORD_TARGET = "350 to 450 words"
@@ -48,12 +48,13 @@ def build_targets(repo_root: Path) -> list[BroadcastTarget]:
         BroadcastTarget(
             markdown_path=content_dir / "index.md",
             audio_filename="index_master_summary.wav",
-            summary_title="?? New World Grid",      
+            summary_title="🌐 New World Grid",      
             persona="New World Grid Host",
             prompt_scope="Create a comprehensive, informative, and analytical synthesis of today's findings across all grid pages (Predictive News, Daily Optimism, State of the Grid, and Final Frontier). Weave them into a single coherent monologue.",
             include_other_pages=True,
         ),
     ]
+
 
 def parse_args() -> argparse.Namespace:
     default_repo_root = Path(__file__).resolve().parents[2]
@@ -85,14 +86,14 @@ def main() -> int:
         for path, content in source_cache.items()
     }
 
-    pipeline = None if args.dry_run else KPipeline(lang_code="a")
+    pipeline = None if args.dry_run else KPipeline(lang_code="a")   
     generated_scripts: dict[str, str] = {}
     duration_manifest: dict[str, str] = {}
 
     for target in targets:
-        prompt = build_prompt(target, targets, plain_text_cache)
+        prompt = build_prompt(target, targets, plain_text_cache)    
         script_text = generate_script_via_ollama(model=args.model, prompt=prompt)
-        generated_scripts[target.audio_filename] = script_text
+        generated_scripts[target.audio_filename] = script_text      
 
         if args.dry_run:
             duration_label = "01:00"
@@ -105,14 +106,8 @@ def main() -> int:
                 speed=args.speed,
                 output_path=output_path,
             )
-        duration_manifest[target.audio_filename] = duration_label
-        pass # inject_player(
-            # markdown_path=target.markdown_path,
-            # summary_title=target.summary_title,
-            # audio_url=target.audio_url,
-            # duration_label=duration_label,
-            # dry_run=args.dry_run,
-        # )
+        duration_manifest[target.audio_filename] = duration_label   
+        # inject_player call removed for sidebar layout compatibility
 
     audit_payload = {
         "generatedAt": datetime.now().isoformat(),
@@ -135,10 +130,10 @@ def main() -> int:
 def normalize_source_for_prompt(raw_text: str) -> str:
     text = raw_text
     text = re.sub(r"^---\s*\r?\n.*?^\-\-\-\s*\r?\n?", "", text, flags=re.DOTALL | re.MULTILINE)
-    text = re.sub(r"<!--.*?-->", " ", text, flags=re.DOTALL)
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.DOTALL)        
     text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"`{3,}.*?`{3,}", " ", text, flags=re.DOTALL)
-    text = text.replace("&mdash;", "-").replace("&nbsp;", " ")
+    text = re.sub(r"`{3,}.*?`{3,}", " ", text, flags=re.DOTALL)     
+    text = text.replace("&mdash;", "-").replace("&nbsp;", " ")      
     text = re.sub(r"!\[\[.*?\]\]", " ", text)
     text = re.sub(r"\[\[(.*?)\]\]", r"\1", text)
     text = re.sub(r"\[(.*?)\]\((.*?)\)", r"\1", text)
@@ -154,11 +149,15 @@ def build_prompt(
 ) -> str:
     if target.include_other_pages:
         sections = []
-        for other_target in all_targets:
-            if other_target.markdown_path == target.markdown_path:
-                continue
-            section_text = plain_text_cache[other_target.markdown_path][:2000]
-            sections.append(f"{other_target.markdown_path.stem}:\n{section_text}")
+        # In this specific master summary, we want to include content from other major desks
+        repo_root = target.markdown_path.resolve().parents[1]
+        content_dir = repo_root / "content"
+        others = ["Predictive-News.md", "Optimism.md", "State-of-the-Grid.md", "Final-Frontier.md"]
+        for o in others:
+            p = content_dir / o
+            if p.exists():
+                txt = normalize_source_for_prompt(p.read_text(encoding="utf-8"))
+                sections.append(f"{o.replace('.md', '')}:\n{txt[:2000]}")
         body = "\n\n".join(sections)
     else:
         body = plain_text_cache[target.markdown_path]
@@ -176,14 +175,14 @@ def build_prompt(
         "- You may mention 'New World Grid' and the specific page title when relevant to the context.\n"
         "- Use clean spoken prose only. No bullet points, stage directions, or markdown symbols.\n"
         f"- Length: Target {SCRIPT_WORD_TARGET} for a natural reading pace.\n"
-        "- Focus on clarity and the synthesis of signals.\n\n"
+        "- Focus on clarity and the synthesis of signals.\n\n"      
         "Source material:\n"
         f"{body}\n\n"
         "CRITICAL: Return ONLY the spoken text. Do not include labels, descriptions, or commentary."
     )
 
 
-def generate_script_via_ollama(model: str, prompt: str) -> str:
+def generate_script_via_ollama(model: str, prompt: str) -> str:     
     payload = {
         "model": model,
         "prompt": prompt,
@@ -202,9 +201,9 @@ def generate_script_via_ollama(model: str, prompt: str) -> str:
     )
     try:
         with urlopen(request, timeout=120) as response:
-            data = json.loads(response.read().decode("utf-8"))
+            data = json.loads(response.read().decode("utf-8"))      
     except HTTPError as exc:
-        detail = exc.read().decode("utf-8", errors="replace")
+        detail = exc.read().decode("utf-8", errors="replace")       
         raise RuntimeError(f"Ollama request failed with HTTP {exc.code}: {detail}") from exc
     except URLError as exc:
         raise RuntimeError(
@@ -212,15 +211,15 @@ def generate_script_via_ollama(model: str, prompt: str) -> str:
             f"{OLLAMA_URL}."
         ) from exc
 
-    script_text = clean_script_text(data.get("response", ""))
+    script_text = clean_script_text(data.get("response", ""))       
     if not script_text:
-        raise RuntimeError("Ollama returned an empty script.")
+        raise RuntimeError("Ollama returned an empty script.")      
     return script_text
 
 
 def clean_script_text(text: str) -> str:
     cleaned = text.strip().strip('"').strip()
-    cleaned = re.sub(r"^```[a-zA-Z0-9_-]*", "", cleaned).strip()
+    cleaned = re.sub(r"^```[a-zA-Z0-9_-]*", "", cleaned).strip()    
     cleaned = re.sub(r"```$", "", cleaned).strip()
     cleaned = re.sub(r"\s+", " ", cleaned)
     return cleaned
@@ -234,8 +233,8 @@ def synthesize_audio(
     output_path: Path,
 ) -> str:
     audio_chunks: list[np.ndarray] = []
-    for _, _, audio in pipeline(text, voice=voice, speed=speed):
-        audio_chunks.append(np.asarray(audio, dtype=np.float32))
+    for _, _, audio in pipeline(text, voice=voice, speed=speed):    
+        audio_chunks.append(np.asarray(audio, dtype=np.float32))    
 
     if not audio_chunks:
         raise RuntimeError(f"No audio chunks were generated for {output_path.name}.")
@@ -252,73 +251,8 @@ def format_duration(total_seconds: float) -> str:
     return f"{minutes:02d}:{seconds:02d}"
 
 
-def inject_player(
-    markdown_path: Path,
-    summary_title: str,
-    audio_url: str,
-    duration_label: str,
-    dry_run: bool,
-) -> None:
-    original = markdown_path.read_text(encoding="utf-8")
-    player_block = build_player_block(summary_title, audio_url, duration_label)
-
-    marker_pattern = re.compile(
-        rf"\n?<!-- {PLAYER_MARKER}_START -->.*?<!-- {PLAYER_MARKER}_END -->\n?",
-        flags=re.DOTALL,
-    )
-    without_existing = marker_pattern.sub("\n", original)
-
-    if without_existing.startswith("---"):
-        match = re.match(r"^---\s*\r?\n.*?\r?\n---\s*\r?\n?", without_existing, flags=re.DOTALL)
-        if not match:
-            raise RuntimeError(f"Could not parse frontmatter in {markdown_path}.")
-        insertion_index = match.end()
-        updated = without_existing[:insertion_index] + "\n" + player_block + "\n" + without_existing[insertion_index:]
-    else:
-        updated = player_block + "\n" + without_existing
-
-    updated = re.sub(r"\n{3,}", "\n\n", updated)
-    if not dry_run:
-        markdown_path.write_text(updated, encoding="utf-8")
-
-
-def build_player_block(summary_title: str, audio_url: str, duration_label: str) -> str:
-    safe_title = html.escape(summary_title)
-    safe_audio_url = html.escape(audio_url, quote=True)
-    safe_duration = html.escape(duration_label)
-    return f"""<!-- {PLAYER_MARKER}_START -->
-<div class="nwg-audio-shell" data-audio-src="{safe_audio_url}">
-  <div class="nwg-audio-head">
-    <div class="nwg-audio-title">{safe_title}</div>
-    <div class="nwg-audio-time">
-      <span data-current-time>00:00</span>
-      <span> / </span>
-      <span data-total-time>{safe_duration}</span>
-    </div>
-  </div>
-
-  <div class="nwg-audio-bar">
-    <div class="nwg-audio-progress" data-progress></div>
-  </div>
-
-  <div class="nwg-audio-controls">
-    <button class="nwg-audio-btn" type="button" data-role="rewind">-10s</button>
-    <button class="nwg-audio-btn" type="button" data-role="play">Play</button>
-    <button class="nwg-audio-btn" type="button" data-role="forward">+10s</button>
-  </div>
-</div>
-<!-- {PLAYER_MARKER}_END -->"""
-
-
 if __name__ == "__main__":
     try:
         raise SystemExit(main())
     except KeyboardInterrupt:
         raise SystemExit(130)
-
-
-
-
-
-
-

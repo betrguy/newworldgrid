@@ -71,8 +71,12 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.AudioBroadcastPlayer()),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: (page) => page.fileData.slug !== "Optimism",
+      condition: (page) => page.fileData.slug !== "Optimism",       
     }),
   ],
 }
@@ -126,4 +130,3 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
-
