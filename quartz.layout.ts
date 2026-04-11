@@ -34,8 +34,15 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: 1,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
     Component.DesktopOnly(Component.AudioBroadcastPlayer()),
     Component.Explorer({
       title: "Signals",
@@ -87,7 +94,7 @@ export const defaultListPageLayout: PageLayout = {
       components: [
         {
           Component: Component.Search(),
-          grow: true,
+          grow: 1,
         },
         { Component: Component.Darkmode() },
       ],

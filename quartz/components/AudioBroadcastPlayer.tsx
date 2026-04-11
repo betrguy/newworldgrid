@@ -1,10 +1,10 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+﻿import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const AudioBroadcastPlayer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
     <div class={`nwg-audio-shell ${displayClass ?? ""}`} data-audio-src="/assets/audio/index_master_summary.wav">
       <div class="nwg-audio-head">
-        <div class="nwg-audio-title">🌐 New World Grid</div>
+        <div class="nwg-audio-title">ðŸŒ New World Grid</div>
         <div class="nwg-audio-time">
           <span data-current-time>00:00</span>
           <span> / </span>
@@ -42,8 +42,8 @@ AudioBroadcastPlayer.css = `
   --nwg-accent-strong: #b7ffec;
   
   position: relative;
-  margin: 1rem 0;
-  padding: 1.25rem;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
   overflow: hidden;
   border: 1px solid var(--nwg-border);
   border-radius: 12px;
@@ -86,7 +86,7 @@ AudioBroadcastPlayer.css = `
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .nwg-audio-title {
@@ -106,7 +106,7 @@ AudioBroadcastPlayer.css = `
 
 .nwg-audio-bar {
   height: 4px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   overflow: hidden;
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.08);
@@ -265,3 +265,4 @@ document.addEventListener("nav", () => {
 `
 
 export default (() => AudioBroadcastPlayer) satisfies QuartzComponentConstructor
+
