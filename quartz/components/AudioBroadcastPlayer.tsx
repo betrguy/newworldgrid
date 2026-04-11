@@ -1,10 +1,10 @@
-﻿import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const AudioBroadcastPlayer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
     <div class={`nwg-audio-shell ${displayClass ?? ""}`} data-audio-src="/assets/audio/index_master_summary.wav">
       <div class="nwg-audio-head">
-        <div class="nwg-audio-title">🌐 New World Grid</div>
+        <div class="nwg-audio-title">🌐 New World Grid</div>
         <div class="nwg-audio-time">
           <span data-current-time>00:00</span>
           <span> / </span>
@@ -33,12 +33,14 @@ const AudioBroadcastPlayer: QuartzComponent = ({ displayClass }: QuartzComponent
 
 AudioBroadcastPlayer.css = `
 .nwg-audio-shell {
+  /* Default Dark Mode (Green) */
   --nwg-bg: linear-gradient(180deg, rgba(8, 14, 10, 0.96), rgba(13, 25, 18, 0.94));
   --nwg-border: rgba(117, 255, 183, 0.22);
   --nwg-text: #edfffa;
   --nwg-subtle: #7fac97;
   --nwg-accent: #75ffc6;
   --nwg-accent-strong: #b7ffec;
+  
   position: relative;
   margin: 1rem 0;
   padding: 1.25rem;
@@ -47,6 +49,18 @@ AudioBroadcastPlayer.css = `
   border-radius: 12px;
   background: var(--nwg-bg);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Light Mode Override (Orange) */
+:root[saved-theme="light"] .nwg-audio-shell {
+  --nwg-bg: linear-gradient(180deg, rgba(255, 248, 240, 0.98), rgba(255, 240, 225, 0.96));
+  --nwg-border: rgba(255, 107, 0, 0.15);
+  --nwg-text: #4a2a00;
+  --nwg-subtle: #967a5a;
+  --nwg-accent: #ff6b00;
+  --nwg-accent-strong: #ff9e57;
+  box-shadow: 0 8px 24px rgba(255, 107, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 .nwg-audio-shell::before {
@@ -55,8 +69,9 @@ AudioBroadcastPlayer.css = `
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(circle at top right, rgba(117, 255, 183, 0.1), transparent 40%),
-    linear-gradient(90deg, transparent, rgba(117, 255, 183, 0.04), transparent);
+    radial-gradient(circle at top right, var(--nwg-accent), transparent 40%),
+    linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
+  opacity: 0.1;
 }
 
 .nwg-audio-head,
@@ -78,7 +93,7 @@ AudioBroadcastPlayer.css = `
   color: var(--nwg-text);
   font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -94,6 +109,10 @@ AudioBroadcastPlayer.css = `
   margin-bottom: 1rem;
   overflow: hidden;
   border-radius: 999px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+:root[saved-theme="dark"] .nwg-audio-bar {
   background: rgba(255, 255, 255, 0.06);
 }
 
@@ -101,7 +120,7 @@ AudioBroadcastPlayer.css = `
   width: 0%;
   height: 100%;
   background: linear-gradient(90deg, var(--nwg-accent), var(--nwg-accent-strong));
-  box-shadow: 0 0 12px rgba(117, 255, 183, 0.3);
+  box-shadow: 0 0 12px var(--nwg-accent);
   transition: width 120ms linear;
 }
 
@@ -120,9 +139,9 @@ AudioBroadcastPlayer.css = `
   width: 2.5rem;
   height: 2.5rem;
   padding: 0;
-  border: 1px solid rgba(117, 255, 183, 0.2);
+  border: 1px solid var(--nwg-border);
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.05);
   color: var(--nwg-text);
   cursor: pointer;
   transition: all 120ms ease;
@@ -130,14 +149,14 @@ AudioBroadcastPlayer.css = `
 
 .nwg-audio-btn:hover {
   transform: translateY(-1px);
-  border-color: rgba(183, 255, 236, 0.5);
-  background: rgba(117, 255, 183, 0.1);
+  border-color: var(--nwg-accent);
+  background: rgba(var(--nwg-accent), 0.1);
 }
 
 .nwg-audio-btn[data-role="play"] {
   width: 3rem;
   height: 3rem;
-  background: linear-gradient(180deg, rgba(117, 255, 183, 0.15), rgba(117, 255, 183, 0.05));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent);
 }
 `
 
@@ -246,4 +265,3 @@ document.addEventListener("nav", () => {
 `
 
 export default (() => AudioBroadcastPlayer) satisfies QuartzComponentConstructor
-
