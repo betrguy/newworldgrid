@@ -12,7 +12,7 @@ socialImage: stateofthegrid.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:22</span>
+      <span data-total-time>01:10</span>
     </div>
   </div>
 
@@ -31,20 +31,20 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 10, 2026 - 18:11</span>
+  <span class="sotg-timestamp">April 10, 2026 - 21:00</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The grid's reliance on traditional power plants is rapidly shifting towards AI-driven controllers and modular nuclear reactors to ensure stability amidst the rise of intermittent energy sources. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Geopolitical tensions escalate global energy volatility as US and European markets align pricing amid Iran talks uncertainty. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The US grid is undergoing a significant transformation with the adoption of battery storage equivalent to 20 nuclear reactors and hyperscalers embracing modular nuclear power. This development underscores the imperative for advanced reactor integration into existing infrastructure, necessitating synchronized transmission expansion and substation upgrades.</p>
+<p class="meridian-lede">The global energy landscape is experiencing a critical shift as hyperscalers invest in modular reactors to ensure energy sovereignty amidst regional transmission infrastructure upgrades and substation expansions. Geopolitical tensions are driving European energy volatility, with gas prices directly impacting electricity costs and US export capacity aligning global pricing.</p>
 
-As energy sovereignty concerns escalate, it is crucial to monitor the integration of these technologies while addressing potential disruptions.
+As the situation unfolds, it's essential to acknowledge that US export capacity will significantly influence international pricing, further emphasizing the importance of robust energy sovereignty measures.
 </div>
 
 <div class="sotg-analyst">
-As of the current 24-hour geomagnetic window, the Kp index has stabilized at a value of 3.3, with a peak of 4.3, and an average of 3.29, corresponding to an Active condition. This indicates moderate levels of solar wind activity, which may cause increased radiation affecting satellite systems' performance, minor errors or anomalies, occasional HF radio communications interference or signal degradation due to altered ionospheric conditions, and potentially minor fluctuations in power grid voltage and frequency stability.
+The current geomagnetic storm activity is characterized by a Kp peak value of 2.0, with no significant changes over the past 24 hours, resulting in an Unknown condition that poses limited to no disruptions to satellite operations and HF radio communications. Power grid stability is not expected to be impacted as the solar wind speed and magnetic field strength do not pose a threat to geomagnetically induced currents (GICs), allowing all space-based and terrestrial systems to operate normally without concerns of adverse effects from this quiet geomagnetic environment.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 

@@ -5,6 +5,7 @@ description: "Intelligence signals for the new economy. Energy, predictions, sha
 socialImage: https://thenewworldgrid.com/static/og-image.png
 ---
   
+
 <!-- NWG_AUDIO_PLAYER_START -->
 <div class="nwg-audio-shell" data-audio-src="/assets/audio/index_master_summary.wav">
   <div class="nwg-audio-head">
@@ -12,7 +13,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:21</span>
+      <span data-total-time>01:18</span>
     </div>
   </div>
 

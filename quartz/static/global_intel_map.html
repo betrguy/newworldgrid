@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-10 18:12 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-10 21:00 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,112 +51,135 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "US, Lebanon urge Israel to pause attacks on Hezbollah ahead of Washington talks, scheduled for Tuesday.",
+    "emojis": "💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "US",
+      "Lebanon",
+      "Israel",
+      "Hezbollah"
+    ],
+    "source_count": 22,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Escalating conflict in Lebanon leaves thousands without safety, damaging ancient churches and killing security forces.",
+    "emojis": "💥⚔️🚀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel"
+    ],
+    "source_count": 7,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces regional concern over airspace restrictions, while showcasing tourism and attracting international visitors.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Kazakhstan",
+      "Thailand",
+      "Japan",
+      "India",
+      "Indonesia",
+      "Vietnam"
+    ],
+    "source_count": 18,
+    "timestamp": "09:00 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Tensions escalate between US, Iran, and Israel amid ceasefire talks in Pakistan.",
+    "summary": "Iran-US ceasefire talks underway in Pakistan amid Israel's attacks on Lebanon and escalating global tensions.",
     "emojis": "⚔️🕊️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran",
-      "Israel"
-    ],
-    "source_count": 50,
-    "timestamp": "06:11 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Ceasefire talks hindered by Israel's actions, anti-Israel protests and aid debates spark controversy.",
-    "emojis": "⚔️🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
       "Israel",
-      "Hezbollah",
-      "Tucker Carlson",
-      "Benjamin Netanyahu",
-      "US"
+      "Lebanon",
+      "Iran"
     ],
-    "source_count": 23,
-    "timestamp": "06:11 PM"
+    "source_count": 48,
+    "timestamp": "09:00 PM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China's Xi addresses Taiwan, increases trade efforts while maintaining military pressure and strengthening ties with North Korea.",
-    "emojis": "🪖",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine opens defense export deals in Middle East, while peace hopes remain bleak despite Easter ceasefire.",
+    "emojis": "🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Xi Jinping",
-      "Kim Jong-un"
+      "Eurasia Review",
+      "Deseret News",
+      "The Independent",
+      "themercury.com"
     ],
-    "source_count": 13,
-    "timestamp": "06:11 PM"
+    "source_count": 4,
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia's economy and politics face challenges, while Putin's security council makes new textbooks a priority.",
-    "emojis": "",
+    "summary": "Russia faces security concerns, declining stocks, and human rights issues, amid international scrutiny and tensions.",
+    "emojis": "⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Putin"
+      "Meduza",
+      "Investing.com",
+      "EADaily",
+      "Human Rights Watch"
     ],
-    "source_count": 10,
-    "timestamp": "06:11 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Escalating Israeli-Hezbollah conflict puts Lebanon Baptists at risk, with reported 180 Hezbollah fighter deaths.",
-    "emojis": "⚔️💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli army",
-      "Hezbollah"
-    ],
-    "source_count": 3,
-    "timestamp": "06:11 PM"
+    "source_count": 8,
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California flyover footage mislabeled, Rio Tinto boron assets draw interest from bidders, AFP and Reuters report.",
+    "summary": "California flyover footage mislabeled as Middle East deployment sparks interest in Rio Tinto's boron assets.",
     "emojis": "🚀",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
       "AFP Fact Check",
-      "Reuters",
       "Bloomberg News",
-      "Rio Tinto"
+      "Reuters"
     ],
     "source_count": 2,
-    "timestamp": "06:12 PM"
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: AFGHANISTAN",
-    "summary": "Gunmen kill at least 4 people in a picnic spot attack near Deh Mehri village in Herat province.",
+    "summary": "Gunmen kill at least four people at a picnic spot in Afghanistan's Herat province.",
     "emojis": "⚔️",
     "lat": 33.9,
     "lng": 67.7,
     "location": "AFGHANISTAN",
     "actors": [
-      "actor1",
-      "actor2"
+      "Afghanistan government",
+      "unknown perpetrators"
     ],
     "source_count": 1,
-    "timestamp": "06:12 PM"
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "Tesla unveils low-cost EV SUV amid declining sales in Mexico.",
-    "emojis": "",
+    "summary": "Tesla introduces low-cost EV SUV to combat sales decline in Mexico market.",
+    "emojis": "⚔️",
     "lat": 23.6,
     "lng": -102.5,
     "location": "MEXICO",
@@ -165,35 +188,7 @@
       "Mexico"
     ],
     "source_count": 1,
-    "timestamp": "06:12 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia's Easter ceasefire offers little hope for Ukraine peace, as both sides remain wary of territorial concessions.",
-    "emojis": "⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 4,
-    "timestamp": "06:12 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK and Norway successfully deter Russian submarine attacks.",
-    "emojis": "🚢⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Norway",
-      "UK"
-    ],
-    "source_count": 1,
-    "timestamp": "06:12 PM"
+    "timestamp": "09:00 PM"
   }
 ];
 
