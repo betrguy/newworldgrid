@@ -36,6 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    Component.DesktopOnly(Component.AudioBroadcastPlayer()),
     Component.Explorer({
       title: "Signals",
       folderDefaultState: "collapsed",
@@ -71,10 +72,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.AudioBroadcastPlayer()),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-    Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
       condition: (page) => page.fileData.slug !== "Optimism",       
     }),
@@ -95,6 +92,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.DesktopOnly(Component.AudioBroadcastPlayer()),
     Component.Explorer({
       title: "Signals",
       folderDefaultState: "collapsed",
