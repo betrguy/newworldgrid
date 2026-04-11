@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
@@ -48,7 +48,7 @@ def build_targets(repo_root: Path) -> list[BroadcastTarget]:
         BroadcastTarget(
             markdown_path=content_dir / "index.md",
             audio_filename="index_master_summary.wav",
-            summary_title="🌐 New World Grid",      
+            summary_title="ðŸŒ New World Grid",      
             persona="New World Grid Host",
             prompt_scope="Create a comprehensive, informative, and analytical synthesis of today's findings across all grid pages (Predictive News, Daily Optimism, State of the Grid, and Final Frontier). Weave them into a single coherent monologue.",
             include_other_pages=True,
@@ -256,3 +256,5 @@ if __name__ == "__main__":
         raise SystemExit(main())
     except KeyboardInterrupt:
         raise SystemExit(130)
+
+
