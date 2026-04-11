@@ -12,7 +12,7 @@ socialImage: finalfrontier.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:29</span>
+      <span data-total-time>01:26</span>
     </div>
   </div>
 
@@ -31,29 +31,27 @@ socialImage: finalfrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 11, 2026 - 09:17</span>
+  <span class="sotg-timestamp">April 11, 2026 - 09:59</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-The successful Artemis mission to the Moon marks a crucial milestone in humanity's expansion into space while simultaneously highlighting the urgent need for parallel advancements in electric vehicle infrastructure and grid development. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+The convergence of lunar exploration and electric vehicle adoption is poised to revolutionize global energy infrastructure by 2040. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 **The High Ground**
 
-Artemis crew members have safely splashed down in the Pacific after completing a historic nine-day mission to the Moon. This achievement marks the first human mission to lunar vicinity since Apollo 17 in December 1972. The Artemis success underscores the importance of reliable and secure space-based infrastructure, particularly emphasizing the need for robust communication networks that can withstand the harsh conditions of cislunar space.
+As the Artemis crew safely splashes down in the Pacific after completing their historic mission to the Moon, today's developments highlight the need for reliable and secure space-based infrastructure to support future lunar missions. The importance of robust communication networks is evident, as the Artemis crew's nine-day voyage demonstrates the significant challenges posed by cislunar space conditions to data transmission.
 
 ### **The EV Race**
 
-US EV sales trends shifted abruptly as Tesla maintained its lead amidst industry-wide declines, according to data from [How-To Geek]. In response, manufacturers are scrambling to adjust their strategies and keep pace with demand.
-
-Meanwhile, CATL is building a USD 5 billion integrated battery supply chain in Southeast Asia, aiming to secure lithium-ion supplies while exploring alternative solid-state technologies.
+Pure electric vehicles (BEVs) are expected to dominate 90% of the market by 2040, according to a top Chinese expert's prediction. Meanwhile, US EV sales trends have shifted as Tesla maintains its lead amidst industry-wide declines. This sudden change prompts manufacturers to adjust their strategies and keep pace with demand.
 
 ### **Frontier Speculation: The 0.1% Shift**
 
 *What follows is purely a thought experiment.*
 
-In 2036, after CATL's USD 5 billion Southeast Asia battery supply chain becomes operational, the flood of affordable, high-capacity solid-state batteries sparks an unexpected domino effect in the electric vehicle market. As startup-focused EV brands like Tesla and Rivian aggressively integrate these advanced power sources into their platforms, they inadvertently create a new class of "range-agnostic" vehicles designed specifically for lunar missions, leveraging CATL's battery expertise to support Artemis-style moon bases. This unanticipated shift not only propels the global electric vehicle market toward a USD 100 billion valuation but also quietly establishes the foundation for a nascent industry focused on in-situ resource utilization and sustainable infrastructure development around the Moon – a crucial step toward expanding humanity's presence beyond Earth's orbit.
+In the near future, CATL's massive investment in Southeast Asia's battery supply chain sparks an unexpected ripple effect. As the region becomes the global hub for lithium extraction and processing, a previously unknown side-effect of solid-state batteries' unique chemistry causes a rapid proliferation of lunar-based renewable energy infrastructure. The Artemis program's historic success has created a new market demand: powering the growing number of private lunar bases and in-situ resource utilization facilities. This unforeseen consequence leads to a surge in off-Earth solar panel installations, which in turn creates a lunar-based gigafactory for solid-state batteries – effectively decoupling the global supply chain from terrestrial resources.
 
 <!-- /FRONTIER_ENGINE_END -->

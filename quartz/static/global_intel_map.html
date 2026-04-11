@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-11 09:16 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-04-11 09:57 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,40 +51,24 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran war escalates tensions with US, Israel, and China, as talks in Pakistan aim for ceasefire.",
-    "emojis": "⚔️🕊️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
+    "title": "SITREP: ISRAEL",
+    "summary": "Violence escalates as Israel imposes restrictions in East Jerusalem and strikes Lebanon, killing 10.",
+    "emojis": "🪖💥",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "US",
-      "Iran",
       "Israel",
-      "China"
+      "Hezbollah",
+      "Lebanon"
     ],
-    "source_count": 54,
-    "timestamp": "09:15 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia intensifies attacks on Ukraine & US-linked companies, while economic woes and diplomatic efforts unfold.",
-    "emojis": "⚔️💥🕊️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "US",
-      "Ukraine"
-    ],
-    "source_count": 8,
-    "timestamp": "09:15 AM"
+    "source_count": 17,
+    "timestamp": "09:57 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine announce Easter truce, but drone attacks escalate, raising doubts about ceasefire's effectiveness.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Russia and Ukraine observe 32-hour ceasefire for Orthodox Easter, but escalation feared amid drone attacks.",
+    "emojis": "✈️⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -92,32 +76,72 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 32,
-    "timestamp": "09:15 AM"
+    "source_count": 33,
+    "timestamp": "09:57 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise between Israel and its neighbors amid Holy Saturday, war threats, and diplomatic disputes.",
+    "title": "SITREP: IRAN",
+    "summary": "US and Iran hold emergency talks in Pakistan amid escalating tensions over Strait of Hormuz and Middle East crisis.",
+    "emojis": "⚔️🕊️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 60,
+    "timestamp": "09:57 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China receives global support for multilateralism and diplomacy, while facing economic and travel disruptions.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Indonesia",
+      "Japan",
+      "North Korea",
+      "China"
+    ],
+    "source_count": 15,
+    "timestamp": "09:57 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia's PM visits, possible Putin meeting, clashes with US over firm control & security guarantees, escalating tensions.",
     "emojis": "⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "PM Shehbaz",
+      "Putin",
+      "US"
+    ],
+    "source_count": 5,
+    "timestamp": "09:57 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Escalating Israeli-Hezbollah war causes destruction and loss in Lebanon, affecting civilians and families.",
+    "emojis": "✈️💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
       "Israel",
       "Hezbollah",
-      "Lebanon",
-      "Syria",
-      "Pakistan",
-      "South Korea",
-      "Palestine",
-      "Germany"
+      "Lebanon"
     ],
-    "source_count": 15,
-    "timestamp": "09:16 AM"
+    "source_count": 6,
+    "timestamp": "09:57 AM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Russian strikes on Odesa kill 2 days before Orthodox Easter ceasefire",
+    "summary": "Russian strikes on Odesa, Ukraine kill 2 ahead of Orthodox Easter ceasefire.",
     "emojis": "💥🕊️",
     "lat": 30.26,
     "lng": -97.74,
@@ -127,122 +151,78 @@
       "Ukraine"
     ],
     "source_count": 1,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China continues rapid transformation, expands surveillance state amid global scrutiny and regional diplomacy",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Kim Jong Un",
-      "Japan",
-      "Taiwan"
-    ],
-    "source_count": 15,
-    "timestamp": "09:16 AM"
+    "timestamp": "09:57 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Violence erupts in Gaza, makeshift university offers respite, as at least seven Palestinians killed in Israeli attacks.",
-    "emojis": "⚔️💀",
+    "summary": "Violence erupts in Gaza, as a makeshift university and killings mark escalating Israeli-Palestinian tensions.",
+    "emojis": "⚔️💀⚡",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "actor1",
-      "actor2"
+      "Israeli military",
+      "Palestinians"
     ],
     "source_count": 2,
-    "timestamp": "09:16 AM"
+    "timestamp": "09:57 AM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "US, Iran, Pakistan engage in peace talks amid suspicion and uncertainty over ceasefire agreement.",
+    "summary": "US, Iran meet in Pakistan for peace talks amid suspicion and a fragile ceasefire.",
     "emojis": "🕊️",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
-      "US",
-      "Iran",
-      "Pakistan"
+      "US officials",
+      "Iranian officials"
     ],
     "source_count": 4,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Conflict escalates in Lebanon as Israel launches attacks, leaving residents in shock and seeking healing",
-    "emojis": "⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli",
-      "Lebanese"
-    ],
-    "source_count": 3,
-    "timestamp": "09:16 AM"
+    "timestamp": "09:57 AM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "Iraq faces instability, corruption, and foreign intervention, earning a reputation as a global laughingstock.",
+    "summary": "Iraq struggles with instability, corruption, and foreign influence, becoming a laughingstock in global politics.",
     "emojis": "",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
       "Middle East Monitor",
-      "Iraq"
+      "global"
     ],
     "source_count": 1,
-    "timestamp": "09:16 AM"
+    "timestamp": "09:57 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK to receive hundreds of 1500kW EV chargers, while Japanese PM praises Deep Purple in Tokyo.",
+    "summary": "UK set to receive high-power EV chargers, while Japanese PM expresses admiration for British rock band Deep Purple.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK government",
-      "Deep Purple band"
+      "UK",
+      "Japan",
+      "Deep Purple"
     ],
     "source_count": 2,
-    "timestamp": "09:16 AM"
+    "timestamp": "09:57 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Fighting pauses in US-NY, some Iranians relieved while hard-liners opposed to ceasefire.",
-    "emojis": "🕊️",
+    "summary": "Tensions ease in Iran amid paused fighting, but hard-liners resist calm, sparking divisions.",
+    "emojis": "⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "Iranians",
-      "US-NY"
+      "Hard-liners"
     ],
     "source_count": 1,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Delhi proposes ban on petrol two-wheeler registrations from 2028 under draft EV Policy 2.0.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Delhi Government",
-      "Environment Ministry"
-    ],
-    "source_count": 1,
-    "timestamp": "09:16 AM"
+    "timestamp": "09:57 AM"
   }
 ];
 

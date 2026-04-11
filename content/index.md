@@ -13,7 +13,7 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:28</span>
+      <span data-total-time>01:33</span>
     </div>
   </div>
 

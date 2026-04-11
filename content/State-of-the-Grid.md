@@ -12,7 +12,7 @@ socialImage: stateofthegrid.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:07</span>
+      <span data-total-time>01:25</span>
     </div>
   </div>
 
@@ -31,28 +31,28 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 11, 2026 - 09:15</span>
+  <span class="sotg-timestamp">April 11, 2026 - 09:56</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The US power grid has seen the addition of energy storage capacity equivalent to 20 nuclear reactors over the past four years. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+The US grid is witnessing a significant transformation with the rapid expansion of 138-kV transmission projects outside of ERCOT, particularly in MISO and PJM, marking a first in several years. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The global energy landscape is undergoing a significant transformation as the US power grid has witnessed an unprecedented addition of battery storage capacity equivalent to 20 nuclear reactors over the past four years. This development underscores the critical need for grid resilience in the face of escalating geopolitical tensions.</p>
+<p class="meridian-lede">The US power grid has experienced a significant increase in energy storage capacity over the past four years, with projects concentrated outside of ERCOT and primarily within MISO and PJM regions. This development underscores the importance of grid resilience as the global energy landscape evolves.</p>
 
-In light of these developments, it is essential to acknowledge that the recent surge in energy storage capacity will play a crucial role in ensuring grid stability amidst potential disruptions caused by solar wind activity.
+Recent reports indicate that China plans to deliver air defense systems to Iran during a fragile cease-fire deal, highlighting the need for enhanced infrastructure security measures.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The rapid expansion of battery storage capacity in the US power grid has significant implications for national security and grid resilience.</li>
-  <li><strong>The big picture:</strong> This trend highlights the urgent need to re-evaluate energy infrastructure as a critical component of defense strategy, particularly in light of escalating global tensions.</li>
-  <li><strong>What to watch:</strong> Monitor the impact on the global energy market as countries like China and India are likely to follow suit, creating new opportunities for international cooperation and competition.</li>
+  <li><strong>Why it matters:</strong> The US power grid's increased energy storage capacity poses significant risks and opportunities for national security.</li>
+  <li><strong>The big picture:</strong> This shift could lead to unintended consequences in global energy markets and defense strategies.</li>
+  <li><strong>What to watch:</strong> Monitor the impact of this development on the overall resilience of critical infrastructure.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-As of the current geomagnetic window, the Kp index has reached a value of 3.3 with a peak of 4.0, corresponding to an Active condition. This poses moderate risks to satellite operations and HF radio communications, as increased auroral activity may cause signal disruptions or even complete loss of communication for some satellite services.
+As of the current 24-hour geomagnetic window, we are observing a Kp value of 3.3 with a peak value of 4.0, corresponding to an Active condition that poses moderate risks to satellite operations, HF radio communications, and power grid stability. This may cause satellites in orbit to experience increased drag or orientation issues due to elevated solar wind pressure and magnetic field fluctuations, while HF radio communications may be affected by ionospheric disturbances resulting in signal degradation or loss of contact, potentially impacting geomagnetically induced currents (GICs) that could disrupt power grid stability.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
