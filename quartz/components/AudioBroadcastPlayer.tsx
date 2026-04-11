@@ -160,7 +160,7 @@ document.addEventListener("nav", () => {
       return
     }
 
-    const formatTime = (seconds: number) => {
+    const formatTime = (seconds) => {
       if (!Number.isFinite(seconds) || seconds < 0) return "00:00"
       const whole = Math.floor(seconds)
       const mins = String(Math.floor(whole / 60)).padStart(2, "0")
@@ -229,3 +229,4 @@ document.addEventListener("nav", () => {
 `
 
 export default (() => AudioBroadcastPlayer) satisfies QuartzComponentConstructor
+
