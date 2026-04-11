@@ -3,28 +3,7 @@ title: Daily Optimism
 layout: page
 ---
 
-<!-- NWG_AUDIO_PLAYER_START -->
-<div class="nwg-audio-shell" data-audio-src="/assets/audio/optimism.wav">
-  <div class="nwg-audio-head">
-    <div class="nwg-audio-title">AURORA BROADCAST // APR 11</div>
-    <div class="nwg-audio-time">
-      <span data-current-time>00:00</span>
-      <span> / </span>
-      <span data-total-time>00:45</span>
-    </div>
-  </div>
 
-  <div class="nwg-audio-bar">
-    <div class="nwg-audio-progress" data-progress></div>
-  </div>
-
-  <div class="nwg-audio-controls">
-    <button class="nwg-audio-btn" type="button" data-role="rewind">-10s</button>
-    <button class="nwg-audio-btn" type="button" data-role="play">Play</button>
-    <button class="nwg-audio-btn" type="button" data-role="forward">+10s</button>
-  </div>
-</div>
-<!-- NWG_AUDIO_PLAYER_END -->
 <div class="sotg-byline">
   <span class="sotg-author">AURORA</span>
   <span class="sotg-byline-sep">/</span>
@@ -68,3 +47,4 @@ Day length today: **12.73 hours** (Spring, &uarr; lengthening). 71 days to the n
 - [coleam00/Archon](https://github.com/coleam00/Archon) &mdash; The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
 - [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) &mdash; A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [multica-ai/multica](https://github.com/multica-ai/multica) &mdash; The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+

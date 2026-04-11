@@ -1,23 +1,52 @@
-import { QuartzComponent, QuartzComponentConstructor } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const AudioBroadcastPlayer: QuartzComponent = () => null
+const AudioBroadcastPlayer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+  return (
+    <div class={`nwg-audio-shell ${displayClass ?? ""}`} data-audio-src="/assets/audio/index_master_summary.wav">
+      <div class="nwg-audio-head">
+        <div class="nwg-audio-title">🌐 New World Grid</div>
+        <div class="nwg-audio-time">
+          <span data-current-time>00:00</span>
+          <span> / </span>
+          <span data-total-time>00:00</span>
+        </div>
+      </div>
+
+      <div class="nwg-audio-bar">
+        <div class="nwg-audio-progress" data-progress></div>
+      </div>
+
+      <div class="nwg-audio-controls">
+        <button class="nwg-audio-btn" type="button" data-role="rewind" aria-label="Rewind 10 seconds">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/></svg>
+        </button>
+        <button class="nwg-audio-btn" type="button" data-role="play" aria-label="Play">
+          <svg data-icon="play" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </button>
+        <button class="nwg-audio-btn" type="button" data-role="forward" aria-label="Forward 10 seconds">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 17l5-5-5-5M6 17l5-5-5-5"/></svg>
+        </button>
+      </div>
+    </div>
+  )
+}
 
 AudioBroadcastPlayer.css = `
 .nwg-audio-shell {
-  --nwg-bg: linear-gradient(180deg, rgba(8, 10, 14, 0.96), rgba(13, 18, 25, 0.94));
-  --nwg-border: rgba(117, 198, 255, 0.22);
-  --nwg-text: #edf6ff;
-  --nwg-subtle: #7f97ac;
-  --nwg-accent: #75c6ff;
-  --nwg-accent-strong: #b7ecff;
+  --nwg-bg: linear-gradient(180deg, rgba(8, 14, 10, 0.96), rgba(13, 25, 18, 0.94));
+  --nwg-border: rgba(117, 255, 183, 0.22);
+  --nwg-text: #edfffa;
+  --nwg-subtle: #7fac97;
+  --nwg-accent: #75ffc6;
+  --nwg-accent-strong: #b7ffec;
   position: relative;
-  margin: 1.1rem 0 1.5rem;
-  padding: 1rem;
+  margin: 1rem 0;
+  padding: 1.25rem;
   overflow: hidden;
   border: 1px solid var(--nwg-border);
-  border-radius: 18px;
+  border-radius: 12px;
   background: var(--nwg-bg);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .nwg-audio-shell::before {
@@ -26,8 +55,8 @@ AudioBroadcastPlayer.css = `
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(circle at top right, rgba(117, 198, 255, 0.14), transparent 34%),
-    linear-gradient(90deg, transparent, rgba(117, 198, 255, 0.08), transparent);
+    radial-gradient(circle at top right, rgba(117, 255, 183, 0.1), transparent 40%),
+    linear-gradient(90deg, transparent, rgba(117, 255, 183, 0.04), transparent);
 }
 
 .nwg-audio-head,
@@ -41,90 +70,74 @@ AudioBroadcastPlayer.css = `
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 0.9rem;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .nwg-audio-title {
   color: var(--nwg-text);
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.22em;
-  line-height: 1.4;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
 }
 
 .nwg-audio-time {
   color: var(--nwg-subtle);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
 
 .nwg-audio-bar {
-  height: 5px;
-  margin-bottom: 0.95rem;
+  height: 4px;
+  margin-bottom: 1rem;
   overflow: hidden;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .nwg-audio-progress {
   width: 0%;
   height: 100%;
   background: linear-gradient(90deg, var(--nwg-accent), var(--nwg-accent-strong));
-  box-shadow: 0 0 18px rgba(117, 198, 255, 0.45);
+  box-shadow: 0 0 12px rgba(117, 255, 183, 0.3);
   transition: width 120ms linear;
 }
 
 .nwg-audio-controls {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.75rem;
-  flex-wrap: wrap;
 }
 
 .nwg-audio-btn {
   appearance: none;
-  min-width: 3rem;
-  height: 3rem;
-  padding: 0 1rem;
-  border: 1px solid rgba(117, 198, 255, 0.26);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 1px solid rgba(117, 255, 183, 0.2);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.03);
   color: var(--nwg-text);
   cursor: pointer;
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+  transition: all 120ms ease;
 }
 
 .nwg-audio-btn:hover {
   transform: translateY(-1px);
-  border-color: rgba(183, 236, 255, 0.65);
-  background: rgba(117, 198, 255, 0.12);
+  border-color: rgba(183, 255, 236, 0.5);
+  background: rgba(117, 255, 183, 0.1);
 }
 
 .nwg-audio-btn[data-role="play"] {
-  min-width: 5.5rem;
-  font-weight: 700;
-  background: linear-gradient(180deg, rgba(117, 198, 255, 0.22), rgba(117, 198, 255, 0.08));
-}
-
-@media (max-width: 720px) {
-  .nwg-audio-head {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nwg-audio-controls {
-    width: 100%;
-  }
-
-  .nwg-audio-btn[data-role="play"] {
-    flex: 1 1 100%;
-  }
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(180deg, rgba(117, 255, 183, 0.15), rgba(117, 255, 183, 0.05));
 }
 `
 
@@ -139,8 +152,11 @@ document.addEventListener("nav", () => {
     const src = root.dataset.audioSrc
     if (!src) return
 
-    const audio = new Audio(src)
-    audio.preload = "metadata"
+    if (!window._nwg_audio) {
+      window._nwg_audio = new Audio(src)
+      window._nwg_audio.preload = "metadata"
+    }
+    const audio = window._nwg_audio
 
     const currentNode = root.querySelector("[data-current-time]")
     const totalNode = root.querySelector("[data-total-time]")
@@ -179,7 +195,11 @@ document.addEventListener("nav", () => {
         progressNode.setAttribute("style", "width:0%")
       }
 
-      playButton.textContent = audio.paused ? "Play" : "Pause"
+      if (audio.paused) {
+        playButton.innerHTML = \`<svg data-icon="play" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>\`
+      } else {
+        playButton.innerHTML = \`<svg data-icon="pause" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>\`
+      }
     }
 
     const onPlayPause = async () => {
@@ -209,18 +229,15 @@ document.addEventListener("nav", () => {
     playButton.addEventListener("click", onPlayPause)
     rewindButton.addEventListener("click", onRewind)
     forwardButton.addEventListener("click", onForward)
-    audio.addEventListener("loadedmetadata", syncUi)
-    audio.addEventListener("timeupdate", syncUi)
-    audio.addEventListener("ended", syncUi)
-    audio.addEventListener("pause", syncUi)
-    audio.addEventListener("play", syncUi)
+    
+    const listeners = ["loadedmetadata", "timeupdate", "ended", "pause", "play"]
+    listeners.forEach(type => audio.addEventListener(type, syncUi))
 
     window.addCleanup(() => {
       playButton.removeEventListener("click", onPlayPause)
       rewindButton.removeEventListener("click", onRewind)
       forwardButton.removeEventListener("click", onForward)
-      audio.pause()
-      audio.src = ""
+      listeners.forEach(type => audio.removeEventListener(type, syncUi))
     })
 
     syncUi()
@@ -229,4 +246,3 @@ document.addEventListener("nav", () => {
 `
 
 export default (() => AudioBroadcastPlayer) satisfies QuartzComponentConstructor
-

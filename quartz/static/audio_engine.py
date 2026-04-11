@@ -24,7 +24,7 @@ DEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "am_michael")
 DEFAULT_SPEED = float(os.environ.get("KOKORO_SPEED", "0.94"))
 SAMPLE_RATE = 24000
 PLAYER_MARKER = "NWG_AUDIO_PLAYER"
-SCRIPT_WORD_TARGET = "130 to 160 words"
+SCRIPT_WORD_TARGET = "350 to 450 words"
 DATE_STAMP = datetime.now().strftime("%b %d").upper()
 
 
@@ -42,47 +42,18 @@ class BroadcastTarget:
         return f"/assets/audio/{self.audio_filename}"
 
 
-def build_targets(repo_root: Path) -> list[BroadcastTarget]:
+def build_targets(repo_root: Path) -> list[BroadcastTarget]:        
     content_dir = repo_root / "content"
     return [
         BroadcastTarget(
             markdown_path=content_dir / "index.md",
             audio_filename="index_master_summary.wav",
-            summary_title=f"MASTER BROADCAST // {DATE_STAMP}",
-            persona="ANCHOR PRIME",
-            prompt_scope="Create a homepage master summary that covers the signal from all four desk pages.",
+            summary_title="?? New World Grid",      
+            persona="New World Grid Host",
+            prompt_scope="Create a comprehensive, informative, and analytical synthesis of today's findings across all grid pages (Predictive News, Daily Optimism, State of the Grid, and Final Frontier). Weave them into a single coherent monologue.",
             include_other_pages=True,
         ),
-        BroadcastTarget(
-            markdown_path=content_dir / "Predictive-News.md",
-            audio_filename="predictive_news.wav",
-            summary_title=f"ORACLE BROADCAST // {DATE_STAMP}",
-            persona="ORACLE",
-            prompt_scope="Summarize only the Predictive News page.",
-        ),
-        BroadcastTarget(
-            markdown_path=content_dir / "Optimism.md",
-            audio_filename="optimism.wav",
-            summary_title=f"AURORA BROADCAST // {DATE_STAMP}",
-            persona="AURORA",
-            prompt_scope="Summarize only the Daily Optimism page.",
-        ),
-        BroadcastTarget(
-            markdown_path=content_dir / "State-of-the-Grid.md",
-            audio_filename="state_of_the_grid.wav",
-            summary_title=f"MERIDIAN BROADCAST // {DATE_STAMP}",
-            persona="MERIDIAN",
-            prompt_scope="Summarize only the State of the Grid page.",
-        ),
-        BroadcastTarget(
-            markdown_path=content_dir / "Final-Frontier.md",
-            audio_filename="final_frontier.wav",
-            summary_title=f"ARC BROADCAST // {DATE_STAMP}",
-            persona="ARC",
-            prompt_scope="Summarize only the Final Frontier page.",
-        ),
     ]
-
 
 def parse_args() -> argparse.Namespace:
     default_repo_root = Path(__file__).resolve().parents[2]
@@ -135,13 +106,13 @@ def main() -> int:
                 output_path=output_path,
             )
         duration_manifest[target.audio_filename] = duration_label
-        inject_player(
-            markdown_path=target.markdown_path,
-            summary_title=target.summary_title,
-            audio_url=target.audio_url,
-            duration_label=duration_label,
-            dry_run=args.dry_run,
-        )
+        pass # inject_player(
+            # markdown_path=target.markdown_path,
+            # summary_title=target.summary_title,
+            # audio_url=target.audio_url,
+            # duration_label=duration_label,
+            # dry_run=args.dry_run,
+        # )
 
     audit_payload = {
         "generatedAt": datetime.now().isoformat(),
@@ -220,7 +191,7 @@ def generate_script_via_ollama(model: str, prompt: str) -> str:
         "options": {
             "temperature": 0.8,
             "top_p": 0.95,
-            "num_predict": 260,
+            "num_predict": 1024,
         },
     }
     request = Request(
@@ -344,4 +315,10 @@ if __name__ == "__main__":
         raise SystemExit(main())
     except KeyboardInterrupt:
         raise SystemExit(130)
+
+
+
+
+
+
 

@@ -5,28 +5,7 @@ date: 2026-01-26
 socialImage: predictivenews.png
 ---
 
-<!-- NWG_AUDIO_PLAYER_START -->
-<div class="nwg-audio-shell" data-audio-src="/assets/audio/predictive_news.wav">
-  <div class="nwg-audio-head">
-    <div class="nwg-audio-title">ORACLE BROADCAST // APR 11</div>
-    <div class="nwg-audio-time">
-      <span data-current-time>00:00</span>
-      <span> / </span>
-      <span data-total-time>00:52</span>
-    </div>
-  </div>
 
-  <div class="nwg-audio-bar">
-    <div class="nwg-audio-progress" data-progress></div>
-  </div>
-
-  <div class="nwg-audio-controls">
-    <button class="nwg-audio-btn" type="button" data-role="rewind">-10s</button>
-    <button class="nwg-audio-btn" type="button" data-role="play">Play</button>
-    <button class="nwg-audio-btn" type="button" data-role="forward">+10s</button>
-  </div>
-</div>
-<!-- NWG_AUDIO_PLAYER_END -->
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
@@ -66,3 +45,4 @@ Watch for:
 * Further escalation or de-escalation of tensions between the US and Iran
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
+

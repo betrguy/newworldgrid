@@ -5,28 +5,7 @@ date: 2026-03-22
 socialImage: finalfrontier.png
 ---
 
-<!-- NWG_AUDIO_PLAYER_START -->
-<div class="nwg-audio-shell" data-audio-src="/assets/audio/final_frontier.wav">
-  <div class="nwg-audio-head">
-    <div class="nwg-audio-title">ARC BROADCAST // APR 11</div>
-    <div class="nwg-audio-time">
-      <span data-current-time>00:00</span>
-      <span> / </span>
-      <span data-total-time>01:05</span>
-    </div>
-  </div>
 
-  <div class="nwg-audio-bar">
-    <div class="nwg-audio-progress" data-progress></div>
-  </div>
-
-  <div class="nwg-audio-controls">
-    <button class="nwg-audio-btn" type="button" data-role="rewind">-10s</button>
-    <button class="nwg-audio-btn" type="button" data-role="play">Play</button>
-    <button class="nwg-audio-btn" type="button" data-role="forward">+10s</button>
-  </div>
-</div>
-<!-- NWG_AUDIO_PLAYER_END -->
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
@@ -55,3 +34,4 @@ Pure electric vehicles (BEVs) are expected to dominate 90% of the market by 2040
 In the near future, CATL's massive investment in Southeast Asia's battery supply chain sparks an unexpected ripple effect. As the region becomes the global hub for lithium extraction and processing, a previously unknown side-effect of solid-state batteries' unique chemistry causes a rapid proliferation of lunar-based renewable energy infrastructure. The Artemis program's historic success has created a new market demand: powering the growing number of private lunar bases and in-situ resource utilization facilities. This unforeseen consequence leads to a surge in off-Earth solar panel installations, which in turn creates a lunar-based gigafactory for solid-state batteries – effectively decoupling the global supply chain from terrestrial resources.
 
 <!-- /FRONTIER_ENGINE_END -->
+
