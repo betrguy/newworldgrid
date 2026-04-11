@@ -15,15 +15,15 @@ const CustomBanner: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCo
             </a>
           </div>
           
-          {/* Condensed Audio Player */}
-          <div class="header-audio-player" data-audio-src="/assets/audio/index_master_summary.wav">
-            <button class="header-audio-btn" type="button" data-role="rewind" aria-label="Rewind 10s">
+          {/* NWG Header Audio Player - V3 Cache Buster */}
+          <div class="nwg-header-player" data-audio-src="/assets/audio/index_master_summary.wav">
+            <button class="nwg-header-btn" type="button" data-role="rewind" aria-label="Rewind 10s">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/></svg>
             </button>
-            <button class="header-audio-btn main-play" type="button" data-role="play" aria-label="Play">
+            <button class="nwg-header-btn main-play" type="button" data-role="play" aria-label="Play">
               <svg data-icon="play" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
             </button>
-            <button class="header-audio-btn" type="button" data-role="forward" aria-label="Forward 10s">
+            <button class="nwg-header-btn" type="button" data-role="forward" aria-label="Forward 10s">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 17l5-5-5-5M6 17l5-5-5-5"/></svg>
             </button>
           </div>
@@ -44,7 +44,6 @@ CustomBanner.css = `
   width: 100%;
 }
 
-/* Explicitly override any global dashboard-header styles that might hide our flex children */
 .dashboard-header {
   display: flex !important;
   flex-direction: row !important;
@@ -53,30 +52,26 @@ CustomBanner.css = `
   width: 100%;
 }
 
-.banner-link-logo, .banner-link-text {
-  text-decoration: none !important;
-  color: inherit !important;
-  display: block !important;
-}
-
-.header-audio-player {
+.nwg-header-player {
   display: flex !important;
   align-items: center !important;
   gap: 0.4rem !important;
   margin-left: auto !important;
   padding: 4px !important;
   border-radius: 30px !important;
-  background: rgba(117, 255, 183, 0.08) !important;
-  border: 1px solid rgba(117, 255, 183, 0.2) !important;
-  z-index: 999;
+  background: rgba(117, 255, 183, 0.1) !important;
+  border: 1px solid rgba(117, 255, 183, 0.3) !important;
+  box-shadow: 0 0 10px rgba(117, 255, 183, 0.1) !important;
+  z-index: 9999 !important;
 }
 
-:root[saved-theme="light"] .header-audio-player {
-  background: rgba(255, 107, 0, 0.08) !important;
-  border-color: rgba(255, 107, 0, 0.2) !important;
+:root[saved-theme="light"] .nwg-header-player {
+  background: rgba(255, 107, 0, 0.1) !important;
+  border-color: rgba(255, 107, 0, 0.3) !important;
+  box-shadow: 0 0 10px rgba(255, 107, 0, 0.1) !important;
 }
 
-.header-audio-btn {
+.nwg-header-btn {
   appearance: none !important;
   display: flex !important;
   align-items: center !important;
@@ -91,56 +86,43 @@ CustomBanner.css = `
   border-radius: 50% !important;
 }
 
-:root[saved-theme="dark"] .header-audio-btn {
+:root[saved-theme="dark"] .nwg-header-btn {
   color: #75ffc6 !important;
 }
 
-:root[saved-theme="light"] .header-audio-btn {
+:root[saved-theme="light"] .nwg-header-btn {
   color: #ff6b00 !important;
 }
 
-.header-audio-btn.main-play {
+.nwg-header-btn.main-play {
   width: 36px !important;
   height: 36px !important;
   background: rgba(128, 128, 128, 0.1) !important;
 }
 
-/* Hide seek buttons by default, show when playing or hover */
-.header-audio-btn[data-role="rewind"],
-.header-audio-btn[data-role="forward"] {
+.nwg-header-btn[data-role="rewind"],
+.nwg-header-btn[data-role="forward"] {
   display: none !important;
 }
 
-.header-audio-player.is-playing .header-audio-btn[data-role="rewind"],
-.header-audio-player.is-playing .header-audio-btn[data-role="forward"],
-.header-audio-player:hover .header-audio-btn[data-role="rewind"],
-.header-audio-player:hover .header-audio-btn[data-role="forward"] {
+.nwg-header-player.is-playing .nwg-header-btn[data-role="rewind"],
+.nwg-header-player.is-playing .nwg-header-btn[data-role="forward"],
+.nwg-header-player:hover .nwg-header-btn[data-role="rewind"],
+.nwg-header-player:hover .nwg-header-btn[data-role="forward"] {
   display: flex !important;
 }
 
-.header-audio-btn:hover {
-  transform: scale(1.1) !important;
-  background: rgba(128, 128, 128, 0.2) !important;
-}
-
 @media (max-width: 600px) {
-  .sub-title {
-    display: none !important;
-  }
-  .main-title {
-    font-size: 1.8rem !important;
-  }
-  .custom-logo {
-    width: 50px !important;
-    height: 50px !important;
-    min-width: 50px !important;
-  }
+  .sub-title { display: none !important; }
+  .main-title { font-size: 1.6rem !important; }
+  .dashboard-header { gap: 0.6rem !important; }
+  .custom-logo { width: 45px !important; height: 45px !important; min-width: 45px !important; }
 }
 `
 
 CustomBanner.afterDOMLoaded = `
 document.addEventListener("nav", () => {
-  const containers = document.querySelectorAll(".header-audio-player[data-audio-src]")
+  const containers = document.querySelectorAll(".nwg-header-player[data-audio-src]")
 
   containers.forEach((container) => {
     if (!(container instanceof HTMLElement) || container.dataset.bound === "true") return
