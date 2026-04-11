@@ -12,7 +12,7 @@ socialImage: finalfrontier.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:06</span>
+      <span data-total-time>00:50</span>
     </div>
   </div>
 

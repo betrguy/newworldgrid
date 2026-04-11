@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-10 21:00 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-04-10 21:19 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,8 +51,46 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "Iran conflict escalates as US and Iran engage in ceasefire talks amid Israel's attacks on Lebanon.",
+    "emojis": "⚔️🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Israel"
+    ],
+    "source_count": 49,
+    "timestamp": "09:19 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China explores multipolar world, expands EV push, and tourism growth drives regional interest and investment.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "North Korea",
+      "China",
+      "US",
+      "Audi",
+      "Iran",
+      "Kazakhstan",
+      "Thailand",
+      "Japan",
+      "India",
+      "Indonesia",
+      "Vietnam"
+    ],
+    "source_count": 22,
+    "timestamp": "09:19 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "US, Lebanon urge Israel to pause attacks on Hezbollah ahead of Washington talks, scheduled for Tuesday.",
+    "summary": "US, Lebanon ask Israel to pause attacks on Hezbollah ahead of planned talks in Washington.",
     "emojis": "💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
@@ -64,77 +102,40 @@
       "Hezbollah"
     ],
     "source_count": 22,
-    "timestamp": "09:00 PM"
+    "timestamp": "09:19 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Escalating conflict in Lebanon leaves thousands without safety, damaging ancient churches and killing security forces.",
+    "summary": "Deadly conflict escalates in Lebanon, damaging churches and killing security forces amid Israeli-Hezbollah war.",
     "emojis": "💥⚔️🚀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Hezbollah",
-      "Israel"
+      "Israel",
+      "Hezbollah"
     ],
     "source_count": 7,
-    "timestamp": "09:00 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces regional concern over airspace restrictions, while showcasing tourism and attracting international visitors.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Kazakhstan",
-      "Thailand",
-      "Japan",
-      "India",
-      "Indonesia",
-      "Vietnam"
-    ],
-    "source_count": 18,
-    "timestamp": "09:00 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran-US ceasefire talks underway in Pakistan amid Israel's attacks on Lebanon and escalating global tensions.",
-    "emojis": "⚔️🕊️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Israel",
-      "Lebanon",
-      "Iran"
-    ],
-    "source_count": 48,
-    "timestamp": "09:00 PM"
+    "timestamp": "09:19 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine opens defense export deals in Middle East, while peace hopes remain bleak despite Easter ceasefire.",
-    "emojis": "🕊️",
+    "summary": "Ukraine strengthens defense exports, rejects ceding territory, amid ongoing tensions with Russia after Easter truce.",
+    "emojis": "🕊️⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Eurasia Review",
-      "Deseret News",
-      "The Independent",
-      "themercury.com"
+      "Russia",
+      "Ukraine"
     ],
     "source_count": 4,
-    "timestamp": "09:00 PM"
+    "timestamp": "09:19 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces security concerns, declining stocks, and human rights issues, amid international scrutiny and tensions.",
-    "emojis": "⚡",
+    "summary": "Russia faces security vulnerabilities, declining stock prices &amp; concerns over data collection and censorship.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
@@ -142,14 +143,15 @@
       "Meduza",
       "Investing.com",
       "EADaily",
-      "Human Rights Watch"
+      "Goshen News",
+      "chronicleonline.com"
     ],
-    "source_count": 8,
-    "timestamp": "09:00 PM"
+    "source_count": 7,
+    "timestamp": "09:19 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California flyover footage mislabeled as Middle East deployment sparks interest in Rio Tinto's boron assets.",
+    "summary": "California flyover footage misrepresents Middle East deployment, Rio Tinto's boron assets spark interest among bidders.",
     "emojis": "🚀",
     "lat": 34.05,
     "lng": -118.24,
@@ -160,26 +162,26 @@
       "Reuters"
     ],
     "source_count": 2,
-    "timestamp": "09:00 PM"
+    "timestamp": "09:19 PM"
   },
   {
     "title": "SITREP: AFGHANISTAN",
-    "summary": "Gunmen kill at least four people at a picnic spot in Afghanistan's Herat province.",
+    "summary": "Gunmen kill at least 4 people at a picnic spot in Deh Mehri village, Herat province.",
     "emojis": "⚔️",
     "lat": 33.9,
     "lng": 67.7,
     "location": "AFGHANISTAN",
     "actors": [
-      "Afghanistan government",
-      "unknown perpetrators"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "09:00 PM"
+    "timestamp": "09:19 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "Tesla introduces low-cost EV SUV to combat sales decline in Mexico market.",
-    "emojis": "⚔️",
+    "summary": "Tesla releases affordable EV SUV amid declining sales in Mexico, aiming to boost market share.",
+    "emojis": "",
     "lat": 23.6,
     "lng": -102.5,
     "location": "MEXICO",
@@ -188,7 +190,7 @@
       "Mexico"
     ],
     "source_count": 1,
-    "timestamp": "09:00 PM"
+    "timestamp": "09:19 PM"
   }
 ];
 

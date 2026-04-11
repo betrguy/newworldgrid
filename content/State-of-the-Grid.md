@@ -12,7 +12,7 @@ socialImage: stateofthegrid.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:10</span>
+      <span data-total-time>01:07</span>
     </div>
   </div>
 
@@ -31,20 +31,28 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 10, 2026 - 21:00</span>
+  <span class="sotg-timestamp">April 10, 2026 - 21:19</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Geopolitical tensions escalate global energy volatility as US and European markets align pricing amid Iran talks uncertainty. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Global tensions escalate as leaders urge Iran talks revival amidst escalating violence and energy market volatility driven by geopolitical factors. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The global energy landscape is experiencing a critical shift as hyperscalers invest in modular reactors to ensure energy sovereignty amidst regional transmission infrastructure upgrades and substation expansions. Geopolitical tensions are driving European energy volatility, with gas prices directly impacting electricity costs and US export capacity aligning global pricing.</p>
+<p class="meridian-lede">The escalating geopolitical tensions surrounding Iran talks have triggered a significant shift in global energy dynamics, as US and European markets align pricing amidst uncertainty. This development has far-reaching implications for the grid, particularly in the context of regional transmission infrastructure upgrades and substation expansions.</p>
 
-As the situation unfolds, it's essential to acknowledge that US export capacity will significantly influence international pricing, further emphasizing the importance of robust energy sovereignty measures.
+As market volatility increases, it is essential to acknowledge that US export capacity will play a crucial role in shaping international pricing.
+<div class="sotg-bullets">
+<ul>
+  <li><strong>Why it matters:</strong> Escalating geopolitical tensions with Iran have triggered a significant shift in global energy dynamics.</li>
+  <li><strong>The big picture:</strong> This development has far-reaching implications for the grid and regional transmission infrastructure upgrades.</li>
+  <li><strong>What to watch:</strong> Monitor US export capacity as it plays a crucial role in shaping international pricing.</li>
+</ul>
+</div>
+
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic storm activity is characterized by a Kp peak value of 2.0, with no significant changes over the past 24 hours, resulting in an Unknown condition that poses limited to no disruptions to satellite operations and HF radio communications. Power grid stability is not expected to be impacted as the solar wind speed and magnetic field strength do not pose a threat to geomagnetically induced currents (GICs), allowing all space-based and terrestrial systems to operate normally without concerns of adverse effects from this quiet geomagnetic environment.
+As of the current 24-hour geomagnetic window, the Kp index has reached a peak value of 4.3, with an average of 3.0 and a current reading of 2.0, corresponding to an Active condition. This indicates moderate levels of solar wind activity, which may cause minor disruptions or signal degradation in HF radio communications, potentially affecting satellite systems' performance.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
