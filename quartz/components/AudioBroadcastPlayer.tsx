@@ -136,8 +136,8 @@ AudioBroadcastPlayer.css = `
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
   padding: 0;
   border: 1px solid var(--nwg-border);
   border-radius: 50%;
@@ -154,8 +154,8 @@ AudioBroadcastPlayer.css = `
 }
 
 .nwg-audio-btn[data-role="play"] {
-  width: 3rem;
-  height: 3rem;
+  width: 2.75rem;
+  height: 2.75rem;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent);
 }
 `
@@ -265,4 +265,3 @@ document.addEventListener("nav", () => {
 `
 
 export default (() => AudioBroadcastPlayer) satisfies QuartzComponentConstructor
-
