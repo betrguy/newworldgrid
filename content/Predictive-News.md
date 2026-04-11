@@ -12,7 +12,7 @@ socialImage: predictivenews.png
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:05</span>
+      <span data-total-time>00:52</span>
     </div>
   </div>
 

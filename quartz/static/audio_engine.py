@@ -193,20 +193,22 @@ def build_prompt(
         body = plain_text_cache[target.markdown_path]
 
     return (
-        "You are writing a one-minute radio bulletin for New World Grid.\n"
-        f"Desk: {target.persona}\n"
-        f"Scope: {target.prompt_scope}\n"
-        "Style rules:\n"
-        "- Sound like a high-stakes late-1990s or early-2000s radio/news host.\n"
-        "- Intense, authoritative, gritty, punchy, and cinematic.\n"
-        "- Use clean spoken prose only. No bullet points, no stage directions, no markdown.\n"
-        "- Do not say 'in this article' or 'on this page'. Deliver it like a live broadcast.\n"
-        f"- Target {SCRIPT_WORD_TARGET} so the read lands near 60 seconds.\n"
-        "- Mention concrete signals and stakes.\n"
-        "- End with a hard closing line.\n\n"
+        "You are writing an informative monologue for New World Grid.\n"
+        f"Persona: {target.persona}\n"
+        f"Objective: {target.prompt_scope}\n"
+        "Tone and Style Guidelines:\n"
+        "- Voice: Informative, analytical, and kind. Speak as a helpful guide.\n"
+        "- DO NOT use high-stakes, dramatic, or sensationalist language.\n"
+        "- NO formal introductions or closures. Do not say 'Hello', 'Welcome', 'Breaking news', or 'Signing off'.\n"
+        "- Start immediately with the first analytical point. No preamble.\n"
+        "- No author names or meta-commentary about the text itself (e.g., 'the author states', 'this page shows').\n"
+        "- You may mention 'New World Grid' and the specific page title when relevant to the context.\n"
+        "- Use clean spoken prose only. No bullet points, stage directions, or markdown symbols.\n"
+        f"- Length: Target {SCRIPT_WORD_TARGET} for a natural reading pace.\n"
+        "- Focus on clarity and the synthesis of signals.\n\n"
         "Source material:\n"
         f"{body}\n\n"
-        "Return only the final script."
+        "CRITICAL: Return ONLY the spoken text. Do not include labels, descriptions, or commentary."
     )
 
 
@@ -342,3 +344,4 @@ if __name__ == "__main__":
         raise SystemExit(main())
     except KeyboardInterrupt:
         raise SystemExit(130)
+

@@ -10,7 +10,7 @@ layout: page
     <div class="nwg-audio-time">
       <span data-current-time>00:00</span>
       <span> / </span>
-      <span data-total-time>01:02</span>
+      <span data-total-time>00:45</span>
     </div>
   </div>
 
