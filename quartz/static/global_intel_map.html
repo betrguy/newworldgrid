@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-11 19:15 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-04-11 21:00 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,79 +52,23 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran hold direct talks in Pakistan amid fragile ceasefire, with tensions on Strait of Hormuz",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran's fragile ceasefire with US hangs in balance as China sends air defense systems and missiles flow in.",
+    "emojis": "🚀⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "China",
       "US",
       "Iran"
     ],
-    "source_count": 50,
-    "timestamp": "07:14 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia escalates violence despite Easter ceasefire, with continued drone attacks and strikes",
-    "emojis": "✈️💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 6,
-    "timestamp": "07:14 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Easter ceasefire between Russia & Ukraine falters amid allegations of violations on both sides.",
-    "emojis": "🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 43,
-    "timestamp": "07:14 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Swalwell faces probe over abuse allegations as California governor candidate",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "Swalwell",
-      "Prosecutor"
-    ],
-    "source_count": 1,
-    "timestamp": "07:14 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China sees tourism surge, announces new medical technology and diplomatic efforts amid global tensions.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Trump",
-      "Kim"
-    ],
-    "source_count": 8,
-    "timestamp": "07:14 PM"
+    "source_count": 65,
+    "timestamp": "08:59 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Escalating tensions between Israel and Hezbollah ahead of US talks, with violent protests and condemnation",
-    "emojis": "💀⚡",
+    "summary": "Israel targets Hezbollah in Lebanon, demands tougher action against militant group.",
+    "emojis": "🕊️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
@@ -132,122 +76,153 @@
       "Israel",
       "Hezbollah"
     ],
-    "source_count": 18,
-    "timestamp": "07:14 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "US astronauts return home after 9-day lunar mission, sparking thoughts on electric vehicles amid rising gas prices.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "NASA"
-    ],
-    "source_count": 2,
-    "timestamp": "07:14 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes kill at least 18 in southern Lebanon, death toll surpasses 2000 with ongoing violence.",
-    "emojis": "💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Hezbollah"
-    ],
-    "source_count": 9,
-    "timestamp": "07:14 PM"
+    "source_count": 20,
+    "timestamp": "08:59 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India intensifies diplomatic efforts with US, Egypt, and other nations on energy, defense, and geopolitical fronts.",
+    "summary": "India focuses on energy, defence and geopolitics amid marital rape concerns despite refusing to criminalize it.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
       "India",
+      "Misri (US)"
+    ],
+    "source_count": 2,
+    "timestamp": "08:59 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia and Ukraine accuse each other of violating Orthodox Easter ceasefire despite pre-ceasefire swaps.",
+    "emojis": "💥⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 28,
+    "timestamp": "08:59 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Hungary votes, Russia faces ceasefire violations despite Easter ceasefire, amid EU and US monitoring.",
+    "emojis": "🕊️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "EU",
+      "Russia",
       "US",
-      "Egypt"
+      "Hungary",
+      "Ukraine"
+    ],
+    "source_count": 11,
+    "timestamp": "08:59 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Escalation continues with reported reduced strikes, fatalities in southern Lebanon surpassing 2000.",
+    "emojis": "🪖💥📈",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israeli military"
+    ],
+    "source_count": 6,
+    "timestamp": "08:59 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Hamas demands Israeli action over Gaza ceasefire violations, as families mourn overnight airstrike victims",
+    "emojis": "💥💀🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Hamas",
+      "Israel"
+    ],
+    "source_count": 2,
+    "timestamp": "08:59 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California gov candidate Swalwell faces abuse probe by prosecutor",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Democrat",
+      "Swalwell"
     ],
     "source_count": 1,
-    "timestamp": "07:14 PM"
+    "timestamp": "08:59 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China sees tourism surge, arms export concerns, and approves new cancer treatment.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Trump",
+      "China",
+      "Iran",
+      "North Korea",
+      "Wang",
+      "Amgen"
+    ],
+    "source_count": 4,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Artemis crew returns to Houston after 9-day lunar mission, marking a historic achievement in space exploration.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "NASA/Crew"
+    ],
+    "source_count": 1,
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: GERMANY",
-    "summary": "Far-right AfD party adopts radical manifesto, surges ahead in German polls ahead of key elections.",
+    "summary": "Germany's far-right AfD adopts radical manifesto ahead of key polls in eastern state.",
     "emojis": "",
     "lat": 51.1,
     "lng": 10.4,
     "location": "GERMANY",
     "actors": [
-      "German politics",
-      "far-right AfD party"
+      "AfD"
     ],
     "source_count": 1,
-    "timestamp": "07:14 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Gaza families mourn loved ones killed in overnight Israeli air strikes, sparking widespread grief and outrage.",
-    "emojis": "💥💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestine"
-    ],
-    "source_count": 1,
-    "timestamp": "07:14 PM"
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Assailant at NYC's Grand Central fatally shot by police, faces deportation as son of Iranian Revolution figure.",
+    "summary": "Police fatally shoot knifeman at NYC's Grand Central after ignoring multiple threats.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "police",
-      "assailant",
-      "U.S. government"
+      " NYPD",
+      "Assailant"
     ],
     "source_count": 2,
-    "timestamp": "07:15 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Honda launches electric car, reshores semiconductor manufacturing to UK and US for sustainability",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Honda",
-      "UK",
-      "US"
-    ],
-    "source_count": 2,
-    "timestamp": "07:15 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "US and Iran officials hold face-to-face talks in Islamabad for potential ceasefire agreement.",
-    "emojis": "🕊️",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 1,
-    "timestamp": "07:15 PM"
+    "timestamp": "09:00 PM"
   }
 ];
 
