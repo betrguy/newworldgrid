@@ -10,20 +10,28 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 11, 2026 - 21:09</span>
+  <span class="sotg-timestamp">April 11, 2026 - 21:15</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The global energy landscape is shifting towards decentralized and sustainable solutions as oil's dominance wanes in favor of alternative power sources. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+The global energy landscape is shifting as oil follows geopolitics while the sun remains unaffected by these dynamics. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
 <p class="meridian-lede">The global energy landscape is shifting as oil follows geopolitics while solar power remains unaffected by political tensions. The recent announcement by Nio's William Li urging battery and chip standardization to curb EV supply chain waste highlights the critical importance of grid resilience in the face of rapid technological advancements.</p>
 
-Recent developments underscore the need for enhanced infrastructure security measures to ensure global stability.
+In light of these developments, it is essential to prioritize grid resilience under stress. As oil prices continue to fluctuate in response to geopolitical tensions, the need for diversified energy sources becomes increasingly pressing.
+<div class="sotg-bullets">
+<ul>
+  <li><strong>Why it matters:</strong> The global energy landscape's shift away from oil and towards solar power has significant implications for geopolitics and defense.</li>
+  <li><strong>The big picture:</strong> This shift could lead to a systemic reliance on non-traditional energy sources, potentially disrupting the status quo of global power dynamics.</li>
+  <li><strong>What to watch:</strong> Monitor the impact of Nio's battery and chip standardization efforts on the EV supply chain waste reduction.</li>
+</ul>
+</div>
+
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic activity is classified as Active, with a Kp value of 4.0 peak and average of 2.48. This condition poses minimal risk to satellites and their operations, as they are not significantly affected by Kp values below 3.5. However, brief periods of increased turbulence may cause minor disruptions to HF radio communications due to ionospheric disturbances, while power grid stability is unlikely to be impacted.
+As of this reporting window, the geomagnetic activity remains elevated with a Kp value of 1.3 and an average Kp of 2.48 over the past 24 hours. The peak Kp reading reached 4.0, confirming an Active condition. This heightened state poses moderate to significant disruptions for satellite operations, potentially affecting navigation and communication systems, as well as HF radio communications experiencing increased noise and signal degradation.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 

@@ -9,28 +9,26 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 11, 2026 - 21:11</span>
+  <span class="sotg-timestamp">April 11, 2026 - 21:16</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-As humanity ventures further into space, parallel advancements in electric vehicle infrastructure are crucial for sustainable development on both the lunar frontier and terrestrial grids. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+The development of orbital economies and electric vehicle grids continues to push humanity's presence further from Earth while expanding charging infrastructure on our home planet. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
-**The High Ground**
+### **The High Ground**
 
-Artemis crew members safely return to Earth after a nine-day voyage around the Moon. This journey took them further from our planet than any humans in history.
+Artemis crew members have returned to Earth after completing a nine-day journey around the Moon. This voyage took them further from our planet than any humans in history.
 
 ### **The EV Race**
 
-Tesla's Supercharger network has expanded with seven 500-kW V4 charging stations, according to EVChargingStations.com (2026-04-11 20:00). However, this growth hasn't translated into improved market performance for the company or its peers. In fact, Tesla stock recently experienced a 30% dip, which has rippled across the industry, as investors reassess their portfolios, as reported by The Globe and Mail (2026-04-12 00:21).
-
-### **Frontier Speculation: The 0.1% Shift**
+Tesla's Supercharger network has expanded with seven 500-kW V4 charging stations, according to data from EVChargingStations.com on April 11, 2026. However, this growth hasn't translated to improved market performance for the company or its peers, as Tesla stock recently took a 30% hit, which rippled across the industry and sent investors reassessing their portfolios, as reported by The Globe and Mail on April 12, 2026.
 
 *What follows is purely a thought experiment.*
 
-Imagine this: in 2032, NASA's Artemis program successfully establishes a permanent human settlement on the Moon. As a result, the global economy adjusts to a new reality where lunar resources and manufacturing capabilities become increasingly important. Tesla, now a leading player in the emerging space-based EV charging infrastructure market, decides to pivot its V4 Supercharger technology to exclusively support high-speed inter-satellite data transmission. This 0.1% change sparks a ripple effect: as more data flows through these new satellite networks, a previously unknown strain of moon-specific malware begins to spread globally, crippling major financial institutions' online transactions for a single day. The resulting chaos sends the global cryptocurrency market into a tailspin, with the value of Bitcoin plummeting 20%.
+Imagine this: In 2035, NASA's Artemis program, now 9 years old, has successfully established a sustainable human presence on the Moon. Tesla's dominance in the EV market, fueled by their V4 Supercharger network expansion, has created an unexpected knock-on effect. The surge in high-power charging infrastructure has made it feasible for small-scale, decentralized lunar mining operations to flourish. This new industry, initially driven by the demand for rare-Earth minerals needed to manufacture advanced spacecraft components, is now supplying a significant portion of the world's neodymium and dysprosium reserves.
 
 <!-- /FRONTIER_ENGINE_END -->
 
