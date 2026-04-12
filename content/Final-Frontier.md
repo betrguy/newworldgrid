@@ -9,28 +9,26 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 11, 2026 - 21:23</span>
+  <span class="sotg-timestamp">April 11, 2026 - 22:03</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-As humanity ventures further into space, parallel advancements in electric vehicle infrastructure are crucial for sustaining a robust orbital economy. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+As humanity's presence in space expands, parallel advancements in electric vehicle infrastructure are crucial for sustainable growth on both fronts. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 **The High Ground**
 
-After their nine-day journey around the Moon, Artemis crew members have safely returned to Earth. This feat marks another step in their historic voyage that took them further from Earth than any humans in history. The achievement highlights the growth of national and private expeditions into cislunar space.
+Artemis crew members safely return to Earth after their historic voyage around the Moon, marking another crucial step in this nine-day journey that took them further from Earth than any humans in history. This development underscores the rapid growth of missions pushing humanity's presence beyond Earth's orbit.
 
-The EV Race
+**The EV Race**
 
-Tesla's Supercharger network has expanded with seven new 500-kW V4 charging stations, according to [ev market] The Number of 500-kW V4 Tesla Superchargers Increased to Seven - EVChargingStations.com. However, this expansion has not translated to improved market performance for the company or its peers, as a 30% dip in Tesla's stock was reported by [ev market] The 30% Dip in Tesla Rippled Across EV Stocks. These 2 Stocks Are Worth Catching. - The Globe and Mail.
+Tesla's Supercharger network has expanded to seven new 500-kW V4 charging stations, according to recent reports (1). This expansion has not led to an immediate market boost for the company or its peers. In fact, a significant dip in Tesla's stock price was seen recently, causing a ripple effect across other EV stocks, with some experiencing a 30% decline (2).
 
-**Frontier Speculation: The 0.1% Shift**
+*What follows is purely a thought experiment.*
 
-What follows is purely a thought experiment.
-
-Imagine this: In the next 5-10 years, the success of the Artemis program sparks a massive influx of venture capital and government subsidies for lunar-based solar panel manufacturing. Tesla's V4 Supercharger network expansion becomes a key enabler of these investments, as its high-power charging infrastructure is repurposed to rapidly recharge electric aircraft and spacecraft. Suddenly, SpaceX's Starship becomes an attractive asset for real estate investment trusts (REITs), as investors snap up the rights to lease lunar surface plots for future solar panel arrays. As a result, the global solar panel market experiences a 5% surge in demand, causing a ripple effect that drives down production costs and makes the entire renewable energy sector more competitive with fossil fuels.
+In 2032, NASA's Artemis program has not only enabled humanity to sustainably colonize the Moon but also created an unexpected byproduct: a catastrophic shortage of lunar regolith-based building materials in the global construction industry. The sudden surge in demand for moon-sourced aggregates, driven by the rapid growth of lunar habitats and infrastructure, has triggered a supply chain crisis that's crippling the development of large-scale solar arrays on Earth. The 30% dip in Tesla's stock price, fueled by investor panic over this unexpected bottleneck, has created an opportunity for rival energy companies to snap up distressed EV charging assets at fire-sale prices, effectively cornering the market and dictating terms to the industry.
 
 <!-- /FRONTIER_ENGINE_END -->
 
