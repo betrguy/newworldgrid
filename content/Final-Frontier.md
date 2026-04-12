@@ -9,26 +9,26 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 11, 2026 - 22:03</span>
+  <span class="sotg-timestamp">April 12, 2026 - 11:01</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-As humanity's presence in space expands, parallel advancements in electric vehicle infrastructure are crucial for sustainable growth on both fronts. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Amazon's Kuiper constellation struggles to keep pace with SpaceX's Starlink satellites as the FCC criticizes Amazon's delays, while electric vehicles are expected to become mainstream by 2035 with ultra-fast charging and smart car technology. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 **The High Ground**
 
-Artemis crew members safely return to Earth after their historic voyage around the Moon, marking another crucial step in this nine-day journey that took them further from Earth than any humans in history. This development underscores the rapid growth of missions pushing humanity's presence beyond Earth's orbit.
+SpaceX has launched its Starlink satellites, while Amazon's Kuiper constellation is reportedly falling behind schedule. The FCC administrator publicly criticized Amazon's progress, putting pressure on the company to accelerate deployment.
 
 **The EV Race**
 
-Tesla's Supercharger network has expanded to seven new 500-kW V4 charging stations, according to recent reports (1). This expansion has not led to an immediate market boost for the company or its peers. In fact, a significant dip in Tesla's stock price was seen recently, causing a ripple effect across other EV stocks, with some experiencing a 30% decline (2).
+Tesla's Supercharger network expansion to seven new 500-kW V4 charging stations did not lead to an immediate market boost, as its stock price recently took a significant dip, causing a ripple effect across other EV stocks.
 
-*What follows is purely a thought experiment.*
+### **Frontier Speculation: The 0.1% Shift**
 
-In 2032, NASA's Artemis program has not only enabled humanity to sustainably colonize the Moon but also created an unexpected byproduct: a catastrophic shortage of lunar regolith-based building materials in the global construction industry. The sudden surge in demand for moon-sourced aggregates, driven by the rapid growth of lunar habitats and infrastructure, has triggered a supply chain crisis that's crippling the development of large-scale solar arrays on Earth. The 30% dip in Tesla's stock price, fueled by investor panic over this unexpected bottleneck, has created an opportunity for rival energy companies to snap up distressed EV charging assets at fire-sale prices, effectively cornering the market and dictating terms to the industry.
+What follows is purely a thought experiment. By 2035, a sudden surge in Amazon's Kuiper satellite constellation has inadvertently created a global bottleneck in the production of high-capacity lithium-metal anodes for solid-state batteries. As Amazon's Starlink satellites monopolize Low-Earth Orbit (LEO), they're hogging crucial solar radiation shielding materials needed to advance battery tech. This unexpected consequence forces EcoPro, winner of the Canada R&D grant, to pivot its research focus from improving charging speeds to developing a new generation of satellite-based solar shields for solid-state batteries.
 
 <!-- /FRONTIER_ENGINE_END -->
 

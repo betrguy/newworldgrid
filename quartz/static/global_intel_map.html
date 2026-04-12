@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-11 22:02 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-04-12 10:59 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,182 +52,149 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran faces escalating tensions with China and US over missile shipments and war ceasefires.",
-    "emojis": "🚀⚔️🕊️",
+    "summary": "US and Iran fail to reach ceasefire deal, with Trump threatening blockade of Strait of Hormuz.",
+    "emojis": "⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "China",
-      "Iran"
+      "Trump",
+      "Iran",
+      "US"
     ],
-    "source_count": 65,
-    "timestamp": "10:01 PM"
+    "source_count": 68,
+    "timestamp": "10:58 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine and Russia accuse each other of Easter ceasefire violations, with tensions remaining high despite truce.",
+    "emojis": "🕊️⚡",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 19,
+    "timestamp": "10:59 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strike kills infant girl in South Lebanon during her father's funeral",
+    "emojis": "💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 2,
+    "timestamp": "10:59 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China renames Indian territory, India slams attempt as 'mischievous', tensions rise in bilateral relations.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "India",
+      "China"
+    ],
+    "source_count": 17,
+    "timestamp": "10:59 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise between Israel and Lebanon amid Hezbollah attacks, while critics face backlash",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Tensions rise with Israel facing criticism over Lebanon attacks, Al-Aqsa Mosque incident, and anti-Netanyahu protests.",
+    "emojis": "🪖⚔️🕊️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Hezbollah",
-      "Netanyahu",
-      "Spain",
-      "Jordan",
-      "Lebanon"
+      "Palestine",
+      "Turkey",
+      "Qatar",
+      "Lebanon",
+      "Spain"
     ],
-    "source_count": 20,
-    "timestamp": "10:01 PM"
+    "source_count": 22,
+    "timestamp": "10:59 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia offers EU gas supply if surplus, amid uncertainty in Hungarian election and tensions with Ukraine.",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "EU",
+      "Hungary"
+    ],
+    "source_count": 10,
+    "timestamp": "10:59 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "US threatens to blockade Strait of Hormuz amid Middle East tensions, sparking concern in France.",
+    "emojis": "⚔️⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "US"
+    ],
+    "source_count": 1,
+    "timestamp": "10:59 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Activists launch Gaza-bound flotilla from Spain to challenge Israeli blockade, aiming to break humanitarian aid restrictions.",
+    "emojis": "",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "activists",
+      "Israel"
+    ],
+    "source_count": 2,
+    "timestamp": "10:59 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India focuses on energy, defence and geopolitics, amidst controversy over marital rape laws",
+    "summary": "India plans to establish a full EV battery ecosystem within 2-3 years.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
-      "US",
-      "Egypt"
-    ],
-    "source_count": 2,
-    "timestamp": "10:01 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia-Ukraine ceasefire falters, with both sides accusing each other of violating the Orthodox Easter truce.",
-    "emojis": "💥⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 28,
-    "timestamp": "10:01 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Hungary votes in landmark election as Russia's Easter ceasefire continues to be violated by Ukraine",
-    "emojis": "🕊️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "EU",
-      "Russia",
-      "US"
-    ],
-    "source_count": 11,
-    "timestamp": "10:01 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Escalating violence in Lebanon with over 2,000 deaths, Israeli strikes and Hezbollah retaliation continue",
-    "emojis": "🪖💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Hezbollah",
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 6,
-    "timestamp": "10:01 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Hamas demands Israel take action for ceasefire violations, as families mourn loved ones killed in overnight air strikes.",
-    "emojis": "💥💀🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Hamas",
-      "Gaza families"
-    ],
-    "source_count": 2,
-    "timestamp": "10:01 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "California governor candidate Swalwell faces probe into abuse allegations against him.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "Swalwell",
-      "Prosecutor"
+      "Mines Secretary",
+      "EdexLive"
     ],
     "source_count": 1,
-    "timestamp": "10:02 PM"
+    "timestamp": "10:59 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China sees surge in international travel, while Trump threatens China and North Korea develops ties with China.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: UK",
+    "summary": "UK imposes restrictions on pro-Palestine groups, sparks criticism from US commentator Tucker Carlson.",
+    "emojis": "🪖",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Trump",
-      "North Korea's Kim",
-      "China"
-    ],
-    "source_count": 4,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Artemis crew returns to Earth, marking historic lunar journey and welcome home in Houston.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "NASA",
-      "Astronauts"
-    ],
-    "source_count": 1,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "AfD adopts radical manifesto, gains momentum ahead of key polls in eastern Germany.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Germany",
-      "far-right AfD party"
-    ],
-    "source_count": 1,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Knifeman attacks at Grand Central, fatally shot by police; US also moves to deport son of Iranian Revolution figure.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Police",
-      "Lucifer",
-      "US Government"
+      "Tucker Carlson",
+      "Keir Starmer"
     ],
     "source_count": 2,
-    "timestamp": "10:02 PM"
+    "timestamp": "10:59 AM"
   }
 ];
 
