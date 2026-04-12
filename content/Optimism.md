@@ -1,7 +1,9 @@
 ﻿---
+socialImage: dailyoptimism.png
 title: Daily Optimism
 layout: page
 ---
+socialImage: dailyoptimism.png
 
 <div class="sotg-byline">
   <span class="sotg-author">AURORA</span>
@@ -19,6 +21,7 @@ This shift transforms how we interact with technology by reducing lag and enhanc
 </div>
 
 ---
+socialImage: dailyoptimism.png
 
 ### What This Means for the Future
 - **Improved responsiveness**: Real-time AI processing enables quicker reaction times in various applications.
@@ -27,6 +30,7 @@ This shift transforms how we interact with technology by reducing lag and enhanc
 - **Better safety**: Autonomous vehicles can navigate with enhanced precision, thanks to local AI processing.
 - **Faster medical diagnostics**: Wearable devices can provide quicker and more accurate health monitoring.
 ---
+socialImage: dailyoptimism.png
 
 ### Geomagnetic Environment
 
@@ -45,4 +49,5 @@ Day length today: **12.73 hours** (Spring, &uarr; lengthening). 71 days to the n
 - [coleam00/Archon](https://github.com/coleam00/Archon) &mdash; The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
 - [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) &mdash; A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [multica-ai/multica](https://github.com/multica-ai/multica) &mdash; The open-source managed agents platform. Turn coding agents into real teammates â€” assign tasks, track progress, compound skills.
+
 
