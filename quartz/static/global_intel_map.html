@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-12 10:59 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-12 20:45 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,150 +51,123 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "US and Iran fail to reach ceasefire deal, with Trump threatening blockade of Strait of Hormuz.",
-    "emojis": "⚔️🕊️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Iran",
-      "US"
-    ],
-    "source_count": 68,
-    "timestamp": "10:58 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine and Russia accuse each other of Easter ceasefire violations, with tensions remaining high despite truce.",
-    "emojis": "🕊️⚡",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 19,
-    "timestamp": "10:59 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strike kills infant girl in South Lebanon during her father's funeral",
-    "emojis": "💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 2,
-    "timestamp": "10:59 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China renames Indian territory, India slams attempt as 'mischievous', tensions rise in bilateral relations.",
-    "emojis": "⚡",
+    "summary": "China showcases economic growth, strengthens ties with Spain and Taiwan, while expanding tech and tourism sectors.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "India",
-      "China"
+      "China",
+      "Spain",
+      "Taiwan"
     ],
-    "source_count": 17,
-    "timestamp": "10:59 AM"
+    "source_count": 14,
+    "timestamp": "08:44 PM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise with Israel facing criticism over Lebanon attacks, Al-Aqsa Mosque incident, and anti-Netanyahu protests.",
-    "emojis": "🪖⚔️🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: IRAN",
+    "summary": "US imposes blockade on Iran's ports, raising global energy prices and tensions with China.",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Israel",
-      "Palestine",
-      "Turkey",
-      "Qatar",
-      "Lebanon",
-      "Spain"
+      "US",
+      "Iran",
+      "China"
+    ],
+    "source_count": 60,
+    "timestamp": "08:44 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia and Ukraine accuse each other of violating Easter truce, resulting in four Ukrainian POWs' execution.",
+    "emojis": "🪖",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
     ],
     "source_count": 22,
-    "timestamp": "10:59 AM"
+    "timestamp": "08:44 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia offers EU gas supply if surplus, amid uncertainty in Hungarian election and tensions with Ukraine.",
-    "emojis": "⚡",
+    "summary": "Russia faces military setbacks, sanctions push, and economic decline despite diplomatic efforts",
+    "emojis": "🪖⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
-      "EU",
-      "Hungary"
+      "Trump",
+      "Putin",
+      "Russia"
     ],
-    "source_count": 10,
-    "timestamp": "10:59 AM"
+    "source_count": 9,
+    "timestamp": "08:45 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "US threatens to blockade Strait of Hormuz amid Middle East tensions, sparking concern in France.",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: US-NY",
+    "summary": "US warships clear mines in Strait of Hormuz, Jeep announces new models for 85th anniversary",
+    "emojis": "🚢⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "France",
-      "US"
-    ],
-    "source_count": 1,
-    "timestamp": "10:59 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Activists launch Gaza-bound flotilla from Spain to challenge Israeli blockade, aiming to break humanitarian aid restrictions.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "activists",
-      "Israel"
+      "US Navy",
+      "Jeep"
     ],
     "source_count": 2,
-    "timestamp": "10:59 AM"
+    "timestamp": "08:45 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India plans to establish a full EV battery ecosystem within 2-3 years.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces escalating tensions, aid cuts, and military shake-ups amid regional conflicts and internal divisions.",
+    "emojis": "🪖🚀⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Mines Secretary",
-      "EdexLive"
+      "J Street",
+      "IDF",
+      "Netanyahu",
+      "Hezbollah",
+      "Europeans"
     ],
-    "source_count": 1,
-    "timestamp": "10:59 AM"
+    "source_count": 22,
+    "timestamp": "08:45 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK imposes restrictions on pro-Palestine groups, sparks criticism from US commentator Tucker Carlson.",
-    "emojis": "🪖",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan emerges as a new power broker in Middle East, replacing Europe in regional diplomacy.",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
     "actors": [
-      "Tucker Carlson",
-      "Keir Starmer"
+      "Europe",
+      "Pakistan"
     ],
     "source_count": 2,
-    "timestamp": "10:59 AM"
+    "timestamp": "08:45 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanese PM works to secure Israeli troop withdrawal amid ongoing conflict and strikes in southern Lebanon.",
+    "emojis": "💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "French News",
+      "Lebanese Government",
+      "Israeli Troops"
+    ],
+    "source_count": 4,
+    "timestamp": "08:45 PM"
   }
 ];
 
