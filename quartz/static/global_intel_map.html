@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-12 20:45 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-04-13 11:24 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,123 +51,167 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China showcases economic growth, strengthens ties with Spain and Taiwan, while expanding tech and tourism sectors.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Spain",
-      "Taiwan"
-    ],
-    "source_count": 14,
-    "timestamp": "08:44 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US imposes blockade on Iran's ports, raising global energy prices and tensions with China.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran",
-      "China"
-    ],
-    "source_count": 60,
-    "timestamp": "08:44 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine accuse each other of violating Easter truce, resulting in four Ukrainian POWs' execution.",
-    "emojis": "🪖",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 22,
-    "timestamp": "08:44 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces military setbacks, sanctions push, and economic decline despite diplomatic efforts",
-    "emojis": "🪖⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Trump",
-      "Putin",
-      "Russia"
-    ],
-    "source_count": 9,
-    "timestamp": "08:45 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US warships clear mines in Strait of Hormuz, Jeep announces new models for 85th anniversary",
-    "emojis": "🚢⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "US Navy",
-      "Jeep"
-    ],
-    "source_count": 2,
-    "timestamp": "08:45 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces escalating tensions, aid cuts, and military shake-ups amid regional conflicts and internal divisions.",
-    "emojis": "🪖🚀⚔️",
+    "summary": "Rocket from Lebanon hits house in northern Israel, woman injured - Anadolu Ajans",
+    "emojis": "🚀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "J Street",
-      "IDF",
-      "Netanyahu",
-      "Hezbollah",
-      "Europeans"
+      "google_middle_east",
+      "google_israel"
     ],
-    "source_count": 22,
-    "timestamp": "08:45 PM"
+    "source_count": 25,
+    "timestamp": "11:24 AM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan emerges as a new power broker in Middle East, replacing Europe in regional diplomacy.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: IRAN",
+    "summary": "Iran war: Talks collapse is bad news for ordinary Iranians - dw.com",
+    "emojis": "⚔️🕊️📈",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Europe",
-      "Pakistan"
+      "google_middle_east",
+      "google_israel",
+      "google_iran",
+      "google_china"
     ],
-    "source_count": 2,
-    "timestamp": "08:45 PM"
+    "source_count": 46,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia and Belarus Return to World Aquatics With Flags and Anthems After Ban Is ",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 19,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Philippines warns of 'sabotage' after cyanide seizure in disputed South China Se",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "phys_org_physics",
+      "google_ev",
+      "google_china"
+    ],
+    "source_count": 20,
+    "timestamp": "11:24 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Lebanese PM works to secure Israeli troop withdrawal amid ongoing conflict and strikes in southern Lebanon.",
-    "emojis": "💥⚔️",
+    "summary": "New details on Operation Eternal Darkness: 250 Hezbollah operatives were killed ",
+    "emojis": "💥💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "French News",
-      "Lebanese Government",
-      "Israeli Troops"
+      "google_israel"
     ],
-    "source_count": 4,
-    "timestamp": "08:45 PM"
+    "source_count": 2,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Russian military jet makes second visit to North Korea in a week - NK News",
+    "emojis": "🪖✈️",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 1,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Gaza ‘heading towards famine’ as bread shortages deepen amid Israeli curbs - Mid",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "google_middle_east",
+      "google_israel"
+    ],
+    "source_count": 2,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Kia reaches 100,000 EV sales in the UK as Niro EV bows out - Electric & Hybrid V",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "google_ev"
+    ],
+    "source_count": 1,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Peru election drags into second day after ballot delivery fiasco",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "bbc_world"
+    ],
+    "source_count": 1,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia says Hungarian election result won't affect Ukraine war - Yahoo",
+    "emojis": "⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 1,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Elektros Highlights Surge in Used EV Demand as U.S. Market Adapts to Rising Gaso",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "google_ev"
+    ],
+    "source_count": 2,
+    "timestamp": "11:24 AM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Drilling reportedly increasing in West Texas amid tensions in the Middle East - ",
+    "emojis": "⚡",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 1,
+    "timestamp": "11:24 AM"
   }
 ];
 
