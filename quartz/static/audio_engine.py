@@ -21,7 +21,7 @@ from kokoro import KPipeline
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434/api/generate")
 DEFAULT_MODEL = os.environ.get("OLLAMA_MODEL", "mannix/llama3.1-8b-abliterated")
 DEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "am_michael")        
-DEFAULT_SPEED = float(os.environ.get("KOKORO_SPEED", "0.94"))       
+DEFAULT_SPEED = float(os.environ.get("KOKORO_SPEED", "1.0"))       
 SAMPLE_RATE = 24000
 PLAYER_MARKER = "NWG_AUDIO_PLAYER"
 SCRIPT_WORD_TARGET = "350 to 450 words"
@@ -167,7 +167,8 @@ def build_prompt(
         f"Persona: {target.persona}\n"
         f"Objective: {target.prompt_scope}\n"
         "Tone and Style Guidelines:\n"
-        "- Voice: Informative, analytical, and kind. Speak as a helpful guide.\n"
+        "- Voice: Conversational and casual, yet remains analytical and unbiased. Speak as a colleague sharing a clear, indifferent summary of facts—knowledgeable but not performing.\n"
+        "- Use natural sentence transitions (e.g., 'Moving to the energy sector,' or 'On the optimism front,') while avoiding dramatic flair.\n"
         "- DO NOT use high-stakes, dramatic, or sensationalist language.\n"
         "- NO formal introductions or closures. Do not say 'Hello', 'Welcome', 'Breaking news', or 'Signing off'.\n"
         "- Start immediately with the first analytical point. No preamble.\n"
