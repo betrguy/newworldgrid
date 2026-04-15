@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-14 08:49 UTC | 6 active regions</div>
+        <div class="meta">Generated 2026-04-15 15:19 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">6 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,103 +51,199 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces economic sanctions, energy restrictions, and diplomatic setbacks amid global tensions with EU and US.",
-    "emojis": "🚫⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "EU",
-      "US",
-      "Hungary"
-    ],
-    "source_count": 23,
-    "timestamp": "08:49 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China navigates geopolitical tensions with AI tech, opposes US blockade, and strengthens economic ties in Middle East.",
-    "emojis": "🚫⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US",
-      "Japan"
-    ],
-    "source_count": 20,
-    "timestamp": "08:49 AM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran remains obstacle to Greater Israel, US-Iran talks intensify amid blockade and war tensions.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran War updates: Trump offers mixed messages, Senate rejects curbing war powers, blockade and sanctions increase.",
+    "emojis": "🪖⚔️🚫",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Al Jazeera",
-      "US",
-      "Israel",
-      "Italy",
-      "LVMH",
-      "IEA",
-      "Mossad",
-      "IDF",
-      "The Jerusalem Post",
-      "Haaretz",
-      "The Times of Israel"
+      "Trump",
+      "Senate Republicans"
     ],
-    "source_count": 36,
-    "timestamp": "08:49 AM"
+    "source_count": 48,
+    "timestamp": "03:18 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise as Israel faces antisemitism, international criticism, and Lebanon's talks with Israel in Washington.",
-    "emojis": "⚡",
+    "summary": "Israel and Lebanon hold talks, amid reports of imminent ceasefire and concerns over ministerial power struggles.",
+    "emojis": "💥⚔️🕊️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israeli education minister",
-      "Spanish premier",
+      "UN",
+      "Hezbollah",
+      "Israel",
       "Lebanon",
-      "Italy",
-      "Holocaust survivors"
+      "Hungary"
     ],
-    "source_count": 35,
-    "timestamp": "08:49 AM"
+    "source_count": 24,
+    "timestamp": "03:18 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates attacks on Ukraine, but Ukraine gains ground with air defense strikes and robot-led victories.",
-    "emojis": "💥⚔️💣",
+    "summary": "Russia launches drone attacks on Ukraine, prompting warnings from Europe and calls for more aid",
+    "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine"
+      "Ukraine",
+      "Europe"
     ],
-    "source_count": 8,
-    "timestamp": "08:49 AM"
+    "source_count": 10,
+    "timestamp": "03:18 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Tensions escalate in Middle East, France watches developments closely due to regional interests and allies involved.",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia settles compensation, expands energy supply to India, but faces losses and strikes in Ukraine.",
+    "emojis": "💥",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "France",
+      "Kremlin",
+      "AZAL",
       "US",
-      "Israel"
+      "India",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 12,
+    "timestamp": "03:18 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israel strikes kill 3 paramedics, over 2,100 Lebanese killed; UN condemns as 'illegal aggression', talks to find ceasefire.",
+    "emojis": "💥⚔️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Lebanon",
+      "Israel",
+      "UN"
+    ],
+    "source_count": 5,
+    "timestamp": "03:18 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Electric cars gain popularity as gas prices rise in US-NY market.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "The New York Times",
+      "US-NY Market"
     ],
     "source_count": 1,
-    "timestamp": "08:49 AM"
+    "timestamp": "03:18 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China tests deep-sea cable cutter, imposes export curbs, and faces trade challenges while expanding influence globally.",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "US",
+      "China",
+      "India",
+      "Trump",
+      "Vietnam",
+      "Europe"
+    ],
+    "source_count": 12,
+    "timestamp": "03:18 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Nuevo Leon attracts significant auto investment and expands electric vehicle ambitions.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Mexico Government",
+      "Auto Manufacturers"
+    ],
+    "source_count": 1,
+    "timestamp": "03:19 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India's Colombo shipyard deal signals strategic cooperation in Indian Ocean, bolstering regional influence.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India",
+      "Sri Lanka"
+    ],
+    "source_count": 1,
+    "timestamp": "03:19 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Holy War narrative within Pentagon sparks geopolitical concerns and tensions among US leaders.",
+    "emojis": "⚔️⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Pentagon",
+      "US leaders"
+    ],
+    "source_count": 1,
+    "timestamp": "03:19 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli military fire kills 8 Palestinians, wounds 29 in Gaza over past 24 hours.",
+    "emojis": "🪖💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Palestinians"
+    ],
+    "source_count": 2,
+    "timestamp": "03:19 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK military intelligence reports mounting Russian losses due to recruitment struggles.",
+    "emojis": "🪖",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK Military",
+      "Russia"
+    ],
+    "source_count": 1,
+    "timestamp": "03:19 PM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Middle East war affects air travel, causing flight cancellations and disruptions globally.",
+    "emojis": "⚔️",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taipei Times",
+      "world aviation"
+    ],
+    "source_count": 1,
+    "timestamp": "03:19 PM"
   }
 ];
 
