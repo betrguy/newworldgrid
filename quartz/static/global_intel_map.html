@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-16 09:10 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-04-17 10:25 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,9 +51,24 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UK",
+    "summary": "UK news: Arson charges, EV adoption and safety improvements, falling electric car prices reported",
+    "emojis": "🚢",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Persian media outlets",
+      "Geotab",
+      "The Guardian"
+    ],
+    "source_count": 3,
+    "timestamp": "10:24 AM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "US threatens Iran amid escalating tensions, with potential military action and executions reported.",
-    "emojis": "🪖⚔️⚡",
+    "summary": "Iran announces Strait of Hormuz open, US blocks claim despite Trump's assertion, oil prices plummet",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -61,57 +76,41 @@
       "US",
       "Iran"
     ],
-    "source_count": 42,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China: Expansion, EVs, Mining & Retail Sales Grows Amid Geopolitics",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Eight Sleep",
-      "Jaguar Land Rover",
-      "Defense Metals"
-    ],
-    "source_count": 19,
-    "timestamp": "09:09 AM"
+    "source_count": 56,
+    "timestamp": "10:24 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces sanctions, recruitment challenges and military aggression amid war with Ukraine and EU criticism.",
-    "emojis": "🪖⚔️➡️",
+    "summary": "Russia resumes oil loading, boosts agricultural trade with SCO nations, amid security concerns and declining Putin approval.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
-      "EU",
-      "Ukraine"
+      "RUSSIA",
+      "SCO countries",
+      "Putin"
     ],
-    "source_count": 9,
-    "timestamp": "09:09 AM"
+    "source_count": 19,
+    "timestamp": "10:24 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel and Lebanon leaders to hold talks, amid US support and increasing global attention.",
-    "emojis": "✈️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: CHINA",
+    "summary": "China expands in South China Sea, accelerates EV push, and adjusts lending limits amidst diplomatic tensions.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
       "US",
-      "Israel",
-      "Lebanon"
+      "China"
     ],
-    "source_count": 12,
-    "timestamp": "09:09 AM"
+    "source_count": 14,
+    "timestamp": "10:24 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates attacks on Ukraine, killing at least 18 with massive drone and missile barrages.",
+    "summary": "Russia to carry out 7 large-scale strikes against Ukraine per month, bolstering anti-drone defenses.",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -120,107 +119,138 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 21,
-    "timestamp": "09:09 AM"
+    "source_count": 6,
+    "timestamp": "10:24 AM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "AI-powered warfare blurs human involvement, as AI-driven decisions become increasingly autonomous and decisive.",
-    "emojis": "⚔️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel holds Lebanon areas, ceases fighting for 10 days, amidst international praise and Syria tensions",
+    "emojis": "🕊️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
+      "Israel",
       "US",
-      "DC"
+      "Russia"
     ],
-    "source_count": 1,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK hotels adapt to EV demand, Russian turn to witchcraft amid economic uncertainty, London stocks rise on peace optimism.",
-    "emojis": "🕊️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Yahoo News UK",
-      "Reuters",
-      "Travel And Tour World"
-    ],
-    "source_count": 4,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Brazil's former spy chief Alexandre Ramagem released from ICE detention in Orlando, Florida.",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "US-ICE",
-      "Brazil"
-    ],
-    "source_count": 1,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "BYD to dock over 7,000 electric vehicles in Germany on April 19.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "BYD",
-      "Germany"
-    ],
-    "source_count": 1,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "US House demands ban on Chinese, Russian companies using query-and-copy techniques.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "US Government",
-      "Chinese Companies",
-      "Russian Companies"
-    ],
-    "source_count": 1,
-    "timestamp": "09:09 AM"
+    "source_count": 16,
+    "timestamp": "10:24 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "At least 72,345 Palestinians killed in Gaza conflict, exceeding genocide threshold according to health ministry.",
-    "emojis": "⚔️💀",
+    "summary": "Gaza mother anxiously waits for answers about her imprisoned sons, fearing their safety and freedom.",
+    "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Middle East Eye"
+      "mother",
+      "prison authorities"
     ],
     "source_count": 1,
-    "timestamp": "09:09 AM"
+    "timestamp": "10:24 AM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan seeks to expand regional influence, balancing ties with Middle Eastern nations while navigating complex geopolitics.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: MEXICO",
+    "summary": "Mexico weighs geopolitical tensions in Middle East for strategic opportunities, economic benefits and national security.",
+    "emojis": "⚡",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
     "actors": [
-      "Pakistan",
-      "Middle Eastern nations"
+      "Mexico",
+      "Middle Eastern countries"
     ],
     "source_count": 1,
-    "timestamp": "09:10 AM"
+    "timestamp": "10:24 AM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Everged and Georgia Green Energy partner to deploy EV charging infrastructure in the Southeast US.",
+    "emojis": "🚀",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "Everged",
+      "Georgia Green Energy"
+    ],
+    "source_count": 1,
+    "timestamp": "10:24 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France hosts summit on Hormuz maritime security with Macron and Starmer, Palestinian suspect handed over",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Macron",
+      "Starmer",
+      "Palestinians"
+    ],
+    "source_count": 2,
+    "timestamp": "10:24 AM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Rivian, Redwood launch second-life EV battery storage at Illinois plant, expanding electric vehicle capabilities.",
+    "emojis": "",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "Electric Vehicle Industry",
+      "US Manufacturing"
+    ],
+    "source_count": 1,
+    "timestamp": "10:24 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Larry Fink disputes Middle East crisis coverage, differing from mainstream media's doom-and-gloom narrative.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "New York Post",
+      "Larry Fink"
+    ],
+    "source_count": 1,
+    "timestamp": "10:24 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Chinese automakers prioritize Germany's fleet sector for European growth, driven by demand and industry expertise.",
+    "emojis": "🚢",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "China",
+      "Germany",
+      "European"
+    ],
+    "source_count": 1,
+    "timestamp": "10:24 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Japan MSDF escort ship passes through Taiwan Strait, sparking tensions between Japan and China.",
+    "emojis": "⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan",
+      "China",
+      "Japan"
+    ],
+    "source_count": 1,
+    "timestamp": "10:25 AM"
   }
 ];
 
