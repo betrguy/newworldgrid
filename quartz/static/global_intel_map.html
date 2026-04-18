@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-17 10:25 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-04-18 10:20 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,206 +51,142 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UK",
-    "summary": "UK news: Arson charges, EV adoption and safety improvements, falling electric car prices reported",
-    "emojis": "🚢",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Persian media outlets",
-      "Geotab",
-      "The Guardian"
-    ],
-    "source_count": 3,
-    "timestamp": "10:24 AM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran announces Strait of Hormuz open, US blocks claim despite Trump's assertion, oil prices plummet",
-    "emojis": "⚔️",
+    "summary": "Iran reimposes 'strict control' on Strait of Hormuz, sparking tensions with US and Israel.",
+    "emojis": "🪖⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "Iran",
       "US",
-      "Iran"
+      "Israel"
     ],
-    "source_count": 56,
-    "timestamp": "10:24 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia resumes oil loading, boosts agricultural trade with SCO nations, amid security concerns and declining Putin approval.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "RUSSIA",
-      "SCO countries",
-      "Putin"
-    ],
-    "source_count": 19,
-    "timestamp": "10:24 AM"
+    "source_count": 53,
+    "timestamp": "10:20 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China expands in South China Sea, accelerates EV push, and adjusts lending limits amidst diplomatic tensions.",
-    "emojis": "⚡",
+    "summary": "China focuses on innovation and development while facing travel chaos, military concerns, and trade disputes.",
+    "emojis": "🪖",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "China",
       "US",
-      "China"
+      "Canada",
+      "Pakistan",
+      "Mongolia",
+      "Garuda Indonesia",
+      "Capital Airlines",
+      "China Eastern Airlines"
     ],
-    "source_count": 14,
-    "timestamp": "10:24 AM"
+    "source_count": 12,
+    "timestamp": "10:20 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia to carry out 7 large-scale strikes against Ukraine per month, bolstering anti-drone defenses.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: LEBANON",
+    "summary": "French soldier killed in attack on UN peacekeepers in southern Lebanon",
+    "emojis": "⚔️💀🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "Hezbollah",
+      "UN",
+      "France"
     ],
     "source_count": 6,
-    "timestamp": "10:24 AM"
+    "timestamp": "10:20 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel holds Lebanon areas, ceases fighting for 10 days, amidst international praise and Syria tensions",
-    "emojis": "🕊️⚡",
+    "summary": "Escalation in Israel-Lebanon tensions amid triple strikes and Hezbollah label, impacting Eurovision and US support.",
+    "emojis": "💥⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "US",
-      "Russia"
+      "Hezbollah",
+      "US"
     ],
-    "source_count": 16,
-    "timestamp": "10:24 AM"
+    "source_count": 18,
+    "timestamp": "10:20 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Putin seeks to revitalize Russia, amid tensions with Ukraine and ongoing economic discussions with US.",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "US",
+      "Ukraine"
+    ],
+    "source_count": 12,
+    "timestamp": "10:20 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia strikes Ukraine, retaliates with attacks and damages Russian warships, oil facilities, and Belarus concerns.",
+    "emojis": "🚢💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine",
+      "US",
+      "Belarus"
+    ],
+    "source_count": 13,
+    "timestamp": "10:20 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza mother anxiously waits for answers about her imprisoned sons, fearing their safety and freedom.",
-    "emojis": "",
+    "summary": "Middle East wars intensify, impacting Gaza's future, sparking conversations on campus and global implications.",
+    "emojis": "⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "mother",
-      "prison authorities"
+      "Georgetown University",
+      "DW.com"
     ],
-    "source_count": 1,
-    "timestamp": "10:24 AM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Mexico weighs geopolitical tensions in Middle East for strategic opportunities, economic benefits and national security.",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mexico",
-      "Middle Eastern countries"
-    ],
-    "source_count": 1,
-    "timestamp": "10:24 AM"
-  },
-  {
-    "title": "SITREP: US-GA",
-    "summary": "Everged and Georgia Green Energy partner to deploy EV charging infrastructure in the Southeast US.",
-    "emojis": "🚀",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
-    "actors": [
-      "Everged",
-      "Georgia Green Energy"
-    ],
-    "source_count": 1,
-    "timestamp": "10:24 AM"
+    "source_count": 2,
+    "timestamp": "10:20 AM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France hosts summit on Hormuz maritime security with Macron and Starmer, Palestinian suspect handed over",
+    "summary": "French film star Nathalie Baye dies at 77, President Macron pays tribute to her enduring legacy.",
     "emojis": "⚔️",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "Macron",
-      "Starmer",
-      "Palestinians"
+      "President Macron",
+      "Nathalie Baye"
     ],
-    "source_count": 2,
-    "timestamp": "10:24 AM"
+    "source_count": 1,
+    "timestamp": "10:20 AM"
   },
   {
-    "title": "SITREP: US-IL",
-    "summary": "Rivian, Redwood launch second-life EV battery storage at Illinois plant, expanding electric vehicle capabilities.",
+    "title": "SITREP: UK",
+    "summary": "Ford to restructure model E unit as EV chief departs, targeting 8% profit margin under Galhotra's leadership.",
     "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Electric Vehicle Industry",
-      "US Manufacturing"
+      "Ford",
+      "Galhotra"
     ],
     "source_count": 1,
-    "timestamp": "10:24 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Larry Fink disputes Middle East crisis coverage, differing from mainstream media's doom-and-gloom narrative.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "New York Post",
-      "Larry Fink"
-    ],
-    "source_count": 1,
-    "timestamp": "10:24 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Chinese automakers prioritize Germany's fleet sector for European growth, driven by demand and industry expertise.",
-    "emojis": "🚢",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "China",
-      "Germany",
-      "European"
-    ],
-    "source_count": 1,
-    "timestamp": "10:24 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Japan MSDF escort ship passes through Taiwan Strait, sparking tensions between Japan and China.",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan",
-      "China",
-      "Japan"
-    ],
-    "source_count": 1,
-    "timestamp": "10:25 AM"
+    "timestamp": "10:20 AM"
   }
 ];
 
