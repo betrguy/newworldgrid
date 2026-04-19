@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-18 10:20 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-04-19 15:02 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,142 +51,139 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran reimposes 'strict control' on Strait of Hormuz, sparking tensions with US and Israel.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US",
-      "Israel"
-    ],
-    "source_count": 53,
-    "timestamp": "10:20 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China focuses on innovation and development while facing travel chaos, military concerns, and trade disputes.",
-    "emojis": "🪖",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US",
-      "Canada",
-      "Pakistan",
-      "Mongolia",
-      "Garuda Indonesia",
-      "Capital Airlines",
-      "China Eastern Airlines"
-    ],
-    "source_count": 12,
-    "timestamp": "10:20 AM"
-  },
-  {
     "title": "SITREP: LEBANON",
-    "summary": "French soldier killed in attack on UN peacekeepers in southern Lebanon",
-    "emojis": "⚔️💀🕊️",
+    "summary": "Israel probes soldier's attack on Jesus statue, burns homes in southern Lebanon, publishes territorial map",
+    "emojis": "⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Hezbollah",
-      "UN",
-      "France"
+      "Israeli Army",
+      "Lebanese people"
     ],
-    "source_count": 6,
-    "timestamp": "10:20 AM"
+    "source_count": 5,
+    "timestamp": "03:01 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Escalation in Israel-Lebanon tensions amid triple strikes and Hezbollah label, impacting Eurovision and US support.",
-    "emojis": "💥⚔️⚡",
+    "summary": "Israel to strengthen ties with Argentina, while facing EU trade suspension and anti-Israel challenges",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Hezbollah",
-      "US"
+      "Argentina's president",
+      "Netanyahu",
+      "EU",
+      "White House"
     ],
-    "source_count": 18,
-    "timestamp": "10:20 AM"
+    "source_count": 30,
+    "timestamp": "03:01 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US, Israel urge peace talks with Iran amid rising tensions and maritime threats",
+    "emojis": "⚔️🕊️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US President",
+      "Netanyahu",
+      "Iran",
+      "Israel",
+      "Pakistan",
+      "Argentina's Milei"
+    ],
+    "source_count": 63,
+    "timestamp": "03:01 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan promises to mediate for 'lasting peace' in regional conflicts, aims to reduce tensions.",
+    "emojis": "⚔️🕊️⚡",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Pakistan",
+      "Regional Parties"
+    ],
+    "source_count": 1,
+    "timestamp": "03:01 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Putin seeks to revitalize Russia, amid tensions with Ukraine and ongoing economic discussions with US.",
-    "emojis": "⚡",
+    "summary": "Putin benefits from global food crisis, while Russia attacks Ukraine and imposes fines on news outlets.",
+    "emojis": "⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Putin",
-      "US",
-      "Ukraine"
-    ],
-    "source_count": 12,
-    "timestamp": "10:20 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia strikes Ukraine, retaliates with attacks and damages Russian warships, oil facilities, and Belarus concerns.",
-    "emojis": "🚢💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
+      "Zelenskyy",
       "Ukraine",
-      "US",
-      "Belarus"
+      "Russia"
     ],
-    "source_count": 13,
-    "timestamp": "10:20 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Middle East wars intensify, impacting Gaza's future, sparking conversations on campus and global implications.",
-    "emojis": "⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Georgetown University",
-      "DW.com"
-    ],
-    "source_count": 2,
-    "timestamp": "10:20 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "French film star Nathalie Baye dies at 77, President Macron pays tribute to her enduring legacy.",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "President Macron",
-      "Nathalie Baye"
-    ],
-    "source_count": 1,
-    "timestamp": "10:20 AM"
+    "source_count": 8,
+    "timestamp": "03:02 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Ford to restructure model E unit as EV chief departs, targeting 8% profit margin under Galhotra's leadership.",
-    "emojis": "",
+    "summary": "Ongoing conflict in Middle East escalates, with recent developments in Yemen and potential implications for global oil markets.",
+    "emojis": "⚔️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Ford",
-      "Galhotra"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "10:20 AM"
+    "timestamp": "03:02 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China: Airline cancellations, travel policy overhaul, trade tensions, and business sector updates",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "airlines",
+      "Chinese government",
+      "European businesses"
+    ],
+    "source_count": 10,
+    "timestamp": "03:02 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ongoing violence in Ukraine, including attacks on civilians and infrastructure, amid escalating tensions with Russia.",
+    "emojis": "⚔️🚫⚡",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 10,
+    "timestamp": "03:02 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Hamas rejects Israeli 'trap' disarmament plan amid ongoing ceasefire stall and alleged gas station violence.",
+    "emojis": "🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Hamas"
+    ],
+    "source_count": 5,
+    "timestamp": "03:02 PM"
   }
 ];
 
