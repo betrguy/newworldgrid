@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-19 15:02 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-04-20 09:52 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,139 +51,160 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Israel probes soldier's attack on Jesus statue, burns homes in southern Lebanon, publishes territorial map",
-    "emojis": "⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli Army",
-      "Lebanese people"
-    ],
-    "source_count": 5,
-    "timestamp": "03:01 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel to strengthen ties with Argentina, while facing EU trade suspension and anti-Israel challenges",
-    "emojis": "",
+    "summary": "Tensions escalate between Israel and Hezbollah, with protests and condemnation over IDF soldier's actions.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Argentina's president",
-      "Netanyahu",
-      "EU",
-      "White House"
+      "Israel",
+      "Hezbollah"
     ],
-    "source_count": 30,
-    "timestamp": "03:01 PM"
+    "source_count": 28,
+    "timestamp": "09:51 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan's Middle East peace push faces uncertainty amid US-Iran tensions and seizure of Iranian ship.",
+    "emojis": "🕊️⚡",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Pakistan"
+    ],
+    "source_count": 2,
+    "timestamp": "09:51 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces production challenges, economic sanctions, and internal issues amidst global interests and technological investments.",
+    "emojis": "🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia"
+    ],
+    "source_count": 13,
+    "timestamp": "09:51 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US, Israel urge peace talks with Iran amid rising tensions and maritime threats",
+    "summary": "US-Iran tensions escalate over ship seizure, peace talks uncertain, threatening economic crisis and potential war.",
     "emojis": "⚔️🕊️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US President",
-      "Netanyahu",
-      "Iran",
-      "Israel",
-      "Pakistan",
-      "Argentina's Milei"
+      "US",
+      "Iran"
     ],
-    "source_count": 63,
-    "timestamp": "03:01 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan promises to mediate for 'lasting peace' in regional conflicts, aims to reduce tensions.",
-    "emojis": "⚔️🕊️⚡",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Pakistan",
-      "Regional Parties"
-    ],
-    "source_count": 1,
-    "timestamp": "03:01 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Putin benefits from global food crisis, while Russia attacks Ukraine and imposes fines on news outlets.",
-    "emojis": "⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Putin",
-      "Zelenskyy",
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 8,
-    "timestamp": "03:02 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Ongoing conflict in Middle East escalates, with recent developments in Yemen and potential implications for global oil markets.",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "03:02 PM"
+    "source_count": 34,
+    "timestamp": "09:51 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China: Airline cancellations, travel policy overhaul, trade tensions, and business sector updates",
-    "emojis": "⚡",
+    "summary": "China objects to US combat drills, urges halt on peaceful nuclear facilities, and seeks increased access to Hormuz.",
+    "emojis": "⚔️☢️🕊️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "airlines",
-      "Chinese government",
-      "European businesses"
+      "China",
+      "US",
+      "Philippines"
     ],
-    "source_count": 10,
-    "timestamp": "03:02 PM"
+    "source_count": 22,
+    "timestamp": "09:51 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "EU hosts Gaza peace conference amid rising death toll, seeking greater influence in Middle East conflict.",
+    "emojis": "⚔️🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "EU",
+      "Palestinians"
+    ],
+    "source_count": 3,
+    "timestamp": "09:51 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ongoing violence in Ukraine, including attacks on civilians and infrastructure, amid escalating tensions with Russia.",
-    "emojis": "⚔️🚫⚡",
+    "summary": "Ukraine-Russia war intensifies with drone attacks, police resignations and alleged bomb plots foiled",
+    "emojis": "✈️⚔️💣",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Ukraine",
-      "Russia"
+      "Russia",
+      "Germany"
     ],
-    "source_count": 10,
-    "timestamp": "03:02 PM"
+    "source_count": 7,
+    "timestamp": "09:51 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Hamas rejects Israeli 'trap' disarmament plan amid ongoing ceasefire stall and alleged gas station violence.",
-    "emojis": "🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: INDIA",
+    "summary": "India sees surge in electric vehicle sales despite emission and pricing concerns.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Israel",
-      "Hamas"
+      "Government",
+      "Automakers"
     ],
-    "source_count": 5,
-    "timestamp": "03:02 PM"
+    "source_count": 1,
+    "timestamp": "09:51 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "EU hosts Palestinian peace conference to increase influence in Middle East",
+    "emojis": "🕊️",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "European Union",
+      "Palestinians"
+    ],
+    "source_count": 1,
+    "timestamp": "09:51 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli soldier strikes Jesus statue in Lebanon, sparking international condemnation and protests.",
+    "emojis": "💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israeli military",
+      "Lebanese protesters"
+    ],
+    "source_count": 1,
+    "timestamp": "09:51 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Chinese aircraft carrier Liaoning enters Taiwan Strait, escalating tensions between China and Taiwan.",
+    "emojis": "✈️⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "China",
+      "Taiwan"
+    ],
+    "source_count": 1,
+    "timestamp": "09:52 AM"
   }
 ];
 
