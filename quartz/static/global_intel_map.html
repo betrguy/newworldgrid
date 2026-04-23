@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-23 10:33 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-23 15:16 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,157 +51,152 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "Iran continues to deploy mines and engage in piracy, as US and Israel prepare for potential military action.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Israel",
+      "Iran"
+    ],
+    "source_count": 39,
+    "timestamp": "03:15 PM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China's global expansion sparks concerns over data theft, AI technology theft, and growing anti-China sentiment.",
+    "summary": "China's economic and diplomatic activities escalate with recruitment, AI theft allegations, and mysterious scientist deaths.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "UK",
       "US",
-      "Japan"
+      "Australia",
+      "Germany",
+      "Taiwan",
+      "UK"
     ],
-    "source_count": 26,
-    "timestamp": "10:33 AM"
+    "source_count": 17,
+    "timestamp": "03:15 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise between Lebanon and Israel, amid calls for ceasefire extension in US-hosted talks.",
-    "emojis": "💀🕊️⚡",
+    "summary": "Israel maintains ceasefire talks with Lebanon, faces existential threats and controversies in region.",
+    "emojis": "🕊️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Lebanon",
-      "Israel"
+      "Israel",
+      "Hezbollah",
+      "Trump"
     ],
     "source_count": 19,
-    "timestamp": "10:33 AM"
+    "timestamp": "03:15 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "EU approves €90bn loan for Ukraine, imposes 20th sanctions package on Russia with energy and military targets.",
-    "emojis": "🪖⚔️🚫",
+    "summary": "EU approves $105B loan for Ukraine, imposes new Russia sanctions, as war's tide appears to be turning in favor of Ukraine.",
+    "emojis": "⚔️🚫",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "EU",
+      "Ukraine",
       "Russia"
     ],
-    "source_count": 6,
-    "timestamp": "10:33 AM"
+    "source_count": 8,
+    "timestamp": "03:15 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces EU sanctions, economic data distortion and international tensions over Arctic interests.",
-    "emojis": "🚫⚡",
+    "summary": "Russia marks Victory Day, faces criticism and sanctions for erasing Stalin's crimes and targeting Ukraine.",
+    "emojis": "🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "EU",
-      "Russia",
-      "Sweden",
-      "Hungary",
-      "Ukraine"
+      "Russia"
     ],
     "source_count": 17,
-    "timestamp": "10:33 AM"
+    "timestamp": "03:15 PM"
   },
   {
-    "title": "SITREP: GERMANY",
-    "summary": "US-German physicists revive 1990s laser concept for next-gen atomic clock",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
+    "title": "SITREP: UK",
+    "summary": "UK shares decline amid geopolitical tensions and potential monetary policy tightening.",
+    "emojis": "⚔️⚡",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "US Researchers",
-      "German Physicists"
+      "Yahoo Finance UK",
+      "Cumberland.gov.uk"
     ],
-    "source_count": 1,
-    "timestamp": "10:33 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran conflict escalates with soaring medicine costs, ongoing ceasefire, and rising consumer fallout",
-    "emojis": "⚔️🕊️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Al Jazeera",
-      "The New York Times",
-      "Fox News",
-      "Council on Foreign Relations",
-      "The Jerusalem Post",
-      "Middle East Monitor",
-      "CNN",
-      "WTVC",
-      "NBC News",
-      "Al Jazeera"
-    ],
-    "source_count": 23,
-    "timestamp": "10:33 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "New York increases EV rebate and rolls out $30 million to boost EV adoption amid concerns over toxic air from Russian strike.",
-    "emojis": "💥",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "NY Officials",
-      "Russian Officials"
-    ],
-    "source_count": 3,
-    "timestamp": "10:33 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Europe cancels thousands of flights due to Middle East fuel supply chain disruption,",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Unknown"
-    ],
-    "source_count": 1,
-    "timestamp": "10:33 AM"
+    "source_count": 2,
+    "timestamp": "03:16 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Hezbollah survivors mourn dead in Israeli attacks, US envoy says force alone can't eliminate militant group.",
-    "emojis": "⚔️",
+    "summary": "Lebanon pushes for full Israeli withdrawal amid ongoing air strikes in South Lebanon despite ceasefire efforts.",
+    "emojis": "💥🕊️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "NBC News",
-      "US envoy",
-      "Hezbollah"
+      "Lebanon",
+      "Israel"
     ],
     "source_count": 2,
-    "timestamp": "10:33 AM"
+    "timestamp": "03:16 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France works towards unity and peace after historical divisions.",
+    "emojis": "⚔️🕊️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France"
+    ],
+    "source_count": 2,
+    "timestamp": "03:16 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Mexico auto sector faces challenges from USMCA review and rapid shift to electric vehicles.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Mexico",
+      "US",
+      "Automotive industry"
+    ],
+    "source_count": 1,
+    "timestamp": "03:16 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli strikes kill 12 Palestinians in Gaza, first responders say.",
-    "emojis": "💥",
+    "summary": "Israeli fire kills five in Gaza and West Bank, medics report",
+    "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israel",
-      "Palestinians"
+      "Israeli military",
+      "Palestinian civilians"
     ],
-    "source_count": 2,
-    "timestamp": "10:33 AM"
+    "source_count": 1,
+    "timestamp": "03:16 PM"
   }
 ];
 
