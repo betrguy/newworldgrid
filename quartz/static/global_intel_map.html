@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-23 15:16 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-04-25 11:35 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,151 +52,177 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran continues to deploy mines and engage in piracy, as US and Israel prepare for potential military action.",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Iran War Live Updates: Witkoff and Kushner to Travel to Pakistan for Talks on Ir",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Israel",
-      "Iran"
+      "google_israel",
+      "google_ev_market",
+      "google_iran"
     ],
-    "source_count": 39,
-    "timestamp": "03:15 PM"
+    "source_count": 44,
+    "timestamp": "11:34 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian drone shot down over eastern Ukraine - NBC News",
+    "emojis": "✈️⚔️🚀",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 31,
+    "timestamp": "11:34 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "IAF slays armed terrorists in Gaza - JNS.org",
+    "emojis": "💀🔺🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 5,
+    "timestamp": "11:34 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Pistorius called Russia a greater threat to Germany than Trump's policy and spok",
+    "emojis": "⚔️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 12,
+    "timestamp": "11:34 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tel Aviv hired ex-Trump adviser to oversee pro-Israel social media campaign: Rep",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "google_israel",
+      "google_middle_east"
+    ],
+    "source_count": 25,
+    "timestamp": "11:34 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's economic and diplomatic activities escalate with recruitment, AI theft allegations, and mysterious scientist deaths.",
+    "summary": "China's space stars honored at gala marking 70-year journey - news.cgtn.com",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "US",
-      "Australia",
-      "Germany",
-      "Taiwan",
-      "UK"
+      "google_china"
     ],
-    "source_count": 17,
-    "timestamp": "03:15 PM"
+    "source_count": 31,
+    "timestamp": "11:35 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel maintains ceasefire talks with Lebanon, faces existential threats and controversies in region.",
-    "emojis": "🕊️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: US-CA",
+    "summary": "California’s jet fuel supply drops to three-year low as Middle East turmoil sque",
+    "emojis": "✈️",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "Lebanon",
-      "Israel",
-      "Hezbollah",
-      "Trump"
+      "google_middle_east"
     ],
-    "source_count": 19,
-    "timestamp": "03:15 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "EU approves $105B loan for Ukraine, imposes new Russia sanctions, as war's tide appears to be turning in favor of Ukraine.",
-    "emojis": "⚔️🚫",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "EU",
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 8,
-    "timestamp": "03:15 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia marks Victory Day, faces criticism and sanctions for erasing Stalin's crimes and targeting Ukraine.",
-    "emojis": "🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "EU",
-      "Russia"
-    ],
-    "source_count": 17,
-    "timestamp": "03:15 PM"
+    "source_count": 1,
+    "timestamp": "11:35 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK shares decline amid geopolitical tensions and potential monetary policy tightening.",
-    "emojis": "⚔️⚡",
+    "summary": "UK scrambles Typhoon jets in Romania over Russian drone incursion near Nato airs",
+    "emojis": "✈️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Yahoo Finance UK",
-      "Cumberland.gov.uk"
+      "google_russia"
     ],
-    "source_count": 2,
-    "timestamp": "03:16 PM"
+    "source_count": 1,
+    "timestamp": "11:35 AM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon pushes for full Israeli withdrawal amid ongoing air strikes in South Lebanon despite ceasefire efforts.",
-    "emojis": "💥🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: US-NY",
+    "summary": "Lebanese Ask, ‘What Cease-Fire?’ as Violence Simmers in the South - The New York",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "Lebanon",
-      "Israel"
+      "google_ev",
+      "google_israel"
     ],
     "source_count": 2,
-    "timestamp": "03:16 PM"
+    "timestamp": "11:35 AM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France works towards unity and peace after historical divisions.",
-    "emojis": "⚔️🕊️",
+    "summary": "Paris and Athens exchange mutual defense pledges amid geopolitical turmoil - pol",
+    "emojis": "",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "France"
+      "google_geopolitics"
     ],
     "source_count": 2,
-    "timestamp": "03:16 PM"
+    "timestamp": "11:35 AM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "Mexico auto sector faces challenges from USMCA review and rapid shift to electric vehicles.",
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi Arabia Bungles Yemen—Again - Middle East Forum",
     "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Mexico",
-      "US",
-      "Automotive industry"
+      "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "03:16 PM"
+    "timestamp": "11:35 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli fire kills five in Gaza and West Bank, medics report",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli attacks kill four in southern Lebanon - Al Jazeera",
+    "emojis": "💥⚔️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "Israeli military",
-      "Palestinian civilians"
+      "google_israel",
+      "google_middle_east"
+    ],
+    "source_count": 4,
+    "timestamp": "11:35 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Araghchi meeting with Pakistan's Sharif ends in Islamabad: Al Jazeera - Middle E",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "03:16 PM"
+    "timestamp": "11:35 AM"
   }
 ];
 
