@@ -30,16 +30,16 @@ Global tensions escalated as multiple flashpoints - including a key diplomatic e
 
 ## Daily Intelligence Brief - Apr 25, 2026
 
-Global tensions escalated as various actors repositioned in response to shifting power dynamics. The Israeli government, represented by minister **Ben Gvir**, faced protests in Stockholm, where demonstrators depicted him covered in blood. This move suggests growing domestic opposition to Israel's rising extremist politics.
+A pattern of disintermediation is unfolding globally, with the latest developments revolving around the Middle East and US foreign policy. Trump has canceled a trip to Pakistan due to Iran, suggesting a shift in priorities. In Islamabad, press mediation appears to have played a role, with no clear indication of what leverage was used.
 
-Meanwhile, US President **Trump** canceled a trip to Pakistan, citing new Iran proposals, and pulled out delegations led by **Kushner** and **Witkoff** from attending Iran talks. This decision indicates increasing tensions between the US and its regional allies, particularly in light of Iranian provocations. 
+Meanwhile, tensions in the region are escalating, as Netanyahu orders Israeli army actions against Hezbollah positions. This move is likely intended to exert pressure on Iran and its proxy forces. In Ukraine, Russia has launched a significant attack on Dnipro, killing eight people over 20 hours.
 
-In another development, the future expansion of **Disneyland Abu Dhabi**, a $10 billion project, is uncertain due to conflicting reports regarding Middle East tensions. The situation remains fluid.
+In the United States, domestic policy is undergoing aggressive restructuring, with federal downsizing and regulatory rollback being prominent features. 
 
- Watch for:
-* Further escalation of Israeli-Palestinian violence
-* Iran's increasing influence in the region through proxy forces or direct intervention
-* Ongoing developments in US-Iran diplomacy
+Watch for:
+* Developments in Saudi Arabia's relations with Iran
+* The impact of US sanctions on Iranian oil exports
+* A possible Israeli-Palestinian conflict
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
