@@ -9,26 +9,28 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 25, 2026 - 14:34</span>
+  <span class="sotg-timestamp">April 25, 2026 - 14:41</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-Russia's Angara-1.2 carrier rocket launch coincides with BYD's record-breaking electric vehicle sales, highlighting concurrent advancements in orbital economy and EV grid infrastructure development. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Russia's Angara-1.2 carrier rocket launch coincides with BYD's record-breaking electric vehicle sales, highlighting simultaneous advancements in orbital economy and EV grid development. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 ### **The High Ground**
 
-Russia's Angara-1.2 carrier rocket launch with an unknown payload has taken place, as reported by Мілітарний (2026-04-25 07:45). This event underscores the growing importance of reliable space-based infrastructure for critical objectives in the orbital economy.
+Russia's Angara-1.2 carrier rocket has successfully launched with an unknown payload, marking another milestone in Russia's space-based infrastructure development. This event highlights the country's ongoing efforts in this area.
 
-**The EV Race**
+### **The EV Race**
 
-BYD's announcement of their Gen 2 Blade battery with a peak charging capacity of 1,000 Wh has no immediate impact on the automotive industry, but may potentially reshape the electric vehicle market in the long run. This development marks a significant increase in energy density, allowing for more efficient and sustainable transportation options.
+BYD's recent announcement of their Gen 2 Blade battery with a peak charging capacity of 1,000 Wh has no immediate impact on the automotive industry, but may reshape the electric vehicle market in the long run. This development allows for more efficient and sustainable transportation options, as BYD Co., the Chinese electric vehicle titan that recently overtook [ev market], sold ...
 
-### **Frontier Speculation: The 0.1% Shift**
+**Frontier Speculation: The 0.1% Shift**
 
-*What follows is purely a thought experiment.* As the Angara-1.2 rocket successfully launches Russia's unknown payload into orbit, an unexpected consequence emerges in the global electric vehicle market. BYD Co.'s dominance in China's EV sector triggers a ripple effect, as Tesla responds by shifting its production focus to high-performance, long-range vehicles catering to emerging markets like Africa and Southeast Asia. This strategic pivot inadvertently sparks a surge in demand for space-based solar power (SBSP) to fuel the production of these vehicles, creating an unanticipated bottleneck in the global supply chain.
+*What follows is purely a thought experiment.*
+
+Imagine this: BYD Co.'s dominance in the global EV market has created an unexpected consequence in 2032. As Tesla scrambles to adapt, it announces a surprise partnership with Russian space agency Roscosmos to develop an orbital-based electric vehicle battery recycling facility on the Angara-1.2 Carrier Rocket platform. This unusual alliance allows BYD to diversify its revenue streams and capitalize on the growing demand for sustainable energy storage solutions in the emerging space economy.
 
 <!-- /FRONTIER_ENGINE_END -->
 
