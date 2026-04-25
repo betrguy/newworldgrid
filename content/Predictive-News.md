@@ -32,17 +32,14 @@ Global tensions have intensified as multiple flashpoints - including a major esc
 
 Situation Brief:
 
-Global tensions escalated today as multiple flashpoints revealed shifting power dynamics. **Russia** launched a large-scale attack on Ukraine's Dnipro, killing at least 8 civilians and wounding 60 others. This marks one of the largest attacks of the war thus far.
-
-Meanwhile, **Israel** carried out strikes in south Lebanon, resulting in six civilian casualties. The international community is also taking notice of **China's** role in the Iran conflict, with Fox News reporting on its involvement.
-
-The European Union is facing significant pressure from multiple fronts, as **US-China-Russia** coalitions are reportedly acting against EU interests. 
+* The conflict in Ukraine escalated with Russia's largest attack of the war, killing at least **8** Ukrainian civilians and wounding 60 others.
+* China's role in the Iran war is being discussed, but no further details are available from Fox News' report.
+* In international relations, French President Macron stated that EU countries are under pressure from **US**, **China**, and Russia acting against Europe's interests.
 
 Watch for:
-
-* Increased Russian troop movements along the Ukraine border
-* Further escalation of Israeli strikes in Lebanon
-* China's potential military response to growing tensions with the US and its allies
+* Russia's next military move in Ukraine
+* China's involvement in the Iran conflict escalating into a regional crisis
+* EU leaders responding to Macron's warning about US, China, and Russia's actions
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
