@@ -30,19 +30,16 @@ A 20-hour artillery attack on Ukraine's Dnipro has resulted in at least eight fa
 
 ## Daily Intelligence Brief - Apr 25, 2026
 
-A significant shift in global politics is underway, as major powers reposition themselves for a multipolar world order. 
+Global tensions escalated as various actors repositioned in response to shifting power dynamics. The Israeli government, represented by minister **Ben Gvir**, faced protests in Stockholm, where demonstrators depicted him covered in blood. This move suggests growing domestic opposition to Israel's rising extremist politics.
 
-**Trump's** recent trip to Pakistan was canceled after **Iran** presented a new proposal, prompting concerns about his administration's stance on the conflict. Meanwhile, Iranian Foreign Minister Hossein Amir-Abdollahian left Pakistan without issuing any statements or clarifying the terms of the proposed deal.
+Meanwhile, US President **Trump** canceled a trip to Pakistan, citing new Iran proposals, and pulled out delegations led by **Kushner** and **Witkoff** from attending Iran talks. This decision indicates increasing tensions between the US and its regional allies, particularly in light of Iranian provocations. 
 
-The situation in the Middle East remains volatile, with Israeli Prime Minister Netanyahu ordering the Israeli army to attack Hezbollah positions. This move is seen as a response to the growing tensions between Israel and its allies on one hand, and Iran's proxy forces on the other.
+In another development, the future expansion of **Disneyland Abu Dhabi**, a $10 billion project, is uncertain due to conflicting reports regarding Middle East tensions. The situation remains fluid.
 
-Tensions are also escalating in Eastern Europe, where Russia has launched an intense bombardment of Ukraine's Dnipro region, killing eight people.
-
-Watch for:
-
-* A potential escalation of violence between Israel and Hezbollah
-* The outcome of **Trump's** new proposal with **Iran**
-* Further diplomatic shifts from major powers as they reposition themselves for a multipolar world order
+ Watch for:
+* Further escalation of Israeli-Palestinian violence
+* Iran's increasing influence in the region through proxy forces or direct intervention
+* Ongoing developments in US-Iran diplomacy
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
