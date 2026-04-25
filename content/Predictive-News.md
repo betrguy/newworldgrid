@@ -30,16 +30,25 @@ A series of escalating conflicts and diplomatic tensions across multiple regions
 
 ## Daily Intelligence Brief - Apr 25, 2026
 
-A pattern of disintermediation is unfolding globally, with the latest developments revolving around the Middle East and US foreign policy. Trump has canceled a trip to Pakistan due to Iran, suggesting a shift in priorities. In Islamabad, press mediation appears to have played a role, with no clear indication of what leverage was used.
+The global order is reorganizing, with multiple power centers emerging. Key movements include:
 
-Meanwhile, tensions in the region are escalating, as Netanyahu orders Israeli army actions against Hezbollah positions. This move is likely intended to exert pressure on Iran and its proxy forces. In Ukraine, Russia has launched a significant attack on Dnipro, killing eight people over 20 hours.
+Russia's assistance to the Ukrainian Armed Forces has resulted in **Russian** personnel being taken into custody in Finland and sent home. This development reflects the escalating tensions between Russia and Ukraine.
 
-In the United States, domestic policy is undergoing aggressive restructuring, with federal downsizing and regulatory rollback being prominent features. 
+Iran's authorities have signaled a hardened stance, with more talks on the horizon. Iran's armed forces have warned the US against renewed aggression.
+
+The Palestinian Authority elections saw over half of West Bank voters cast ballots, highlighting ongoing instability in the region.
+
+Meanwhile, European leaders are strengthening ties with the Middle East, seeking diplomatic resolution to the Iran conflict.
+
+Protests in Stockholm have targeted **Israeli** minister Ben Gvir, further straining relations between Israel and its critics.
+
+US President Trump has cited a new Iran proposal following his cancellation of a trip to Pakistan.
 
 Watch for:
-* Developments in Saudi Arabia's relations with Iran
-* The impact of US sanctions on Iranian oil exports
-* A possible Israeli-Palestinian conflict
+
+* Increased tensions between Russia and Ukraine
+* Further developments on Iran's stance towards the US and other countries
+* Potential escalations in protests against **Israeli** officials, particularly in Sweden
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
