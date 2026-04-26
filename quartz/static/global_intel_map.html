@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-25 17:41 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-04-25 20:07 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,66 +51,24 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel, Lebanon extend ceasefire; Netanyahu vows to strike Hezbollah targets despite agreement.",
-    "emojis": "🪖💥🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Hezbollah"
-    ],
-    "source_count": 22,
-    "timestamp": "05:40 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US, Israel, Iran tensions escalate as Trump cancels talks, Iran warns US against renewed aggression.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Iran"
-    ],
-    "source_count": 57,
-    "timestamp": "05:40 PM"
-  },
-  {
     "title": "SITREP: RUSSIA",
-    "summary": "Tensions rise between Russia and Europe over sanctions, attacks, and hosting boycotts amid ongoing conflict.",
-    "emojis": "⚔️🚫⚡",
+    "summary": "Russia intensifies hybrid attacks, attends N Korean ceremony, while economy struggles and faces boycotts and sanctions.",
+    "emojis": "🪖⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "EU",
+      "N Korea",
       "US",
-      "Finland",
-      "Germany"
-    ],
-    "source_count": 15,
-    "timestamp": "05:40 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China showcases electric vehicles, military ambitions, and diplomatic efforts at the Beijing auto show.",
-    "emojis": "🪖✈️☢️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
       "China"
     ],
     "source_count": 15,
-    "timestamp": "05:40 PM"
+    "timestamp": "08:06 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies bombardment on Ukrainian city Dnipro for 20 hours, killing eight and causing widespread destruction.",
+    "summary": "Russian forces pound Ukraine's Dnipro with 20-hour bombardment, killing at least 18 people.",
     "emojis": "💣🕊️",
     "lat": 48.3,
     "lng": 31.1,
@@ -119,96 +77,137 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 22,
-    "timestamp": "05:41 PM"
+    "source_count": 18,
+    "timestamp": "08:06 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions escalate in Middle East as US cancels Pakistan talks amid Iran war, sparking fears of global instability.",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Pakistan"
+    ],
+    "source_count": 51,
+    "timestamp": "08:06 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel launches strikes in Lebanon amid escalating tensions with Hezbollah and amid pressure from US to fight terrorism.",
+    "emojis": "💥🔺⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hezbollah"
+    ],
+    "source_count": 28,
+    "timestamp": "08:06 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China unveils electric vehicle push, highlights military expansion and diplomacy amid global geopolitical shifts.",
+    "emojis": "🪖",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "US (Trump)"
+    ],
+    "source_count": 17,
+    "timestamp": "08:06 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strikes kill 6 in Lebanon despite fragile ceasefire, with over 2,490 fatalities since March 2.",
+    "emojis": "💥💀🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel"
+    ],
+    "source_count": 7,
+    "timestamp": "08:07 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Palestinians vote locally, Israeli strike kills three in Gaza City, 300 couples get married simultaneously.",
+    "summary": "Local elections underway in West Bank and Gaza; Israeli strike kills three Palestinians, including child.",
     "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli military",
-      "Palestinian civilians"
-    ],
-    "source_count": 4,
-    "timestamp": "05:41 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Six killed in Israeli airstrikes on south Lebanon amid fragile ceasefire, total casualties exceed 2,490 since March.",
-    "emojis": "💥⚔️💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
       "Israel",
-      "Hezbollah"
+      "Palestine"
     ],
-    "source_count": 5,
-    "timestamp": "05:41 PM"
+    "source_count": 2,
+    "timestamp": "08:07 PM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Trump abruptly cancels Kushner-Witkoff Pakistan trip and scraps latest peace talks after Iranian officials depart",
-    "emojis": "🕊️",
+    "summary": "US President Trump cancels Kushner-Witkoff Pakistan trip, sparking confusion and concern among Pakistanis.",
+    "emojis": "",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
-      "US President Trump",
-      "Iranian Officials"
+      "Trump",
+      "Kushner",
+      "Witkoff"
     ],
-    "source_count": 3,
-    "timestamp": "05:41 PM"
+    "source_count": 1,
+    "timestamp": "08:07 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "US agents killed in Mexico car crash had unauthorized access, claims Mexican government.",
+    "summary": "US agents killed in Mexican car crash say they were unauthorized to operate in Mexico.",
     "emojis": "💀",
     "lat": 23.6,
     "lng": -102.5,
     "location": "MEXICO",
     "actors": [
       "Mexico",
-      "US"
+      "CIA"
     ],
     "source_count": 1,
-    "timestamp": "05:41 PM"
+    "timestamp": "08:07 PM"
   },
   {
     "title": "SITREP: VENEZUELA",
-    "summary": "Venezuela struggles with hundreds of political prisoners remaining after prisoner release scheme nearing end.",
+    "summary": "Venezuela's prisoner release scheme nearing end, leaving over 500 political prisoners still incarcerated.",
     "emojis": "",
     "lat": 6.4,
     "lng": -66.5,
     "location": "VENEZUELA",
-    "actors": [
-      "Rights groups",
-      "Government"
-    ],
+    "actors": [],
     "source_count": 1,
-    "timestamp": "05:41 PM"
+    "timestamp": "08:07 PM"
   },
   {
     "title": "SITREP: GERMANY",
-    "summary": "Berlin investigates possible Russian involvement in phishing attack on German politicians using Signal messaging app.",
+    "summary": "Berlin investigates possible Russian involvement in phishing attack on German politicians via messaging app Signal.",
     "emojis": "⚔️",
     "lat": 51.1,
     "lng": 10.4,
     "location": "GERMANY",
     "actors": [
-      "Germany",
+      "Berlin",
       "Russia"
     ],
     "source_count": 1,
-    "timestamp": "05:41 PM"
+    "timestamp": "08:07 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Israeli forces establish temporary checkpoints in Syria's Quneitra countryside",
+    "summary": "Israeli forces raided Syria's Quneitra countryside, setting up temporary checkpoints.",
     "emojis": "",
     "lat": 34.8,
     "lng": 38.9,
@@ -218,7 +217,7 @@
       "Syria"
     ],
     "source_count": 1,
-    "timestamp": "05:41 PM"
+    "timestamp": "08:07 PM"
   }
 ];
 
