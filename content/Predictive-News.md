@@ -28,19 +28,18 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Apr 28, 2026
+## Daily Intelligence Brief - Apr 29, 2026
 
-The global landscape is shifting as nations reposition for a multipolar world. The United Arab Emirates announced its exit from OPEC, leveraging its newfound independence to further strain US-Iran negotiations over sanctions and trade restrictions.
+**Global Intelligence Summary**
 
-Meanwhile, Iran's crude oil storage levels are rising, but production shut-ins may not be imminent, according to reports. This development contrasts with Ukraine accusing Israel of buying grain "stolen" by Russia, a claim denied by Israel's foreign minister.
+- U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war - The Washington Post
+- Ukraine-Russia war latest: UK expels Russian diplomat and warns Moscow against further ‘escalation’ - The Independent
+- Russia would not accept military presence of outside powers in Central Asia, says defence minister - IntelliNews
+- Iran war sways voters in tight Arizona congressional race - AZPM News
+- Eaton leads the transition towards a flexible EV charging future - Electric Autonomy Canada
+- Hegseth calls Democrats the 'biggest adversary’ in the Iran war - NBC News
 
-In the military sphere, a British volunteer survived a relentless Russian drone hunt on the Ukraine frontline, highlighting the escalating tensions between NATO and Russian forces in Eastern Europe. The situation remains volatile, with US-Iran negotiations stalled and Iran allowing a Russian superyacht to cross the Strait of Hormuz.
-
-Watch for:
-
-* **US** sanctions against Iran escalating
-* **Israel**'s diplomatic response to Ukraine's accusations over grain purchases from Russia
-* Further developments in the **Russian**-backed energy infrastructure projects in Eastern Europe
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
