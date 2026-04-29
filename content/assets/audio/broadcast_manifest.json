@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-28T10:09:36.008145",
+  "generatedAt": "2026-04-29T16:55:55.528237",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Global tensions have escalated with developments in global energy infrastructure and space-based innovations. The Strait of Hormuz remains closed, while Ukraine's grain exports expand to Africa and the Middle East, and rising disputes between major powers over trade and security interests continue to unfold. I want to highlight that the global landscape is shifting as nations reposition for a multipolar world. On the energy front, it appears the US power grid has seen an extraordinary addition of energy storage capacity equivalent to 20 nuclear reactors over the past four years. This paradigm shift underscores the imperative need for enhanced grid security and reliability measures amidst escalating global tensions. In a surprising yet significant move, China's automotive industry is shifting towards electric vehicles with major players like JLR and BYD investing in new technologies while facing financial challenges. Tesla remains at $1.5 trillion capitalization, while BYD has sold over 2.25 million cars globally. CATL has raised $5bn in Hong Kong and unveiled breakthrough EV battery technologies. Geomagnetically speaking, we're witnessing a calm environment with a Kp index value of 0.7 and an average of 0.89, indicating a Quiet condition. This means satellites and HF radio communications can operate normally without disruptions or interference."
+    "index_master_summary.wav": "Predictive global power dynamics have shifted as regional actors leverage influence globally. The Washington Post reports that a US aircraft carrier will leave the Mideast region, reducing military might amid Iran war tensions. Meanwhile, Ukraine and Russia's conflict has led to UK expelling a Russian diplomat, warning Moscow against further escalation. In more encouraging news, engineers now have the tools to rewrite hardware after manufacturing, transforming zeros into AI heroes. This technology allows for faster innovation in critical technologies without the need for new chip fabrication. Researchers have also developed an ultra-compact electro-optic modulator that could lead to more efficient optical signal control and applications in communication systems. These advancements will make it possible to create powerful yet sustainable AI models without massive carbon footprints. On the grid front, we're monitoring significant momentum shifts while data and geophysical substrate synchronization is ongoing. Geomagnetic stability remains within normal parameters."
   },
   "durations": {
-    "index_master_summary.wav": "01:42"
+    "index_master_summary.wav": "01:14"
   }
 }
