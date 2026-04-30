@@ -30,16 +30,16 @@ Global tensions have intensified with a surge in regional conflicts, particularl
 
 ## Daily Intelligence Brief - Apr 30, 2026
 
-A multipolar shift in global power dynamics is underway. In the Middle East, tensions escalated when **Trump** told Iran to "get smart soon" during a House Armed Services hearing on the $1.5T budget. This move leveraged Trump's executive authority to influence Iranian actions.
+China's expansion into Africa is escalating. China has completed a landmark headquarters for the Economic Community of West African States (ECOWAS) in Africa.com. The move is part of China's growing influence on the continent, where it aims to expand zero-tariff access to 53 African nations.
 
-In parallel, a royal commission in Australia recommended prioritizing gun reform following the Bondi shooting. Additionally, market movements reflected shifting fortunes: **HSI** plummeted 103 points while **CHINA LIFE** and **AIA** surged. 
+In a separate development, Iran's leader has made a provocative statement calling America 'belongs at the bottom of the Persian gulf'. This rhetoric comes amid ongoing tensions in the region. Meanwhile, the ceasefire in Iran has led to claims by Hegseth that it has paused war powers clock, but Democrats disagree on the matter.
 
-Meanwhile, Chinese-US business ties deepen, according to a trade body report. Lawmakers reacted with interest to **Hegseth's** testimony on Iran War. Ultra-Orthodox Jews in Israel protested the military draft.
+The situation is further complicated by Israel's mass evacuation warnings and reshaping of south Lebanon. A fertilizer boss warns that the conflict puts 10 billion meals a week at risk. In Europe, EVs have reached market 'tipping point'.
 
-Watch for: 
-* Next Iranian sanctions or military exercises
-* US federal budget and spending decisions
-* Israeli military mobilization and its impact
+Watch for:
+* China's planned investments in Africa, including specific countries or projects
+* Further diplomatic tensions between Iran and the US, potentially leading to military escalations
+* Israel's long-term strategy for its evacuation efforts in south Lebanon
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
