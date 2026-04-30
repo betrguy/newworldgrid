@@ -28,18 +28,18 @@ Global tensions have intensified as a series of conflicts and crises across mult
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Apr 29, 2026
+## Daily Intelligence Brief - Apr 30, 2026
 
-**Global Intelligence Summary**
+A multipolar shift in global power dynamics is underway. In the Middle East, tensions escalated when **Trump** told Iran to "get smart soon" during a House Armed Services hearing on the $1.5T budget. This move leveraged Trump's executive authority to influence Iranian actions.
 
-- U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war - The Washington Post
-- Ukraine-Russia war latest: UK expels Russian diplomat and warns Moscow against further ‘escalation’ - The Independent
-- Russia would not accept military presence of outside powers in Central Asia, says defence minister - IntelliNews
-- Iran war sways voters in tight Arizona congressional race - AZPM News
-- Eaton leads the transition towards a flexible EV charging future - Electric Autonomy Canada
-- Hegseth calls Democrats the 'biggest adversary’ in the Iran war - NBC News
+In parallel, a royal commission in Australia recommended prioritizing gun reform following the Bondi shooting. Additionally, market movements reflected shifting fortunes: **HSI** plummeted 103 points while **CHINA LIFE** and **AIA** surged. 
 
-*Watch for: Developing situations across monitored regions.*
+Meanwhile, Chinese-US business ties deepen, according to a trade body report. Lawmakers reacted with interest to **Hegseth's** testimony on Iran War. Ultra-Orthodox Jews in Israel protested the military draft.
+
+Watch for: 
+* Next Iranian sanctions or military exercises
+* US federal budget and spending decisions
+* Israeli military mobilization and its impact
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
