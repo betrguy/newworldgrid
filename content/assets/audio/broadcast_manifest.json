@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-29T16:55:55.528237",
+  "generatedAt": "2026-04-30T17:37:06.898048",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Predictive global power dynamics have shifted as regional actors leverage influence globally. The Washington Post reports that a US aircraft carrier will leave the Mideast region, reducing military might amid Iran war tensions. Meanwhile, Ukraine and Russia's conflict has led to UK expelling a Russian diplomat, warning Moscow against further escalation. In more encouraging news, engineers now have the tools to rewrite hardware after manufacturing, transforming zeros into AI heroes. This technology allows for faster innovation in critical technologies without the need for new chip fabrication. Researchers have also developed an ultra-compact electro-optic modulator that could lead to more efficient optical signal control and applications in communication systems. These advancements will make it possible to create powerful yet sustainable AI models without massive carbon footprints. On the grid front, we're monitoring significant momentum shifts while data and geophysical substrate synchronization is ongoing. Geomagnetic stability remains within normal parameters."
+    "index_master_summary.wav": "Global tensions have escalated as a series of conflicts and crises across multiple regions, including the Middle East, Asia, and Eastern Europe, indicating an intensifying competition for power and resources on the New World Grid. In the cybersecurity sector, it's been reported that cyberattacks are now slower than defenses, thanks to the rapid advancement of generative AI. AURORA's findings suggest that cities can utilize these AI driven tools to analyze crash data, identifying rare pedestrian accident patterns where targeted infrastructure improvements could significantly reduce fatalities. On the grid's energy front, a severe storm outbreak in the Midwest and Southern United States has highlighted the importance of grid resilience as a critical component of energy infrastructure. This development underscores the necessity for robust transmission and distribution networks that can withstand physical shocks. Meanwhile, research from MIT holds immense potential for enhancing grid stability by leveraging innovative technologies like nuclear battery powered boost. Today's solar cycle is characterized by an elevated Kp index reaching a peak value of 4.0, indicating moderate levels of solar terrestrial activity, which may cause minor disruptions in navigation and communication systems, impacting satellite operations and HF radio communications. In the realm of space exploration, significant advancements have been made as Loft Orbital and EarthDaily successfully deployed six satellites into orbit, marking a crucial step forward in developing orbital infrastructure networks."
   },
   "durations": {
-    "index_master_summary.wav": "01:14"
+    "index_master_summary.wav": "01:53"
   }
 }
