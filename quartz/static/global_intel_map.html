@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-04-30 17:33 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-04-30 19:27 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,23 +51,8 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions escalate with Iran, lawmakers debate war costs and deployment of military assets.",
-    "emojis": "🚀🪖⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Hegseth",
-      "US government"
-    ],
-    "source_count": 42,
-    "timestamp": "05:32 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China's manufacturing PMI falls, but trade and business ties strengthen with US and Australia.",
+    "summary": "China expands trade and investment ties with Africa, Canada, and US, while pushing tech dominance",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
@@ -75,157 +60,160 @@
     "actors": [
       "China",
       "US",
-      "Australia"
+      "Canada",
+      "Africa",
+      "Taiwan"
     ],
-    "source_count": 24,
-    "timestamp": "05:32 PM"
+    "source_count": 12,
+    "timestamp": "07:26 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran conflict escalates with renewed fighting, increased costs and threats to global food supply and nuclear stability.",
+    "emojis": "⚔️☢️🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Israel"
+    ],
+    "source_count": 46,
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces protests, military exhaustion, and international pressure amid ongoing conflicts and aid interceptions.",
-    "emojis": "🪖⚔️",
+    "summary": "Tensions escalate between Israel and Palestine, with mass evacuations, Gaza aid flotillas seized and war on the horizon.",
+    "emojis": "⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Ultra-Orthodox Jews",
+      "Israel",
+      "Palestine"
+    ],
+    "source_count": 26,
+    "timestamp": "07:27 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Deadly clashes in southern Lebanon despite Israeli ceasefire, killing at least 28 people, including children.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
       "Hezbollah",
-      "Israel Military",
-      "Gaza",
-      "Turkey",
-      "Spain"
+      "Israel"
     ],
-    "source_count": 22,
-    "timestamp": "05:32 PM"
+    "source_count": 6,
+    "timestamp": "07:27 PM"
   },
   {
-    "title": "SITREP: US-TX",
-    "summary": "Tornado devastates small Texas town, causing widespread destruction and loss of life.",
-    "emojis": "💥",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "05:32 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine war escalates with secret oil deals and drone strikes, President Zelenskyy assures domestic arsenal adequacy.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Zelenskyy",
-      "Russia",
-      "US"
-    ],
-    "source_count": 2,
-    "timestamp": "05:32 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "US charges Mexican governor and other leaders with aiding drug cartel, amid EV growth in Tamaulipas.",
+    "title": "SITREP: US-GA",
+    "summary": "Rivian plans to boost EV production at Georgia plant, expanding capacity by 50% annually.",
     "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
     "actors": [
-      "US Government",
-      "Mexican Governor Rúben Rocha Moya",
-      "Mexican Leaders"
+      "Rivian",
+      "US-GA"
     ],
-    "source_count": 2,
-    "timestamp": "05:32 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "ICE picked up migrants at NYC school bus stop instead of ICE, King Charles and Queen Camilla visit 9/11 memorial.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "ICE",
-      "King Charles",
-      "Queen Camilla"
-    ],
-    "source_count": 2,
-    "timestamp": "05:32 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Trump announces potential reduction of US troops in Germany, sparking concern among allies.",
-    "emojis": "🪖",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "US President Trump",
-      "German government"
-    ],
-    "source_count": 1,
-    "timestamp": "05:32 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India suffers $25bn digital fraud, central bank fights back amid global rise in cybercrime.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "RBI",
-      "individuals"
-    ],
-    "source_count": 2,
-    "timestamp": "05:32 PM"
+    "source_count": 4,
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia expels British diplomat, adds LNG carriers, sees jobless rate rise and economy contract.",
-    "emojis": "🚢",
+    "summary": "Russia faces backlash, sanctions, and internal challenges amid ongoing war, economic struggles, and technological restrictions.",
+    "emojis": "⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "UK",
-      "Russia"
+      "Ukraine",
+      "United States",
+      "Russia",
+      "China"
     ],
-    "source_count": 5,
-    "timestamp": "05:33 PM"
+    "source_count": 12,
+    "timestamp": "07:27 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "FIFA Congress sees tensions over Israel-Palestine issue, as US passes short-term FISA extension",
+    "emojis": "⚔️⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Reuters",
+      "US House"
+    ],
+    "source_count": 2,
+    "timestamp": "07:27 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine strikes Russian oil targets amid ceasefire proposal and ongoing war, economy heavily impacted.",
+    "emojis": "💥⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia",
+      "US"
+    ],
+    "source_count": 2,
+    "timestamp": "07:27 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli forces intercept & seize Gaza-bound aid ships, blocking humanitarian efforts to reach the territory.",
-    "emojis": "🪖",
+    "summary": "Israeli forces intercept Gaza aid flotilla, sparking international criticism as an 'act of piracy' and human rights violations.",
+    "emojis": "🪖🚢",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli military",
-      "Palestinians"
+      "Israel",
+      "International Community"
     ],
     "source_count": 4,
-    "timestamp": "05:33 PM"
+    "timestamp": "07:27 PM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "Florida approves voting maps favoring Republicans amid national redistricting battles.",
-    "emojis": "⚔️",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "title": "SITREP: GERMANY",
+    "summary": "US considering troop cuts in Germany amid tensions with Angela Merkel's CDU, sparked by a spat between Trump and Merz.",
+    "emojis": "⚡",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "Florida lawmakers",
-      "Republicans"
+      "US",
+      "Germany",
+      "Angela Merkel",
+      "CDU",
+      "Trump",
+      "Merz"
     ],
-    "source_count": 2,
-    "timestamp": "05:33 PM"
+    "source_count": 1,
+    "timestamp": "07:27 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "TotalEnergies to maintain fuel price cap in France amid Middle East crisis, citing volatility and market uncertainty.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "TotalEnergies",
+      "France"
+    ],
+    "source_count": 1,
+    "timestamp": "07:27 PM"
   }
 ];
 
