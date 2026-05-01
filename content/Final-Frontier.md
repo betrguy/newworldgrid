@@ -9,28 +9,26 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">April 30, 2026 - 19:29</span>
+  <span class="sotg-timestamp">May 01, 2026 - 18:23</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-A satellite constellation expansion is being paired with advancements in solid-state batteries to accelerate Earth observation and AI infrastructure development while addressing UK's battery supply chain gap. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Russia's Soyuz-5 rocket test flight coincides with Tesla, Rivian, and Lucid's electric vehicle stock performance in April, highlighting the concurrent development of orbital economy and EV grid infrastructure. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 ### **The High Ground**
 
-Loft Orbital's mission to launch six satellites with EarthDaily accelerates the development of orbital infrastructure networks. This significant step forward in space-based industry comes as Loft Orbital expands its on-orbit fleet by doubling it through the Loft Orbital Mission, which will advance their constellation deployment model.
+Russia has launched a new Soyuz-5 rocket in its first test flight, according to AP News. This marks a significant step forward in advancing space-based infrastructure.
 
 ### **The EV Race**
 
-Solid-state batteries are shifting from an electric vehicle (EV) focus to meet the demand for artificial intelligence (AI) infrastructure, according to [battery supply]. Meanwhile, BYD has surpassed 2.25 million global sales of electric vehicles, solidifying its position in the market.
+There is no information available in the evidence packet regarding which electric vehicle stock came out ahead in April, so it cannot be reported here. However, BYD has surpassed 2.25 million global sales of electric vehicles, solidifying its position in the market.
 
 ### **Frontier Speculation: The 0.1% Shift**
 
-What follows is purely a thought experiment.
-
-By 2035, the UK's battery supply chain gap has been filled by EarthDaily's new Loft Orbital Mission satellite constellation, which has created an unprecedented level of on-orbit situational awareness for the global energy market. This enables CATL and QuantumScape to pivot their solid-state battery production from EVs to AI infrastructure, leveraging the vast computing power of BYD's ultra-fast charging network. The resulting surge in high-performance computing drives a sudden demand for EarthDaily's orbital services among major data centers, effectively turning the Loft constellation into a de facto global energy transmission grid. As a result, Azerbaijan becomes a key transshipment hub for the world's AI-driven economies, with its geographical position allowing it to capitalize on this new infrastructure and become a dominant player in the global AI trade.
+What follows is purely a thought experiment. In 2032, the rapid adoption of Solid-State Batteries for AI applications creates an unexpected ripple effect on the EV market. As QuantumScape's advanced battery tech becomes integral to AI infrastructure, CATL, previously focused solely on automotive innovation, finds itself struggling to adapt. This shift in demand forces CATL to reevaluate its entire business model, ultimately abandoning its plans for a massive Gigafactory expansion in the UK. The resulting battery supply chain gap exacerbates the existing shortage, causing Tesla, Rivian, and Lucid to scramble for alternative suppliers. Meanwhile, Russia's Soyuz-5 rocket, now in operation, becomes a critical component in the global AI-enabled satellite constellation, further entrenching its position as a key player in the emerging orbital economy.
 
 <!-- /FRONTIER_ENGINE_END -->
 
