@@ -28,18 +28,18 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Apr 30, 2026
+## Daily Intelligence Brief - May 01, 2026
 
-China's expansion into Africa is escalating. China has completed a landmark headquarters for the Economic Community of West African States (ECOWAS) in Africa.com. The move is part of China's growing influence on the continent, where it aims to expand zero-tariff access to 53 African nations.
+**Global Intelligence Summary**
 
-In a separate development, Iran's leader has made a provocative statement calling America 'belongs at the bottom of the Persian gulf'. This rhetoric comes amid ongoing tensions in the region. Meanwhile, the ceasefire in Iran has led to claims by Hegseth that it has paused war powers clock, but Democrats disagree on the matter.
+- Trump's letter tells Congress Iran hostilities 'terminated' as war powers deadline hits - KOMO
+- US to cut troop levels in Germany by 5,000 amid Trump spat with Merz
+- US Iran Ceasefire News LIVE: Trump Says 'Not Satisfied' With New Iran Proposal - NDTV
+- Russia launches new Soyuz-5 rocket in first test flight - AP News
+- Ukraine-Russia war latest: Putin’s forces launch daytime assault on Ukrainian city with hundreds of drones - The Independent
+- Free Press Opinion: American blockade ramps up the pressure on Iran - Chattanooga Times Free Press
 
-The situation is further complicated by Israel's mass evacuation warnings and reshaping of south Lebanon. A fertilizer boss warns that the conflict puts 10 billion meals a week at risk. In Europe, EVs have reached market 'tipping point'.
-
-Watch for:
-* China's planned investments in Africa, including specific countries or projects
-* Further diplomatic tensions between Iran and the US, potentially leading to military escalations
-* Israel's long-term strategy for its evacuation efforts in south Lebanon
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
