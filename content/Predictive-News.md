@@ -28,18 +28,21 @@ Global tensions have intensified as major powers engage in a complex web of dipl
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 01, 2026
+## Daily Intelligence Brief - May 02, 2026
 
-**Global Intelligence Summary**
+TODAY'S SITUATION BRIEF
 
-- Trump's letter tells Congress Iran hostilities 'terminated' as war powers deadline hits - KOMO
-- US to cut troop levels in Germany by 5,000 amid Trump spat with Merz
-- US Iran Ceasefire News LIVE: Trump Says 'Not Satisfied' With New Iran Proposal - NDTV
-- Russia launches new Soyuz-5 rocket in first test flight - AP News
-- Ukraine-Russia war latest: Putin’s forces launch daytime assault on Ukrainian city with hundreds of drones - The Independent
-- Free Press Opinion: American blockade ramps up the pressure on Iran - Chattanooga Times Free Press
+The Trump administration has shifted the blame for the Spirit shutdown to the Iran war, not its own actions. The US and Iran have been engaged in ongoing conflict since 2021.
 
-*Watch for: Developing situations across monitored regions.*
+In a related development, a Tehran official warned that renewed fighting with the US is "likely". China has also taken steps to limit US sanctions against Iran, banning their implementation.
+
+Meanwhile, Ukraine has launched strikes against Russian Iskander missile systems and radar stations. 
+
+Watch for:
+
+* A potential escalation of US-Iran conflict, potentially involving proxy forces or cyber operations
+* Increased tensions between the US and Russia over Ukraine and other issues
+* China's growing influence in the Middle East and its implications for global energy markets
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
