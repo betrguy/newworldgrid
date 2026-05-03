@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-02 11:57 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-05-03 10:29 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,165 +51,124 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran tensions escalate amid Trump's rejection of Iran deal and possible renewed strikes, fuelling oil cuts and strikes.",
-    "emojis": "💥⚔️🚫",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US government",
-      "Iran",
-      "Israel"
-    ],
-    "source_count": 38,
-    "timestamp": "11:56 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China continues to expand influence, with sales, diplomatic efforts and sanctions amidst US-China tensions.",
-    "emojis": "🚫⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China Airlines",
-      "Harvard",
-      "Taiwan",
-      "US",
-      "India",
-      "China Eastern Airlines",
-      "Spain",
-      "UK"
-    ],
-    "source_count": 24,
-    "timestamp": "11:57 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine strikes Russian Iskander systems, ammo depots, and UAV command posts; escalates fighting in Ukraine.",
-    "emojis": "💥⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 10,
-    "timestamp": "11:57 AM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel detains Gaza flotilla activists, faces international backlash and accusations of 'two-tier' policing.",
-    "emojis": "",
+    "summary": "Israel expands air force, approves new fighter squadrons & boosts military spending amid regional tensions.",
+    "emojis": "🪖💥🔺",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "International community"
+      "IDF",
+      "Hezbollah",
+      "Palestinians",
+      "US government"
+    ],
+    "source_count": 45,
+    "timestamp": "10:28 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran proposes 30-day truce, but Trump expresses doubts amid ongoing tensions.",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US"
     ],
     "source_count": 32,
-    "timestamp": "11:57 AM"
+    "timestamp": "10:29 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "California begins issuing tickets to driverless cars violating traffic laws directly to vehicles.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "title": "SITREP: CHINA",
+    "summary": "China issues directives to ignore US sanctions on oil refineries, amid rising tensions with US, Philippines and Canada.",
+    "emojis": "⚔️🚫⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "actor1",
-      "actor2"
+      "US",
+      "China",
+      "Philippines",
+      "Canada"
     ],
-    "source_count": 1,
-    "timestamp": "11:57 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US accelerates $8.6B arms deals with Mideast partners, sparking concerns and diplomatic scrutiny.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "US Government",
-      "Mideast Partners"
-    ],
-    "source_count": 1,
-    "timestamp": "11:57 AM"
+    "source_count": 16,
+    "timestamp": "10:29 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia claims progress despite drone strikes killing 2 in Kherson and launching 1600+ attacks in a week.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Russia faces tensions with North Korea, Ukraine, China, and Finland, amid military conflicts and diplomatic strains.",
+    "emojis": "🪖✈️⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "North Korea",
+      "Ukraine",
+      "China",
+      "Finland"
+    ],
+    "source_count": 19,
+    "timestamp": "10:29 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ongoing conflict escalates with Russian strikes, drone attacks and counter-attacks in Ukraine and Baltic ports.",
+    "emojis": "🚢✈️💥",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
       "Russia",
       "Ukraine"
     ],
-    "source_count": 15,
-    "timestamp": "11:57 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli airstrikes in southern Lebanon kill at least 13 despite a fragile ceasefire, according to reports.",
-    "emojis": "💥🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 6,
-    "timestamp": "11:57 AM"
+    "source_count": 19,
+    "timestamp": "10:29 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza's upscale cafes expose exploitation of workers, poverty, and human rights issues amidst economic growth.",
+    "summary": "Gaza flotilla activists from Spain and Brazil appear in Israeli court for alleged involvement in aid flotilla",
     "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Al Jazeera",
-      "Gaza residents"
-    ],
-    "source_count": 1,
-    "timestamp": "11:57 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Oil tanker hijacked off Yemen coast; suspicious approach reported, caution urged by UKMTO.",
-    "emojis": "",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Middle East Eye",
-      "UKMTO"
+      "Israel",
+      "Spanish/Brazilian activists"
     ],
     "source_count": 2,
-    "timestamp": "11:57 AM"
+    "timestamp": "10:29 AM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan's president delayed arrival in Eswatini due to overflight clearance issues",
+    "title": "SITREP: INDIA",
+    "summary": "India's energy and shipping sectors focus on geopolitics, while Air India faces record losses from fuel costs.",
     "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Taiwan's government",
-      "Eswatini authorities"
+      "StratNews Global",
+      "Whalesbook",
+      "Ravindra Energy"
     ],
-    "source_count": 1,
-    "timestamp": "11:57 AM"
+    "source_count": 3,
+    "timestamp": "10:29 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Five people, including paramedics, wounded in Israeli attack on southern Lebanon and Upper Galilee hit by Hezbollah rockets.",
+    "emojis": "⚔️🚀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel",
+      "Israeli"
+    ],
+    "source_count": 2,
+    "timestamp": "10:29 AM"
   }
 ];
 
