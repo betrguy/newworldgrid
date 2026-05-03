@@ -28,21 +28,22 @@ A 30-day ceasefire proposal from a key regional player has been met with skeptic
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 02, 2026
+## Daily Intelligence Brief - May 03, 2026
 
-TODAY'S SITUATION BRIEF
+Israel's Air Force expansion has propelled the country to a major military power, according to an analysis by The Jerusalem Post. **100** weapons were found in southern Lebanon after an IDF strike against Hezbollah terrorists.
 
-The Trump administration has shifted the blame for the Spirit shutdown to the Iran war, not its own actions. The US and Iran have been engaged in ongoing conflict since 2021.
+In another development, **IDF soldiers** dispersed rock throwers near Nablus after coming under attack, indicating ongoing tensions in the region. Meanwhile, Iran proposed an end to war with the US within 30 days, but President Trump expressed doubts about this proposal.
 
-In a related development, a Tehran official warned that renewed fighting with the US is "likely". China has also taken steps to limit US sanctions against Iran, banning their implementation.
+China also took action, ordering companies to ignore **US sanctions on oil refineries**. This move suggests China's willingness to disregard international pressure and prioritize its own economic interests.
 
-Meanwhile, Ukraine has launched strikes against Russian Iskander missile systems and radar stations. 
+Emanuel, a likely reference to Emanuel Navas, made a sharp turn against Israel regarding military aid policy, sparking debate in the US.
+
+Iran is seeking an end to war with the US, but President Trump believes Iran has not "paid a big enough price" for its actions. 
 
 Watch for:
-
-* A potential escalation of US-Iran conflict, potentially involving proxy forces or cyber operations
-* Increased tensions between the US and Russia over Ukraine and other issues
-* China's growing influence in the Middle East and its implications for global energy markets
+* Further escalation of tensions between **Israel** and Hezbollah
+* Potential US response to China's disregard for US sanctions
+* Further developments on Emanuel's shift in stance regarding military aid policy
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
