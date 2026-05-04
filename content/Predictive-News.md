@@ -28,22 +28,18 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 03, 2026
+## Daily Intelligence Brief - May 04, 2026
 
-Israel's Air Force expansion has propelled the country to a major military power, according to an analysis by The Jerusalem Post. **100** weapons were found in southern Lebanon after an IDF strike against Hezbollah terrorists.
+**Global Intelligence Summary**
 
-In another development, **IDF soldiers** dispersed rock throwers near Nablus after coming under attack, indicating ongoing tensions in the region. Meanwhile, Iran proposed an end to war with the US within 30 days, but President Trump expressed doubts about this proposal.
+- Ukraine-Russia war latest: Moscow threatens ‘massive strike’ in centre of Kyiv if WW2 celebration is disrupted - The Independent
+- Ukraine and Russia declare separate truces - IraqiNews
+- Oil Surges on Middle East Attacks - Rigzone
+- Ukraine and Russia announce separate ceasefires ahead of May 9 - Latest news from Azerbaijan
+- Russia orders 2-day ceasefire in Ukraine war to coincide with Victory Day - South China Morning Post
+- Iran War Live Updates: UAE Reports Missiles and Drone Threats; Trump Says U.S. Will Guide Ships in Strait of Hormuz - The New York Times
 
-China also took action, ordering companies to ignore **US sanctions on oil refineries**. This move suggests China's willingness to disregard international pressure and prioritize its own economic interests.
-
-Emanuel, a likely reference to Emanuel Navas, made a sharp turn against Israel regarding military aid policy, sparking debate in the US.
-
-Iran is seeking an end to war with the US, but President Trump believes Iran has not "paid a big enough price" for its actions. 
-
-Watch for:
-* Further escalation of tensions between **Israel** and Hezbollah
-* Potential US response to China's disregard for US sanctions
-* Further developments on Emanuel's shift in stance regarding military aid policy
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
