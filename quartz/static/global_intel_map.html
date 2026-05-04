@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-03 10:29 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-05-04 15:57 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,124 +51,124 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel expands air force, approves new fighter squadrons & boosts military spending amid regional tensions.",
-    "emojis": "🪖💥🔺",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "IDF",
-      "Hezbollah",
-      "Palestinians",
-      "US government"
-    ],
-    "source_count": 45,
-    "timestamp": "10:28 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran proposes 30-day truce, but Trump expresses doubts amid ongoing tensions.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US"
-    ],
-    "source_count": 32,
-    "timestamp": "10:29 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China issues directives to ignore US sanctions on oil refineries, amid rising tensions with US, Philippines and Canada.",
-    "emojis": "⚔️🚫⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US",
-      "China",
-      "Philippines",
-      "Canada"
-    ],
-    "source_count": 16,
-    "timestamp": "10:29 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces tensions with North Korea, Ukraine, China, and Finland, amid military conflicts and diplomatic strains.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "North Korea",
-      "Ukraine",
-      "China",
-      "Finland"
-    ],
-    "source_count": 19,
-    "timestamp": "10:29 AM"
-  },
-  {
     "title": "SITREP: UKRAINE",
-    "summary": "Ongoing conflict escalates with Russian strikes, drone attacks and counter-attacks in Ukraine and Baltic ports.",
-    "emojis": "🚢✈️💥",
+    "summary": "Ukraine-Russia war latest: Moscow threatens ‘massive strike’ in centre of Kyiv i",
+    "emojis": "💥⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "google_russia"
     ],
-    "source_count": 19,
-    "timestamp": "10:29 AM"
+    "source_count": 24,
+    "timestamp": "03:56 PM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Gaza flotilla activists from Spain and Brazil appear in Israeli court for alleged involvement in aid flotilla",
+    "title": "SITREP: US-CA",
+    "summary": "Wall Street drops from its records and oil prices jump after fighting flares in ",
     "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "Israel",
-      "Spanish/Brazilian activists"
+      "bbc_world",
+      "google_middle_east"
     ],
     "source_count": 2,
-    "timestamp": "10:29 AM"
+    "timestamp": "03:56 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India's energy and shipping sectors focus on geopolitics, while Air India faces record losses from fuel costs.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: IRAN",
+    "summary": "Iran War Live Updates: UAE Reports Missiles and Drone Threats; Trump Says U.S. W",
+    "emojis": "✈️⚔️🚀",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "StratNews Global",
-      "Whalesbook",
-      "Ravindra Energy"
+      "google_iran",
+      "google_middle_east"
     ],
-    "source_count": 3,
-    "timestamp": "10:29 AM"
+    "source_count": 33,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Chinese authorities accused of cover-up over China Eastern crash - Insurance Bus",
+    "emojis": "💥",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "google_china"
+    ],
+    "source_count": 10,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel Lag BaOmer - GazetteXtra",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 23,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Founder of Russia’s NBC Protection Troops Shot Himself in Moscow - Мілітарний",
+    "emojis": "🪖✈️🕊️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 8,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Real-time X-ray experiments reveal how 3D-printed metals fail under extreme impa",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "techxplore"
+    ],
+    "source_count": 1,
+    "timestamp": "03:57 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Five people, including paramedics, wounded in Israeli attack on southern Lebanon and Upper Galilee hit by Hezbollah rockets.",
-    "emojis": "⚔️🚀",
+    "summary": "War in the Middle East: latest developments | National | lebanondemocrat.com - L",
+    "emojis": "⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Hezbollah",
-      "Israel",
-      "Israeli"
+      "google_israel",
+      "google_middle_east"
     ],
-    "source_count": 2,
-    "timestamp": "10:29 AM"
+    "source_count": 4,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Germany positions navy for possible Strait of Hormuz deployment: Report - Middle",
+    "emojis": "🚀",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 1,
+    "timestamp": "03:57 PM"
   }
 ];
 
