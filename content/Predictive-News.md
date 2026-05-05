@@ -28,18 +28,21 @@ Global tensions have escalated with a series of devastating attacks and counterm
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 04, 2026
+## Daily Intelligence Brief - May 05, 2026
 
-**Global Intelligence Summary**
+TODAY'S SITUATION BRIEF
 
-- Ukraine-Russia war latest: Moscow threatens ‘massive strike’ in centre of Kyiv if WW2 celebration is disrupted - The Independent
-- Ukraine and Russia declare separate truces - IraqiNews
-- Oil Surges on Middle East Attacks - Rigzone
-- Ukraine and Russia announce separate ceasefires ahead of May 9 - Latest news from Azerbaijan
-- Russia orders 2-day ceasefire in Ukraine war to coincide with Victory Day - South China Morning Post
-- Iran War Live Updates: UAE Reports Missiles and Drone Threats; Trump Says U.S. Will Guide Ships in Strait of Hormuz - The New York Times
+The Middle East remains volatile, with Iran denying involvement in operations against the UAE and commercial vessels. **Iran** claims its armed forces have not carried out any operations, despite strikes on UAE territory and vessels. The US-Israel ceasefire remains under tension, with Hegseth stating that the conflict is not over.
 
-*Watch for: Developing situations across monitored regions.*
+Israel's domestic politics are also at play, as nearly 60% of Israelis say ending the war is not in line with security interests. Iran has been repositioning itself as a major power, with **Iran** and Russia engaging in proxy conflicts. The US is seeking to assert its influence through a proposed UN resolution on Strait of Hormuz freedom of navigation.
+
+Russia has also faced a cyberattack, with Flamingo Missiles and Liutyi Drones damaging workshops at Russia's VNIIR-Progress Plant. The incident highlights the growing threat landscape for Russian infrastructure.
+
+Watch for:
+
+* **Iran**'s next move in the region, particularly its response to US pressure
+* **Russia**'s military modernization efforts, including the development of new missile systems
+* Potential escalation between the US and Iran over the Strait of Hormuz
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
