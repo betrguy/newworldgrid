@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-05 15:56 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-05-06 18:50 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,55 +51,113 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: INDIA",
+    "summary": "India targets Chinese tourism market with ITB debut",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Government of India",
+      "Chinese tourists"
+    ],
+    "source_count": 1,
+    "timestamp": "06:49 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Iran denies UAE strikes amid US-Iran tensions and escalations, Trump renews attacks on Pope Leo.",
-    "emojis": "💥⚔️⚡",
+    "summary": "Iran considering US proposal to end war, amid dollar weakness and Trump's pressure, while Israel expresses concerns",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "Trump",
+      "Israel",
       "US",
-      "Iran",
-      "Pope Leo"
+      "Iran"
     ],
-    "source_count": 55,
-    "timestamp": "03:55 PM"
+    "source_count": 44,
+    "timestamp": "06:49 PM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "US-FL: Appeals court strikes down Trump administration's mandatory ICE detention policy.",
+    "emojis": "💥",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "Supreme Court",
+      "Trump Administration"
+    ],
+    "source_count": 1,
+    "timestamp": "06:49 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "White House vetting powerful AI models for risks, computer scientist explains AI safety challenges.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Trump administration",
+      "computer scientist"
+    ],
+    "source_count": 1,
+    "timestamp": "06:49 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Hantavirus-hit cruise ship leaves Cape Verde with three evacuated passengers, including a British man",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "cruise ship",
+      "British man"
+    ],
+    "source_count": 1,
+    "timestamp": "06:49 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel amid peace deal concerns, calls for ethnic cleansing, and ongoing conflicts with Hamas.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "US lawmakers urge transparency on Israel's nuclear capability amid Beirut strikes and ceasefire concerns.",
+    "emojis": "💥☢️🕊️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "US senator Rubio",
-      "ex-US spy",
-      "Israeli Commander",
-      "German FM"
+      "US lawmakers",
+      "Israel",
+      "Hezbollah",
+      "Trump administration"
     ],
-    "source_count": 22,
-    "timestamp": "03:56 PM"
+    "source_count": 26,
+    "timestamp": "06:49 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces ongoing strikes, internet censorship, and human rights concerns amid tensions with Ukraine.",
-    "emojis": "✈️💥🚀",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: CHINA",
+    "summary": "China navigates warming Arctic, strengthening cultural ties, expanding trade, and military advancements amid US tensions.",
+    "emojis": "🪖⚔️⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Ukraine",
-      "Russia",
-      "EU"
+      "US",
+      "China",
+      "Morocco"
     ],
-    "source_count": 6,
-    "timestamp": "03:56 PM"
+    "source_count": 11,
+    "timestamp": "06:50 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies attacks on Ukraine ahead of proposed ceasefires, killing over 50 and criticizing Kyiv's 'cynicism'",
-    "emojis": "💥⚔️💀",
+    "summary": "Russia issues evacuation warning, launches fresh attacks as Ukraine ceasefire is broken and Zelenskyy vows retaliation.",
+    "emojis": "💥⚔️🔴",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -107,93 +165,95 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 21,
-    "timestamp": "03:56 PM"
+    "source_count": 16,
+    "timestamp": "06:50 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces backlash over Venice Biennale participation, amid ongoing war and increased tensions with West.",
+    "emojis": "⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "West"
+    ],
+    "source_count": 13,
+    "timestamp": "06:50 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Tensions rise in Lebanon with ceasefire fraying, Russian warnings and Hezbollah drone attacks.",
+    "emojis": "🪖✈️💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Russia",
+      "Hezbollah",
+      "Israel"
+    ],
+    "source_count": 3,
+    "timestamp": "06:50 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US troops in Middle East await potential next major military operation or engagement.",
+    "emojis": "🪖",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US Military",
+      "Unknown Allies"
+    ],
+    "source_count": 1,
+    "timestamp": "06:50 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli strikes kill Palestinians, extend detention of Gaza flotilla activists until May 10.",
-    "emojis": "💥",
+    "summary": "Multiple attacks on Gaza, including strikes and detention extensions, result in injuries and deaths among Palestinians.",
+    "emojis": "💥⚔️💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Israel",
-      "Gaza flotilla activists"
+      "Hamas",
+      "Palestinian medics",
+      "Gaza police force"
     ],
     "source_count": 4,
-    "timestamp": "03:56 PM"
+    "timestamp": "06:50 PM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan weighs involvement in regional security shifts, potentially strengthening ties with Gulf states.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan Semiconductor faces Middle East war risks, impact on business uncertain",
+    "emojis": "⚔️",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
     "actors": [
-      "France 24",
-      "Pakistan"
+      "Taiwan Semiconductor",
+      "Middle East"
     ],
-    "source_count": 1,
-    "timestamp": "03:56 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK convicts 4 Palestine Action activists for breaking into Israeli firm",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Media Outlet",
-      "Activists"
-    ],
-    "source_count": 1,
-    "timestamp": "03:56 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces challenges in e-commerce, snooker, and cybersecurity, with travel restrictions also on the table.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US government",
-      "China"
-    ],
-    "source_count": 6,
-    "timestamp": "03:56 PM"
+    "source_count": 2,
+    "timestamp": "06:50 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California Skunk Works facility compromised by Chinese automakers' presence, while Middle East oil shipment arrives.",
+    "summary": "Last oil tanker from the Middle East arrives in California, sparking uncertainty and potential supply chain disruptions.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "Ford",
-      "Chinese automakers",
-      "US"
-    ],
-    "source_count": 2,
-    "timestamp": "03:56 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Melkite Catholic bishops condemn Israeli demolitions in southern Lebanon, sparking controversy and protests.",
-    "emojis": "",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli government",
-      "Lebanese Melkite Catholic Church"
+      "US",
+      "CA"
     ],
     "source_count": 1,
-    "timestamp": "03:56 PM"
+    "timestamp": "06:50 PM"
   }
 ];
 

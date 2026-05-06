@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 05, 2026 — 15:56</span>
+  <span class="sotg-timestamp">May 06, 2026 — 18:50</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Global tensions have escalated with a series of devastating attacks and countermeasures in multiple regions, resulting in significant loss of life and heightened concerns about regional stability. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+A potential breakthrough in the Iran-US conflict has emerged as Tehran is reportedly considering a US proposal to end the war, amid signs of dollar weakness and increased pressure from Washington. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
