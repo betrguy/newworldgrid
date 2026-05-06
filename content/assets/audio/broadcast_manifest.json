@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-05T16:00:14.226478",
+  "generatedAt": "2026-05-06T18:54:02.394928",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "So, let's summarize today's situation. On the global stage, we've seen a significant escalation of tensions with devastating attacks and countermeasures across multiple regions, resulting in substantial loss of life and increased concerns over regional stability. Meanwhile, on the optimism front, I'd like to highlight some remarkable breakthroughs that might just change the game. Balcony solar panels have become more accessible, allowing individuals to harness renewable energy without needing rooftop space or landlord permission. Additionally, scientists at MIT have made groundbreaking discoveries about relaxor ferroelectrics, which could potentially open up new avenues for medical imaging and sonar systems. Turning our attention to the state of the grid, we're witnessing a seismic shift in the global energy landscape. The integration of battery storage technology into core utility infrastructure is gaining momentum, offering unparalleled resilience and reliability in regions already strained by transmission bottlenecks. However, this transformation poses significant systemic risks as the world transitions away from fossil fuels, exacerbating existing vulnerabilities. Lastly, let's explore some exciting developments on the Final Frontier. NASA's Nancy Grace Roman space telescope will soon become a hub for astronomical research while also underlining the urgent need for robust processing power amidst burgeoning electric vehicle infrastructure and data generation."
+    "index_master_summary.wav": "As we dive into today's findings, let me highlight a crucial development in the Iran-US conflict where Tehran is reportedly considering a US proposal to end the war, amidst signs of dollar weakness and increased pressure from Washington. This shift could potentially impact global oil markets. Now, moving on to more positive news, it seems scientists have created stronger cement inspired by oysters, while advancements in solar cell technology boost efficiency, showcasing significant progress in sustainable building materials and clean energy solutions. On the grid front, we're witnessing a profound transformation as battery storage technology integrates into core utility infrastructure. This development has far-reaching implications for grid resilience and reliability, particularly in regions where transmission bottlenecks are already strained. Lastly, let's examine some exciting developments from the space sector, including EarthDaily Analytics' pioneering of new satellite constellation delivery models to LEO while simultaneously developing innovative home EV charging station operations for seamless integration of orbital economy and EV grid infrastructure."
   },
   "durations": {
-    "index_master_summary.wav": "01:42"
+    "index_master_summary.wav": "01:20"
   }
 }
