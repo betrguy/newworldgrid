@@ -28,23 +28,21 @@ Global tensions have reached a boiling point as a series of high-stakes conflict
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 06, 2026
+## Daily Intelligence Brief - May 07, 2026
 
-The situation is fluid, with Iran and the US presenting conflicting messages regarding the state of negotiations. **Iran** claims talks are ongoing, while the US says progress has been slow.
+The global order is reorganizing, with power centers shifting towards multiple regions.
 
-Meanwhile, investors are betting on an end to the conflict, causing the dollar to weaken. This move may be influenced by expectations of reduced tensions or a negotiated settlement.
+Iran has announced that it can outlast the **Trump** administration's Hormuz blockade for months, according to US intelligence. This suggests that Iran's economy and military are more resilient than initially thought, potentially changing the dynamics of the conflict in the region.
 
-In related developments, Israel's security chiefs have expressed concerns about any potential deal with **Iran**, labeling it a "disaster for Israel." This sentiment has been echoed in some quarters regarding US-Iran diplomacy.
+Meanwhile, China is experiencing a surge in electric vehicle sales, with **Toyota**'s $15,000 electric SUV being the top-selling joint venture EV for 7 months. This growth highlights China's increasing investment in sustainable energy and its growing influence in the global automotive market.
 
-A protest at the Venice Biennale's Russian pavilion by the punk band Pussy Riot drew attention, forcing the pavilion to briefly close. The incident highlights ongoing tensions between Russia and its critics.
-
-The Trump administration is exploring ways to regulate powerful **AI** models for potential risks. This move reflects growing concerns about AI safety and its implications.
+The US has upended Democrats' strategy on Iran war powers by declaring that hostilities with Iran are "terminated". However, this move is seen as a tactical shift rather than a strategic victory, as tensions between the two countries remain high. Diplomatic efforts, including a proposed peace plan, continue to unfold in Washington and Rome.
 
 Watch for:
 
-* Iran's response to US accusations of slow progress in talks
-* The impact of a negotiated settlement on global oil markets
-* The outcome of the Trump administration's efforts to develop AI safety regulations
+* Iranian response to US peace proposal
+* Trump's next steps on Iran policy
+* Updates on Russia's economic situation
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
