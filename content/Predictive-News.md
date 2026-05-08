@@ -28,21 +28,17 @@ Escalating tensions between major global powers have reached a boiling point, wi
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 07, 2026
+## Daily Intelligence Brief - May 08, 2026
 
-The global order is reorganizing, with power centers shifting towards multiple regions.
+Multiple parties are repositioning in the ongoing conflict with Iran, with various countries attempting to exploit divisions within Tehran's government. **US** President Trump has brokered a three-day ceasefire between Ukraine and Russia, which is set to take place on March 9-11. The agreement was facilitated by former US diplomat John Bolton, who met with Russian officials in Vienna.
 
-Iran has announced that it can outlast the **Trump** administration's Hormuz blockade for months, according to US intelligence. This suggests that Iran's economy and military are more resilient than initially thought, potentially changing the dynamics of the conflict in the region.
-
-Meanwhile, China is experiencing a surge in electric vehicle sales, with **Toyota**'s $15,000 electric SUV being the top-selling joint venture EV for 7 months. This growth highlights China's increasing investment in sustainable energy and its growing influence in the global automotive market.
-
-The US has upended Democrats' strategy on Iran war powers by declaring that hostilities with Iran are "terminated". However, this move is seen as a tactical shift rather than a strategic victory, as tensions between the two countries remain high. Diplomatic efforts, including a proposed peace plan, continue to unfold in Washington and Rome.
+Meanwhile, the **US** has fired missiles at tankers accused of smuggling Iranian drones, further straining relations between Washington and Tehran. Iran has retaliated by accusing the **US** of "reckless" attacks on its sovereignty. The conflict is also being fueled by proxy wars in the region, with Saudi Arabia and other Arab states backing rival factions within Yemen.
 
 Watch for:
 
-* Iranian response to US peace proposal
-* Trump's next steps on Iran policy
-* Updates on Russia's economic situation
+* Trump's visit to Beijing, China, and whether it sparks further tensions between the US and China
+* Iran's official response to the US peace plan, which may be announced shortly
+* Any subsequent developments from the Ukraine-Russia ceasefire, including whether it holds or if new skirmishes erupt
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
