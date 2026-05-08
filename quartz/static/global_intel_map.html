@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-07 17:39 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-05-08 19:15 UTC | 15 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">15 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,9 +51,26 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "China: Lawmakers push for action on auto threat, prisoner rights, espionage, EV cooperation and crash investigation.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Lawmakers",
+      "Trump",
+      "Jimmy Lai",
+      "UK authorities",
+      "Norway-China industry reps"
+    ],
+    "source_count": 6,
+    "timestamp": "07:14 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Tensions escalate between US and Iran, with exchanges of fire in Strait of Hormuz and attacks on US facilities.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran and US engage in escalating tensions amid Trump's peace plan, tanker attacks, and sanctions.",
+    "emojis": "💥⚔️🚫",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -61,154 +78,194 @@
       "US",
       "Iran"
     ],
-    "source_count": 53,
-    "timestamp": "05:37 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China issues death penalties, sentences corruption cases, and maintains diplomatic ties with US and Bangladesh.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US",
-      "Bangladesh"
-    ],
-    "source_count": 14,
-    "timestamp": "05:37 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces economic, security and diplomatic challenges amid ongoing Ukraine conflict and nuclear diplomacy.",
-    "emojis": "⚔️☢️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "China",
-      "United States"
-    ],
-    "source_count": 12,
-    "timestamp": "05:38 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions escalate between pro-Israel and anti-Israel groups, violence erupts in Colorado and Gaza.",
-    "emojis": "⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US Congress",
-      "Hamas",
-      "Israeli government",
-      "Pro-Israel groups",
-      "Colorado authorities"
-    ],
-    "source_count": 21,
-    "timestamp": "05:38 PM"
+    "source_count": 30,
+    "timestamp": "07:14 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia extends ceasefire, but threatens missile strike on Kyiv if Ukraine disrupts Victory Day",
-    "emojis": "💥🚀🔴",
+    "summary": "Ukraine and Russia agree to a 3-day ceasefire brokered by Donald Trump.",
+    "emojis": "⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "Donald Trump",
       "Russia",
       "Ukraine"
     ],
-    "source_count": 11,
-    "timestamp": "05:38 PM"
+    "source_count": 59,
+    "timestamp": "07:14 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise in Middle East as Israel responds to Hezbollah, Lebanon & global pressure on security and cultural ties.",
+    "emojis": "🕊️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Hezbollah",
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 25,
+    "timestamp": "07:14 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia's Victory Day parade to go ahead despite Ukraine tensions and Zelenskyy's seeming permission",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Zelenskyy",
+      "Putin",
+      "North Korea"
+    ],
+    "source_count": 8,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US publishes UFO documents with reports of hovering objects and flashing lights from military sightings.",
+    "emojis": "🪖",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US Military",
+      "Pentagon"
+    ],
+    "source_count": 1,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli attacks in Lebanon kill multiple civilians, wound others and prompt Hezbollah response to drone attack.",
+    "emojis": "✈️💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Hezbollah"
+    ],
+    "source_count": 5,
+    "timestamp": "07:15 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "Fire engulfs packed fairground in Villahermosa, Mexico, killing five people.",
-    "emojis": "💀",
+    "summary": "Honda suspends Canada EV expansion due to $15.7 billion losses, affecting North American operations.",
+    "emojis": "",
     "lat": 23.6,
     "lng": -102.5,
     "location": "MEXICO",
     "actors": [
-      "actor1",
-      "actor2"
+      "Honda",
+      "Canada",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "05:38 PM"
+    "timestamp": "07:15 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Reports indicate Israelis buying land in southern Syria, raising concerns about regional stability and security.",
+    "title": "SITREP: GAZA",
+    "summary": "Gaza violence escalates with rising death toll of 72,628, sparking international concern and debate.",
     "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Israel",
-      "Syria"
+      "Israel/Palestine",
+      "International Community"
+    ],
+    "source_count": 2,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Hyundai invests in Georgia's clean transportation, marking historic development for state's eco-friendly future.",
+    "emojis": "",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "Hyundai",
+      "Southern Alliance for Clean Energy"
     ],
     "source_count": 1,
-    "timestamp": "05:39 PM"
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan's geopolitical position evolves amidst regional tensions and global space race interests.",
+    "emojis": "⚡",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "China",
+      "India",
+      "US"
+    ],
+    "source_count": 1,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India announces plans for EV charging stations along highways, disrupted shipments resume amid eased supply chains.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Government",
+      "Shipping Lines"
+    ],
+    "source_count": 2,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California cops catch tiny Chinese EV committing first adult offense",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California Cops",
+      "Chinese EV"
+    ],
+    "source_count": 1,
+    "timestamp": "07:15 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK border official and former Hong Kong cop convicted for Chinese spy agency assistance, electric vehicle savings explored.",
+    "summary": "UK confirms fifth case of hantavirus infection, bringing total to five cases nationwide.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Audacy",
-      "The Independent"
-    ],
-    "source_count": 2,
-    "timestamp": "05:39 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Turkish & Algerian leaders condemn Israeli attacks on Gaza, killing Hamas leader's son",
-    "emojis": "⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Turkey",
-      "Algeria"
-    ],
-    "source_count": 2,
-    "timestamp": "05:39 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon death toll reaches 2,727 amid ongoing Israeli raids",
-    "emojis": "",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli forces",
-      "Lebanese civilians"
+      "UK government"
     ],
     "source_count": 1,
-    "timestamp": "05:39 PM"
+    "timestamp": "07:15 PM"
   },
   {
-    "title": "SITREP: US-IL",
-    "summary": "Rivian to expand EV lineup with more affordable variants as R2 model rollout starts.",
+    "title": "SITREP: COLOMBIA",
+    "summary": "Tesla Model Y tops sales in Colombia for 2nd consecutive month, solidifying its position as the country's best-selling vehicle.",
     "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
+    "lat": 4.57,
+    "lng": -74.29,
+    "location": "COLOMBIA",
     "actors": [
-      "Crain's Chicago Business",
-      "Rivian"
+      "Tesla",
+      "Colombia"
     ],
     "source_count": 1,
-    "timestamp": "05:39 PM"
+    "timestamp": "07:15 PM"
   }
 ];
 
