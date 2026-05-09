@@ -28,17 +28,20 @@ Global tensions have escalated with a series of military strikes and diplomatic 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 08, 2026
+## Daily Intelligence Brief - May 09, 2026
 
-Multiple parties are repositioning in the ongoing conflict with Iran, with various countries attempting to exploit divisions within Tehran's government. **US** President Trump has brokered a three-day ceasefire between Ukraine and Russia, which is set to take place on March 9-11. The agreement was facilitated by former US diplomat John Bolton, who met with Russian officials in Vienna.
+Russia's Victory Day Parade in Moscow felt subdued compared to previous years, with reduced military hardware on display. The Kremlin likely used this downplaying of the event to avoid drawing attention away from domestic issues and towards the ongoing war with Ukraine. 
 
-Meanwhile, the **US** has fired missiles at tankers accused of smuggling Iranian drones, further straining relations between Washington and Tehran. Iran has retaliated by accusing the **US** of "reckless" attacks on its sovereignty. The conflict is also being fueled by proxy wars in the region, with Saudi Arabia and other Arab states backing rival factions within Yemen.
+Meanwhile, **Iran** appears to be holding its ground in the conflict with Israel, despite a proposal from the US to end the war. Iranian forces are reviewing the US proposal at their own pace, according to reports. 
+
+In another development, Bahrain has detained dozens of individuals suspected of links to the Revolutionary Guard Corps (RG), while the ceasefire between **Israel** and Lebanon appears to be holding.
+
+The escalating trade row between the US state and China is also centered around the Iran war. The dispute comes ahead of a planned summit between **Trump** and **Xi Jinping**.
 
 Watch for:
-
-* Trump's visit to Beijing, China, and whether it sparks further tensions between the US and China
-* Iran's official response to the US peace plan, which may be announced shortly
-* Any subsequent developments from the Ukraine-Russia ceasefire, including whether it holds or if new skirmishes erupt
+- A significant escalation in US-Iran tensions, potentially leading to increased military strikes or a change in the terms of the proposed ceasefire.
+- Further developments on the Bahrain detentions, including whether the individuals will be extradited to Iran.
+- Signs of increased Israeli military activity in Lebanon, such as additional patrols or airstrikes.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
