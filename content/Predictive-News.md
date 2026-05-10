@@ -28,20 +28,21 @@ Global tensions have intensified across multiple fronts, with a series of escala
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 09, 2026
+## Daily Intelligence Brief - May 10, 2026
 
-Russia's Victory Day Parade in Moscow felt subdued compared to previous years, with reduced military hardware on display. The Kremlin likely used this downplaying of the event to avoid drawing attention away from domestic issues and towards the ongoing war with Ukraine. 
+A multipolar world is reorganizing, with global power centers shifting away from the dollar-based order. 
 
-Meanwhile, **Iran** appears to be holding its ground in the conflict with Israel, despite a proposal from the US to end the war. Iranian forces are reviewing the US proposal at their own pace, according to reports. 
+Israel and Iran are locked in a proxy conflict, with Tehran vowing to tighten its grip on the Strait of Hormuz after US President Trump mocks Iranian drone threats. The IDF and US have reportedly conducted covert rescue operations from Iraq.
 
-In another development, Bahrain has detained dozens of individuals suspected of links to the Revolutionary Guard Corps (RG), while the ceasefire between **Israel** and Lebanon appears to be holding.
+Estonia's border with Russia is tense, with **galvnews.com** reporting no further details. In another development, **The Star** notes that US Ambassador to Israel Bessent has urged China to help open the Strait of Hormuz.
 
-The escalating trade row between the US state and China is also centered around the Iran war. The dispute comes ahead of a planned summit between **Trump** and **Xi Jinping**.
+Meanwhile, Ukraine and Russia accuse each other of breaking a ceasefire.
 
 Watch for:
-- A significant escalation in US-Iran tensions, potentially leading to increased military strikes or a change in the terms of the proposed ceasefire.
-- Further developments on the Bahrain detentions, including whether the individuals will be extradited to Iran.
-- Signs of increased Israeli military activity in Lebanon, such as additional patrols or airstrikes.
+
+* Increased tensions between Iran and US allies in the Middle East
+* A possible response from China on the Strait of Hormuz
+* Further developments in the Ukraine-Russia conflict
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
