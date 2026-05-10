@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-09 14:05 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-05-10 08:10 UTC | 15 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">15 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,39 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia celebrates Victory Day with scaled-down parade, amid increased tensions and diplomatic ties with North Korea.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "BBC",
-      "AP News",
-      "EFE",
-      "Kim Jong-un"
-    ],
-    "source_count": 23,
-    "timestamp": "02:04 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Deadly clashes and airstrikes escalate in Lebanon as Israel targets Hezbollah launchers and civilians.",
-    "emojis": "💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Hezbollah"
-    ],
-    "source_count": 11,
-    "timestamp": "02:04 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US waits for Iran's response to end war amid ceasefire hold and escalating trade tensions with China.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran-US tensions escalate with Iranian threats, military actions and US responses amid Middle East conflicts.",
+    "emojis": "🪖✈️⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -91,126 +61,207 @@
       "US",
       "Iran"
     ],
-    "source_count": 40,
-    "timestamp": "02:04 PM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Lebanese Premier and Syrian President make significant progress on issues in Damascus meeting.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Lebanese Premier",
-      "Syrian President"
-    ],
-    "source_count": 1,
-    "timestamp": "02:05 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Gaza residents return to rubble after Israel strike, while Palestinian killed and flotilla activists released",
-    "emojis": "💥⚔️💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians"
-    ],
-    "source_count": 5,
-    "timestamp": "02:05 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK deploys warships to Middle East in support of potential Strait of Hormuz security mission",
-    "emojis": "🚢⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK Defence Ministry"
-    ],
-    "source_count": 11,
-    "timestamp": "02:05 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China integrates AI, energy, and launches tourism initiatives amidst diplomatic tensions with US and France.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Xi Jinping",
-      "US President",
-      "French officials"
-    ],
-    "source_count": 14,
-    "timestamp": "02:05 PM"
+    "source_count": 52,
+    "timestamp": "08:09 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Middle East as protests and strikes erupt across Israel, Lebanon and Gaza.",
-    "emojis": "🪖✈️💥",
+    "summary": "Israel faces rocket attacks, flotilla arrests, security threats from Iran and UAE, amid electoral debate.",
+    "emojis": "🪖✈️⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Lebanon",
-      "Gaza",
-      "Islamic Jihad",
       "Hezbollah",
-      "Netanyahu's Government"
+      "Israel",
+      "Iran",
+      "UAE"
     ],
-    "source_count": 22,
-    "timestamp": "02:05 PM"
+    "source_count": 38,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Tensions rise along Estonia-Russia border, amid CSTO meeting & Putin's slow battlefield gains.",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Estonia",
+      "CSTO"
+    ],
+    "source_count": 6,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China navigates trade tensions, supply chain shifts, and potential military exports amid US-China diplomatic efforts.",
+    "emojis": "🪖⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "US",
+      "China"
+    ],
+    "source_count": 13,
+    "timestamp": "08:09 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine hold temporary ceasefire amidst escalating conflict, as Putin denounces NATO.",
-    "emojis": "🪖⚔️🕊️",
+    "summary": "Ukraine and Russia accuse each other of breaking a fragile US-brokered three-day truce amid ongoing war.",
+    "emojis": "⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Putin",
-      "Trump"
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 7,
-    "timestamp": "02:05 PM"
+    "source_count": 22,
+    "timestamp": "08:09 AM"
   },
   {
-    "title": "SITREP: AFGHANISTAN",
-    "summary": "Afghanistan's strategic location makes it a crucial battleground in global politics, with multiple actors vying for influence.",
+    "title": "SITREP: IRAQ",
+    "summary": "Outgoing US Air Force chief hints at secret Israeli base in Iraq, sparking controversy and speculation.",
     "emojis": "",
-    "lat": 33.9,
-    "lng": 67.7,
-    "location": "AFGHANISTAN",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "US",
-      "China",
-      "Pakistan"
+      "US Air Force",
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "02:05 PM"
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli soldiers follow orders to kill any male encountered in Gaza, as fragile ceasefire is tested.",
+    "emojis": "🪖💥🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli soldiers",
+      "Gaza residents"
+    ],
+    "source_count": 2,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Congress faces biggest reckoning on sexual misconduct since #MeToo, with major implications for its politics and power",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Congress",
+      "Capi"
+    ],
+    "source_count": 1,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "36+ killed in Israeli strikes on Lebanon despite reported truce, amid escalating violence.",
+    "emojis": "💥💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 3,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK deploys HMS Dragon & Army team to Tristan da Cunha & Middle East for suspected hantavirus response and naval escort.",
+    "emojis": "🚢",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK Military",
+      "HMS Dragon"
+    ],
+    "source_count": 3,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Yemen launches BYD electric vehicles, embracing sustainable future.",
+    "emojis": "",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "BYD",
+      "Yemen"
+    ],
+    "source_count": 1,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US citizen imprisoned in Russia, status uncertain.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "USA",
+      "Russia"
+    ],
+    "source_count": 1,
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Toyota revamps EV strategy, opens plants in India to boost electric vehicle production and sales.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Toyota",
+      "India"
+    ],
+    "source_count": 1,
+    "timestamp": "08:09 AM"
   },
   {
     "title": "SITREP: US-GA",
-    "summary": "ASEAN leaders discuss crisis plan amid US-GA tensions following Middle East war",
-    "emojis": "⚔️⚡",
+    "summary": "US reports UAP incidents in Georgia attributed to Russian aircraft, indicating military conflict escalating.",
+    "emojis": "🪖✈️💥",
     "lat": 33.74,
     "lng": -84.38,
     "location": "US-GA",
     "actors": [
-      "US",
-      "GA",
-      "ASEAN"
+      "Russia",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "02:05 PM"
+    "timestamp": "08:09 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan army chief emphasizes mediation efforts for lasting peace, amid ongoing regional tensions.",
+    "emojis": "🕊️⚡",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Middle East Eye",
+      "Pakistan army chief"
+    ],
+    "source_count": 1,
+    "timestamp": "08:10 AM"
   }
 ];
 
