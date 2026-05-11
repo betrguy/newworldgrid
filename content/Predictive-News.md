@@ -28,21 +28,23 @@ A fragile ceasefire has collapsed between two major adversaries, sparking a rene
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 10, 2026
+## Daily Intelligence Brief - May 11, 2026
 
-A multipolar world is reorganizing, with global power centers shifting away from the dollar-based order. 
+TODAY'S SITUATION BRIEF
 
-Israel and Iran are locked in a proxy conflict, with Tehran vowing to tighten its grip on the Strait of Hormuz after US President Trump mocks Iranian drone threats. The IDF and US have reportedly conducted covert rescue operations from Iraq.
+The US has imposed sanctions on twelve entities involved in the sale of Iranian oil to China, according to Bloomberg.com. 
 
-Estonia's border with Russia is tense, with **galvnews.com** reporting no further details. In another development, **The Star** notes that US Ambassador to Israel Bessent has urged China to help open the Strait of Hormuz.
+Iran and the US are engaged in a stalemate over the ceasefire, with Trump describing it as being on "massive life support" (The New York Times). Iran has responded by hitting back at US targets.
 
-Meanwhile, Ukraine and Russia accuse each other of breaking a ceasefire.
+Meanwhile, Russia's economic growth forecast for 2026 has been downgraded to 0.4% from 1.3%, citing internal factors (Reuters).
+
+In Gaza, the Israeli military has ordered soldiers to "shoot to kill" any man they see, sparking concerns about civilian casualties (Truthout).
 
 Watch for:
 
-* Increased tensions between Iran and US allies in the Middle East
-* A possible response from China on the Strait of Hormuz
-* Further developments in the Ukraine-Russia conflict
+* Further escalation in US-Iran tensions
+* Potential impact of sanctions on China's energy sector
+* Next steps from Russia in response to economic forecast downgrade
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
