@@ -30,17 +30,18 @@ Global tensions have escalated as a series of high-stakes conflicts and diplomat
 
 ## Daily Intelligence Brief - May 12, 2026
 
-The global power landscape is shifting as the US and China reassert their influence in the Middle East. Trump's trip to China marks a significant escalation of tensions between the two superpowers, with **Trump** and **Xi Jinping** meeting in person for the first time since 2019.
+The global power landscape is shifting, with multiple actors repositioning themselves in response to the disintermediation of expertise by AI.
 
-The US-Iran war has pushed inflation to its highest rate in nearly three years, according to The Washington Post. The Pentagon estimates the cost of the conflict at $29 billion during a recent hearing.
+Russia has successfully tested a new ballistic missile, which Putin has called the world's most powerful. This move could further destabilize Ukraine and the region, potentially drawing in other nations.
 
-In another region, **Israel** launched strikes that killed two paramedics from Lebanon, who were on a rescue mission. Meanwhile, Russia plans to deploy its new Sarmat nuclear missile this year, according to Reuters.
+Meanwhile, the US-China trade relationship is being closely watched, particularly after Trump's high-stakes summit in China. Taiwan is monitoring this situation for signs of whether China will test the US resolve on its territorial claims.
+
+The Middle East remains volatile, with the Hormuz Strait still experiencing disruptions to oil shipments. It may take until late 2026 for these shipments to recover.
 
 Watch for:
-
-* A potential escalation in US-China tensions following the Trump-Xi summit
-* Further developments in the US-Iran war and its impact on the global economy
-* The deployment of Russian Sarmat missiles and their implications for European security
+- **Taiwan's** military modernization efforts, which could be accelerated if China tests US resolve on its territorial claims.
+- Increased diplomatic activity between Russia and Iran, potentially leading to a new alliance against Western powers.
+- **China's** economic offerings to **Russia**, including energy cooperation and trade agreements.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
