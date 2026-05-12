@@ -28,23 +28,19 @@ Global tensions have reached a boiling point as high-stakes summits and military
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 11, 2026
+## Daily Intelligence Brief - May 12, 2026
 
-TODAY'S SITUATION BRIEF
+The global power landscape is shifting as the US and China reassert their influence in the Middle East. Trump's trip to China marks a significant escalation of tensions between the two superpowers, with **Trump** and **Xi Jinping** meeting in person for the first time since 2019.
 
-The US has imposed sanctions on twelve entities involved in the sale of Iranian oil to China, according to Bloomberg.com. 
+The US-Iran war has pushed inflation to its highest rate in nearly three years, according to The Washington Post. The Pentagon estimates the cost of the conflict at $29 billion during a recent hearing.
 
-Iran and the US are engaged in a stalemate over the ceasefire, with Trump describing it as being on "massive life support" (The New York Times). Iran has responded by hitting back at US targets.
-
-Meanwhile, Russia's economic growth forecast for 2026 has been downgraded to 0.4% from 1.3%, citing internal factors (Reuters).
-
-In Gaza, the Israeli military has ordered soldiers to "shoot to kill" any man they see, sparking concerns about civilian casualties (Truthout).
+In another region, **Israel** launched strikes that killed two paramedics from Lebanon, who were on a rescue mission. Meanwhile, Russia plans to deploy its new Sarmat nuclear missile this year, according to Reuters.
 
 Watch for:
 
-* Further escalation in US-Iran tensions
-* Potential impact of sanctions on China's energy sector
-* Next steps from Russia in response to economic forecast downgrade
+* A potential escalation in US-China tensions following the Trump-Xi summit
+* Further developments in the US-Iran war and its impact on the global economy
+* The deployment of Russian Sarmat missiles and their implications for European security
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
