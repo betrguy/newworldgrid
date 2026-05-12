@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-12 16:18 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-05-12 19:54 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,37 +51,121 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "US and Iran tensions escalate as Trump prepares to meet Xi Jinping amidst rising war costs and threats.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Iran",
-      "Xi Jinping"
-    ],
-    "source_count": 44,
-    "timestamp": "04:17 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "Trump visits China for high-stakes summit with Xi amid economic and diplomatic pressures.",
+    "summary": "US-China relations tense amid trade disputes, diplomatic meetings and concerns over espionage and EV dominance.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Trump",
-      "Xi"
+      "China",
+      "US"
     ],
-    "source_count": 14,
-    "timestamp": "04:17 PM"
+    "source_count": 32,
+    "timestamp": "07:53 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel advances in Eurovision, amid rising anti-Israel tensions and controversies surrounding The New York Times",
+    "emojis": "⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "The New York Times",
+      "Israel",
+      "Hezbollah",
+      "Palestinians"
+    ],
+    "source_count": 17,
+    "timestamp": "07:53 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Putin hails Russia's test launch of new ballistic missile, calls it world's most powerful, amid global tensions and economic shifts.",
+    "emojis": "🚀☢️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin"
+    ],
+    "source_count": 9,
+    "timestamp": "07:53 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia launches drone attacks on Ukraine, escalating fighting as ceasefire nears its end.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 8,
+    "timestamp": "07:53 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Trump visits China amid escalating Iran tensions and potential Middle East ceasefire threat.",
+    "emojis": "⚔️🕊️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Trump",
+      "Iran"
+    ],
+    "source_count": 50,
+    "timestamp": "07:53 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli lawmakers allow death penalty for Hamas attackers, amid reports of sexual violence and weaponization of rape.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Hamas"
+    ],
+    "source_count": 3,
+    "timestamp": "07:53 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Crude oil prices rise on 27 May, posing threat to Iraq's economy and regional stability.",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "OilPrice.com",
+      "Iraq government"
+    ],
+    "source_count": 1,
+    "timestamp": "07:53 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France's Macron attends Africa summit amid shifting global politics and tensions.",
+    "emojis": "⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "Macron"
+    ],
+    "source_count": 1,
+    "timestamp": "07:53 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes kill 13, including two paramedics in Lebanon, as Hezbollah's drones challenge Israeli military.",
+    "summary": "Lebanese paramedics killed in Israeli strikes, while Hezbollah's $300 drones pose a challenge to Israeli military.",
     "emojis": "🪖✈️💥",
     "lat": 33.8,
     "lng": 35.8,
@@ -91,133 +175,22 @@
       "Hezbollah",
       "Lebanon"
     ],
-    "source_count": 3,
-    "timestamp": "04:17 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia announces plans to deploy new Sarmat nuclear missile, with a claimed range of up to 35,000 km.",
-    "emojis": "🚀⚔️☢️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Putin"
-    ],
-    "source_count": 13,
-    "timestamp": "04:17 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Hamas accused of weaponizing rape as a tactic during 7 October attacks on Israel.",
-    "emojis": "⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Hamas",
-      "Israel"
-    ],
     "source_count": 2,
-    "timestamp": "04:17 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces controversy, protests, and governance challenges amid election oversight, violence, and settler issues.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel"
-    ],
-    "source_count": 21,
-    "timestamp": "04:17 PM"
+    "timestamp": "07:54 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California snack bags turning black and white, Southern Cal mayor charged in Chinese espionage scandal.",
+    "summary": "California snack bags turning black and white, Southern Cal. mayor charged in Chinese espionage scandal",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "Snack Bag Makers",
-      "Los Angeles Mayor"
+      "San Francisco Chronicle",
+      "Deseret News"
     ],
     "source_count": 2,
-    "timestamp": "04:17 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine struggles with food supply amid war, while Trump hints at Russia visit and war will end soon.",
-    "emojis": "⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Trump",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 9,
-    "timestamp": "04:17 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Tesla enters India market with premium EV push, launching 6-seater Model YL",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Tesla",
-      "India"
-    ],
-    "source_count": 1,
-    "timestamp": "04:18 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK military presence in Gulf heightens Middle East tensions, raising fears of escalation and conflict.",
-    "emojis": "🪖⚔️⚡",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Middle East Eye",
-      "UK"
-    ],
-    "source_count": 1,
-    "timestamp": "04:18 PM"
-  },
-  {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "Russian ghost ship sinks mysteriously off North Korea's coast while carrying nuclear reactors.",
-    "emojis": "☢️",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
-    "actors": [
-      "New York Post",
-      "North Korea"
-    ],
-    "source_count": 1,
-    "timestamp": "04:18 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Teen hacker accidentally accesses nuclear systems, raising concerns about deterrence and cyber threats.",
-    "emojis": "⚔️☢️💣",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "a teenager",
-      "AI system"
-    ],
-    "source_count": 1,
-    "timestamp": "04:18 PM"
+    "timestamp": "07:54 PM"
   }
 ];
 

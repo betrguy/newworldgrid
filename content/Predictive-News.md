@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 12, 2026 — 16:18</span>
+  <span class="sotg-timestamp">May 12, 2026 — 19:54</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Global tensions have reached a boiling point as high-stakes summits and military escalations in multiple regions threaten to destabilize already fragile international relations. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Global tensions have escalated as a series of high-stakes conflicts and diplomatic maneuvers – including drone attacks, ballistic missile tests, and high-profile visits – have pushed the world's major powers to the brink of confrontation. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
