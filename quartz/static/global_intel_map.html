@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-11 17:49 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-05-12 16:18 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,154 +51,173 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "US, Apple, Boeing, and BlackRock CEOs join Trump's China trip amid Middle East tensions and economic uncertainty.",
-    "emojis": "🚫⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Trump",
-      "Elon Musk",
-      "Tim Cook",
-      "Boeing",
-      "BlackRock"
-    ],
-    "source_count": 25,
-    "timestamp": "05:48 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces protests, calls for resignation, and prosecution amid ongoing conflicts and tensions with neighboring countries.",
-    "emojis": "⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Netanyahu",
-      "Hamas",
-      "US",
-      "Lebanon",
-      "Tyler Oliveira"
-    ],
-    "source_count": 20,
-    "timestamp": "05:48 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US-Iran ceasefire on life support as talks falter, with Trump vowing to pause gas tax amid rising fuel prices.",
-    "emojis": "⚔️🕊️",
+    "summary": "US and Iran tensions escalate as Trump prepares to meet Xi Jinping amidst rising war costs and threats.",
+    "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Trump",
-      "Iran regime"
+      "Iran",
+      "Xi Jinping"
     ],
-    "source_count": 49,
-    "timestamp": "05:49 PM"
+    "source_count": 44,
+    "timestamp": "04:17 PM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia-Ukraine ceasefire ends, both sides accuse each other of violations amid ongoing conflict and air strikes.",
-    "emojis": "💥⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: CHINA",
+    "summary": "Trump visits China for high-stakes summit with Xi amid economic and diplomatic pressures.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "Trump",
+      "Xi"
     ],
-    "source_count": 12,
-    "timestamp": "05:49 PM"
+    "source_count": 14,
+    "timestamp": "04:17 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strikes kill 13, including two paramedics in Lebanon, as Hezbollah's drones challenge Israeli military.",
+    "emojis": "🪖✈️💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Hezbollah",
+      "Lebanon"
+    ],
+    "source_count": 3,
+    "timestamp": "04:17 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia downgrades economic growth forecast to 0.4% amid power struggle and ongoing conflict with Ukraine.",
-    "emojis": "⚔️",
+    "summary": "Russia announces plans to deploy new Sarmat nuclear missile, with a claimed range of up to 35,000 km.",
+    "emojis": "🚀⚔️☢️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Vladimir Putin",
-      "Donald Trump"
+      "Putin"
     ],
-    "source_count": 12,
-    "timestamp": "05:49 PM"
+    "source_count": 13,
+    "timestamp": "04:17 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Tensions escalate in Gaza and Lebanon, with EU imposing sanctions on Israeli settlers and Hamas leaders.",
-    "emojis": "🪖🚫⚡",
+    "summary": "Hamas accused of weaponizing rape as a tactic during 7 October attacks on Israel.",
+    "emojis": "⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "EU",
-      "Israeli Military",
-      "Hamas"
+      "Hamas",
+      "Israel"
     ],
-    "source_count": 3,
-    "timestamp": "05:49 PM"
+    "source_count": 2,
+    "timestamp": "04:17 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "EU & UK sanction Russia for deporting Ukrainian children",
-    "emojis": "🚫",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces controversy, protests, and governance challenges amid election oversight, violence, and settler issues.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "EU",
-      "UK",
-      "Russia"
+      "Israel"
     ],
-    "source_count": 1,
-    "timestamp": "05:49 PM"
+    "source_count": 21,
+    "timestamp": "04:17 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California snack bags turning black and white, Southern Cal mayor charged in Chinese espionage scandal.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Snack Bag Makers",
+      "Los Angeles Mayor"
+    ],
+    "source_count": 2,
+    "timestamp": "04:17 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine struggles with food supply amid war, while Trump hints at Russia visit and war will end soon.",
+    "emojis": "⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Trump",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 9,
+    "timestamp": "04:17 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India faces geopolitics challenges & climate cooperation, while its phosphate segment shows early resilience amidst Middle East disruption",
+    "summary": "Tesla enters India market with premium EV push, launching 6-seater Model YL",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Germany",
-      "Norway",
+      "Tesla",
       "India"
     ],
-    "source_count": 3,
-    "timestamp": "05:49 PM"
+    "source_count": 1,
+    "timestamp": "04:18 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK military presence in Gulf heightens Middle East tensions, raising fears of escalation and conflict.",
+    "emojis": "🪖⚔️⚡",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Middle East Eye",
+      "UK"
+    ],
+    "source_count": 1,
+    "timestamp": "04:18 PM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Russian ghost ship sinks mysteriously off North Korea's coast while carrying nuclear reactors.",
+    "emojis": "☢️",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "New York Post",
+      "North Korea"
+    ],
+    "source_count": 1,
+    "timestamp": "04:18 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Trump supports federal gas tax suspension, while Musk & Cook join him for Xi summit with Trump",
-    "emojis": "",
+    "summary": "Teen hacker accidentally accesses nuclear systems, raising concerns about deterrence and cyber threats.",
+    "emojis": "⚔️☢️💣",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Trump",
-      "Musk",
-      "Cook"
-    ],
-    "source_count": 3,
-    "timestamp": "05:49 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli troops face jail over desecrating a Virgin Mary statue in Lebanon.",
-    "emojis": "🪖",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli troops",
-      "Lebanon"
+      "a teenager",
+      "AI system"
     ],
     "source_count": 1,
-    "timestamp": "05:49 PM"
+    "timestamp": "04:18 PM"
   }
 ];
 
