@@ -28,20 +28,18 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 12, 2026
+## Daily Intelligence Brief - May 13, 2026
 
-The global power landscape is shifting, with multiple actors repositioning themselves in response to the disintermediation of expertise by AI.
+**Global Intelligence Summary**
 
-Russia has successfully tested a new ballistic missile, which Putin has called the world's most powerful. This move could further destabilize Ukraine and the region, potentially drawing in other nations.
+- Trump Live Updates: President Arrives in China For Xi Meeting; Bid to End Iran War is Blocked - The New York Times
+- Geopolitical Shifts in the Shadows of the Iran Conflict - Devdiscourse
+- Iran war looms over Trump's China visit, shifts alliances - Reuters
+- DC Wrap: Trump arrives in China; Fed chair nominee Warsh confirmed - Spectrum News
+- BMW looks to its redesigned ‘Neue Klasse’ platform to help spur growth - WardsAuto
+- Ukraine conflict: Kyiv charts Kh-101 upgrades as Russia seeks to foil Ukrainian defences - Janes
 
-Meanwhile, the US-China trade relationship is being closely watched, particularly after Trump's high-stakes summit in China. Taiwan is monitoring this situation for signs of whether China will test the US resolve on its territorial claims.
-
-The Middle East remains volatile, with the Hormuz Strait still experiencing disruptions to oil shipments. It may take until late 2026 for these shipments to recover.
-
-Watch for:
-- **Taiwan's** military modernization efforts, which could be accelerated if China tests US resolve on its territorial claims.
-- Increased diplomatic activity between Russia and Iran, potentially leading to a new alliance against Western powers.
-- **China's** economic offerings to **Russia**, including energy cooperation and trade agreements.
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
