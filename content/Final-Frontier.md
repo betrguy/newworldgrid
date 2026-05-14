@@ -9,7 +9,7 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 13, 2026 - 17:52</span>
+  <span class="sotg-timestamp">May 14, 2026 - 17:13</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
