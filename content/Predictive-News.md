@@ -28,16 +28,16 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 13, 2026
+## Daily Intelligence Brief - May 14, 2026
 
 **Global Intelligence Summary**
 
-- Trump Live Updates: President Arrives in China For Xi Meeting; Bid to End Iran War is Blocked - The New York Times
-- Geopolitical Shifts in the Shadows of the Iran Conflict - Devdiscourse
-- Iran war looms over Trump's China visit, shifts alliances - Reuters
-- DC Wrap: Trump arrives in China; Fed chair nominee Warsh confirmed - Spectrum News
-- BMW looks to its redesigned ‘Neue Klasse’ platform to help spur growth - WardsAuto
-- Ukraine conflict: Kyiv charts Kh-101 upgrades as Russia seeks to foil Ukrainian defences - Janes
+- Centcom Commander Says Epic Fury Crippled Iran, Enhanced Military Partnerships in Region - U.S. Department of War (.gov)
+- Republicans refuse to rein in Trump on Iran for the 10th time - MS NOW
+- Is the tide starting to turn against Putin in Ukraine? ANALYSIS - ABC News - Breaking News, Latest News and Videos
+- Live updates: Trump says Chinese leader Xi offered to help broker peace with Iran - AP News
+- House Republicans narrowly block effort to end Trump’s war with Iran - The Hill
+- House vote on Iran war powers resolution fails for third time - CBS News
 
 *Watch for: Developing situations across monitored regions.*
 
