@@ -28,16 +28,16 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 14, 2026
+## Daily Intelligence Brief - May 15, 2026
 
 **Global Intelligence Summary**
 
-- Centcom Commander Says Epic Fury Crippled Iran, Enhanced Military Partnerships in Region - U.S. Department of War (.gov)
-- Republicans refuse to rein in Trump on Iran for the 10th time - MS NOW
-- Is the tide starting to turn against Putin in Ukraine? ANALYSIS - ABC News - Breaking News, Latest News and Videos
-- Live updates: Trump says Chinese leader Xi offered to help broker peace with Iran - AP News
-- House Republicans narrowly block effort to end Trump’s war with Iran - The Hill
-- House vote on Iran war powers resolution fails for third time - CBS News
+- Takeaways from Trump’s China visit - Santa Clarita Valley Signal
+- Gaza airstrike targeted Hamas military wing leader, Israel says - The Washington Post
+- Trump Says He Didn't Ask Xi to Pressure Iran on Strait - Rigzone
+- Chinese EV manufacturers are on the hunt for idle European factories, but experts warn that this short-term strategy could have a major impact on western automakers - TechRadar
+- US says Iran-backed militia commander planned Jewish site attacks - France 24
+- Rubio: Iran won’t be able to leverage US politics into forcing ‘bad’ deal on Trump - The Hill
 
 *Watch for: Developing situations across monitored regions.*
 
