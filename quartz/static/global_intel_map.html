@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-14 17:12 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-05-15 17:09 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,119 +51,155 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "Takeaways from Trump’s China visit - Santa Clarita Valley Signal",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "google_china"
+    ],
+    "source_count": 25,
+    "timestamp": "05:08 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Centcom Commander Says Epic Fury Crippled Iran, Enhanced Military Partnerships i",
-    "emojis": "🪖⚔️🕊️",
+    "summary": "Trump Says He Didn't Ask Xi to Pressure Iran on Strait - Rigzone",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "google_china",
       "google_iran"
     ],
-    "source_count": 43,
-    "timestamp": "05:11 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Glitz and Boycotts at Eurovision - The New York Times",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "google_israel",
-      "bbc_world",
-      "google_china"
-    ],
-    "source_count": 4,
-    "timestamp": "05:12 PM"
+    "source_count": 39,
+    "timestamp": "05:08 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Is the tide starting to turn against Putin in Ukraine? ANALYSIS - ABC News - Bre",
-    "emojis": "",
+    "summary": "Tumultuous, bloody week unfolds in Ukraine and Russia after brief ceasefire - Th",
+    "emojis": "⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "google_russia"
     ],
-    "source_count": 9,
-    "timestamp": "05:12 PM"
+    "source_count": 7,
+    "timestamp": "05:08 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Senior Emirati scholar says ‘war criminal’ Netanyahu never visited UAE - Middle ",
-    "emojis": "⚔️",
+    "summary": "Sky News Australia. . The US has announced the ceasefire between Israel and Leba",
+    "emojis": "🕊️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "google_middle_east",
-      "google_israel"
+      "google_israel",
+      "bbc_world",
+      "google_middle_east"
     ],
-    "source_count": 34,
-    "timestamp": "05:12 PM"
+    "source_count": 38,
+    "timestamp": "05:08 PM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "Xi Jinping is ‘moving the goalposts’ on Taiwan, House China cmte. chair says - N",
-    "emojis": "⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: GAZA",
+    "summary": "7 killed in Israeli strikes on Gaza City, senior Hamas commander targeted - Xinh",
+    "emojis": "💥💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "google_middle_east",
-      "google_geopolitics",
-      "google_china"
+      "google_israel"
     ],
-    "source_count": 20,
-    "timestamp": "05:12 PM"
+    "source_count": 2,
+    "timestamp": "05:08 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Moscow court orders arrest of former deputy natural resources minister in absent",
-    "emojis": "💥",
+    "summary": "Moscow court orders Euroclear to pay compensation to Russia's central bank over ",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "google_russia"
     ],
-    "source_count": 7,
-    "timestamp": "05:12 PM"
+    "source_count": 13,
+    "timestamp": "05:08 PM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "Mexico Exports Grow as Olinia EV Prototype Moves Forward - Mexico Business News",
-    "emojis": "⚔️",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "title": "SITREP: US-NY",
+    "summary": "Judge declares another mistrial in Harvey Weinstein New York rape case",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "google_israel",
+      "bbc_world"
+    ],
+    "source_count": 2,
+    "timestamp": "05:09 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Toyota eyes $2 billion Texas plant; AutoPayPlus CEO on affordability - Automotiv",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
       "google_ev"
     ],
     "source_count": 1,
-    "timestamp": "05:12 PM"
+    "timestamp": "05:09 PM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "'We didn't die': Pilot recounts crash landing in Atlantic with 10 aboard",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "title": "SITREP: FRANCE",
+    "summary": "Iranian filmmaker Farhadi condemns Middle East war, protest massacres - France 2",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "bbc_world"
+      "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "05:12 PM"
+    "timestamp": "05:09 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Bi-directional EV charging company dcbel nears 200 installations in California, ",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "google_ev"
+    ],
+    "source_count": 1,
+    "timestamp": "05:09 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK hiring falls again as geopolitical tension clouds economic outlook - Financia",
+    "emojis": "⚡",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "google_geopolitics"
+    ],
+    "source_count": 1,
+    "timestamp": "05:09 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Hezbollah claims attacks on Israeli army in southern Lebanon - Middle East Eye",
-    "emojis": "⚔️",
+    "summary": "Hezbollah says it targeted Israeli tank and bulldozers in south Lebanon - Middle",
+    "emojis": "",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -171,7 +207,7 @@
       "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "05:12 PM"
+    "timestamp": "05:09 PM"
   }
 ];
 
