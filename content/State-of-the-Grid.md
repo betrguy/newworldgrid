@@ -10,28 +10,20 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 16, 2026 - 20:55</span>
+  <span class="sotg-timestamp">May 17, 2026 - 12:31</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-FERC rejects New England transmission owners' request to stay the effect of a previously approved order, potentially paving the way for increased competition in the region's energy market. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+The US grid is shifting towards increased reliance on data centers and transmission infrastructure to meet growing electricity demands. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The New World Grid's State of the Grid report highlights a significant development: FERC's rejection of transmission owners' request to stay the effect of a previous order. This decision underscores the imperative for grid resilience and reliability in the face of unprecedented energy storage additions. The US grid has seen an equivalent addition of 20 nuclear reactors in battery storage capacity over the past four years, underscoring concerns around outages, transmission bottlenecks, and cyber risk.</p>
+<p class="meridian-lede">The global energy landscape is evolving as FERC rejects transmission owners' requests to stay a previously approved order, potentially paving the way for increased competition in New England's energy market. This development underscores the imperative for grid resilience and reliability amid rapid growth of energy storage capacity.</p>
 
-In this context, it is crucial to acknowledge the heightened importance of reserve margins and the grid's ability to absorb physical or political shocks. The recent surge in energy storage does not alleviate these concerns; rather, it emphasizes the need for proactive measures to ensure reliability.
-<div class="sotg-bullets">
-<ul>
-  <li><strong>Why it matters:</strong> FERC's rejection highlights the urgent need for grid resilience amid rapid energy storage growth.</li>
-  <li><strong>The big picture:</strong> This development underscores systemic vulnerabilities and potential risks of widespread power outages or disruptions.</li>
-  <li><strong>What to watch:</strong> Monitor transmission bottlenecks and cyber risk as the grid adapts to increased energy storage capacity.</li>
-</ul>
-</div>
-
+In this context, it is crucial to acknowledge the heightened importance of reserve margins and the grid's ability to absorb physical or political shocks.
 </div>
 
 <div class="sotg-analyst">
-The geomagnetic storm is ongoing with a current Kp value of 3.3, indicating moderate levels of solar activity. The average Kp has reached 3.95, signifying sustained elevated energy input into Earth's magnetic field. Notably, the peak Kp value of 5.3 highlights the intensity of this Storm condition, prompting satellite operators and HF radio communication networks to be vigilant for potential disruptions in navigation and transmission, as well as power grid authorities to monitor and prepare for increased geomagnetically induced currents.
+As of the current 24-hour geomagnetic window, the Kp index reports a value of 2.3, with a peak of 3.7 and average of 2.57, corresponding to an Unsettled condition. This moderate level of solar wind activity may cause minor disruptions in HF radio communications due to ionospheric disturbances and increased radiation affecting satellite systems' performance. While power grid stability is not significantly impacted at this level, monitoring and preparedness remain essential for continued reliable operations.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
