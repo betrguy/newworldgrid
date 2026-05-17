@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-16 20:56 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-05-17 12:32 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,54 +51,71 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "Trump and Xi discuss AI, potential Boeing jet orders, and outcomes from China summit.",
-    "emojis": "✈️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: IRAN",
+    "summary": "Iran tensions rise with US war news, Israel strikes Lebanon, China and Iran diplomatic updates.",
+    "emojis": "💥⚔️🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Trump",
-      "Xi"
+      "US",
+      "Israel",
+      "China",
+      "Iran"
     ],
-    "source_count": 21,
-    "timestamp": "08:56 PM"
+    "source_count": 44,
+    "timestamp": "12:31 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Ceasefire extended with Lebanon, Israeli strikes target Hamas leader amid violence and Eurovision controversy.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "Israel takes actions against Hamas, Hezbollah, and Palestinians; new military base in Iraq",
+    "emojis": "🪖",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Lebanon",
       "Hamas",
-      "US"
+      "Hezbollah",
+      "Palestinians"
     ],
-    "source_count": 22,
-    "timestamp": "08:56 PM"
+    "source_count": 37,
+    "timestamp": "12:31 PM"
   },
   {
-    "title": "SITREP: IRAN",
-    "summary": "Trump pushes Iran deal talks amid ongoing tensions and conflict, with some lawmakers calling for congressional authorization.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces escalating Ukrainian drone attacks, internet restrictions, and economic challenges amid global tensions.",
+    "emojis": "✈️⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Ukraine",
+      "Russia",
+      "India"
+    ],
+    "source_count": 22,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Trump's China policies spark controversy, with warnings on Taiwan and criticism from MAGA supporters.",
+    "emojis": "⚔️🕊️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
       "Trump",
-      "Xi Jinping",
-      "Iran"
+      "China",
+      "MAGA"
     ],
-    "source_count": 24,
-    "timestamp": "08:56 PM"
+    "source_count": 12,
+    "timestamp": "12:32 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine responds to Russia with gunfire, UN vehicles targeted by drones in ongoing conflict.",
-    "emojis": "✈️⚔️",
+    "summary": "Ukraine conducts large-scale drone strikes on Russia, killing 4 and wounding a dozen others.",
+    "emojis": "✈️💥",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -106,80 +123,79 @@
       "Russia",
       "Ukraine"
     ],
+    "source_count": 14,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India navigates geopolitical shifts with PM Modi's Norway visit and strategic partnerships with Netherlands.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "PM Modi",
+      "Norwegian Geopolitics expert",
+      "Indian government",
+      "Netherlands"
+    ],
     "source_count": 3,
-    "timestamp": "08:56 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Tensions rise in Russia as Putin's vision is tested by past turmoil, drone strikes, and child abuse cases.",
-    "emojis": "✈️💥⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia government",
-      "Putin",
-      "Russian residents"
-    ],
-    "source_count": 4,
-    "timestamp": "08:56 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes kill 6 in southern Lebanon, according to state media reports.",
-    "emojis": "💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 1,
-    "timestamp": "08:56 PM"
+    "timestamp": "12:32 PM"
   },
   {
     "title": "SITREP: TAIWAN",
-    "summary": "Taiwan lawmakers push Trump for military support amid strained relations with China after Xi summit",
-    "emojis": "🪖",
+    "summary": "Taiwan vows not to compromise free way of life under pressure, while US tries to clarify arms policy for Taiwan",
+    "emojis": "",
     "lat": 23.6,
     "lng": 120.9,
     "location": "TAIWAN",
     "actors": [
-      "Taiwan Lawmakers",
-      "Trump",
-      "Xi"
+      "President",
+      "US Trade Rep"
     ],
-    "source_count": 1,
-    "timestamp": "08:56 PM"
+    "source_count": 2,
+    "timestamp": "12:32 PM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "California to pay up to $120,000 for electric trucks, potentially not enough to cover full cost.",
-    "emojis": "⚔️",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "title": "SITREP: GAZA",
+    "summary": "Tensions rise in Gaza as Israeli strikes, Hamas election, and assassination raise concerns about stability",
+    "emojis": "💥⚡",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "California",
-      "Electric Truck Manufacturers"
+      "Israeli forces",
+      "Hamas"
     ],
-    "source_count": 1,
-    "timestamp": "08:56 PM"
+    "source_count": 4,
+    "timestamp": "12:32 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "New wave of Israeli strikes hit Lebanon despite ceasefire, injuring soldiers and killing one,",
+    "emojis": "🪖✈️💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Unknown"
+    ],
+    "source_count": 3,
+    "timestamp": "12:32 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Pope Leo urges Christians in Middle East to unite against common threats, addressing Coptic patriarch.",
+    "summary": "Canadian from hantavirus-hit cruise ship tests positive, joins isolation on Vancouver Island.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Pope Leo",
-      "Coptic Patriarch"
+      "MV Hondius",
+      "Vancouver Island"
     ],
     "source_count": 1,
-    "timestamp": "08:56 PM"
+    "timestamp": "12:32 PM"
   }
 ];
 
