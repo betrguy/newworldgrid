@@ -28,22 +28,17 @@ A series of escalating military actions and drone strikes across multiple region
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 16, 2026
+## Daily Intelligence Brief - May 17, 2026
 
-The global order is reorganizing, with shifting power dynamics and repositioning by major actors.
+A power shift is unfolding in the Middle East as Iran and Israel engage in proxy conflicts. The US has proposed a peace plan to Iran, but Tehran has rejected it, stating there are "no tangible concessions." In response, Iran is preparing a "mechanism" for Hormuz traffic, while Israel has struck Lebanon.
 
-In the Middle East, **Israel** and **Lebanon** have agreed to extend their ceasefire despite recent strikes. The truce was facilitated by diplomatic efforts between these countries and Iran. Tehran has signaled its willingness to engage in further talks with the US.
-
-Meanwhile, in Europe, the ongoing tensions between Russia and Ukraine continue. A recent incident in which Ukrainian forces fired back at Russian troops resulted in three fatalities. 
-
-The US and China have concluded their summit, with President Trump's trip focusing more on symbolic gestures than substantive policy discussions. 
-
-In a related development, **California** schools and government agencies are feeling the effects of the Iran war, as fuel prices rise.
+Trump's support for Julia Letlow in Louisiana's election and his reversal on China buying US farmland suggest he is repositioning his base. Russia has unveiled its new Su-57D fighter jet, highlighting its military modernization efforts. Meanwhile, Iranian civilians are receiving defense training, indicating a strengthening of the country's militia.
 
 Watch for:
-* Further escalation between Ukraine and Russia
-* US-Iran diplomatic engagement to address the conflict in Syria
-* The potential impact of rising fuel costs on global energy markets
+
+* Iran's Hormuz traffic "mechanism" to be implemented and its potential impact on regional stability
+* Israel's next military operation in Lebanon or other parts of Syria
+* The US response to Iran's actions, potentially including further sanctions or diplomatic pressure
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
