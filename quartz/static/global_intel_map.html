@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-17 12:32 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-05-18 17:14 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,150 +52,177 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran tensions rise with US war news, Israel strikes Lebanon, China and Iran diplomatic updates.",
+    "summary": "Trump calls off planned US strike on Iran, citing 'serious negotiations' with Gulf states amid escalating Middle East tensions.",
     "emojis": "💥⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Israel",
-      "China",
-      "Iran"
+      "US President Donald Trump",
+      "Gulf states leaders"
     ],
-    "source_count": 44,
-    "timestamp": "12:31 PM"
+    "source_count": 61,
+    "timestamp": "05:14 PM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel takes actions against Hamas, Hezbollah, and Palestinians; new military base in Iraq",
-    "emojis": "🪖",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: AFGHANISTAN",
+    "summary": "3/4 Afghans face impossible choices, including selling children to survive due to economic hardship and instability.",
+    "emojis": "",
+    "lat": 33.9,
+    "lng": 67.7,
+    "location": "AFGHANISTAN",
     "actors": [
-      "Israel",
-      "Hamas",
-      "Hezbollah",
-      "Palestinians"
+      "AFGHAN GOVERNMENT",
+      "International Community"
     ],
-    "source_count": 37,
-    "timestamp": "12:31 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces escalating Ukrainian drone attacks, internet restrictions, and economic challenges amid global tensions.",
-    "emojis": "✈️⚔️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "India"
-    ],
-    "source_count": 22,
-    "timestamp": "12:32 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "Trump's China policies spark controversy, with warnings on Taiwan and criticism from MAGA supporters.",
-    "emojis": "⚔️🕊️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Trump",
-      "China",
-      "MAGA"
-    ],
-    "source_count": 12,
-    "timestamp": "12:32 PM"
+    "source_count": 1,
+    "timestamp": "05:14 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine conducts large-scale drone strikes on Russia, killing 4 and wounding a dozen others.",
-    "emojis": "✈️💥",
+    "summary": "Ukraine launches 500+ drones at Russia, nuclear plant situation deteriorates amid shifting conflict momentum.",
+    "emojis": "✈️⚔️☢️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 14,
-    "timestamp": "12:32 PM"
+    "source_count": 17,
+    "timestamp": "05:14 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India navigates geopolitical shifts with PM Modi's Norway visit and strategic partnerships with Netherlands.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: RUSSIA",
+    "summary": "Putin to visit Beijing, Belarus launches joint nuclear drills with Russia amid sanctions concerns.",
+    "emojis": "☢️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "PM Modi",
-      "Norwegian Geopolitics expert",
-      "Indian government",
-      "Netherlands"
+      "Russian President Vladimir Putin",
+      "Belarus",
+      "China's Xi Jinping",
+      "Russia"
     ],
-    "source_count": 3,
-    "timestamp": "12:32 PM"
+    "source_count": 4,
+    "timestamp": "05:14 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan vows not to compromise free way of life under pressure, while US tries to clarify arms policy for Taiwan",
+    "title": "SITREP: CHINA",
+    "summary": "China-US relations see shifts in policy and trade after recent summits, purchases, and announcements.",
     "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "President",
-      "US Trade Rep"
+      "US",
+      "China"
     ],
-    "source_count": 2,
-    "timestamp": "12:32 PM"
+    "source_count": 13,
+    "timestamp": "05:14 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan deploys 8000 troops & Chinese air defense to Saudi Arabia for unknown purposes.",
+    "emojis": "🚀🪖⚔️",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Pakistan",
+      "Saudi Arabia"
+    ],
+    "source_count": 1,
+    "timestamp": "05:14 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Tensions rise in Gaza as Israeli strikes, Hamas election, and assassination raise concerns about stability",
-    "emojis": "💥⚡",
+    "summary": "Israeli troops intercept Gaza-bound aid flotilla off Cyprus, breaching blockade in international waters.",
+    "emojis": "🪖",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli forces",
-      "Hamas"
+      "Israel",
+      "flotilla members"
     ],
-    "source_count": 4,
-    "timestamp": "12:32 PM"
+    "source_count": 3,
+    "timestamp": "05:14 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Pro-Israel groups ramp up spending, tensions rise with Palestinians and other nations amid various conflicts.",
+    "emojis": "💥⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "pro-Israel groups",
+      "Palestinians",
+      "Israel",
+      "Somaliland ambassador",
+      "Lebanon president",
+      "Irish president"
+    ],
+    "source_count": 19,
+    "timestamp": "05:14 PM"
+  },
+  {
+    "title": "SITREP: COLOMBIA",
+    "summary": "Tesla Model Y leads Colombia's electric vehicle market with 304% surge in sales.",
+    "emojis": "",
+    "lat": 4.57,
+    "lng": -74.29,
+    "location": "COLOMBIA",
+    "actors": [
+      "Colombia",
+      "Tesla"
+    ],
+    "source_count": 1,
+    "timestamp": "05:14 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Congress proposes annual $130 fee for electric car owners to encourage EV adoption.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Yahoo",
+      "Congress"
+    ],
+    "source_count": 1,
+    "timestamp": "05:14 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "New wave of Israeli strikes hit Lebanon despite ceasefire, injuring soldiers and killing one,",
-    "emojis": "🪖✈️💥",
+    "summary": "Renewed Israeli attacks in Lebanon kill 7, exceeding 3,000 deaths since start of conflict.",
+    "emojis": "⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Unknown"
-    ],
-    "source_count": 3,
-    "timestamp": "12:32 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Canadian from hantavirus-hit cruise ship tests positive, joins isolation on Vancouver Island.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "MV Hondius",
-      "Vancouver Island"
+      "Israeli forces",
+      "Lebanese civilians"
     ],
     "source_count": 1,
-    "timestamp": "12:32 PM"
+    "timestamp": "05:14 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Tensions escalate in Middle East as conflicts in Yemen and Syria continue to affect global stability.",
+    "emojis": "⚔️⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "International Community"
+    ],
+    "source_count": 1,
+    "timestamp": "05:14 PM"
   }
 ];
 
