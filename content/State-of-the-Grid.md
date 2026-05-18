@@ -10,20 +10,28 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 17, 2026 - 12:31</span>
+  <span class="sotg-timestamp">May 18, 2026 - 17:13</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The US grid is shifting towards increased reliance on data centers and transmission infrastructure to meet growing electricity demands. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+The US power grid has undergone a transformative buildout in the past four years, with the addition of battery storage equivalent to 20 nuclear reactors, significantly enhancing its energy transmission capabilities. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The global energy landscape is evolving as FERC rejects transmission owners' requests to stay a previously approved order, potentially paving the way for increased competition in New England's energy market. This development underscores the imperative for grid resilience and reliability amid rapid growth of energy storage capacity.</p>
+<p class="meridian-lede">The US grid's physical reality is marked by a significant shift towards increased reliance on data centers and transmission infrastructure to meet growing electricity demands. The recent addition of battery storage capacity equivalent to 20 nuclear reactors in the past four years underscores the imperative for grid resilience and reliability.</p>
 
 In this context, it is crucial to acknowledge the heightened importance of reserve margins and the grid's ability to absorb physical or political shocks.
+<div class="sotg-bullets">
+<ul>
+  <li><strong>Why it matters:</strong> The US grid's reliance on data centers and transmission infrastructure poses significant risks to national security and economic stability.</li>
+  <li><strong>The big picture:</strong> This shift has far-reaching implications for global energy markets, defense strategies, and international geopolitics as a whole.</li>
+  <li><strong>What to watch:</strong> Monitor the development of advanced battery storage technologies to mitigate potential grid disruptions.</li>
+</ul>
+</div>
+
 </div>
 
 <div class="sotg-analyst">
-As of the current 24-hour geomagnetic window, the Kp index reports a value of 2.3, with a peak of 3.7 and average of 2.57, corresponding to an Unsettled condition. This moderate level of solar wind activity may cause minor disruptions in HF radio communications due to ionospheric disturbances and increased radiation affecting satellite systems' performance. While power grid stability is not significantly impacted at this level, monitoring and preparedness remain essential for continued reliable operations.
+As of the current reporting window, the geomagnetic activity remains moderate with a Kp value of 2.0, matching both the average and peak values over the past 24 hours. Under these conditions, labeled Unknown, satellite operators can expect minor disruptions to operations, affecting navigation and communication systems, while HF radio communications may experience increased noise and interference, with no significant impact on power grid stability at this level of activity.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
