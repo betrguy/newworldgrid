@@ -28,17 +28,19 @@ Global tensions escalated as multiple flashpoints simultaneously intensified, wi
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 17, 2026
+## Daily Intelligence Brief - May 18, 2026
 
-A power shift is unfolding in the Middle East as Iran and Israel engage in proxy conflicts. The US has proposed a peace plan to Iran, but Tehran has rejected it, stating there are "no tangible concessions." In response, Iran is preparing a "mechanism" for Hormuz traffic, while Israel has struck Lebanon.
+The global order is shifting as power centers realign. The US has canceled a planned strike on Iran at the request of Gulf states, indicating a shift in regional dynamics.
 
-Trump's support for Julia Letlow in Louisiana's election and his reversal on China buying US farmland suggest he is repositioning his base. Russia has unveiled its new Su-57D fighter jet, highlighting its military modernization efforts. Meanwhile, Iranian civilians are receiving defense training, indicating a strengthening of the country's militia.
+Russian President Vladimir Putin is visiting Beijing for talks with Chinese President Xi Jinping, signaling a growing multipolar world. The visit may solidify China's position as a major player in global affairs.
+
+In other developments, Ukraine has launched attacks on Russia using **500 drones** and over 200 individuals have been arrested in cyber raids aimed at Middle East scam networks.
 
 Watch for:
 
-* Iran's Hormuz traffic "mechanism" to be implemented and its potential impact on regional stability
-* Israel's next military operation in Lebanon or other parts of Syria
-* The US response to Iran's actions, potentially including further sanctions or diplomatic pressure
+* A potential escalation of tensions between the US and Iran following the canceled strike
+* Further diplomatic efforts by China to solidify its relationships with major powers like Russia and the US
+* Increased cybersecurity threats from Middle East-based actors as international cooperation against scams improves
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
