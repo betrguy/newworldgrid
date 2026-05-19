@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-18T17:18:39.928068",
+  "generatedAt": "2026-05-19T16:14:11.430976",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Global tensions escalated as multiple flashpoints simultaneously intensified, with major powers engaging in high-stakes diplomacy and military posturing that threatens to destabilize critical regions. The US has canceled a planned strike on Iran at the request of Gulf states, indicating a shift in regional dynamics. Russian President Vladimir Putin is visiting Beijing for talks with Chinese President Xi Jinping, signaling a growing multipolar world. Data centers are reshaping our energy landscape. The US grid's physical reality is marked by a significant shift towards increased reliance on data centers and transmission infrastructure to meet growing electricity demands. In the past four years, the US has undergone a transformative buildout in the power grid, with the addition of battery storage equivalent to 20 nuclear reactors, significantly enhancing its energy transmission capabilities. Amazon has launched 27 Kuiper satellites aboard a ULA Atlas V rocket on April 28, marking its first production spacecraft launch as it races SpaceX's Starlink to complete its satellite network. Meanwhile, in the electric vehicle sector, BYD is accelerating its flash charging capabilities and Tianli Lithium Energy achieves mass shipments of solid-state-compatible high-nickel battery products. The global order is shifting as power centers realign. Ukraine has launched attacks on Russia using 500 drones and over 200 individuals have been arrested in cyber raids aimed at Middle East scam networks."
+    "index_master_summary.wav": "The global landscape is shifting as various actors reposition themselves in response to structural realignment. Russia's diplomatic efforts to strengthen ties with China and the US may have significant implications for global energy markets and infrastructure development, which could fundamentally alter the electrical grid's ability to deliver reliable and low carbon power, particularly when combined with advanced battery storage technologies. We're observing a surge in data center growth, challenging traditional utility companies' strategies as electricity demands skyrocket. This surge is expected to increase power costs by up to 57% in some areas by 2030, putting pressure on environmental sustainability efforts. In the energy sector, we've seen a significant paradigm shift towards Small Modular Reactors (SMRs) as a viable alternative to traditional nuclear power plants. This shift will impact the grid's reliability and low carbon emissions, especially when used with advanced battery storage."
   },
   "durations": {
-    "index_master_summary.wav": "01:45"
+    "index_master_summary.wav": "01:10"
   }
 }
