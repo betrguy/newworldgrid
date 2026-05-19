@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-18 17:14 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-05-19 16:10 UTC | 16 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">16 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,65 +52,37 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Trump calls off planned US strike on Iran, citing 'serious negotiations' with Gulf states amid escalating Middle East tensions.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "US tensions escalate with Iran amid threat of strikes, school bombings, and oil tanker seizures.",
+    "emojis": "🪖💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US President Donald Trump",
-      "Gulf states leaders"
+      "Trump",
+      "Gen Jack Keane",
+      "US CENTCOM Commander",
+      "Vance"
     ],
-    "source_count": 61,
-    "timestamp": "05:14 PM"
-  },
-  {
-    "title": "SITREP: AFGHANISTAN",
-    "summary": "3/4 Afghans face impossible choices, including selling children to survive due to economic hardship and instability.",
-    "emojis": "",
-    "lat": 33.9,
-    "lng": 67.7,
-    "location": "AFGHANISTAN",
-    "actors": [
-      "AFGHAN GOVERNMENT",
-      "International Community"
-    ],
-    "source_count": 1,
-    "timestamp": "05:14 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine launches 500+ drones at Russia, nuclear plant situation deteriorates amid shifting conflict momentum.",
-    "emojis": "✈️⚔️☢️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 17,
-    "timestamp": "05:14 PM"
+    "source_count": 47,
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Putin to visit Beijing, Belarus launches joint nuclear drills with Russia amid sanctions concerns.",
-    "emojis": "☢️🚫",
+    "summary": "Putin's China visit sparks tensions as Russia stages nuclear exercises amid anti-US alliance.",
+    "emojis": "☢️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russian President Vladimir Putin",
-      "Belarus",
-      "China's Xi Jinping",
-      "Russia"
+      "Russia",
+      "China"
     ],
-    "source_count": 4,
-    "timestamp": "05:14 PM"
+    "source_count": 17,
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China-US relations see shifts in policy and trade after recent summits, purchases, and announcements.",
+    "summary": "China's influence in global markets and trade, economic trends, and tech advancements continue to shape US policies.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
@@ -119,110 +91,199 @@
       "US",
       "China"
     ],
-    "source_count": 13,
-    "timestamp": "05:14 PM"
+    "source_count": 9,
+    "timestamp": "04:09 PM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan deploys 8000 troops & Chinese air defense to Saudi Arabia for unknown purposes.",
-    "emojis": "🚀🪖⚔️",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces escalating violence, recognition from Somaliland and growing human rights concerns in Gaza.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Pakistan",
-      "Saudi Arabia"
+      "Tucker Carlson",
+      "Israel",
+      "Somaliland",
+      "UN expert",
+      "Hezbollah",
+      "Canada Labor Congress"
+    ],
+    "source_count": 22,
+    "timestamp": "04:09 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Airbus cuts peripheral expenses amid Mideast war, focusing on core operations and reducing costs.",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Airbus",
+      "France 24",
+      "France 2"
     ],
     "source_count": 1,
-    "timestamp": "05:14 PM"
+    "timestamp": "04:09 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli troops intercept Gaza-bound aid flotilla off Cyprus, breaching blockade in international waters.",
-    "emojis": "🪖",
+    "summary": "Israeli forces crack down on Gaza aid flotilla, imposing sanctions and intercepting vessels amid international tensions.",
+    "emojis": "⚔️🚫⚡",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Israel",
-      "flotilla members"
+      "US",
+      "activists"
     ],
-    "source_count": 3,
-    "timestamp": "05:14 PM"
+    "source_count": 5,
+    "timestamp": "04:09 PM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Pro-Israel groups ramp up spending, tensions rise with Palestinians and other nations amid various conflicts.",
-    "emojis": "💥⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia escalates tensions amid Ukraine war, as Russian economy and Baltic states face potential threats.",
+    "emojis": "✈️⚔️➡️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "pro-Israel groups",
-      "Palestinians",
-      "Israel",
-      "Somaliland ambassador",
-      "Lebanon president",
-      "Irish president"
+      "Russia",
+      "Ukraine",
+      "NATO",
+      "Baltic states"
     ],
-    "source_count": 19,
-    "timestamp": "05:14 PM"
+    "source_count": 6,
+    "timestamp": "04:09 PM"
   },
   {
-    "title": "SITREP: COLOMBIA",
-    "summary": "Tesla Model Y leads Colombia's electric vehicle market with 304% surge in sales.",
-    "emojis": "",
-    "lat": 4.57,
-    "lng": -74.29,
-    "location": "COLOMBIA",
+    "title": "SITREP: IRAQ",
+    "summary": "Iraq navigates complex web of regional rivalries and tensions amidst shifting global power dynamics.",
+    "emojis": "⚡",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Colombia",
-      "Tesla"
+      "Iran",
+      "Turkey",
+      "Saudi Arabia"
     ],
     "source_count": 1,
-    "timestamp": "05:14 PM"
+    "timestamp": "04:09 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Gujarat to overhaul electric vehicle policy and expand charging infrastructure.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Gujarat Government",
+      "Electric Vehicle Industry"
+    ],
+    "source_count": 1,
+    "timestamp": "04:09 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strikes in southern Lebanon claim at least 22 lives, with 4 bodies recovered from rubble.",
+    "emojis": "💥⚔️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 2,
+    "timestamp": "04:10 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK unemployment rises to 5%, energy bills increase, and flights delayed due to Middle East conflict.",
+    "emojis": "✈️⚔️🚫",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "BBC",
+      "British Airways",
+      "Air France"
+    ],
+    "source_count": 5,
+    "timestamp": "04:10 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Israeli minister threatens eviction of Palestinians from West Bank hamlet, sparking international concern.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Israel",
+      "Palestinians"
+    ],
+    "source_count": 1,
+    "timestamp": "04:10 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Trump supports Paxton in Texas Senate runoff",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Donald Trump",
+      "Ken Paxton"
+    ],
+    "source_count": 1,
+    "timestamp": "04:10 PM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Russia deploys military aircraft to Syria, strengthening ties with the country.",
+    "emojis": "🪖✈️",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Russia",
+      "Syria"
+    ],
+    "source_count": 1,
+    "timestamp": "04:10 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Congress proposes annual $130 fee for electric car owners to encourage EV adoption.",
+    "summary": "EV drivers to pay $130/year under new US transportation bill, set for 2026 implementation.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Yahoo",
       "Congress"
     ],
     "source_count": 1,
-    "timestamp": "05:14 PM"
+    "timestamp": "04:10 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Renewed Israeli attacks in Lebanon kill 7, exceeding 3,000 deaths since start of conflict.",
-    "emojis": "⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: MEXICO",
+    "summary": "Volkswagen plans to reintroduce ID.Buzz EV van in US market by 2027.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
     "actors": [
-      "Israeli forces",
-      "Lebanese civilians"
+      "Mexico Business News",
+      "Volkswagen"
     ],
     "source_count": 1,
-    "timestamp": "05:14 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Tensions escalate in Middle East as conflicts in Yemen and Syria continue to affect global stability.",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "International Community"
-    ],
-    "source_count": 1,
-    "timestamp": "05:14 PM"
+    "timestamp": "04:10 PM"
   }
 ];
 
