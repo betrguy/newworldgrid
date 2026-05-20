@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-19T16:14:11.430976",
+  "generatedAt": "2026-05-20T18:11:01.814491",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "The global landscape is shifting as various actors reposition themselves in response to structural realignment. Russia's diplomatic efforts to strengthen ties with China and the US may have significant implications for global energy markets and infrastructure development, which could fundamentally alter the electrical grid's ability to deliver reliable and low carbon power, particularly when combined with advanced battery storage technologies. We're observing a surge in data center growth, challenging traditional utility companies' strategies as electricity demands skyrocket. This surge is expected to increase power costs by up to 57% in some areas by 2030, putting pressure on environmental sustainability efforts. In the energy sector, we've seen a significant paradigm shift towards Small Modular Reactors (SMRs) as a viable alternative to traditional nuclear power plants. This shift will impact the grid's reliability and low carbon emissions, especially when used with advanced battery storage."
+    "index_master_summary.wav": "Let's dive into today's landscape. Predictive news warns us of escalating global tensions following diplomatic failures and security threats, particularly in the US-Iran relations and Russian-UK energy policy. This might lead to increased military activity in the region. On a more positive note, AURORA highlights groundbreaking innovations in renewable energy. Breakthroughs like unlocking hydrogen production from rock formations could revolutionize our energy mix by 2050. Day length is crucial during this window as it affects our biological clocks and moods. It's essential to prioritize deep work in the morning. Moving on to State of the Grid, we see a paradigm shift in global energy dynamics with Russia considering joint projects with the US and China. This development underscores the need for robust reserve margins and shock absorption. In this context, grid resilience becomes paramount. Finally, I'd like to mention that Amazon's Kuiper internet satellites have officially entered orbit, marking significant progress in space-based infrastructure. BYD is struggling to meet demand for fast charging electric vehicles due to orders exceeding capacity. What if SpaceX reaches 100% global coverage by 2032? This might trigger a ripple effect where increased adoption of orbital solar power accelerates the shift from traditional energy sources, aligning with my previous points about the importance of prioritizing deep work during this window. That's our overview for today."
   },
   "durations": {
-    "index_master_summary.wav": "01:10"
+    "index_master_summary.wav": "01:42"
   }
 }
