@@ -28,19 +28,17 @@ Global tensions have escalated with a series of high-stakes diplomatic failures 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 19, 2026
+## Daily Intelligence Brief - May 20, 2026
 
-The global landscape is shifting as various actors reposition themselves in the face of structural realignment. **Russia** has staged major nuclear exercises amid President Putin's visit to China, indicating a desire to demonstrate military capabilities and build alliances in the Asia-Pacific region.
+The global order is reorganizing. The US and Iran are engaged in diplomatic efforts, with President Trump warning Iran to make a deal or face new attacks. The UK has eased sanctions on Russian oil, straining relations with Ukraine. Meanwhile, **El Al** is facing its first-quarter loss due to the impact of the Middle East conflict.
 
-Meanwhile, US Central Command Commander General Mark Milley has stated that an Iran war would eliminate any chance of another October 7 attack on Israel, suggesting a heightened sense of caution among US military leaders. This development comes as tensions between the US and Iran remain high.
-
-In other news, **Israel** is reportedly preparing for war with its own president referred to as the "War President." This development has significant implications for regional dynamics and global stability.
+Russia and the UK have also experienced heightened tensions, with Russian jets intercepting an RAF spy plane in what's described as a "serious incident." The UK struggles to reassure Ukraine after this event, highlighting the complex web of alliances and rivalries.
 
 Watch for:
 
-* Increased diplomatic efforts between China and Russia to counterbalance US influence in Asia
-* Further escalation of tensions between the US and Iran over military operations in the Middle East
-* Potential military mobilization by Israel ahead of a possible war with its neighbors or adversaries
+* A potential breakdown in US-Iran talks, which could lead to increased military activity in the region.
+* Further escalation between Russia and the UK over sanctions and energy policy.
+* Israel's military actions in the occupied territories, potentially sparking a wider regional conflict.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
