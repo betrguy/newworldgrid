@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 19, 2026 — 16:10</span>
+  <span class="sotg-timestamp">May 20, 2026 — 18:07</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Global tensions have intensified as multiple flashpoints, including Iran's threat of strikes, Russia's nuclear exercises, and escalating violence in Israel and Gaza, have brought the world to a heightened state of alert. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Global tensions have escalated with a series of high-stakes diplomatic failures and security threats, including US warnings to Iran, UK easing sanctions on Russian oil, and a surge in antisemitic incidents in major cities. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 

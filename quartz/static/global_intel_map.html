@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-19 16:10 UTC | 16 active regions</div>
+        <div class="meta">Generated 2026-05-20 18:07 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">16 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,24 +52,22 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US tensions escalate with Iran amid threat of strikes, school bombings, and oil tanker seizures.",
-    "emojis": "🪖💥⚔️",
+    "summary": "US-Iran talks nearing end, with Trump warning Iran to make deal or face new attacks amid escalating tensions.",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Trump",
-      "Gen Jack Keane",
-      "US CENTCOM Commander",
-      "Vance"
+      "Iran"
     ],
-    "source_count": 47,
-    "timestamp": "04:09 PM"
+    "source_count": 46,
+    "timestamp": "06:06 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Putin's China visit sparks tensions as Russia stages nuclear exercises amid anti-US alliance.",
-    "emojis": "☢️⚡",
+    "summary": "Putin, Xi show unity but fail to reach pipeline deal, amidst escalating tensions with UK and US.",
+    "emojis": "✈️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
@@ -77,120 +75,87 @@
       "Russia",
       "China"
     ],
-    "source_count": 17,
-    "timestamp": "04:09 PM"
+    "source_count": 12,
+    "timestamp": "06:06 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "UK eases sanctions on Russian oil, sparking concerns for Ukraine's security and aid supply.",
+    "emojis": "✈️⚔️🚫",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "UK",
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 5,
+    "timestamp": "06:06 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "NYC reports highest level of antisemitism since WWII, sparking concern from Israeli envoy.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Israeli envoy",
+      "New York City"
+    ],
+    "source_count": 1,
+    "timestamp": "06:06 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces challenges, including elections and military plans, amidst controversies and diplomatic shifts.",
+    "emojis": "🪖🚫",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "US",
+      "Israel",
+      "Palestine",
+      "Iran"
+    ],
+    "source_count": 31,
+    "timestamp": "06:06 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's influence in global markets and trade, economic trends, and tech advancements continue to shape US policies.",
+    "summary": "China tech giants lead innovation in battery tech and AI, expanding capacity and investing heavily.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "US",
-      "China"
+      "CATL",
+      "BYD",
+      "US"
     ],
-    "source_count": 9,
-    "timestamp": "04:09 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces escalating violence, recognition from Somaliland and growing human rights concerns in Gaza.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Tucker Carlson",
-      "Israel",
-      "Somaliland",
-      "UN expert",
-      "Hezbollah",
-      "Canada Labor Congress"
-    ],
-    "source_count": 22,
-    "timestamp": "04:09 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Airbus cuts peripheral expenses amid Mideast war, focusing on core operations and reducing costs.",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Airbus",
-      "France 24",
-      "France 2"
-    ],
-    "source_count": 1,
-    "timestamp": "04:09 PM"
+    "source_count": 5,
+    "timestamp": "06:06 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli forces crack down on Gaza aid flotilla, imposing sanctions and intercepting vessels amid international tensions.",
-    "emojis": "⚔️🚫⚡",
+    "summary": "Gaza violence escalates with over 881 deaths, Israeli police condemned for flotilla activists' treatment.",
+    "emojis": "🕊️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israel",
-      "US",
-      "activists"
+      "Israeli police",
+      "Gaza flotilla activists"
     ],
-    "source_count": 5,
-    "timestamp": "04:09 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates tensions amid Ukraine war, as Russian economy and Baltic states face potential threats.",
-    "emojis": "✈️⚔️➡️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "NATO",
-      "Baltic states"
-    ],
-    "source_count": 6,
-    "timestamp": "04:09 PM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "Iraq navigates complex web of regional rivalries and tensions amidst shifting global power dynamics.",
-    "emojis": "⚡",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "Iran",
-      "Turkey",
-      "Saudi Arabia"
-    ],
-    "source_count": 1,
-    "timestamp": "04:09 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Gujarat to overhaul electric vehicle policy and expand charging infrastructure.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Gujarat Government",
-      "Electric Vehicle Industry"
-    ],
-    "source_count": 1,
-    "timestamp": "04:09 PM"
+    "source_count": 4,
+    "timestamp": "06:06 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes in southern Lebanon claim at least 22 lives, with 4 bodies recovered from rubble.",
-    "emojis": "💥⚔️💀",
+    "summary": "Israeli strike in south Lebanon injures 3 people, amid escalating tensions.",
+    "emojis": "💥⚡",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -198,92 +163,66 @@
       "Israel",
       "Lebanon"
     ],
-    "source_count": 2,
-    "timestamp": "04:10 PM"
+    "source_count": 1,
+    "timestamp": "06:06 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK unemployment rises to 5%, energy bills increase, and flights delayed due to Middle East conflict.",
-    "emojis": "✈️⚔️🚫",
+    "summary": "Starmer under fire for buying 'dirty' Russian oil amid UK's easing sanctions and new trade agreements.",
+    "emojis": "🚫",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "BBC",
-      "British Airways",
-      "Air France"
+      "UK Government",
+      "Labour Party Leader Keir Starmer"
     ],
-    "source_count": 5,
-    "timestamp": "04:10 PM"
+    "source_count": 3,
+    "timestamp": "06:06 PM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Israeli minister threatens eviction of Palestinians from West Bank hamlet, sparking international concern.",
+    "title": "SITREP: FRANCE",
+    "summary": "French researchers develop quantum key to reveal chaos in complex systems.",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "Israel",
-      "Palestinians"
+      "Institut des NanoSciences de Paris",
+      "Kastler Brossel Laboratory",
+      "University of Paris"
     ],
     "source_count": 1,
-    "timestamp": "04:10 PM"
+    "timestamp": "06:06 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Trump supports Paxton in Texas Senate runoff",
+    "summary": "Tesla Cybertruck driver arrested for recklessly driving into lake in Texas.",
     "emojis": "",
     "lat": 30.26,
     "lng": -97.74,
     "location": "US-TX",
     "actors": [
-      "Donald Trump",
-      "Ken Paxton"
+      "Waymo",
+      "Tesla",
+      "police"
     ],
-    "source_count": 1,
-    "timestamp": "04:10 PM"
+    "source_count": 2,
+    "timestamp": "06:07 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Russia deploys military aircraft to Syria, strengthening ties with the country.",
-    "emojis": "🪖✈️",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Russia",
-      "Syria"
-    ],
-    "source_count": 1,
-    "timestamp": "04:10 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "EV drivers to pay $130/year under new US transportation bill, set for 2026 implementation.",
+    "title": "SITREP: US-FL",
+    "summary": "Researchers investigate AI detection tools' efficacy and potential danger in US-FL.",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
     "actors": [
-      "Congress"
+      "Patrick Traynor",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "04:10 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Volkswagen plans to reintroduce ID.Buzz EV van in US market by 2027.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mexico Business News",
-      "Volkswagen"
-    ],
-    "source_count": 1,
-    "timestamp": "04:10 PM"
+    "timestamp": "06:07 PM"
   }
 ];
 
