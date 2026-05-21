@@ -28,17 +28,20 @@ Global tensions have intensified as multiple flashpoints – including energy op
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 20, 2026
+## Daily Intelligence Brief - May 21, 2026
 
-The global order is reorganizing. The US and Iran are engaged in diplomatic efforts, with President Trump warning Iran to make a deal or face new attacks. The UK has eased sanctions on Russian oil, straining relations with Ukraine. Meanwhile, **El Al** is facing its first-quarter loss due to the impact of the Middle East conflict.
+The global landscape is shifting as multiple actors reposition for a multipolar world. 
 
-Russia and the UK have also experienced heightened tensions, with Russian jets intercepting an RAF spy plane in what's described as a "serious incident." The UK struggles to reassure Ukraine after this event, highlighting the complex web of alliances and rivalries.
+Russia's largest oil refinery has partially shut down after a Ukrainian drone strike (**Meduza**). The move appears to be a response to the ongoing conflict, and Belarus' President Lukashenko has stated that his country will not be dragged into the war but will defend itself with Russia (**U.S. News & World Rep**).
+
+Meanwhile, **Israel** and **Gaza** are absent from the Democratic National Committee's (DNC) report on the 2024 presidential election (**Haaretz**). In contrast, **Pakistani** negotiators are heading to **Iran** for talks (**Fox News**).
+
+The United States is reported to be using over half of its THAAD interceptors to defend **Israel** from **Iranian** missiles (**The Times of Israel**). 
 
 Watch for:
-
-* A potential breakdown in US-Iran talks, which could lead to increased military activity in the region.
-* Further escalation between Russia and the UK over sanctions and energy policy.
-* Israel's military actions in the occupied territories, potentially sparking a wider regional conflict.
+- A possible escalation in the conflict between Russia and Ukraine.
+- Further developments in US-Pakistani-Iran negotiations.
+- The impact of the growing tensions on global energy markets.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
