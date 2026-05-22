@@ -30,28 +30,19 @@ A significant escalation of tensions between a major regional power and its adve
 
 ## Daily Intelligence Brief - May 22, 2026
 
-The global order is reorganizing as various actors realign their positions in the face of structural change.
+A multipolar world order is reorganizing, with significant shifts in the global landscape. US Director of National Intelligence Tulsi Gabbard has announced her resignation, potentially impacting national security strategy.
 
-The FAO chief economist warns that a Middle East conflict could trigger a global food supply shock. **FAO**, citing the potential impact on grain production and prices, is expressing concern about the escalating situation.
+Russian President Putin has vowed retaliation against Ukraine for allegedly hitting a student dormitory in Moscow-occupied territory. This incident may further escalate tensions between Russia and Ukraine. 
 
-Meanwhile, a final draft of a US-Iran deal is expected to be announced soon, according to Saudi media reports. This development could potentially alter the balance of power in the region.
+US Senator Rubio appears to have made progress on Iran negotiations, with Rubio signaling that Iran will not be allowed to collect tolls at the Hormuz Strait. However, this development has been met with skepticism from some Republicans.
 
-In contrast, House GOP members have managed to stave off defeat on Iran-related legislation for now. However, this may not be a long-term victory, as the issue remains contentious.
-
-A Hometown Hero Award has been bestowed upon Tree of Life officer Daniel Mead, highlighting the ongoing tensions and violence in the United States.
-
-The **Hengli Group**, a Chinese oil refiner and shipbuilder, is becoming increasingly involved in geopolitical conflicts. This rise to prominence suggests its strategic interests are shifting in response to global developments.
-
-Russian President Putin remains a key figure, although his current activities are not specified.
-
-Morocco has launched mass deportations of migrants aiming to block their route to Europe, underscoring the growing tensions on migration routes.
-
-The financial sector is weighing in on the US-China balance of power, with JPMorgan warning that five forces are quietly reshaping the relationship. 
+Meanwhile, House Republicans have canceled a war powers vote aimed at reining in President Trump's actions, potentially allowing him more latitude in foreign policy decisions.
 
 Watch for:
-* The announcement of the final draft of a US-Iran deal and its implications for regional stability
-* Further developments in the Hengli Group's involvement in geopolitical conflicts
-* The impact of Morocco's mass deportations on migration patterns and global politics
+
+* Further escalation of conflict between Russia and Ukraine
+* Potential changes to US sanctions policies in Lebanon
+* The impact of Rubio's progress on Iran negotiations
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
