@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-21 16:39 UTC | 15 active regions</div>
+        <div class="meta">Generated 2026-05-22 06:02 UTC | 16 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">15 events tracked</div>
+    <div id="event-count">16 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,223 +51,233 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces disruptions to energy and nuclear operations amid tensions with Ukraine, US, and NATO.",
-    "emojis": "✈️💥☢️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "US",
-      "NATO"
-    ],
-    "source_count": 16,
-    "timestamp": "04:38 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel politics heats up with US involvement, protests, and diplomatic efforts amid regional tensions.",
-    "emojis": "🚀⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US",
-      "Israel",
-      "Iran",
-      "Lebanon"
-    ],
-    "source_count": 32,
-    "timestamp": "04:38 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Tensions rise as Belarus stands with Russia, while Ukraine escalates long-range strikes against Russia's refineries.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Lukashenko",
-      "Putin",
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 8,
-    "timestamp": "04:38 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Trump's deportation plan and electric vehicle fee introduced, while AI EO signing ceremony postponed.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "White House",
-      "Congress"
-    ],
-    "source_count": 3,
-    "timestamp": "04:38 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US and Pakistan engage in Iran talks amid rising tensions and economic concerns over potential war.",
-    "emojis": "⚔️⚡",
+    "summary": "US-Iran talks reach slight progress, while Trump's Iran stance sparks market uncertainty and military tension.",
+    "emojis": "🪖⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Fox News",
-      "Punchbowl News",
-      "Middle East Eye"
+      "Trump",
+      "Iran"
     ],
-    "source_count": 38,
-    "timestamp": "04:38 PM"
+    "source_count": 39,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces economic and diplomatic challenges amid ongoing conflict with Ukraine, aiming for $5bn seafood exports to China by 2030.",
+    "emojis": "💥⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin"
+    ],
+    "source_count": 23,
+    "timestamp": "06:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China: HPV therapy, EV battery tech, space embabies, and market surprises dominate latest news headlines.",
-    "emojis": "⚔️",
+    "summary": "China tightens grip on US, explores AI influence, while global markets and international relations face uncertainty.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Rubio",
+      "US",
+      "AI"
+    ],
+    "source_count": 19,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "US pauses arms sales to Taiwan amid Middle East tensions, while Taiwan faces polymer lifeline threats.",
+    "emojis": "⚔️⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "US",
+      "Taiwan",
       "China"
     ],
-    "source_count": 12,
-    "timestamp": "04:38 PM"
+    "source_count": 2,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces criticism and conflict on multiple fronts, from Somaliland normalization to IDF sexual harassment allegations.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Houthi",
+      "Australian doctor",
+      "Israeli military",
+      "activists",
+      "US",
+      "Democrat voters"
+    ],
+    "source_count": 22,
+    "timestamp": "06:01 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "NYC and LA collaborate to promote electric vehicle adoption in the US",
+    "summary": "NY's high gas prices prompt consideration of EV or hybrid rentals for next car",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "City of New York",
-      "City of Los Angeles"
+      "The New York Times",
+      "Renter"
     ],
-    "source_count": 2,
-    "timestamp": "04:38 PM"
+    "source_count": 1,
+    "timestamp": "06:01 AM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "Middle East shock expected to impact Mexico's working hours and income through 2027, according to ILO report.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon struggles under war, fuel crisis, and Israeli air strikes, causing harm to paramedics and civilian destruction.",
+    "emojis": "💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
       "actor1",
       "actor2"
     ],
+    "source_count": 6,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "CA Gov orders plan to address AI job upheaval impact on California economy and workforce.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California Governor Gavin Newsom"
+    ],
     "source_count": 1,
-    "timestamp": "04:38 PM"
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Hamas criticizes EU's Mladenov for allegedly promoting Israeli viewpoint on Gaza, sparking tensions.",
+    "emojis": "⚡",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "EU",
+      "Hamas"
+    ],
+    "source_count": 1,
+    "timestamp": "06:02 AM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France rejects NATO role in Strait of Hormuz, Air France and Airbus found guilty of manslaughter over 2009 plane crash.",
-    "emojis": "💀",
+    "summary": "Middle East war affects 1M+ pilgrims at hajj, straining France's humanitarian efforts.",
+    "emojis": "⚔️",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
       "France",
-      "Air France",
-      "Airbus"
-    ],
-    "source_count": 2,
-    "timestamp": "04:38 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli drone attack in central Gaza kills woman and a Palestinian, sparking international concern.",
-    "emojis": "✈️💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestine"
-    ],
-    "source_count": 2,
-    "timestamp": "04:39 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK business activity drops to 13-month low amid Middle East war concerns, and AI detects fake reviews with high accuracy.",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "P",
-      "AI system"
-    ],
-    "source_count": 2,
-    "timestamp": "04:39 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strike in southern Lebanon kills one person, sparking tensions and conflict.",
-    "emojis": "💥⚔️⚡",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
+      "UN/Humanitarian Organizations"
     ],
     "source_count": 1,
-    "timestamp": "04:39 PM"
+    "timestamp": "06:02 AM"
   },
   {
-    "title": "SITREP: US-IL",
-    "summary": "UIS installs 4 electric vehicle charging ports in partnership with City Water, Light and Power.",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine reports battlefield gains, drone strikes on Russian oil refineries, and escalating long-range attacks.",
+    "emojis": "🪖✈️💥",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "City Water, Light and Power",
-      "University of Illinois Springfield"
+      "Zelenskyy",
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 1,
-    "timestamp": "04:39 PM"
+    "source_count": 6,
+    "timestamp": "06:02 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "LG India focuses on premium products and localization amidst global market uncertainty.",
-    "emojis": "⚔️",
+    "summary": "India postpones Africa summit due to Ebola outbreak fears.",
+    "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Global Market",
-      "LG Electronics"
+      "India",
+      "Africa"
     ],
     "source_count": 1,
-    "timestamp": "04:39 PM"
+    "timestamp": "06:02 AM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Trump announces plan to speak with Taiwan's leader, sparking significance due to diplomatic tensions.",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: GERMANY",
+    "summary": "US sends additional troops to Poland, amid reports of Chinese spy activity in Germany.",
+    "emojis": "🪖",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "US President Trump",
-      "Taiwan's leader"
+      "Trump",
+      "Chinese spies"
     ],
     "source_count": 1,
-    "timestamp": "04:39 PM"
+    "timestamp": "06:02 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Russian explorers start oil and gas search off North Korea's east coast.",
+    "emojis": "",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "Russia",
+      "North Korea"
+    ],
+    "source_count": 1,
+    "timestamp": "06:02 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK fuel sales drop 10% in April, while Zionist radicals face a dark history in British history",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      " CNBC",
+      "Haaretz"
+    ],
+    "source_count": 2,
+    "timestamp": "06:02 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Yemen's wealthy elite turn to Chinese EVs amidst solar boom, driven by ongoing war and conflict.",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Chinese brands",
+      "Yemenese elite"
+    ],
+    "source_count": 1,
+    "timestamp": "06:02 AM"
   }
 ];
 
