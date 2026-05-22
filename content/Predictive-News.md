@@ -28,20 +28,30 @@ A series of high-stakes diplomatic and military developments across multiple reg
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 21, 2026
+## Daily Intelligence Brief - May 22, 2026
 
-The global landscape is shifting as multiple actors reposition for a multipolar world. 
+The global order is reorganizing as various actors realign their positions in the face of structural change.
 
-Russia's largest oil refinery has partially shut down after a Ukrainian drone strike (**Meduza**). The move appears to be a response to the ongoing conflict, and Belarus' President Lukashenko has stated that his country will not be dragged into the war but will defend itself with Russia (**U.S. News & World Rep**).
+The FAO chief economist warns that a Middle East conflict could trigger a global food supply shock. **FAO**, citing the potential impact on grain production and prices, is expressing concern about the escalating situation.
 
-Meanwhile, **Israel** and **Gaza** are absent from the Democratic National Committee's (DNC) report on the 2024 presidential election (**Haaretz**). In contrast, **Pakistani** negotiators are heading to **Iran** for talks (**Fox News**).
+Meanwhile, a final draft of a US-Iran deal is expected to be announced soon, according to Saudi media reports. This development could potentially alter the balance of power in the region.
 
-The United States is reported to be using over half of its THAAD interceptors to defend **Israel** from **Iranian** missiles (**The Times of Israel**). 
+In contrast, House GOP members have managed to stave off defeat on Iran-related legislation for now. However, this may not be a long-term victory, as the issue remains contentious.
+
+A Hometown Hero Award has been bestowed upon Tree of Life officer Daniel Mead, highlighting the ongoing tensions and violence in the United States.
+
+The **Hengli Group**, a Chinese oil refiner and shipbuilder, is becoming increasingly involved in geopolitical conflicts. This rise to prominence suggests its strategic interests are shifting in response to global developments.
+
+Russian President Putin remains a key figure, although his current activities are not specified.
+
+Morocco has launched mass deportations of migrants aiming to block their route to Europe, underscoring the growing tensions on migration routes.
+
+The financial sector is weighing in on the US-China balance of power, with JPMorgan warning that five forces are quietly reshaping the relationship. 
 
 Watch for:
-- A possible escalation in the conflict between Russia and Ukraine.
-- Further developments in US-Pakistani-Iran negotiations.
-- The impact of the growing tensions on global energy markets.
+* The announcement of the final draft of a US-Iran deal and its implications for regional stability
+* Further developments in the Hengli Group's involvement in geopolitical conflicts
+* The impact of Morocco's mass deportations on migration patterns and global politics
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
