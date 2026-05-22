@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-22T06:06:01.242649",
+  "generatedAt": "2026-05-22T16:16:41.474157",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Welcome back to New World Grid. Today's key findings can be summarized in three main points. First, it appears diplomatic and military developments across multiple regions have heightened tensions globally, posing significant risks to international relations. In the energy sector, a major breakthrough is imminent as fusion energy is poised to receive simplified review procedures in the United States, potentially paving the way for safer and more efficient power generation. This regulatory shift has far-reaching implications for the global energy market. On another note, optimism abounds with the discovery of a promising new strategy that could revolutionize battery charging speeds, allowing for electric cars with pouch cells to achieve over 85% charge in just six minutes. This advancement paves the way for accelerated development cycles and data-driven decision-making."
+    "index_master_summary.wav": "So, let's get into today's findings from across the New World Grid. First off, in predictive news, we're seeing significant escalation of tensions between a regional power and its adversaries, which raises concerns about the potential for broader conflict and long-term implications on regional stability. On an optimistic note, engineers have achieved six-minute fast charging for electric vehicles, marking a major breakthrough in battery technology. This development paves the way for faster recharging options, reducing downtime for EV owners. Meanwhile, researchers are improving fission and fusion materials modeling by standardizing calculations of helium byproducts. This advancement will enhance reactor safety and longevity, making nuclear energy more reliable. Moving on to the state of the grid, we're witnessing a transformative shift in the energy landscape with small modular reactors gaining traction as a safer alternative to traditional nuclear power plants. To ensure reliable and low-carbon power delivery, integration with energy storage solutions is crucial. The recent signal of peace progress between the U.S. and Iran highlights the importance of securing critical energy infrastructure. In terms of the final frontier, Amazon has launched its first production spacecraft, Kuiper satellites, alongside Tesla's battery cell production for electric vehicles as both companies accelerate their respective space-based internet and energy storage initiatives. This move aims to gain an edge over SpaceX's Starlink constellation. In summary, I'll be keeping an eye on further conflict escalation between Russia and Ukraine, the impact of Rubio's progress on Iran negotiations, and potential changes to U.S. sanctions policies in Lebanon."
   },
   "durations": {
-    "index_master_summary.wav": "00:58"
+    "index_master_summary.wav": "02:00"
   }
 }
