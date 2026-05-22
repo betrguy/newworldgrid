@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-21T16:43:35.288147",
+  "generatedAt": "2026-05-22T06:06:01.242649",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Today we're seeing a convergence of global tensions, with multiple flashpoints creating a rapidly evolving geopolitical landscape. Russia's largest oil refinery has partially shut down after a Ukrainian drone strike, while Belarus has announced it will defend itself alongside Russia if necessary. Meanwhile, Pakistan is heading to Iran for talks, and the US is deploying over half its THAAD interceptors to protect Israel from Iranian missiles. On a more optimistic note, recent advancements in semiconductor failure analysis are redefining what's possible in the technology sector. Improvements in lamella preparation via ZEISS Crossbeam 750 FIBSEM have accelerated time-to-data and enhanced resolution, allowing engineers to make informed decisions. In related news, researchers at Adelaide University have successfully developed fast battery charging technologies that could revolutionize the electric vehicle industry. Turning to the grid's physical floor, we're seeing a transformative shift towards small modular reactors and the potential for energy storage integration. This paradigm shift has significant implications for reliable power delivery, particularly in conjunction with advanced storage solutions. As SMRs gain traction, ensuring resilience becomes increasingly critical, exemplified by Russia's joint project consideration with the US and China. Regarding space-based infrastructure, Amazon's recent launch of its first production spacecraft into orbit marks a significant milestone in its efforts to build out Kuiper satellite constellations for internet provision. Meanwhile, BYD has unveiled an upgraded electric vehicle offering that expands range and charging capabilities at an affordable $18,000."
+    "index_master_summary.wav": "Welcome back to New World Grid. Today's key findings can be summarized in three main points. First, it appears diplomatic and military developments across multiple regions have heightened tensions globally, posing significant risks to international relations. In the energy sector, a major breakthrough is imminent as fusion energy is poised to receive simplified review procedures in the United States, potentially paving the way for safer and more efficient power generation. This regulatory shift has far-reaching implications for the global energy market. On another note, optimism abounds with the discovery of a promising new strategy that could revolutionize battery charging speeds, allowing for electric cars with pouch cells to achieve over 85% charge in just six minutes. This advancement paves the way for accelerated development cycles and data-driven decision-making."
   },
   "durations": {
-    "index_master_summary.wav": "02:03"
+    "index_master_summary.wav": "00:58"
   }
 }
