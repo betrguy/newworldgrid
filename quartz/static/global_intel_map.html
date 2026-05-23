@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-22 16:12 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-05-23 12:06 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,168 +51,150 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: LEBANON",
-    "summary": "US sanctions affect Lebanon's economy, while Israeli attacks harm South Lebanon's agriculture and livelihoods.",
-    "emojis": "⚔️🚫",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "US",
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 2,
-    "timestamp": "04:12 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK news: Tesla, Carns Minister, Nato tests, British Airways delays Middle East flights until August.",
-    "emojis": "⚔️📈",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "supercarolblondie.com",
-      "Yahoo",
-      "The Independent",
-      "AirGuide Business"
-    ],
-    "source_count": 5,
-    "timestamp": "04:12 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US-Iran peace talks show slight progress, with Pakistan's mediation and Republican warnings against a deal.",
-    "emojis": "⚔️🕊️",
+    "summary": "US and Iran near deal, with Trump meeting envoys to decide on options",
+    "emojis": "⚔️💣",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Pakistan",
-      "US",
-      "Iran"
+      "Trump",
+      "Iran",
+      "US"
     ],
-    "source_count": 36,
-    "timestamp": "04:12 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "EU-Mexico trade deal eliminates EV and battery tariffs, boosting demand in Europe.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mexico",
-      "EU"
-    ],
-    "source_count": 2,
-    "timestamp": "04:12 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces international pressure, settlement controversy, and diplomatic challenges amid ongoing conflicts.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US",
-      "Israel",
-      "Palestine"
-    ],
-    "source_count": 22,
-    "timestamp": "04:12 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces increasing tensions, provocation warnings from NATO, and internal issues amidst weakening economy.",
-    "emojis": "⚔️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Czech president",
-      "Nato",
-      "Russia",
-      "Vladimir Putin"
-    ],
-    "source_count": 17,
-    "timestamp": "04:12 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China imposes curbs on US Fentanyl chemicals, tightens controls on rare earths and lifts some poultry export bans.",
-    "emojis": "☣️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US",
-      "China"
-    ],
-    "source_count": 13,
-    "timestamp": "04:12 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Waymo suspends driverless service in TX, Atlanta due to storms and DCCC launches last-minute ad campaign against Maureen Galindo.",
-    "emojis": "⚔️",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Waymo",
-      "DCCC",
-      "Maureen Galindo"
-    ],
-    "source_count": 2,
-    "timestamp": "04:12 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia vows retaliation, accuses Ukraine of deadly attack on student dorm; civilian casualties rise",
-    "emojis": "🪖⚔️💀",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Putin",
-      "Ukraine"
-    ],
-    "source_count": 8,
-    "timestamp": "04:12 PM"
+    "source_count": 66,
+    "timestamp": "12:06 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza flotilla activists allege sexual assault and abuse in Israeli detention amid rising tensions.",
-    "emojis": "⚔️⚡",
+    "summary": "Heavy destruction and violence in Gaza after Israeli strikes, with killings and detentions reported.",
+    "emojis": "🪖💥⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli authorities",
-      "Gaza flotilla activists"
+      "Israeli military",
+      "Gaza civilians"
     ],
-    "source_count": 4,
-    "timestamp": "04:12 PM"
+    "source_count": 13,
+    "timestamp": "12:06 PM"
   },
   {
-    "title": "SITREP: GERMANY",
-    "summary": "Germany's new EV market expands with models from brands like Tesla, VW, BMW and Audi.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
+    "title": "SITREP: CHINA",
+    "summary": "Deadly coal mine explosion in China kills at least 90 people, with Xi Jinping calling for all-out rescue efforts.",
+    "emojis": "💀💥",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Tesla",
-      "VW",
-      "BMW",
-      "Audi"
+      "Xi Jinping",
+      "Nvidia CEO Jensen Huang"
+    ],
+    "source_count": 17,
+    "timestamp": "12:06 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces escalating attacks and threats from Ukraine, tightening its grip on critics.",
+    "emojis": "✈️💥⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 5,
+    "timestamp": "12:06 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces anti-Israel protests, home demolitions & spying accusations amid Gaza tensions and upcoming elections.",
+    "emojis": "⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "anti-Israel activist Khalil",
+      "Ben-Gvir",
+      "Israelis civilians",
+      "Gabrielle Soffer",
+      "Iraq",
+      "Hamas",
+      "Palestinian teachers"
+    ],
+    "source_count": 24,
+    "timestamp": "12:06 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Nissan abandons UK e-axle project due to slowing European EV demand and market uncertainty.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Nissan"
     ],
     "source_count": 1,
-    "timestamp": "04:12 PM"
+    "timestamp": "12:06 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strikes in Lebanon kill medics, injure many despite fragile ceasefire and ongoing Iranian proposal.",
+    "emojis": "💥🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "US",
+      "Israel"
+    ],
+    "source_count": 5,
+    "timestamp": "12:06 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France bans far-right Israeli minister Itamar Ben-Gvir after flotilla detainee's 'unspeakable' abuse video surfaces.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "Itamar Ben-Gvir",
+      "flotilla activists"
+    ],
+    "source_count": 7,
+    "timestamp": "12:06 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia intensifies strikes, imposes sanctions, and becomes more reckless in Ukraine conflict",
+    "emojis": "💥⚔️💀",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 9,
+    "timestamp": "12:06 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "17-year-old Florida teen builds electric vehicle motor reducing rare-earth dependence.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Indian Youth"
+    ],
+    "source_count": 1,
+    "timestamp": "12:06 PM"
   }
 ];
 

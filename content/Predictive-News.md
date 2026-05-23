@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 22, 2026 — 16:13</span>
+  <span class="sotg-timestamp">May 23, 2026 — 12:06</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-A significant escalation of tensions between a major regional power and its adversaries has raised concerns about the potential for wider conflict and long-term implications for regional stability. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+A deadly coal mine explosion in China has claimed at least 90 lives, while escalating tensions in Ukraine have raised concerns about Russia's military posture. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
