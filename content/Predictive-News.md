@@ -28,21 +28,21 @@ A deadly coal mine explosion in China has claimed at least 90 lives, while escal
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 22, 2026
+## Daily Intelligence Brief - May 23, 2026
 
-A multipolar world order is reorganizing, with significant shifts in the global landscape. US Director of National Intelligence Tulsi Gabbard has announced her resignation, potentially impacting national security strategy.
+Today's headlines suggest that global power dynamics are shifting. 
 
-Russian President Putin has vowed retaliation against Ukraine for allegedly hitting a student dormitory in Moscow-occupied territory. This incident may further escalate tensions between Russia and Ukraine. 
+The US is reportedly meeting with its Iran negotiators to decide on the Iran deal, with President Trump saying he is "50/50" on whether to bomb or stick with the agreement (**Trump**). This development comes amid overnight Israeli strikes on Gaza, which left behind heavy destruction (Al Jazeera).
 
-US Senator Rubio appears to have made progress on Iran negotiations, with Rubio signaling that Iran will not be allowed to collect tolls at the Hormuz Strait. However, this development has been met with skepticism from some Republicans.
+Meanwhile, **Nvidia** CEO Jensen Huang is emphasizing the company's commitment to China, citing next-gen CPUs as a reason for this stance. The US and Iran are also hinting at progress toward a deal, with mediators leaving Tehran (**US**, **Iran**).
 
-Meanwhile, House Republicans have canceled a war powers vote aimed at reining in President Trump's actions, potentially allowing him more latitude in foreign policy decisions.
+Additionally, Russia's Key Black Sea Oil Port has been attacked by drones, resulting in a fire (**Russia**). China is launching an investigation into the mine blast that killed at least 82 people (CNA).
 
 Watch for:
 
-* Further escalation of conflict between Russia and Ukraine
-* Potential changes to US sanctions policies in Lebanon
-* The impact of Rubio's progress on Iran negotiations
+* Any further developments on the US-Iran deal negotiations
+* Increased tensions between Israel and Palestine following overnight strikes
+* Reports on Russia's response to the drone attack on its oil port
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
