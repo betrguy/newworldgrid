@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-23 12:06 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-05-24 10:57 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,127 +52,22 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran near deal, with Trump meeting envoys to decide on options",
-    "emojis": "⚔️💣",
+    "summary": "Trump says Iran deal talks proceeding slowly, no rush to reach agreement amid Hormuz blockade",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Iran",
-      "US"
+      "Donald Trump",
+      "Iran"
     ],
-    "source_count": 66,
-    "timestamp": "12:06 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Heavy destruction and violence in Gaza after Israeli strikes, with killings and detentions reported.",
-    "emojis": "🪖💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli military",
-      "Gaza civilians"
-    ],
-    "source_count": 13,
-    "timestamp": "12:06 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "Deadly coal mine explosion in China kills at least 90 people, with Xi Jinping calling for all-out rescue efforts.",
-    "emojis": "💀💥",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Xi Jinping",
-      "Nvidia CEO Jensen Huang"
-    ],
-    "source_count": 17,
-    "timestamp": "12:06 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces escalating attacks and threats from Ukraine, tightening its grip on critics.",
-    "emojis": "✈️💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 5,
-    "timestamp": "12:06 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces anti-Israel protests, home demolitions & spying accusations amid Gaza tensions and upcoming elections.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "anti-Israel activist Khalil",
-      "Ben-Gvir",
-      "Israelis civilians",
-      "Gabrielle Soffer",
-      "Iraq",
-      "Hamas",
-      "Palestinian teachers"
-    ],
-    "source_count": 24,
-    "timestamp": "12:06 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Nissan abandons UK e-axle project due to slowing European EV demand and market uncertainty.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Nissan"
-    ],
-    "source_count": 1,
-    "timestamp": "12:06 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes in Lebanon kill medics, injure many despite fragile ceasefire and ongoing Iranian proposal.",
-    "emojis": "💥🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Hezbollah",
-      "US",
-      "Israel"
-    ],
-    "source_count": 5,
-    "timestamp": "12:06 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France bans far-right Israeli minister Itamar Ben-Gvir after flotilla detainee's 'unspeakable' abuse video surfaces.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Itamar Ben-Gvir",
-      "flotilla activists"
-    ],
-    "source_count": 7,
-    "timestamp": "12:06 PM"
+    "source_count": 75,
+    "timestamp": "10:57 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies strikes, imposes sanctions, and becomes more reckless in Ukraine conflict",
-    "emojis": "💥⚔️💀",
+    "summary": "Russia unleashes devastating hypersonic missile strikes on Kyiv, killing at least 2, as peace seems out of reach.",
+    "emojis": "💥🚀🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -180,21 +75,150 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 9,
-    "timestamp": "12:06 PM"
+    "source_count": 31,
+    "timestamp": "10:57 AM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "17-year-old Florida teen builds electric vehicle motor reducing rare-earth dependence.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia launches heavy attack from air, sea & land, triggers international condemnation and domestic discontent.",
+    "emojis": "⚔️🚀📈",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Indian Youth"
+      "Putin",
+      "EU"
+    ],
+    "source_count": 12,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China investigates coal mine blast, expands intelligence in Cuba, and advances space program with multiple launches.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "US"
+    ],
+    "source_count": 18,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France bans controversial Israeli politician Naftali Bennett, following similar penalties for others like Itamar Ben-Gvir.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "Naftali Bennett",
+      "Itamar Ben-Gvir"
     ],
     "source_count": 1,
-    "timestamp": "12:06 PM"
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces blocked Hajj pilgrimages, criticism from France & US Jewish doctor, and government accountability issues.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "France",
+      "US",
+      "Trump"
+    ],
+    "source_count": 20,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Volvo's all-new EV ES90 debuts in Germany, potentially challenging domestic electric vehicle market share.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Volvo",
+      "Germany"
+    ],
+    "source_count": 1,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Gaza faces humanitarian crisis, Eid celebrations canceled, and civilians killed in Israeli attacks.",
+    "emojis": "⚔️💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Gaza",
+      "Israeli"
+    ],
+    "source_count": 3,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Train blast in Pakistan kills at least 20, targeting military personnel on Eid transport",
+    "emojis": "🪖⚔️",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "PAKISTAN"
+    ],
+    "source_count": 1,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah launches attacks on Israeli Iron Dome launchers and drone defense systems amid uncertain war outcome.",
+    "emojis": "✈️⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel"
+    ],
+    "source_count": 2,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK Navy clears mines in Strait of Hormuz, awaiting peace deal with Iran.",
+    "emojis": "🕊️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Britain's navy",
+      "Iran"
+    ],
+    "source_count": 1,
+    "timestamp": "10:57 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Chinese warship departs Taiwan-controlled islands after tense standoff with Taiwanese authorities.",
+    "emojis": "🚢⚔️",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "China",
+      "Taiwan"
+    ],
+    "source_count": 1,
+    "timestamp": "10:57 AM"
   }
 ];
 
