@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">May 24, 2026 — 10:57</span>
+  <span class="sotg-timestamp">May 25, 2026 — 15:53</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-A devastating wave of military strikes has swept across multiple fronts, with Russia unleashing a heavy attack from air, sea, and land that has triggered international condemnation and domestic discontent. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+A significant escalation of military tensions has emerged along the Israel-Lebanon border, with a major power intensifying its strikes against a key regional adversary amid rising fatalities and escalating rhetoric. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
