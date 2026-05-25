@@ -28,18 +28,21 @@ A significant escalation of military tensions has emerged along the Israel-Leban
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 24, 2026
+## Daily Intelligence Brief - May 25, 2026
 
-The Trump administration has signaled its intent to slow down any potential Iran deal, instructing negotiators not to rush into a deal following GOP criticism. **Iran** is still required to approve the peace deal, indicating a need for further coordination.
+Israel has announced plans to intensify strikes against Hezbollah in Lebanon, with **Benjamin Netanyahu** stating the goal is to "strengthen Israel's position" and "protect its citizens". The move comes amid growing tensions in the region.
 
-Russia's actions in Ukraine have raised tensions with Belgium, which claims Russia does not want peace after a deadly night of violence. Trump has also stated that relations with Iran are "much more professional" amid peace deal talks.
+Meanwhile, US and Iranian officials are nearing a deal to end the war between the two nations. This deal would involve the release of **frozen assets** held by Iran, according to reports. Diplomatic efforts have been ongoing for months, with talks advancing steadily.
 
-The US and **Iran** are engaged in negotiations, with the Trump administration expressing optimism about the prospects for an agreement. 
+In another development, Ukraine's cultural and historical institutions were heavily damaged in a mass-scale Russian attack. The Chornobyl Museum was particularly affected, highlighting the scale of the assault.
+
+Oil prices plummeted as US and Iranian officials edged closer to a deal. The sudden drop has significant implications for global energy markets.
 
 Watch for:
-* **US-Iran** nuclear talks resuming without major concessions from either side
-* Potential escalation of proxy conflicts in the Middle East following a collapse of US-Russia agreements
-* Increased diplomatic activity between European nations and **Iran** as a means to circumvent US sanctions
+
+* A follow-up announcement from **Benjamin Netanyahu** regarding the planned strikes against Hezbollah
+* Confirmation of the terms of the US-Iran deal, including the release of frozen assets
+* Further reports on the impact of the oil price drop on global energy markets
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
