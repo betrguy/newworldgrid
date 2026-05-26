@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-25 15:53 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-05-26 16:01 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,97 +51,110 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UK",
+    "summary": "UK imposes sanctions on Russian cryptocurrency networks, targeting Russian oligarchs and their assets globally.",
+    "emojis": "🚫",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK government",
+      "Russian oligarchs"
+    ],
+    "source_count": 1,
+    "timestamp": "04:01 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Netanyahu vows to intensify strikes against Hezbollah amid rising tensions and fatalities in Lebanon.",
-    "emojis": "💥⚡",
+    "summary": "Israel intensifies strikes in Lebanon amid heightened tensions and Washington talks, targeting Hamas military chief.",
+    "emojis": "🪖💥💀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Benjamin Netanyahu",
-      "Hezbollah"
+      "Israel",
+      "Hamas"
     ],
     "source_count": 34,
-    "timestamp": "03:52 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Quad foreign ministers meet amidst rising geopolitical tensions in Asia and beyond.",
-    "emojis": "⚡",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "India",
-      "US",
-      "Japan",
-      "Australia"
-    ],
-    "source_count": 1,
-    "timestamp": "03:52 PM"
+    "timestamp": "04:01 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran near deal to end war, with Gulf states expected to recognize Israel in exchange.",
-    "emojis": "⚔️",
+    "summary": "Tensions escalate between US, Iran, and Israel amid ongoing ceasefire negotiations and military strikes.",
+    "emojis": "🪖💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Netanyahu",
+      "US",
       "Iran",
-      "Qatar"
+      "Israel"
     ],
-    "source_count": 44,
-    "timestamp": "03:52 PM"
+    "source_count": 41,
+    "timestamp": "04:01 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Putin announces deeper ties with Kazakhstan, while sanctions and diplomatic tensions escalate with US and UK.",
+    "emojis": "🚫⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "US",
+      "UK"
+    ],
+    "source_count": 10,
+    "timestamp": "04:01 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China files for IPO, launches synthetic embryos, builds largest aircraft carrier, and sees edge in Apple shipments.",
+    "emojis": "✈️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "DSC Holdings",
+      "UN",
+      "Apple"
+    ],
+    "source_count": 11,
+    "timestamp": "04:01 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia attacks Ukrainian cultural and historical sites, threatens Kyiv with strikes, urges foreign evacuations.",
-    "emojis": "💥⚔️🚀",
+    "summary": "Russia escalates attacks on Ukraine, EU and Norway condemn actions, Ukrainian forces push back against Russian aggression.",
+    "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
+      "EU",
+      "Norway",
       "Ukraine"
     ],
-    "source_count": 23,
-    "timestamp": "03:52 PM"
+    "source_count": 10,
+    "timestamp": "04:01 PM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "New Mexico researchers develop method to improve quantum computer performance with randomization against noise.",
+    "title": "SITREP: US-CA",
+    "summary": "Iranian hackers breached LA transit system, according to Israeli researchers.",
     "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "The University of New Mexico",
-      "Graduating Ph.D. student"
+      "Israeli researchers"
     ],
     "source_count": 1,
-    "timestamp": "03:52 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli airstrike kills Palestinian woman and young girl in Gaza, prompting father's mourning",
-    "emojis": "💥💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Palestinian family",
-      "Israel"
-    ],
-    "source_count": 2,
-    "timestamp": "03:52 PM"
+    "timestamp": "04:01 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Tensions escalate in Lebanon as Israel launches strikes and Hezbollah responds with hostile aircraft launches.",
-    "emojis": "✈️💥💣",
+    "summary": "Israeli attacks kill at least 11 in eastern Lebanon, hit multiple towns and targeted Hezbollah positions.",
+    "emojis": "💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -149,112 +162,35 @@
       "Israel",
       "Hezbollah"
     ],
-    "source_count": 3,
-    "timestamp": "03:52 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia threatens fresh assault on Ukraine, signs new law to deploy troops abroad, and faces economic instability.",
-    "emojis": "🪖💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "Putin",
-      "Nabiullina"
-    ],
-    "source_count": 6,
-    "timestamp": "03:52 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China strengthens military ties, sells Treasuries, and expands economic influence in Asia and the Middle East.",
-    "emojis": "🪖",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Japan",
-      "UAE",
-      "India",
-      "Serbia",
-      "Pakistan"
-    ],
-    "source_count": 10,
-    "timestamp": "03:52 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Belarus and Pakistan explore mediation to strengthen geopolitical position in a multipolar world order.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Belarus",
-      "Pakistan"
-    ],
-    "source_count": 1,
-    "timestamp": "03:53 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Russian central bank files 2nd claim in EU court over frozen assets, amid growing financial tensions.",
-    "emojis": "⚡",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Russia",
-      "EU"
-    ],
-    "source_count": 1,
-    "timestamp": "03:53 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "White House gunman had previous run-ins with Secret Service, including obstructing entry lane in June.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "US Government",
-      "Secret Service"
-    ],
-    "source_count": 1,
-    "timestamp": "03:53 PM"
+    "source_count": 4,
+    "timestamp": "04:01 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Missile and drone attacks on Russian and Ukrainian territory, resulting in 8 deaths and potential US-NY involvement.",
-    "emojis": "✈️⚔️🚀",
+    "summary": "Ferrari's new $640K electric car criticized as unimpressive and uninspired, compared to a $30K Nissan.",
+    "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "US",
-      "NY"
+      "New York Post",
+      "Ferrari"
     ],
     "source_count": 1,
-    "timestamp": "03:53 PM"
+    "timestamp": "04:01 PM"
   },
   {
-    "title": "SITREP: IRAQ",
-    "summary": "Iraq faces sanctions, signaling shift in US Middle East policy under new administration.",
-    "emojis": "💥🚫",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
+    "title": "SITREP: FRANCE",
+    "summary": "Western Europe, including France, hit by severe heatwave with temperatures significantly above normal.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "US",
-      "Iraq"
+      "Hugh Schofield"
     ],
-    "source_count": 2,
-    "timestamp": "03:53 PM"
+    "source_count": 1,
+    "timestamp": "04:01 PM"
   }
 ];
 
