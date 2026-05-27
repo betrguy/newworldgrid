@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-26 16:01 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-05-27 17:50 UTC | 15 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">15 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,146 +51,225 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UK",
-    "summary": "UK imposes sanctions on Russian cryptocurrency networks, targeting Russian oligarchs and their assets globally.",
-    "emojis": "🚫",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: IRAN",
+    "summary": "US and Iran hold tense talks, with Trump insisting on maximum demands and threat of further strikes.",
+    "emojis": "💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "UK government",
-      "Russian oligarchs"
+      "Trump",
+      "Iran"
     ],
-    "source_count": 1,
-    "timestamp": "04:01 PM"
+    "source_count": 59,
+    "timestamp": "05:49 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel intensifies strikes in Lebanon amid heightened tensions and Washington talks, targeting Hamas military chief.",
-    "emojis": "🪖💥💀",
+    "summary": "Israel escalates Gaza attacks, issues evacuation order in Lebanon, and boycotts face legal challenges.",
+    "emojis": "🪖⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Hamas"
+      "Hezbollah",
+      "Palestinians",
+      "Hamas",
+      "British Museum"
     ],
-    "source_count": 34,
-    "timestamp": "04:01 PM"
+    "source_count": 24,
+    "timestamp": "05:49 PM"
   },
   {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions escalate between US, Iran, and Israel amid ongoing ceasefire negotiations and military strikes.",
-    "emojis": "🪖💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
+    "title": "SITREP: CHINA",
+    "summary": "China sees boost in tourism, AI chip race & lunar base plans amid economic shifts and human rights concerns.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "US",
-      "Iran",
-      "Israel"
+      "Mexico",
+      "China",
+      "NASA",
+      "Germany"
     ],
-    "source_count": 41,
-    "timestamp": "04:01 PM"
+    "source_count": 8,
+    "timestamp": "05:49 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Putin announces deeper ties with Kazakhstan, while sanctions and diplomatic tensions escalate with US and UK.",
-    "emojis": "🚫⚡",
+    "summary": "Russia faces corruption, war chaos, and economic woes under Putin's leadership",
+    "emojis": "💥⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Putin",
-      "US",
-      "UK"
+      "Ukraine",
+      "EU",
+      "UK",
+      "Russia"
     ],
     "source_count": 10,
-    "timestamp": "04:01 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China files for IPO, launches synthetic embryos, builds largest aircraft carrier, and sees edge in Apple shipments.",
-    "emojis": "✈️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "DSC Holdings",
-      "UN",
-      "Apple"
-    ],
-    "source_count": 11,
-    "timestamp": "04:01 PM"
+    "timestamp": "05:49 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates attacks on Ukraine, EU and Norway condemn actions, Ukrainian forces push back against Russian aggression.",
-    "emojis": "⚔️",
+    "summary": "Ukraine-Russia war intensifies with drone attacks, air defense requests and escalating strike threats.",
+    "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "EU",
-      "Norway",
-      "Ukraine"
+      "Putin",
+      "Zelensky",
+      "Trump"
     ],
-    "source_count": 10,
-    "timestamp": "04:01 PM"
+    "source_count": 6,
+    "timestamp": "05:49 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US disputes Iran's report on draft agreement to end war, differing terms reported by Iranian state TV.",
+    "emojis": "⚔️",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "White House",
+      "Iran"
+    ],
+    "source_count": 2,
+    "timestamp": "05:49 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli airstrikes kill Hamas new leader, Trump's 'Board of Peace' fund for Gaza remains unfunded.",
+    "emojis": "🪖💥💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Hamas",
+      "Israel",
+      "Trump"
+    ],
+    "source_count": 5,
+    "timestamp": "05:49 PM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "City launches first PowerTLH EV fast-charging station on Earth Day",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "City Officials"
+    ],
+    "source_count": 1,
+    "timestamp": "05:49 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "Iranian hackers breached LA transit system, according to Israeli researchers.",
+    "summary": "Researchers develop optical device using humidity to unlock hidden info for novel data storage options.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "Israeli researchers"
+      "University of California San Diego",
+      "Engineers"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "05:49 PM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Trump adviser joins Georgia runoff campaign",
+    "emojis": "",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "Mike Collins",
+      "President Trump"
+    ],
+    "source_count": 1,
+    "timestamp": "05:49 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli attacks kill at least 11 in eastern Lebanon, hit multiple towns and targeted Hezbollah positions.",
-    "emojis": "💥⚔️",
+    "summary": "Escalating Israeli strikes in Lebanon's Tyre hit Palestinian refugee camps, amid Hezbollah retaliation against Israeli forces.",
+    "emojis": "💥⚔️🕊️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
+      "Israeli military",
       "Hezbollah"
     ],
     "source_count": 4,
-    "timestamp": "04:01 PM"
+    "timestamp": "05:50 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Ferrari's new $640K electric car criticized as unimpressive and uninspired, compared to a $30K Nissan.",
+    "summary": "Ferrari's first electric car sparks backlash in Italy and internationally due to concerns over its Italian heritage.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "New York Post",
-      "Ferrari"
+      "Ferrari",
+      "Italy"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "05:50 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Western Europe, including France, hit by severe heatwave with temperatures significantly above normal.",
+    "title": "SITREP: VENEZUELA",
+    "summary": "Venezuela seeks to restructure $150B debt amid geopolitical pressures and economic crisis.",
     "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
     "actors": [
-      "Hugh Schofield"
+      "Centerview",
+      "Pigasse",
+      "French bank",
+      "Venezuela"
     ],
     "source_count": 1,
-    "timestamp": "04:01 PM"
+    "timestamp": "05:50 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "British spy chief warns of growing cyberattack dangers, emphasizing national security concerns.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK Spy Chief",
+      "unknown"
+    ],
+    "source_count": 1,
+    "timestamp": "05:50 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Sen. John Thune discusses issues with Texas AG Ken Paxton over phone call.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "John Thune",
+      "Ken Paxton"
+    ],
+    "source_count": 1,
+    "timestamp": "05:50 PM"
   }
 ];
 
