@@ -28,18 +28,21 @@ A critical escalation of violence in Lebanon has heightened tensions between reg
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 27, 2026
+## Daily Intelligence Brief - May 28, 2026
 
-The global order is reorganizing, with multiple power centers emerging.
+Several developments indicate ongoing efforts to reduce tensions between the US and Iran.
 
-Lenders are facing growing stagflation risks due to the Middle East conflict disrupting the global economy. Iran has stated it will not back down from its "red lines" in talks, indicating a hardening of its stance. The US and Iran have issued conflicting reports on a potential deal, with Trump stating no sanction relief is expected.
+The US and Iranian negotiators have reached a tentative deal for a **60-day** truce extension, according to officials. The ceasefire is part of a broader agreement that may also involve the resumption of nuclear talks, as hinted at by former President Barack Obama's comments on the matter. Diplomatic channels are being utilized to facilitate this process.
 
-Russia's situation is deteriorating under Putin, who faces corruption, war, and chaos at home. This does not appear to be directly related to the Middle East conflict or the Iranian talks.
+Meanwhile, US and Iranian forces have been involved in **strikes** against each other, with no clear indication of what these exchanges entail or who initiated them.
+
+Israel has also been mentioned in a separate conflict situation, described as an "escalation masquerading as strategy."
 
 Watch for:
 
-* Confirmation of US-Iran sanctions negotiations
-* Russian troop movements in Eastern Europe
+* Confirmation of the terms of the US-Iran agreement
+* Details on the specifics of any resumption of nuclear talks
+* Further developments from the Israel conflict
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
