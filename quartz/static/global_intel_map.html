@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-29 18:00 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-05-29 18:37 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,22 +51,56 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "China fuels anti-US sentiment, expels journalists, and secretly employs officials to spread propaganda.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Trump admin",
+      "Kevin O''Leary"
+    ],
+    "source_count": 21,
+    "timestamp": "06:36 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Trump to decide on Iran deal, amid tensions over Strait of Hormuz and potential drone attacks.",
-    "emojis": "✈️⚔️🕊️",
+    "summary": "Tensions escalate with Iran amid US strikes, talks on potential deal and ceasefire extension.",
+    "emojis": "💥🕊️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran"
+      "Iran",
+      "Israel",
+      "UAE"
     ],
-    "source_count": 49,
-    "timestamp": "05:59 PM"
+    "source_count": 54,
+    "timestamp": "06:36 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise in Israel amid UN accusations, military operations and rising anti-Israel sentiment.",
+    "emojis": "🪖💣⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "UN",
+      "Israel's military",
+      "Palestinians",
+      "Israeli police",
+      "US Democrats"
+    ],
+    "source_count": 19,
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates threats, Ukraine bracing for potential attacks amid rising losses and discontent with Putin's tactics.",
+    "summary": "Ukraine braces for large-scale Russian attacks amid escalating tensions and high Russian military losses.",
     "emojis": "🪖⚔️💀",
     "lat": 48.3,
     "lng": 31.1,
@@ -76,84 +110,56 @@
       "Ukraine"
     ],
     "source_count": 12,
-    "timestamp": "05:59 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces crackdown on traffic, protests over Israel Day Parade, and criticism from UN",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Police",
-      "AIPAC",
-      "Netanyahu"
-    ],
-    "source_count": 21,
-    "timestamp": "05:59 PM"
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israel escalates military operations in Lebanon, killing dozens and pushing troops deeper into the country.",
+    "summary": "Israeli strikes in Lebanon kill dozens, including civilians and Syrians, amid Pentagon-hosted military talks.",
     "emojis": "🪖✈️💥",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
       "Israel",
-      "Hezbollah"
+      "Hezbollah",
+      "Pentagon",
+      "Syria"
     ],
-    "source_count": 6,
-    "timestamp": "05:59 PM"
+    "source_count": 4,
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces criticism over UN Security Council, while economic threats and military tensions escalate with neighbors.",
-    "emojis": "🪖☢️⚡",
+    "summary": "Russia faces criticism, economic strain, and diplomatic tensions amid Ukraine war",
+    "emojis": "⚔️☢️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Don Bacon",
+      "House Republican Don Bacon",
       "Vladimir Putin"
     ],
-    "source_count": 7,
-    "timestamp": "05:59 PM"
+    "source_count": 6,
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK man admits selling toxic chemicals online that aided Canadian suicides and spying on Iranian journalist",
+    "summary": "UK man admits selling toxic chemicals online, accused of spying on journalist",
     "emojis": "☣️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "Kenneth Law",
-      "Man accused"
+      "BBC"
     ],
     "source_count": 2,
-    "timestamp": "05:59 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China boosts imports, US poultry and beef resumes access, while accused officials plead guilty to working with China",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US government",
-      "China",
-      "Canada"
-    ],
-    "source_count": 16,
-    "timestamp": "05:59 PM"
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli push in Gaza sparks alarm, with Hamas warning against escalation amidst tensions.",
-    "emojis": "⚔️⚡📈",
+    "summary": "Hamas warns against escalation as Israel pushes to take more Gaza territory, raising alarm",
+    "emojis": "⚔️📈",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
@@ -162,11 +168,11 @@
       "Hamas"
     ],
     "source_count": 3,
-    "timestamp": "05:59 PM"
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "UN adds Israeli and Russian forces to sexual violence list, sparking international concerns.",
+    "summary": "U.N. adds Israeli and Russian forces to list of entities accused of sexual violence",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
@@ -177,38 +183,39 @@
       "Russian forces"
     ],
     "source_count": 1,
-    "timestamp": "05:59 PM"
+    "timestamp": "06:36 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California to expand public EV fast charging infrastructure with $55M funding.",
+    "summary": "California announces $55M to expand public EV fast charging infrastructure.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "CleanTechnica",
-      "California government"
+      "Calif. Government",
+      "Private Investors"
     ],
     "source_count": 1,
-    "timestamp": "06:00 PM"
+    "timestamp": "06:37 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "Iraqi Christian leader assumes new role, amid regional religious shifts and sectarian tensions.",
+    "summary": "New Christian patriarch leads Iraq's oldest church, amid regional tensions and sectarian divisions.",
     "emojis": "⚡",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
-      "WRAL"
+      "Iraq",
+      "Christian community"
     ],
     "source_count": 1,
-    "timestamp": "06:00 PM"
+    "timestamp": "06:37 PM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan unlikely to join Abraham Accords due to regional interests and ties with Iran and Saudi Arabia.",
+    "summary": "Pakistan unlikely to join Abraham Accords due to regional security concerns and complex diplomatic ties.",
     "emojis": "",
     "lat": 30.3,
     "lng": 69.3,
@@ -218,35 +225,20 @@
       "Pakistan"
     ],
     "source_count": 1,
-    "timestamp": "06:00 PM"
+    "timestamp": "06:37 PM"
   },
   {
     "title": "SITREP: US-FL",
-    "summary": "Underwater antenna impacts robot communication in dark seas from Lake Wahlberg to ocean depths.",
+    "summary": "Tiny underwater antenna affects robot communication in murky seas from Lake Wahlberg to ocean depths.",
     "emojis": "",
     "lat": 25.76,
     "lng": -80.19,
     "location": "US-FL",
     "actors": [
-      "US-FL",
-      "robots"
+      "US-FL"
     ],
     "source_count": 1,
-    "timestamp": "06:00 PM"
-  },
-  {
-    "title": "SITREP: COLOMBIA",
-    "summary": "Colombia's presidential election uncertain as candidates vie for power amidst political instability and regional tensions.",
-    "emojis": "⚡",
-    "lat": 4.57,
-    "lng": -74.29,
-    "location": "COLOMBIA",
-    "actors": [
-      "Geopolitical Futures",
-      "Colombia"
-    ],
-    "source_count": 1,
-    "timestamp": "06:00 PM"
+    "timestamp": "06:37 PM"
   }
 ];
 
