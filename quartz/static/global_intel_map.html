@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-29 15:58 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-05-29 18:00 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,36 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Netanyahu seeks to expand Israel's control in Gaza, while facing criticism over democracy and info war.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Netanyahu",
-      "Hamas"
-    ],
-    "source_count": 20,
-    "timestamp": "03:57 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China tightens regulatory control, expands space program, and negotiates trade pacts with EU and US.",
-    "emojis": "🚀☢️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China"
-    ],
-    "source_count": 14,
-    "timestamp": "03:57 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US, Iran reach tentative ceasefire agreement pending Trump's approval and US sanctions",
-    "emojis": "🚢🚫🕊️",
+    "summary": "Trump to decide on Iran deal, amid tensions over Strait of Hormuz and potential drone attacks.",
+    "emojis": "✈️⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -88,86 +61,13 @@
       "US",
       "Iran"
     ],
-    "source_count": 23,
-    "timestamp": "03:57 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "BYD launches e-Van in UK, gold prices stabilize amid geopolitical concerns.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "BYD",
-      "gold"
-    ],
-    "source_count": 2,
-    "timestamp": "03:57 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Nato condemns Russia's 'reckless' actions after drone strikes Romanian apartment block, sparking international concern.",
-    "emojis": "✈️💥",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Russia",
-      "Nato"
-    ],
-    "source_count": 1,
-    "timestamp": "03:57 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia signs military agreement with Taliban, faces war budget shortfall and NATO criticism over drone incidents.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Taliban",
-      "US",
-      "NATO"
-    ],
-    "source_count": 15,
-    "timestamp": "03:57 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "France to investigate Israel's treatment of Gaza flotilla members, while Hamas releases footage of Israeli-American hostage.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "France",
-      "Hamas",
-      "Israel"
-    ],
-    "source_count": 2,
-    "timestamp": "03:57 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "San Francisco school district to deploy largest bidirectional electric bus fleet in US.",
-    "emojis": "🚢",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "SF School District",
-      "EV Infrastructure News"
-    ],
-    "source_count": 1,
-    "timestamp": "03:58 PM"
+    "source_count": 49,
+    "timestamp": "05:59 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian drone crashes in Romania, injuring 2, amid Russia's Ukraine attack",
-    "emojis": "✈️💥⚔️",
+    "summary": "Russia escalates threats, Ukraine bracing for potential attacks amid rising losses and discontent with Putin's tactics.",
+    "emojis": "🪖⚔️💀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -175,52 +75,178 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 15,
-    "timestamp": "03:58 PM"
+    "source_count": 12,
+    "timestamp": "05:59 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces crackdown on traffic, protests over Israel Day Parade, and criticism from UN",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Police",
+      "AIPAC",
+      "Netanyahu"
+    ],
+    "source_count": 21,
+    "timestamp": "05:59 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strike destroys home and puts Lebanese heritage sites at risk due to frequent attacks.",
-    "emojis": "💥⚔️",
+    "summary": "Israel escalates military operations in Lebanon, killing dozens and pushing troops deeper into the country.",
+    "emojis": "🪖✈️💥",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "NBC News",
-      "Middle East Eye",
       "Israel",
-      "Lebanon"
+      "Hezbollah"
+    ],
+    "source_count": 6,
+    "timestamp": "05:59 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces criticism over UN Security Council, while economic threats and military tensions escalate with neighbors.",
+    "emojis": "🪖☢️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Don Bacon",
+      "Vladimir Putin"
+    ],
+    "source_count": 7,
+    "timestamp": "05:59 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK man admits selling toxic chemicals online that aided Canadian suicides and spying on Iranian journalist",
+    "emojis": "☣️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Kenneth Law",
+      "Man accused"
     ],
     "source_count": 2,
-    "timestamp": "03:58 PM"
+    "timestamp": "05:59 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "VinFast partners with ChargeZone for India-wide EV charging network expansion",
+    "title": "SITREP: CHINA",
+    "summary": "China boosts imports, US poultry and beef resumes access, while accused officials plead guilty to working with China",
     "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "ChargeZone",
-      "VinFast"
+      "US government",
+      "China",
+      "Canada"
     ],
-    "source_count": 1,
-    "timestamp": "03:58 PM"
+    "source_count": 16,
+    "timestamp": "05:59 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "France demands explanation from Russian envoy over Romania drone incident",
-    "emojis": "✈️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: GAZA",
+    "summary": "Israeli push in Gaza sparks alarm, with Hamas warning against escalation amidst tensions.",
+    "emojis": "⚔️⚡📈",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "France",
-      "Russian envoy"
+      "Israel",
+      "Hamas"
+    ],
+    "source_count": 3,
+    "timestamp": "05:59 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "UN adds Israeli and Russian forces to sexual violence list, sparking international concerns.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "U.N.",
+      "Israeli forces",
+      "Russian forces"
     ],
     "source_count": 1,
-    "timestamp": "03:58 PM"
+    "timestamp": "05:59 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California to expand public EV fast charging infrastructure with $55M funding.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "CleanTechnica",
+      "California government"
+    ],
+    "source_count": 1,
+    "timestamp": "06:00 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Iraqi Christian leader assumes new role, amid regional religious shifts and sectarian tensions.",
+    "emojis": "⚡",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "WRAL"
+    ],
+    "source_count": 1,
+    "timestamp": "06:00 PM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan unlikely to join Abraham Accords due to regional interests and ties with Iran and Saudi Arabia.",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Middle East Eye",
+      "Pakistan"
+    ],
+    "source_count": 1,
+    "timestamp": "06:00 PM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Underwater antenna impacts robot communication in dark seas from Lake Wahlberg to ocean depths.",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "US-FL",
+      "robots"
+    ],
+    "source_count": 1,
+    "timestamp": "06:00 PM"
+  },
+  {
+    "title": "SITREP: COLOMBIA",
+    "summary": "Colombia's presidential election uncertain as candidates vie for power amidst political instability and regional tensions.",
+    "emojis": "⚡",
+    "lat": 4.57,
+    "lng": -74.29,
+    "location": "COLOMBIA",
+    "actors": [
+      "Geopolitical Futures",
+      "Colombia"
+    ],
+    "source_count": 1,
+    "timestamp": "06:00 PM"
   }
 ];
 
