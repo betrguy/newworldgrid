@@ -28,21 +28,19 @@ A tentative ceasefire agreement between two global powers has brought a measure 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 28, 2026
+## Daily Intelligence Brief - May 29, 2026
 
-Several developments indicate ongoing efforts to reduce tensions between the US and Iran.
+Multiple global actors are positioning for a multipolar world by leveraging their influence in various regions.
 
-The US and Iranian negotiators have reached a tentative deal for a **60-day** truce extension, according to officials. The ceasefire is part of a broader agreement that may also involve the resumption of nuclear talks, as hinted at by former President Barack Obama's comments on the matter. Diplomatic channels are being utilized to facilitate this process.
+France is taking action against Israel's actions in Gaza, with French authorities investigating allegations of "sexual violence, beatings and humiliation" of Gaza Flotilla activists. Romania reports that a Russian drone hit an apartment block, prompting NATO to reaffirm its commitment to defending alliance territory. In contrast, China is expanding its influence by building launch pads near its nuclear missile silos.
 
-Meanwhile, US and Iranian forces have been involved in **strikes** against each other, with no clear indication of what these exchanges entail or who initiated them.
-
-Israel has also been mentioned in a separate conflict situation, described as an "escalation masquerading as strategy."
+China's new law also aims to regulate the fashion industry, while a Chinese-backed "shadow fleet" has helped Iran skirt US oil sanctions. Meanwhile, CSTO (Collective Security Treaty Organization) assesses increasing geopolitical risk in the Caucasus, a region of strategic importance for several nations.
 
 Watch for:
 
-* Confirmation of the terms of the US-Iran agreement
-* Details on the specifics of any resumption of nuclear talks
-* Further developments from the Israel conflict
+* The outcome of France's investigation into Israel's actions in Gaza
+* Iranian President Hassan Rouhani's response to the proposed ceasefire extension with the US
+* Any further developments on China's nuclear expansion
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
