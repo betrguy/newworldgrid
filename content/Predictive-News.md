@@ -30,17 +30,15 @@ Global tensions have intensified with multiple flashpoints emerging across the M
 
 ## Daily Intelligence Brief - May 29, 2026
 
-Multiple global actors are positioning for a multipolar world by leveraging their influence in various regions.
+Today's headlines paint a complex picture of global realignment. A meeting between Trump and his aides indicates an effort to extend Iran's ceasefire, leveraging diplomatic leverage to secure a deal. Meanwhile, the UK's top intel chief has confirmed that nearly **500,000** Russian soldiers have been killed in Ukraine, highlighting the escalating conflict.
 
-France is taking action against Israel's actions in Gaza, with French authorities investigating allegations of "sexual violence, beatings and humiliation" of Gaza Flotilla activists. Romania reports that a Russian drone hit an apartment block, prompting NATO to reaffirm its commitment to defending alliance territory. In contrast, China is expanding its influence by building launch pads near its nuclear missile silos.
-
-China's new law also aims to regulate the fashion industry, while a Chinese-backed "shadow fleet" has helped Iran skirt US oil sanctions. Meanwhile, CSTO (Collective Security Treaty Organization) assesses increasing geopolitical risk in the Caucasus, a region of strategic importance for several nations.
+The situation is further complicated by Israeli strikes in south Lebanon, which resulted in the deaths of 11 individuals, including a paramedic. In response, House Republican Don Bacon has called for Russia to be "booted from the UN Security Council", using parliamentary procedure to express his opinion. The Middle East conflict also disrupted the Strait of Hormuz, impacting global oil supply.
 
 Watch for:
 
-* The outcome of France's investigation into Israel's actions in Gaza
-* Iranian President Hassan Rouhani's response to the proposed ceasefire extension with the US
-* Any further developments on China's nuclear expansion
+* Confirmation on Trump's deal with Iran
+* Developments in the Ukraine conflict and potential escalation by other actors
+* Further diplomatic efforts to address Russia's growing influence in international organizations
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
