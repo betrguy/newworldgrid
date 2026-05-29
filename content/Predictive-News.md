@@ -30,15 +30,17 @@ Global tensions have intensified with a series of high-stakes military operation
 
 ## Daily Intelligence Brief - May 29, 2026
 
-Today's headlines paint a complex picture of global realignment. A meeting between Trump and his aides indicates an effort to extend Iran's ceasefire, leveraging diplomatic leverage to secure a deal. Meanwhile, the UK's top intel chief has confirmed that nearly **500,000** Russian soldiers have been killed in Ukraine, highlighting the escalating conflict.
+Key players are repositioning in the global arena. Putin is reacting to the Romania drone attack, stating that the conflict is coming to an end. In contrast, **China** is fueling anti-data center sentiment across the US, with a comment from **Kevin O'Leary**, a **Trump** administration ally.
 
-The situation is further complicated by Israeli strikes in south Lebanon, which resulted in the deaths of 11 individuals, including a paramedic. In response, House Republican Don Bacon has called for Russia to be "booted from the UN Security Council", using parliamentary procedure to express his opinion. The Middle East conflict also disrupted the Strait of Hormuz, impacting global oil supply.
+Former California mayor Tom Butt has admitted secretly working for **China**, spreading Beijing propaganda in the US. The UAE has struck Iran dozens of times with US and Israeli intelligence. The UN has accused Israel of committing sexual violence against Palestinians.
+
+In diplomatic shifts, Trump concluded a Situation Room meeting on Iran without announcing a decision. Days later, the US expelled Chinese journalists following his visit to Xi Jinping in Beijing. These moves indicate actors seeking leverage in a rapidly changing global landscape.
 
 Watch for:
 
-* Confirmation on Trump's deal with Iran
-* Developments in the Ukraine conflict and potential escalation by other actors
-* Further diplomatic efforts to address Russia's growing influence in international organizations
+* China's next steps in anti-data center efforts
+* Iranian responses to UAE strikes and diplomatic pressure
+* Further developments in Trump's Iran policy
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
