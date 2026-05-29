@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-28 18:03 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-05-29 15:58 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,117 +52,175 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces tensions with Obama, UN, and Hamas amidst expanding attacks in Lebanon.",
-    "emojis": "⚔️⚡📈",
+    "summary": "Netanyahu seeks to expand Israel's control in Gaza, while facing criticism over democracy and info war.",
+    "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Obama",
       "Netanyahu",
-      "Hamas",
-      "UN"
+      "Hamas"
     ],
-    "source_count": 44,
-    "timestamp": "06:02 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US and Iran nearing deal to extend truce, with talks focusing on Hormuz toll and nuclear program",
-    "emojis": "💥☢️🕊️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Iran President"
-    ],
-    "source_count": 55,
-    "timestamp": "06:02 PM"
+    "source_count": 20,
+    "timestamp": "03:57 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's solar exports surge, EV market sees significant changes in tech and sales, with rising competition.",
-    "emojis": "",
+    "summary": "China tightens regulatory control, expands space program, and negotiates trade pacts with EU and US.",
+    "emojis": "🚀☢️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "BYD"
+      "China"
     ],
-    "source_count": 6,
-    "timestamp": "06:03 PM"
+    "source_count": 14,
+    "timestamp": "03:57 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Tensions escalate in Lebanon as Israeli strikes kill civilians and Hezbollah launches attacks on Israeli troops.",
-    "emojis": "🪖💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: IRAN",
+    "summary": "US, Iran reach tentative ceasefire agreement pending Trump's approval and US sanctions",
+    "emojis": "🚢🚫🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Hezbollah",
-      "Israeli Army",
-      "Lebanese Army"
+      "US",
+      "Iran"
     ],
-    "source_count": 4,
-    "timestamp": "06:03 PM"
+    "source_count": 23,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "BYD launches e-Van in UK, gold prices stabilize amid geopolitical concerns.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "BYD",
+      "gold"
+    ],
+    "source_count": 2,
+    "timestamp": "03:57 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Oil prices drop as possible agreement to reopen Strait of Hormuz gains momentum.",
-    "emojis": "",
+    "summary": "Nato condemns Russia's 'reckless' actions after drone strikes Romanian apartment block, sparking international concern.",
+    "emojis": "✈️💥",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "US",
-      "NY"
+      "Russia",
+      "Nato"
     ],
     "source_count": 1,
-    "timestamp": "06:03 PM"
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia signs military agreement with Taliban, faces war budget shortfall and NATO criticism over drone incidents.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Taliban",
+      "US",
+      "NATO"
+    ],
+    "source_count": 15,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "France to investigate Israel's treatment of Gaza flotilla members, while Hamas releases footage of Israeli-American hostage.",
+    "emojis": "",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "France",
+      "Hamas",
+      "Israel"
+    ],
+    "source_count": 2,
+    "timestamp": "03:57 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "UCR scientists advance quantum vibronics research, hinting at future energy and computing breakthroughs.",
-    "emojis": "",
+    "summary": "San Francisco school district to deploy largest bidirectional electric bus fleet in US.",
+    "emojis": "🚢",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "University of California, Riverside"
+      "SF School District",
+      "EV Infrastructure News"
     ],
     "source_count": 1,
-    "timestamp": "06:03 PM"
+    "timestamp": "03:58 PM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Pentagon releases new UFO files amid drone and AI advancements, sparking renewed interest in extraterrestrial life.",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian drone crashes in Romania, injuring 2, amid Russia's Ukraine attack",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 15,
+    "timestamp": "03:58 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli strike destroys home and puts Lebanese heritage sites at risk due to frequent attacks.",
+    "emojis": "💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "NBC News",
+      "Middle East Eye",
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 2,
+    "timestamp": "03:58 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "VinFast partners with ChargeZone for India-wide EV charging network expansion",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "ChargeZone",
+      "VinFast"
+    ],
+    "source_count": 1,
+    "timestamp": "03:58 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France demands explanation from Russian envoy over Romania drone incident",
     "emojis": "✈️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "US Department of Defense",
-      "public"
+      "France",
+      "Russian envoy"
     ],
     "source_count": 1,
-    "timestamp": "06:03 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan FM meets Rubio in Washington, a rare diplomatic meeting amid regional tensions.",
-    "emojis": "⚡",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Pakistan",
-      "Rubio"
-    ],
-    "source_count": 1,
-    "timestamp": "06:03 PM"
+    "timestamp": "03:58 PM"
   }
 ];
 
