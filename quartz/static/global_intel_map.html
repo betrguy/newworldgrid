@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-29 18:37 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-05-29 20:27 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,100 +51,111 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China fuels anti-US sentiment, expels journalists, and secretly employs officials to spread propaganda.",
+    "title": "SITREP: IRAN",
+    "summary": "Trump weighs decision on Iran deal, faces opposition from hard-liners and China's involvement.",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US President Trump",
+      "Iran Hard-Liners",
+      "China"
+    ],
+    "source_count": 63,
+    "timestamp": "08:26 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US lawmaker criticizes Congress for failing to assert authority, amid growing political tensions.",
+    "emojis": "⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Middle East Eye",
+      "a US lawmaker"
+    ],
+    "source_count": 1,
+    "timestamp": "08:26 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces criticism for Mossad nominee, accused of sexual violence, and escalating military actions in Lebanon.",
+    "emojis": "🪖💣",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Netanyahu",
+      "UN",
+      "Israeli Military"
+    ],
+    "source_count": 18,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli troops push deeper into Lebanon amid escalation, claims 22 attacks on forces and kills paramedic.",
+    "emojis": "🪖💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel"
+    ],
+    "source_count": 4,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine braces for big attacks from Russia, amid 500k Russian soldier losses and NATO involvement",
+    "emojis": "🪖✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "NATO",
+      "Ukraine"
+    ],
+    "source_count": 9,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia-Kazakhstan ties strengthened, House Republican calls for Russia's removal from UN Security Council.",
     "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "Don Bacon"
+    ],
+    "source_count": 6,
+    "timestamp": "08:27 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China escalates tensions with Trump admin and US media over data centers and propaganda, expels journalists.",
+    "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
       "Trump admin",
-      "Kevin O''Leary"
+      "Kevin O'Leary",
+      "US media"
     ],
-    "source_count": 21,
-    "timestamp": "06:36 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions escalate with Iran amid US strikes, talks on potential deal and ceasefire extension.",
-    "emojis": "💥🕊️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran",
-      "Israel",
-      "UAE"
-    ],
-    "source_count": 54,
-    "timestamp": "06:36 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel amid UN accusations, military operations and rising anti-Israel sentiment.",
-    "emojis": "🪖💣⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "UN",
-      "Israel's military",
-      "Palestinians",
-      "Israeli police",
-      "US Democrats"
-    ],
-    "source_count": 19,
-    "timestamp": "06:36 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine braces for large-scale Russian attacks amid escalating tensions and high Russian military losses.",
-    "emojis": "🪖⚔️💀",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 12,
-    "timestamp": "06:36 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes in Lebanon kill dozens, including civilians and Syrians, amid Pentagon-hosted military talks.",
-    "emojis": "🪖✈️💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Hezbollah",
-      "Pentagon",
-      "Syria"
-    ],
-    "source_count": 4,
-    "timestamp": "06:36 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces criticism, economic strain, and diplomatic tensions amid Ukraine war",
-    "emojis": "⚔️☢️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "House Republican Don Bacon",
-      "Vladimir Putin"
-    ],
-    "source_count": 6,
-    "timestamp": "06:36 PM"
+    "source_count": 22,
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK man admits selling toxic chemicals online, accused of spying on journalist",
+    "summary": "UK man admits aiding suicides by selling toxic chemicals online, spy camera used to target journalist.",
     "emojis": "☣️",
     "lat": 55.3,
     "lng": -3.4,
@@ -154,11 +165,11 @@
       "BBC"
     ],
     "source_count": 2,
-    "timestamp": "06:36 PM"
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Hamas warns against escalation as Israel pushes to take more Gaza territory, raising alarm",
+    "summary": "Israel expands Gaza push, Hamas warns against escalation.",
     "emojis": "⚔️📈",
     "lat": 31.5,
     "lng": 34.46,
@@ -167,69 +178,72 @@
       "Israel",
       "Hamas"
     ],
-    "source_count": 3,
-    "timestamp": "06:36 PM"
+    "source_count": 2,
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "U.N. adds Israeli and Russian forces to list of entities accused of sexual violence",
+    "summary": "UN adds Israel and Russia to list of countries responsible for sexual violence",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "U.N.",
-      "Israeli forces",
-      "Russian forces"
+      "UN",
+      "Israel",
+      "Russia"
     ],
     "source_count": 1,
-    "timestamp": "06:36 PM"
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California announces $55M to expand public EV fast charging infrastructure.",
+    "summary": "California to receive $55M for public EV fast charging expansion.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "Calif. Government",
-      "Private Investors"
+      "CleanTechnica",
+      "California government"
     ],
     "source_count": 1,
-    "timestamp": "06:37 PM"
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "New Christian patriarch leads Iraq's oldest church, amid regional tensions and sectarian divisions.",
-    "emojis": "⚡",
+    "summary": "New patriarch takes role in Iraqi Christian church, amid regional significance and potential implications.",
+    "emojis": "",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
-      "Iraq",
-      "Christian community"
+      "WRAL",
+      "Ottumwa Courier"
     ],
-    "source_count": 1,
-    "timestamp": "06:37 PM"
+    "source_count": 2,
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan unlikely to join Abraham Accords due to regional security concerns and complex diplomatic ties.",
-    "emojis": "",
+    "summary": "Pakistan unlikely to join Abraham Accords due to concerns over Israel-Palestine conflict and regional implications.",
+    "emojis": "⚔️",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
       "Middle East Eye",
-      "Pakistan"
+      "Israel",
+      "Palestine",
+      "United States",
+      "Saudi Arabia"
     ],
     "source_count": 1,
-    "timestamp": "06:37 PM"
+    "timestamp": "08:27 PM"
   },
   {
     "title": "SITREP: US-FL",
-    "summary": "Tiny underwater antenna affects robot communication in murky seas from Lake Wahlberg to ocean depths.",
+    "summary": "Underwater antenna affects robot communication in dark, murky seas from Lake Wahlberg to ocean depths.",
     "emojis": "",
     "lat": 25.76,
     "lng": -80.19,
@@ -238,7 +252,7 @@
       "US-FL"
     ],
     "source_count": 1,
-    "timestamp": "06:37 PM"
+    "timestamp": "08:27 PM"
   }
 ];
 
