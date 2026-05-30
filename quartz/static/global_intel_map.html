@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-29 22:02 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-05-29 22:30 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,75 +51,84 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces economic challenges and diplomatic tensions, with agreements on nuclear power plant signed with Kazakhstan.",
+    "emojis": "☢️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Australia",
+      "Kazakhstan",
+      "United States"
+    ],
+    "source_count": 5,
+    "timestamp": "10:29 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces backlash over Gaza plan, antisemitism concerns, and controversy surrounding Mossad chief pick.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Jewish group",
+      "NJ candidate",
+      "Netanyahu",
+      "Palestinian official",
+      "Mossad Chief",
+      "UN"
+    ],
+    "source_count": 20,
+    "timestamp": "10:29 PM"
+  },
+  {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia prepares massive new strike on Ukraine, while NATO is at risk of being dragged into the conflict.",
+    "summary": "Russia prepares massive new strike on Ukraine, amid rising casualties and NATO involvement in conflict.",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Ukraine",
-      "Russia",
+      "Zelenskyy",
+      "Putin",
       "NATO"
     ],
     "source_count": 11,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in NYC, Israel, and Lebanon amid increasing anti-Israel sentiment and military actions.",
-    "emojis": "🪖⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "CBS News",
-      "Zohran Mamdani",
-      "Haaretz",
-      "JNS.org",
-      "Financial Times",
-      "Facebook",
-      "KABB",
-      "WOAI",
-      "The Jerusalem Post",
-      "WBFF"
-    ],
-    "source_count": 18,
-    "timestamp": "10:02 PM"
+    "timestamp": "10:29 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Trump weighs Iran deal options as tensions escalate, with potential war looming in Hormuz Strait.",
+    "summary": "Tensions rise between Iran and US over nuclear deal, strikes in Lebanon and rallies in Iran",
     "emojis": "💥⚔️☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US Trump",
+      "Trump",
       "Iran"
     ],
-    "source_count": 66,
-    "timestamp": "10:02 PM"
+    "source_count": 64,
+    "timestamp": "10:29 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli troops deepen into Lebanon as talks begin at Pentagon, amid escalating attacks and casualties.",
-    "emojis": "🪖⚔️💀",
+    "summary": "Israeli troops push deeper into Lebanon amid escalating attacks and military talks at the Pentagon.",
+    "emojis": "🪖⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "NBC News",
-      "Boston 25 News",
       "Hezbollah",
-      "Middle East Eye"
+      "Israel"
     ],
     "source_count": 5,
-    "timestamp": "10:02 PM"
+    "timestamp": "10:29 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Hamas rejects proposal to seize Gaza, warns against escalation amid Israeli push to take more territory.",
+    "summary": "Hamas rejects Israeli proposal to take more of Gaza, warning against escalation and violating ceasefire agreement.",
     "emojis": "⚔️🕊️📈",
     "lat": 31.5,
     "lng": 34.46,
@@ -129,11 +138,11 @@
       "Israel"
     ],
     "source_count": 3,
-    "timestamp": "10:02 PM"
+    "timestamp": "10:29 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "US-China tensions rise as Trump visits Xi, leading to expulsions and anti-data center sentiment",
+    "summary": "US-China ties improve under Trump, but tensions rise with journalist expulsions and anti-data center sentiment.",
     "emojis": "☢️⚡",
     "lat": 35.8,
     "lng": 104.1,
@@ -143,89 +152,49 @@
       "Xi",
       "Kevin O'Leary"
     ],
-    "source_count": 24,
-    "timestamp": "10:02 PM"
+    "source_count": 23,
+    "timestamp": "10:29 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US-NY: Chinese mayor pleads guilty, UN adds Israeli and Russian forces to sexual violence list",
-    "emojis": "💣",
+    "summary": "SoCal mayor pleads guilty to Chinese espionage, amid US-NY tensions and ongoing investigations.",
+    "emojis": "💣⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "Chinese agent",
-      "Israeli forces",
-      "Russian forces"
+      "US government",
+      "California mayor"
     ],
-    "source_count": 2,
-    "timestamp": "10:02 PM"
+    "source_count": 1,
+    "timestamp": "10:30 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "US lawmaker criticizes Congress for failing to assert its authority in Middle East policy and governance.",
+    "summary": "US lawmaker criticizes Congress for failing to assert its authority, sparking concerns about legislative power.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
       "Middle East Eye",
-      "US Lawmaker"
+      "a US lawmaker"
     ],
     "source_count": 2,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia strengthens ties with Kazakhstan, amid calls to ban Russia from UN Security Council and lower stock market.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Putin",
-      "Don Bacon"
-    ],
-    "source_count": 4,
-    "timestamp": "10:02 PM"
+    "timestamp": "10:30 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK man Kenneth Law admits selling toxic chemicals online, aiding multiple suicides worldwide.",
+    "summary": "UK man sells toxic chemicals online, admits aiding suicides, faces Canadian victim charges.",
     "emojis": "☣️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Law"
+      "Kenneth Law"
     ],
     "source_count": 1,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Chinese EV resale values in Germany plummet, affecting leasing firms due to trust issues with Chinese brands.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "German Leasing Firms",
-      "Chinese Brands"
-    ],
-    "source_count": 1,
-    "timestamp": "10:02 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "California announces $55M expansion for public EV fast charging infrastructure.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "10:02 PM"
+    "timestamp": "10:30 PM"
   }
 ];
 
