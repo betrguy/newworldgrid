@@ -28,18 +28,22 @@ Global tensions have escalated as multiple countries engage in military operatio
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 29, 2026
+## Daily Intelligence Brief - May 30, 2026
 
-The global order is undergoing significant shifts, with power centers repositioning themselves in a multipolar world.
+A multipolar world is reorganizing, with power centers shifting across the globe.
 
-In the Middle East, tensions escalated between Israel and Iran, with a rally held in protest of the ongoing conflict. **Washington** announced the dismantling of an Iranian group targeting US technology firms. The road that was once Russia's key logistics route is now considered a "highway to hell" after Ukrainian AI drones struck vital convoys supplying Russian troops.
+Russian oil depots have been targeted by drones in Ukraine, with Kyiv taking credit for the attacks (**massive attack**). The situation remains fluid, with ongoing tensions between Russia and Ukraine.
 
-Meanwhile, Ukraine and **Russia** engaged in another round of hostilities, with **Zelenskyy** warning of a "massive new strike". In the United States, a candidate and Israel critic condemned antisemitism pre-election. The dynamics between nations are shifting, with old alliances dissolving and new power structures emerging.
+Meanwhile, conflicts continue to escalate in the Middle East. Iranian negotiators are holding out on finalizing a US deal, citing concerns over **violations**. Tehran has indicated it can withdraw from the agreement if issues are not addressed.
+
+Tensions between Israel and Palestine also remain high, with reports of Israeli strikes targeting Lebanon and a Palestinian doctor killed in Gaza.
+
+The situation is further complicated by ongoing humanitarian crises, such as the Ebola outbreak in DR Congo, which has seen an alarming number of cases reported. Ukraine's Oleksandra Oliynykova has condemned Russia's actions in her country, calling them **evil war**.
 
 Watch for:
-* Increased diplomatic efforts by European countries to diversify their energy sources
-* Further escalation of the conflict in Ukraine, potentially involving more AI drones or other advanced technologies
-* A potential meeting between **Trump** and Iranian leaders to discuss the ongoing conflict
+* Further escalation of drone attacks on Russian targets
+* Iranian withdrawal from US deal over violations
+* Next steps from the Israeli and Palestinian governments
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
