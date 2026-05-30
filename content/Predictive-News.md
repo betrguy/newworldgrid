@@ -30,17 +30,23 @@ A significant escalation of military actions has unfolded along the Israel-Leban
 
 ## Daily Intelligence Brief - May 29, 2026
 
-Key players are repositioning in the global arena. Putin is reacting to the Romania drone attack, stating that the conflict is coming to an end. In contrast, **China** is fueling anti-data center sentiment across the US, with a comment from **Kevin O'Leary**, a **Trump** administration ally.
+Today's headlines indicate a significant escalation in tensions involving the US, Iran, Israel, Russia, and NATO. The situation is complex, but key developments include:
 
-Former California mayor Tom Butt has admitted secretly working for **China**, spreading Beijing propaganda in the US. The UAE has struck Iran dozens of times with US and Israeli intelligence. The UN has accused Israel of committing sexual violence against Palestinians.
+**Trump**'s administration is reportedly considering whether to move forward with an Iran deal, although no decision has been made.
 
-In diplomatic shifts, Trump concluded a Situation Room meeting on Iran without announcing a decision. Days later, the US expelled Chinese journalists following his visit to Xi Jinping in Beijing. These moves indicate actors seeking leverage in a rapidly changing global landscape.
+In a related development, **Israeli troops** have pushed deeper into Lebanon, prompting military talks at the Pentagon between Israeli and US forces.
+
+Meanwhile, **Hezbollah** claims responsibility for 22 attacks on **Israeli forces** in southern Lebanon.
+
+Russia is also reportedly turning Ukraine's drones against NATO interests, although details are scarce.
+
+The Situation Room meeting with **Trump** yielded no update on an Iran deal, suggesting the issue remains unresolved.
 
 Watch for:
 
-* China's next steps in anti-data center efforts
-* Iranian responses to UAE strikes and diplomatic pressure
-* Further developments in Trump's Iran policy
+1. A potential US decision on whether to move forward with the Iran deal, which could have significant implications for global energy markets and regional stability.
+2. Further escalation between Israel and Hezbollah, potentially drawing in other regional actors or international powers.
+3. Russian military movements in Eastern Europe, particularly if they involve Ukraine's drones against NATO targets.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
