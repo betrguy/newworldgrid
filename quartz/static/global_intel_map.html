@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-30 13:13 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-05-31 10:05 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,178 +51,162 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine intensifies assault on Russian oil sites, military destroys naval aircraft and missile systems.",
-    "emojis": "🪖🚢✈️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 15,
-    "timestamp": "01:12 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Violent clashes in Gaza continue despite ceasefire, with multiple injuries and deaths reported.",
-    "emojis": "🪖💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Palestinian",
-      "Israeli"
-    ],
-    "source_count": 7,
-    "timestamp": "01:12 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes continue in Lebanon, targeting cities and civilians, with Hezbollah firing rockets in retaliation.",
-    "emojis": "🪖💥🚀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Hezbollah"
-    ],
-    "source_count": 10,
-    "timestamp": "01:12 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces rocket attacks, expands operations in Lebanon and Gaza, amid concerns about government size and UN blacklisting.",
-    "emojis": "⚔️🚀",
+    "summary": "Israel expands military operations, seizes castles and issues evacuation orders in Lebanon and Gaza.",
+    "emojis": "🪖",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Hezbollah",
-      "IDF",
-      "UN",
-      "Israel"
+      "Israel",
+      "Lebanon",
+      "Gaza"
     ],
-    "source_count": 29,
-    "timestamp": "01:12 PM"
+    "source_count": 55,
+    "timestamp": "10:04 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California launches $1B rebate program to encourage adoption of electric semis, hopes to boost industry growth.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California",
+      "Industry"
+    ],
+    "source_count": 1,
+    "timestamp": "10:04 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine strikes Russian energy targets, denies striking Zaporizhzhia nuclear plant amid Russia's retaliation and IAEA warnings.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 12,
+    "timestamp": "10:04 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran, US engage in tensions over deal violations and blockade, while UAE joins Israeli attack on Iran.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran negotiations stall amid Trump's hardline stance, Israel and Iran tensions escalate in Middle East.",
+    "emojis": "☢️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
       "Iran",
-      "UAE"
+      "Israel"
     ],
-    "source_count": 42,
-    "timestamp": "01:12 PM"
+    "source_count": 39,
+    "timestamp": "10:04 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China expands global influence, urges stable military ties and trade cooperation amid growing security concerns.",
-    "emojis": "🪖⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: LEBANON",
+    "summary": "Israel launches large-scale offensive in southern Lebanon, sparking Hezbollah retaliation and civilian casualties.",
+    "emojis": "💥➡️💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "China",
-      "US",
-      "Australia"
+      "Israeli forces",
+      "Hezbollah",
+      "French government"
     ],
-    "source_count": 19,
-    "timestamp": "01:12 PM"
+    "source_count": 8,
+    "timestamp": "10:04 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces escalating drone attacks, sanctions evasion & diplomatic tensions amid ongoing conflict with Ukraine.",
-    "emojis": "✈️⚔️🚫",
+    "summary": "Russia spreads false claims, launches satellites, damages Nova Poshta, and recruits youth amidst ongoing conflict.",
+    "emojis": "🚢⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Estonia",
-      "Russia",
-      "Ukraine"
+      "RUSSIA"
     ],
-    "source_count": 14,
-    "timestamp": "01:12 PM"
+    "source_count": 11,
+    "timestamp": "10:04 AM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "US maintains blockade of Strait of Hormuz amid ongoing tensions in the Middle East.",
+    "title": "SITREP: CHINA",
+    "summary": "China news: cooperation, militarism, science, healthcare, and natural disasters amidst tensions with Taiwan and US.",
     "emojis": "⚡",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Pentagon",
+      "Canada",
+      "Japan",
+      "China",
+      "Taiwan",
       "US"
     ],
-    "source_count": 1,
-    "timestamp": "01:13 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Texas drivers and experts discuss EV adoption and infrastructure development in state.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Texas drivers",
-      "experts"
-    ],
-    "source_count": 2,
-    "timestamp": "01:13 PM"
+    "source_count": 18,
+    "timestamp": "10:04 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK to develop underwater drone tech with US and Australia under Aukus pact for undersea protection.",
-    "emojis": "🪖🚢✈️",
+    "summary": "UK DIY robot uses pneumatic 'air-muscles' instead of motors, invented by Richard Greenhill in 1987",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "US",
-      "UK",
-      "Australia"
+      "Richard Greenhill"
     ],
     "source_count": 1,
-    "timestamp": "01:13 PM"
+    "timestamp": "10:05 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Texas sees influx of new Texans, Latino doubts impact Paxton's Senate bid due to Trump cloud",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Paxton",
+      "Trump"
+    ],
+    "source_count": 1,
+    "timestamp": "10:05 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Assad's regime is accused of killing chess champion's 6 children, sparking international concern and condemnation.",
+    "emojis": "💀",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Syria",
+      "Assad's regime"
+    ],
+    "source_count": 1,
+    "timestamp": "10:05 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India's EV sales expected to double as electric car adoption gains momentum.",
+    "summary": "V-Green and ChargeZone partner to build VinFast EV charging network across India.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
-      "Electric Vehicle industry"
+      "V-Green",
+      "ChargeZone"
     ],
     "source_count": 1,
-    "timestamp": "01:13 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Real estate agents predict Bay Area home upgrades will increase property value, but its payoff is uncertain.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "real estate agents",
-      "homeowners"
-    ],
-    "source_count": 1,
-    "timestamp": "01:13 PM"
+    "timestamp": "10:05 AM"
   }
 ];
 
