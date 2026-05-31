@@ -28,22 +28,20 @@ A large-scale military operation has escalated tensions in the region, with mult
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 30, 2026
+## Daily Intelligence Brief - May 31, 2026
 
-A multipolar world is reorganizing, with power centers shifting across the globe.
+The global landscape is shifting as multiple actors reposition for a multipolar world.
 
-Russian oil depots have been targeted by drones in Ukraine, with Kyiv taking credit for the attacks (**massive attack**). The situation remains fluid, with ongoing tensions between Russia and Ukraine.
+**Ukraine** struck **Russian pipeline** and an oil depot, citing this as necessary to halt further Russian advances (**RTE.ie**). Russia remains under pressure, with President Zelenskyy emphasizing the need for international pressure to stop attacks on Ukrainian cities. 
 
-Meanwhile, conflicts continue to escalate in the Middle East. Iranian negotiators are holding out on finalizing a US deal, citing concerns over **violations**. Tehran has indicated it can withdraw from the agreement if issues are not addressed.
+In parallel, diplomatic efforts are ongoing in Iran, where **Iran demands concrete concessions** from the US before signing an agreement (**Yahoo**). Meanwhile, Israel has expanded its operations in southern Lebanon, capturing a medieval castle as part of this offensive (**NPR**).
 
-Tensions between Israel and Palestine also remain high, with reports of Israeli strikes targeting Lebanon and a Palestinian doctor killed in Gaza.
-
-The situation is further complicated by ongoing humanitarian crises, such as the Ebola outbreak in DR Congo, which has seen an alarming number of cases reported. Ukraine's Oleksandra Oliynykova has condemned Russia's actions in her country, calling them **evil war**.
+The US also fired at a commercial ship while enforcing a blockade on Iranian ports (**WBAL-TV**), and **US fires at ship in Hormuz**, highlighting the ongoing tensions.
 
 Watch for:
-* Further escalation of drone attacks on Russian targets
-* Iranian withdrawal from US deal over violations
-* Next steps from the Israeli and Palestinian governments
+- Further escalation of Iranian negotiations
+- Expanded Israeli military operations in Lebanon
+- Potential response from Russia to Ukraine's strikes
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
