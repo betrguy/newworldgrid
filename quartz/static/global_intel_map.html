@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-05-31 10:05 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-06-01 08:11 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,51 +52,47 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel expands military operations, seizes castles and issues evacuation orders in Lebanon and Gaza.",
-    "emojis": "🪖",
+    "summary": "Israel continues military escalation in Lebanon, amid EU calls for halt and diplomatic efforts to deepen ties.",
+    "emojis": "🪖💥⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Lebanon",
-      "Gaza"
+      "Hamas",
+      "Hezbollah",
+      "EU",
+      "US",
+      "Paraguay",
+      "Lebanon"
     ],
-    "source_count": 55,
-    "timestamp": "10:04 AM"
+    "source_count": 27,
+    "timestamp": "08:10 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "California launches $1B rebate program to encourage adoption of electric semis, hopes to boost industry growth.",
+    "title": "SITREP: CHINA",
+    "summary": "China's rare blue micro moon, Pursuit of Jade, and economic & security concerns dominate headlines.",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "California",
-      "Industry"
+      "Yahoo News UK",
+      "Netflix",
+      "China Zhejiang Tourism",
+      "Philippines",
+      "Mirage News",
+      "OECD",
+      "Bloomberg.com",
+      "BYD"
     ],
-    "source_count": 1,
-    "timestamp": "10:04 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine strikes Russian energy targets, denies striking Zaporizhzhia nuclear plant amid Russia's retaliation and IAEA warnings.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 12,
-    "timestamp": "10:04 AM"
+    "source_count": 14,
+    "timestamp": "08:10 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran negotiations stall amid Trump's hardline stance, Israel and Iran tensions escalate in Middle East.",
-    "emojis": "☢️⚡",
+    "summary": "Iran unrest escalates with strikes, hangings, and clashes amid stalled peace talks and regional tensions.",
+    "emojis": "💥⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -105,108 +101,134 @@
       "Iran",
       "Israel"
     ],
-    "source_count": 39,
-    "timestamp": "10:04 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israel launches large-scale offensive in southern Lebanon, sparking Hezbollah retaliation and civilian casualties.",
-    "emojis": "💥➡️💀",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli forces",
-      "Hezbollah",
-      "French government"
-    ],
-    "source_count": 8,
-    "timestamp": "10:04 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia spreads false claims, launches satellites, damages Nova Poshta, and recruits youth amidst ongoing conflict.",
-    "emojis": "🚢⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "RUSSIA"
-    ],
-    "source_count": 11,
-    "timestamp": "10:04 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China news: cooperation, militarism, science, healthcare, and natural disasters amidst tensions with Taiwan and US.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Canada",
-      "Japan",
-      "China",
-      "Taiwan",
-      "US"
-    ],
-    "source_count": 18,
-    "timestamp": "10:04 AM"
+    "source_count": 42,
+    "timestamp": "08:10 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK DIY robot uses pneumatic 'air-muscles' instead of motors, invented by Richard Greenhill in 1987",
-    "emojis": "",
+    "summary": "UK supports France in intercepting sanctioned Russian oil tanker, amid Middle East tensions and fuel shortages.",
+    "emojis": "🚫⚡",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Richard Greenhill"
+      "France",
+      "UK"
     ],
-    "source_count": 1,
-    "timestamp": "10:05 AM"
+    "source_count": 5,
+    "timestamp": "08:10 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia intensifies drone attacks on Ukraine, targeting oil pipeline stations and refineries.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 4,
+    "timestamp": "08:10 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France intercepts and seizes multiple sanctioned Russian-linked oil tankers in Atlantic Ocean.",
+    "emojis": "🚢🚫",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "Russia"
+    ],
+    "source_count": 6,
+    "timestamp": "08:10 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "France intercepts Russia-linked oil tanker, Kremlin calls it piracy, amid escalating tensions in Atlantic and Arctic regions.",
+    "emojis": "💥⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "France",
+      "Russia"
+    ],
+    "source_count": 16,
+    "timestamp": "08:10 AM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "Texas sees influx of new Texans, Latino doubts impact Paxton's Senate bid due to Trump cloud",
+    "summary": "Brazil and Mexico's EV adoption driven by domestic politics & global pressures, according to recent study.",
     "emojis": "",
     "lat": 23.6,
     "lng": -102.5,
     "location": "MEXICO",
     "actors": [
-      "Paxton",
-      "Trump"
+      "Mexico",
+      "Brazil"
+    ],
+    "source_count": 2,
+    "timestamp": "08:10 AM"
+  },
+  {
+    "title": "SITREP: AFGHANISTAN",
+    "summary": "Tatarstan offers to rebuild Taliban military equipment, amid efforts to stabilize Afghanistan's post-conflict economy.",
+    "emojis": "🪖⚔️",
+    "lat": 33.9,
+    "lng": 67.7,
+    "location": "AFGHANISTAN",
+    "actors": [
+      "Russian Trade Official",
+      "Taliban",
+      "Tatarstan"
     ],
     "source_count": 1,
-    "timestamp": "10:05 AM"
+    "timestamp": "08:11 AM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Assad's regime is accused of killing chess champion's 6 children, sparking international concern and condemnation.",
-    "emojis": "💀",
+    "summary": "Syria's gov returns some Alawi lands, maintains control over others in land restitution efforts.",
+    "emojis": "",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "Syria",
-      "Assad's regime"
+      "SYRIA GOVERNMENT",
+      "ALAWI COMMUNITY"
     ],
     "source_count": 1,
-    "timestamp": "10:05 AM"
+    "timestamp": "08:11 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "V-Green and ChargeZone partner to build VinFast EV charging network across India.",
+    "summary": "India sees 42% growth in Tata Motors sales, EV registrations reach 26,319 units with 6.4% penetration.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "V-Green",
-      "ChargeZone"
+      "Tata Motors",
+      "Indian Market"
+    ],
+    "source_count": 3,
+    "timestamp": "08:11 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan's manufacturing sector remains stable despite geopolitical tensions in April.",
+    "emojis": "⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Focus Taiwan"
     ],
     "source_count": 1,
-    "timestamp": "10:05 AM"
+    "timestamp": "08:11 AM"
   }
 ];
 
