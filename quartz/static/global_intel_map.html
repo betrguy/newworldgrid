@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-01 08:11 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-06-01 13:55 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,48 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel continues military escalation in Lebanon, amid EU calls for halt and diplomatic efforts to deepen ties.",
-    "emojis": "🪖💥⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Hamas",
-      "Hezbollah",
-      "EU",
-      "US",
-      "Paraguay",
-      "Lebanon"
-    ],
-    "source_count": 27,
-    "timestamp": "08:10 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China's rare blue micro moon, Pursuit of Jade, and economic & security concerns dominate headlines.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Yahoo News UK",
-      "Netflix",
-      "China Zhejiang Tourism",
-      "Philippines",
-      "Mirage News",
-      "OECD",
-      "Bloomberg.com",
-      "BYD"
-    ],
-    "source_count": 14,
-    "timestamp": "08:10 AM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran unrest escalates with strikes, hangings, and clashes amid stalled peace talks and regional tensions.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "Iran suspends US talks amid escalating tensions with Israel over Lebanon, complicating peace efforts.",
+    "emojis": "🪖🕊️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -101,134 +62,151 @@
       "Iran",
       "Israel"
     ],
-    "source_count": 42,
-    "timestamp": "08:10 AM"
+    "source_count": 54,
+    "timestamp": "01:54 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK supports France in intercepting sanctioned Russian oil tanker, amid Middle East tensions and fuel shortages.",
-    "emojis": "🚫⚡",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: ISRAEL",
+    "summary": "Ultra-Orthodox protesters block roads, Hezbollah seeks ceasefire, and Israel takes control of ancient fort.",
+    "emojis": "🪖🕊️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "France",
-      "UK"
+      "Hezbollah",
+      "Israel",
+      "Ultra-Orthodox protesters"
     ],
-    "source_count": 5,
-    "timestamp": "08:10 AM"
+    "source_count": 30,
+    "timestamp": "01:54 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies drone attacks on Ukraine, targeting oil pipeline stations and refineries.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Ukraine launches attacks on Russia, Kremlin vows response, while Crimea faces fuel shortage and oil facility attacks.",
+    "emojis": "💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "Kremlin",
+      "Ukraine",
       "Russia",
-      "Ukraine"
+      "Crimea"
+    ],
+    "source_count": 3,
+    "timestamp": "01:54 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces growing tensions, protests, and crises amid economic struggles, nuclear threats, and human rights abuses.",
+    "emojis": "🪖☢️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Bloomberg",
+      "Meduza",
+      "Premier Christian News",
+      "Dailynewsegypt",
+      "Yahoo",
+      "EFE",
+      "Journal-News.com",
+      "CBS News",
+      "The Moscow Times"
+    ],
+    "source_count": 19,
+    "timestamp": "01:54 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China strengthens EV sales, develops AI tool, and reinforces trade relationships amidst geopolitical tensions.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "U.S.",
+      "China",
+      "NYT",
+      "Serbia",
+      "Japan"
+    ],
+    "source_count": 12,
+    "timestamp": "01:54 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Escalating Israeli attacks in Lebanon threaten to collapse fragile ceasefire, causing further regional instability.",
+    "emojis": "⚔️💀🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Iran",
+      "Lebanon"
     ],
     "source_count": 4,
-    "timestamp": "08:10 AM"
+    "timestamp": "01:54 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France intercepts and seizes multiple sanctioned Russian-linked oil tankers in Atlantic Ocean.",
-    "emojis": "🚢🚫",
+    "summary": "France takes action against Israel and intercepts sanctioned tanker departing Russian port.",
+    "emojis": "🚫",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
       "France",
+      "Israel",
       "Russia"
-    ],
-    "source_count": 6,
-    "timestamp": "08:10 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "France intercepts Russia-linked oil tanker, Kremlin calls it piracy, amid escalating tensions in Atlantic and Arctic regions.",
-    "emojis": "💥⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "France",
-      "Russia"
-    ],
-    "source_count": 16,
-    "timestamp": "08:10 AM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Brazil and Mexico's EV adoption driven by domestic politics & global pressures, according to recent study.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mexico",
-      "Brazil"
     ],
     "source_count": 2,
-    "timestamp": "08:10 AM"
+    "timestamp": "01:54 PM"
   },
   {
-    "title": "SITREP: AFGHANISTAN",
-    "summary": "Tatarstan offers to rebuild Taliban military equipment, amid efforts to stabilize Afghanistan's post-conflict economy.",
-    "emojis": "🪖⚔️",
-    "lat": 33.9,
-    "lng": 67.7,
-    "location": "AFGHANISTAN",
+    "title": "SITREP: GERMANY",
+    "summary": "Lucid Motors offers gravity and air bonuses to boost EV sales in Germany and Netherlands for Q4.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "Russian Trade Official",
-      "Taliban",
-      "Tatarstan"
+      "Lucid Motors",
+      "German/Netherlands consumers"
     ],
     "source_count": 1,
-    "timestamp": "08:11 AM"
+    "timestamp": "01:54 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK denies entry to Hasan Piker & Cenk Uygur, seizes sanctioned Russian tanker with French backing.",
+    "emojis": "⚔️🚫",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "France",
+      "Hasan Piker",
+      "Cenk Uygur"
+    ],
+    "source_count": 4,
+    "timestamp": "01:54 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Syria's gov returns some Alawi lands, maintains control over others in land restitution efforts.",
+    "summary": "Trump appoints Tom Barrack as Special Envoy to consolidate Middle East policy in Iraq and Syria.",
     "emojis": "",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "SYRIA GOVERNMENT",
-      "ALAWI COMMUNITY"
+      "Donald Trump",
+      "Tom Barrack"
     ],
     "source_count": 1,
-    "timestamp": "08:11 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India sees 42% growth in Tata Motors sales, EV registrations reach 26,319 units with 6.4% penetration.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Tata Motors",
-      "Indian Market"
-    ],
-    "source_count": 3,
-    "timestamp": "08:11 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan's manufacturing sector remains stable despite geopolitical tensions in April.",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Focus Taiwan"
-    ],
-    "source_count": 1,
-    "timestamp": "08:11 AM"
+    "timestamp": "01:55 PM"
   }
 ];
 
