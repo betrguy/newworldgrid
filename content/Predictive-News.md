@@ -28,20 +28,21 @@ Global tensions have escalated with a series of high-stakes military actions, in
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - May 31, 2026
+## Daily Intelligence Brief - Jun 01, 2026
 
-The global landscape is shifting as multiple actors reposition for a multipolar world.
+Situation Brief:
 
-**Ukraine** struck **Russian pipeline** and an oil depot, citing this as necessary to halt further Russian advances (**RTE.ie**). Russia remains under pressure, with President Zelenskyy emphasizing the need for international pressure to stop attacks on Ukrainian cities. 
+The situation remains fluid, with multiple actors repositioning in response to the shifting global landscape. Iran's latest actions indicate continued instability, with two protestors hanged over January mosque arson and ongoing tensions surrounding a peace deal that remains undecided after weekend attacks.
 
-In parallel, diplomatic efforts are ongoing in Iran, where **Iran demands concrete concessions** from the US before signing an agreement (**Yahoo**). Meanwhile, Israel has expanded its operations in southern Lebanon, capturing a medieval castle as part of this offensive (**NPR**).
+Meanwhile, Russia is escalating its military efforts against Ukraine, firing a record 8,150 drones in May, according to AFP analysis. This marks a significant increase in drone usage by the Russian military, suggesting a continued attempt to wear down Ukrainian defenses through sheer attrition.
 
-The US also fired at a commercial ship while enforcing a blockade on Iranian ports (**WBAL-TV**), and **US fires at ship in Hormuz**, highlighting the ongoing tensions.
+France has also taken action, seizing a sanctioned Russian oil tanker with UK support, leveraging its combined naval and aerial capabilities to execute the operation.
 
 Watch for:
-- Further escalation of Iranian negotiations
-- Expanded Israeli military operations in Lebanon
-- Potential response from Russia to Ukraine's strikes
+
+* Further escalation of Iranian-Israeli tensions
+* Potential impact on global oil markets due to France's sanctions operations
+* Increased drone usage by Russia in future military operations
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
