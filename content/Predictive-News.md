@@ -28,17 +28,26 @@ Global tensions have escalated with a series of devastating military strikes and
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 01, 2026
+## Daily Intelligence Brief - Jun 02, 2026
 
-The global landscape is shifting, with multiple power centers emerging. Iran suspended US talks over Israeli operations in Lebanon, leveraging its military influence to block the dialogue. Meanwhile, ultra-Orthodox protesters in Israel blocked roads and trains, exercising their grassroots leverage to push back against the government's draft policies.
+Key Players and Actions:
 
-Russia protested Lithuania over desecration of Soviet soldiers' graves, using diplomatic channels to express its discontent. China's strong EV numbers sent a message to the US, demonstrating its growing technological prowess. Trump claimed a deal with Iran would work out well despite ongoing tensions, but his statement's significance is unclear without further context.
+* **Israel**: Violently struck southern Lebanon despite Trump's efforts to shore up the ceasefire.
+* US Senator Marco Rubio: Proposed a two-step approach to the Iran deal, which includes providing sanctions relief in exchange for nuclear concessions from Tehran.
+* **Netanyahu**: Stated that the IDF will maintain its course in Lebanon and rejected EU involvement as a mediator in Iran talks.
+* **Hezbollah**: Rejects a "partial ceasefire" and maintains that US President Trump is not suspending talks with Iran.
+
+Leverage Used:
+
+* Israel's military strike may be an attempt to test US resolve on the issue or gain leverage by bypassing Trump's efforts to de-escalate tensions.
+* Rubio's proposal may represent an attempt by the US to regain influence in the region and limit Iranian expansion.
+* Netanyahu's rejection of EU mediation may indicate a desire to maintain Israel's direct involvement in regional conflicts.
 
 Watch for:
 
-* **Iran's** next steps in its dealings with the US and Israel
-* A potential escalation of protests in Israel over military draft policies
-* **Russia's** follow-up actions on Lithuania following desecration of Soviet soldiers' graves
+* Further escalations in violence between Israel and Lebanon/Hizballah
+* The outcome of US-Iran negotiations, particularly if sanctions relief is provided
+* A response from the European Union regarding its role as mediator in Iran talks
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
