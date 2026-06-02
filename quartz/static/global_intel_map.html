@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-01 13:55 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-06-02 18:40 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,162 +51,132 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel continues to engage in military actions in Lebanon despite Trump's efforts at ceasefire, sparking controversy.",
+    "emojis": "🪖💥🕊️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hezbollah",
+      "Trump"
+    ],
+    "source_count": 31,
+    "timestamp": "06:39 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Iran suspends US talks amid escalating tensions with Israel over Lebanon, complicating peace efforts.",
-    "emojis": "🪖🕊️⚡",
+    "summary": "Iran nuclear talks stall amid US-Iran tensions, Netanyahu's warnings, and Hezbollah's rejection.",
+    "emojis": "⚔️☢️🚫",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran",
-      "Israel"
-    ],
-    "source_count": 54,
-    "timestamp": "01:54 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Ultra-Orthodox protesters block roads, Hezbollah seeks ceasefire, and Israel takes control of ancient fort.",
-    "emojis": "🪖🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Hezbollah",
       "Israel",
-      "Ultra-Orthodox protesters"
+      "Hezbollah",
+      "Iran"
     ],
-    "source_count": 30,
-    "timestamp": "01:54 PM"
+    "source_count": 49,
+    "timestamp": "06:39 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine launches attacks on Russia, Kremlin vows response, while Crimea faces fuel shortage and oil facility attacks.",
-    "emojis": "💥⚔️",
+    "summary": "Russia launches massive strikes on Ukraine, killing at least 17 and injuring over 90, escalating brutal conflict.",
+    "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Kremlin",
-      "Ukraine",
       "Russia",
-      "Crimea"
+      "Ukraine"
     ],
-    "source_count": 3,
-    "timestamp": "01:54 PM"
+    "source_count": 15,
+    "timestamp": "06:40 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces growing tensions, protests, and crises amid economic struggles, nuclear threats, and human rights abuses.",
-    "emojis": "🪖☢️⚡",
+    "summary": "Russia seeks control of Arctic region, sparking concerns over potential military strikes on northern Europe.",
+    "emojis": "🪖💥",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Bloomberg",
-      "Meduza",
-      "Premier Christian News",
-      "Dailynewsegypt",
-      "Yahoo",
-      "EFE",
-      "Journal-News.com",
-      "CBS News",
-      "The Moscow Times"
+      "Russia",
+      "Europe"
     ],
-    "source_count": 19,
-    "timestamp": "01:54 PM"
+    "source_count": 6,
+    "timestamp": "06:40 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "President Trump issues narrower AI executive order, dodging initial restrictions",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Trump",
+      "US government"
+    ],
+    "source_count": 1,
+    "timestamp": "06:40 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China strengthens EV sales, develops AI tool, and reinforces trade relationships amidst geopolitical tensions.",
+    "summary": "China cuts arts degrees, while embracing business interests & foreign ties amid global shifts and diplomatic tensions.",
     "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "U.S.",
-      "China",
-      "NYT",
-      "Serbia",
-      "Japan"
+      "China"
     ],
-    "source_count": 12,
-    "timestamp": "01:54 PM"
+    "source_count": 8,
+    "timestamp": "06:40 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Escalating Israeli attacks in Lebanon threaten to collapse fragile ceasefire, causing further regional instability.",
-    "emojis": "⚔️💀🕊️",
+    "summary": "Israeli air strikes hit multiple towns in southern Lebanon, causing damage and displacement.",
+    "emojis": "💥",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
       "Israel",
-      "Iran",
-      "Lebanon"
+      "Hezbollah"
     ],
-    "source_count": 4,
-    "timestamp": "01:54 PM"
+    "source_count": 1,
+    "timestamp": "06:40 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California proposes $200M EV incentive program to boost clean transportation adoption.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California",
+      " EV industry"
+    ],
+    "source_count": 1,
+    "timestamp": "06:40 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "France takes action against Israel and intercepts sanctioned tanker departing Russian port.",
-    "emojis": "🚫",
+    "summary": "France limits Israeli participation in Paris Defense Show to reduce tensions with Palestinians.",
+    "emojis": "⚡",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "France",
-      "Israel",
-      "Russia"
-    ],
-    "source_count": 2,
-    "timestamp": "01:54 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Lucid Motors offers gravity and air bonuses to boost EV sales in Germany and Netherlands for Q4.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Lucid Motors",
-      "German/Netherlands consumers"
+      "French Government",
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "01:54 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK denies entry to Hasan Piker & Cenk Uygur, seizes sanctioned Russian tanker with French backing.",
-    "emojis": "⚔️🚫",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK",
-      "France",
-      "Hasan Piker",
-      "Cenk Uygur"
-    ],
-    "source_count": 4,
-    "timestamp": "01:54 PM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Trump appoints Tom Barrack as Special Envoy to consolidate Middle East policy in Iraq and Syria.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Donald Trump",
-      "Tom Barrack"
-    ],
-    "source_count": 1,
-    "timestamp": "01:55 PM"
+    "timestamp": "06:40 PM"
   }
 ];
 
