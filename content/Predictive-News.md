@@ -28,26 +28,17 @@ Escalating tensions across multiple fronts have created a complex web of conflic
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 02, 2026
+## Daily Intelligence Brief - Jun 03, 2026
 
-Key Players and Actions:
+Key developments in the region include Iran's attacks on Kuwait and Bahrain, followed by Ukraine striking St. Petersburg as Russia hosts its economic forum. Ukrainian drones targeted a Baltic Fleet warship near St. Petersburg, while Russia also responded to Kyiv's strikes with its own countermeasures.
 
-* **Israel**: Violently struck southern Lebanon despite Trump's efforts to shore up the ceasefire.
-* US Senator Marco Rubio: Proposed a two-step approach to the Iran deal, which includes providing sanctions relief in exchange for nuclear concessions from Tehran.
-* **Netanyahu**: Stated that the IDF will maintain its course in Lebanon and rejected EU involvement as a mediator in Iran talks.
-* **Hezbollah**: Rejects a "partial ceasefire" and maintains that US President Trump is not suspending talks with Iran.
-
-Leverage Used:
-
-* Israel's military strike may be an attempt to test US resolve on the issue or gain leverage by bypassing Trump's efforts to de-escalate tensions.
-* Rubio's proposal may represent an attempt by the US to regain influence in the region and limit Iranian expansion.
-* Netanyahu's rejection of EU mediation may indicate a desire to maintain Israel's direct involvement in regional conflicts.
+Iran has not directly engaged with the US since recent days, despite escalating tensions in the Middle East and stalled peace talks over attacks in Lebanon. The oil price has rallied as tensions escalate, reflecting growing concern about supply disruptions.
 
 Watch for:
 
-* Further escalations in violence between Israel and Lebanon/Hizballah
-* The outcome of US-Iran negotiations, particularly if sanctions relief is provided
-* A response from the European Union regarding its role as mediator in Iran talks
+* **US military presence** in the region to increase in response to Iranian attacks on its allies.
+* **Russian economic sanctions** against Ukraine to intensify ahead of Russia's hosting of its economic forum.
+* **Lebanese government instability** to worsen due to ongoing attacks attributed to Iran-backed militants.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
