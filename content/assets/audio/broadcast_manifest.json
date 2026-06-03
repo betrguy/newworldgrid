@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-02T18:43:41.067559",
+  "generatedAt": "2026-06-03T07:55:47.904238",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Global tensions have escalated with a series of devastating military strikes and diplomatic setbacks, including a major escalation in Ukraine and ongoing nuclear talks that appear stalled. This intense climate has led to concerns about potential disruptions to global supply chains."
+    "index_master_summary.wav": "Alright then, let's dive into today's findings. Escalating tensions across multiple fronts have created a complex web of conflicts that threaten to destabilize key regions, including the Middle East, Eastern Europe, and Asia. The US grid is shifting towards decentralized energy management with the integration of battery storage and spintronic computing advancements. As a result, the grid's physical reality has undergone a significant transformation with the expansion of energy storage capacity equivalent to 20 nuclear reactors over the past four years. On the optimism front, we're seeing significant breakthroughs in AI-assisted mental health support. Light powered chips are enhancing AI's speed and efficiency, paving new pathways for rapid mental health assistance. Young people are increasingly turning to AI chatbots for mental health assistance, an increase from previous years. Amazon's Kuiper project accelerates satellite production for its broadband constellation while Rivian's electric vehicle charging network rapidly expands alongside Tesla's growing EV infrastructure investments. SpaceX's Starlink has reached 5,420 operational satellites, leading companies to adapt and innovate rapidly as they strive to establish a presence in the space-based infrastructure development arena. The oil price has rallied as tensions escalate, reflecting growing concern about supply disruptions. We may see US military presence increase in response to Iranian attacks on its allies. Russian economic sanctions against Ukraine will likely intensify ahead of Russia hosting its economic forum. On the geopolitical front, we have seen minor fluctuations in Earth's geomagnetic field, translating to minimal disruptions for satellites and normal transmission and reception of signals via HF radio communications."
   },
   "durations": {
-    "index_master_summary.wav": "00:20"
+    "index_master_summary.wav": "02:07"
   }
 }
