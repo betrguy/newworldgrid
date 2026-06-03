@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-02 18:40 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-06-03 07:51 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,131 +52,162 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel continues to engage in military actions in Lebanon despite Trump's efforts at ceasefire, sparking controversy.",
-    "emojis": "🪖💥🕊️",
+    "summary": "Netanyahu faces pressure from US, Hezbollah, and Israeli voters amidst escalated tensions with Lebanon.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
+      "US",
       "Hezbollah",
-      "Trump"
+      "Israeli Voters",
+      "Netanyahu"
     ],
-    "source_count": 31,
-    "timestamp": "06:39 PM"
+    "source_count": 32,
+    "timestamp": "07:50 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran nuclear talks stall amid US-Iran tensions, Netanyahu's warnings, and Hezbollah's rejection.",
-    "emojis": "⚔️☢️🚫",
+    "summary": "Iran and US exchange strikes amid escalating Middle East tensions, talks on nuclear agreement stall.",
+    "emojis": "💥⚔️☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Israel",
-      "Hezbollah",
       "Iran"
     ],
-    "source_count": 49,
-    "timestamp": "06:39 PM"
+    "source_count": 28,
+    "timestamp": "07:50 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Trump expresses concern over Israel-Lebanon tensions, while Lebanon faces acute food insecurity and drone attacks.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Trump",
+      "Hezbollah",
+      "Israeli premier",
+      "Lebanese population"
+    ],
+    "source_count": 4,
+    "timestamp": "07:51 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia launches massive strikes on Ukraine, killing at least 17 and injuring over 90, escalating brutal conflict.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Ukraine targets St. Petersburg during Russia's 'Davos' economic forum, escalating conflict.",
+    "emojis": "🚢✈️💥",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 15,
-    "timestamp": "06:40 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia seeks control of Arctic region, sparking concerns over potential military strikes on northern Europe.",
-    "emojis": "🪖💥",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Europe"
-    ],
-    "source_count": 6,
-    "timestamp": "06:40 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "President Trump issues narrower AI executive order, dodging initial restrictions",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Trump",
-      "US government"
-    ],
-    "source_count": 1,
-    "timestamp": "06:40 PM"
+    "source_count": 8,
+    "timestamp": "07:51 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China cuts arts degrees, while embracing business interests & foreign ties amid global shifts and diplomatic tensions.",
+    "summary": "China announces Bitcoin decision, biorecycling delays, global sales fall, trade tensions rise",
     "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "China",
+      "US (Trump administration)",
+      "European premium brands"
+    ],
+    "source_count": 15,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan witnesses rapid technological advancements, shifting geopolitical dynamics in the Taiwan Strait region.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan",
       "China"
     ],
-    "source_count": 8,
-    "timestamp": "06:40 PM"
+    "source_count": 2,
+    "timestamp": "07:51 AM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli air strikes hit multiple towns in southern Lebanon, causing damage and displacement.",
-    "emojis": "💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan's strict anti-Zionism laws hinder Palestinian refugees' passport applications and imprison critics.",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Middle East Monitor"
+    ],
+    "source_count": 1,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia ramps up AI efforts, boosts air defense, and hosts economic forum amidst Ukraine tensions and global presence expansion.",
+    "emojis": "✈️💥⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 12,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "UN Human Rights condemns Israeli attacks on Gaza police personnel, calling for investigations and accountability.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
       "Israel",
-      "Hezbollah"
+      "UN Human Rights"
     ],
     "source_count": 1,
-    "timestamp": "06:40 PM"
+    "timestamp": "07:51 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "California proposes $200M EV incentive program to boost clean transportation adoption.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "California",
-      " EV industry"
-    ],
-    "source_count": 1,
-    "timestamp": "06:40 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France limits Israeli participation in Paris Defense Show to reduce tensions with Palestinians.",
+    "title": "SITREP: UK",
+    "summary": "UK equities fall amid Middle East tensions, while Google faces scrutiny over AI scraping and Munro plans UK EV factory.",
     "emojis": "⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "French Government",
-      "Israel"
+      "Reuters",
+      "Google",
+      "Munro"
+    ],
+    "source_count": 6,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "21+ foreign nationals killed in Delhi fire, mostly South Asians seeking treatment or accompaniment to relatives",
+    "emojis": "💀",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India government",
+      "foreign visitors"
     ],
     "source_count": 1,
-    "timestamp": "06:40 PM"
+    "timestamp": "07:51 AM"
   }
 ];
 
