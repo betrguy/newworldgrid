@@ -28,17 +28,29 @@ Global tensions have intensified as major powers engage in a complex web of mili
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 03, 2026
+## Daily Intelligence Brief - Jun 04, 2026
 
-Key developments in the region include Iran's attacks on Kuwait and Bahrain, followed by Ukraine striking St. Petersburg as Russia hosts its economic forum. Ukrainian drones targeted a Baltic Fleet warship near St. Petersburg, while Russia also responded to Kyiv's strikes with its own countermeasures.
+Key Players Moving
 
-Iran has not directly engaged with the US since recent days, despite escalating tensions in the Middle East and stalled peace talks over attacks in Lebanon. The oil price has rallied as tensions escalate, reflecting growing concern about supply disruptions.
+Russia's air defense capabilities are being bolstered in response to Ukrainian drone attacks. Putin has announced this move without specifying the scale or timeline of the enhancements.
+
+Ukraine and Russia have been engaged in a deteriorating conflict, with tensions escalating recently. Zelensky has offered to meet Putin, but his words were met with skepticism.
+
+The United States has taken a more conciliatory approach, announcing a ceasefire agreement with Israel and Lebanon. Hezbollah has rejected this proposal, leading to renewed strikes between the group and Israel.
+
+In the realm of Iran policy, the US House has passed a resolution calling for an end to the conflict. Meanwhile, Trump's position on the issue remains uncertain.
+
+Key Actors Repositioning
+
+The United States is seeking to reduce its involvement in Middle Eastern conflicts, while Russia is expanding its military presence in Ukraine.
+
+Israel and Lebanon are locked in a bitter conflict with Hezbollah, while the US and Iran engage in diplomatic talks. The outcome of these negotiations is unclear.
 
 Watch for:
 
-* **US military presence** in the region to increase in response to Iranian attacks on its allies.
-* **Russian economic sanctions** against Ukraine to intensify ahead of Russia's hosting of its economic forum.
-* **Lebanese government instability** to worsen due to ongoing attacks attributed to Iran-backed militants.
+* **Ukraine**'s military response to the escalation of drone attacks
+* Potential sanctions from the United States against Russia over its air defense enhancements
+* A breakthrough or collapse in US-Iran talks
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
