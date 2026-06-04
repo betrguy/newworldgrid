@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-03 07:51 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-06-04 16:53 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,163 +51,177 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia boosts air defenses, threatens to cancel missile sale, and responds to Ukrainian drone attacks amid ongoing conflict.",
+    "emojis": "✈️⚔️🚀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "Zelenskyy",
+      "Pentagon"
+    ],
+    "source_count": 31,
+    "timestamp": "04:52 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Netanyahu faces pressure from US, Hezbollah, and Israeli voters amidst escalated tensions with Lebanon.",
-    "emojis": "⚡",
+    "summary": "Israel faces increasing global hostility, Hezbollah rejects ceasefire, and US-Israel alliance is strained.",
+    "emojis": "🕊️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "US",
       "Hezbollah",
-      "Israeli Voters",
-      "Netanyahu"
-    ],
-    "source_count": 32,
-    "timestamp": "07:50 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran and US exchange strikes amid escalating Middle East tensions, talks on nuclear agreement stall.",
-    "emojis": "💥⚔️☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
       "US",
-      "Iran"
+      "Israel"
     ],
-    "source_count": 28,
-    "timestamp": "07:50 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Trump expresses concern over Israel-Lebanon tensions, while Lebanon faces acute food insecurity and drone attacks.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Trump",
-      "Hezbollah",
-      "Israeli premier",
-      "Lebanese population"
-    ],
-    "source_count": 4,
-    "timestamp": "07:51 AM"
+    "source_count": 30,
+    "timestamp": "04:52 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine targets St. Petersburg during Russia's 'Davos' economic forum, escalating conflict.",
-    "emojis": "🚢✈️💥",
+    "summary": "Zelenskyy offers direct talks with Putin to end Ukraine war, amid ongoing violence and Russian rebuffs.",
+    "emojis": "⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Ukraine",
-      "Russia"
+      "Zelenskyy",
+      "Putin"
     ],
-    "source_count": 8,
-    "timestamp": "07:51 AM"
+    "source_count": 13,
+    "timestamp": "04:52 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China announces Bitcoin decision, biorecycling delays, global sales fall, trade tensions rise",
-    "emojis": "⚡",
+    "summary": "China denies US smear campaign on Tiananmen, amid tariff threats and rising tensions over AUKUS nuclear deal.",
+    "emojis": "☢️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "US (Trump administration)",
-      "European premium brands"
-    ],
-    "source_count": 15,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan witnesses rapid technological advancements, shifting geopolitical dynamics in the Taiwan Strait region.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan",
-      "China"
-    ],
-    "source_count": 2,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan's strict anti-Zionism laws hinder Palestinian refugees' passport applications and imprison critics.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Middle East Monitor"
-    ],
-    "source_count": 1,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia ramps up AI efforts, boosts air defense, and hosts economic forum amidst Ukraine tensions and global presence expansion.",
-    "emojis": "✈️💥⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine"
+      "US"
     ],
     "source_count": 12,
-    "timestamp": "07:51 AM"
+    "timestamp": "04:52 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions escalate between Iran, Israel, and US as talks on war ceasefire stall and Trump considers meeting with Iranian leader.",
+    "emojis": "💥⚔️🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "Israel",
+      "US"
+    ],
+    "source_count": 21,
+    "timestamp": "04:52 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Violence escalates in Lebanon as Israeli strikes kill 8, Hezbollah rejects ceasefire and attacks continue.",
+    "emojis": "🪖💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israeli military",
+      "Lebanon health ministry",
+      "UN",
+      "US"
+    ],
+    "source_count": 8,
+    "timestamp": "04:52 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Ultra-Orthodox Jews riot in Israel over military draft, shocking the nation.",
+    "emojis": "🪖",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Israelis",
+      "Israeli protesters"
+    ],
+    "source_count": 1,
+    "timestamp": "04:52 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Southern NM desert suitable for solar energy development, attracting investors and developers.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Solar Energy Developers"
+    ],
+    "source_count": 1,
+    "timestamp": "04:52 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Missing UK woman, ex-wife of Dubai ruler's nephew, had last contact with lawyer on Tuesday.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "BBC",
+      "police"
+    ],
+    "source_count": 2,
+    "timestamp": "04:52 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "UN Human Rights condemns Israeli attacks on Gaza police personnel, calling for investigations and accountability.",
-    "emojis": "⚔️",
+    "summary": "Israeli strikes kill 11 in Gaza City, 26 Palestinians evacuated for medical treatment abroad.",
+    "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Israel",
-      "UN Human Rights"
+      "Palestinians"
     ],
-    "source_count": 1,
-    "timestamp": "07:51 AM"
+    "source_count": 2,
+    "timestamp": "04:53 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK equities fall amid Middle East tensions, while Google faces scrutiny over AI scraping and Munro plans UK EV factory.",
-    "emojis": "⚡",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: US-TX",
+    "summary": "Israeli hotel group sues Houston hotel over trademark dispute for 'King David' name",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
-      "Reuters",
-      "Google",
-      "Munro"
-    ],
-    "source_count": 6,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "21+ foreign nationals killed in Delhi fire, mostly South Asians seeking treatment or accompaniment to relatives",
-    "emojis": "💀",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "India government",
-      "foreign visitors"
+      "Israeli hotel group",
+      "Houston hotel"
     ],
     "source_count": 1,
-    "timestamp": "07:51 AM"
+    "timestamp": "04:53 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US Congress challenges Trump over Middle East ceasefire amid strains, just days after a ceasefire agreement.",
+    "emojis": "🕊️",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Trump",
+      "Congress"
+    ],
+    "source_count": 1,
+    "timestamp": "04:53 PM"
   }
 ];
 
