@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">June 05, 2026 — 11:25</span>
+  <span class="sotg-timestamp">June 06, 2026 — 08:57</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Global power dynamics shift as regional actors leverage influence. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+A significant escalation of tensions has occurred in the Middle East following an Israeli strike that killed three Lebanese soldiers, prompting widespread condemnation from regional powers and straining already fragile relations between Israel and its neighbors. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
