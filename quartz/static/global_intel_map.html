@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-06 08:57 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-06-07 10:51 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,68 +51,114 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China focuses on humanoid robots and relations with EU and Taiwan, amid concerns over human rights and trade.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "EU",
-      "Taiwan"
-    ],
-    "source_count": 21,
-    "timestamp": "08:56 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Israel kills 3 Lebanese soldiers, giant banquets spark controversy among France's radical left.",
-    "emojis": "🪖💥",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Lebanon",
-      "Israeli"
-    ],
-    "source_count": 2,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran tensions escalate as Trump speeds up response, Kuwait condemns Iran's 'brazen assault', cash release demanded.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Trump",
-      "Kuwait"
-    ],
-    "source_count": 32,
-    "timestamp": "08:57 AM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel witnesses increasing AI adoption, tensions with Lebanon and Palestinians escalate, while Germany faces backlash for support.",
-    "emojis": "💀⚡",
+    "summary": "Violence erupts in Gaza, Lebanon and Israel as clashes intensify amid ceasefire talks",
+    "emojis": "💥🕊️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Lebanon",
-      "Palestinians",
       "Israel",
-      "Germany"
+      "Hezbollah",
+      "Egypt",
+      "United States"
     ],
-    "source_count": 22,
-    "timestamp": "08:57 AM"
+    "source_count": 56,
+    "timestamp": "10:51 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran conflict reaches 100th day, with US and Iran engaging in military tensions and diplomatic talks.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 34,
+    "timestamp": "10:51 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China deals, infrastructure development, accidents, military operations and international tensions dominate headlines.",
+    "emojis": "🪖⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "GE Aersopace",
+      "China",
+      "US",
+      "North Korea"
+    ],
+    "source_count": 19,
+    "timestamp": "10:51 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces international scrutiny over missile design, nuclear facility strike and election interference in Armenia.",
+    "emojis": "✈️💥🚀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "US",
+      "Russia",
+      "Armenia",
+      "EU"
+    ],
+    "source_count": 16,
+    "timestamp": "10:51 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Pentagon raises risk level for Israeli spying in DC amid heightened tensions and intelligence concerns.",
+    "emojis": "⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US-DC",
+      "Israeli"
+    ],
+    "source_count": 1,
+    "timestamp": "10:51 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "UK Prime Minister Starmer hosts Ukrainian President Zelenskyy, French and German leaders amid Russian strikes in Ukraine.",
+    "emojis": "✈️💥☢️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Keir Starmer",
+      "Volodymyr Zelenskyy",
+      "Emmanuel Macron",
+      "Olaf Scholz"
+    ],
+    "source_count": 9,
+    "timestamp": "10:51 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Greece arrests suspect linked to alleged Hamas plot targeting Israeli tourists",
+    "emojis": "",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Greek authorities",
+      "Hamas"
+    ],
+    "source_count": 1,
+    "timestamp": "10:51 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strike kills 3 Lebanese soldiers, escalating tensions in Lebanon amid ongoing conflict.",
+    "summary": "Israeli military strikes Beirut, kills 2 soldiers in Southern Lebanon, ongoing attacks reported.",
     "emojis": "🪖💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
@@ -121,107 +167,35 @@
       "Israel",
       "Lebanon"
     ],
-    "source_count": 6,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces escalated tensions with Ukraine and UK, strengthening ties with China amid drone attacks and military threats.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "RUSSIA",
-      "UKRANIA",
-      "CHINA"
-    ],
-    "source_count": 23,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine targets Russian navy base and St. Petersburg, Russia launches massive drone attack on Ukraine.",
-    "emojis": "✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 10,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli tanks and drones attack near Gaza hospital, causing harm to civilians.",
-    "emojis": "✈️⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Gaza"
-    ],
-    "source_count": 1,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Pentagon raises threat level of Israeli espionage on US to highest, sparking concerns over national security.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "US Government",
-      "Israel"
-    ],
-    "source_count": 2,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Chinese research vessel enters Dongsha restricted waters, sparking tensions with Taiwan.",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan",
-      "China"
-    ],
-    "source_count": 2,
-    "timestamp": "08:57 AM"
+    "source_count": 3,
+    "timestamp": "10:51 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK urged to maintain EV rules as CO2 impact revealed, paying tribute to actor Anthony Head",
+    "summary": "Citigroup expects oil prices to remain supported due to geopolitical risks and low inventories.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Anthony Head",
-      "Government"
-    ],
-    "source_count": 2,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Canada bans Texas cattle due to flesh-eating screwworm outbreak in US, second infected calf identified.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "US",
-      "Canada"
+      "Citigroup",
+      "Markets"
     ],
     "source_count": 1,
-    "timestamp": "08:57 AM"
+    "timestamp": "10:51 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "FM Khanal advises shifting focus from geopolitics to development in India ties during visit",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "FM Khanal"
+    ],
+    "source_count": 1,
+    "timestamp": "10:51 AM"
   }
 ];
 
