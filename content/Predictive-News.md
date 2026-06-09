@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">June 08, 2026 — 15:25</span>
+  <span class="sotg-timestamp">June 09, 2026 — 17:08</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Global tensions remain heightened as a series of exchanges between two key regional adversaries appears to have paused hostilities, but the fragile ceasefire remains uncertain. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Global power dynamics shift as regional actors leverage influence. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
