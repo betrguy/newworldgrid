@@ -10,20 +10,28 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">June 09, 2026 - 17:07</span>
+  <span class="sotg-timestamp">June 10, 2026 - 17:58</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-How does battery storage work in US electricity markets? <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+The electric grid is increasingly vulnerable to cyberattacks and potential failures due to the proliferation of 138-kV transmission projects outside of ERCOT. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
 <p class="meridian-lede">The recent certification of the Potentia-Viridi Battery Energy Storage project by the California Energy Commission underscores the pressing need for grid resilience and robust transmission infrastructure to mitigate potential disruptions in US electricity markets. The development highlights the importance of strategic investments in grid modernization and cybersecurity to prevent catastrophic consequences.</p>
 
-In light of these advancements, it is crucial to acknowledge that Israel's recent exchange of strikes with Iran may have far-reaching implications on global energy markets.
+Recent data from the Federal Energy Regulatory Commission's State of the Markets report reveals a significant increase in 138-kV transmission projects outside of ERCOT, primarily in MISO and PJM. This trend underscores the need for enhanced grid security measures to address potential cyber threats.
+<div class="sotg-bullets">
+<ul>
+  <li><strong>Why it matters:</strong> The US electricity market is facing unprecedented vulnerabilities due to inadequate infrastructure and cybersecurity.</li>
+  <li><strong>The big picture:</strong> A systemic failure of this magnitude could have far-reaching economic and societal implications, potentially triggering widespread power outages and disruptions.</li>
+  <li><strong>What to watch:</strong> Monitor the Federal Energy Regulatory Commission's next State of the Markets report for any updates on grid security measures and transmission project developments.</li>
+</ul>
+</div>
+
 </div>
 
 <div class="sotg-analyst">
-As of the current 24-hour geomagnetic window, Kp remains at a peak value of 2.0, with no significant changes in average and current values. This Unknown condition indicates low to moderate solar wind activity, allowing for normal satellite operations without disruptions, unaffected HF radio communications, and stable power grid conditions with no increased risk of geomagnetically induced currents or voltage fluctuations.
+The current geomagnetic activity level remains moderate with a Kp peak value of 2.0 and an average of 2.0, which persists throughout the day. This stable condition translates to no significant disruptions or anomalies affecting satellites in orbit, normal functioning of HF radio communications, and no impact on power grid stability due to the absence of intense geomagnetic storm activity.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
