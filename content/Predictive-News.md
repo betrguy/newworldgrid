@@ -28,20 +28,17 @@ A series of high-stakes military actions and diplomatic tensions have escalated 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 09, 2026
+## Daily Intelligence Brief - Jun 10, 2026
 
-TODAY'S SITUATION BRIEF
+The situation is deteriorating in the Middle East, with the US and Iran engaging in another round of strikes against Iranian targets. The US military has confirmed that it is striking multiple targets in Iran, with **Trump** warning Iran "will have to pay the price" for taking too long to agree a deal. This escalation has led to an evacuation order for Tyre's last safe neighborhood in Lebanon.
 
-Troop movements indicate Iran is escalating its response to the downing of a US helicopter over Hormuz, with President Trump vowing retaliation. The US has moved to strengthen oil and gas companies' balance sheets by increasing investment in energy infrastructure.
-
-China's focus on countering US influence was highlighted during a summit between Chinese and North Korean leaders. France has also taken action against settler violence in the West Bank, sanctioning Israeli Minister Bezalel Smotrich from entry.
-
-These moves demonstrate the shifting power dynamics in the region and the increasing importance of energy resources. The global order is reorganizing, with nations fragmenting into competing blocs and old alliances dissolving.
+Meanwhile, tensions are also rising between Russia and Canada over Ukraine, with Russia calling Canada a "warmonger" and promising a response. In other news, China's car exports have surged 73% in May due to high fuel prices, which is driving interest in electric vehicles (EVs).
 
 Watch for:
-- The impact of increased US investment in energy infrastructure on global oil markets.
-- Further diplomatic efforts by China to counter US influence in East Asia.
-- Potential escalation of violence in the Middle East as Iran and Israel continue to test deterrence.
+
+* A follow-up statement from **Trump** on his plans for Iran
+* An update on the diplomatic efforts between Russia and Canada regarding Ukraine
+* Any further developments in China's EV market
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
