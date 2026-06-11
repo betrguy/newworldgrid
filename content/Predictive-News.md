@@ -28,17 +28,20 @@ A significant escalation in tensions has emerged in the Middle East as a major p
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 10, 2026
+## Daily Intelligence Brief - Jun 11, 2026
 
-The situation is deteriorating in the Middle East, with the US and Iran engaging in another round of strikes against Iranian targets. The US military has confirmed that it is striking multiple targets in Iran, with **Trump** warning Iran "will have to pay the price" for taking too long to agree a deal. This escalation has led to an evacuation order for Tyre's last safe neighborhood in Lebanon.
+A power shift is unfolding in the Middle East, with implications for global energy markets and geopolitics. Trump's sudden cancellation of strikes against Iran, citing a breakthrough in talks to end the war, signals a significant realignment in US-Iran relations.
 
-Meanwhile, tensions are also rising between Russia and Canada over Ukraine, with Russia calling Canada a "warmonger" and promising a response. In other news, China's car exports have surged 73% in May due to high fuel prices, which is driving interest in electric vehicles (EVs).
+Israel has responded positively to this development, with **Trump** declaring progress with Iran. This appears to be a coordinated effort by **US** and **Israeli** leaders to create space for diplomatic engagement on the Iran issue.
+
+Meanwhile, Russia's deputy PM is calling for fuel market forecasts to prevent shortages, while Russian stocks are experiencing volatility. North Korea's Kim has expressed full support for Russia, sending a national day message to **Putin**.
+
+The dynamics between major powers are evolving rapidly, with competing interests and agendas emerging. The dollar-based order is under stress, and the global energy landscape is being reshaped by new nuclear power plants and decentralized generation methods.
 
 Watch for:
-
-* A follow-up statement from **Trump** on his plans for Iran
-* An update on the diplomatic efforts between Russia and Canada regarding Ukraine
-* Any further developments in China's EV market
+* Further developments in US-Iran talks, including potential agreements or timelines for a settlement.
+* Russian attempts to strengthen its energy market influence, possibly through fuel price manipulation or supply diversification.
+* Increased tensions between Israel and Palestinian factions, potentially sparked by **Trump**'s recent criticism of Israel at a film festival.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
