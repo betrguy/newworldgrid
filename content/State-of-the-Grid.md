@@ -10,28 +10,28 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">June 10, 2026 - 17:58</span>
+  <span class="sotg-timestamp">June 11, 2026 - 17:40</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The electric grid is increasingly vulnerable to cyberattacks and potential failures due to the proliferation of 138-kV transmission projects outside of ERCOT. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+The US Federal Energy Regulatory Commission has approved PJM's Expedited Interconnection Track, significantly streamlining the process for connecting new power generation and transmission infrastructure to the grid. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The recent certification of the Potentia-Viridi Battery Energy Storage project by the California Energy Commission underscores the pressing need for grid resilience and robust transmission infrastructure to mitigate potential disruptions in US electricity markets. The development highlights the importance of strategic investments in grid modernization and cybersecurity to prevent catastrophic consequences.</p>
+<p class="meridian-lede">The electric grid's physical reality has been redefined by FERC's approval of PJM's Expedited Interconnection Track, a separate process for connecting new generation and transmission assets to the grid. This development underscores the need for enhanced grid security measures to address potential cyber threats and vulnerabilities in transmission infrastructure.</p>
 
-Recent data from the Federal Energy Regulatory Commission's State of the Markets report reveals a significant increase in 138-kV transmission projects outside of ERCOT, primarily in MISO and PJM. This trend underscores the need for enhanced grid security measures to address potential cyber threats.
+Recent events have underscored the importance of robust transmission infrastructure and cybersecurity investments. The recent FERC approval highlights the pressing need for strategic investments in grid modernization to mitigate potential disruptions in US electricity markets.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The US electricity market is facing unprecedented vulnerabilities due to inadequate infrastructure and cybersecurity.</li>
-  <li><strong>The big picture:</strong> A systemic failure of this magnitude could have far-reaching economic and societal implications, potentially triggering widespread power outages and disruptions.</li>
-  <li><strong>What to watch:</strong> Monitor the Federal Energy Regulatory Commission's next State of the Markets report for any updates on grid security measures and transmission project developments.</li>
+  <li><strong>Why it matters:</strong> FERC's approval redefines electric grid reality, necessitating enhanced security measures.</li>
+  <li><strong>The big picture:</strong> This development may lead to systemic implications on energy market stability and national security.</li>
+  <li><strong>What to watch:</strong> Monitor PJM's implementation of the Expedited Interconnection Track for potential cybersecurity risks.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic activity level remains moderate with a Kp peak value of 2.0 and an average of 2.0, which persists throughout the day. This stable condition translates to no significant disruptions or anomalies affecting satellites in orbit, normal functioning of HF radio communications, and no impact on power grid stability due to the absence of intense geomagnetic storm activity.
+As of this reporting window, a strong geomagnetic storm persists with a Kp peak value of 5.0, accompanied by an average Kp of 2.81 and a current Kp of 5.0, confirming the Storm condition. This intense activity poses significant risks to satellite operations, potentially causing increased drag, radiation exposure, communication disruptions, signal loss or degradation in HF radio communications, and compromising power grid stability through geomagnetically induced currents in transmission lines, threatening voltage fluctuations and equipment malfunctions.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
