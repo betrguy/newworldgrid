@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-10 17:58 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-06-11 17:41 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,161 +52,180 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US launches strikes on Iran amid escalating tensions, with Trump vowing 'hard' response to Iranian actions.",
-    "emojis": "🪖💥⚔️",
+    "summary": "US President Trump cancels planned strikes on Iran, signaling potential deal to end war and open Strait of Hormuz.",
+    "emojis": "💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Iran"
+      "Trump"
     ],
-    "source_count": 51,
-    "timestamp": "05:58 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel intensifies strikes on Gaza, faces backlash and criticism for actions, while protests erupt in US.",
-    "emojis": "🪖💥⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Gaza",
-      "US Congress"
-    ],
-    "source_count": 17,
-    "timestamp": "05:58 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia criticizes Canada over Ukraine drone deal, while Macron invites Zelenskyy to G7 summit on Middle East.",
-    "emojis": "✈️⚔️💣",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Canada",
-      "Russia",
-      "Macron",
-      "Zelenskyy"
-    ],
-    "source_count": 7,
-    "timestamp": "05:58 PM"
+    "source_count": 67,
+    "timestamp": "05:40 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces economic downturn, military tensions & sanctions amid global concerns over human rights and food security.",
-    "emojis": "🪖🚫⚡",
+    "summary": "Russia faces economic downturn, escalates conflicts with Ukraine and bans Armenian imports amid military cooperation with China.",
+    "emojis": "🪖⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
-      "EU"
-    ],
-    "source_count": 6,
-    "timestamp": "05:58 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces US-China tensions with website seizures, security reviews, and job cuts amid geopolitical rivalries.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "FBI",
-      "Taiwan",
-      "Microsoft",
-      "China"
+      "Ukraine",
+      "North Korea",
+      "Armenia",
+      "China",
+      "Russia"
     ],
     "source_count": 13,
-    "timestamp": "05:58 PM"
+    "timestamp": "05:40 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "BYD launches 5-minute EV Flash Charge in UK and Europe, marking a significant shift towards rapid charging infrastructure.",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces criticism from Helen Mirren, Netanyahu's endgame sparks concern, and security challenges rise.",
     "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "BYD",
-      "TechRadar"
+      "Helen Mirren",
+      "Netanyahu"
     ],
-    "source_count": 1,
-    "timestamp": "05:58 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Multiple Israeli attacks on southern Lebanon kill at least 37 people, sparking fiery aftermath.",
-    "emojis": "💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 5,
-    "timestamp": "05:58 PM"
+    "source_count": 28,
+    "timestamp": "05:41 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Texas to receive $60 million in EV charger funding through applications now open.",
+    "summary": "Researchers at UT Austin develop water-harvesting jacket for drinking water from thin air.",
     "emojis": "",
     "lat": 30.26,
     "lng": -97.74,
     "location": "US-TX",
     "actors": [
-      "Environment America"
+      "University of Texas at Austin"
     ],
     "source_count": 1,
-    "timestamp": "05:58 PM"
+    "timestamp": "05:41 PM"
   },
   {
-    "title": "SITREP: US-GA",
-    "summary": "Georgia drivers may save money by switching to electric vehicles, according to advocates.",
+    "title": "SITREP: CHINA",
+    "summary": "China navigates competition, disputes and tensions with Philippines, Japan, US and UK over trade and territorial claims.",
+    "emojis": "⚔️⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Volvo",
+      "Philippines",
+      "Japan",
+      "US",
+      "UK"
+    ],
+    "source_count": 10,
+    "timestamp": "05:41 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK sees surge in EV adoption as 17,000 new chargers arrive and fuel prices rise.",
     "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Georgia Public Broadcasting",
-      "advocates"
+      "UK Government",
+      "Consumers"
     ],
-    "source_count": 1,
-    "timestamp": "05:58 PM"
+    "source_count": 2,
+    "timestamp": "05:41 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "Three Indian sailors missing after US tanker incident in Gulf of Oman.",
+    "title": "SITREP: US-NY",
+    "summary": "Trump nominates Jay Clayton as Director of National Intelligence, a new role created under his administration.",
     "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "India's government",
-      "US"
+      "Trump",
+      "Jay Clayton"
     ],
     "source_count": 1,
-    "timestamp": "05:58 PM"
+    "timestamp": "05:41 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Russian general takes command of Russian Aerospace Troops, amid ongoing conflict in Syria.",
-    "emojis": "🪖⚔️",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "title": "SITREP: US-CA",
+    "summary": "California's next governor may weaken state's electric vehicle mandate, impacting emissions reduction goals.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
+      "California",
+      "Next Governor"
+    ],
+    "source_count": 1,
+    "timestamp": "05:41 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France accuses Israeli firm BlackCore of meddling in US and UK votes, sparking international tensions.",
+    "emojis": "⚡",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "BlackCore",
+      "US",
+      "UK"
+    ],
+    "source_count": 1,
+    "timestamp": "05:41 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine strikes Russian refinery, Ottawa condemns Russia's threats against Canadian firms involved in Ukraine drone deal.",
+    "emojis": "✈️💥",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
       "Russia",
-      "US"
+      "Canada"
+    ],
+    "source_count": 2,
+    "timestamp": "05:41 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Ceasefire talks continue in Cairo, amid clashes and civilian casualties in Gaza amidst Israeli-Hamas tensions.",
+    "emojis": "💀🕊️⚡",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Hamas",
+      "Israel",
+      "Palestinian civilians"
+    ],
+    "source_count": 4,
+    "timestamp": "05:41 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah claims to have shot down Israeli drone in Bekaa Valley, escalating tensions between Lebanon and Israel.",
+    "emojis": "✈️⚡",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "05:58 PM"
+    "timestamp": "05:41 PM"
   }
 ];
 
