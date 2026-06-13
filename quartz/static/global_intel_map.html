@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-12 20:06 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-06-13 08:57 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,149 +51,151 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Israeli, Palestinian groups call for continued support for two-state solution amid global uncertainty.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: ISRAEL",
+    "summary": "Lebanon reports strikes on south as Israel issues broad evacuation warnings - RF",
+    "emojis": "💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Palestine"
+      "google_israel"
     ],
-    "source_count": 1,
-    "timestamp": "08:05 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Tensions escalate as Russia deploys drones, builds new infrastructure and threatens NATO member states.",
-    "emojis": "✈️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "NATO"
-    ],
-    "source_count": 16,
-    "timestamp": "08:05 PM"
+    "source_count": 20,
+    "timestamp": "08:56 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran approach potential ceasefire agreement after Trump's call to Netanyahu, increasing optimism for peace.",
+    "summary": "West Asia war LIVE: U.S.-Iran peace deal signing expected within 24 hours, says ",
     "emojis": "⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Donald Trump",
-      "Benjamin Netanyahu",
-      "Iran"
+      "google_iran",
+      "google_israel"
     ],
-    "source_count": 66,
-    "timestamp": "08:05 PM"
+    "source_count": 42,
+    "timestamp": "08:56 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russian MP warns Putin: We’re on the brink of social collapse - The Telegraph",
+    "emojis": "✈️💥⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 21,
+    "timestamp": "08:56 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Tensions rise with China detaining US citizens, opposition leader touting talks with China for peace, and purging suspected products.",
-    "emojis": "🕊️⚡",
+    "summary": "Expert explains China's key priorities for human rights for 2026-2030 - news.cgt",
+    "emojis": "🪖",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "US",
-      "Taiwan"
+      "google_china"
     ],
-    "source_count": 13,
-    "timestamp": "08:05 PM"
+    "source_count": 18,
+    "timestamp": "08:57 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine war continues with escalating losses for Russia, EU agrees to membership talks despite ongoing conflict.",
-    "emojis": "🪖💥⚔️",
+    "summary": "Ukraine drone strikes kills one, sparks fire at Russian port of Temryuk - Arab N",
+    "emojis": "🪖✈️💥",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
-      "EU"
+      "google_russia",
+      "google_china"
     ],
-    "source_count": 8,
-    "timestamp": "08:05 PM"
+    "source_count": 12,
+    "timestamp": "08:57 AM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK set to phase out Russian diesel and jet fuel imports, four pro-Palestine activists jailed",
-    "emojis": "✈️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 5,
-    "timestamp": "08:05 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces internal challenges amidst conflicts and diplomatic shifts in Middle East region.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "US",
-      "Palestinians",
-      "Gwyneth Paltrow",
-      "Abdul El-Sayed"
-    ],
-    "source_count": 10,
-    "timestamp": "08:05 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Ukrainian woman allegedly held as sex slave by Russian soldier for over a year, escapes miraculously.",
+    "title": "SITREP: GAZA",
+    "summary": "UNRWA fires 70 Gaza staffers amid allegations of Hamas ties, says terminations n",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Russian soldier",
-      "Ukrainian woman"
+      "google_middle_east",
+      "google_israel"
     ],
-    "source_count": 1,
-    "timestamp": "08:05 PM"
+    "source_count": 4,
+    "timestamp": "08:57 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Kunal Khemu joins early adopters of India's first electric Mercedes-Benz G-Class",
-    "emojis": "",
+    "summary": "The Significance of India-Oman Comprehensive Economic Partnership Agreement - Mi",
+    "emojis": "⚔️💀",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Kunal Khemu",
-      "Mercedes-Benz"
+      "google_middle_east"
     ],
-    "source_count": 1,
-    "timestamp": "08:06 PM"
+    "source_count": 2,
+    "timestamp": "08:57 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli attack in South Lebanon injures paramedics at a medical site, sparking concern and condemnation.",
-    "emojis": "⚔️",
+    "summary": "Mayor among dead as Israeli attacks hit south Lebanon districts - The New Arab",
+    "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
-      "Lebanon/paramedics"
+      "google_middle_east",
+      "google_israel"
+    ],
+    "source_count": 4,
+    "timestamp": "08:57 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Manchester Airport trial shows why juries may be Britain's last defence against ",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 2,
+    "timestamp": "08:57 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Six Georgians jailed for theft of rare Russian books in France - France 24",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "google_russia"
     ],
     "source_count": 1,
-    "timestamp": "08:06 PM"
+    "timestamp": "08:57 AM"
+  },
+  {
+    "title": "SITREP: VENEZUELA",
+    "summary": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
+    "emojis": "💥💀",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
+    "actors": [
+      "bbc_world"
+    ],
+    "source_count": 1,
+    "timestamp": "08:57 AM"
   }
 ];
 
