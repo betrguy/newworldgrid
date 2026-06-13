@@ -28,20 +28,19 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 12, 2026
+## Daily Intelligence Brief - Jun 13, 2026
 
-Today's situation brief reveals ongoing efforts to reorganize the global order.
+A series of developments are unfolding in the Middle East and beyond, indicating a reconfiguration of power dynamics in the region. Israel has issued broad evacuation warnings, prompting Lebanon to report strikes on its southern border. Lebanese army forces have withdrawn from a southern village after Israeli troops advanced nearby.
 
-Russia is celebrating Russia Day in Moscow (**Xinhua**), while a Russia Student's Ball took place in **GazetteXtra**. These events suggest continued nationalistic fervor and potential mobilization of domestic support for various interests. 
+Meanwhile, Pakistan's Prime Minister has expressed optimism about an impending US-Iran peace deal, which could have significant implications for regional stability. The US-Pakistan statement is seen as leverage in negotiations with Iran.
 
-In the Middle East, Iran's 'Stolen Revolution' has failed to deliver on its promise, as noted by **PBS**. This is underscored by ongoing tensions with Israel and a US-Iran ceasefire agreement, which is not yet complete (**Scripps News**).
-
-Meanwhile, global energy infrastructure is shifting towards distributed generation and new nuclear capabilities.
+In another development, a Russian MP has warned President Putin that the country is on the brink of social collapse. Russia has also increased its use of jet-powered strike drones eightfold since the beginning of the year, launching 1,400 units to date.
 
 Watch for:
-* The outcome of the US-Iran ceasefire talks
-* Potential implications of **Google's** lawsuit against China-based cybercriminals using Gemini AI in scams
-* Further developments in Russia's military modernization efforts
+
+* The outcome of the US-Iran peace deal signing expected within 24 hours
+* Any escalation in hostilities between Israel and Lebanon
+* Further developments in Russia's drone deployment strategy
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
