@@ -10,20 +10,20 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">June 12, 2026 - 20:05</span>
+  <span class="sotg-timestamp">June 13, 2026 - 08:56</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The US grid is witnessing a significant shift towards decentralized energy production and storage, driven by the rapid expansion of solar and wind inputs. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+RTO Insider: Home. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The electric grid's physical reality has been redefined by FERC's approval of PJM's Expedited Interconnection Track, a separate process for connecting new generation and transmission assets to the grid. This development underscores the need for enhanced grid security measures to address potential cyber threats and vulnerabilities in transmission infrastructure.</p>
+<p class="meridian-lede">The US grid is undergoing a transformation driven by the increasing adoption of decentralized energy sources and storage solutions. This shift necessitates enhanced security measures to mitigate potential cyber threats and vulnerabilities in transmission infrastructure, as underscored by FERC's approval of PJM's Expedited Interconnection Track.</p>
 
-As the global energy landscape evolves, it is crucial to acknowledge the significance of robust transmission infrastructure and cybersecurity investments. The recent FERC approval highlights the pressing need for strategic investments in grid modernization to mitigate potential disruptions in US electricity markets.
+Recent developments highlight the imperative for robust grid resilience. Specifically, DOE's report on the surge in electricity demand underscores the need for strategic investments in grid modernization to ensure the absorption of physical or political shocks.
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic activity exhibits a Kp peak value of 3.7, with an average of 2.95 and a current reading of 2.0, indicating an Unsettled condition. This situation may cause minor disruptions to satellite operations, potentially affecting navigation and communication systems, as well as HF radio communications experiencing degradation or interference, while power grid stability remains unaffected at this time.
+Current geomagnetic conditions are characterized by a Kp value of 3.0 peak, with a 24-hour average of 2.62 and current reading of 2.7, corresponding to an Unsettled condition. This indicates moderate levels of solar wind activity, which may cause increased drag on orbits, minor disruptions to navigation systems, degradation in HF radio communications due to ionospheric disturbances, and no significant impact on power grid stability; however, continued monitoring is necessary for reliable operation.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
