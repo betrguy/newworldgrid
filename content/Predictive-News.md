@@ -28,20 +28,20 @@ Global tensions have intensified with a series of critical developments, includi
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 11, 2026
+## Daily Intelligence Brief - Jun 12, 2026
 
-A power shift is unfolding in the Middle East, with implications for global energy markets and geopolitics. Trump's sudden cancellation of strikes against Iran, citing a breakthrough in talks to end the war, signals a significant realignment in US-Iran relations.
+Today's situation brief reveals ongoing efforts to reorganize the global order.
 
-Israel has responded positively to this development, with **Trump** declaring progress with Iran. This appears to be a coordinated effort by **US** and **Israeli** leaders to create space for diplomatic engagement on the Iran issue.
+Russia is celebrating Russia Day in Moscow (**Xinhua**), while a Russia Student's Ball took place in **GazetteXtra**. These events suggest continued nationalistic fervor and potential mobilization of domestic support for various interests. 
 
-Meanwhile, Russia's deputy PM is calling for fuel market forecasts to prevent shortages, while Russian stocks are experiencing volatility. North Korea's Kim has expressed full support for Russia, sending a national day message to **Putin**.
+In the Middle East, Iran's 'Stolen Revolution' has failed to deliver on its promise, as noted by **PBS**. This is underscored by ongoing tensions with Israel and a US-Iran ceasefire agreement, which is not yet complete (**Scripps News**).
 
-The dynamics between major powers are evolving rapidly, with competing interests and agendas emerging. The dollar-based order is under stress, and the global energy landscape is being reshaped by new nuclear power plants and decentralized generation methods.
+Meanwhile, global energy infrastructure is shifting towards distributed generation and new nuclear capabilities.
 
 Watch for:
-* Further developments in US-Iran talks, including potential agreements or timelines for a settlement.
-* Russian attempts to strengthen its energy market influence, possibly through fuel price manipulation or supply diversification.
-* Increased tensions between Israel and Palestinian factions, potentially sparked by **Trump**'s recent criticism of Israel at a film festival.
+* The outcome of the US-Iran ceasefire talks
+* Potential implications of **Google's** lawsuit against China-based cybercriminals using Gemini AI in scams
+* Further developments in Russia's military modernization efforts
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
