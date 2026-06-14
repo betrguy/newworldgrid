@@ -28,19 +28,17 @@ Global tensions have reached a boiling point as Russia's ongoing military action
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 13, 2026
+## Daily Intelligence Brief - Jun 14, 2026
 
-A series of developments are unfolding in the Middle East and beyond, indicating a reconfiguration of power dynamics in the region. Israel has issued broad evacuation warnings, prompting Lebanon to report strikes on its southern border. Lebanese army forces have withdrawn from a southern village after Israeli troops advanced nearby.
+A significant realignment of global power dynamics is unfolding. Key developments suggest that Russia is striking back at its own weakening oil infrastructure, with special forces collaborating with the Russian underground to strike a key facility (**news.liga.net**). Meanwhile, Iran has agreed to dilute its nuclear stockpile, potentially easing tensions in the region.
 
-Meanwhile, Pakistan's Prime Minister has expressed optimism about an impending US-Iran peace deal, which could have significant implications for regional stability. The US-Pakistan statement is seen as leverage in negotiations with Iran.
-
-In another development, a Russian MP has warned President Putin that the country is on the brink of social collapse. Russia has also increased its use of jet-powered strike drones eightfold since the beginning of the year, launching 1,400 units to date.
+In the Middle East, Israel's military strikes in Beirut suburbs may be part of a broader effort to address concerns about an anticipated US-Iran deal. **Trump** is set to meet with Middle East leaders, while also attending a session at G7 in Ukraine, indicating a multipolar shift in global politics. China's growing threat perception towards Australia is also evident.
 
 Watch for:
 
-* The outcome of the US-Iran peace deal signing expected within 24 hours
-* Any escalation in hostilities between Israel and Lebanon
-* Further developments in Russia's drone deployment strategy
+* Further escalation in the Israel-Palestine conflict
+* Details on the specifics of the US-Iran deal
+* Developments in China-Australia relations
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
