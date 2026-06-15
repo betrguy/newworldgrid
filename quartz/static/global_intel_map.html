@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-15 07:47 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-06-15 18:27 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,7 +52,7 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran-US deal reached, leaving major issues unresolved and affecting global trade and China's stance.",
+    "summary": "US and Iran reach tentative deal, leaving Israel feeling sidelined and facing unchanged regional threats.",
     "emojis": "⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
@@ -60,127 +60,148 @@
     "actors": [
       "US",
       "Iran",
-      "China"
+      "Israel"
     ],
-    "source_count": 49,
-    "timestamp": "07:46 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia's ongoing invasion of Ukraine results in civilian casualties and destruction of historic sites.",
-    "emojis": "🪖💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 34,
-    "timestamp": "07:46 AM"
+    "source_count": 74,
+    "timestamp": "06:27 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China accelerates tech adoption with AI, electric trucks and military modernization amid global rivalries.",
-    "emojis": "🪖",
+    "summary": "China news: AI robots, UK charges Indian captain, ex-Mountie appeals acquittal, EV struggles, trade tensions rise.",
+    "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "UK",
+      "India",
       "China",
-      "US",
-      "India"
+      "Europe"
     ],
-    "source_count": 17,
-    "timestamp": "07:46 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia continues to escalate tensions with Ukraine, from arson attacks to fuel production and holy site destruction.",
-    "emojis": "🚢💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 4,
-    "timestamp": "07:46 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK relaxes EV targets, courts rule on Palestine Action ban, and new ultra-rapid charging hubs emerge.",
-    "emojis": "🚢🚫",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Government",
-      "Palestine Action",
-      "UK Forces Board"
-    ],
-    "source_count": 8,
-    "timestamp": "07:46 AM"
+    "source_count": 6,
+    "timestamp": "06:27 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel as Hezbollah drones are reportedly being shot down with lasers, while US and EU express concerns.",
-    "emojis": "✈️⚡",
+    "summary": "Israel faces ongoing threats, US pressure, and internal conflicts amidst region tensions and Iran nuclear deal.",
+    "emojis": "🪖⚔️☢️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
+      "Hezbollah",
       "US",
-      "EU",
+      "IDF",
+      "Iran",
+      "Israeli Arabs",
+      "Netanyahu",
+      "Palestinians"
+    ],
+    "source_count": 10,
+    "timestamp": "06:27 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah says it repelled an Israeli force in south Lebanon after a journalist was hit by an Israeli strike.",
+    "emojis": "💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
       "Israel",
-      "Hezbollah"
+      "Journalist"
     ],
-    "source_count": 12,
-    "timestamp": "07:46 AM"
+    "source_count": 3,
+    "timestamp": "06:27 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Trump meets G7 leaders amidst geopolitical tensions and a Russian deserter faces deportation from France.",
-    "emojis": "⚔️⚡",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia intensifies attacks on Ukraine, while UK and EU announce new sanctions and support for Kyiv.",
+    "emojis": "⚔️☢️🚫",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Donald Trump",
-      "G7 leaders",
-      "Russian deserter"
+      "UK",
+      "EU",
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 2,
-    "timestamp": "07:46 AM"
+    "source_count": 21,
+    "timestamp": "06:27 PM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Report examines if end of ISIS marks end of political Islam, sparking debate among experts.",
+    "title": "SITREP: US-IL",
+    "summary": "Ameren Illinois partners with East St. Louis to launch electric vehicle charging infrastructure.",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
     "actors": [
-      "The New York Times",
-      "Experts"
+      "Ameren Illinois",
+      "East St. Louis"
     ],
     "source_count": 1,
-    "timestamp": "07:46 AM"
+    "timestamp": "06:27 PM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Boris Epshteyn advises Donald Trump as a trusted counselor and psychiatrist in Oval Office meetings.",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia stocks rise, Zelenskyy discusses Putin meeting with Trump, and EU targets Russian bishop",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Donald Trump",
-      "Boris Epshteyn"
+      "Zelenskyy",
+      "Trump",
+      "Putin",
+      "EU"
+    ],
+    "source_count": 4,
+    "timestamp": "06:27 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Gavin Newsom says he's under investigation by the Department of Justice.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Gavin Newsom",
+      "Department of Justice"
     ],
     "source_count": 1,
-    "timestamp": "07:47 AM"
+    "timestamp": "06:27 PM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan detects 5 Chinese naval ships surrounding its country, raising tensions in the South China Sea.",
+    "emojis": "🚢⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "06:27 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK court convicts two individuals involved in a Russian plot targeting the UK Prime Minister.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Russia",
+      "UK"
+    ],
+    "source_count": 1,
+    "timestamp": "06:27 PM"
   }
 ];
 
