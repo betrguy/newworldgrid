@@ -28,17 +28,18 @@ A significant escalation of Russia's military campaign in Ukraine has resulted i
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 14, 2026
+## Daily Intelligence Brief - Jun 15, 2026
 
-A significant realignment of global power dynamics is unfolding. Key developments suggest that Russia is striking back at its own weakening oil infrastructure, with special forces collaborating with the Russian underground to strike a key facility (**news.liga.net**). Meanwhile, Iran has agreed to dilute its nuclear stockpile, potentially easing tensions in the region.
+A global power realignment is unfolding, manifesting in various regions and domains. The conflict in Iran has led to a sharp decline in Belgian trade with the Middle East. This move suggests that regional actors are repositioning for a new balance of power, potentially leveraging existing relationships to counterbalance other blocs.
 
-In the Middle East, Israel's military strikes in Beirut suburbs may be part of a broader effort to address concerns about an anticipated US-Iran deal. **Trump** is set to meet with Middle East leaders, while also attending a session at G7 in Ukraine, indicating a multipolar shift in global politics. China's growing threat perception towards Australia is also evident.
+China has accused foreign spies of using "spy turtles" and "spy fish" in coastal waters, highlighting growing tensions between Beijing and its adversaries. Iranian Americans plan protests and watch parties ahead of the team's World Cup opener, underscoring the ongoing impact of the conflict on domestic politics.
+
+Meanwhile, Russia has been linked to a series of arson attacks targeting Keir Starmer properties, potentially using these tactics to exert influence in the UK. These events illustrate the increasing use of proxy conflicts and targeted disruptions as nations seek to reassert their influence.
 
 Watch for:
-
-* Further escalation in the Israel-Palestine conflict
-* Details on the specifics of the US-Iran deal
-* Developments in China-Australia relations
+* Increased tensions between China and its regional rivals over maritime security
+* Further escalation of protests by Iranian Americans in response to ongoing conflict with Iran
+* Potential consequences of Russia's actions against Keir Starmer, including possible UK government responses
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
