@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-15T07:50:36.818449",
+  "generatedAt": "2026-06-15T18:31:38.682161",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Good morning, everyone. Today's top story comes from the predictive news desk where we're seeing an escalation of Russia's military campaign in Ukraine, resulting in significant civilian casualties and destruction of historic sites, raising concerns about potential further conflict and its impact on regional stability. On a more positive note, our optimism intelligence system has pinpointed the origin of cosmic ray elements, providing new insights into galactic chemistry. This breakthrough will significantly improve our understanding of the universe's chemical processes and enable better mapping of elemental distributions within galaxies."
+    "index_master_summary.wav": "A new chapter has begun in global realignment following a tentative agreement between two major world powers. This shift has significant implications for global security and stability, while simultaneously sparking mixed reactions from Israeli and Lebanese communities. Japan is pushing the boundaries of space technology, with a micro-robot operating autonomously on the moon for over an hour, marking a milestone in their growing presence in space exploration. Geopolitical tensions have eased slightly, allowing Bitcoin to surge above $65K, as investors seize this chance due to increased volatility. Meanwhile, engineers have made significant breakthroughs in agriculture, developing advanced sensors, communications, and automation to enhance global food production by 2050. This technology has the potential to address projected demand while ensuring sustainable development through decentralized energy sources and storage solutions. In other news, the U.S. grid is undergoing a transformative shift driven by rapid adoption of decentralized energy and storage solutions. In light of recent developments, the reopening of the Strait of Hormuz may lead to changes in global oil prices and domestic electricity demands. This highlights the importance of prioritizing enhanced security measures to mitigate cyber threats and vulnerabilities in transmission infrastructure. Looking ahead, engineers are working on advanced sensors, communications, and automation to significantly boost global food production by 2050."
   },
   "durations": {
-    "index_master_summary.wav": "00:43"
+    "index_master_summary.wav": "01:43"
   }
 }
