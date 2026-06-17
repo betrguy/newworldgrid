@@ -30,16 +30,16 @@ Global tensions have intensified with a historic peace deal between two major re
 
 ## Daily Intelligence Brief - Jun 17, 2026
 
-**Global Intelligence Summary**
+The US-Iran deal appears to have gained some momentum, with the Pope welcoming the agreement and calling for mutual trust in the Middle East. President Trump also promoted the deal, although he criticized longtime ally Israel during the G-7 summit. 
 
-- China unveils five-year plan to stabilize employment - Investing.com
-- Zelenskyy says G7 leaders pledge more vital help for Ukraine against Russia - Plainview Herald
-- Iran will reopen Strait of Hormuz and can sell oil freely under deal with US, according to leaks - Audacy
-- China takes veiled swipe at US for ‘bullying the small and weak’ - The Telegraph
-- Kenya accused of deporting Taiwanese conference delegates on China’s behalf - SRN News
-- Putin hosts leaders of Southeast Asia at Russia-ASEAN summit - SRN News
+US officials revealed details of the Iran deal, but Trump remains unclear on whether he will sign the plans. This ambiguity suggests that leverage is being used by hardline elements within the US administration to slow or block the deal.
 
-*Watch for: Developing situations across monitored regions.*
+Russia's stock market took a hit, with the MOEX Russia Index down 0.18% at close.
+
+Watch for:
+- A meeting between US Secretary of State Mike Pompeo and Israeli Prime Minister Benjamin Netanyahu to discuss Washington's stance on Jerusalem.
+- A potential visit by Iranian President Hassan Rouhani to North Korea, which could signal a rapprochement between Tehran and Pyongyang.
+- The outcome of the upcoming US Congressional hearings on the Iran deal, where House Democrats are demanding an "immediate" briefing from Senator Rubio.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
