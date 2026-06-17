@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">June 15, 2026 — 18:27</span>
+  <span class="sotg-timestamp">June 17, 2026 — 18:14</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-A tentative agreement between two major world powers has shifted the regional balance of power, with significant implications for global security and stability. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Global tensions have intensified with a historic peace deal between two major regional powers sparking mixed reactions and raising concerns about shifting alliances and potential security risks. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 

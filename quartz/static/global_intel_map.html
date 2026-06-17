@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-15 18:27 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-06-17 18:14 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,156 +52,176 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran reach tentative deal, leaving Israel feeling sidelined and facing unchanged regional threats.",
-    "emojis": "⚔️🕊️",
+    "summary": "US and Iran sign historic peace deal, with mixed reactions from world leaders and politicians.",
+    "emojis": "🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Iran",
+      "Pope Francis",
+      "Trump",
+      "Biden",
       "Israel"
     ],
-    "source_count": 74,
-    "timestamp": "06:27 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China news: AI robots, UK charges Indian captain, ex-Mountie appeals acquittal, EV struggles, trade tensions rise.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "UK",
-      "India",
-      "China",
-      "Europe"
-    ],
-    "source_count": 6,
-    "timestamp": "06:27 PM"
+    "source_count": 78,
+    "timestamp": "06:13 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces ongoing threats, US pressure, and internal conflicts amidst region tensions and Iran nuclear deal.",
-    "emojis": "🪖⚔️☢️",
+    "summary": "Israel faces protests, boycotts, and security concerns amid changing regional dynamics and domestic tensions.",
+    "emojis": "⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Hezbollah",
-      "US",
-      "IDF",
-      "Iran",
-      "Israeli Arabs",
-      "Netanyahu",
-      "Palestinians"
-    ],
-    "source_count": 10,
-    "timestamp": "06:27 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah says it repelled an Israeli force in south Lebanon after a journalist was hit by an Israeli strike.",
-    "emojis": "💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Hezbollah",
       "Israel",
-      "Journalist"
+      "Hezbollah",
+      "ultra-Orthodox Jews"
     ],
-    "source_count": 3,
-    "timestamp": "06:27 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies attacks on Ukraine, while UK and EU announce new sanctions and support for Kyiv.",
-    "emojis": "⚔️☢️🚫",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "UK",
-      "EU",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 21,
-    "timestamp": "06:27 PM"
-  },
-  {
-    "title": "SITREP: US-IL",
-    "summary": "Ameren Illinois partners with East St. Louis to launch electric vehicle charging infrastructure.",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
-    "actors": [
-      "Ameren Illinois",
-      "East St. Louis"
-    ],
-    "source_count": 1,
-    "timestamp": "06:27 PM"
+    "source_count": 25,
+    "timestamp": "06:13 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia stocks rise, Zelenskyy discusses Putin meeting with Trump, and EU targets Russian bishop",
+    "summary": "Russia faces economic, geopolitical challenges amid fuel shortages and potential retaliation from UK.",
     "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Zelenskyy",
-      "Trump",
-      "Putin",
-      "EU"
+      "UK officials",
+      "Vladimir Putin",
+      "Russia"
     ],
-    "source_count": 4,
-    "timestamp": "06:27 PM"
+    "source_count": 12,
+    "timestamp": "06:13 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "Gavin Newsom says he's under investigation by the Department of Justice.",
+    "summary": "Rivian lays off hundreds of workers amid new vehicle deliveries, impacting staff just days after launch.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "Gavin Newsom",
-      "Department of Justice"
+      "Rivian",
+      "employees"
     ],
     "source_count": 1,
-    "timestamp": "06:27 PM"
+    "timestamp": "06:13 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan detects 5 Chinese naval ships surrounding its country, raising tensions in the South China Sea.",
-    "emojis": "🚢⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: CHINA",
+    "summary": "Europe's major firms, including Bosch and BMW, face challenges competing with US and China in global markets.",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Taiwan",
-      "China"
+      "US",
+      "China",
+      "Europe"
     ],
-    "source_count": 1,
-    "timestamp": "06:27 PM"
+    "source_count": 7,
+    "timestamp": "06:13 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK court convicts two individuals involved in a Russian plot targeting the UK Prime Minister.",
-    "emojis": "",
+    "summary": "UK news roundup: Google fined, EV mandate, bribery trial cleared, yacht incident disputed",
+    "emojis": "⚔️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Russia",
-      "UK"
+      "Google",
+      "UK government",
+      "Diezani Alison-Madueke"
+    ],
+    "source_count": 5,
+    "timestamp": "06:13 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Over 1,000 Palestinians killed in Gaza since ceasefire",
+    "emojis": "💀🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli forces",
+      "Palestinians"
     ],
     "source_count": 1,
-    "timestamp": "06:27 PM"
+    "timestamp": "06:14 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia continues to occupy parts of Ukraine with no end in sight, sparking global attention from US and G7.",
+    "emojis": "⚔️🚫",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "US",
+      "G7",
+      "Ukraine"
+    ],
+    "source_count": 3,
+    "timestamp": "06:14 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Mexican automaker Olinia launches affordable EV model at MX$150,000, undercutting rivals.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [],
+    "source_count": 1,
+    "timestamp": "06:14 PM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "BESSY II's new TES array X-ray spectrometer begins operation, a milestone for European synchrotron research.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Germany",
+      "Europe"
+    ],
+    "source_count": 1,
+    "timestamp": "06:14 PM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Coast Guard fires on boat smuggling 25 Chinese nationals who refused to stop near Florida coastline.",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "US Coast Guard",
+      "Smuggling Boat"
+    ],
+    "source_count": 1,
+    "timestamp": "06:14 PM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Hydroplaning risk increases with speed and shallow water, drops at 10mm depth",
+    "emojis": "",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "driver",
+      "vehicle manufacturer"
+    ],
+    "source_count": 1,
+    "timestamp": "06:14 PM"
   }
 ];
 
