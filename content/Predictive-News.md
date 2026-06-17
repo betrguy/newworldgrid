@@ -28,19 +28,18 @@ A tentative agreement between two major world powers has shifted the regional ba
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 15, 2026
+## Daily Intelligence Brief - Jun 17, 2026
 
-A new chapter in the global realignment has begun. The Iran peace deal has sparked mixed reactions, with Lebanese returning home to assess the consequences of the agreement. **Iran** is engaging in diplomatic efforts, while **Israelis** feel sidelined by the ceasefire.
+**Global Intelligence Summary**
 
-Meanwhile, **Japan** is exploring new frontiers in space technology, with a tiny robot operating autonomously on the moon for over 100 minutes. This development could be seen as part of Japan's growing presence in space exploration.
+- China unveils five-year plan to stabilize employment - Investing.com
+- Zelenskyy says G7 leaders pledge more vital help for Ukraine against Russia - Plainview Herald
+- Iran will reopen Strait of Hormuz and can sell oil freely under deal with US, according to leaks - Audacy
+- China takes veiled swipe at US for ‘bullying the small and weak’ - The Telegraph
+- Kenya accused of deporting Taiwanese conference delegates on China’s behalf - SRN News
+- Putin hosts leaders of Southeast Asia at Russia-ASEAN summit - SRN News
 
-Geopolitical tensions have eased slightly, allowing **Bitcoin** to climb above $65K. Risk appetite has improved, and investors are taking advantage of the increased volatility.
-
-The situation is fluid, with various actors repositioning themselves for a multipolar world. Watch for:
-
-* Iranian protests and demonstrations ahead of their World Cup opener
-* Possible escalation of tensions between Israel and **Iran** as Israelis feel sidelined by the ceasefire
-* Further developments in Japan's space exploration efforts
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
