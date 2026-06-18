@@ -30,23 +30,17 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 ## Daily Intelligence Brief - Jun 18, 2026
 
-Russia has struck a centuries-old Ukrainian monastery complex, revealing its growing desperation in the region.
+The global order is reorganizing as power dynamics shift in response to emerging technologies and policy changes.
 
-Meanwhile, President Trump's administration is making concessions on Iran policy. He expressed support for an Iranian deal that falls short of his promises and suggested Israel should not criticize the agreement, implying the US will not press Israel to join military strikes against Iran. 
+US Secretary of State Mike Pence defended President Trump's Iran deal against criticism from Israel, warning that the US would maintain its commitment to the agreement despite Israeli backlash. Meanwhile, **Israel** has condemned the deal, calling it a "catastrophic capitulation." The US military has lifted the blockade on Iran, further undermining opposition to the pact.
 
-Anwar Ibrahim, Malaysia's premier, has thanked Putin for Russia's support in energy cooperation.
-
-The Polymarket geopolitics category has surged amid bets on war policy with Iran and allegations of insider trading.
-
-Jesse Watters believes the current status quo with Iran is still acceptable.
-
-The US-Iran deal takes effect immediately, with Pakistan's premier announcing this after both sides signed. 
+European leaders agreed to extend sanctions on Russia for 12 months, demonstrating a continued pushback against Russian aggression in Europe. In contrast, US travelers are being advised to remain vigilant despite a peace agreement with Iran, suggesting ongoing tensions in the region.
 
 Watch for:
 
-* Further escalations in Ukraine due to Russia's recent actions
-* Reactions from Israel regarding Trump's stance on the Iran deal
-* Potential changes in Malaysia's energy policy following Anwar Ibrahim's meeting with Putin
+* Increased diplomatic efforts by countries seeking to counterbalance US influence
+* Potential escalation of conflicts in the Middle East or Eastern Europe
+* Shifts in global energy markets as new nuclear power sources and decentralized generation emerge
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
