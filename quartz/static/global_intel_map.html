@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-17 18:14 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-06-18 06:43 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,97 +52,125 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran sign historic peace deal, with mixed reactions from world leaders and politicians.",
-    "emojis": "🕊️",
+    "summary": "US, Iran sign deal amid Trump's backing for 'some missiles', despite missing key targets from his promised agreement.",
+    "emojis": "🚀⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Pope Francis",
       "Trump",
-      "Biden",
-      "Israel"
+      "Iran"
     ],
-    "source_count": 78,
-    "timestamp": "06:13 PM"
+    "source_count": 104,
+    "timestamp": "06:42 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia strengthens energy cooperation, faces fuel shortages and potential retaliations amid Ukraine conflict.",
+    "emojis": "⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Anwar",
+      "Putin"
+    ],
+    "source_count": 9,
+    "timestamp": "06:43 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces protests, boycotts, and security concerns amid changing regional dynamics and domestic tensions.",
+    "summary": "Tensions rise in Israel with controversy over flag, settler groups, and war crimes allegations against Israel's construction companies.",
     "emojis": "⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
+      "Michigan LGBTQ group",
       "Israel",
-      "Hezbollah",
-      "ultra-Orthodox Jews"
+      "US Trump",
+      "Netanyahu",
+      "UN",
+      "Israeli settlers"
     ],
     "source_count": 25,
-    "timestamp": "06:13 PM"
+    "timestamp": "06:43 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces economic, geopolitical challenges amid fuel shortages and potential retaliation from UK.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia attacks Kyiv with missiles, denying Ukrainian claim of attacking a school bus",
+    "emojis": "⚔️🚀🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "UK officials",
-      "Vladimir Putin",
-      "Russia"
+      "Russia",
+      "Ukraine",
+      "Trump"
     ],
-    "source_count": 12,
-    "timestamp": "06:13 PM"
+    "source_count": 5,
+    "timestamp": "06:43 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "Rivian lays off hundreds of workers amid new vehicle deliveries, impacting staff just days after launch.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan surrenders to Indian forces in Kashmir, leading to significant tensions and diplomatic fallout.",
+    "emojis": "⚡",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
     "actors": [
-      "Rivian",
-      "employees"
+      "India",
+      "Pakistan"
     ],
     "source_count": 1,
-    "timestamp": "06:13 PM"
+    "timestamp": "06:43 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Europe's major firms, including Bosch and BMW, face challenges competing with US and China in global markets.",
+    "summary": "China clears Paramount-Warner deal, Germany's Bosch pays $36 million for Huawei shipments to China.",
     "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "US",
       "China",
-      "Europe"
+      "Bosch",
+      "Huawei"
     ],
-    "source_count": 7,
-    "timestamp": "06:13 PM"
+    "source_count": 2,
+    "timestamp": "06:43 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Rivian layoffs reported amid new vehicle deliveries, impacting hundreds of workers in California.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "actor1",
+      "actor2"
+    ],
+    "source_count": 1,
+    "timestamp": "06:43 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK news roundup: Google fined, EV mandate, bribery trial cleared, yacht incident disputed",
-    "emojis": "⚔️",
+    "summary": "British naval ship clashes with Russian warship off Isle of Wight, highlighting British 'fair play' vs. Russian firepower.",
+    "emojis": "🚢⚔️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Google",
-      "UK government",
-      "Diezani Alison-Madueke"
+      "Royal Navy",
+      "Russian Navy"
     ],
-    "source_count": 5,
-    "timestamp": "06:13 PM"
+    "source_count": 1,
+    "timestamp": "06:43 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Over 1,000 Palestinians killed in Gaza since ceasefire",
+    "summary": "Over 1,000 Palestinians killed in Gaza since ceasefire by Israeli forces.",
     "emojis": "💀🕊️",
     "lat": 31.5,
     "lng": 34.46,
@@ -151,77 +179,8 @@
       "Israeli forces",
       "Palestinians"
     ],
-    "source_count": 1,
-    "timestamp": "06:14 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia continues to occupy parts of Ukraine with no end in sight, sparking global attention from US and G7.",
-    "emojis": "⚔️🚫",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "US",
-      "G7",
-      "Ukraine"
-    ],
-    "source_count": 3,
-    "timestamp": "06:14 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Mexican automaker Olinia launches affordable EV model at MX$150,000, undercutting rivals.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "06:14 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "BESSY II's new TES array X-ray spectrometer begins operation, a milestone for European synchrotron research.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Germany",
-      "Europe"
-    ],
-    "source_count": 1,
-    "timestamp": "06:14 PM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Coast Guard fires on boat smuggling 25 Chinese nationals who refused to stop near Florida coastline.",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "US Coast Guard",
-      "Smuggling Boat"
-    ],
-    "source_count": 1,
-    "timestamp": "06:14 PM"
-  },
-  {
-    "title": "SITREP: US-GA",
-    "summary": "Hydroplaning risk increases with speed and shallow water, drops at 10mm depth",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
-    "actors": [
-      "driver",
-      "vehicle manufacturer"
-    ],
-    "source_count": 1,
-    "timestamp": "06:14 PM"
+    "source_count": 2,
+    "timestamp": "06:43 AM"
   }
 ];
 
