@@ -28,18 +28,25 @@ A significant escalation in tensions has unfolded across multiple regions, with 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 17, 2026
+## Daily Intelligence Brief - Jun 18, 2026
 
-The US-Iran deal appears to have gained some momentum, with the Pope welcoming the agreement and calling for mutual trust in the Middle East. President Trump also promoted the deal, although he criticized longtime ally Israel during the G-7 summit. 
+Russia has struck a centuries-old Ukrainian monastery complex, revealing its growing desperation in the region.
 
-US officials revealed details of the Iran deal, but Trump remains unclear on whether he will sign the plans. This ambiguity suggests that leverage is being used by hardline elements within the US administration to slow or block the deal.
+Meanwhile, President Trump's administration is making concessions on Iran policy. He expressed support for an Iranian deal that falls short of his promises and suggested Israel should not criticize the agreement, implying the US will not press Israel to join military strikes against Iran. 
 
-Russia's stock market took a hit, with the MOEX Russia Index down 0.18% at close.
+Anwar Ibrahim, Malaysia's premier, has thanked Putin for Russia's support in energy cooperation.
+
+The Polymarket geopolitics category has surged amid bets on war policy with Iran and allegations of insider trading.
+
+Jesse Watters believes the current status quo with Iran is still acceptable.
+
+The US-Iran deal takes effect immediately, with Pakistan's premier announcing this after both sides signed. 
 
 Watch for:
-- A meeting between US Secretary of State Mike Pompeo and Israeli Prime Minister Benjamin Netanyahu to discuss Washington's stance on Jerusalem.
-- A potential visit by Iranian President Hassan Rouhani to North Korea, which could signal a rapprochement between Tehran and Pyongyang.
-- The outcome of the upcoming US Congressional hearings on the Iran deal, where House Democrats are demanding an "immediate" briefing from Senator Rubio.
+
+* Further escalations in Ukraine due to Russia's recent actions
+* Reactions from Israel regarding Trump's stance on the Iran deal
+* Potential changes in Malaysia's energy policy following Anwar Ibrahim's meeting with Putin
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
