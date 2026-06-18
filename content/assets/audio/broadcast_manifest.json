@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-17T18:17:47.288803",
+  "generatedAt": "2026-06-18T06:47:33.491740",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "As we navigate the complexities of our interconnected world, it is essential to analyze the interplay between various sectors. In the realm of global politics and diplomacy, a historic peace deal between two major regional powers has sparked intense reactions and raised concerns about potential security risks. Meanwhile, on the economic front, there's significant movement in the US grid as we witness a shift towards hybrid fossil-based generator deployment, particularly in the ERCOT region."
+    "index_master_summary.wav": "Let's begin with the global energy landscape. We're seeing a significant transformation as decentralized energy sources and storage solutions rapidly take hold. This shift poses substantial cyber security risks for critical infrastructure, particularly in regions where hybrid fossil-based generator deployments are accelerating, like ERCOT. Notably, this development does not impact global oil prices or domestic electricity demand due to recent agreements between Iran and the US. Now, a breakthrough in robotics has been achieved by Honor Lightning, shaving nearly seven minutes off its human counterparts' half-marathon time. This advancement holds immense promise for enhancing compute load capacity and infrastructure resilience within the semiconductor chip supply chain. We're witnessing an extraordinary innovation that may soon revolutionize various industries. Moving to the orbit, Amazon's Kuiper network took a crucial step forward by launching production satellites, which not only escalates the orbital economy battle but also raises questions about the de facto standard for global internet connectivity. Meanwhile, Rivian partnered with ChargeScape to make electric vehicle charging costs more accessible, directly addressing the primary concern of high upfront and ongoing expenses associated with owning an electric vehicle. It's essential to monitor AESO updates on hybrid fossil-based generator deployments in the ERCOT region, as this could impact energy market dynamics."
   },
   "durations": {
-    "index_master_summary.wav": "00:35"
+    "index_master_summary.wav": "01:43"
   }
 }
