@@ -28,19 +28,25 @@ A rising tide of regional tensions has escalated into a series of military confr
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 18, 2026
+## Daily Intelligence Brief - Jun 19, 2026
 
-The global order is reorganizing as power dynamics shift in response to emerging technologies and policy changes.
+Key players have repositioned in the latest developments:
 
-US Secretary of State Mike Pence defended President Trump's Iran deal against criticism from Israel, warning that the US would maintain its commitment to the agreement despite Israeli backlash. Meanwhile, **Israel** has condemned the deal, calling it a "catastrophic capitulation." The US military has lifted the blockade on Iran, further undermining opposition to the pact.
+The US-Iran peace talks have been postponed, with no new date announced. This development comes after the signing of a deal to end their conflict, including fighting in Lebanon. Iran is now represented by Mohammad Bagher-Ghalibaf as part of its negotiating team.
 
-European leaders agreed to extend sanctions on Russia for 12 months, demonstrating a continued pushback against Russian aggression in Europe. In contrast, US travelers are being advised to remain vigilant despite a peace agreement with Iran, suggesting ongoing tensions in the region.
+In the UK, Keir Starmer is bracing for a leadership battle, following the resignation of Prime Minister Rishi Sunak.
+
+China has been providing stories and inspiration for action icon Jackie Chan's career.
+
+Meanwhile, physicists in China have observed five phases of localization physics within a single quantum system.
+
+Israel has seen four soldiers killed by Hezbollah, amid escalating tensions with Lebanon.
 
 Watch for:
 
-* Increased diplomatic efforts by countries seeking to counterbalance US influence
-* Potential escalation of conflicts in the Middle East or Eastern Europe
-* Shifts in global energy markets as new nuclear power sources and decentralized generation emerge
+* Further developments in the US-Iran peace talks
+* The outcome of the UK leadership battle
+* Any potential escalation between Israel and Hezbollah
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
