@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-18 17:24 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-06-19 07:12 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,112 +51,170 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UK",
+    "summary": "UK EV adoption accelerates with new car orders and grid growth, as BMW & Honda enter market.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "BMW UK",
+      "Honda UK",
+      "GRIDSE"
+    ],
+    "source_count": 4,
+    "timestamp": "07:12 AM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Iran War Live Updates: Vance Defends Trump's Iran Deal, With a Blunt Warning to ",
-    "emojis": "⚔️🕊️",
+    "summary": "US-Iran peace talks delayed amid rising tensions in Lebanon and Israel-Hezbollah conflict.",
+    "emojis": "⚔️🕊️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "google_israel",
-      "google_iran",
-      "google_middle_east"
+      "US",
+      "Iran",
+      "Israel",
+      "Lebanon"
     ],
-    "source_count": 72,
-    "timestamp": "05:24 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "EU Leaders Agree to Renew Russia Sanctions for 12 Months - U.S. News & World Rep",
-    "emojis": "✈️💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "google_russia"
-    ],
-    "source_count": 16,
-    "timestamp": "05:24 PM"
-  },
-  {
-    "title": "SITREP: US-IL",
-    "summary": "'Living celebration of community': Obamas host star-studded opening of Chicago p",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
-    "actors": [
-      "bbc_world"
-    ],
-    "source_count": 1,
-    "timestamp": "05:24 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "UAW votes to divest from Israel Bonds - The Detroit News",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 18,
-    "timestamp": "05:24 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Gulf oil shock speeds up India’s EV drive - Financial Times",
-    "emojis": "⚔️",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "google_ev",
-      "google_china",
-      "google_middle_east"
-    ],
-    "source_count": 3,
-    "timestamp": "05:24 PM"
+    "source_count": 58,
+    "timestamp": "07:12 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Trade workers face China watch | Daily NK | North Korea News - DailyNK",
+    "summary": "China news: Localization physics, Dragon Boat Festival, poverty alleviation, AI model development and more.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "google_china"
+      "Jackie Chan",
+      "Physicists in China",
+      "Taiwan",
+      "Trump team",
+      "ASML",
+      "Former KMT official",
+      "Z.ai Founder"
     ],
-    "source_count": 11,
-    "timestamp": "05:24 PM"
+    "source_count": 22,
+    "timestamp": "07:12 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel launches airstrikes in Lebanon after four soldiers killed, amid calls for retaliation against Hezbollah.",
+    "emojis": "🪖💥💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israeli government",
+      "Hezbollah",
+      "US VP"
+    ],
+    "source_count": 22,
+    "timestamp": "07:12 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia rates cut, Kremlin defends air defenses, and Putin sentenced to prison",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Bank of Russia",
+      "Kremlin",
+      "Tamara Eidelman",
+      "Putin",
+      "EU official"
+    ],
+    "source_count": 15,
+    "timestamp": "07:12 AM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Startup Subquadratic claims breakthrough in LLMs and EV charging infrastructure, focusing on Florida",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "Subquadratic",
+      "Florida"
+    ],
+    "source_count": 2,
+    "timestamp": "07:12 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Reliance Jio, India's largest telecom operator, announces a $4 billion share sale, potentially India's biggest.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Mukesh Ambani",
+      "Reliance Industries"
+    ],
+    "source_count": 1,
+    "timestamp": "07:12 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon reports 16 deaths from Israeli strikes, amid ongoing regional tensions and geopolitics.",
+    "emojis": "💥💀⚡",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 2,
+    "timestamp": "07:12 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Germany and Poland face challenges in strengthening relations amid historical tensions and differing economic interests.",
+    "emojis": "⚡",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Germany",
+      "Poland"
+    ],
+    "source_count": 1,
+    "timestamp": "07:12 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "'If Ukraine burns, Moscow burns': Zelenskyy makes good on his warning with massi",
+    "summary": "Russia intensifies attacks on Ukraine, with drone strikes and espionage repercussions escalating tensions.",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "google_russia"
+      "Russia",
+      "Ukraine"
     ],
     "source_count": 6,
-    "timestamp": "05:24 PM"
+    "timestamp": "07:12 AM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon says Israeli strikes kill three - Middle East Eye",
-    "emojis": "💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: US-CA",
+    "summary": "AI museum exhibits immersive rainforest experience with sounds, smells, and visuals.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "google_middle_east"
+      "artificial intelligence",
+      "visitors"
     ],
     "source_count": 1,
-    "timestamp": "05:24 PM"
+    "timestamp": "07:12 AM"
   }
 ];
 
