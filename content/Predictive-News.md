@@ -28,21 +28,19 @@ A ceasefire agreement between two regional adversaries is facing significant str
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 19, 2026
+## Daily Intelligence Brief - Jun 20, 2026
 
-A multipolar world is taking shape, with global actors repositioning for influence in the new order. 
+The situation is tense in the Middle East as power dynamics continue to realign. Iran's war with its neighbors has drawn to a close, prompting questions from Congress about its worthiness. Meanwhile, Hizbollah and Israel clashes threaten to reopen the Strait of Hormuz, a critical waterway. 
 
-The US and Israel are tightening their alliance amid tensions over Iran's nuclear program. **Trump** has assured **Netanyahu**, calling him a "warrior PM," and touting their "great relationship." This signals increased coordination on regional issues.
+Israel continues military strikes in Lebanon despite reports of a renewed ceasefire. In Gaza, an Israeli strike killed four individuals, including two daughters, in what appears to be another instance of civilian casualties.
 
-Meanwhile, the US is also strengthening its ties with China, with **Trump** planning to visit both countries this year. 
-
-Iran continues to push the limits of its deal with the US, provoking Israel and testing the commitment of its partners. In response, Iran's deputy FM has expressed readiness to move forward in negotiations.
+Technical talks between Iran and the US are set to begin in Switzerland in 1-2 days. These discussions may provide insight into the evolving relationship between the US and Iran. 
 
 Watch for:
 
-* The Trump administration's diplomatic strategy in the Middle East
-* Iran's next moves on its nuclear program or relations with European powers
-* Developments in China's Belt and Road Initiative (BRI)
+* Increased tensions at the Strait of Hormuz
+* The outcome of technical talks between Iran and the US
+* Further escalations from Hizbollah or Israel in response to reopening the Strait
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
