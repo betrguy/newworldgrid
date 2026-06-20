@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-19 16:49 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-06-20 08:20 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,55 +51,24 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "Trump to visit China, EU proposes diversification law, ASML faces scrutiny over Chinese export ties.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Trump",
-      "EU",
-      "ASML"
-    ],
-    "source_count": 16,
-    "timestamp": "04:48 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran deal under threat amid Israel's possible undermining, despite recent ceasefires and diplomatic efforts.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Iran-US ceasefire deal under threat due to ongoing Lebanon fighting and Israeli strikes.",
+    "emojis": "💥⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Israel",
+      "US",
       "Iran",
-      "US"
+      "Israel"
     ],
-    "source_count": 46,
-    "timestamp": "04:48 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine continues attacks on Russia, while Russia refuses European ultimatum, amid escalating energy crisis and humanitarian concerns.",
-    "emojis": "⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Kremlin",
-      "Europe",
-      "Ukraine",
-      "Belarus"
-    ],
-    "source_count": 8,
-    "timestamp": "04:48 PM"
+    "source_count": 36,
+    "timestamp": "08:19 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel and Hezbollah agree on a ceasefire, but continue attacks in Lebanon despite agreement.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "Israel-Hezbollah clashes despite ceasefire, killing 10 in Lebanon and sparking renewed tensions.",
+    "emojis": "💥🕊️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
@@ -107,70 +76,28 @@
       "Israel",
       "Hezbollah"
     ],
-    "source_count": 21,
-    "timestamp": "04:48 PM"
+    "source_count": 22,
+    "timestamp": "08:20 AM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "VEMO invests MX$825M to expand electric vehicle network in NL, Mexico.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "title": "SITREP: LEBANON",
+    "summary": "Israel continues strikes in southern Lebanon despite ceasefire, killing at least 16 people and sparking international concern.",
+    "emojis": "💥⚔️🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "VEMO",
-      "Mexico"
+      "Israel",
+      "Hezbollah",
+      "US"
     ],
-    "source_count": 1,
-    "timestamp": "04:48 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Tensions rise in Russia with fuel rationing, economic concerns and diplomatic incidents amidst global conflicts.",
-    "emojis": "⚔️☢️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia"
-    ],
-    "source_count": 11,
-    "timestamp": "04:48 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK: Residents react to longest commercial flight and cook for top Palestinian chef.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "BBC",
-      "Sydney locals",
-      "Middle East Eye",
-      "London's top Palestinian chef"
-    ],
-    "source_count": 2,
-    "timestamp": "04:48 PM"
-  },
-  {
-    "title": "SITREP: US-MN",
-    "summary": "New method to control quantum light sources using hexagonal boron nitride layers with precise twisting",
-    "emojis": "",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
-    "actors": [
-      "Researcher1",
-      "Researcher2"
-    ],
-    "source_count": 1,
-    "timestamp": "04:48 PM"
+    "source_count": 13,
+    "timestamp": "08:20 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli strike on Gaza tent wounds 5 Palestinians, sparking tension in the region.",
-    "emojis": "💥⚡",
+    "summary": "Violent clashes & economic hardship in Gaza, amid Israeli strikes and bank account closures",
+    "emojis": "💥💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
@@ -178,79 +105,98 @@
       "Israel",
       "Palestinians"
     ],
-    "source_count": 1,
-    "timestamp": "04:48 PM"
+    "source_count": 4,
+    "timestamp": "08:20 AM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "New protests in Syria driven by economic hardship, discontent with regime's handling of COVID-19 crisis",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "title": "SITREP: CHINA",
+    "summary": "China celebrates Dragon Boat Festival, prepares robots for jobs, and resumes travel to Japan and China despite warnings.",
+    "emojis": "🪖⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Syrian government",
-      "opposition groups"
+      "CGTN",
+      "US",
+      "Philippines",
+      "China",
+      "Trump",
+      "Japan"
     ],
-    "source_count": 1,
-    "timestamp": "04:48 PM"
+    "source_count": 26,
+    "timestamp": "08:20 AM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "European robotics start-ups compete with Chinese firms for humanoid robot tech, impacting various industries and sectors.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia escalates Ukraine conflict, with drones and oil refinery attacks sparking international concern and tension.",
+    "emojis": "✈️⚔️⚡",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "French Robotics Start-ups",
-      "Chinese Firms"
+      "Russia",
+      "Ukraine",
+      "Europe"
     ],
-    "source_count": 1,
-    "timestamp": "04:49 PM"
+    "source_count": 16,
+    "timestamp": "08:20 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia continues military actions, wildfires spread, while US & Turkey navigate geopolitical tensions with Russia.",
+    "emojis": "🪖✈️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "US",
+      "Russia",
+      "Turkey"
+    ],
+    "source_count": 8,
+    "timestamp": "08:20 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Russian banker returns after 2-week disappearance, attempts to project calm amid uncertainty.",
+    "summary": "US-NY faces uncertainty in oil market and new car brands, with some achieving success while others fail.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "04:49 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India's EV market needs a trust-first ecosystem to flourish, with various stakeholders working together.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Government of India",
-      "Automakers",
-      "Consumers"
-    ],
-    "source_count": 1,
-    "timestamp": "04:49 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes intensify in Lebanon, killing over 47 and sparking calls for truce despite Israeli official's defiant stance",
-    "emojis": "💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
+      "The New York Times",
+      "supercarblondie.com"
     ],
     "source_count": 3,
-    "timestamp": "04:49 PM"
+    "timestamp": "08:20 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Solar-powered car attempts UK cross-country drive, sparking media interest and public attention.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "BBC",
+      "Yahoo! Finance Canada"
+    ],
+    "source_count": 2,
+    "timestamp": "08:20 AM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "ComEd honors 9 IL communities for EV readiness advancements in Northern Illinois",
+    "emojis": "",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "ComEd",
+      "Metropolitan Mayors Caucus"
+    ],
+    "source_count": 1,
+    "timestamp": "08:20 AM"
   }
 ];
 
