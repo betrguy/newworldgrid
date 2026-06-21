@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-20 08:20 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-06-21 09:21 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,152 +51,176 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine clashes with Russia in Crimea, hits key oil refinery with drones, amid 'massive attack' warning from Zelensky.",
+    "emojis": "✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Zelensky",
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 6,
+    "timestamp": "09:21 AM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Iran-US ceasefire deal under threat due to ongoing Lebanon fighting and Israeli strikes.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "US and Iran engage in high-stakes talks amid Lebanon's involvement, posing threat to initial peace deal.",
+    "emojis": "🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Iran",
-      "Israel"
+      "Al Jazeera",
+      "NBC News",
+      "CNN",
+      "Vance",
+      "US officials",
+      "Iran officials",
+      "CBS News",
+      "Bloomberg.com",
+      "BBC",
+      "The Jerusalem Post",
+      "The New Arab"
     ],
-    "source_count": 36,
-    "timestamp": "08:19 AM"
+    "source_count": 55,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China navigates AI, EVs, trade pressures, geopolitics, and emerging trends amidst global uncertainty.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "EU",
+      "US"
+    ],
+    "source_count": 22,
+    "timestamp": "09:21 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel-Hezbollah clashes despite ceasefire, killing 10 in Lebanon and sparking renewed tensions.",
-    "emojis": "💥🕊️⚡",
+    "summary": "Israel faces controversy over pro-Israel funding, boycotts, and conflicts with Lebanon and Palestine.",
+    "emojis": "🪖⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Hezbollah"
+      "The Washington Post",
+      "The Times of Israel",
+      "Reuters",
+      "The Jerusalem Post",
+      "Al Jazeera",
+      "The Jerusalem Post",
+      "The Jerusalem Post",
+      "The Jerusalem Post"
     ],
-    "source_count": 22,
-    "timestamp": "08:20 AM"
+    "source_count": 19,
+    "timestamp": "09:21 AM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Israel continues strikes in southern Lebanon despite ceasefire, killing at least 16 people and sparking international concern.",
-    "emojis": "💥⚔️🕊️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces increasing pressure, drone attacks, fuel shortages, and military strikes amid worsening conflict.",
+    "emojis": "🪖✈️💥",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Israel",
-      "Hezbollah",
-      "US"
+      "Andrii Sybyha",
+      "Unknown"
     ],
-    "source_count": 13,
-    "timestamp": "08:20 AM"
+    "source_count": 6,
+    "timestamp": "09:21 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Violent clashes & economic hardship in Gaza, amid Israeli strikes and bank account closures",
-    "emojis": "💥💀",
+    "summary": "Clashes continue in Gaza following Israeli strikes, killing Al Jazeera journalists and injuring others.",
+    "emojis": "✈️💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Israel",
-      "Palestinians"
+      "Palestinians",
+      "Al Jazeera"
     ],
     "source_count": 4,
-    "timestamp": "08:20 AM"
+    "timestamp": "09:21 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China celebrates Dragon Boat Festival, prepares robots for jobs, and resumes travel to Japan and China despite warnings.",
-    "emojis": "🪖⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon's ancient monuments are threatened by potential Israeli attacks.",
+    "emojis": "⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "CGTN",
-      "US",
-      "Philippines",
-      "China",
-      "Trump",
-      "Japan"
+      "Israel",
+      "Lebanon"
     ],
-    "source_count": 26,
-    "timestamp": "08:20 AM"
+    "source_count": 1,
+    "timestamp": "09:21 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates Ukraine conflict, with drones and oil refinery attacks sparking international concern and tension.",
-    "emojis": "✈️⚔️⚡",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: FRANCE",
+    "summary": "Veiled women in France face systemic employment barriers due to societal stigma and discriminatory policies.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "Russia",
-      "Ukraine",
-      "Europe"
+      "actor1",
+      "actor2"
     ],
-    "source_count": 16,
-    "timestamp": "08:20 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia continues military actions, wildfires spread, while US & Turkey navigate geopolitical tensions with Russia.",
-    "emojis": "🪖✈️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "US",
-      "Russia",
-      "Turkey"
-    ],
-    "source_count": 8,
-    "timestamp": "08:20 AM"
+    "source_count": 1,
+    "timestamp": "09:21 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US-NY faces uncertainty in oil market and new car brands, with some achieving success while others fail.",
-    "emojis": "",
+    "summary": "US officials meet with Iranian counterparts in Switzerland for peace talks",
+    "emojis": "🕊️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "The New York Times",
-      "supercarblondie.com"
+      "U.S. Officials",
+      "Iranian Officials"
     ],
-    "source_count": 3,
-    "timestamp": "08:20 AM"
+    "source_count": 1,
+    "timestamp": "09:21 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Solar-powered car attempts UK cross-country drive, sparking media interest and public attention.",
+    "summary": "Middle East boards influence UK, US on AI governance plans",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "BBC",
-      "Yahoo! Finance Canada"
-    ],
-    "source_count": 2,
-    "timestamp": "08:20 AM"
-  },
-  {
-    "title": "SITREP: US-IL",
-    "summary": "ComEd honors 9 IL communities for EV readiness advancements in Northern Illinois",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
-    "actors": [
-      "ComEd",
-      "Metropolitan Mayors Caucus"
+      "UK",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "08:20 AM"
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan's mango exports decline due to lingering effects of Middle East war impacts on international trade.",
+    "emojis": "⚔️",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Middle East",
+      "Pakistan"
+    ],
+    "source_count": 1,
+    "timestamp": "09:21 AM"
   }
 ];
 
