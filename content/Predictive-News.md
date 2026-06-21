@@ -28,19 +28,18 @@ Global tensions have escalated as a series of high-stakes conflicts and diplomat
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 20, 2026
+## Daily Intelligence Brief - Jun 21, 2026
 
-The situation is tense in the Middle East as power dynamics continue to realign. Iran's war with its neighbors has drawn to a close, prompting questions from Congress about its worthiness. Meanwhile, Hizbollah and Israel clashes threaten to reopen the Strait of Hormuz, a critical waterway. 
+The global order is reorganizing. Diplomatic efforts are underway to address pressing issues.
 
-Israel continues military strikes in Lebanon despite reports of a renewed ceasefire. In Gaza, an Israeli strike killed four individuals, including two daughters, in what appears to be another instance of civilian casualties.
+US Secretary of State Antony Blinken met with officials from Iran, Pakistan, and Qatar in a bid to stabilize the region. The talks come as Lebanon's influence is being leveraged to determine the fate of the Iran-US deal. Meanwhile, Ukraine's President Volodymyr Zelensky issued a stark warning to Belarus over Kyiv's actions against a Siberian refinery.
 
-Technical talks between Iran and the US are set to begin in Switzerland in 1-2 days. These discussions may provide insight into the evolving relationship between the US and Iran. 
+The US and Iran are set to hold high-level talks, with the Lebanese issue taking center stage. The clock is ticking on Trump's border wall, with Homeland Security Secretary Markwayne Mullin declaring the project's future uncertain.
 
 Watch for:
-
-* Increased tensions at the Strait of Hormuz
-* The outcome of technical talks between Iran and the US
-* Further escalations from Hizbollah or Israel in response to reopening the Strait
+* Whether the US-Iran deal collapses or undergoes significant revisions
+* Escalation of tensions between Ukraine and Belarus over the Siberian refinery
+* The outcome of Lebanon's role in shaping the Iran-US agreement
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
