@@ -28,18 +28,18 @@ Global tensions have intensified as major powers engage in a complex web of dipl
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 21, 2026
+## Daily Intelligence Brief - Jun 23, 2026
 
-The global order is reorganizing. Diplomatic efforts are underway to address pressing issues.
+The global order is reorganizing, with power centers shifting towards multiple actors. The US and Iran are experiencing heightened tensions, with the Iranian banks hit by a cyber attack following the announcement that millions in frozen funds would be released.
 
-US Secretary of State Antony Blinken met with officials from Iran, Pakistan, and Qatar in a bid to stabilize the region. The talks come as Lebanon's influence is being leveraged to determine the fate of the Iran-US deal. Meanwhile, Ukraine's President Volodymyr Zelensky issued a stark warning to Belarus over Kyiv's actions against a Siberian refinery.
+The Trump administration's efforts to pivot back to economic discussions have been met with resistance from lawmakers, who have voted to halt the war despite Trump's push for a peace deal. The Senate has also adopted a House-passed resolution in symbolic rebuke of Trump's stance on Iran.
 
-The US and Iran are set to hold high-level talks, with the Lebanese issue taking center stage. The clock is ticking on Trump's border wall, with Homeland Security Secretary Markwayne Mullin declaring the project's future uncertain.
+UN officials are evacuating 11,000 stranded sailors from the Strait of Hormuz, and diplomatic efforts are ongoing between the US and Iran. Authoritarian states are expanding their influence as liberal order retreats.
 
 Watch for:
-* Whether the US-Iran deal collapses or undergoes significant revisions
-* Escalation of tensions between Ukraine and Belarus over the Siberian refinery
-* The outcome of Lebanon's role in shaping the Iran-US agreement
+* Further escalation of cyber attacks against Iranian infrastructure
+* The outcome of upcoming UN-led talks on Iran's nuclear program
+* Increased military presence by countries in the Middle East to counterbalance Iranian influence
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
