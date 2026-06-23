@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-21 09:21 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-06-23 17:44 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,176 +51,138 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine clashes with Russia in Crimea, hits key oil refinery with drones, amid 'massive attack' warning from Zelensky.",
-    "emojis": "✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Zelensky",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 6,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US and Iran engage in high-stakes talks amid Lebanon's involvement, posing threat to initial peace deal.",
-    "emojis": "🕊️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Al Jazeera",
-      "NBC News",
-      "CNN",
-      "Vance",
-      "US officials",
-      "Iran officials",
-      "CBS News",
-      "Bloomberg.com",
-      "BBC",
-      "The Jerusalem Post",
-      "The New Arab"
-    ],
-    "source_count": 55,
-    "timestamp": "09:21 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China navigates AI, EVs, trade pressures, geopolitics, and emerging trends amidst global uncertainty.",
+    "summary": "China imposes export controls, faces economic backlash amid increased earthquake activity and AI advancements.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "EU",
-      "US"
+      "China"
     ],
-    "source_count": 22,
-    "timestamp": "09:21 AM"
+    "source_count": 8,
+    "timestamp": "05:44 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US-Iran tensions escalate as cyber attacks, war threats, and diplomatic efforts reignite conflict",
+    "emojis": "⚔️☢️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Trump",
+      "Iran"
+    ],
+    "source_count": 57,
+    "timestamp": "05:44 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia escalates attacks on Ukraine, seeks peace talks as West strengthens support for Kyiv.",
+    "emojis": "⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine",
+      "West"
+    ],
+    "source_count": 9,
+    "timestamp": "05:44 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces controversy over pro-Israel funding, boycotts, and conflicts with Lebanon and Palestine.",
-    "emojis": "🪖⚔️",
+    "summary": "Israel faces controversy over Gaza deal, antisemitism accusations, and genocide allegations amid international tensions.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "The Washington Post",
-      "The Times of Israel",
-      "Reuters",
-      "The Jerusalem Post",
-      "Al Jazeera",
-      "The Jerusalem Post",
-      "The Jerusalem Post",
-      "The Jerusalem Post"
+      "Trump",
+      "Netanyahu",
+      "Collins",
+      "Graham",
+      "Pope Leo",
+      "Gaza children",
+      "Houthi",
+      "Israeli soldiers"
     ],
-    "source_count": 19,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces increasing pressure, drone attacks, fuel shortages, and military strikes amid worsening conflict.",
-    "emojis": "🪖✈️💥",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Andrii Sybyha",
-      "Unknown"
-    ],
-    "source_count": 6,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Clashes continue in Gaza following Israeli strikes, killing Al Jazeera journalists and injuring others.",
-    "emojis": "✈️💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians",
-      "Al Jazeera"
-    ],
-    "source_count": 4,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon's ancient monuments are threatened by potential Israeli attacks.",
-    "emojis": "⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 1,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Veiled women in France face systemic employment barriers due to societal stigma and discriminatory policies.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US officials meet with Iranian counterparts in Switzerland for peace talks",
-    "emojis": "🕊️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "U.S. Officials",
-      "Iranian Officials"
-    ],
-    "source_count": 1,
-    "timestamp": "09:21 AM"
+    "source_count": 18,
+    "timestamp": "05:44 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Middle East boards influence UK, US on AI governance plans",
+    "summary": "New Skoda Peaq Electric SUV priced from £51,980 in UK, UK-built Nissan Qashqai EV reportedly canceled",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK",
-      "US"
+      "Skoda",
+      "Nissan"
     ],
-    "source_count": 1,
-    "timestamp": "09:21 AM"
+    "source_count": 2,
+    "timestamp": "05:44 PM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan's mango exports decline due to lingering effects of Middle East war impacts on international trade.",
-    "emojis": "⚔️",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces economic and humanitarian crisis amidst Ukraine strikes, fuel rationing and disabled relative disappearances.",
+    "emojis": "💥",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Middle East",
-      "Pakistan"
+      "Russia",
+      "Ukraine",
+      "United States"
+    ],
+    "source_count": 9,
+    "timestamp": "05:44 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Iranian singer sentenced to lashes for performing without hijab, Rubio opposes charging traffic fees in Middle East.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "The New York Times",
+      "Rubio",
+      "The Iranian Singer"
+    ],
+    "source_count": 2,
+    "timestamp": "05:44 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "UN report condemns Israel for killing Gaza children, labeling actions as genocide post-truce.",
+    "emojis": "",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "U.N.",
+      "Israeli"
     ],
     "source_count": 1,
-    "timestamp": "09:21 AM"
+    "timestamp": "05:44 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah condemns Israeli fire, demanding a full withdrawal timeline from Lebanon.",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel"
+    ],
+    "source_count": 2,
+    "timestamp": "05:44 PM"
   }
 ];
 
