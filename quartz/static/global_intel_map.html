@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-23 17:44 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-06-24 17:29 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,138 +51,183 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces controversy over Gaza targeting, US support and criticism from Jewish leaders and Colombians.",
+    "emojis": "💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "US",
+      "Jewish leaders",
+      "Colombians"
+    ],
+    "source_count": 26,
+    "timestamp": "05:29 PM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China imposes export controls, faces economic backlash amid increased earthquake activity and AI advancements.",
-    "emojis": "",
+    "summary": "China reacts to global news on Apple, dairy, energy, trade, EVs, stealth aircraft, and China's relations with West Africa.",
+    "emojis": "✈️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "Apple",
+      "Fonterra",
+      "Trump",
+      "US",
+      "Ford",
       "China"
     ],
-    "source_count": 8,
-    "timestamp": "05:44 PM"
+    "source_count": 10,
+    "timestamp": "05:29 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions escalate as cyber attacks, war threats, and diplomatic efforts reignite conflict",
-    "emojis": "⚔️☢️⚡",
+    "summary": "Trump's Iran policy sparks congressional pushback and calls for withdrawal from Lebanon, amid global oil price drop.",
+    "emojis": "⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Trump",
-      "Iran"
-    ],
-    "source_count": 57,
-    "timestamp": "05:44 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates attacks on Ukraine, seeks peace talks as West strengthens support for Kyiv.",
-    "emojis": "⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "West"
-    ],
-    "source_count": 9,
-    "timestamp": "05:44 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces controversy over Gaza deal, antisemitism accusations, and genocide allegations amid international tensions.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Trump",
       "Netanyahu",
-      "Collins",
-      "Graham",
-      "Pope Leo",
-      "Gaza children",
-      "Houthi",
-      "Israeli soldiers"
+      "Congress"
     ],
-    "source_count": 18,
-    "timestamp": "05:44 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "New Skoda Peaq Electric SUV priced from £51,980 in UK, UK-built Nissan Qashqai EV reportedly canceled",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Skoda",
-      "Nissan"
-    ],
-    "source_count": 2,
-    "timestamp": "05:44 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces economic and humanitarian crisis amidst Ukraine strikes, fuel rationing and disabled relative disappearances.",
-    "emojis": "💥",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "United States"
-    ],
-    "source_count": 9,
-    "timestamp": "05:44 PM"
+    "source_count": 40,
+    "timestamp": "05:29 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Iranian singer sentenced to lashes for performing without hijab, Rubio opposes charging traffic fees in Middle East.",
+    "summary": "NYC Democrats choose Mamdani-backed candidates, Trump criticizes housing bill, EVs gain popularity.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "The New York Times",
-      "Rubio",
-      "The Iranian Singer"
+      "Trump",
+      "Mamdani-backed candidates",
+      "Treasury Secretary Bes"
     ],
-    "source_count": 2,
-    "timestamp": "05:44 PM"
+    "source_count": 5,
+    "timestamp": "05:29 PM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "UN report condemns Israel for killing Gaza children, labeling actions as genocide post-truce.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia continues to engage in combat and economic struggles, with sanctions and energy curbs taking a toll.",
+    "emojis": "✈️⚔️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "U.N.",
-      "Israeli"
+      "Putin",
+      "Ukrainian Defense Forces"
+    ],
+    "source_count": 12,
+    "timestamp": "05:29 PM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Syria caught between US President Trump and his closest allies, Turkey and Saudi Arabia.",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Trump",
+      "Turkey",
+      "Saudi Arabia"
     ],
     "source_count": 1,
-    "timestamp": "05:44 PM"
+    "timestamp": "05:29 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Conflict escalates in Ukraine with Russia launching drone strikes and Ukraine retaliating with long-range missile attacks.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 7,
+    "timestamp": "05:29 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Hezbollah condemns Israeli fire, demanding a full withdrawal timeline from Lebanon.",
-    "emojis": "",
+    "summary": "Hezbollah fighters trapped, Israeli attacks kill 2 in southern Lebanon despite ongoing talks with US.",
+    "emojis": "🪖💥⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
+      "Israel",
       "Hezbollah",
-      "Israel"
+      "US"
     ],
-    "source_count": 2,
-    "timestamp": "05:44 PM"
+    "source_count": 3,
+    "timestamp": "05:29 PM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "US, UK, France, & Germany express concern over Chinese naval patrols off eastern Taiwan.",
+    "emojis": "🚢",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "US",
+      "UK",
+      "France",
+      "Germany"
+    ],
+    "source_count": 1,
+    "timestamp": "05:29 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France experiences record-breaking heat with power outages, marking hottest day since 1947.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Environment Agency",
+      "National Weather Service"
+    ],
+    "source_count": 1,
+    "timestamp": "05:29 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Kiran Kumar promoted as Managing Director for The Orchard's India & Middle East operations.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "KGV Kiran Kumar"
+    ],
+    "source_count": 1,
+    "timestamp": "05:29 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Trump cancels housing bill signing pending passage of SAVE Act",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "President Trump",
+      "bipartisan lawmakers"
+    ],
+    "source_count": 1,
+    "timestamp": "05:29 PM"
   }
 ];
 
