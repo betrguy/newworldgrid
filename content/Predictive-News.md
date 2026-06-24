@@ -28,18 +28,20 @@ A global landscape of escalating tensions and shifting alliances is unfolding as
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 23, 2026
+## Daily Intelligence Brief - Jun 24, 2026
 
-The global order is reorganizing, with power centers shifting towards multiple actors. The US and Iran are experiencing heightened tensions, with the Iranian banks hit by a cyber attack following the announcement that millions in frozen funds would be released.
+A global power realignment is underway, with multiple actors repositioning for a multipolar world. China's developers are accusing **Apple** of unfair App Store commission fees, a sign that the tech giant's influence is being challenged.
 
-The Trump administration's efforts to pivot back to economic discussions have been met with resistance from lawmakers, who have voted to halt the war despite Trump's push for a peace deal. The Senate has also adopted a House-passed resolution in symbolic rebuke of Trump's stance on Iran.
+Meanwhile, Netanyahu has declared that Israel will not leave Lebanon "so long as I am Prime Minister," undermining Iran peace talks. The US Congress has also urged President Trump to stop the Iran war, but its impact remains uncertain. 
 
-UN officials are evacuating 11,000 stranded sailors from the Strait of Hormuz, and diplomatic efforts are ongoing between the US and Iran. Authoritarian states are expanding their influence as liberal order retreats.
+Russia is expanding its military capabilities, with three students enlisting in Russian drone units after a recruitment drive at colleges last year. Ukraine's UN envoy is urging Russia's expulsion from peacekeeping operations.
+
+In the economic sphere, Fonterra has gambled on the Chinese dairy market, pivoting to meet local demand.
 
 Watch for:
-* Further escalation of cyber attacks against Iranian infrastructure
-* The outcome of upcoming UN-led talks on Iran's nuclear program
-* Increased military presence by countries in the Middle East to counterbalance Iranian influence
+* Apple's response to China's accusations
+* The next development in Iran peace talks
+* Any further escalation of tensions between Ukraine and Russia
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
