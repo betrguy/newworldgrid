@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-24 17:29 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-06-25 17:57 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,182 +52,163 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces controversy over Gaza targeting, US support and criticism from Jewish leaders and Colombians.",
-    "emojis": "💀",
+    "summary": "Tensions rise between Israel and Palestinians, amid UN challenges to its existence and domestic social unrest.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "US",
-      "Jewish leaders",
-      "Colombians"
+      "Palestinians"
     ],
-    "source_count": 26,
-    "timestamp": "05:29 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China reacts to global news on Apple, dairy, energy, trade, EVs, stealth aircraft, and China's relations with West Africa.",
-    "emojis": "✈️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Apple",
-      "Fonterra",
-      "Trump",
-      "US",
-      "Ford",
-      "China"
-    ],
-    "source_count": 10,
-    "timestamp": "05:29 PM"
+    "source_count": 28,
+    "timestamp": "05:57 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Trump's Iran policy sparks congressional pushback and calls for withdrawal from Lebanon, amid global oil price drop.",
-    "emojis": "⚔️🕊️",
+    "summary": "Iran escalates tensions with strikes on ships in Strait of Hormuz, undermining US-Iran deal efforts.",
+    "emojis": "💥⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Netanyahu",
-      "Congress"
+      "US",
+      "Iran"
     ],
     "source_count": 40,
-    "timestamp": "05:29 PM"
+    "timestamp": "05:57 PM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "NYC Democrats choose Mamdani-backed candidates, Trump criticizes housing bill, EVs gain popularity.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: FRANCE",
+    "summary": "France faces heatwave, rising concerns over health and sexual assault allegations amid calls to abolish statute of limitations.",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "Trump",
-      "Mamdani-backed candidates",
-      "Treasury Secretary Bes"
+      "France",
+      "European women"
     ],
-    "source_count": 5,
-    "timestamp": "05:29 PM"
+    "source_count": 2,
+    "timestamp": "05:57 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia continues to engage in combat and economic struggles, with sanctions and energy curbs taking a toll.",
-    "emojis": "✈️⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Putin",
-      "Ukrainian Defense Forces"
-    ],
-    "source_count": 12,
-    "timestamp": "05:29 PM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Syria caught between US President Trump and his closest allies, Turkey and Saudi Arabia.",
+    "title": "SITREP: IRAQ",
+    "summary": "US and Iraq explore new relationship amid security concerns and economic interests.",
     "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Trump",
-      "Turkey",
-      "Saudi Arabia"
+      "US",
+      "Iraq"
     ],
     "source_count": 1,
-    "timestamp": "05:29 PM"
+    "timestamp": "05:57 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "France and Italy propose a coalition to replace UNIFIL in Lebanon, amidst fragile peace talks.",
+    "emojis": "🕊️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "France",
+      "Italy"
+    ],
+    "source_count": 2,
+    "timestamp": "05:57 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Conflict escalates in Ukraine with Russia launching drone strikes and Ukraine retaliating with long-range missile attacks.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Russia's war against Ukraine intensifies, with sanctions extended and tensions rising between Belarus and Ukraine.",
+    "emojis": "⚔️🚫⚡",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine"
+      "Ukraine",
+      "Belarus"
     ],
     "source_count": 7,
-    "timestamp": "05:29 PM"
+    "timestamp": "05:57 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah fighters trapped, Israeli attacks kill 2 in southern Lebanon despite ongoing talks with US.",
-    "emojis": "🪖💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces economic sanctions, app removals, and a fuel crisis as Putin's grip on control weakens.",
+    "emojis": "🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Israel",
-      "Hezbollah",
-      "US"
+      "EU",
+      "Apple",
+      "India",
+      "Romania",
+      "Rubio",
+      "Zelenskyy",
+      "Russia"
     ],
-    "source_count": 3,
-    "timestamp": "05:29 PM"
+    "source_count": 11,
+    "timestamp": "05:57 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "US, UK, France, & Germany express concern over Chinese naval patrols off eastern Taiwan.",
-    "emojis": "🚢",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: US-NY",
+    "summary": "NYC sees rise in nationalism and decrease in Islamism, sparking concerns about social cohesion.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
+      "NYC Residents",
+      "Law Enforcement"
+    ],
+    "source_count": 1,
+    "timestamp": "05:57 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China navigates global politics, exits US market, boosts supply chain resilience while expanding influence.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
       "US",
-      "UK",
-      "France",
-      "Germany"
+      "Canada"
     ],
-    "source_count": 1,
-    "timestamp": "05:29 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France experiences record-breaking heat with power outages, marking hottest day since 1947.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Environment Agency",
-      "National Weather Service"
-    ],
-    "source_count": 1,
-    "timestamp": "05:29 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Kiran Kumar promoted as Managing Director for The Orchard's India & Middle East operations.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "KGV Kiran Kumar"
-    ],
-    "source_count": 1,
-    "timestamp": "05:29 PM"
+    "source_count": 8,
+    "timestamp": "05:57 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Trump cancels housing bill signing pending passage of SAVE Act",
+    "summary": "President Trump clashes with Congress over housing bill and Middle East policy amid escalating standoff.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "President Trump",
-      "bipartisan lawmakers"
+      "US President",
+      "Congress"
     ],
     "source_count": 1,
-    "timestamp": "05:29 PM"
+    "timestamp": "05:57 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Autonomous vehicles may ease DFW congestion, improving commutes for Dallas-Fort Worth residents.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Study led by S"
+    ],
+    "source_count": 1,
+    "timestamp": "05:57 PM"
   }
 ];
 
