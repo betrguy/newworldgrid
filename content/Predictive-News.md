@@ -28,20 +28,18 @@ A series of high-stakes conflicts is unfolding across multiple regions, with a U
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 25, 2026
+## Daily Intelligence Brief - Jun 26, 2026
 
-Today's situation brief highlights ongoing tensions in the Middle East and a shift in global power dynamics.
+Key players in the region are shifting their positions following the US strike in response to an attack on a commercial vessel in the Strait of Hormuz.
 
-U.S.-gulf Arab unity appears to be gaining momentum, with Rubio hailing the development despite regional concerns about an Iran agreement. This move suggests that **Saudi Arabia** and other Gulf states are seeking closer ties with the U.S. to counterbalance Iranian influence.
+The US has taken military action against Iran, targeting what Trump describes as a "foolish violation" of ceasefire. The strike appears to be a direct response to the earlier incident, with no clear indication of whether it is intended to deter further aggression or assert US dominance in the region.
 
-Iran's actions, however, indicate a desire to maintain its regional leverage. The recent strike on a ship in the Strait of Hormuz undermines efforts to restore traffic through the critical waterway. This escalation highlights Iran's willingness to use force to protect its interests.
-
-Meanwhile, France warns of growing health concerns due to Europe's heatwave, while Russia is losing ground in its efforts to control online activity in Russia.
+Russia's MOEX Russia Index has seen a 0.97% increase following the news, suggesting that investors may view the US-Iran tensions as a stabilizing force. Meanwhile, Israel and Lebanon have reached a framework deal, which may provide some continuity in the region despite the tensions.
 
 Watch for:
-- A possible U.S.-led coalition formation in response to Iran's actions
-- Increased tensions between Saudi Arabia and other Gulf states over their relationship with the U.S.
-- Further diplomatic shifts as European nations grapple with demographic decline and energy dependence
+* Confirmation of specific Iranian targets hit by the US strike
+* Reports on potential Russian involvement or support for Iran
+* Developments in the framework deal between Israel and Lebanon
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
