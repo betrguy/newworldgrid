@@ -28,18 +28,17 @@ A series of escalating military actions across multiple regions has heightened t
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 26, 2026
+## Daily Intelligence Brief - Jun 27, 2026
 
-Key players in the region are shifting their positions following the US strike in response to an attack on a commercial vessel in the Strait of Hormuz.
+Russia has downed two drones near Moscow. Meanwhile, Ukraine has struck a Russian weapons plant in the city of Yuzhny, which serves as a fuel hub for Moscow's energy infrastructure. Bahrain has condemned an overnight Iranian drone attack and an alleged US strike on its territory.
 
-The US has taken military action against Iran, targeting what Trump describes as a "foolish violation" of ceasefire. The strike appears to be a direct response to the earlier incident, with no clear indication of whether it is intended to deter further aggression or assert US dominance in the region.
-
-Russia's MOEX Russia Index has seen a 0.97% increase following the news, suggesting that investors may view the US-Iran tensions as a stabilizing force. Meanwhile, Israel and Lebanon have reached a framework deal, which may provide some continuity in the region despite the tensions.
+Iran is accusing the US of targeting its assets in the Middle East, following clashes that test the ceasefire between Tehran and Washington. Israeli drones have struck south Lebanon hours after a deal with Beirut. Iran has issued statements claiming it targeted US assets, while Israel says the deal with Lebanon is a strategic blow to the Iranian axis.
 
 Watch for:
-* Confirmation of specific Iranian targets hit by the US strike
-* Reports on potential Russian involvement or support for Iran
-* Developments in the framework deal between Israel and Lebanon
+
+* **US-Iran** naval confrontations in the Strait of Hormuz
+* **Russian** troop deployments along the Ukrainian border
+* Increased Israeli air strikes on Syrian territory
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
