@@ -28,19 +28,23 @@ A significant escalation of tensions in the Middle East has resulted from a seri
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 27, 2026
+## Daily Intelligence Brief - Jun 28, 2026
 
-A new round of escalation is unfolding in the Middle East, with multiple actors repositioning for a multipolar world.
+**Teesta Master Plan**: Bangladesh has committed to implementing the Teesta Master Plan, according to a government minister. China has assured its support for the plan.
 
-**Iran** has been involved in several incidents this week, including **two drone attacks** near Moscow, which were downed by Russian forces (**Breakingthenews.net**). Iran also **attacked another ship** in the Strait of Hormuz (**The Telegraph**), with US strikes following overnight (**The Guardian**, **Spectrum News**). Meanwhile, **Bahrain condemned** Iranian drone attacks after overnight US strikes (**The Guardian**).
+The US and Iran have traded strikes despite a ceasefire deal in place. The strikes are part of an escalation of tensions between the two countries.
 
-In response to these incidents, tensions between **US and Iran** are escalating. The two countries seem to be testing each other's red lines, with the US reportedly conducting new fighting operations (**The Hill**). Russia is also involved, having downed two drones near Moscow (**Breakingthenews.net**) in what appears to be a response to Iranian aggression.
+Russia's military presence is being felt across the region. In Armenia, Russia accuses the country of "repression" following a recent election. Meanwhile, Russia's oil empire is facing a severe gas shortage.
+
+In Ukraine, Kyiv has launched strikes against Russian oil refineries. The strikes are in response to ongoing tensions between the two countries.
+
+The situation on the ground suggests that regional actors are positioning themselves for a multipolar world order. Powers are repositioning and leveraging their influence through diplomatic means and military actions.
+
 
 Watch for:
-
-* Further escalation of US-Iran conflict in the Strait of Hormuz
-* Russian military build-up along its borders with Ukraine
-* Potential Israeli retaliation against Iranian targets in Syria
+- **US** and Iranian naval movements in the Strait of Hormuz
+- Escalation of protests in Iran following recent strikes by the US
+- Russian troop deployments along the Armenia-Azerbaijan border
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
