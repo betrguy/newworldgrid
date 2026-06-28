@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-06-27 13:25 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-06-28 09:31 UTC | 15 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">15 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,51 +51,53 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "China commits to Teesta Master Plan, raises audit penalties and invests in nuclear fusion project",
+    "emojis": "☢️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Bangladesh Govt",
+      "China",
+      "Indian Embassy",
+      "Japan Govt",
+      "Volkswagen",
+      "China's Communist Party"
+    ],
+    "source_count": 19,
+    "timestamp": "09:30 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Plane crash in eastern France kills 11, including pilot and 10 passengers.",
+    "emojis": "💀",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France"
+    ],
+    "source_count": 1,
+    "timestamp": "09:30 AM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions escalate over Strait of Hormuz after tanker strike and reported drone attacks",
-    "emojis": "✈️💥⚔️",
+    "summary": "US and Iran exchange strikes despite ceasefire, raising concerns about escalating tensions in the Middle East.",
+    "emojis": "💥⚔️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Iran",
-      "US"
+      "United States",
+      "Iran"
     ],
-    "source_count": 33,
-    "timestamp": "01:24 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces protests, challenges & criticism over land seizures, abortion policies & deal with Lebanon",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel"
-    ],
-    "source_count": 43,
-    "timestamp": "01:24 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces tensions with EU and Ukraine, while conducting joint military exercises with China.",
-    "emojis": "🪖✈️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "EU",
-      "Ukraine",
-      "China"
-    ],
-    "source_count": 8,
-    "timestamp": "01:24 PM"
+    "source_count": 38,
+    "timestamp": "09:30 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine launches targeted attacks on Russian weapons and energy targets, with Moscow trading strikes back.",
+    "summary": "Ukraine launches drone assault, striking Russian oil refineries and bridges, amid escalating war with Russia.",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -104,128 +106,168 @@
       "Ukraine",
       "Russia"
     ],
-    "source_count": 16,
-    "timestamp": "01:24 PM"
+    "source_count": 21,
+    "timestamp": "09:30 AM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Tensions escalate in Lebanon amid Israeli drone strikes, despite Washington's security framework agreement.",
-    "emojis": "✈️💥⚡",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces criticism over elections and attacks Ukraine, while oil exports dwindle amid economic struggles.",
+    "emojis": "⚔️➡️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "RUSSIA",
+      "ARMENIA",
+      "AZERBAIJAN",
+      "UKRAINE"
+    ],
+    "source_count": 14,
+    "timestamp": "09:30 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Tensions rise with Lebanon, while Israel invests $59m in education and faces US complaints over alleged war crimes.",
+    "emojis": "⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
       "Israel",
-      "US",
       "Hezbollah",
-      "Lebanon"
-    ],
-    "source_count": 6,
-    "timestamp": "01:24 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Violent clashes and drone strikes continue in Gaza, killing civilians and sparking protests worldwide.",
-    "emojis": "✈️💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians"
-    ],
-    "source_count": 6,
-    "timestamp": "01:25 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China ties with EU, US, Brazil, Canada and other nations face visa requirements, security concerns, and ideological training camps.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "EU",
       "US",
-      "Brazil",
-      "Canada"
+      "Ben-Gvir",
+      "IDF",
+      "Haredi community",
+      "Marco Rubio"
     ],
-    "source_count": 15,
-    "timestamp": "01:25 PM"
+    "source_count": 44,
+    "timestamp": "09:30 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Israelis fear strained US-Israeli relation after NYC elections, as Trump readies for midterms",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: INDIA",
+    "summary": "India's IT sector growth faces pressure from GenAI and geopolitics, warns JPMorgan.",
+    "emojis": "⚔️",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "NYC Elections",
-      "President Trump",
-      "Israel"
-    ],
-    "source_count": 4,
-    "timestamp": "01:25 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Asics collaborates with Chinese designer, while France faces diplomatic severance from Burkina Faso.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Asics",
-      "China",
-      "Burkina Faso",
-      "France"
+      "JPMorgan",
+      "India"
     ],
     "source_count": 2,
-    "timestamp": "01:25 PM"
+    "timestamp": "09:30 AM"
   },
   {
     "title": "SITREP: VENEZUELA",
-    "summary": "Newborn baby rescued from rubble after powerful earthquakes hit Venezuela, causing widespread destruction and loss of life.",
+    "summary": "Two Venezuelan boys rescued from earthquake rubble after six hours of digging by rescuers.",
     "emojis": "",
     "lat": 6.4,
     "lng": -66.5,
     "location": "VENEZUELA",
     "actors": [
-      "Red Cross",
-      "Local Rescue Teams"
+      "rescuers"
     ],
     "source_count": 1,
-    "timestamp": "01:25 PM"
+    "timestamp": "09:30 AM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India's EV industry enters engineering decade, requiring new breed of engineers to drive growth.",
+    "title": "SITREP: COLOMBIA",
+    "summary": "Colombia impacted by Latin America's Blue Tide, a wave of social and political upheaval",
     "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "lat": 4.57,
+    "lng": -74.29,
+    "location": "COLOMBIA",
     "actors": [
-      "The Times of India",
-      "India's EV industry"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "01:25 PM"
+    "timestamp": "09:31 AM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "OpenAI restricts GPT-5.6 Sol access to approved users during White House cyber review.",
-    "emojis": "",
+    "summary": "AI assisted FBI in investigating White House Correspondents' Dinner attack with AI-powered forensic platform",
+    "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "OpenAI",
-      "White House"
+      "FBI",
+      "AI-powered firm"
     ],
     "source_count": 1,
-    "timestamp": "01:25 PM"
+    "timestamp": "09:31 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "New Mexico faces uncertainty about its electric vehicle plans and ambition goals.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Albuquerque Journal"
+    ],
+    "source_count": 1,
+    "timestamp": "09:31 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "IAF strikes back after Israeli soldier killed in southern Lebanon by Hezbollah cell.",
+    "emojis": "💥💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "IAF",
+      "Israeli soldier"
+    ],
+    "source_count": 2,
+    "timestamp": "09:31 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "PowerBank secures $2.95M federal contract for solar and EV charging in New York.",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "PowerBank",
+      "US-NY"
+    ],
+    "source_count": 1,
+    "timestamp": "09:31 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Gaza children suffer from Israeli attacks, facing pain and fear due to ongoing conflict.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli forces",
+      "Palestinian civilians"
+    ],
+    "source_count": 1,
+    "timestamp": "09:31 AM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Iraqi forces raid Green Zone, arresting senior politicians in anti-corruption sweep.",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      " Iraqi forces",
+      "senior politicians"
+    ],
+    "source_count": 2,
+    "timestamp": "09:31 AM"
   }
 ];
 
