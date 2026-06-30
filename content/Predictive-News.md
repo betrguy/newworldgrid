@@ -28,23 +28,17 @@ Global tensions have escalated as Ukraine launches drone attacks on Russia, prom
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 28, 2026
+## Daily Intelligence Brief - Jun 30, 2026
 
-**Teesta Master Plan**: Bangladesh has committed to implementing the Teesta Master Plan, according to a government minister. China has assured its support for the plan.
+Iran and the US are re-engaging in diplomatic efforts to revive peace talks. A New York Times report states that **US** envoys will meet with mediators in Qatar, while Iran has declined to meet with US envoys, casting a cloud over prospects for a deal.
 
-The US and Iran have traded strikes despite a ceasefire deal in place. The strikes are part of an escalation of tensions between the two countries.
+Meanwhile, **Israel** is warning of potential strikes on Iran, potentially complicating the diplomatic efforts. The Strait of Hormuz oil flow has returned to pre-war levels, according to New York Post reports citing **Vance**, although Iran says it will not allow other countries to de-mine the waterway.
 
-Russia's military presence is being felt across the region. In Armenia, Russia accuses the country of "repression" following a recent election. Meanwhile, Russia's oil empire is facing a severe gas shortage.
+These developments indicate a shift in leverage and positioning among regional actors. Watch for:
 
-In Ukraine, Kyiv has launched strikes against Russian oil refineries. The strikes are in response to ongoing tensions between the two countries.
-
-The situation on the ground suggests that regional actors are positioning themselves for a multipolar world order. Powers are repositioning and leveraging their influence through diplomatic means and military actions.
-
-
-Watch for:
-- **US** and Iranian naval movements in the Strait of Hormuz
-- Escalation of protests in Iran following recent strikes by the US
-- Russian troop deployments along the Armenia-Azerbaijan border
+* Whether the US can successfully re-establish a diplomatic channel with Iran
+* The potential impact of Israeli strikes on Iranian military infrastructure
+* Further developments in Qatar's role as a mediator in US-Iran negotiations
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
