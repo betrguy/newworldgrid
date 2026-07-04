@@ -28,17 +28,21 @@ A significant escalation of hostilities has occurred in Eastern Europe, with mul
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jun 30, 2026
+## Daily Intelligence Brief - Jul 04, 2026
 
-Iran and the US are re-engaging in diplomatic efforts to revive peace talks. A New York Times report states that **US** envoys will meet with mediators in Qatar, while Iran has declined to meet with US envoys, casting a cloud over prospects for a deal.
+The global landscape is undergoing significant shifts. **Russia** has downed 92 Ukrainian drones, indicating increased military activity in the region.
 
-Meanwhile, **Israel** is warning of potential strikes on Iran, potentially complicating the diplomatic efforts. The Strait of Hormuz oil flow has returned to pre-war levels, according to New York Post reports citing **Vance**, although Iran says it will not allow other countries to de-mine the waterway.
+Meanwhile, Iran is mourning the six-day funeral of former supreme leader Ayatollah Ali Khamenei, with his new leader remaining unseen. This marks a period of transition and power struggle within the Iranian government.
 
-These developments indicate a shift in leverage and positioning among regional actors. Watch for:
+Türkiye's President Recep Tayyip Erdogan has expressed concerns about Israel's potential impact on the US-Iran deal, signaling a need for cooperation among regional actors to maintain diplomatic stability.
 
-* Whether the US can successfully re-establish a diplomatic channel with Iran
-* The potential impact of Israeli strikes on Iranian military infrastructure
-* Further developments in Qatar's role as a mediator in US-Iran negotiations
+These developments suggest that global power structures are reorganizing, with multiple centers of influence emerging. The situation is characterized by increased military activity, diplomatic tensions, and shifts in leadership.
+
+Watch for:
+
+* An update on the status of Ayatollah Ali Khamenei's successor
+* A confirmation or denial of Israel's involvement in scuppering the US-Iran deal
+* Reports from Ukraine on the implications of Russia's drone downings
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
