@@ -9,28 +9,26 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">July 04, 2026 - 13:45</span>
+  <span class="sotg-timestamp">July 05, 2026 - 16:06</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-China's new space tourism rocket launch coincides with BYD surpassing Tesla in global electric vehicle sales, highlighting the intersection of orbital economy and sustainable energy infrastructure development. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Amazon's Kuiper satellite constellation is expanding to rival SpaceX's Starlink, while California's new electric vehicle incentives favor Rivian and Lucid over Tesla. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
-### **The High Ground**
+**The High Ground**
 
-China has launched a new rocket designed for space tourism for the first time. This launch sets a new cadence for orbital infrastructure development.
+Amazon's Kuiper broadband internet satellite launch marks a critical milestone in developing orbital infrastructure. This move demonstrates the feasibility of deploying large numbers of satellites to establish a robust network, as evidenced by the deployment of 27 satellites. Amazon has launched its first internet satellites, taking on Starlink, a major competitor in the space-based broadband market.
 
-### **The EV Race**
+**The EV Race**
 
-BYD edges out Tesla to take global EV crown, despite Elon Musk's electric car giant crushing its sales figures in an unlikely comeback.
+Tesla's sales comeback did not dethrone BYD as the global electric vehicle (EV) market leader, according to [ev market]. California's new EV incentives instead boosted Rivian and Lucid's market prospects, sidelining Elon Musk's electric car giant in the process.
 
 ### **Frontier Speculation: The 0.1% Shift**
 
-*What follows is purely a thought experiment.*
-
-A decade from now, China's space tourism rocket, launched today, has become the de facto standard for Earth-orbiting transportation. BYD's EV crown forces Tesla to pivot its manufacturing focus towards high-end, sustainable energy storage solutions, which inadvertently creates an unprecedented demand for Indonesia's newly established lithium-ion battery production network. As CATL and Hyundai's partnership takes hold, a strange unintended consequence emerges: the global surplus of high-capacity batteries prompts a surge in repurposing abandoned mining infrastructure into massive off-grid data centers, effectively creating a new market-driven incentive to reinvigorate remote, energy-intensive industries like cryptocurrency mining and AI-backed scientific research.
+What follows is purely a thought experiment. As Amazon's Leo constellation expands and becomes a dominant player in the low-Earth orbit internet market, a previously unforeseen consequence emerges. With Rivian and Lucid Motors gaining an unfair advantage from California's EV incentives, Elon Musk retaliates by leveraging Tesla's existing solar panel production capabilities to corner the market on solid-state battery supply. This unexpected move forces CATL to reevaluate its 2027 mass production timeline, as Robin Zeng's company becomes a critical component in Musk's plan to disrupt the entire electric vehicle industry. The outcome? A sudden and inexplicable surge in demand for high-capacity solar panels, causing a ripple effect that destabilizes global energy markets and sends shockwaves through the cryptocurrency sector, ultimately reshaping the global economic landscape.
 
 <!-- /FRONTIER_ENGINE_END -->
 
