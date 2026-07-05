@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-04 13:41 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-07-05 16:02 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,8 +51,97 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions rise in Iran amid funeral of former supreme leader, factional feuds and US-Iran talks stall",
+    "emojis": "⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Ali Khamenei",
+      "Iran's judiciary",
+      "US"
+    ],
+    "source_count": 38,
+    "timestamp": "04:01 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Netanyahu seeks to annex Lebanese villages, kills two in Gaza while US officials warn about Israel's role in region",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hamas",
+      "US",
+      "Netanyahu",
+      "Vance"
+    ],
+    "source_count": 53,
+    "timestamp": "04:01 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia strengthens military presence, boosts wheat exports amid escalating tensions with US and NATO.",
+    "emojis": "🪖🚢⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "US",
+      "NATO"
+    ],
+    "source_count": 9,
+    "timestamp": "04:01 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine denies Russian ceasefire offer, amid escalating tensions before NATO summit and ongoing conflict",
+    "emojis": "💥⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Zelensky",
+      "Putin",
+      "Trump"
+    ],
+    "source_count": 16,
+    "timestamp": "04:01 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "New electric vehicles under $30,000 now available in LA market",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "ABC7 Los Angeles"
+    ],
+    "source_count": 1,
+    "timestamp": "04:01 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli air and artillery attacks resume in southern Lebanon despite ceasefire, killing over 4,300 people since March.",
+    "emojis": "⚔️💣💀",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 3,
+    "timestamp": "04:01 PM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China strengthens coast guard patrols, expands diplomatic efforts while courting Chinese communities abroad",
+    "summary": "China advances in AI, space exploration, while facing global criticism and economic costs from its actions.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
@@ -60,189 +149,78 @@
     "actors": [
       "China"
     ],
-    "source_count": 26,
-    "timestamp": "01:39 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia claims downing 92 Ukrainian drones, while Ukraine attacks St Petersburg oil terminal and kills over 8,000 civilians.",
-    "emojis": "✈️⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 12,
-    "timestamp": "01:39 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Tensions rise in Israel as Iran vows revenge, Netanyahu prepares for White House meeting and protests against gov't.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Iran",
-      "Netanyahu",
-      "Israel"
-    ],
-    "source_count": 30,
-    "timestamp": "01:40 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "California EV buyers may qualify for up to $3,500 in rebates through a new state program.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "State of California"
-    ],
-    "source_count": 1,
-    "timestamp": "01:40 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran mourns former Supreme Leader Khamenei's six-day funeral amidst a power vacuum and uncertain future.",
-    "emojis": "⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [],
-    "source_count": 48,
-    "timestamp": "01:40 PM"
+    "source_count": 15,
+    "timestamp": "04:02 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Taylor Swift and Travis Kelce's wedding celebration in New York with celebrities and sports stars.",
+    "summary": "8 rescued from seaplane crash in Manhattan river, while celebrities react to Taylor and Travis's wedding.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "Adam Sandler",
-      "Travis Kelce"
+      "actor1",
+      "actor2"
     ],
-    "source_count": 3,
-    "timestamp": "01:40 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia proposes ceasefire, hits oil facilities in St Petersburg, and vows to respond to Ukraine's attacks.",
-    "emojis": "🪖⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 20,
-    "timestamp": "01:40 PM"
+    "source_count": 2,
+    "timestamp": "04:02 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "At least 7 Palestinians killed by Israeli forces in Gaza amid ongoing demolitions and strikes.",
-    "emojis": "💥💀",
+    "summary": "Protests, drone attacks, and bombings in Gaza spark outrage, with Palestinian casualties and international condemnation.",
+    "emojis": "✈️💥⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli forces",
-      "Palestinians"
+      "Palestinians",
+      "Israeli military"
     ],
-    "source_count": 3,
-    "timestamp": "01:40 PM"
+    "source_count": 6,
+    "timestamp": "04:02 PM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Delta plane hits firework during landing in Chicago, no injuries reported.",
+    "emojis": "",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "Chicago airport authorities",
+      "Delta airlines staff"
+    ],
+    "source_count": 1,
+    "timestamp": "04:02 PM"
   },
   {
     "title": "SITREP: TAIWAN",
-    "summary": "Taiwan faces increased Chinese naval presence and concerns over unity law, amid AI geopolitics shifting to national resilience.",
-    "emojis": "🚢⚔️",
+    "summary": "Taiwan resumes anti-communist classes amid Chinese threat, sparking questions about stability in relations with PRC.",
+    "emojis": "🪖",
     "lat": 23.6,
     "lng": 120.9,
     "location": "TAIWAN",
     "actors": [
-      "MAC",
-      "China",
-      "Taiwan"
-    ],
-    "source_count": 3,
-    "timestamp": "01:40 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan aims to install 3,000 EV charging stations by 2030 and ends sanitary product sales tax.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Pakistan",
-      "Senate panel"
+      "Taiwan military",
+      "China"
     ],
     "source_count": 2,
-    "timestamp": "01:41 PM"
-  },
-  {
-    "title": "SITREP: VENEZUELA",
-    "summary": "Israeli medical mission shifts focus to long-term care in ongoing rescue efforts in Venezuela.",
-    "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
-    "actors": [
-      "Israeli medical team",
-      "Venezuelan authorities"
-    ],
-    "source_count": 1,
-    "timestamp": "01:41 PM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Saudi-led coalition escalates military force against Houthi threats in Yemen, vow of 'unprecedented' action.",
-    "emojis": "🪖",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Saudi-led coalition",
-      "Houthi"
-    ],
-    "source_count": 1,
-    "timestamp": "01:41 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Texas driver finds surprising battery results in 204k-mile Tesla Model 3 rental car",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "01:41 PM"
+    "timestamp": "04:02 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK, France, Oman agree on maritime security measures for Omani waters.",
+    "summary": "UK faces demands for reparations and surging electric car market, with Tesla finding its footing.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK",
-      "France",
-      "Oman"
+      "Middle East Eye",
+      "Tesla"
     ],
-    "source_count": 1,
-    "timestamp": "01:41 PM"
+    "source_count": 2,
+    "timestamp": "04:02 PM"
   }
 ];
 
