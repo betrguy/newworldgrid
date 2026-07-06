@@ -28,21 +28,16 @@ Global tensions have intensified as multiple flashpoints – from the Middle Eas
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 05, 2026
+## Daily Intelligence Brief - Jul 06, 2026
 
-**Regional Power Dynamics**
+The global power landscape continues to shift as Iran hosts massive funeral ceremonies for Ayatollah Ali Khamenei in Tehran. Mourners have thronged the funeral processions, indicating widespread grief and potential instability within Iranian politics. The absence of Khamenei has allowed for a significant increase in diplomatic activity from other regional actors, including **Norway**, which is urging China to help bring Russia to Ukraine peace talks.
 
-A series of events indicate that global power structures are shifting. In Iran, families of children killed in a bombing at an Iranian school have joined the funeral procession of the country's leader, suggesting significant grief and potential instability.
+Meanwhile, tensions between Israel and its proxy forces have escalated in Beirut, as the author of an opinion piece at Haaretz argues that any supposed "peace" agreement would not be genuine. In Ukraine, the death toll from recent Russian attacks continues to rise, with 26 fatalities reported in Kyiv's region. Ukrainian President Zelensky has called for additional Patriot missile capabilities to address the shortage.
 
-Meanwhile, in Turkey, over 100 individuals were detained during anti-NATO protests, indicating the Turkish government is actively monitoring and suppressing dissenting voices. This move underscores the country's ongoing struggles with maintaining stability amidst factional divisions.
-
-In Ukraine, President Zelensky warned of a possible major Russian assault before an upcoming NATO summit, highlighting tensions between the two nations. 
-
-**Watch for:**
-
-1. **IMEC (International Maritime Equipment Corporation)**: A potential flashpoint in the Middle East, given its strategic importance and historical ties to Israel.
-2. **Russian troop movements**: Expect increased monitoring of Russian military activities, particularly near NATO summits or in areas with rising tensions between Russia and Ukraine.
-3. **US diplomatic engagement in Turkey**: The upcoming US-Turkey meeting may reveal further details on the US's stance towards Turkey's handling of anti-NATO protests and potential implications for regional stability.
+Watch for:
+* Any shifts in Iranian political leadership or power structure following Khamenei's funeral
+* Increased diplomatic engagement between Norway and China on Ukraine peace talks
+* Further escalation of tensions between Israel and its proxy forces in Beirut
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
