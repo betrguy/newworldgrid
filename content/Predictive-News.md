@@ -28,16 +28,23 @@ Global tensions have escalated as multiple flashpoints - including a resumption 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 06, 2026
+## Daily Intelligence Brief - Jul 07, 2026
 
-The global power landscape continues to shift as Iran hosts massive funeral ceremonies for Ayatollah Ali Khamenei in Tehran. Mourners have thronged the funeral processions, indicating widespread grief and potential instability within Iranian politics. The absence of Khamenei has allowed for a significant increase in diplomatic activity from other regional actors, including **Norway**, which is urging China to help bring Russia to Ukraine peace talks.
+TODAY'S SITUATION BRIEF
 
-Meanwhile, tensions between Israel and its proxy forces have escalated in Beirut, as the author of an opinion piece at Haaretz argues that any supposed "peace" agreement would not be genuine. In Ukraine, the death toll from recent Russian attacks continues to rise, with 26 fatalities reported in Kyiv's region. Ukrainian President Zelensky has called for additional Patriot missile capabilities to address the shortage.
+Iran has resumed attacks in the Strait of Hormuz, according to US officials cited in Axios. Iran's actions come after a lull, suggesting a shift in their strategy or willingness to escalate tensions.
+
+Meanwhile, China has launched a strategic missile into the Pacific, as reported by upi.com. The Chinese government is pushing back against criticism of the test, telling critics not to "overinterpret" it, according to The Guardian.
+
+Israel's diaspora minister has made a provocative comment about Turkish President Erdogan, labeling him a "grotesque hybrid of Hitler and Sinwar". This move suggests growing tensions between Israel and Turkey.
+
+Funerals have been held for Iran's late Supreme Leader, with three days of public mourning in Tehran serving as a political spectacle. China is reportedly seeking to expand its undersea cable network, positioning itself to gain leverage over the global internet infrastructure.
 
 Watch for:
-* Any shifts in Iranian political leadership or power structure following Khamenei's funeral
-* Increased diplomatic engagement between Norway and China on Ukraine peace talks
-* Further escalation of tensions between Israel and its proxy forces in Beirut
+
+* Increased attacks on shipping lanes in the Strait of Hormuz
+* Further escalation or retaliation from China regarding their missile tests
+* Developments in Israel-Turkey relations following Erdogan's comments
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
