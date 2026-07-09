@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">July 07, 2026 — 18:07</span>
+  <span class="sotg-timestamp">July 08, 2026 — 21:10</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Global tensions have escalated as multiple flashpoints - including a resumption of attacks on a critical waterway, regional conflicts over ideological differences, nuclear-capable missile tests, and military aggression against a neighboring nation - have raised concerns about potential for widespread conflict. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+A series of military strikes in a key regional power has escalated tensions with major world powers, sparking concerns about potential conflict escalation. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
