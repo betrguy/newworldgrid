@@ -28,23 +28,21 @@ A series of military strikes in a key regional power has escalated tensions with
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 07, 2026
+## Daily Intelligence Brief - Jul 08, 2026
 
 TODAY'S SITUATION BRIEF
 
-Iran has resumed attacks in the Strait of Hormuz, according to US officials cited in Axios. Iran's actions come after a lull, suggesting a shift in their strategy or willingness to escalate tensions.
+**Russia** is trying to jam **Starlink**, a satellite internet system developed by **SpaceX**, which provides critical communications for the Ukrainian military. This move aims to counter the use of drones in Ukraine, according to reports.
 
-Meanwhile, China has launched a strategic missile into the Pacific, as reported by upi.com. The Chinese government is pushing back against criticism of the test, telling critics not to "overinterpret" it, according to The Guardian.
+Meanwhile, **US** forces have conducted new strikes on Iranian targets near the Strait of Hormuz, following comments from former US President Donald Trump that a ceasefire is "over." The US military has also launched airstrikes again in Iran, with local media reporting explosions along the south coast.
 
-Israel's diaspora minister has made a provocative comment about Turkish President Erdogan, labeling him a "grotesque hybrid of Hitler and Sinwar". This move suggests growing tensions between Israel and Turkey.
-
-Funerals have been held for Iran's late Supreme Leader, with three days of public mourning in Tehran serving as a political spectacle. China is reportedly seeking to expand its undersea cable network, positioning itself to gain leverage over the global internet infrastructure.
+In other news, **China** has allocated millions in disaster relief funding after deadly storms and a landslide. In domestic affairs, a man in China Spring has been found guilty of killing a woman with a machete.
 
 Watch for:
 
-* Increased attacks on shipping lanes in the Strait of Hormuz
-* Further escalation or retaliation from China regarding their missile tests
-* Developments in Israel-Turkey relations following Erdogan's comments
+* Whether Russia's jamming efforts against Starlink are successful in countering Ukrainian drone operations.
+* The next round of US strikes on Iran and their impact on regional tensions.
+* **Chinese** response to the disaster relief funding, including any additional measures or shifts in priorities.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
