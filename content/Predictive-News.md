@@ -28,24 +28,23 @@ A surge in Iranian aggression following a high-profile burial has escalated tens
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 09, 2026
+## Daily Intelligence Brief - Jul 10, 2026
 
-**Decentralized Finance Systems Gain Ground**
+Situation Brief
 
-Researchers have developed a benchmarking framework to assess the efficiency of AI-assisted contract development in decentralized finance systems, lowering computational costs by **20%**. This development is seen as a significant step towards increasing adoption and reducing barriers for new entrants.
+Israel has shared intelligence with the US about a new Iranian plot to kill former President Trump. This development comes amid heightened tensions between Israel and Iran.
 
-Meanwhile, **China**'s passenger car exports are up **80%** in June, driven by growing demand for electric vehicles (EVs), while domestic sales have dropped. This shift reflects the country's broader economic and environmental priorities.
+China's passenger car exports have surged **80%** in June, driven by growing demand for electric vehicles (EVs). In contrast, domestic sales have declined.
 
-Turkey has strengthened its ties with China through a joint project at **Istanbul Airport**, where Chinese companies will provide equipment and services for a new terminal. The move is part of Turkey's efforts to diversify its economy and reduce dependence on Western partners.
+Turkey's **Turkish Airlines** has launched an Istanbul stopover program, aiming to boost tourism. Iran has also been busy, with the country claiming responsibility for hitting US military targets in the Gulf and burying slain leader Khamenei.
 
-**China** has also expanded its anti-sanctions toolkit, which could pose risks for foreign firms operating in the country. This development follows a series of diplomatic tensions with the US, including a ballistic missile launch off China's east coast that was interpreted as a message for Washington.
-
-Israel has shared intelligence with the US that Iran had planned a new assassination attempt against **Trump**, highlighting ongoing tensions between Israel and Iran over regional security issues.
+China recently conducted a ballistic missile launch, which was seen as a message to the US. Russia is exploring space capabilities with its **Russia Moon** mission.
 
 Watch for:
-* Further sanctions on Chinese companies by the US or EU
-* Increased diplomatic pressure from Turkey to secure investment from China
-* A potential escalation of conflicts between Israel and Iran in the Middle East
+
+* Further escalation between Israel and Iran
+* Increased competition from China's EVs globally
+* Potential fallout from Turkey's Istanbul stopover program on regional tourism
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
