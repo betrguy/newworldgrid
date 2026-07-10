@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-09 20:43 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-07-10 16:46 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,179 +51,174 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China’s passenger car exports are up 80% in June as EV demand grows, while sales",
-    "emojis": "🚀",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "google_ev",
-      "google_china"
-    ],
-    "source_count": 18,
-    "timestamp": "08:42 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia Moon - GazetteXtra",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "google_russia"
-    ],
-    "source_count": 7,
-    "timestamp": "08:42 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Israel shares intelligence warning Iran plotted new assassination attempt agains",
-    "emojis": "⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_middle_east",
-      "google_israel",
-      "google_iran"
-    ],
-    "source_count": 43,
-    "timestamp": "08:42 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Donald Trump, Recep Tayyip Erdogan embrace shows Israel must prepare for Turkey ",
-    "emojis": "",
+    "summary": "Israel shares intel on Iranian plot to assassinate Trump, amid tensions with Turkey and Lebanon.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "google_israel"
+      "Iran",
+      "Israel",
+      "Turkey",
+      "Lebanon",
+      "US",
+      "Trump"
     ],
-    "source_count": 33,
-    "timestamp": "08:42 PM"
+    "source_count": 37,
+    "timestamp": "04:45 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China sees surge in EV exports, while domestic sales decline and tensions rise with US over missile launches.",
+    "emojis": "🚀⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "US"
+    ],
+    "source_count": 16,
+    "timestamp": "04:45 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran fires at US targets amid tensions after Khamenei's burial, threatening ceasefire deal.",
+    "emojis": "🪖⚔️🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 52,
+    "timestamp": "04:45 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces international ban, wars in Ukraine and Africa, economic downturn and stock losses.",
+    "emojis": "⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "International Community"
+    ],
+    "source_count": 6,
+    "timestamp": "04:45 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "All the best looks from Paris Haute Couture Week 2026",
+    "summary": "Paris Haute Couture Week 2026 sees scorching temperatures amidst the city's most stylish week.",
     "emojis": "",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "bbc_world"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "08:43 PM"
+    "timestamp": "04:45 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Andy Burnham apologises for Labour’s stance on Gaza and says it ‘didn’t get it r",
+    "summary": "Israeli attacks in Gaza kill six, amid ceasefire despite Labour's apology for stance on region.",
     "emojis": "⚔️🕊️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "google_israel"
+      "Andy Burnham",
+      "Israel"
     ],
     "source_count": 2,
-    "timestamp": "08:43 PM"
+    "timestamp": "04:45 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Syria says preliminary probe links Damascus bomb cell to Islamic State - Reuters",
+    "summary": "Syria claims to have linked a Damascus bomb cell to Islamic State and arrested those behind bombings.",
     "emojis": "💥🔺💣",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "google_middle_east"
+      "Syrian Government",
+      "Islamic State"
     ],
     "source_count": 2,
-    "timestamp": "08:43 PM"
+    "timestamp": "04:46 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "AAA Texas: Gas Prices Reverse Course, Begin Rising In Most Areas As Middle East ",
+    "summary": "Gas prices in TX reverse, begin rising as Middle East tensions escalate, according to AAA Texas.",
     "emojis": "⚡",
     "lat": 30.26,
     "lng": -97.74,
     "location": "US-TX",
     "actors": [
-      "google_middle_east"
+      "AAA Texas"
     ],
     "source_count": 1,
-    "timestamp": "08:43 PM"
+    "timestamp": "04:46 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia Ukraine - Columbia Missourian",
-    "emojis": "🚀⚔️",
+    "summary": "Russia intensifies attacks on Ukraine, US offers support with Patriot missiles and drone technology.",
+    "emojis": "✈️⚔️🚀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "google_russia"
+      "Russia",
+      "US"
     ],
-    "source_count": 7,
-    "timestamp": "08:43 PM"
+    "source_count": 6,
+    "timestamp": "04:46 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "King's College London cracks down on pro-Palestine student activism, sparking controversy and accusations of censorship.",
+    "summary": "King's College London cracks down on pro-Palestine student group, sparking controversy and accusations of censorship.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "King's College London",
+      "UK university authorities",
       "pro-Palestine students"
     ],
     "source_count": 1,
-    "timestamp": "08:43 PM"
+    "timestamp": "04:46 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "Physicists at UC Irvine develop new particle models to explain neutrinos' tiny mass.",
+    "summary": "UCI physicists develop new AI models to explain neutrinos' tiny mass.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "University of California, Irvine"
+      "University of California, Irvine",
+      "physicists at UCI"
     ],
     "source_count": 1,
-    "timestamp": "08:43 PM"
+    "timestamp": "04:46 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Haryana plans to map government land and office campuses for public EV charging network expansion.",
+    "summary": "Haryana maps government land, office campuses for public EV charging network expansion",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "The Times of India",
-      "Government of Haryana"
+      "Haryana Government"
     ],
     "source_count": 1,
-    "timestamp": "08:43 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "AIPAC targets Democratic Rep. Cori Bush for ouster in 2026 election cycle.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "AIPAC",
-      "Rep. Cori Bush"
-    ],
-    "source_count": 1,
-    "timestamp": "08:43 PM"
+    "timestamp": "04:46 PM"
   }
 ];
 
