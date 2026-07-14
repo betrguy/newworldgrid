@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-10 16:46 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-07-13 20:38 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,174 +51,164 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel shares intel on Iranian plot to assassinate Trump, amid tensions with Turkey and Lebanon.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Iran",
-      "Israel",
-      "Turkey",
-      "Lebanon",
-      "US",
-      "Trump"
-    ],
-    "source_count": 37,
-    "timestamp": "04:45 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China sees surge in EV exports, while domestic sales decline and tensions rise with US over missile launches.",
-    "emojis": "🚀⚡",
+    "summary": "China strengthens economic ties, expands maritime influence, and invests in AI, EVs, as global power shifts gain momentum.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "North Korea",
       "China",
-      "US"
-    ],
-    "source_count": 16,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran fires at US targets amid tensions after Khamenei's burial, threatening ceasefire deal.",
-    "emojis": "🪖⚔️🕊️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
       "US",
-      "Iran"
+      "Russia"
     ],
-    "source_count": 52,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces international ban, wars in Ukraine and Africa, economic downturn and stock losses.",
-    "emojis": "⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "International Community"
-    ],
-    "source_count": 6,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Paris Haute Couture Week 2026 sees scorching temperatures amidst the city's most stylish week.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli attacks in Gaza kill six, amid ceasefire despite Labour's apology for stance on region.",
-    "emojis": "⚔️🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Andy Burnham",
-      "Israel"
-    ],
-    "source_count": 2,
-    "timestamp": "04:45 PM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Syria claims to have linked a Damascus bomb cell to Islamic State and arrested those behind bombings.",
-    "emojis": "💥🔺💣",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Syrian Government",
-      "Islamic State"
-    ],
-    "source_count": 2,
-    "timestamp": "04:46 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Gas prices in TX reverse, begin rising as Middle East tensions escalate, according to AAA Texas.",
-    "emojis": "⚡",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "AAA Texas"
-    ],
-    "source_count": 1,
-    "timestamp": "04:46 PM"
+    "source_count": 11,
+    "timestamp": "08:37 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies attacks on Ukraine, US offers support with Patriot missiles and drone technology.",
-    "emojis": "✈️⚔️🚀",
+    "summary": "Ukraine forms missile defense coalition with 9 allies to counter Russian ballistic missiles",
+    "emojis": "✈️💥🚀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
-      "US"
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 6,
-    "timestamp": "04:46 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "King's College London cracks down on pro-Palestine student group, sparking controversy and accusations of censorship.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK university authorities",
-      "pro-Palestine students"
-    ],
-    "source_count": 1,
-    "timestamp": "04:46 PM"
+    "source_count": 7,
+    "timestamp": "08:38 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "UCI physicists develop new AI models to explain neutrinos' tiny mass.",
+    "summary": "California introduces $3,500 EV rebate to boost sales of Lucid and Rivian vehicles.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "University of California, Irvine",
-      "physicists at UCI"
+      "California government",
+      "Lucid and Rivian"
+    ],
+    "source_count": 7,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces detention, social division, election uncertainty, and rising tensions with US & Iran.",
+    "emojis": "🪖⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "IDF",
+      "PEN America",
+      "US",
+      "Iran"
+    ],
+    "source_count": 30,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US resumes airstrikes on Iran after claiming deal breach, with Trump calling regime 'stone-cold crazy' and blockades enforced.",
+    "emojis": "🪖💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Trump",
+      "Iran"
+    ],
+    "source_count": 52,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Three Palestinians killed, 15 wounded in Israeli attacks in Gaza, amid rising tensions and conflict.",
+    "emojis": "⚔️💀⚡",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Palestinians"
     ],
     "source_count": 1,
-    "timestamp": "04:46 PM"
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia sanctions, ballistic missile attack, and Senator Graham's legacy on Capitol Hill amid escalating tensions.",
+    "emojis": "⚔️🚀🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "US Senate",
+      "Putin",
+      "Lindsey Graham"
+    ],
+    "source_count": 17,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US Governor Gavin Newsom launches new EV rebate program, while US forces deploy naval drones in combat ops.",
+    "emojis": "🚢✈️⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Gavin Newsom",
+      "US Forces"
+    ],
+    "source_count": 2,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Deliberate wildfire sets near Paris, Interior Minister suggests investigation.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Interior Minister"
+    ],
+    "source_count": 1,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Cadillac exploring partnership with Chinese tech company for manufacturing in Mexico, potentially bringing advanced technology to America.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "General Motors",
+      "Chinese tech company",
+      "Mexico"
+    ],
+    "source_count": 1,
+    "timestamp": "08:38 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Haryana maps government land, office campuses for public EV charging network expansion",
-    "emojis": "",
+    "summary": "US resumes naval blockade of Iranian ports, warning vessels of interception amid Middle East crisis.",
+    "emojis": "🚢⚔️",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Haryana Government"
+      "US",
+      "Iran"
     ],
     "source_count": 1,
-    "timestamp": "04:46 PM"
+    "timestamp": "08:38 PM"
   }
 ];
 

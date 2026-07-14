@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">July 10, 2026 — 16:46</span>
+  <span class="sotg-timestamp">July 13, 2026 — 20:38</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-A surge in Iranian aggression following a high-profile burial has escalated tensions with US targets, sparking concerns about the stability of a ceasefire deal. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+A significant escalation in tensions between a global superpower and an Iran has resumed airstrikes on the country following a claimed breach of a previously negotiated agreement. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
