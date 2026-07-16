@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-16 18:34 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-07-16 19:18 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,24 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel's Knesset recognizes PTSD, Fetterman warns Democrats on Israel support, and Netanyahu faces Middle East criticism.",
-    "emojis": "🪖⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Knesset",
-      "Fetterman",
-      "Netanyahu"
-    ],
-    "source_count": 32,
-    "timestamp": "06:32 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran engage in escalating military strikes, with both sides targeting key infrastructure.",
-    "emojis": "🪖💥⚔️",
+    "summary": "US and Iran trade strikes over Strait of Hormuz, escalating tensions with no clear resolution in sight.",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -76,73 +61,104 @@
       "US",
       "Iran"
     ],
-    "source_count": 50,
-    "timestamp": "06:32 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "UKRAINE conflict intensifies as Russian troops struggle to survive on front lines, protests erupt over defence minister dismissal.",
-    "emojis": "🪖⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "US (Thune)"
-    ],
-    "source_count": 13,
-    "timestamp": "06:33 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Texas floods claim life, ravaging area that saw camper deaths last year and recent flooding",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "06:33 PM"
+    "source_count": 60,
+    "timestamp": "07:17 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's leaders focus on AI, trade, and energy as North Korea ties and global influence grow.",
+    "summary": "China navigates AI, tech, and global oil influence, with key players including Xpeng, Baidu, Alibaba, and Xi Jinping.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "Xpeng",
+      "Baidu",
+      "Alibaba",
       "Xi Jinping",
-      "Kim Jong Un",
-      "Wang Huning",
+      "North Korea"
+    ],
+    "source_count": 14,
+    "timestamp": "07:17 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces backlash from Democrats, AIPAC, and Netanyahu's regime amid aid blockage and PTSD recognition.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Netanyahu",
+      "Trump",
+      "Ryan",
+      "Fetterman"
+    ],
+    "source_count": 28,
+    "timestamp": "07:17 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia and Ukraine exchange attacks, Russian troops survive short time on front lines, protests in Kyiv over defence minister dismissal.",
+    "emojis": "🪖💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 14,
+    "timestamp": "07:17 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Flooding in Texas kills at least one, affecting same area where campers died last year.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Texas",
       "US"
     ],
-    "source_count": 13,
-    "timestamp": "06:33 PM"
+    "source_count": 1,
+    "timestamp": "07:17 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Californians oppose Gavin Newsom's gas ban and US cities experience air quality alerts from Canadian wildfires.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US",
+      "NY",
+      "California",
+      "Canada"
+    ],
+    "source_count": 2,
+    "timestamp": "07:17 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia stocks fall, EU fails to enact new sanctions, and Russia bars ex-oligarch from leaving country.",
-    "emojis": "🚫",
+    "summary": "Russia sees stock market slump, joins China-backed AI org, while facing probe over frozen funds trafficking.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "EU",
       "Russia",
-      "Boris Nadezhdin"
+      "China"
     ],
-    "source_count": 6,
-    "timestamp": "06:33 PM"
+    "source_count": 4,
+    "timestamp": "07:17 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Saudi Arabia considers military escalation against Houthis amid threats, escalating tensions in Yemen conflict.",
-    "emojis": "🪖⚔️⚡",
+    "summary": "Saudi Arabia considers military action against Houthis amid escalating tensions in Yemen.",
+    "emojis": "🪖⚡📈",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
@@ -151,68 +167,55 @@
       "Houthis"
     ],
     "source_count": 1,
-    "timestamp": "06:33 PM"
+    "timestamp": "07:17 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza unrest: Trump's peace plan rejected, Israeli strikes kill 5, Hamas leadership run-off expected",
+    "summary": "Gaza unrest intensifies as Trump's peace plan rejected, Israeli strikes and Hamas leadership run-off emerge.",
     "emojis": "💥🕊️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Trump",
-      "Israeli forces",
-      "Hamas"
-    ],
-    "source_count": 3,
-    "timestamp": "06:33 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US air quality alerts issued due to Canadian wildfires, while Israel passes divisive laws before election.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Canada",
+      "Hamas",
       "Israel"
     ],
-    "source_count": 2,
-    "timestamp": "06:33 PM"
+    "source_count": 3,
+    "timestamp": "07:17 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "British yacht couple disputes Russian claims, stating they were not at fault in maritime incident.",
+    "summary": "British yacht couple dispute allegations of wrongdoing, claims they were not at fault.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK Government",
-      "Russian Authorities"
+      "British yacht couple",
+      "armchair sailors",
+      "Russians"
     ],
     "source_count": 1,
-    "timestamp": "06:33 PM"
+    "timestamp": "07:17 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "White House staffer accused of profiting $100k from Trump speech bets with inside knowledge.",
+    "summary": "White House teleprompter operator accused of making $100k off Trump speech bets, sparking ethics concerns.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "actor1",
-      "White House Staffer"
+      "White House staffer",
+      "Trump"
     ],
     "source_count": 1,
-    "timestamp": "06:33 PM"
+    "timestamp": "07:18 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "BBVA adapts to global shifts driven by geopolitics and AI, focusing on targeted policies in Spain, Mexico, and Turkey.",
+    "summary": "BBVA adapts to geopolitics and AI shifts in Spain, Mexico, and Turkey with targeted policies.",
     "emojis": "",
     "lat": 23.6,
     "lng": -102.5,
@@ -224,21 +227,18 @@
       "Turkey"
     ],
     "source_count": 1,
-    "timestamp": "06:33 PM"
+    "timestamp": "07:18 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California promises $3,500 rebate for first-time EV buyers, awaiting CARB approval of eligible vehicles.",
+    "summary": "California first-time EV buyers eligible for $3,500 rebate awaiting CARB's approval on qualifying car models.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
-    "actors": [
-      "California",
-      "CARB"
-    ],
+    "actors": [],
     "source_count": 1,
-    "timestamp": "06:34 PM"
+    "timestamp": "07:18 PM"
   }
 ];
 

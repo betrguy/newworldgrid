@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">July 16, 2026 — 18:34</span>
+  <span class="sotg-timestamp">July 16, 2026 — 19:18</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Escalating military strikes between two regional powers have brought the region to a critical juncture, with both sides targeting key infrastructure and raising concerns about the potential for wider conflict. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Global tensions escalate as a series of strikes in key waterways and regions intensify rivalries between major powers, with no clear resolution in sight. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
