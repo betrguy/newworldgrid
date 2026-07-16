@@ -28,22 +28,20 @@ Escalating military strikes between two regional powers have brought the region 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 13, 2026
+## Daily Intelligence Brief - Jul 16, 2026
 
-North Korea's premier has visited China to signal economic cooperation. The visit implies North Korea is seeking to expand its economic ties with China, potentially undermining international sanctions and isolating the US.
+The situation is deteriorating in the Middle East, with escalating tensions between the US and Iran.
 
-Meanwhile, Ukraine has formed a missile defense coalition with 9 allies. This move suggests Ukraine is looking to bolster its defenses against potential aggression from Russia or other actors.
+US forces have begun their sixth consecutive night of strikes on Iranian targets, according to Sky News. The New York Times reports that the US and Iran are trading strikes over the Strait of Hormuz, a critical waterway for global oil supply. The Jerusalem Post confirms that Iran has denied releasing a detained US citizen, sparking further tensions.
 
-Israel's military detained Israeli civilians after attempting to cross the Syria border. The detention highlights tensions between Israel and neighboring countries, particularly in light of the ongoing conflict in Syria.
+Meanwhile, in Ukraine, a rapper was fined by a Moscow court for drug-themed lyrics that included support for Russian soldiers. Russia is also facing attacks from Ukrainian forces, resulting in at least 13 casualties.
 
-Sanctions on Iran have been reasserted, with US airstrikes resuming following claims that Tehran had broken its deal commitments. This development suggests ongoing tensions between the US and Iran, with potential implications for regional stability.
-
-European and American politicians are urging cooperation on Russia-related sanctions. The renewed focus on Russia underscores ongoing concerns about its activities in Eastern Europe.
+The focus of the conflict appears to be shifting towards the Strait of Hormuz, with NBC News describing it as "the war's focal point." The situation is further complicated by the increasing use of Chinese air conditioners in Europe, potentially highlighting a shift in global supply chains and alliances.
 
 Watch for:
-- **North Korea's** next major economic initiative
-- Increased military activity along the Ukraine-Russia border
-- A significant escalation in Israel's relations with neighboring countries
+- Further escalation of US-Iran strikes on the Strait of Hormuz
+- Potential shifts in global energy markets due to increased tensions in the region
+- Increased use of proxy forces or other tactics by Russia and Iran to counter Ukrainian attacks
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
