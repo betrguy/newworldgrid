@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">July 14, 2026 — 07:37</span>
+  <span class="sotg-timestamp">July 16, 2026 — 18:34</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Global power dynamics shift as regional actors leverage influence. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Escalating military strikes between two regional powers have brought the region to a critical juncture, with both sides targeting key infrastructure and raising concerns about the potential for wider conflict. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 

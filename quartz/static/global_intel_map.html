@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-14 07:37 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-07-16 18:34 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,135 +52,193 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Katz requests pardon for Elor Azaria, soldier who killed incapacitated terrorist",
-    "emojis": "💀🔺",
+    "summary": "Israel's Knesset recognizes PTSD, Fetterman warns Democrats on Israel support, and Netanyahu faces Middle East criticism.",
+    "emojis": "🪖⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "google_israel"
+      "Knesset",
+      "Fetterman",
+      "Netanyahu"
     ],
-    "source_count": 29,
-    "timestamp": "07:37 AM"
+    "source_count": 32,
+    "timestamp": "06:32 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "UK confirms mileage-based EV tax from 2028 - electrive.com",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: IRAN",
+    "summary": "US and Iran engage in escalating military strikes, with both sides targeting key infrastructure.",
+    "emojis": "🪖💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "google_ev"
+      "US",
+      "Iran"
     ],
-    "source_count": 4,
-    "timestamp": "07:37 AM"
+    "source_count": 50,
+    "timestamp": "06:32 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ex-British military in Ukraine to train responders in wake of Russian attacks - ",
+    "summary": "UKRAINE conflict intensifies as Russian troops struggle to survive on front lines, protests erupt over defence minister dismissal.",
     "emojis": "🪖⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "google_russia"
+      "Russia",
+      "Ukraine",
+      "US (Thune)"
     ],
-    "source_count": 9,
-    "timestamp": "07:37 AM"
+    "source_count": 13,
+    "timestamp": "06:33 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russian Anti-War Politician Says Kremlin Is Bent on Stopping His Election Run - ",
-    "emojis": "💥⚔️🚀",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: US-TX",
+    "summary": "Texas floods claim life, ravaging area that saw camper deaths last year and recent flooding",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
-      "google_russia"
+      "actor1",
+      "actor2"
     ],
-    "source_count": 14,
-    "timestamp": "07:37 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "China urges US and Iran to avoid returning to war - Saudi Gazette",
-    "emojis": "⚔️☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_china",
-      "google_middle_east",
-      "google_iran"
-    ],
-    "source_count": 46,
-    "timestamp": "07:37 AM"
+    "source_count": 1,
+    "timestamp": "06:33 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China urges Europe to act prudently on South China Sea issues - news.cgtn.com",
+    "summary": "China's leaders focus on AI, trade, and energy as North Korea ties and global influence grow.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "google_china"
+      "Xi Jinping",
+      "Kim Jong Un",
+      "Wang Huning",
+      "US"
     ],
-    "source_count": 19,
-    "timestamp": "07:37 AM"
+    "source_count": 13,
+    "timestamp": "06:33 PM"
   },
   {
-    "title": "SITREP: US-TX",
-    "summary": "Colombian national killed by ICE agent during operation in Maine",
-    "emojis": "💀",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia stocks fall, EU fails to enact new sanctions, and Russia bars ex-oligarch from leaving country.",
+    "emojis": "🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "bbc_world"
+      "EU",
+      "Russia",
+      "Boris Nadezhdin"
     ],
-    "source_count": 1,
-    "timestamp": "07:37 AM"
+    "source_count": 6,
+    "timestamp": "06:33 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Iranian flights to Yemen are violation of sovereignty, says Yemeni official - Th",
-    "emojis": "",
+    "summary": "Saudi Arabia considers military escalation against Houthis amid threats, escalating tensions in Yemen conflict.",
+    "emojis": "🪖⚔️⚡",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "google_iran"
+      "Saudi Arabia",
+      "Houthis"
     ],
     "source_count": 1,
-    "timestamp": "07:37 AM"
+    "timestamp": "06:33 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Gaza unrest: Trump's peace plan rejected, Israeli strikes kill 5, Hamas leadership run-off expected",
+    "emojis": "💥🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Trump",
+      "Israeli forces",
+      "Hamas"
+    ],
+    "source_count": 3,
+    "timestamp": "06:33 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "US air quality alerts issued due to Canadian wildfires, while Israel passes divisive laws before election.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Canada",
+      "Israel"
+    ],
+    "source_count": 2,
+    "timestamp": "06:33 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "British yacht couple disputes Russian claims, stating they were not at fault in maritime incident.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK Government",
+      "Russian Authorities"
+    ],
+    "source_count": 1,
+    "timestamp": "06:33 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "White House staffer accused of profiting $100k from Trump speech bets with inside knowledge.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "actor1",
+      "White House Staffer"
+    ],
+    "source_count": 1,
+    "timestamp": "06:33 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "BBVA adapts to global shifts driven by geopolitics and AI, focusing on targeted policies in Spain, Mexico, and Turkey.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "BBVA",
+      "Spain",
+      "Mexico",
+      "Turkey"
+    ],
+    "source_count": 1,
+    "timestamp": "06:33 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California launches new EV rebates after federal tax credits end - CBT News",
+    "summary": "California promises $3,500 rebate for first-time EV buyers, awaiting CARB approval of eligible vehicles.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "google_ev"
-    ],
-    "source_count": 2,
-    "timestamp": "07:37 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Katz renews push for Nahal outposts in northern Gaza - JNS.org",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "google_israel"
+      "California",
+      "CARB"
     ],
     "source_count": 1,
-    "timestamp": "07:37 AM"
+    "timestamp": "06:34 PM"
   }
 ];
 
