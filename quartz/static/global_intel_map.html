@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-16 19:18 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-07-16 22:20 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,55 +51,106 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "US and Iran trade strikes over Strait of Hormuz, escalating tensions with no clear resolution in sight.",
-    "emojis": "💥⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 60,
-    "timestamp": "07:17 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China navigates AI, tech, and global oil influence, with key players including Xpeng, Baidu, Alibaba, and Xi Jinping.",
+    "summary": "Trump accuses China of largest election compromise, sparking refutations and calls for declassification of documents.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Xpeng",
-      "Baidu",
-      "Alibaba",
-      "Xi Jinping",
-      "North Korea"
+      "Trump",
+      "China"
     ],
-    "source_count": 14,
-    "timestamp": "07:17 PM"
+    "source_count": 27,
+    "timestamp": "10:20 PM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces backlash from Democrats, AIPAC, and Netanyahu's regime amid aid blockage and PTSD recognition.",
+    "summary": "Israel faces split in US Congress, amid Knesset dissolution and aid block vote, amid anti-Israel sentiment.",
     "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Netanyahu",
-      "Trump",
-      "Ryan",
-      "Fetterman"
+      "US Congress",
+      "Israel Government"
     ],
-    "source_count": 28,
-    "timestamp": "07:17 PM"
+    "source_count": 20,
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Trump claims election fraud conspiracy, alleges Chinese access to voter data during primetime address.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "President Trump",
+      "US Intelligence"
+    ],
+    "source_count": 2,
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US-Iran tensions escalate as Trump considers expanding strikes, with Iran threatening retaliation.",
+    "emojis": "💥⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Trump",
+      "Iran"
+    ],
+    "source_count": 63,
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Kim Jong Un meets with top Chinese official amid geopolitical tensions.",
+    "emojis": "⚡",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "North Korea",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Trump reveals US report alleging China's involvement in UK election interference and meddling.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Trump",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan tracks 9 Chinese military aircraft and 9 ships, escalating tensions across Taiwan Strait.",
+    "emojis": "🪖✈️⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "10:20 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine exchange attacks, Russian troops survive short time on front lines, protests in Kyiv over defence minister dismissal.",
+    "summary": "Ongoing conflict between Russia and Ukraine escalates with deaths, sanctions, and military vulnerabilities.",
     "emojis": "🪖💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
@@ -108,56 +159,82 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 14,
-    "timestamp": "07:17 PM"
+    "source_count": 13,
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Vietnamese activist shines rare light on Gaza's suffering, raising awareness globally.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Vietnamese activist",
+      "Gaza"
+    ],
+    "source_count": 1,
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Hunger strike's impact on India's map and politics remains, with historical examples influencing contemporary activism.",
+    "emojis": "💥",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Gandhi",
+      "Sonam Wangchuck"
+    ],
+    "source_count": 1,
+    "timestamp": "10:20 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Flooding in Texas kills at least one, affecting same area where campers died last year.",
+    "summary": "Texas flood victims die in area ravaged by similar disaster last year.",
     "emojis": "",
     "lat": 30.26,
     "lng": -97.74,
     "location": "US-TX",
     "actors": [
-      "Texas",
-      "US"
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "07:17 PM"
+    "timestamp": "10:20 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia's economy faces challenges as Western sanctions impact, while global relations with China and AI partners continue.",
+    "emojis": "⚔️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Western world",
+      "China"
+    ],
+    "source_count": 4,
+    "timestamp": "10:20 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Californians oppose Gavin Newsom's gas ban and US cities experience air quality alerts from Canadian wildfires.",
+    "summary": "Californians opposed to Gavin Newsom's gas vehicle ban, latest poll shows",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "US",
-      "NY",
-      "California",
-      "Canada"
+      "Gavin Newsom",
+      "California residents"
     ],
-    "source_count": 2,
-    "timestamp": "07:17 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia sees stock market slump, joins China-backed AI org, while facing probe over frozen funds trafficking.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "China"
-    ],
-    "source_count": 4,
-    "timestamp": "07:17 PM"
+    "source_count": 1,
+    "timestamp": "10:20 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Saudi Arabia considers military action against Houthis amid escalating tensions in Yemen.",
+    "summary": "Saudi Arabia considers military escalation against Houthis amid rising tensions in Yemen.",
     "emojis": "🪖⚡📈",
     "lat": 15.5,
     "lng": 48.5,
@@ -167,78 +244,7 @@
       "Houthis"
     ],
     "source_count": 1,
-    "timestamp": "07:17 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Gaza unrest intensifies as Trump's peace plan rejected, Israeli strikes and Hamas leadership run-off emerge.",
-    "emojis": "💥🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Trump",
-      "Hamas",
-      "Israel"
-    ],
-    "source_count": 3,
-    "timestamp": "07:17 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "British yacht couple dispute allegations of wrongdoing, claims they were not at fault.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "British yacht couple",
-      "armchair sailors",
-      "Russians"
-    ],
-    "source_count": 1,
-    "timestamp": "07:17 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "White House teleprompter operator accused of making $100k off Trump speech bets, sparking ethics concerns.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "White House staffer",
-      "Trump"
-    ],
-    "source_count": 1,
-    "timestamp": "07:18 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "BBVA adapts to geopolitics and AI shifts in Spain, Mexico, and Turkey with targeted policies.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "BBVA",
-      "Spain",
-      "Mexico",
-      "Turkey"
-    ],
-    "source_count": 1,
-    "timestamp": "07:18 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "California first-time EV buyers eligible for $3,500 rebate awaiting CARB's approval on qualifying car models.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [],
-    "source_count": 1,
-    "timestamp": "07:18 PM"
+    "timestamp": "10:20 PM"
   }
 ];
 
