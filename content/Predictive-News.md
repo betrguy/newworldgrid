@@ -28,17 +28,18 @@ Global tensions have intensified as a series of high-stakes conflicts and diplom
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 19, 2026
+## Daily Intelligence Brief - Jul 21, 2026
 
-A new wave of tensions is unfolding across the Middle East and North Africa. Iran has suspended commitments to its interim deal with the US, while **Russia** is facing an attack on three oil depots in Stavropol, resulting in fires. The US is increasing military presence in the region by sending more warplanes.
+Global tensions escalate as power structures continue to shift. Russia's recent ballistic missile attacks in Ukraine have resulted in **Ukraine** reporting deaths, according to WPTV. Meanwhile, Israeli troops are withdrawing from part of Lebanon under a US-brokered agreement, with Lebanese troops deploying in the occupied territory, per The New York Times.
 
-Israel has been placed on high alert after Iranian shrapnel landed in Eilat, prompting a response from the IDF chief. Senator Blackburn has warned of a growing "axis of evil" involving **China**, **Russia**, and Iran. Meanwhile, an unidentified drone was shot down by Israel over the Syrian border.
+In another region of conflict, China and the Philippines clashed near a disputed South China Sea shoal, as reported by NBC News. The situation is further complicated by **China**'s decision to ban AI romantic partners and virtual relatives for minors, highlighting the country's increasing control over emerging technologies, according to Sixth Tone.
+
+Israel launched an airstrike in Gaza, killing parents and their four children, with medics confirming the victims, as stated by Haaretz. 
 
 Watch for:
-
-* Increased tensions between **Iran** and its neighbors
-* Further escalation in conflicts between US and Iranian forces
-* Potential impact on global energy markets
+* Increased troop movements along the Ukraine-Russia border
+* Further escalation of tensions between **China** and its regional adversaries
+* Ongoing diplomatic shifts regarding US support for Israel
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
