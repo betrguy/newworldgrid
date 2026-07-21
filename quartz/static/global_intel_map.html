@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-19 13:26 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-07-21 06:51 UTC | 15 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">15 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,145 +51,220 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia escalates attacks on Ukraine, with fresh strikes and protests over energy supply disruptions.",
+    "emojis": "🪖💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 11,
+    "timestamp": "06:50 AM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel grapples with new security doctrine, Iran threat, and internal debates on Zionism and international law.",
-    "emojis": "",
+    "summary": "Tensions rise in Israel as police arrest suspect, IDF kills Hamas infiltrator, and Israelis demand voting rights",
+    "emojis": "⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Iran",
-      "Lebanon",
-      "Democrats"
+      "Israeli government",
+      "Hamas",
+      "Israelis"
     ],
-    "source_count": 31,
-    "timestamp": "01:25 PM"
+    "source_count": 24,
+    "timestamp": "06:50 AM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "HSBMA starts EV battery cell production in Georgia, a significant step towards electric vehicle manufacturing.",
+    "emojis": "⚔️",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "US",
+      "GA"
+    ],
+    "source_count": 1,
+    "timestamp": "06:50 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran suspends US deal, escalates attacks on Jordan and Israel, amid warnings of 'axis of evil' from politicians.",
-    "emojis": "⚔️",
+    "summary": "Tensions escalate between US and Iran, with Houthi rebels threatening a new front in conflict",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
       "Iran",
-      "Israel",
-      "Russia",
-      "China"
+      "Houthis"
     ],
-    "source_count": 64,
-    "timestamp": "01:25 PM"
+    "source_count": 39,
+    "timestamp": "06:51 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces tensions with Philippines, Japan, and US over South China Sea, AI, and trade, amid economic growth.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Philippines",
+      "Japan",
+      "US"
+    ],
+    "source_count": 35,
+    "timestamp": "06:51 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "US increases warplane deployment in Middle East amid escalating tensions.",
-    "emojis": "🚀⚔️⚡",
+    "summary": "Lebanese troops deploy in Israeli-held village under new cease-fire plan, amid ongoing tensions.",
+    "emojis": "🪖⚡",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "US",
-      "Middle East officials"
+      "NY",
+      "Israel",
+      "Lebanon"
     ],
     "source_count": 1,
-    "timestamp": "01:25 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russian attack on Kyiv leaves one dead, 16 injured in latest wave of violence.",
-    "emojis": "⚔️💀",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [],
-    "source_count": 20,
-    "timestamp": "01:26 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China protests, Taiwan's president urges opposition to China's 'red terror', and renewable energy push",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Taiwan President",
-      "Chinese State Investors",
-      "Kevin O'Leary"
-    ],
-    "source_count": 24,
-    "timestamp": "01:26 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "EU faces dwindling support for new Russia sanctions amidst escalating tensions and drone attacks.",
-    "emojis": "✈️⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "EU",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 9,
-    "timestamp": "01:26 PM"
+    "timestamp": "06:51 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Lebanon death toll reaches 4,328 amid ongoing conflict and tunnel network exposed by Hezbollah.",
-    "emojis": "⚔️",
+    "summary": "Lebanon's President Aoun meets with Trump to push for Israeli troop withdrawal",
+    "emojis": "",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "actor1",
-      "actor2"
+      "Aoun",
+      "Trump"
     ],
     "source_count": 2,
-    "timestamp": "01:26 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Matty Healy marries model Gabbriette Bechtel in Los Angeles, sparking no notable media attention.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [],
-    "source_count": 2,
-    "timestamp": "01:26 PM"
+    "timestamp": "06:51 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli ministers join far-right march in Gaza advocating for resettlement of Strip.",
-    "emojis": "",
+    "summary": "Israel launches airstrikes in Gaza, killing multiple civilians and sparking reactions from local medics and residents.",
+    "emojis": "💥⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli government",
-      "far-right groups"
+      "Israel",
+      "Hamas"
     ],
-    "source_count": 1,
-    "timestamp": "01:26 PM"
+    "source_count": 4,
+    "timestamp": "06:51 AM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "Florida startup launches $15k EV conversion service for golf carts, targeting state's road-ready alternative market.",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia tensions escalate as FBI visit, sanctions debated, and Russia expels Italian military attache.",
+    "emojis": "🪖🚫⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "actor1",
-      "actor2"
+      "Kash Patel",
+      "Russia",
+      "EU"
+    ],
+    "source_count": 16,
+    "timestamp": "06:51 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Hungary's conservative party advocates for EU support of Taiwan due to strategic importance.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Hungarian Conservative",
+      "EU"
     ],
     "source_count": 1,
-    "timestamp": "01:26 PM"
+    "timestamp": "06:51 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Rivian sees steepest California sales drop among top-30 brands, second-steepest overall",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Rivian",
+      "California"
+    ],
+    "source_count": 1,
+    "timestamp": "06:51 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK coast faces Russian warship live-fire exercise, with UK government urging caution amid rising tensions.",
+    "emojis": "🚢⚔️⚡",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Russian Federation",
+      "UK Government"
+    ],
+    "source_count": 5,
+    "timestamp": "06:51 AM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Chinese exports to Iraq decline 42% in H1 2026 due to economic factors.",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [],
+    "source_count": 1,
+    "timestamp": "06:51 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Lebanese president to meet with Trump at White House",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US",
+      "Trump",
+      "Lebanon"
+    ],
+    "source_count": 1,
+    "timestamp": "06:51 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Hyundai expands EV charging network, India summons senior Russian diplomat over ship crew killing",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Hyundai India",
+      "India",
+      "Russia"
+    ],
+    "source_count": 2,
+    "timestamp": "06:51 AM"
   }
 ];
 
