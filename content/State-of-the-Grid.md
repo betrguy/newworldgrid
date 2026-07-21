@@ -10,20 +10,28 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">July 19, 2026 - 13:25</span>
+  <span class="sotg-timestamp">July 21, 2026 - 06:50</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The US power grid has rapidly expanded its battery storage capacity by 20 nuclear reactors' worth in four years, with potential for further doubling to 40GW. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Global energy dynamics are shifting as China continues to rapidly expand its renewable infrastructure despite concerns over waste disposal. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The global energy landscape has witnessed a significant development in grid resilience, as the United States has added battery storage equivalent to 20 nuclear reactors in under four years. This surge in capacity underscores the sector's ability to absorb shocks and maintain reliability.</p>
+<p class="meridian-lede">The global energy landscape has witnessed a significant development in grid resilience, as China continues to build wind and solar infrastructure despite concerns over waste disposal. This surge in renewable capacity underscores the sector's ability to adapt and maintain reliability in the face of external shocks.</p>
 
-Notably, this expansion of battery storage may have far-reaching implications for grid stability and transmission infrastructure.
+The escalating conflict with Iran has led to a jump in US gas prices across the country, highlighting the need for increased grid resilience and transmission infrastructure to mitigate the impact of global events on domestic energy markets.
+<div class="sotg-bullets">
+<ul>
+  <li><strong>Why it matters:</strong> The sudden surge in US gas prices due to the Iran-US conflict highlights the vulnerability of global energy markets to geopolitical tensions.</li>
+  <li><strong>The big picture:</strong> This development underscores the urgent need for a diversified and resilient energy infrastructure that can withstand external shocks and maintain stability.</li>
+  <li><strong>What to watch:</strong> Monitor the impact on global commodity prices and potential market volatility in response to future escalations in the conflict.</li>
+</ul>
+</div>
+
 </div>
 
 <div class="sotg-analyst">
-As of the current 24-hour window, the geomagnetic activity remains at a low level with a Kp value of 1.0 and an average Kp over the past 24 hours of 0.95. The peak Kp value reached 1.3, still within the quiet range, characterized as Quiet.
+As of the current geomagnetic window, the Kp index remains at a peak value of 3.0, with a 24-hour average of 1.71 and peak of 3.0, classified as Unsettled. This condition indicates moderate levels of solar wind activity, posing an increased risk of minor errors or anomalies in satellite systems, degraded signal quality and possible disruptions to HF radio communications, and potentially minor fluctuations in voltage and frequency affecting power grid stability.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
