@@ -28,18 +28,21 @@ A significant escalation of hostilities has marked a major shift in regional dyn
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 21, 2026
+## Daily Intelligence Brief - Jul 22, 2026
 
-Global tensions escalate as power structures continue to shift. Russia's recent ballistic missile attacks in Ukraine have resulted in **Ukraine** reporting deaths, according to WPTV. Meanwhile, Israeli troops are withdrawing from part of Lebanon under a US-brokered agreement, with Lebanese troops deploying in the occupied territory, per The New York Times.
+A new pattern is unfolding in the global order. Incumbent institutions are resisting change, while new power structures are emerging from the bottom up.
 
-In another region of conflict, China and the Philippines clashed near a disputed South China Sea shoal, as reported by NBC News. The situation is further complicated by **China**'s decision to ban AI romantic partners and virtual relatives for minors, highlighting the country's increasing control over emerging technologies, according to Sixth Tone.
+**Iran** launched a series of attacks that have resulted in the deaths of multiple **US** service members, including at least 18 confirmed fatalities as reported by **Trump**. Iranian forces also hit **Wildberries**, a top online retailer, causing injuries and disrupting trade.
 
-Israel launched an airstrike in Gaza, killing parents and their four children, with medics confirming the victims, as stated by Haaretz. 
+Meanwhile, **Jordan** claims to have intercepted four missiles fired from Iran, while **Russia** reports injuries after another attack on **Wildberries**. The attacks are likely linked to the escalating conflict between **Israel** and its adversaries in Lebanon.
+
+A different kind of shift is happening in international diplomacy. **Xiamen Airlines' Chairman Zhao Dong** attended a meeting at the United Nations Council, marking an effort by China to increase global influence.
 
 Watch for:
-* Increased troop movements along the Ukraine-Russia border
-* Further escalation of tensions between **China** and its regional adversaries
-* Ongoing diplomatic shifts regarding US support for Israel
+
+* Further Iranian missile strikes on regional targets
+* Russian attempts to exploit Western vulnerabilities through cyber warfare or proxy conflicts
+* Chinese diplomatic efforts to consolidate its position in international organizations and trade blocs
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
