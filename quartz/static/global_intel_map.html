@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-22 06:01 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-07-26 14:31 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,132 +52,162 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel struggles with unity, Tisha B'Av closures, and truce tests amid ongoing Middle East tensions.",
-    "emojis": "⚔️⚡",
+    "summary": "Opinion | Choosing pathetic populism, Defense Minister Katz shows contempt for t",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israeli government",
-      "Palestinian family",
-      "International organizations"
+      "google_israel"
     ],
-    "source_count": 25,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine intensifies attacks on Russian targets, hits online retailer Wildberries, and overhauls military top brass.",
-    "emojis": "🪖⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 24,
-    "timestamp": "06:01 AM"
+    "source_count": 34,
+    "timestamp": "02:31 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US-Iran conflict escalates with missile interceptions, drone attacks and troop casualties",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Trump warns China, Russia against aiding Iran amid escalating strikes - American",
+    "emojis": "💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "US",
-      "Iran",
-      "Jordan"
+      "google_russia",
+      "google_iran",
+      "google_israel",
+      "google_china"
     ],
-    "source_count": 32,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia reports injuries, attacks on shipping, and cooperation with ASEAN, amid energy security drills and fuel diversion.",
-    "emojis": "⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "RUSSIA"
-    ],
-    "source_count": 13,
-    "timestamp": "06:01 AM"
+    "source_count": 59,
+    "timestamp": "02:31 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's economy shifts focus, big three airlines face losses, and US-China relations remain tense.",
-    "emojis": "⚔️",
+    "summary": "China issues red alert as Typhoon Noul approaches - The Economic Times",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Zhao Dong",
-      "Ma. Theresa Lazaro",
-      "Wang Yi",
-      "Xi"
+      "google_china"
     ],
-    "source_count": 36,
-    "timestamp": "06:01 AM"
+    "source_count": 23,
+    "timestamp": "02:31 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia wants 30,000 more North Korean troops for Ukraine war: Zelenskyy - The Ja",
+    "emojis": "🪖⚔️💀",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 20,
+    "timestamp": "02:31 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia says 12 killed in Ukrainian attack in Zaporizhzhia - nhk.or.jp",
+    "emojis": "✈️⚔️💀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 10,
+    "timestamp": "02:31 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Israeli efforts to find peace amid ongoing conflict with neighboring countries.",
-    "emojis": "⚔️🕊️",
+    "summary": "Would you pay $58.5m to live in this iconic New York building?",
+    "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "US",
-      "NY"
+      "bbc_world"
     ],
     "source_count": 1,
-    "timestamp": "06:01 AM"
+    "timestamp": "02:31 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon's PM visits shattered village, demands Israeli military withdrawal amid ongoing conflict.",
-    "emojis": "🪖⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "PM of Lebanon",
-      "Israel"
-    ],
-    "source_count": 5,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Nissan achieves 1 million electrified vehicle sales in Europe, driven by expanded line-up.",
+    "title": "SITREP: IRAQ",
+    "summary": "Iranian army claims nearly all US infrastructure in Iraq's Erbil base 'destroyed",
     "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Nissan",
-      "Europe"
+      "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "06:01 AM"
+    "timestamp": "02:31 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Latest Russian and Ukrainian attacks kill a total of 15 people, officials say - ",
+    "emojis": "⚔️",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 1,
+    "timestamp": "02:31 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India's domestic workers turn to online platforms amid surge in instant services, competing for jobs.",
+    "summary": "A test for Pak’s geopolitical sweet spot - The Times of India",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Domestic Workers",
-      "Online Platforms"
+      "google_geopolitics"
     ],
     "source_count": 1,
-    "timestamp": "06:01 AM"
+    "timestamp": "02:31 PM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Several injured at Berlin Pride after reports vehicle drove into crowd, police s",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "bbc_world"
+    ],
+    "source_count": 1,
+    "timestamp": "02:31 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Head of Hamas-led police in northern Gaza killed by Israeli strike - Al Jazeera",
+    "emojis": "💥💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 1,
+    "timestamp": "02:31 PM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Illinois Electric Vehicle Rebate Program Application Cycle to Open Aug. 1 - The ",
+    "emojis": "",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "google_ev"
+    ],
+    "source_count": 1,
+    "timestamp": "02:31 PM"
   }
 ];
 
