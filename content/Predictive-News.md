@@ -28,21 +28,23 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 22, 2026
+## Daily Intelligence Brief - Jul 26, 2026
 
-A new pattern is unfolding in the global order. Incumbent institutions are resisting change, while new power structures are emerging from the bottom up.
+**Troop Movements and Leverage**
 
-**Iran** launched a series of attacks that have resulted in the deaths of multiple **US** service members, including at least 18 confirmed fatalities as reported by **Trump**. Iranian forces also hit **Wildberries**, a top online retailer, causing injuries and disrupting trade.
+The global landscape is shifting as nations reposition themselves in the face of multipolar power dynamics.
 
-Meanwhile, **Jordan** claims to have intercepted four missiles fired from Iran, while **Russia** reports injuries after another attack on **Wildberries**. The attacks are likely linked to the escalating conflict between **Israel** and its adversaries in Lebanon.
+Trump has issued a warning to China and Russia against aiding Iran amid escalating strikes, leveraging his diplomatic influence to set boundaries for their involvement. This move reflects the United States' efforts to contain Iranian aggression and maintain regional stability.
 
-A different kind of shift is happening in international diplomacy. **Xiamen Airlines' Chairman Zhao Dong** attended a meeting at the United Nations Council, marking an effort by China to increase global influence.
+Meanwhile, Russian authorities are attempting to recruit students to fill gaps in drone regiments, highlighting the country's need for rapid mobilization to address military shortages.
+
+Iran has issued a red alert as Typhoon Noul approaches, indicating the storm's potential impact on national security. The Ukrainian war is also escalating, with Iran accusing Kyiv of a deadly attack on an Iranian vessel in the Caspian Sea.
 
 Watch for:
 
-* Further Iranian missile strikes on regional targets
-* Russian attempts to exploit Western vulnerabilities through cyber warfare or proxy conflicts
-* Chinese diplomatic efforts to consolidate its position in international organizations and trade blocs
+* US sanctions targeting Russian companies involved in drone production
+* China's response to Trump's warning, including any potential diplomatic engagement or economic measures
+* Iranian attempts to exploit the Ukraine conflict for regional influence
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
