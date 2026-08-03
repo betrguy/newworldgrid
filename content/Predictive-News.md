@@ -28,23 +28,19 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Jul 26, 2026
+## Daily Intelligence Brief - Aug 02, 2026
 
-**Troop Movements and Leverage**
+China's economic influence is expanding through investments in South Korea. **Chery**, a Chinese automaker, has secured $75 million in investment from **KGM**. This deal signifies China's growing presence in the Korean EV market, with **Chery** cars accounting for over 40% of the market share in the first half of this year.
 
-The global landscape is shifting as nations reposition themselves in the face of multipolar power dynamics.
+Meanwhile, tensions between Russia and Ukraine are escalating. Ukraine has launched attacks on multiple regions across Russia, according to The Daily Star.
 
-Trump has issued a warning to China and Russia against aiding Iran amid escalating strikes, leveraging his diplomatic influence to set boundaries for their involvement. This move reflects the United States' efforts to contain Iranian aggression and maintain regional stability.
-
-Meanwhile, Russian authorities are attempting to recruit students to fill gaps in drone regiments, highlighting the country's need for rapid mobilization to address military shortages.
-
-Iran has issued a red alert as Typhoon Noul approaches, indicating the storm's potential impact on national security. The Ukrainian war is also escalating, with Iran accusing Kyiv of a deadly attack on an Iranian vessel in the Caspian Sea.
+In other news, a magnitude 5.4 earthquake struck Egypt, causing tremors felt in southern Israel, as reported by The Jerusalem Post.
 
 Watch for:
 
-* US sanctions targeting Russian companies involved in drone production
-* China's response to Trump's warning, including any potential diplomatic engagement or economic measures
-* Iranian attempts to exploit the Ukraine conflict for regional influence
+* Further escalation of the Russia-Ukraine conflict
+* China's expansion into the South Korean automotive market
+* Potential diplomatic fallout between China and the US over investments in Korea
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
