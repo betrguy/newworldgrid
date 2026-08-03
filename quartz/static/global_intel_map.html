@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-07-26 14:31 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-08-02 21:00 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,89 +51,154 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Opinion | Choosing pathetic populism, Defense Minister Katz shows contempt for t",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 34,
-    "timestamp": "02:31 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Trump warns China, Russia against aiding Iran amid escalating strikes - American",
-    "emojis": "💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_russia",
-      "google_iran",
-      "google_israel",
-      "google_china"
-    ],
-    "source_count": 59,
-    "timestamp": "02:31 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China issues red alert as Typhoon Noul approaches - The Economic Times",
+    "summary": "Commentary: China in the Maritime Pacific - UNSW Sydney",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "google_ev",
       "google_china"
     ],
     "source_count": 23,
-    "timestamp": "02:31 PM"
+    "timestamp": "08:59 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia wants 30,000 more North Korean troops for Ukraine war: Zelenskyy - The Ja",
-    "emojis": "🪖⚔️💀",
+    "summary": "Ukraine attacks multiple regions across Russia - The Daily Star",
+    "emojis": "✈️⚔️🚀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "google_russia"
     ],
-    "source_count": 20,
-    "timestamp": "02:31 PM"
+    "source_count": 8,
+    "timestamp": "08:59 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Earthquake of magnitude 5.4 strikes Egypt, is fealt in Israel - The Times of Isr",
+    "emojis": "💥",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 32,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Trump on making a deal with Iran: ‘I’m not looking to kill people’ - The Hill",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "google_israel",
+      "google_middle_east",
+      "google_iran"
+    ],
+    "source_count": 50,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Progress Toward Deal Led Trump to Call Off Strikes, He Says - The New York Times",
+    "emojis": "💥⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "google_iran"
+    ],
+    "source_count": 1,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India's electric car sales jump 82% in July as high fuel prices boost EV demand ",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "google_ev"
+    ],
+    "source_count": 1,
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia says 12 killed in Ukrainian attack in Zaporizhzhia - nhk.or.jp",
-    "emojis": "✈️⚔️💀",
+    "summary": "Ukrainian drones kill eight in Russia and strike Wildberries warehouse, governor",
+    "emojis": "✈️💥⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "google_russia"
     ],
-    "source_count": 10,
-    "timestamp": "02:31 PM"
+    "source_count": 17,
+    "timestamp": "09:00 PM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Would you pay $58.5m to live in this iconic New York building?",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: GAZA",
+    "summary": "Board of Peace Envoy Slams Israeli Strikes in Gaza, Urges De-escalation - Haaret",
+    "emojis": "💥⚔️🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 2,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Two crew killed after firefighting helicopters collide in Greece, as British pil",
+    "emojis": "💀",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
       "bbc_world"
     ],
     "source_count": 1,
-    "timestamp": "02:31 PM"
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France Hits Record 35% EV Share in July as Social Leasing Scheme Relaunches - Te",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "google_ev"
+    ],
+    "source_count": 1,
+    "timestamp": "09:00 PM"
+  },
+  {
+    "title": "SITREP: AFGHANISTAN",
+    "summary": "Decades on from the US’s disastrous campaign in Afghanistan, Trump is making all",
+    "emojis": "",
+    "lat": 33.9,
+    "lng": 67.7,
+    "location": "AFGHANISTAN",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 1,
+    "timestamp": "09:00 PM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "Iranian army claims nearly all US infrastructure in Iraq's Erbil base 'destroyed",
+    "summary": "Saudi Arabia, Middle East neighbors pressure Iraq to rein in Iranian-backed mili",
     "emojis": "",
     "lat": 33.2,
     "lng": 43.6,
@@ -142,72 +207,7 @@
       "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "02:31 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Latest Russian and Ukrainian attacks kill a total of 15 people, officials say - ",
-    "emojis": "⚔️",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "google_russia"
-    ],
-    "source_count": 1,
-    "timestamp": "02:31 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "A test for Pak’s geopolitical sweet spot - The Times of India",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "google_geopolitics"
-    ],
-    "source_count": 1,
-    "timestamp": "02:31 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Several injured at Berlin Pride after reports vehicle drove into crowd, police s",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "bbc_world"
-    ],
-    "source_count": 1,
-    "timestamp": "02:31 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Head of Hamas-led police in northern Gaza killed by Israeli strike - Al Jazeera",
-    "emojis": "💥💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 1,
-    "timestamp": "02:31 PM"
-  },
-  {
-    "title": "SITREP: US-IL",
-    "summary": "Illinois Electric Vehicle Rebate Program Application Cycle to Open Aug. 1 - The ",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
-    "actors": [
-      "google_ev"
-    ],
-    "source_count": 1,
-    "timestamp": "02:31 PM"
+    "timestamp": "09:00 PM"
   }
 ];
 
