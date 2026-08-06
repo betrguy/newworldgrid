@@ -28,19 +28,21 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Aug 02, 2026
+## Daily Intelligence Brief - Aug 06, 2026
 
-China's economic influence is expanding through investments in South Korea. **Chery**, a Chinese automaker, has secured $75 million in investment from **KGM**. This deal signifies China's growing presence in the Korean EV market, with **Chery** cars accounting for over 40% of the market share in the first half of this year.
+Situation Brief:
 
-Meanwhile, tensions between Russia and Ukraine are escalating. Ukraine has launched attacks on multiple regions across Russia, according to The Daily Star.
+Israel has stepped up attacks on Hezbollah, clouding talks with Lebanon. The actions are attributed to the **Mossad**, which removed two senior officials behind a failed Iran regime-change plan.
 
-In other news, a magnitude 5.4 earthquake struck Egypt, causing tremors felt in southern Israel, as reported by The Jerusalem Post.
+Meanwhile, optimism about an Iran deal is fading, leading to increased oil prices. This shift in sentiment appears to be driven by news that Russia and Iran may be discussing a new energy cooperation agreement.
+
+Ukraine has struck more oil facilities deep inside Russia, with President Zelenskyy claiming responsibility for the attacks. The attacks on Russian oil refineries are seen as a significant escalation of the conflict between Ukraine and Russia.
 
 Watch for:
 
-* Further escalation of the Russia-Ukraine conflict
-* China's expansion into the South Korean automotive market
-* Potential diplomatic fallout between China and the US over investments in Korea
+* Future diplomatic efforts to stabilize the Middle East, potentially involving **Israel**, **Lebanon**, and other regional actors.
+* Developments in Iran's energy cooperation with Russia or other countries.
+* Escalation of military operations between Ukraine and Russia, potentially including further attacks on Russian oil infrastructure.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
