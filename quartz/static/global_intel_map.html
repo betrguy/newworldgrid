@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-08-06 16:29 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-08-06 20:38 UTC | 16 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">16 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,163 +51,235 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel Steps Up Attacks on Hezbollah, Clouding Talks with Lebanon - WSJ",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 24,
-    "timestamp": "04:28 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Oil Rises as Iran Deal Optimism Fades - Rigzone",
-    "emojis": "",
+    "summary": "Iran and US engage in tense diplomacy as Iran claims deal nears completion, sparking fears of wider war.",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "google_israel",
-      "google_iran"
+      "US",
+      "Iran"
     ],
-    "source_count": 36,
-    "timestamp": "04:28 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine-Russia war latest: Putin considering ‘false flag’ strike on Baltics, say",
-    "emojis": "💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "google_russia"
-    ],
-    "source_count": 17,
-    "timestamp": "04:28 PM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces - France 24",
-    "emojis": "🪖✈️⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "google_middle_east",
-      "bbc_world"
-    ],
-    "source_count": 4,
-    "timestamp": "04:28 PM"
+    "source_count": 49,
+    "timestamp": "08:37 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "We should not fear a post-Putin Russia - Atlantic Council",
-    "emojis": "✈️",
+    "summary": "Russia attacks foreign ship, detains US Marine veteran, and adopts crypto regulation amid ongoing tensions.",
+    "emojis": "💥⚔️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "google_russia"
+      "Russia",
+      "US Marine veteran"
     ],
-    "source_count": 11,
-    "timestamp": "04:28 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "What freedom feels like after Gaza - Middle East Eye",
-    "emojis": "🪖💀🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "google_middle_east",
-      "google_israel"
-    ],
-    "source_count": 3,
-    "timestamp": "04:28 PM"
+    "source_count": 15,
+    "timestamp": "08:37 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China Alleges US Meddling as Huawei Courts Argentina Oil Region - Bloomberg.com",
-    "emojis": "",
+    "summary": "China faces various challenges, including extreme weather, trade tensions, and security concerns with neighboring countries.",
+    "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "google_china"
+      "US",
+      "China",
+      "India",
+      "Japan"
     ],
-    "source_count": 17,
-    "timestamp": "04:28 PM"
+    "source_count": 18,
+    "timestamp": "08:37 PM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "McConnell discharged from rehab center, Senate return still unclear",
+    "title": "SITREP: MEXICO",
+    "summary": "Meta fined $567m for child safety violations by New Mexico judge in largest ruling against social media giant.",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
     "actors": [
-      "axios"
-    ],
-    "source_count": 2,
-    "timestamp": "04:28 PM"
-  },
-  {
-    "title": "SITREP: AFGHANISTAN",
-    "summary": "Boxer charged with killing aid worker in Athens after his wife gave police 'key'",
-    "emojis": "",
-    "lat": 33.9,
-    "lng": 67.7,
-    "location": "AFGHANISTAN",
-    "actors": [
-      "bbc_world"
+      "New Mexico Judge",
+      "Meta"
     ],
     "source_count": 1,
-    "timestamp": "04:29 PM"
+    "timestamp": "08:37 PM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with H",
-    "emojis": "🪖💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "title": "SITREP: PAKISTAN",
+    "summary": "Saudi Arabia, Pakistan, and Turkey sign defence pact on Friday.",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
     "actors": [
-      "google_israel"
+      "France 24"
     ],
-    "source_count": 3,
-    "timestamp": "04:29 PM"
+    "source_count": 1,
+    "timestamp": "08:37 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces travel restrictions, West Nile virus outbreak, and criticism from various groups and individuals.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Al Jazeera",
+      "Outbreak News Today",
+      "WSJ",
+      "haaretz.com",
+      "JNS.org",
+      "The Jerusalem Post",
+      "dailysignal.com",
+      "The Jerusalem Post"
+    ],
+    "source_count": 25,
+    "timestamp": "08:37 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Israeli Settler Charged in Death of Activist Awdah Hathaleen - The New York Time",
+    "summary": "NYC installs 600 new EV charging points, amid Iran's proposed ban on US-Israeli ships in Strait of Hormuz.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "google_israel"
+      "NYC",
+      "Iran",
+      "US",
+      "Israel"
     ],
-    "source_count": 1,
-    "timestamp": "04:29 PM"
+    "source_count": 2,
+    "timestamp": "08:37 PM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "U.S. sanctions Cuban military companies, officials tied to Russian, Chinese arms",
-    "emojis": "🪖🚫",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "title": "SITREP: INDIA",
+    "summary": "India's cities neglect pedestrian safety, with top court highlighting unsafe footpaths and forgotten pedestrian infrastructure.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "google_china"
+      "India",
+      "India's top court"
     ],
     "source_count": 1,
-    "timestamp": "04:29 PM"
+    "timestamp": "08:37 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Bald eagle Jackie critical condition, sparking global concern over her well-being and live cam status.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Conservation Team",
+      "Wildlife Experts"
+    ],
+    "source_count": 1,
+    "timestamp": "08:37 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Gaza war impacts US politics, with DNC's 2024 'autopsy' revealing its effects on candidates like Harris.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Democratic National Committee",
+      "Harris"
+    ],
+    "source_count": 2,
+    "timestamp": "08:37 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US-DC: Israeli strikes cast doubt on White House peace plan, while Sen. McConnell's rehab discharge status remains unclear.",
+    "emojis": "💥🕊️",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Israeli government",
+      "White House",
+      "Sen. Mitch McConnell"
+    ],
+    "source_count": 3,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Bus explosion near Damascus kills at least 2, injures 13.",
+    "emojis": "💥",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [],
+    "source_count": 1,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Rivian's R2 EV gains attention in UK, potentially becoming star vehicle.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK Market Analysts"
+    ],
+    "source_count": 1,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine responds to Russian attacks with strikes on oil facilities and air defenses, escalating conflict.",
+    "emojis": "💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Zelenskyy",
+      "Putin",
+      "Nato"
+    ],
+    "source_count": 5,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Houthi rebels attack & kill dozens of Saudi-backed Yemeni government forces.",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Houthi rebels",
+      "Saudi-backed Yemeni government"
+    ],
+    "source_count": 1,
+    "timestamp": "08:38 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli attacks in Lebanon wound 8 despite ongoing Rome talks between Lebanon and Israel.",
+    "emojis": "⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Lebanon",
+      "Israel"
+    ],
+    "source_count": 1,
+    "timestamp": "08:38 PM"
   }
 ];
 
