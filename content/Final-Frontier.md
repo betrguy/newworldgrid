@@ -9,26 +9,26 @@ socialImage: finafrontier.png
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">August 06, 2026 - 20:40</span>
+  <span class="sotg-timestamp">August 12, 2026 - 19:32</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-South Korea's lunar orbiter captures Moon images before and after SpaceX rocket debris impact, while NYC installs 600 new EV charging points at curbsides to support growing demand for electric vehicles. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+China's iSpace secures funding for reusable rocketry as BYD launches affordable electric vehicle options in the country, potentially disrupting the global market with innovative space and grid technologies. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
-**The High Ground**
+### **The High Ground**
 
-South Korea's lunar orbiter has captured images of the Moon before and after SpaceX rocket debris crashed onto its surface on Wednesday, as shared by South Korea's space agency. This incident emphasizes the significance of reliable space-based systems in the orbital economy. The swift response from Seoul highlights the need for a robust infrastructure network to ensure safe mission operations and minimize risks.
+China's iSpace raises its first batch of series E funding for reusable rocketry (Source: SpaceNews). This development underscores the importance of reliable space-based systems in the orbital economy.
 
 ### **The EV Race**
 
-NYC is investing in 600 new EV charging points right at the curb, according to Electrek.
+BYD's Seal 06 starts near $16,100 in China, according to [1] BYD Seal 06 Starts Near $16,100 in China EV Price War - Tech My Money. Meanwhile, QS solid-state battery commercialization accelerates with OEM partnerships and scalable pilot lines, as reported by [2] QS: Solid-state battery commercialization accelerates with OEM partnerships and scalable pilot line - TradingView.
 
 *What follows is purely a thought experiment.*
 
-In 2032, Seoul's lunar orbiter data reveals an unexpected correlation between SpaceX rocket debris and the growth of NYC's EV charging network. As the city's curb-mounted chargers become the go-to solution for taxi fleets, an innovative startup, backed by China's coastal transportation agencies, leverages the similarity in high-capacity storage needs to develop a new methanol-powered waterway vessel design. This unexpected convergence drives down production costs and accelerates the adoption of eco-friendly logistics, creating a ripple effect that reshapes global shipping routes and trade patterns.
+Imagine a future where BYD's aggressive EV pricing strategy in China has sparked a global battery demand surge, forcing QS to accelerate solid-state battery commercialization. As OEMs scramble to meet the unprecedented need for high-energy-density power sources, iSpace's reusable rocketry technology becomes the sole means of transporting critical battery production components between continents. With Chinese dominance in the electric vehicle market, Beijing leverages its strategic advantage to dictate global supply chain terms, effectively monopolizing the shipment of essential materials, further solidifying China's grip on the emerging orbital economy infrastructure.
 
 <!-- /FRONTIER_ENGINE_END -->
 
