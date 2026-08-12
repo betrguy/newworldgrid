@@ -10,11 +10,11 @@ socialImage: predictivenews.png
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">August 06, 2026 — 20:38</span>
+  <span class="sotg-timestamp">August 12, 2026 — 19:31</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-A high-stakes diplomatic standoff between a major regional power and a global superpower is nearing a critical juncture, with implications for the stability of a key trade route and potentially wider conflict. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+A significant escalation of tensions has emerged with Arab countries condemning Colombia's stance on Israeli sovereignty over the Golan Heights, marking a notable shift in regional dynamics. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
