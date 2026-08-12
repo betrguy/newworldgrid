@@ -28,18 +28,27 @@ A significant escalation of tensions has emerged with Arab countries condemning 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Aug 06, 2026
+## Daily Intelligence Brief - Aug 12, 2026
 
-A multipolar shift is underway, with actors repositioning to adapt to the changing global landscape. Russia has intensified its military presence in the Black Sea, attacking a foreign-flagged ship near Odesa and another vessel, the EMIL Cargo Ship, using drones, which resulted in one sailor's death.
+**Troop Movements**
 
-Meanwhile, Iran seeks to restrict US ships' access through the Hormuz Strait, while China is struggling with supply chain disruptions due to extreme weather conditions. The Iranian regime appears increasingly ideologically driven, as suggested by recent statements from experts.
+Trump boarded a different plane in Turkey during a NATO summit for security reasons involving Iran. Members of his cabinet remained on a decoy plane.
 
-In the United States, Republican lawmakers are racing towards their August recess with a legislative agenda, highlighting ongoing tensions between party factions.
+No leverage is explicitly stated in the provided headlines regarding Trump's plane switch or cabinet movements.
 
-Watch for:
-* Increased tensions in the Hormuz Strait
-* Further diplomatic efforts to address China's supply chain issues
-* Potential escalation of US-Russia military confrontations
+**Proxy Conflicts and Diplomatic Shifts**
+
+An attack in Gaza has prompted bereaved families to meet with the Cabinet. Senators are pressing Rubio and Bessent for counter-evasion sanctions on Russia.
+
+**Energy and Economic Trends**
+
+Global EV sales rose in July, with Europe offsetting weakness in China and North America. Oil prices remain rangebound after Strait attacks and suspicions about a U.S./Iran peace deal.
+
+**Watch for:**
+
+* Trump's next economic measures against Iran
+* The response from European leaders to the global energy infrastructure shift
+* Further developments on Russia-U.S. sanctions
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
