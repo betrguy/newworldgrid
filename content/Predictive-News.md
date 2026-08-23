@@ -28,27 +28,18 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Aug 12, 2026
+## Daily Intelligence Brief - Aug 23, 2026
 
-**Troop Movements**
+**Global Intelligence Summary**
 
-Trump boarded a different plane in Turkey during a NATO summit for security reasons involving Iran. Members of his cabinet remained on a decoy plane.
+- U.S. to announce new sanctions on Iran - KCENTV.com
+- Here’s what we know about Trump’s planned ‘economic warfare’ on Iran - 13WMAZ
+- US planning new economic sanctions for Iran | What that means - 13WMAZ
+- Iran threatens 'seismic retaliation' as Trump administration prepares new sanctions - Fox News
+- Iran reportedly weighs strikes on US military targets in Europe if Trump escalates war - Fox News
+- Syria Tells Israel It Won't Limit Military Buildup in Security Deal Talks - Haaretz
 
-No leverage is explicitly stated in the provided headlines regarding Trump's plane switch or cabinet movements.
-
-**Proxy Conflicts and Diplomatic Shifts**
-
-An attack in Gaza has prompted bereaved families to meet with the Cabinet. Senators are pressing Rubio and Bessent for counter-evasion sanctions on Russia.
-
-**Energy and Economic Trends**
-
-Global EV sales rose in July, with Europe offsetting weakness in China and North America. Oil prices remain rangebound after Strait attacks and suspicions about a U.S./Iran peace deal.
-
-**Watch for:**
-
-* Trump's next economic measures against Iran
-* The response from European leaders to the global energy infrastructure shift
-* Further developments on Russia-U.S. sanctions
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
