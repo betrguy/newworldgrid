@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-12T19:35:35.310324",
+  "generatedAt": "2026-08-23T18:33:08.898478",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Moving forward, let's analyze the situation. On the international front, Arab countries have taken a strong stance against Colombia regarding Israeli sovereignty over the Golan Heights, marking a significant shift in regional dynamics. Meanwhile, Trump boarded an alternate plane during a NATO summit in Turkey due to security concerns involving Iran, with no explicit leverage stated in the provided headlines about his plane switch or cabinet movements. Turning our attention to the energy sector, global EV sales saw an increase in July, offsetting weakness in North America and China by Europe's growth. Oil prices remain stable after Strait attacks and speculation surrounding a U.S./Iran peace deal. It is crucial to monitor Trump's potential economic measures against Iran. On the optimistic front, researchers have successfully produced clean hydrogen by stimulating ancient rock formations, opening doors for efficient geothermal resource extraction and sustainable living. This breakthrough also addresses ecological balance issues by ensuring genetic diversity among species. Notably, minor fluctuations in Earth's magnetic field are forecasted today, but these changes do not pose significant threats to infrastructure. Lastly, we've observed the State of the Grid page signaling a need for grid substrate synchronization, while geophysical stability remains within normal parameters."
+    "index_master_summary.wav": "Global power dynamics are shifting as regional actors leverage influence, according to the Predictive News system. The US is expected to announce new sanctions on Iran, while Iran has threatened \"seismic retaliation\" if Trump escalates the situation. Meanwhile, regional actors are developing strategies to counterbalance these shifts. It's essential to monitor developing situations in monitored regions. On a more positive note, AI has reached a significant milestone. AI agents are now capable of building consensus on a scale previously unimaginable for humans, with major automotive companies addressing critical safety concerns by recalling millions of vehicles. This paradigm shift could lead to unprecedented coordination among large groups, transcending traditional limits. Regarding the grid, our State-of-the-Grid system is monitoring battery storage markets in ERCOT, CAISO, PJM, and Japan. We're seeing no significant momentum shifts, and data synchronization is ongoing. Finally, in the Final Frontier, we're witnessing a critical shift in the global EV landscape. CATL has announced the launch of robot repair hubs, capable of fixing any EV battery within 72 hours across 100 cities. This breakthrough will drastically change the battery maintenance and repair landscape."
   },
   "durations": {
-    "index_master_summary.wav": "01:36"
+    "index_master_summary.wav": "01:30"
   }
 }
