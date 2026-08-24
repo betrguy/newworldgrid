@@ -28,18 +28,17 @@ A series of escalating tensions and military actions in various regions, includi
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Aug 23, 2026
+## Daily Intelligence Brief - Aug 24, 2026
 
-**Global Intelligence Summary**
+A new phase of global reorganization appears to be unfolding. The US is introducing a new sanctions bill targeting China's role in the fentanyl trade, with bipartisan support from Auchincloss, Newhouse, Moolenaar, and Khanna. Iran is warning of a harsh response to anticipated US sanctions, indicating a potential escalation in tensions in the region.
 
-- U.S. to announce new sanctions on Iran - KCENTV.com
-- Here’s what we know about Trump’s planned ‘economic warfare’ on Iran - 13WMAZ
-- US planning new economic sanctions for Iran | What that means - 13WMAZ
-- Iran threatens 'seismic retaliation' as Trump administration prepares new sanctions - Fox News
-- Iran reportedly weighs strikes on US military targets in Europe if Trump escalates war - Fox News
-- Syria Tells Israel It Won't Limit Military Buildup in Security Deal Talks - Haaretz
+Meanwhile, the US and Israel are experiencing a power shift, with **Ben-Gvir's Altalena** move leaving Netanyahu seemingly caught off guard ahead of the election. In other news, **Tesla** and other electric vehicle companies are recalling massive numbers of vehicles from China, highlighting the growing importance of the EV market.
 
-*Watch for: Developing situations across monitored regions.*
+The global energy landscape is also shifting, with new nuclear power plants being built and distributed generation infrastructure being constructed. Watch for:
+
+* The outcome of the US-China trade negotiations and how they will impact global sanctions policies.
+* The response of Iran to the new sanctions bill and any potential retaliation by the US or its allies.
+* The impact of the US recall on **Tesla**'s stock price and the broader implications for the EV industry.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
