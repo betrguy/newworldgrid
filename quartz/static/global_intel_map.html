@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-08-23 18:25 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-08-24 18:40 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,138 +51,182 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "U.S. to announce new sanctions on Iran - KCENTV.com",
-    "emojis": "⚔️🚫",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_iran"
-    ],
-    "source_count": 46,
-    "timestamp": "06:25 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Three Israeli Jews rescued after entering prohibited Palestinian Authority areas",
-    "emojis": "🪖",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 44,
-    "timestamp": "06:25 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Europe EV market share tops 25% in July as France, Germany drive growth - Reuter",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "bbc_world",
-      "google_ev"
-    ],
-    "source_count": 2,
-    "timestamp": "06:25 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia stocks lower at close of trade; MOEX Russia Index unchanged - Investing.c",
-    "emojis": "🚀⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "google_china",
-      "google_russia"
-    ],
-    "source_count": 12,
-    "timestamp": "06:25 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China Merchants moves to take control of Antong - Container News",
-    "emojis": "",
+    "summary": "China faces recalls, sanctions, and trade tensions amid growing AI concerns and military expansions.",
+    "emojis": "🪖🚫⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "google_china",
-      "google_israel"
+      "China",
+      "Tesla",
+      "Trump",
+      "Google",
+      "Nvidia",
+      "Super Micro",
+      "Taiwan"
     ],
-    "source_count": 16,
-    "timestamp": "06:25 PM"
+    "source_count": 20,
+    "timestamp": "06:39 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran threatens harsh response to US sanctions, as Trump administration launches economic pressure campaign.",
+    "emojis": "💥⚔️🚫",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 59,
+    "timestamp": "06:39 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": " Netanyahu faces election challenges as protests and controversy swirl around Israel",
+    "emojis": "🔴",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Netanyahu",
+      "Ben-Gvir"
+    ],
+    "source_count": 28,
+    "timestamp": "06:39 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Putin said that Ukraine had opened \"Pandora's box\" by striking Russia's economy ",
-    "emojis": "⚔️",
+    "summary": "Moscow strikes Ukraine cargo ship amid talks, Burnham takes fight to Kyiv, Vatican envoy visits Russia",
+    "emojis": "💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "google_russia"
+      "Moscow",
+      "UK-Russia tensions",
+      "Burnham",
+      "Vatican envoy"
     ],
-    "source_count": 26,
-    "timestamp": "06:25 PM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan tracks 14 Chinese ships - Taiwan News",
-    "emojis": "⚔️",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "google_china",
-      "google_russia"
-    ],
-    "source_count": 2,
-    "timestamp": "06:25 PM"
+    "source_count": 11,
+    "timestamp": "06:39 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza rescuers say Israeli strikes kill three, including a child - arabnews.jp",
+    "summary": "Displaced Palestinians in Gaza face intensifying Israeli strikes, killing two young children",
     "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "google_israel"
+      "Israel",
+      "Palestinians"
     ],
-    "source_count": 4,
-    "timestamp": "06:25 PM"
+    "source_count": 2,
+    "timestamp": "06:39 PM"
+  },
+  {
+    "title": "SITREP: VENEZUELA",
+    "summary": "US eases sanctions on Venezuela's telecom sector, excluding Chinese companies",
+    "emojis": "🚫",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
+    "actors": [
+      "US",
+      "Venezuela"
+    ],
+    "source_count": 1,
+    "timestamp": "06:39 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces strikes, chess ban, and Vatican meeting amid international tensions and infrastructure projects.",
+    "emojis": "💥⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Finland",
+      "Russia",
+      "Vatican",
+      "North Korea"
+    ],
+    "source_count": 5,
+    "timestamp": "06:39 PM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Houthis claim attack on Saudi oil tanker in Red Sea, sparking regional tensions and potential for escalation.",
+    "emojis": "⚔️⚡📈",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Yemen's Houthis",
+      "Saudi"
+    ],
+    "source_count": 1,
+    "timestamp": "06:39 PM"
   },
   {
     "title": "SITREP: SYRIA",
-    "summary": "Russia Never Realized Full Potential Of Syria’s Tartus Naval Base—And Never Will",
-    "emojis": "🚢",
+    "summary": "Trump removes Syria from terrorism list, Israeli forces raid village in Quneitra, Turkey benefits from Trump's Syria policy.",
+    "emojis": "🔺",
     "lat": 34.8,
     "lng": 38.9,
     "location": "SYRIA",
     "actors": [
-      "google_russia"
+      "Trump",
+      "Israel",
+      "Turkey"
     ],
-    "source_count": 1,
-    "timestamp": "06:25 PM"
+    "source_count": 3,
+    "timestamp": "06:39 PM"
   },
   {
-    "title": "SITREP: US-TX",
-    "summary": "Texas welcomed the AI boom. Now Abbott says data centers \"dug their own grave\"",
-    "emojis": "⚔️",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
+    "title": "SITREP: MEXICO",
+    "summary": "Mexico sees increase in electric vehicle sales amid production decline, presenting a mixed trend.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
     "actors": [
-      "axios"
+      "Mexico",
+      "Automotive Industry"
     ],
     "source_count": 1,
-    "timestamp": "06:25 PM"
+    "timestamp": "06:39 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "EV charger access gaps exist in California due to racial, ethnic, and income disparities, prompting new payment programs.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California State",
+      "EV Owners"
+    ],
+    "source_count": 2,
+    "timestamp": "06:39 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "California EV driver upset over $10+ charging cost, citing gas prices, in New York.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "actor1",
+      "actor2"
+    ],
+    "source_count": 1,
+    "timestamp": "06:40 PM"
   }
 ];
 
