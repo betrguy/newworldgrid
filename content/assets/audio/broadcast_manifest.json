@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-23T18:33:08.898478",
+  "generatedAt": "2026-08-24T18:43:05.905547",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Global power dynamics are shifting as regional actors leverage influence, according to the Predictive News system. The US is expected to announce new sanctions on Iran, while Iran has threatened \"seismic retaliation\" if Trump escalates the situation. Meanwhile, regional actors are developing strategies to counterbalance these shifts. It's essential to monitor developing situations in monitored regions. On a more positive note, AI has reached a significant milestone. AI agents are now capable of building consensus on a scale previously unimaginable for humans, with major automotive companies addressing critical safety concerns by recalling millions of vehicles. This paradigm shift could lead to unprecedented coordination among large groups, transcending traditional limits. Regarding the grid, our State-of-the-Grid system is monitoring battery storage markets in ERCOT, CAISO, PJM, and Japan. We're seeing no significant momentum shifts, and data synchronization is ongoing. Finally, in the Final Frontier, we're witnessing a critical shift in the global EV landscape. CATL has announced the launch of robot repair hubs, capable of fixing any EV battery within 72 hours across 100 cities. This breakthrough will drastically change the battery maintenance and repair landscape."
+    "index_master_summary.wav": "So, the global energy landscape is facing some unprecedented challenges. Iran's declaration of \"full scale war\" and the Middle East diesel crisis are posing significant systemic threats to the global energy grid's ability to absorb physical and political shocks. This, combined with Texas warning AI data centers of impending backlash, highlights the importance of reserve margins and transmission bottlenecks in maintaining grid resilience."
   },
   "durations": {
-    "index_master_summary.wav": "01:30"
+    "index_master_summary.wav": "00:30"
   }
 }
