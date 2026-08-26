@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-24T18:43:05.905547",
+  "generatedAt": "2026-08-26T06:04:52.800306",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "So, the global energy landscape is facing some unprecedented challenges. Iran's declaration of \"full scale war\" and the Middle East diesel crisis are posing significant systemic threats to the global energy grid's ability to absorb physical and political shocks. This, combined with Texas warning AI data centers of impending backlash, highlights the importance of reserve margins and transmission bottlenecks in maintaining grid resilience."
+    "index_master_summary.wav": "Here's the synthesized monologue for New World Grid: Today, the global landscape continues to shift as Russia's military activities escalate, sparking concerns about the potential for widespread conflict. Meanwhile, China is adapting its energy grid infrastructure to support its AI ambitions, while also preparing for potential disruptions due to severe weather events and global uncertainty. In the realm of technology, IBM's Cold War codebreaker is now a blueprint for real-time data processing. This breakthrough could revolutionize our interactions with technology, as we're no longer constrained by early companion robots' limitations. This is reflected in Ollobot's gentle intelligence, enabling robots to become companions that truly understand and interact with us. On the energy front, the global grid is reorganizing as China prepares its rural data centers for heavy rain and retaliates against US sanctions. This highlights the need for robust grid resilience, particularly in the face of severe weather events and global uncertainty. In the Final Frontier, China's lunar mission delay underscores the critical role of reliable space-based systems in the orbital economy. On the other side of the celestial spectrum, CATL's announcement of robot repair hubs capable of fixing any EV battery within 72 hours across 100 cities drastically changes the battery maintenance and repair landscape."
   },
   "durations": {
-    "index_master_summary.wav": "00:30"
+    "index_master_summary.wav": "01:38"
   }
 }
