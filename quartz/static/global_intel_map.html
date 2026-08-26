@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-08-24 18:40 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-08-26 06:01 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,182 +51,126 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia escalates hybrid attacks, strikes targets, and declares threats, amid increasing cooperation with North Korea and US",
+    "emojis": "💥⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "North Korea",
+      "US",
+      "Hungary"
+    ],
+    "source_count": 22,
+    "timestamp": "06:01 AM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China faces recalls, sanctions, and trade tensions amid growing AI concerns and military expansions.",
-    "emojis": "🪖🚫⚡",
+    "summary": "China's economic and military developments overshadowed by natural disasters and trade tensions",
+    "emojis": "🪖⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Tesla",
-      "Trump",
-      "Google",
-      "Nvidia",
-      "Super Micro",
-      "Taiwan"
+      "EU",
+      "India",
+      "Nepal"
+    ],
+    "source_count": 56,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine extends drone campaign, Russia and Ukraine exchange prisoners, and fighting continue",
+    "emojis": "✈️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 14,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel: Protests, expulsions, and controversy over Jewish identity, Gaza, and Palestine issues",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Palestinians",
+      "Mansour Abbas",
+      "Lindsey Graham",
+      "UK",
+      "Dutch officials"
     ],
     "source_count": 20,
-    "timestamp": "06:39 PM"
+    "timestamp": "06:01 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran threatens harsh response to US sanctions, as Trump administration launches economic pressure campaign.",
-    "emojis": "💥⚔️🚫",
+    "summary": "Iran regime resists US economic pressure, while China defends cooperation with Iran and renewables gain traction globally.",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
+      "China",
       "Iran"
     ],
-    "source_count": 59,
-    "timestamp": "06:39 PM"
+    "source_count": 22,
+    "timestamp": "06:01 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": " Netanyahu faces election challenges as protests and controversy swirl around Israel",
-    "emojis": "🔴",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Netanyahu",
-      "Ben-Gvir"
-    ],
-    "source_count": 28,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Moscow strikes Ukraine cargo ship amid talks, Burnham takes fight to Kyiv, Vatican envoy visits Russia",
-    "emojis": "💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Moscow",
-      "UK-Russia tensions",
-      "Burnham",
-      "Vatican envoy"
-    ],
-    "source_count": 11,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Displaced Palestinians in Gaza face intensifying Israeli strikes, killing two young children",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians"
-    ],
-    "source_count": 2,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: VENEZUELA",
-    "summary": "US eases sanctions on Venezuela's telecom sector, excluding Chinese companies",
-    "emojis": "🚫",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
-    "actors": [
-      "US",
-      "Venezuela"
-    ],
-    "source_count": 1,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces strikes, chess ban, and Vatican meeting amid international tensions and infrastructure projects.",
-    "emojis": "💥⚔️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Finland",
-      "Russia",
-      "Vatican",
-      "North Korea"
-    ],
-    "source_count": 5,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthis claim attack on Saudi oil tanker in Red Sea, sparking regional tensions and potential for escalation.",
-    "emojis": "⚔️⚡📈",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Yemen's Houthis",
-      "Saudi"
-    ],
-    "source_count": 1,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Trump removes Syria from terrorism list, Israeli forces raid village in Quneitra, Turkey benefits from Trump's Syria policy.",
+    "title": "SITREP: US-DC",
+    "summary": "US-DC: White House defunding police threat sparks nationwide state and local rebellion against election integrity claims.",
     "emojis": "🔺",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "Trump",
-      "Israel",
-      "Turkey"
+      "White House",
+      "States and cities"
+    ],
+    "source_count": 1,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK announces trade ban on Israeli settlements, EU trade tensions escalate while China seeks EU ally",
+    "emojis": "⚡",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "China",
+      "EU"
     ],
     "source_count": 3,
-    "timestamp": "06:39 PM"
+    "timestamp": "06:01 AM"
   },
   {
-    "title": "SITREP: MEXICO",
-    "summary": "Mexico sees increase in electric vehicle sales amid production decline, presenting a mixed trend.",
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Russia completes 65% of car bridge to North Korea, authorities report.",
     "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
     "actors": [
-      "Mexico",
-      "Automotive Industry"
+      "NK News",
+      "authorities"
     ],
     "source_count": 1,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "EV charger access gaps exist in California due to racial, ethnic, and income disparities, prompting new payment programs.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "California State",
-      "EV Owners"
-    ],
-    "source_count": 2,
-    "timestamp": "06:39 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "California EV driver upset over $10+ charging cost, citing gas prices, in New York.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "actor1",
-      "actor2"
-    ],
-    "source_count": 1,
-    "timestamp": "06:40 PM"
+    "timestamp": "06:01 AM"
   }
 ];
 
