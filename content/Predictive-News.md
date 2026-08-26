@@ -28,17 +28,21 @@ Global tensions have escalated as Russia's military activities and cooperation w
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Aug 24, 2026
+## Daily Intelligence Brief - Aug 26, 2026
 
-A new phase of global reorganization appears to be unfolding. The US is introducing a new sanctions bill targeting China's role in the fentanyl trade, with bipartisan support from Auchincloss, Newhouse, Moolenaar, and Khanna. Iran is warning of a harsh response to anticipated US sanctions, indicating a potential escalation in tensions in the region.
+A multipolar world is reorganizing, with power centers shifting and actors repositioning. Russia is escalating hybrid attacks against Europe, using leverage to put Europeans in a bind. The attacks have already caused casualties in Tibet, with China's energy infrastructure being impacted.
 
-Meanwhile, the US and Israel are experiencing a power shift, with **Ben-Gvir's Altalena** move leaving Netanyahu seemingly caught off guard ahead of the election. In other news, **Tesla** and other electric vehicle companies are recalling massive numbers of vehicles from China, highlighting the growing importance of the EV market.
+China is at the center of global attention, with its '996' workers being discussed in EU trade talks. This highlights the growing tension between China's labor regime and its increasing global influence. 
 
-The global energy landscape is also shifting, with new nuclear power plants being built and distributed generation infrastructure being constructed. Watch for:
+Russia has hit a **Wildberries** depot in Russia, destroying it as Ukraine extends its drone campaign. This demonstrates the escalating proxy conflict between Russia and Ukraine.
 
-* The outcome of the US-China trade negotiations and how they will impact global sanctions policies.
-* The response of Iran to the new sanctions bill and any potential retaliation by the US or its allies.
-* The impact of the US recall on **Tesla**'s stock price and the broader implications for the EV industry.
+The Middle East remains volatile, with old alliances dissolving. The conflict is now spilling into Europe, as well as Asia, with incidents in **Nepal** and **Tibet**.
+
+Watch for:
+
+* Russia's continued escalation of hybrid attacks against Europe
+* The impact of EU-China trade talks on China's labor regime
+* The next phase of the Ukraine-Russia conflict, particularly any developments in **Nepal** or **Tibet**.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
