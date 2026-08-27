@@ -10,20 +10,18 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">August 26, 2026 - 06:00</span>
+  <span class="sotg-timestamp">August 26, 2026 - 20:01</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-China's grid is shifting towards rural data centers to power AI, while also preparing for heavy rain and retaliating against US sanctions. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Exclusive: Why Antares is bringing nuclear power to Fort Bragg. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The global energy grid is adapting to a rapidly changing environment, as evidenced by China's efforts to prepare for heavy rain and potential disruptions to its infrastructure. This development underscores the need for robust grid resilience, particularly in the face of severe weather events and global uncertainty.</p>
-
-Notably, China's rural data center expansion aims to support its AI ambitions, highlighting the critical role of transmission bottlenecks and reserve margins in maintaining grid stability.
+<p class="meridian-lede">Monitoring grid substrate for significant momentum shifts. Data synchronization in progress.</p>
 </div>
 
 <div class="sotg-analyst">
-According to the current 24-hour geomagnetic window, the Kp value is 0.7, with a 24-hour average of 0.62 and a peak value of 1.0. This corresponds to a Quiet condition, indicating a low level of geomagnetic activity.
+Geophysical substrate synchronization in progress. Geomagnetic stability remains within normal parameters.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
