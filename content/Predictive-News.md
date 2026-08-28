@@ -28,19 +28,17 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Aug 26, 2026
+## Daily Intelligence Brief - Aug 28, 2026
 
-The global order is reorganizing, with multiple power centers emerging. Iran and Oman have agreed on a revenue deal for the Strait of Hormuz, a critical shipping lane. This move may help stabilize the region and reduce tensions between the two countries. Iran's military, however, appears to be winding down its activities, with a retired Marine colonel stating that the country no longer poses a significant threat.
+The global landscape is shifting as multiple actors reposition for a multipolar world. China is scrubbing videos of the Nepal-Tibet floods from public view, using censorship to control the narrative. Meanwhile, the Iran war has reached its six-month mark, with **CENTCOM** stating the Strait of Hormuz is open, but shipping companies remain skeptical.
 
-Meanwhile, the United States is pressing the Treasury to target Chinese banks over their alleged support of Iran. This move could further escalate tensions between the US and China. In sports news, **Alex Ovechkin** has a reported parking problem in Russia, but this is unrelated to international politics.
+In the Middle East, a **Russian** strike killed three Palestinians in Jenin, highlighting the ongoing conflict. The **US** has redirected 75 vessels from Iranian ports, according to **CENTCOM**. The situation is further complicated by the fact that footage of the Tibet floods is not being shown in China, raising questions about the severity of the disaster and the government's handling of it.
 
-In other news, **Hyundai** is adopting China-style electric vehicle technology for its popular family SUV, and **China** is developing humanoid robots for gaming. A major flash flood has killed at least 160 people, including 47 Americans, at the Nepal-China border.
+Watch for: 
 
-Watch for:
-
-* A significant escalation of US-China tensions, potentially leading to sanctions or other economic measures.
-* A shift in Iran's military posture, potentially affecting regional stability.
-* Further developments in the global energy landscape, potentially related to the adoption of new nuclear technologies and distributed generation.
+* China's censorship efforts and their potential impact on global perceptions of the Nepal-Tibet floods
+* Further escalation in the Iran war, particularly if shipping companies begin to restrict access to the Strait of Hormuz
+* Developments in the US's efforts to counter Iranian influence in the region, including potential military build-ups or diplomatic efforts
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
