@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-08-26 20:02 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-08-28 19:16 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,103 +51,117 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Official leading Trump's Gaza ceasefire effort criticizes Israel for its attacks",
-    "emojis": "⚔️🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 33,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran, Oman Reach Revenue Deal on Strait of Hormuz - Bloomberg.com",
-    "emojis": "",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_china",
-      "google_iran"
-    ],
-    "source_count": 36,
-    "timestamp": "08:02 PM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "Flash floods at Nepal-China border kill at least 160, with hundreds missing, inc",
+    "summary": "Why China's censors are scrubbing videos of the Nepal-Tibet floods - ABC News & ",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "google_china",
-      "google_ev"
+      "bbc_world",
+      "google_ev",
+      "google_geopolitics"
     ],
-    "source_count": 38,
-    "timestamp": "08:02 PM"
+    "source_count": 34,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Watch Iran War Hits 6 Month Mark - Bloomberg.com",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "google_iran"
+    ],
+    "source_count": 46,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "How many Russian soldiers died in the war with Ukraine - Mediazona",
+    "emojis": "🪖✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 10,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Hezbollah chief again rejects Lebanon-Israel deal, refuses 'surrender' - Middle ",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "google_israel",
+      "google_middle_east"
+    ],
+    "source_count": 18,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle ",
+    "emojis": "💥",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 5,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Berlin is being blackmailed by hackers, mayor says",
+    "emojis": "⚔️",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "bbc_world"
+    ],
+    "source_count": 1,
+    "timestamp": "07:15 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Alex Ovechkin Apparently Has Serious Parking Problem In Russia - Yahoo Sports",
-    "emojis": "⚔️📈",
+    "summary": "Russia stocks higher at close of trade; MOEX Russia Index up 0.86% - Investing.c",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "google_russia"
     ],
-    "source_count": 15,
-    "timestamp": "08:02 PM"
+    "source_count": 11,
+    "timestamp": "07:15 PM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "The question dominating Indian politics: Is it worse when women swear?",
+    "title": "SITREP: US-IL",
+    "summary": "Rivian shares slide after CFO announces surprise departure - Crain's Chicago Bus",
     "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
     "actors": [
-      "bbc_world"
+      "google_ev"
     ],
     "source_count": 1,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "France vows to keep pressure on Russia as it reaffirms support for Ukraine - Lat",
-    "emojis": "🪖⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "google_russia",
-      "google_israel"
-    ],
-    "source_count": 6,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Synagogues and churches to Congress: Protect us now - JNS.org",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 PM"
+    "timestamp": "07:15 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli forces demolish houses in southern Lebanon - Middle East Eye",
-    "emojis": "",
+    "summary": "Israeli drone attack hits southern Lebanon - Middle East Eye",
+    "emojis": "✈️⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -155,11 +169,37 @@
       "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "08:02 PM"
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Why Many Iranians Are Losing Hope After Six Months of War - The New York Times",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "google_iran"
+    ],
+    "source_count": 1,
+    "timestamp": "07:15 PM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Magnetic memory could make edge AI faster while reducing energy use",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "techxplore"
+    ],
+    "source_count": 1,
+    "timestamp": "07:15 PM"
   },
   {
     "title": "SITREP: MEXICO",
-    "summary": "El Jalapeño: New Olinia Carga EV will excel at moving tiny cargo miniscule dista",
+    "summary": "9000 dollar electric vehicle — Mexico’s Olinia EV Eyeing California? - The Korea",
     "emojis": "",
     "lat": 23.6,
     "lng": -102.5,
@@ -168,20 +208,7 @@
       "google_ev"
     ],
     "source_count": 1,
-    "timestamp": "08:02 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "bbc_world"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 PM"
+    "timestamp": "07:16 PM"
   }
 ];
 
