@@ -10,11 +10,11 @@ socialImage: stateofthegrid.png
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">August 26, 2026 - 20:01</span>
+  <span class="sotg-timestamp">August 28, 2026 - 19:15</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Exclusive: Why Antares is bringing nuclear power to Fort Bragg. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+This American Battery Could Break China’s Grip On The EV Supply Chain. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
 <p class="meridian-lede">Monitoring grid substrate for significant momentum shifts. Data synchronization in progress.</p>
