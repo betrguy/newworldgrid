@@ -28,17 +28,21 @@ A significant escalation of tensions in the Middle East has raised concerns abou
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Aug 28, 2026
+## Daily Intelligence Brief - Aug 29, 2026
 
-The global landscape is shifting as multiple actors reposition for a multipolar world. China is scrubbing videos of the Nepal-Tibet floods from public view, using censorship to control the narrative. Meanwhile, the Iran war has reached its six-month mark, with **CENTCOM** stating the Strait of Hormuz is open, but shipping companies remain skeptical.
+A series of events indicate structural realignment in the global order. **Iran** is experiencing a power vacuum following Supreme Leader Khamenei's prolonged absence, leading to increased skepticism among the population. 
 
-In the Middle East, a **Russian** strike killed three Palestinians in Jenin, highlighting the ongoing conflict. The **US** has redirected 75 vessels from Iranian ports, according to **CENTCOM**. The situation is further complicated by the fact that footage of the Tibet floods is not being shown in China, raising questions about the severity of the disaster and the government's handling of it.
+Meanwhile, in Eastern Europe, **Belgium** has slammed the door on using **Russian** assets for Ukraine, indicating a shift in diplomatic leverage. In Asia, tensions are rising between **India** and **China**, with the latter's influence on the BRICS grouping being scrutinized.
 
-Watch for: 
+In the Asia-Pacific region, a devastating mudslide has occurred along the **China-Nepal** border, with experts analyzing its causes. In the energy sector, **Australia** is seeing a decline in transport emissions, attributed to the adoption of electric vehicles (EVs). 
 
-* China's censorship efforts and their potential impact on global perceptions of the Nepal-Tibet floods
-* Further escalation in the Iran war, particularly if shipping companies begin to restrict access to the Strait of Hormuz
-* Developments in the US's efforts to counter Iranian influence in the region, including potential military build-ups or diplomatic efforts
+A humanitarian crisis is unfolding in Ukraine, with **Russia** launching strikes in **Kyiv**, resulting in at least 27 deaths and hundreds of evacuations. 
+
+Watch for:
+
+1. Iran's new leadership to solidify power and address the country's economic woes.
+2. A potential escalation of tensions between India and China over the BRICS grouping.
+3. The impact of Russia's strikes on Ukraine's energy infrastructure and economic stability.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
