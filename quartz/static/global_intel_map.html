@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-08-28 19:16 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-08-29 06:02 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,164 +51,156 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "Why China's censors are scrubbing videos of the Nepal-Tibet floods - ABC News & ",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "google_china",
-      "bbc_world",
-      "google_ev",
-      "google_geopolitics"
-    ],
-    "source_count": 34,
-    "timestamp": "07:15 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Watch Iran War Hits 6 Month Mark - Bloomberg.com",
-    "emojis": "⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_iran"
-    ],
-    "source_count": 46,
-    "timestamp": "07:15 PM"
-  },
-  {
     "title": "SITREP: UKRAINE",
-    "summary": "How many Russian soldiers died in the war with Ukraine - Mediazona",
-    "emojis": "🪖✈️⚔️",
+    "summary": "At least 27 killed and hundreds evacuated after Russian drone attack near Kyiv, Ukraine.",
+    "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "google_russia"
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 10,
-    "timestamp": "07:15 PM"
+    "source_count": 26,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces challenges from mudslides, sanctions, and AI innovation, while focusing on quality and economic stability.",
+    "emojis": "🚫",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "India",
+      "US"
+    ],
+    "source_count": 75,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran defies US, China and Russia offer support, as tensions rise in the Middle East",
+    "emojis": "💥⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "China",
+      "Russia"
+    ],
+    "source_count": 25,
+    "timestamp": "06:01 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Hezbollah chief again rejects Lebanon-Israel deal, refuses 'surrender' - Middle ",
-    "emojis": "",
+    "summary": "Israel: Protests, economic growth, ancient discoveries, security concerns, and international tensions dominate the news.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "google_israel",
-      "google_middle_east"
+      "Israel",
+      "Pro-Israel Senators",
+      "Israel Police",
+      "Khatam al-Anbiya",
+      "Israel Weather Service",
+      "Israel Strikes",
+      "US-led Gaza Coordination Center",
+      "European Critics"
     ],
-    "source_count": 18,
-    "timestamp": "07:15 PM"
+    "source_count": 21,
+    "timestamp": "06:01 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle ",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: FRANCE",
+    "summary": "France's 1960 nuclear tests in Algeria still pose environmental and health risks 60 years later",
+    "emojis": "☢️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "google_israel"
-    ],
-    "source_count": 5,
-    "timestamp": "07:15 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Berlin is being blackmailed by hackers, mayor says",
-    "emojis": "⚔️",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "bbc_world"
+      "France",
+      "Algeria"
     ],
     "source_count": 1,
-    "timestamp": "07:15 PM"
+    "timestamp": "06:01 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia stocks higher at close of trade; MOEX Russia Index up 0.86% - Investing.c",
-    "emojis": "",
+    "summary": "Russia battles escalate, losses mount, amid Ukraine war and tensions with Armenia and Poland, spy chief warns of revolution.",
+    "emojis": "⚔️💀⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "google_russia"
+      "Russia",
+      "Ukraine",
+      "Armenia",
+      "Poland",
+      "Estonia"
     ],
-    "source_count": 11,
-    "timestamp": "07:15 PM"
+    "source_count": 12,
+    "timestamp": "06:01 AM"
   },
   {
-    "title": "SITREP: US-IL",
-    "summary": "Rivian shares slide after CFO announces surprise departure - Crain's Chicago Bus",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
+    "title": "SITREP: GAZA",
+    "summary": "Violence escalates in Gaza as Israeli airstrikes and threats impact civilians, including children and a school student",
+    "emojis": "💥⚔️💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "google_ev"
+      "Israel",
+      "Palestinians"
+    ],
+    "source_count": 3,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Former White House staffer ordered to pay $172,000 for betting on Trump speeches",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "actor1",
+      "actor2"
     ],
     "source_count": 1,
-    "timestamp": "07:15 PM"
+    "timestamp": "06:01 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli drone attack hits southern Lebanon - Middle East Eye",
-    "emojis": "✈️⚔️",
+    "summary": "Israeli forces carry out 2 explosions in southern Lebanon, setting fire to homes",
+    "emojis": "💥",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "google_middle_east"
+      "Israeli army",
+      "Israeli forces"
     ],
-    "source_count": 1,
-    "timestamp": "07:15 PM"
+    "source_count": 2,
+    "timestamp": "06:02 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Why Many Iranians Are Losing Hope After Six Months of War - The New York Times",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "google_iran"
-    ],
-    "source_count": 1,
-    "timestamp": "07:15 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Magnetic memory could make edge AI faster while reducing energy use",
+    "title": "SITREP: INDIA",
+    "summary": "Tata Motors dominates India's EV market with 195,802 units sold in 2023, surpassing overall EV sales",
     "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "techxplore"
+      "Tata Motors",
+      "India's EV market"
     ],
     "source_count": 1,
-    "timestamp": "07:15 PM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "9000 dollar electric vehicle — Mexico’s Olinia EV Eyeing California? - The Korea",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "google_ev"
-    ],
-    "source_count": 1,
-    "timestamp": "07:16 PM"
+    "timestamp": "06:02 AM"
   }
 ];
 
