@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-08-29 06:02 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-09-01 06:01 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,9 +51,85 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "China continues to expand manufacturing, space exploration, and scientific research, amid Taiwan tensions and regional politics.",
+    "emojis": "🚀⚔️⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Taiwan"
+    ],
+    "source_count": 40,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Netanyahu faces criticism, opposition, and diplomatic challenges, while his government struggles with terror and economy",
+    "emojis": "💥⚔️💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Netanyahu",
+      "Hamas",
+      "Israel",
+      "US",
+      "China",
+      "Egypt"
+    ],
+    "source_count": 25,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions escalate between Iran and US, with threats of war and retaliation, as Iran demands US return to June deal.",
+    "emojis": "⚔️🕊️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US"
+    ],
+    "source_count": 18,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia engages in diplomatic tensions with UK, China, and Japan, while expanding energy ties and nuclear capabilities.",
+    "emojis": "🚢☢️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "UK",
+      "China",
+      "Japan"
+    ],
+    "source_count": 18,
+    "timestamp": "06:01 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli strikes kill at least 6 children in Gaza, with reports of a special Israeli unit infiltrating the territory.",
+    "emojis": "💥",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli military",
+      "Hamas"
+    ],
+    "source_count": 3,
+    "timestamp": "06:01 AM"
+  },
+  {
     "title": "SITREP: UKRAINE",
-    "summary": "At least 27 killed and hundreds evacuated after Russian drone attack near Kyiv, Ukraine.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Russia launches massive attack on Ukraine, killing at least 12 in Kyiv, with 90% of retail warehouses destroyed.",
+    "emojis": "💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -61,146 +137,55 @@
       "Russia",
       "Ukraine"
     ],
-    "source_count": 26,
+    "source_count": 22,
     "timestamp": "06:01 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China faces challenges from mudslides, sanctions, and AI innovation, while focusing on quality and economic stability.",
-    "emojis": "🚫",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "India",
-      "US"
-    ],
-    "source_count": 75,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran defies US, China and Russia offer support, as tensions rise in the Middle East",
-    "emojis": "💥⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US",
-      "China",
-      "Russia"
-    ],
-    "source_count": 25,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel: Protests, economic growth, ancient discoveries, security concerns, and international tensions dominate the news.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Pro-Israel Senators",
-      "Israel Police",
-      "Khatam al-Anbiya",
-      "Israel Weather Service",
-      "Israel Strikes",
-      "US-led Gaza Coordination Center",
-      "European Critics"
-    ],
-    "source_count": 21,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France's 1960 nuclear tests in Algeria still pose environmental and health risks 60 years later",
-    "emojis": "☢️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Algeria"
-    ],
-    "source_count": 1,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia battles escalate, losses mount, amid Ukraine war and tensions with Armenia and Poland, spy chief warns of revolution.",
-    "emojis": "⚔️💀⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "Armenia",
-      "Poland",
-      "Estonia"
-    ],
-    "source_count": 12,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Violence escalates in Gaza as Israeli airstrikes and threats impact civilians, including children and a school student",
-    "emojis": "💥⚔️💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians"
-    ],
-    "source_count": 3,
-    "timestamp": "06:01 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Former White House staffer ordered to pay $172,000 for betting on Trump speeches",
+    "title": "SITREP: VENEZUELA",
+    "summary": "President Trump's Venezuela oil deal with a colorful oil baron raises controversy and secrets about the country's energy sector.",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
     "actors": [
-      "actor1",
-      "actor2"
+      "President Trump",
+      "Oil Baron"
     ],
     "source_count": 1,
     "timestamp": "06:01 AM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli forces carry out 2 explosions in southern Lebanon, setting fire to homes",
+    "title": "SITREP: UK",
+    "summary": "BYD Atto 2 faces UK pricing issues, while London stocks fall due to global bond rout and Middle East strikes.",
     "emojis": "💥",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Israeli army",
-      "Israeli forces"
+      "Yahoo Autos",
+      "The Cool Down",
+      "Pod Point",
+      "uk.style.yahoo.com",
+      "Investing.com",
+      "Investing.com UK"
     ],
-    "source_count": 2,
-    "timestamp": "06:02 AM"
+    "source_count": 6,
+    "timestamp": "06:01 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Tata Motors dominates India's EV market with 195,802 units sold in 2023, surpassing overall EV sales",
-    "emojis": "",
+    "summary": "India enforces new rules for local manufacturing of traction motors by 2026, impacting electric bus and truck industries.",
+    "emojis": "⚔️",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Tata Motors",
-      "India's EV market"
+      "India",
+      "global sources",
+      "India Foundation"
     ],
-    "source_count": 1,
-    "timestamp": "06:02 AM"
+    "source_count": 2,
+    "timestamp": "06:01 AM"
   }
 ];
 
