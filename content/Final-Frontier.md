@@ -34,8 +34,11 @@ Imagine a 2027 where Toyota's Highlander EV delay sparks a ripple effect in the 
 <!-- EDITION_ARCHIVE_BACKLOG -->
 <div class="sotg-archive-section">
   <div class="sotg-archive-header">
-    <span class="sotg-archive-icon">📅</span>
-    <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
+    <div class="sotg-archive-header-left">
+      <span class="sotg-archive-icon">📅</span>
+      <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
+    </div>
+    <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
     <div class="archive-item">
@@ -72,6 +75,55 @@ Imagine a 2027 where Toyota's Highlander EV delay sparks a ripple effect in the 
         <a href="/archive/frontier/2026-08-23-chinas-lunar-mission-delay" class="archive-link">China's lunar mission delay and the ongoing development of...</a>
       </div>
       <div class="archive-preview">China's lunar mission delay and the ongoing development of electric vehicle infrastructure highlight the complexities and challenges of...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 12, 2026</span>
+        <a href="/archive/frontier/2026-08-12-chinas-ispace-secures-funding" class="archive-link">China's iSpace secures funding for reusable rocketry</a>
+      </div>
+      <div class="archive-preview">China's iSpace secures funding for reusable rocketry as BYD launches affordable electric vehicle options in the country, potentially...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 06, 2026</span>
+        <a href="/archive/frontier/2026-08-06-south-koreas-lunar-orbiter" class="archive-link">South Korea's lunar orbiter captures Moon images amidst SpaceX...</a>
+      </div>
+      <div class="archive-preview">South Korea's lunar orbiter captures Moon images amidst SpaceX rocket debris crash, while Trump's comments on electric vehicles'...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 26, 2026</span>
+        <a href="/archive/frontier/2026-07-26-amazons-kuiper-satellite-constellation" class="archive-link">Amazon's Kuiper satellite constellation is poised to challenge...</a>
+      </div>
+      <div class="archive-preview">Amazon's Kuiper satellite constellation is poised to challenge Starlink in the burgeoning market for low-Earth orbit internet...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 22, 2026</span>
+        <a href="/archive/frontier/2026-07-22-nasas-upcoming-space-telescope" class="archive-link">NASA's upcoming space telescope and emerging electric vehicle...</a>
+      </div>
+      <div class="archive-preview">NASA's upcoming space telescope and emerging electric vehicle technologies are converging to potentially revolutionize our understanding...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 19, 2026</span>
+        <a href="/archive/frontier/2026-07-19-kuipers-satellite-manufacturing-capabilities" class="archive-link">Kuipers Satellite Manufacturing Capabilities Are</a>
+      </div>
+      <div class="archive-preview">Kuiper's satellite manufacturing capabilities are expanding alongside Tesla's Powerwall and EV charging infrastructure development in...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 16, 2026</span>
+        <a href="/archive/frontier/2026-07-16-amazons-kuiper-satellite-constellation" class="archive-link">Amazons Kuiper Satellite Constellation Launches</a>
+      </div>
+      <div class="archive-preview">Amazon's Kuiper satellite constellation launches alongside BYD's record-breaking battery tech, challenging Starlink and Tesla in the...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 13, 2026</span>
+        <a href="/archive/frontier/2026-07-13-spacex-ast-spacemobiles-recent" class="archive-link">Spacex Ast Spacemobiles Recent Market</a>
+      </div>
+      <div class="archive-preview">SpaceX and AST SpaceMobile's recent market decline mirrors the impact of China's rocket milestone and oil price surge on the industry,...</div>
     </div>
   </div>
 </div>

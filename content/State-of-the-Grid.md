@@ -36,8 +36,11 @@ As of the current 24-hour window, the geomagnetic activity is characterized by a
 <!-- EDITION_ARCHIVE_BACKLOG -->
 <div class="sotg-archive-section">
   <div class="sotg-archive-header">
-    <span class="sotg-archive-icon">📅</span>
-    <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
+    <div class="sotg-archive-header-left">
+      <span class="sotg-archive-icon">📅</span>
+      <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
+    </div>
+    <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
     <div class="archive-item">
@@ -74,6 +77,55 @@ As of the current 24-hour window, the geomagnetic activity is characterized by a
         <a href="/archive/grid/2026-08-26-chinas-grid-shifting-towards" class="archive-link">China's grid is shifting towards rural data centers to power AI</a>
       </div>
       <div class="archive-preview">China's grid is shifting towards rural data centers to power AI, while also preparing for heavy rain and retaliating against US sanctions.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 24, 2026</span>
+        <a href="/archive/grid/2026-08-24-global-energy-landscape-severely" class="archive-link">The global energy landscape is severely disrupted</a>
+      </div>
+      <div class="archive-preview">The global energy landscape is severely disrupted as Iran declares "full-scale war" and diesel crisis threatens to outlast the Middle...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 23, 2026</span>
+        <a href="/archive/grid/2026-08-23-battery-storage-markets-whats" class="archive-link">Battery storage markets: whats happening in ERCOT</a>
+      </div>
+      <div class="archive-preview">Battery storage markets: whats happening in ERCOT, CAISO, PJM, and Japan.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 12, 2026</span>
+        <a href="/archive/grid/2026-08-12-officials-attended-training-israel" class="archive-link">U.S. officials attended training in Israel that leaned into...</a>
+      </div>
+      <div class="archive-preview">U.S. officials attended training in Israel that leaned into anti-Muslim stereotypes - prismreports.org.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 06, 2026</span>
+        <a href="/archive/grid/2026-08-06-tiny-vortices-discovered-suns" class="archive-link">Tiny vortices discovered on the suns surface.</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 02, 2026</span>
+        <a href="/archive/grid/2026-08-02-data-centers-drive-electricity" class="archive-link">Data Centers Drive Up Electricity Demand</a>
+      </div>
+      <div class="archive-preview">Data Centers Drive Up Electricity Demand, Causing Concern for Grid ...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 26, 2026</span>
+        <a href="/archive/grid/2026-07-26-2024" class="archive-link">2024</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 22, 2026</span>
+        <a href="/archive/grid/2026-07-22-global-electricity-demand-expected" class="archive-link">Global electricity demand is expected to surge due to AI data...</a>
+      </div>
+      <div class="archive-preview">Global electricity demand is expected to surge due to AI data center growth, potentially reaching 20% of global consumption by 2030-2035.</div>
     </div>
   </div>
 </div>

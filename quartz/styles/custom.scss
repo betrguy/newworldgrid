@@ -597,20 +597,19 @@ body[data-slug*="optimism"] {
   }
 }
 
-body[data-slug*="predictive"],
-body[data-slug*="optimism"],
-body[data-slug*="state-of-the-grid"] {
+body[data-slug="Predictive-News"],
+body[data-slug="Optimism"],
+body[data-slug="State-of-the-Grid"],
+body[data-slug="Final-Frontier"] {
 
-  /* 1. HIDE THE DATE/METADATA */
+  /* 1. HIDE THE DATE/METADATA ON LIVE PILLAR PAGES */
   .content-meta {
     display: none !important;
   }
 
-  /* 2. HIDE THE FILE LIST (0 items) */
-  /* This targets the container class standard in Quartz v4 */
+  /* 2. HIDE UNWANTED AUTO LISTINGS */
   .page-listing, 
   .folder-outer,
-  .popover-hint,
   .section-list {
     display: none !important;
     visibility: hidden !important;
@@ -770,10 +769,15 @@ body[data-slug*="state-of-the-grid"] {
 .sotg-archive-header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 1.1rem;
   padding-bottom: 0.6rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sotg-archive-header-left {
+  display: flex;
+  align-items: center;
 }
 
 .sotg-archive-icon {
@@ -790,10 +794,54 @@ body[data-slug*="state-of-the-grid"] {
   text-transform: uppercase;
 }
 
+.sotg-archive-view-all {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.72rem !important;
+  font-weight: 700;
+  color: #ffb703 !important;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.65rem;
+  background: rgba(255, 183, 3, 0.08);
+  border: 1px solid rgba(255, 183, 3, 0.35);
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.sotg-archive-view-all:hover {
+  background: rgba(255, 183, 3, 0.22);
+  border-color: #ffb703;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
 .sotg-archive-list {
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
+  max-height: 480px;
+  overflow-y: auto;
+  padding-right: 0.6rem;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 183, 3, 0.4) rgba(15, 23, 42, 0.6);
+}
+
+.sotg-archive-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sotg-archive-list::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 3px;
+}
+
+.sotg-archive-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 183, 3, 0.4);
+  border-radius: 3px;
+}
+
+.sotg-archive-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 183, 3, 0.8);
 }
 
 .archive-item {
@@ -855,4 +903,55 @@ body[data-slug*="state-of-the-grid"] {
   .archive-preview {
     padding-left: 0;
   }
+}
+
+/* ==========================================================================
+   ARCHIVE CATALOG TABLES (/archive/optimism, /archive/grid, etc.)
+   ========================================================================== */
+
+body[data-slug*="archive"] table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 3rem 0;
+  font-size: 0.88rem;
+}
+
+body[data-slug*="archive"] th {
+  font-family: "JetBrains Mono", monospace;
+  text-align: left;
+  border-bottom: 2px solid #ffb703;
+  padding: 10px 12px;
+  color: #ffb703;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+}
+
+body[data-slug*="archive"] td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+body[data-slug*="archive"] td strong {
+  font-family: "JetBrains Mono", monospace;
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+body[data-slug*="archive"] td a {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+body[data-slug*="archive"] td a:hover {
+  color: #ffb703;
+  text-decoration: underline;
+}
+
+body[data-slug*="archive"] tr:hover td {
+  background: rgba(255, 183, 3, 0.03);
 }

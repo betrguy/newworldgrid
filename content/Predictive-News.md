@@ -46,8 +46,11 @@ Watch for:
 <!-- EDITION_ARCHIVE_BACKLOG -->
 <div class="sotg-archive-section">
   <div class="sotg-archive-header">
-    <span class="sotg-archive-icon">📅</span>
-    <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
+    <div class="sotg-archive-header-left">
+      <span class="sotg-archive-icon">📅</span>
+      <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
+    </div>
+    <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
     <div class="archive-item">
@@ -84,6 +87,55 @@ Watch for:
         <a href="/archive/predictive/2026-08-26-global-tensions-escalated-russias" class="archive-link">Global tensions have escalated</a>
       </div>
       <div class="archive-preview">Global tensions have escalated as Russia's military activities and cooperation with key adversaries have intensified, sparking concerns...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 24, 2026</span>
+        <a href="/archive/predictive/2026-08-24-series-escalating-tensions-military" class="archive-link">A series of escalating tensions and military actions in various...</a>
+      </div>
+      <div class="archive-preview">A series of escalating tensions and military actions in various regions, including China's growing AI concerns, Iran's response to...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 23, 2026</span>
+        <a href="/archive/predictive/2026-08-23-global-power-dynamics-shift" class="archive-link">Global power dynamics shift</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 12, 2026</span>
+        <a href="/archive/predictive/2026-08-12-significant-escalation-tensions-has" class="archive-link">A significant escalation of tensions has emerged</a>
+      </div>
+      <div class="archive-preview">A significant escalation of tensions has emerged with Arab countries condemning Colombia's stance on Israeli sovereignty over the Golan...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 06, 2026</span>
+        <a href="/archive/predictive/2026-08-06-global-power-dynamics-shift" class="archive-link">Global power dynamics shift</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 02, 2026</span>
+        <a href="/archive/predictive/2026-08-02-global-power-dynamics-shift" class="archive-link">Global power dynamics shift</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 26, 2026</span>
+        <a href="/archive/predictive/2026-07-26-global-power-dynamics-shift" class="archive-link">Global power dynamics shift</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 22, 2026</span>
+        <a href="/archive/predictive/2026-07-22-significant-escalation-hostilities-has" class="archive-link">A significant escalation of hostilities has marked a major shift...</a>
+      </div>
+      <div class="archive-preview">A significant escalation of hostilities has marked a major shift in regional dynamics, with multiple countries experiencing increased...</div>
     </div>
   </div>
 </div>
