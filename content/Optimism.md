@@ -60,7 +60,7 @@ Day length today: **12.6 hours** (Summer, &darr; shortening). 76 days to the nex
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 03, 2026</span>
-        <a href="/archive/optimism/2026-09-03-can-efficiently-handle-space" class="archive-link">More efficiently handle space missions</a>
+        <a href="/archive/optimism/2026-09-03-can-efficiently-handle-space" class="archive-link">ROBOTIC ARM MILESTONE BOOSTS EFFICIENCY IN SPACE MISSIONS</a>
       </div>
       <div class="archive-preview">More efficiently handle space missions with the help of a robotic arm milestone.</div>
     </div>
@@ -74,7 +74,7 @@ Day length today: **12.6 hours** (Summer, &darr; shortening). 76 days to the nex
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 29, 2026</span>
-        <a href="/archive/optimism/2026-08-29-engineers-successfully-synchronized-signals" class="archive-link">Engineers have successfully synchronized signals from natural...</a>
+        <a href="/archive/optimism/2026-08-29-engineers-successfully-synchronized-signals" class="archive-link">Engineers Synchronize Signals for Ultra-Precise Timekeeping Tool</a>
       </div>
       <div class="archive-preview">Engineers have successfully synchronized signals from natural diamonds to create a more precise timekeeping tool.</div>
     </div>
@@ -88,49 +88,49 @@ Day length today: **12.6 hours** (Summer, &darr; shortening). 76 days to the nex
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 24, 2026</span>
-        <a href="/archive/optimism/2026-08-24-switching-renewables-can-now" class="archive-link">Switching to renewables can now save billions for Pacific nations</a>
+        <a href="/archive/optimism/2026-08-24-switching-renewables-can-now" class="archive-link">RENEWABLE REVOLUTION HITS PACIFIC ISLANDS & GLOBAL ENERGY MARKET</a>
       </div>
       <div class="archive-preview">Switching to renewables can now save billions for Pacific nations, while scalable semitransparent organic PV modules could turn windows...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 23, 2026</span>
-        <a href="/archive/optimism/2026-08-23-automate-consensus-agents-can" class="archive-link">Automate consensus. AI agents can now build consensus on a scale...</a>
+        <a href="/archive/optimism/2026-08-23-automate-consensus-agents-can" class="archive-link">AI Agents Reach New Heights of Consensus Amid Global Safety Recall Push</a>
       </div>
       <div class="archive-preview">Automate consensus. AI agents can now build consensus on a scale previously unattainable for humans, while major automotive companies...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 12, 2026</span>
-        <a href="/archive/optimism/2026-08-12-can-generate-clean-hydrogen" class="archive-link">Generate clean hydrogen by stimulating ancient rock formations.</a>
+        <a href="/archive/optimism/2026-08-12-can-generate-clean-hydrogen" class="archive-link">Zap Tech's Breakthrough Stuns Energy World</a>
       </div>
       <div class="archive-preview">In a groundbreaking development, Sovereign Tech&rsquo;s Zap Rocks method now allows us to produce clean hydrogen simply by adding water.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 06, 2026</span>
-        <a href="/archive/optimism/2026-08-06-solar-cells-now-exceed" class="archive-link">Solar cells now exceed a certified efficiency of 26.31%</a>
+        <a href="/archive/optimism/2026-08-06-solar-cells-now-exceed" class="archive-link">TOPCON SOLAR CELLS SURPASS 26.31% EFFICIENCY WITH NEW PASTE-AND-LASER STRATEGY</a>
       </div>
       <div class="archive-preview">Scientists have developed a paste-and-laser strategy that significantly boosts the efficiency of TOPCon solar cells, achieving a...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 02, 2026</span>
-        <a href="/archive/optimism/2026-08-02-navigate-complex-enterprise-systems" class="archive-link">Navigate complex enterprise systems</a>
+        <a href="/archive/optimism/2026-08-02-navigate-complex-enterprise-systems" class="archive-link">SOVEREIGN TECH LEADS ENTERPRISE SYSTEM NAVIGATION REVOLUTION</a>
       </div>
       <div class="archive-preview">Sovereign Tech has made remarkable strides in understanding how engineers approach problems, thanks to the mentorship of Robert N.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Jul 26, 2026</span>
-        <a href="/archive/optimism/2026-07-26-solar-power-now-illuminates" class="archive-link">Solar power now illuminates rural South African communities</a>
+        <a href="/archive/optimism/2026-07-26-solar-power-now-illuminates" class="archive-link">SOUTH AFRICA LEADS RENEWABLE ENERGY REVOLUTION IN RURAL DEVELOPMENT</a>
       </div>
       <div class="archive-preview">Solar power now illuminates rural South African communities, marking a significant shift as renewable energy transitions from city...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Jul 22, 2026</span>
-        <a href="/archive/optimism/2026-07-22-can-peer-microscopic-world" class="archive-link">Peer into the microscopic world</a>
+        <a href="/archive/optimism/2026-07-22-can-peer-microscopic-world" class="archive-link">QUANTUM REVOLUTION REVEALS NEW ERA OF ENERGY SUSTAINABILITY</a>
       </div>
       <div class="archive-preview">Peer into the microscopic world with unprecedented precision and reduce our reliance on fossil fuels by harnessing quantum technologies.</div>
     </div>

@@ -63,79 +63,79 @@ Watch for:
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 01, 2026</span>
-        <a href="/archive/predictive/2026-09-01-global-tensions-intensified-multiple" class="archive-link">Global tensions have intensified</a>
+        <a href="/archive/predictive/2026-09-01-global-tensions-intensified-multiple" class="archive-link">GLOBE TEETERS ON BRINK AS REGIONAL POWERS CLASH & HUMANITARIAN CRISIS ESCALATES</a>
       </div>
       <div class="archive-preview">Global tensions have intensified, with multiple flashpoints emerging across the globe, including heightened tensions between key...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 29, 2026</span>
-        <a href="/archive/predictive/2026-08-29-significant-escalation-tensions-middle" class="archive-link">A significant escalation of tensions in the Middle East has...</a>
+        <a href="/archive/predictive/2026-08-29-significant-escalation-tensions-middle" class="archive-link">MIDDLE EAST ON BRINK OF WIDESPREAD WAR AS MAJOR POWER DEFIES GLOBAL PRESSURE</a>
       </div>
       <div class="archive-preview">A significant escalation of tensions in the Middle East has raised concerns about the potential for widespread conflict, as a major...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 28, 2026</span>
-        <a href="/archive/predictive/2026-08-28-global-power-dynamics-shift" class="archive-link">Global power dynamics shift</a>
+        <a href="/archive/predictive/2026-08-28-global-power-dynamics-shift" class="archive-link">REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN</a>
       </div>
       <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 26, 2026</span>
-        <a href="/archive/predictive/2026-08-26-global-tensions-escalated-russias" class="archive-link">Global tensions have escalated</a>
+        <a href="/archive/predictive/2026-08-26-global-tensions-escalated-russias" class="archive-link">RUSSIA'S MILITARY EXPANSION SPARKS GLOBAL CONCERNS OVER WIDENING CONFLICT</a>
       </div>
       <div class="archive-preview">Global tensions have escalated as Russia's military activities and cooperation with key adversaries have intensified, sparking concerns...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Aug 24, 2026</span>
-        <a href="/archive/predictive/2026-08-24-series-escalating-tensions-military" class="archive-link">A series of escalating tensions and military actions in various...</a>
+        <a href="/archive/predictive/2026-08-24-series-escalating-tensions-military" class="archive-link">GLOBAL INSTABILITY SPARKS AS CHINA, IRAN, ISRAEL TENSIONS ESCALATE</a>
       </div>
       <div class="archive-preview">A series of escalating tensions and military actions in various regions, including China's growing AI concerns, Iran's response to...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
-        <span class="archive-date">Aug 12, 2026</span>
-        <a href="/archive/predictive/2026-08-12-significant-escalation-tensions-has" class="archive-link">A significant escalation of tensions has emerged</a>
-      </div>
-      <div class="archive-preview">A significant escalation of tensions has emerged with Arab countries condemning Colombia's stance on Israeli sovereignty over the Golan...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 22, 2026</span>
-        <a href="/archive/predictive/2026-07-22-significant-escalation-hostilities-has" class="archive-link">A significant escalation of hostilities has marked a major shift...</a>
-      </div>
-      <div class="archive-preview">A significant escalation of hostilities has marked a major shift in regional dynamics, with multiple countries experiencing increased...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 19, 2026</span>
-        <a href="/archive/predictive/2026-07-19-global-tensions-escalated-series" class="archive-link">Global Tensions Escalated Series Provocative</a>
-      </div>
-      <div class="archive-preview">Global tensions have escalated with a series of provocative attacks and military deployments across multiple regions, indicating a...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 16, 2026</span>
-        <a href="/archive/predictive/2026-07-16-escalating-military-strikes-between" class="archive-link">Escalating Military Strikes Between Two</a>
-      </div>
-      <div class="archive-preview">Escalating military strikes between two regional powers have brought the region to a critical juncture, with both sides targeting key...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 14, 2026</span>
-        <a href="/archive/predictive/2026-07-14-global-power-dynamics-shift" class="archive-link">Global Power Dynamics Shift Regional</a>
+        <span class="archive-date">Aug 23, 2026</span>
+        <a href="/archive/predictive/2026-08-23-global-power-dynamics-shift" class="archive-link">Regional Players Seize Global Stage Amid Shifts in Power & Influence.</a>
       </div>
       <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
-        <span class="archive-date">Jul 13, 2026</span>
-        <a href="/archive/predictive/2026-07-13-significant-escalation-tensions-between" class="archive-link">Significant Escalation Tensions Between Global</a>
+        <span class="archive-date">Aug 12, 2026</span>
+        <a href="/archive/predictive/2026-08-12-significant-escalation-tensions-has" class="archive-link">ARAB COUNTRIES UNITE IN CONDEMNATION OF COLOMBIA'S GOLAN HEIGHTS STANCE</a>
       </div>
-      <div class="archive-preview">A significant escalation in tensions between a global superpower and an Iran has resumed airstrikes on the country following a claimed...</div>
+      <div class="archive-preview">A significant escalation of tensions has emerged with Arab countries condemning Colombia's stance on Israeli sovereignty over the Golan...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 02, 2026</span>
+        <a href="/archive/predictive/2026-08-02-global-power-dynamics-shift" class="archive-link">REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 26, 2026</span>
+        <a href="/archive/predictive/2026-07-26-global-power-dynamics-shift" class="archive-link">REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 22, 2026</span>
+        <a href="/archive/predictive/2026-07-22-significant-escalation-hostilities-has" class="archive-link">GLOBAL TENSIONS SPARK AS MULTIPLE NATIONS SEE SURGE IN MILITARY ACTIVITY</a>
+      </div>
+      <div class="archive-preview">A significant escalation of hostilities has marked a major shift in regional dynamics, with multiple countries experiencing increased...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 21, 2026</span>
+        <a href="/archive/predictive/2026-07-21-global-tensions-intensified-series" class="archive-link">GLOBAL TENSIONS REACH CRITICAL POINT AS MAJOR POWERS CLASH OVER REGIONAL SECURITY</a>
+      </div>
+      <div class="archive-preview">Global tensions have intensified as a series of high-stakes conflicts and diplomatic exchanges have pushed major powers to their limits,...</div>
     </div>
   </div>
 </div>
