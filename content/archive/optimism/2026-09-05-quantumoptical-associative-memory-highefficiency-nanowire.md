@@ -1,5 +1,6 @@
 ---
-title: "Daily Optimism"
+title: "Daily Optimism: Quantum-Optical Associative Memory & High-Efficiency Nanowire LEDs"
+date: 2026-09-05
 layout: page
 description: "Daily Optimism: Quantum-Optical Associative Memory & High-Efficiency Nanowire LEDs. Artificial intelligence is taking a leap forward with the development of ..."
 ---
@@ -46,50 +47,3 @@ Day length today: **12.6 hours** (Summer, &darr; shortening). 76 days to the nex
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) &mdash; Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) &mdash; The agent that grows with you
 - [fmtlib/fmt](https://github.com/fmtlib/fmt) &mdash; A modern formatting library
-
-<!-- EDITION_ARCHIVE_BACKLOG -->
-<div class="sotg-archive-section">
-  <div class="sotg-archive-header">
-    <span class="sotg-archive-icon">📅</span>
-    <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
-  </div>
-  <div class="sotg-archive-list">
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 03, 2026</span>
-        <a href="/archive/optimism/2026-09-03-can-efficiently-handle-space" class="archive-link">Canadarm Robotic Arm IEEE Milestone & Human-in-the-Loop AI</a>
-      </div>
-      <div class="archive-preview">More efficiently handle space missions with the help of a robotic arm milestone.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 01, 2026</span>
-        <a href="/archive/optimism/2026-09-01-new-neurons-are-now" class="archive-link">Brain Neurogenesis Discovery & Quantum-Tunneling Transistors</a>
-      </div>
-      <div class="archive-preview">Now that a drug is capable of transforming astrocytes into neurons, reversing symptoms of Alzheimer's in mice, the future of brain...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 29, 2026</span>
-        <a href="/archive/optimism/2026-08-29-engineers-successfully-synchronized-signals" class="archive-link">Engineers have successfully synchronized signals from natural...</a>
-      </div>
-      <div class="archive-preview">Engineers have successfully synchronized signals from natural diamonds to create a more precise timekeeping tool.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 28, 2026</span>
-        <a href="/archive/optimism/2026-08-28-new-precision-timekeeping-heralds" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">With a keen eye on precision, engineers have developed a diamond clock that combines two signals to drastically reduce...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 26, 2026</span>
-        <a href="/archive/optimism/2026-08-26-ibms-cold-war-codebreaker" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">We are no longer constrained by the limitations of early companion robots, thanks to advancements in AI and sound-based quantum information.</div>
-    </div>
-  </div>
-</div>
-<!-- /EDITION_ARCHIVE_BACKLOG -->
-

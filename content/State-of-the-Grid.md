@@ -1,16 +1,8 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: The US grid has seen a significant shift, with the addition of battery storage equivalent to the output of 20 nuclear reactors in the past..."
+description: "State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. A significant development in advanced reactor performance, as researchers at t..."
 ---
-
-﻿---
-title: State of the Grid
-layout: page
-description: "The physical floor of the new economy. Energy, industrial hiring, and sovereign capital."
-socialImage: stateofthegrid.png
----
-
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
@@ -41,39 +33,49 @@ As of the current 24-hour window, the geomagnetic activity is characterized by a
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
-
 <!-- EDITION_ARCHIVE_BACKLOG -->
 <div class="sotg-archive-section">
   <div class="sotg-archive-header">
     <span class="sotg-archive-icon">📅</span>
-    <span class="sotg-archive-title">PREVIOUS EDITIONS & ARCHIVED SIGNALS</span>
-    <a href="/archive/grid" class="sotg-archive-all">[VIEW ALL ARCHIVES]</a>
+    <span class="sotg-archive-title">PREVIOUS EDITIONS</span>
   </div>
   <div class="sotg-archive-list">
     <div class="archive-item">
-      <span class="archive-date">Sep 05, 2026</span>
-      <a href="/archive/grid/2026-09-05-grid-has-seen-significant" class="archive-link">Grid Has Seen Significant Shift</a>
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 03, 2026</span>
+        <a href="/archive/grid/2026-09-03-how-much-oil-going" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
+      </div>
+      <div class="archive-preview">How much oil is going through Hormuz? Why data doesn’t match US claims.</div>
     </div>
     <div class="archive-item">
-      <span class="archive-date">Sep 03, 2026</span>
-      <a href="/archive/grid/2026-09-03-how-much-oil-going" class="archive-link">How Much Oil Going Through</a>
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 01, 2026</span>
+        <a href="/archive/grid/2026-09-01-grid-has-rapidly-expanded" class="archive-link">The US grid has rapidly expanded its battery storage capacity</a>
+      </div>
+      <div class="archive-preview">The US grid has rapidly expanded its battery storage capacity, equivalent to 20 nuclear reactors, in just four years, with potential for...</div>
     </div>
     <div class="archive-item">
-      <span class="archive-date">Sep 01, 2026</span>
-      <a href="/archive/grid/2026-09-01-grid-has-rapidly-expanded" class="archive-link">Grid Has Rapidly Expanded Its</a>
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 29, 2026</span>
+        <a href="/archive/grid/2026-08-29-witnessing-significant-shift-its" class="archive-link">The US is witnessing a significant shift in its battery...</a>
+      </div>
+      <div class="archive-preview">The US is witnessing a significant shift in its battery production capabilities, potentially disrupting China's dominance in the...</div>
     </div>
     <div class="archive-item">
-      <span class="archive-date">Sep 01, 2026</span>
-      <a href="/archive/grid/2026-09-01-international-atomic-energy-agencys" class="archive-link">International Atomic Energy Agencys Findings</a>
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 28, 2026</span>
+        <a href="/archive/grid/2026-08-28-american-battery-could-break" class="archive-link">This American Battery Could Break China’s Grip On The EV Supply...</a>
+      </div>
+      <div class="archive-preview">This American Battery Could Break China’s Grip On The EV Supply Chain.</div>
     </div>
     <div class="archive-item">
-      <span class="archive-date">Aug 29, 2026</span>
-      <a href="/archive/grid/2026-08-29-witnessing-significant-shift-its" class="archive-link">Witnessing Significant Shift Its Battery</a>
-    </div>
-    <div class="archive-item">
-      <span class="archive-date">Aug 28, 2026</span>
-      <a href="/archive/grid/2026-08-28-american-battery-could-break" class="archive-link">American Battery Could Break Chinas</a>
+      <div class="archive-item-header">
+        <span class="archive-date">Aug 26, 2026</span>
+        <a href="/archive/grid/2026-08-26-chinas-grid-shifting-towards" class="archive-link">China's grid is shifting towards rural data centers to power AI</a>
+      </div>
+      <div class="archive-preview">China's grid is shifting towards rural data centers to power AI, while also preparing for heavy rain and retaliating against US sanctions.</div>
     </div>
   </div>
 </div>
 <!-- /EDITION_ARCHIVE_BACKLOG -->
+

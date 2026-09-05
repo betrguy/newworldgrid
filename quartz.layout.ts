@@ -52,6 +52,7 @@ export const defaultContentPageLayout: PageLayout = {
       filterFn: (node) => {
         if (node.slugSegment === "tags") return false
         if (node.slugSegment === "sponsor") return false
+        if (node.slugSegment === "archive") return false
         if (/^\d{4}-\d{2}-\d{2}/.test(node.slugSegment)) return false
         return true
       },
@@ -103,6 +104,7 @@ export const defaultListPageLayout: PageLayout = {
       filterFn: (node) => {
         if (node.slugSegment === "tags") return false
         if (node.slugSegment === "sponsor") return false
+        if (node.slugSegment === "archive") return false
         if (/^\d{4}-\d{2}-\d{2}/.test(node.slugSegment)) return false
         return true
       },
