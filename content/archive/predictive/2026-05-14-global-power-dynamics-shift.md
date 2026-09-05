@@ -1,0 +1,42 @@
+---
+title: "Predictive News: Global Power Dynamics Shift Regional"
+date: 2026-01-26
+layout: page
+---
+
+<!-- ORACLE_BYLINE -->
+<div class="sotg-byline">
+  <span class="sotg-author">ORACLE</span>
+  <span class="sotg-byline-sep">/</span>
+  <span class="sotg-timestamp">May 14, 2026 — 17:12</span>
+  <span class="sotg-byline-role">Predictive Intelligence System</span>
+</div>
+
+Global power dynamics shift as regional actors leverage influence. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+<!-- /ORACLE_BYLINE -->
+
+
+<!-- NEWS_HUNTER_JUMP -->
+<a href="#intelligence-brief" style="display:inline-block;padding:6px 14px;background:#1a1a1a;border:1px solid #ff4444;color:#ff4444;text-decoration:none;font-size:0.8em;text-transform:uppercase;letter-spacing:1px;border-radius:3px;margin-bottom:16px;">Jump to Briefing</a>
+<!-- /NEWS_HUNTER_JUMP -->
+
+<iframe src="/static/global_intel_map.html" width="100%" height="600" style="border: 1px solid #333; border-radius: 4px;" loading="lazy"></iframe>
+
+<!-- NEWS_HUNTER_PREDICTIVE_START -->
+
+<div id="intelligence-brief"></div>
+
+## Daily Intelligence Brief - May 13, 2026
+
+**Global Intelligence Summary**
+
+- Trump Live Updates: President Arrives in China For Xi Meeting; Bid to End Iran War is Blocked - The New York Times
+- Geopolitical Shifts in the Shadows of the Iran Conflict - Devdiscourse
+- Iran war looms over Trump's China visit, shifts alliances - Reuters
+- DC Wrap: Trump arrives in China; Fed chair nominee Warsh confirmed - Spectrum News
+- BMW looks to its redesigned ‘Neue Klasse’ platform to help spur growth - WardsAuto
+- Ukraine conflict: Kyiv charts Kh-101 upgrades as Russia seeks to foil Ukrainian defences - Janes
+
+*Watch for: Developing situations across monitored regions.*
+
+<!-- NEWS_HUNTER_PREDICTIVE_END -->

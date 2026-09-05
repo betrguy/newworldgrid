@@ -753,3 +753,86 @@ body[data-slug*="state-of-the-grid"] {
   padding-left: 8px; /* Indent the active item slightly */
   margin-left: -10px; /* Pull it back to align visually */
 }
+
+/* ==========================================================================
+   EDITION ARCHIVE BACKLOG & CATALOG STYLES
+   ========================================================================== */
+
+.sotg-archive-section {
+  margin-top: 3rem;
+  padding: 1.2rem 1.4rem;
+  background: #090e18;
+  border: 1px solid #1e293b;
+  border-radius: 4px;
+}
+
+.sotg-archive-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sotg-archive-icon {
+  margin-right: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.sotg-archive-title {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.8rem !important;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+.sotg-archive-all {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.75rem !important;
+  color: var(--secondary) !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.sotg-archive-all:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.sotg-archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.archive-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.archive-date {
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 0.75rem !important;
+  color: #64748b;
+  white-space: nowrap;
+  min-width: 95px;
+}
+
+.archive-link {
+  font-family: "Libre Baskerville", serif;
+  color: #cbd5e1 !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.archive-link:hover {
+  color: var(--secondary) !important;
+  text-decoration: underline;
+}

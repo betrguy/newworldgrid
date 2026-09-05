@@ -1,8 +1,9 @@
 ---
-title: Predictive News
+title: "Predictive News"
 layout: page
 date: 2026-01-26
 socialImage: predictivenews.png
+description: "Predictive News: A series of critical developments in the Middle East and Asia has heightened tensions and raised concerns about military action, cyberattack..."
 ---
 
 
@@ -45,3 +46,39 @@ Watch for:
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
+
+<!-- EDITION_ARCHIVE_BACKLOG -->
+<div class="sotg-archive-section">
+  <div class="sotg-archive-header">
+    <span class="sotg-archive-icon">📅</span>
+    <span class="sotg-archive-title">PREVIOUS EDITIONS & ARCHIVED SIGNALS</span>
+    <a href="/archive/predictive" class="sotg-archive-all">[VIEW ALL ARCHIVES]</a>
+  </div>
+  <div class="sotg-archive-list">
+    <div class="archive-item">
+      <span class="archive-date">Sep 03, 2026</span>
+      <a href="/archive/predictive/2026-09-03-significant-escalation-tensions-between" class="archive-link">Significant Escalation Tensions Between Iran</a>
+    </div>
+    <div class="archive-item">
+      <span class="archive-date">Sep 03, 2026</span>
+      <a href="/archive/predictive/2026-09-03-significant-escalation-tensions-between" class="archive-link">Significant Escalation Tensions Between Iran</a>
+    </div>
+    <div class="archive-item">
+      <span class="archive-date">Sep 01, 2026</span>
+      <a href="/archive/predictive/2026-09-01-global-tensions-intensified-multiple" class="archive-link">Global Tensions Intensified Multiple Flashpoints</a>
+    </div>
+    <div class="archive-item">
+      <span class="archive-date">Sep 01, 2026</span>
+      <a href="/archive/predictive/2026-09-01-global-tensions-intensified-multiple" class="archive-link">Global Tensions Intensified Multiple Flashpoints</a>
+    </div>
+    <div class="archive-item">
+      <span class="archive-date">Sep 01, 2026</span>
+      <a href="/archive/predictive/2026-09-01-escalating-tensions-middle-east" class="archive-link">Escalating Tensions Middle East Heightened</a>
+    </div>
+    <div class="archive-item">
+      <span class="archive-date">Sep 01, 2026</span>
+      <a href="/archive/predictive/2026-09-01-escalating-tensions-middle-east" class="archive-link">Escalating Tensions Middle East Heightened</a>
+    </div>
+  </div>
+</div>
+<!-- /EDITION_ARCHIVE_BACKLOG -->

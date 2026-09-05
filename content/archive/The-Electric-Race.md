@@ -1,7 +1,7 @@
 ---
-title: The Electric Race
-layout: page
+title: "The Electric Race"
 date: 2026-03-17
+layout: page
 ---
 
 <!-- ARC_BYLINE -->
