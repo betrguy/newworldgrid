@@ -28,18 +28,20 @@ A series of critical developments in the Middle East and Asia has heightened ten
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Sep 03, 2026
+## Daily Intelligence Brief - Sep 05, 2026
 
-US and Iran relations have taken a significant turn for the worse. US Vice President JD Vance has indicated a complete breakdown in communication with Iran, stating that no talks will occur until attacks on the Strait of Hormuz stop. This shift is a departure from previous hopes that the Iran war would end before the 2024 elections. 
+**AI Disintermediation of Expertise**
 
-Vance has also declined to offer a timeline for the end of the Iran war, underscoring the lack of progress in negotiations. Additionally, Iran's government claims to be using incentives to maintain compliance, but this move is likely a thinly veiled attempt to shore up domestic support.
+The global order is reorganizing, with the internet disintermediating media, commerce, and finance, and now AI. A £2 billion UK lawsuit against **Apple** (AAPL) could disrupt global supply chains, while a recent court decision in Romania has charged **Tate brothers** with further trafficking and sex crimes. 
 
-The US military is investigating an airstrike that killed four at an Iran wedding, with Vance expressing a nonchalant attitude towards the incident. The US has been willing to provide China with backing for an Iran-backed embargo.
+Iran is considering escalation, with US officials fearing military and cyberattacks. The US maintains control of the Strait of Hormuz, according to 17 outlets. A recent benefit claim for a US airman killed in the Middle East was denied, with the widow expressing dissatisfaction.
+
+The US military has disabled ad trackers on devices in the Middle East amid reports of targeting. Oil prices are expected to fall, with some predicting prices could drop as low as **$40**.
 
 Watch for:
-* Confirmation of the investigation into the Iran wedding airstrike
-* Details on any proposed China-backed embargo on Iran
-* Any further statements or actions from JD Vance regarding US-Iran relations
+* **Apple**'s response to the UK lawsuit, including potential supply chain disruptions
+* Further developments in the Romania trafficking case, including any extradition proceedings for the Tate brothers
+* Ongoing US-Iran tensions, including any potential military or cyberattacks
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
