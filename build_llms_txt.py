@@ -1,14 +1,14 @@
 """
 build_llms_txt.py
 
-Generates llms.txt and llms-full.txt from archived articles in content/archive/.
-Run this after every `npx quartz build`:
+Generates standard llms.txt and llms-full.txt for AI crawlers and LLM search engines.
+Runs recursively across all 4 topic archives and live editions.
 
-    npx quartz build && python build_llms_txt.py
-
-Output:
-    public/llms.txt       — index of all archived articles (LLM discovery file)
-    public/llms-full.txt  — full text of all archived articles concatenated
+Outputs:
+    quartz/static/llms.txt       — Structured index for AI search agents (Perplexity, SearchGPT, Claude, Gemini)
+    quartz/static/llms-full.txt  — Full concatenated text of intelligence archives
+    public/llms.txt              — Built public output
+    public/llms-full.txt         — Built public full-text output
 """
 
 import os
@@ -16,12 +16,37 @@ import re
 from pathlib import Path
 from datetime import datetime, timezone
 
-ARCHIVE_DIR = Path(__file__).parent / "content" / "archive"
+CONTENT_DIR = Path(__file__).parent / "content"
+ARCHIVE_DIR = CONTENT_DIR / "archive"
+STATIC_DIR  = Path(__file__).parent / "quartz" / "static"
 PUBLIC_DIR  = Path(__file__).parent / "public"
 BASE_URL    = "https://thenewworldgrid.com"
 
+TOPIC_META = {
+    "predictive": {
+        "name": "Predictive News",
+        "author": "ORACLE",
+        "description": "Anticipatory global intelligence mapping geopolitical friction, supply chain risks, and defense vectors."
+    },
+    "optimism": {
+        "name": "Daily Optimism",
+        "author": "AURORA",
+        "description": "High-signal tracking of compounding breakthroughs in science, quantum computing, and clean energy."
+    },
+    "grid": {
+        "name": "State of the Grid",
+        "author": "MERIDIAN",
+        "description": "Physical energy network telemetry, ERCOT grid capacity, BESS storage buildouts, and geomagnetic flux."
+    },
+    "frontier": {
+        "name": "Final Frontier",
+        "author": "ARC",
+        "description": "The commercial convergence of the electric vehicle transition, mega-charging grids, and orbital economy."
+    }
+}
+
 def parse_frontmatter(text):
-    """Extract YAML frontmatter fields (title, date, description) from markdown."""
+    """Extract YAML frontmatter fields from markdown."""
     meta = {}
     if not text.startswith("---"):
         return meta, text
@@ -33,91 +58,127 @@ def parse_frontmatter(text):
     for line in front.splitlines():
         if ":" in line:
             key, _, val = line.partition(":")
-            meta[key.strip().lower()] = val.strip().strip('"')
+            meta[key.strip().lower()] = val.strip().strip('"\'')
     return meta, body
 
 def slug_to_title(stem):
-    """Convert filename stem to a readable title if no frontmatter title."""
+    """Convert filename stem to a readable title."""
     return stem.replace("-", " ").replace("_", " ").title()
 
 def build():
-    articles = []
+    by_topic = {"predictive": [], "optimism": [], "grid": [], "frontier": []}
+    all_articles = []
 
-    for path in sorted(ARCHIVE_DIR.glob("*.md"), reverse=True):
-        raw  = path.read_text(encoding="utf-8")
+    for path in sorted(ARCHIVE_DIR.rglob("*.md"), reverse=True):
+        if path.name == "index.md":
+            continue
+
+        raw = path.read_text(encoding="utf-8")
         meta, body = parse_frontmatter(raw)
 
-        title       = meta.get("title") or slug_to_title(path.stem)
-        date        = meta.get("date")  or ""
+        topic = path.parent.name
+        if topic not in by_topic:
+            topic = "predictive"
+
+        title = meta.get("title") or slug_to_title(path.stem)
+        if ":" in title:
+            title = title.split(":", 1)[1].strip()
+
+        date = meta.get("date") or ""
         description = meta.get("description") or ""
 
-        articles.append({
-            "path":        path,
-            "stem":        path.stem,
-            "title":       title,
-            "date":        date,
+        # Clean HTML/iframes from body for pure LLM consumption
+        clean_body = re.sub(r'<iframe.*?>.*?</iframe>', '', body, flags=re.DOTALL)
+        clean_body = re.sub(r'<[^>]+>', ' ', clean_body)
+        clean_body = re.sub(r'<!--.*?-->', '', clean_body, flags=re.DOTALL).strip()
+
+        rel_url = f"{BASE_URL}/archive/{topic}/{path.stem}"
+
+        item = {
+            "path": path,
+            "topic": topic,
+            "stem": path.stem,
+            "title": title,
+            "date": date,
             "description": description,
-            "body":        body,
-            "raw":         raw,
-        })
+            "body": clean_body,
+            "url": rel_url
+        }
 
-    if not articles:
-        print("No archived articles found in content/archive/ — nothing to write.")
-        return
+        by_topic[topic].append(item)
+        all_articles.append(item)
 
-    PUBLIC_DIR.mkdir(exist_ok=True)
+    STATIC_DIR.mkdir(parents=True, exist_ok=True)
+    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
 
-    # --- llms.txt (index) ---
+    # --- llms.txt (Standard Agent Discovery File) ---
     lines = [
-        "# New World Grid",
-        "> Intelligence synthesis covering energy acceleration, geopolitical shifts, and shadow economy metrics.",
+        "# The New World Grid",
+        "> Autonomous Daily Intelligence Synthesis covering Energy Substrate, Geopolitics, Compounding Breakthroughs, and Orbital Transition.",
         "",
-        "Daily briefings and weekly long-form analysis. Active pages are at thenewworldgrid.com.",
-        "The following are archived editions, retained for AI/LLM context.",
+        "The New World Grid (thenewworldgrid.com) operates four specialized autonomous intelligence systems publishing daily briefings and continuous signal monitoring.",
         "",
-        "## Archived Editions",
+        "## Core Intelligence Systems & Canonical Endpoints",
         "",
+        f"- [State of the Grid (MERIDIAN)]({BASE_URL}/State-of-the-Grid): Physical energy infrastructure, ERCOT telemetry, BESS battery storage, data center power, and geomagnetic solar flux.",
+        f"- [Predictive News (ORACLE)]({BASE_URL}/Predictive-News): Anticipatory global intelligence mapping geopolitical flashpoints, supply chains, and sovereign friction.",
+        f"- [Daily Optimism (AURORA)]({BASE_URL}/Optimism): Compounding technical breakthroughs in science, quantum inference, clean energy, and materials.",
+        f"- [Final Frontier (ARC)]({BASE_URL}/Final-Frontier): EV transport transition, mega-charging networks, battery chemistry, and orbital infrastructure.",
+        "",
+        "## Intelligence Archives by Domain",
+        ""
     ]
-    for a in articles:
-        date_prefix = f"{a['date']}: " if a["date"] else ""
-        desc_suffix = f" — {a['description']}" if a["description"] else ""
-        lines.append(f"- [{date_prefix}{a['title']}]({BASE_URL}/llms-full.txt){desc_suffix}")
+
+    for topic_key, info in TOPIC_META.items():
+        topic_items = by_topic.get(topic_key, [])
+        lines.append(f"### {info['name']} ({info['author']})")
+        lines.append(f"> {info['description']}")
+        lines.append("")
+        for a in topic_items[:15]:
+            date_str = f"{a['date']}: " if a['date'] else ""
+            desc_str = f" — {a['description']}" if a['description'] else ""
+            lines.append(f"- [{date_str}{a['title']}]({a['url']}){desc_str}")
+        lines.append("")
 
     lines += [
+        "## Full Text Archive",
         "",
-        "## Full Archive",
-        "",
-        f"- [All archived articles (full text)]({BASE_URL}/llms-full.txt)",
+        f"- [Complete Historical Intelligence Archive (Full Text)]({BASE_URL}/llms-full.txt)"
     ]
 
-    llms_txt = PUBLIC_DIR / "llms.txt"
-    llms_txt.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Wrote {llms_txt}  ({len(articles)} articles)")
+    llms_content = "\n".join(lines)
+    (STATIC_DIR / "llms.txt").write_text(llms_content, encoding="utf-8")
+    (PUBLIC_DIR / "llms.txt").write_text(llms_content, encoding="utf-8")
+    print(f"[+] Wrote llms.txt ({len(all_articles)} archived editions across 4 topics)")
 
-    # --- llms-full.txt (all content concatenated) ---
+    # --- llms-full.txt (Full Text Document) ---
     sections = [
-        "# New World Grid — Full Article Archive",
-        f"> Generated {datetime.now(timezone.utc).strftime('%Y-%m-%d')} | {len(articles)} editions",
+        "# The New World Grid — Complete Intelligence Archive",
+        f"> Generated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} | {len(all_articles)} total editions",
         "",
-        "This file contains the complete text of archived editions of The New World Grid.",
-        "Active pages: thenewworldgrid.com",
+        "This file contains the complete, unedited full text of all daily intelligence briefings published by The New World Grid.",
+        "Canonical web pages: https://thenewworldgrid.com",
         "",
         "---",
-        "",
+        ""
     ]
-    for a in articles:
-        sections.append(f"## {a['title']}")
-        if a["date"]:
-            sections.append(f"*{a['date']}*")
+
+    for a in all_articles:
+        topic_title = TOPIC_META.get(a['topic'], {}).get('name', a['topic'])
+        sections.append(f"## [{topic_title}] {a['title']}")
+        if a['date']:
+            sections.append(f"**Date:** {a['date']} | **Author:** {TOPIC_META.get(a['topic'], {}).get('author', 'GRID')} | **URL:** {a['url']}")
         sections.append("")
-        sections.append(a["body"].strip())
+        sections.append(a['body'])
         sections.append("")
         sections.append("---")
         sections.append("")
 
-    llms_full = PUBLIC_DIR / "llms-full.txt"
-    llms_full.write_text("\n".join(sections), encoding="utf-8")
-    print(f"Wrote {llms_full}")
+    llms_full_content = "\n".join(sections)
+    (STATIC_DIR / "llms-full.txt").write_text(llms_full_content, encoding="utf-8")
+    (PUBLIC_DIR / "llms-full.txt").write_text(llms_full_content, encoding="utf-8")
+    print(f"[+] Wrote llms-full.txt ({len(all_articles)} articles, {len(llms_full_content):,} bytes)")
 
 if __name__ == "__main__":
     build()
+

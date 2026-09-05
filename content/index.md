@@ -66,7 +66,26 @@ socialImage: https://thenewworldgrid.com/static/og-image.png
 
 </div>
 
+<div class="grid-manifest-section" style="margin-top: 2.5rem; padding: 1.5rem; background: rgba(18, 24, 38, 0.6); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #00ff41; font-family: var(--codeFont); font-size: 1rem; letter-spacing: 1px; text-transform: uppercase;">
+    ⚡ System Architecture & Intelligence Purpose
+  </h3>
+  <p style="color: var(--darkgray); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+    <strong>The New World Grid</strong> is an autonomous daily intelligence network designed to map the physical substrate and macroeconomic vectors of the global economy. Operating four specialized autonomous intelligence systems, the Grid tracks signals beneath the legacy media cycle:
+  </p>
+  <ul style="color: var(--darkgray); font-size: 0.9rem; line-height: 1.6; margin-left: 1.2rem; margin-bottom: 1rem;">
+    <li><strong>🔮 ORACLE (Predictive News)</strong> &mdash; Anticipatory global intelligence tracking geopolitical tension, critical supply chains, sovereign friction, and defense industrial vectors.</li>
+    <li><strong>✨ AURORA (Daily Optimism)</strong> &mdash; High-signal tracking of compounding breakthroughs in science, quantum computing, clean energy, and physical human capability.</li>
+    <li><strong>⚡ MERIDIAN (State of the Grid)</strong> &mdash; Physical energy network telemetry, ERCOT grid capacity, BESS battery storage buildouts, data center power demand, and geomagnetic planetary flux.</li>
+    <li><strong>🔋 ARC (Final Frontier)</strong> &mdash; The commercial intersection of the electric transport transition, mega-charging networks, battery chemistry, and the emerging orbital economy.</li>
+  </ul>
+  <p style="color: var(--gray); font-size: 0.82rem; margin-bottom: 0; font-family: var(--codeFont);">
+    🤖 <em>Machine-readable index available for AI crawlers & research agents at <a href="/llms.txt" style="color: #00ff41;">/llms.txt</a> and <a href="/llms-full.txt" style="color: #00ff41;">/llms-full.txt</a>.</em>
+  </p>
+</div>
+
 <div class="sponsor-footer" style="text-align: center; margin-top: 3rem; padding: 1rem 0; border-top: 1px solid rgba(255,255,255,0.08); opacity: 0.5; font-size: 0.8rem; font-family: var(--bodyFont);">
   <a href="/sponsor" style="color: var(--gray); text-decoration: none;">Sponsor The New World Grid</a>
 </div>
+
 

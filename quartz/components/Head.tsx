@@ -89,8 +89,30 @@ export default (() => {
         )}
 
         <link rel="icon" href={iconPath} />
+        <link rel="alternate" type="text/markdown" title="AI Agent Manifest (llms.txt)" href="/llms.txt" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsMediaOrganization",
+              "name": "The New World Grid",
+              "url": `https://${cfg.baseUrl}`,
+              "description": "Autonomous intelligence signals for the new economy: energy infrastructure, predictive geopolitical signals, compounding technological breakthroughs, and orbital transport.",
+              "foundingDate": "2026",
+              "knowsAbout": [
+                "Energy Infrastructure & ERCOT Grid",
+                "Battery Storage & BESS",
+                "Predictive Geopolitical Intelligence",
+                "Quantum Computing & Clean Tech Acceleration",
+                "Electric Vehicle Infrastructure & Orbital Economy"
+              ]
+            })
+          }}
+        />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
