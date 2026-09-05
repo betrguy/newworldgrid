@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-03 17:44 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-09-05 09:22 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,192 +51,183 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "33 Democrats Vote to Withhold Funding From Universities That Boycott Israel - Tr",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 33,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Republicans once hoped the Iran war would end before the elections. They’ve give",
-    "emojis": "💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_iran",
-      "google_china",
-      "google_middle_east"
-    ],
-    "source_count": 39,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "American automakers urge Congress to ban Chinese vehicle sales in the U.S. - CBS",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "google_china"
-    ],
-    "source_count": 1,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "Gordon Chang warns anti-data center push could benefit China - Fox News",
-    "emojis": "🚀⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "google_china"
-    ],
-    "source_count": 12,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: US-MN",
-    "summary": "ICE agent charged with lying about shooting Venezuelan man during crackdown",
-    "emojis": "",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
-    "actors": [
-      "bbc_world"
-    ],
-    "source_count": 1,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia Summer of Turmoil - Columbia Missourian",
-    "emojis": "⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "google_russia"
-    ],
-    "source_count": 14,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine's Zelenskiy says Russian drones hit Coca-Cola plant outside Kyiv - reute",
-    "emojis": "✈️🕊️📈",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "google_russia",
-      "google_middle_east"
-    ],
-    "source_count": 16,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US journalist sentenced to prison for acting as Chinese agent: DOJ - New York Po",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "google_china"
-    ],
-    "source_count": 1,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Florida Proposes Using EV Charging Funds for Flying Car Infrastructure - Central",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "google_ev"
-    ],
-    "source_count": 1,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Curbside EV Charging Remains Scarce in San Francisco. Other Cities Have Found So",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "google_ev"
-    ],
-    "source_count": 1,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Tesla's semi-autonomous driving could be adapted to EU norms: France",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "techxplore"
-    ],
-    "source_count": 2,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Apple faces £2 billion lawsuit in UK over app privacy feature",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "techxplore"
-    ],
-    "source_count": 2,
-    "timestamp": "05:43 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Russia targeted Leipzig airport with exploding drone, Germany reports",
-    "emojis": "✈️",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Germany",
-      "Russia"
-    ],
-    "source_count": 1,
-    "timestamp": "05:44 PM"
-  },
-  {
     "title": "SITREP: GAZA",
-    "summary": "Far-right Israeli minister outlines plan to remove all Palestinians from Gaza, sparking international condemnation and alarm.",
+    "summary": "New flotilla mission challenges Gaza blockade as UK's Miliband calls for decisive action",
     "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli minister",
+      "UK Government",
       "Palestinians",
-      "International community"
+      "Israeli leader"
+    ],
+    "source_count": 3,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China faces UK lawsuit, spy concerns, economic slump, and geopolitical tensions amidst AI safety talks",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Apple",
+      "COSCO",
+      "China",
+      "US",
+      "Venezuela",
+      "Canada"
+    ],
+    "source_count": 14,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK news: Tate brothers face extradition, electric car sales rise, and Starr and Goalhanger launch geopolitical risk series.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Tate brothers",
+      "UK",
+      "Starr and Goalhanger"
+    ],
+    "source_count": 3,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran considers escalation amid US fears of military, cyberattacks and war with US",
+    "emojis": "🪖⚔️💀",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 52,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel announces clearing of Hezbollah tunnels, while also freeing prisoners and addressing humanitarian concerns.",
+    "emojis": "✈️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hezbollah",
+      "UN",
+      "US"
+    ],
+    "source_count": 25,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Slate sets to launch affordable EV pickup truck in US-CA market.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Startup manufacturer Slate",
+      "Market"
     ],
     "source_count": 1,
-    "timestamp": "05:44 PM"
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia escalates attacks, US and private envoys push for peace amid ongoing Ukraine conflict.",
+    "emojis": "💥⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "US",
+      "Private Envoys"
+    ],
+    "source_count": 16,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces multiple threats including Arctic militarization, energy shocks, and suppression of opposition and dissent.",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Kremlin",
+      "Russia",
+      "Navalny",
+      "Ukraine"
+    ],
+    "source_count": 7,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israel strikes Lebanon, killing 3-2 people, amid ongoing escalation and drone attacks.",
+    "emojis": "✈️💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 4,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "North Korea cuts English classes, expands Russian language education",
+    "emojis": "",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "North Korea",
+      "Russian Federation"
+    ],
+    "source_count": 1,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Iranian wedding strike causes destruction and mourning in Houston, TX area.",
+    "emojis": "💥",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 1,
+    "timestamp": "09:21 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Mercedes-Benz launches hybrid, EV CLA Sedan in Mexico, expanding electric car options for local market.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "Mercedes-Benz",
+      "Mexico"
+    ],
+    "source_count": 1,
+    "timestamp": "09:22 AM"
   }
 ];
 
