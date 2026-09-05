@@ -87,13 +87,6 @@ Day length today: **12.6 hours** (Summer, &darr; shortening). 76 days to the nex
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
-        <span class="archive-date">Aug 26, 2026</span>
-        <a href="/archive/optimism/2026-08-26-ibms-cold-war-codebreaker" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">We are no longer constrained by the limitations of early companion robots, thanks to advancements in AI and sound-based quantum information.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
         <span class="archive-date">Aug 24, 2026</span>
         <a href="/archive/optimism/2026-08-24-switching-renewables-can-now" class="archive-link">Switching to renewables can now save billions for Pacific nations</a>
       </div>
@@ -140,6 +133,13 @@ Day length today: **12.6 hours** (Summer, &darr; shortening). 76 days to the nex
         <a href="/archive/optimism/2026-07-22-can-peer-microscopic-world" class="archive-link">Peer into the microscopic world</a>
       </div>
       <div class="archive-preview">Peer into the microscopic world with unprecedented precision and reduce our reliance on fossil fuels by harnessing quantum technologies.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 21, 2026</span>
+        <a href="/archive/optimism/2026-07-21-explore-zeiss-crossbeam-750" class="archive-link">Explore Zeiss Crossbeam 750 Fibsem</a>
+      </div>
+      <div class="archive-preview">The field of semiconductor failure analysis has seen significant advancements with the introduction of the ZEISS Crossbeam 750 FIBSEM.</div>
     </div>
   </div>
 </div>

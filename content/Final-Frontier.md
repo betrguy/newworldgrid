@@ -43,13 +43,6 @@ Imagine a 2027 where Toyota's Highlander EV delay sparks a ripple effect in the 
   <div class="sotg-archive-list">
     <div class="archive-item">
       <div class="archive-item-header">
-        <span class="archive-date">Sep 03, 2026</span>
-        <a href="/archive/frontier/2026-09-03-toyotas-highlander-delay-highlights" class="archive-link">Toyota Highlander EV Delay & Ionna Charging Network Growth</a>
-      </div>
-      <div class="archive-preview">Toyota's Highlander EV delay highlights the ongoing challenges in developing a comprehensive orbital economy and EV grid infrastructure.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
         <span class="archive-date">Aug 29, 2026</span>
         <a href="/archive/frontier/2026-08-29-development-orbital-economy-grid" class="archive-link">The development of orbital economy and EV grid infrastructure...</a>
       </div>
@@ -124,6 +117,13 @@ Imagine a 2027 where Toyota's Highlander EV delay sparks a ripple effect in the 
         <a href="/archive/frontier/2026-07-13-spacex-ast-spacemobiles-recent" class="archive-link">Spacex Ast Spacemobiles Recent Market</a>
       </div>
       <div class="archive-preview">SpaceX and AST SpaceMobile's recent market decline mirrors the impact of China's rocket milestone and oil price surge on the industry,...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Jul 10, 2026</span>
+        <a href="/archive/frontier/2026-07-10-amazons-kuiper-satellite-internet" class="archive-link">Amazons Kuiper Satellite Internet Project</a>
+      </div>
+      <div class="archive-preview">Amazon's Kuiper satellite internet project continues to expand with new launches while BYD enters the plug-in hybrid market with an...</div>
     </div>
   </div>
 </div>
