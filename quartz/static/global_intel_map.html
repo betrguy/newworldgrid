@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-05 09:22 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-09-06 09:47 UTC | 7 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">7 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,57 +51,9 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: GAZA",
-    "summary": "New flotilla mission challenges Gaza blockade as UK's Miliband calls for decisive action",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "UK Government",
-      "Palestinians",
-      "Israeli leader"
-    ],
-    "source_count": 3,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces UK lawsuit, spy concerns, economic slump, and geopolitical tensions amidst AI safety talks",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Apple",
-      "COSCO",
-      "China",
-      "US",
-      "Venezuela",
-      "Canada"
-    ],
-    "source_count": 14,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK news: Tate brothers face extradition, electric car sales rise, and Starr and Goalhanger launch geopolitical risk series.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Tate brothers",
-      "UK",
-      "Starr and Goalhanger"
-    ],
-    "source_count": 3,
-    "timestamp": "09:21 AM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran considers escalation amid US fears of military, cyberattacks and war with US",
-    "emojis": "🪖⚔️💀",
+    "summary": "US denies Iran's claim of striking an unmanned ship amid heightened tensions.",
+    "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -109,74 +61,75 @@
       "US",
       "Iran"
     ],
-    "source_count": 52,
-    "timestamp": "09:21 AM"
+    "source_count": 45,
+    "timestamp": "09:47 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel announces clearing of Hezbollah tunnels, while also freeing prisoners and addressing humanitarian concerns.",
-    "emojis": "✈️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Hezbollah",
-      "UN",
-      "US"
-    ],
-    "source_count": 25,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Slate sets to launch affordable EV pickup truck in US-CA market.",
+    "title": "SITREP: CHINA",
+    "summary": "China facing rapid EV growth amidst battery batch failures and natural disasters.",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Startup manufacturer Slate",
-      "Market"
+      "China",
+      "China’s Rapid EV Development",
+      "battery batch failures",
+      "natural disasters"
     ],
-    "source_count": 1,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia escalates attacks, US and private envoys push for peace amid ongoing Ukraine conflict.",
-    "emojis": "💥⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "US",
-      "Private Envoys"
-    ],
-    "source_count": 16,
-    "timestamp": "09:21 AM"
+    "source_count": 29,
+    "timestamp": "09:47 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces multiple threats including Arctic militarization, energy shocks, and suppression of opposition and dissent.",
-    "emojis": "",
+    "summary": "Russia strikes Dnipro warehouses, calls drone accusations war; mentions trilateral meetings",
+    "emojis": "✈️💥⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Kremlin",
       "Russia",
-      "Navalny",
-      "Ukraine"
+      "Ukraine",
+      "US",
+      "China"
     ],
-    "source_count": 7,
-    "timestamp": "09:21 AM"
+    "source_count": 13,
+    "timestamp": "09:47 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Houthis claim striking Saudi-linked vehicles with ballistic missiles",
+    "emojis": "🚀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Houthis",
+      "Saudi Arabia"
+    ],
+    "source_count": 38,
+    "timestamp": "09:47 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "US envoys meet Zelensky in Kyiv after talks with Putin; Pope urges peace; China studies Ukraine's wartime communications.",
+    "emojis": "✈️⚔️🚀",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "US envoys",
+      "Zelensky",
+      "Pope Leo XIV",
+      "China researchers"
+    ],
+    "source_count": 27,
+    "timestamp": "09:47 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israel strikes Lebanon, killing 3-2 people, amid ongoing escalation and drone attacks.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Israeli airstrikes kill four, wound 20, destroy hospital in Lebanon",
+    "emojis": "💥⚔️💀",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -184,50 +137,22 @@
       "Israel",
       "Lebanon"
     ],
-    "source_count": 4,
-    "timestamp": "09:21 AM"
+    "source_count": 5,
+    "timestamp": "09:47 AM"
   },
   {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "North Korea cuts English classes, expands Russian language education",
+    "title": "SITREP: GAZA",
+    "summary": "8 Arab countries condemn Israeli Gaza displacement plan",
     "emojis": "",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "North Korea",
-      "Russian Federation"
+      "Arab countries",
+      "Israel"
     ],
-    "source_count": 1,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Iranian wedding strike causes destruction and mourning in Houston, TX area.",
-    "emojis": "💥",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 1,
-    "timestamp": "09:21 AM"
-  },
-  {
-    "title": "SITREP: MEXICO",
-    "summary": "Mercedes-Benz launches hybrid, EV CLA Sedan in Mexico, expanding electric car options for local market.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": -102.5,
-    "location": "MEXICO",
-    "actors": [
-      "Mercedes-Benz",
-      "Mexico"
-    ],
-    "source_count": 1,
-    "timestamp": "09:22 AM"
+    "source_count": 5,
+    "timestamp": "09:47 AM"
   }
 ];
 
