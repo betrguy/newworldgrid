@@ -1,7 +1,7 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. A significant development in advanced reactor performance, as researchers at t..."
+description: "State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. The Department of Energy's Oak Ridge National Laboratory has completed TRISO f..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->

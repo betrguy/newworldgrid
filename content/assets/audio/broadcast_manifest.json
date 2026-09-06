@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-03T17:48:01.617705",
+  "generatedAt": "2026-09-06T09:50:51.553593",
   "model": "mannix/llama3.1-8b-abliterated",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "So, it seems we're seeing a significant escalation in tensions between the US and Iran, which has raised concerns about the potential for military conflict in the region. This shift is a departure from previous hopes that the Iran war would end before the 2024 elections. The US Vice President has indicated that no talks will occur until attacks on the Strait of Hormuz stop. This change is likely a response to the recent US airstrike that killed four at an Iranian wedding. On the brighter side, we've seen a major milestone in space exploration. The Canadarm, a pioneering robotic arm, has been recognized as the 300th IEEE milestone. This achievement highlights the reliability and efficiency of reusable space shuttles, which have significantly reduced the cost and complexity of space missions. Looking at the state of the grid, we're seeing some interesting dynamics. The grid substrate is being monitored for significant momentum shifts, and data synchronization is in progress. Geophysical substrate synchronization is also underway, and geomagnetic stability is within normal parameters. In the final frontier, there's been a significant development. Toyota's Highlander EV delay has been delayed for the second time, and this highlights the ongoing challenges in developing a comprehensive orbital economy and EV grid infrastructure."
+    "index_master_summary.wav": "So, let's get a grip on the current situation. I'll summarize all this data for you. On the Predictive News, we're seeing a series of escalations and strategic maneuvers across Iran, China, Russia, Israel, and Ukraine, which creates a complex web of geopolitical tensions and power shifts in the global landscape. The Optimism section reveals a breakthrough in TRISO fuel testing at the Department of Energy's Oak Ridge National Laboratory, which is advancing reactor performance and potentially reducing the risk of meltdowns. Moving to the energy sector, geopolitics are escalating, with Iran claiming a strike on a U.S. ship in the Strait of Hormuz, leading to concerns about global oil market instability and the need for enhanced grid resilience. In the Final Frontier, Toyota's Highlander EV delay highlights ongoing challenges in developing a comprehensive orbital economy and EV grid infrastructure."
   },
   "durations": {
-    "index_master_summary.wav": "01:29"
+    "index_master_summary.wav": "01:03"
   }
 }
