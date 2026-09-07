@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-06 09:47 UTC | 7 active regions</div>
+        <div class="meta">Generated 2026-09-07 07:52 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">7 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,85 +51,139 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "US denies Iran's claim of striking an unmanned ship amid heightened tensions.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 45,
-    "timestamp": "09:47 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China facing rapid EV growth amidst battery batch failures and natural disasters.",
-    "emojis": "",
+    "summary": "China invests $54B in banks and insurers, military show in Egypt, national AI guidelines",
+    "emojis": "🪖✈️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "China’s Rapid EV Development",
-      "battery batch failures",
-      "natural disasters"
+      "military",
+      "AI"
+    ],
+    "source_count": 25,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran's actions escalate tensions, raising global energy costs and straining US-Iran relations.",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US"
     ],
     "source_count": 29,
-    "timestamp": "09:47 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia strikes Dnipro warehouses, calls drone accusations war; mentions trilateral meetings",
-    "emojis": "✈️💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "US",
-      "China"
-    ],
-    "source_count": 13,
-    "timestamp": "09:47 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Houthis claim striking Saudi-linked vehicles with ballistic missiles",
-    "emojis": "🚀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Houthis",
-      "Saudi Arabia"
-    ],
-    "source_count": 38,
-    "timestamp": "09:47 AM"
+    "timestamp": "07:51 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "US envoys meet Zelensky in Kyiv after talks with Putin; Pope urges peace; China studies Ukraine's wartime communications.",
-    "emojis": "✈️⚔️🚀",
+    "summary": "US pushes for peace talks amid renewed attacks; Russia considers trilateral negotiations.",
+    "emojis": "⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "US envoys",
-      "Zelensky",
-      "Pope Leo XIV",
-      "China researchers"
+      "US",
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 27,
-    "timestamp": "09:47 AM"
+    "source_count": 10,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Rise in antisemitism prompts Israelis to rethink travel; Golan maintains liberal values amid criticism.",
+    "emojis": "🪖🔺",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israelis",
+      "Golan",
+      "Critics"
+    ],
+    "source_count": 33,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "WiTricity opens Florida R&D site for autonomous wireless EV charging.",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "WiTricity",
+      "Florida"
+    ],
+    "source_count": 1,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Avalanche kills 11 climbers in southern Russia, as EV sales double due to fuel shortages.",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "climbers",
+      "Russia"
+    ],
+    "source_count": 21,
+    "timestamp": "07:51 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Two killed in Israeli strike, Germany contests Gaza genocide claims at UN.",
+    "emojis": "💥💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Germany",
+      "UN"
+    ],
+    "source_count": 2,
+    "timestamp": "07:52 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India's Crude Oil Benchmark hits $100 amid Middle East conflict escalation.",
+    "emojis": "⚔️📈",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India",
+      "Middle East"
+    ],
+    "source_count": 1,
+    "timestamp": "07:52 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "ProLogium starts producing advanced solid-state batteries in Taiwan.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "ProLogium",
+      "Taiwan"
+    ],
+    "source_count": 1,
+    "timestamp": "07:52 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli airstrikes kill four, wound 20, destroy hospital in Lebanon",
-    "emojis": "💥⚔️💀",
+    "summary": "Israeli airstrikes kill 11 in southern Lebanon, including 2 babies",
+    "emojis": "💥💣",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -137,22 +191,22 @@
       "Israel",
       "Lebanon"
     ],
-    "source_count": 5,
-    "timestamp": "09:47 AM"
+    "source_count": 8,
+    "timestamp": "07:52 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "8 Arab countries condemn Israeli Gaza displacement plan",
+    "title": "SITREP: UK",
+    "summary": "UK announces trade ban with Israeli settlements",
     "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Arab countries",
+      "UK",
       "Israel"
     ],
-    "source_count": 5,
-    "timestamp": "09:47 AM"
+    "source_count": 1,
+    "timestamp": "07:52 AM"
   }
 ];
 
