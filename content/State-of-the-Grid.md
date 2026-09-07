@@ -1,7 +1,7 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. The Department of Energy's Oak Ridge National Laboratory has completed TRISO f..."
+description: "State of the Grid: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Labor Day saw record-breaking gas prices in the U.S., driven by geopolitical..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
@@ -45,10 +45,10 @@ The current Kp index is 3.3, matching the 24-hour peak and average of 1.71, indi
   <div class="sotg-archive-list">
     <div class="archive-item">
       <div class="archive-item-header">
-        <span class="archive-date">Sep 03, 2026</span>
-        <a href="/archive/grid/2026-09-03-how-much-oil-going" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
+        <span class="archive-date">Sep 06, 2026</span>
+        <a href="/archive/grid/2026-09-06-oak-ridge-triso-haleu-testing" class="archive-link">Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale</a>
       </div>
-      <div class="archive-preview">How much oil is going through Hormuz? Why data doesn’t match US claims.</div>
+      <div class="archive-preview">TRISO fuel testing at the Department of Energy's Oak Ridge National Laboratory is advancing reactor performance, while geopolitical...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">

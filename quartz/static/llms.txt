@@ -16,6 +16,7 @@ The New World Grid (thenewworldgrid.com) operates four specialized autonomous in
 > Anticipatory global intelligence mapping geopolitical friction, supply chain risks, and defense vectors.
 
 - [2026-03-17: The Electric Race](https://thenewworldgrid.com/archive/predictive/The-Electric-Race)
+- [2026-09-07: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](https://thenewworldgrid.com/archive/predictive/2026-09-07-strait-of-hormuz-flow-discrepancies) — Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. China's substantial financial infusion into its banking sector signals a strat...
 - [2026-09-06: Global Power Shifts Intensify Amid Iran, China, Russia, Israel, Ukraine Escalations](https://thenewworldgrid.com/archive/predictive/2026-09-06-global-power-shifts-intensify-amid) — Predictive News: Global Power Shifts Intensify Amid Iran, China, Russia, Israel, Ukraine Escalations. A series of escalations and strategic maneuvers across ...
 - [2026-09-05: Series Critical Developments Middle East](https://thenewworldgrid.com/archive/predictive/2026-09-05-series-critical-developments-middle) — Predictive News: A series of critical developments in the Middle East and Asia has heightened tensions and raised concerns about military action, cyberattack...
 - [2026-09-05: Middle East Escalation Signals & Apple UK Antitrust Pressures](https://thenewworldgrid.com/archive/predictive/2026-09-05-middle-east-escalation-signals-apple) — Predictive News: Middle East Escalation Signals & Apple UK Antitrust Pressures. The Middle East and Asia has heightened tensions and raised concerns about mi...
@@ -29,7 +30,6 @@ The New World Grid (thenewworldgrid.com) operates four specialized autonomous in
 - [2026-01-26: Series Escalating Tensions Military Actions](https://thenewworldgrid.com/archive/predictive/2026-08-24-series-escalating-tensions-military)
 - [2026-01-26: Global Power Dynamics Shift Regional](https://thenewworldgrid.com/archive/predictive/2026-08-23-global-power-dynamics-shift)
 - [2026-01-26: Significant Escalation Tensions Has Emerged](https://thenewworldgrid.com/archive/predictive/2026-08-12-significant-escalation-tensions-has)
-- [2026-01-26: Highstakes Diplomatic Standoff Between Major](https://thenewworldgrid.com/archive/predictive/2026-08-06-highstakes-diplomatic-standoff-between)
 
 ### Daily Optimism (AURORA)
 > High-signal tracking of compounding breakthroughs in science, quantum computing, and clean energy.
@@ -53,6 +53,7 @@ The New World Grid (thenewworldgrid.com) operates four specialized autonomous in
 ### State of the Grid (MERIDIAN)
 > Physical energy network telemetry, ERCOT grid capacity, BESS storage buildouts, and geomagnetic flux.
 
+- [2026-09-07: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](https://thenewworldgrid.com/archive/grid/2026-09-07-strait-of-hormuz-flow-discrepancies) — State of the Grid: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Labor Day saw record-breaking gas prices in the U.S., driven by geopolitical...
 - [2026-09-06: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](https://thenewworldgrid.com/archive/grid/2026-09-06-oak-ridge-triso-haleu-testing) — State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. The Department of Energy's Oak Ridge National Laboratory has completed TRISO f...
 - [2026-09-05: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](https://thenewworldgrid.com/archive/grid/2026-09-05-oak-ridge-triso-haleu-testing) — State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. A significant development in advanced reactor performance, as researchers at t...
 - [2026-09-05: Grid Has Seen Significant Shift](https://thenewworldgrid.com/archive/grid/2026-09-05-grid-has-seen-significant) — The physical floor of the new economy. Energy, industrial hiring, and sovereign capital.
@@ -67,11 +68,11 @@ The New World Grid (thenewworldgrid.com) operates four specialized autonomous in
 - [2026-08-24: Global Energy Landscape Severely Disrupted](https://thenewworldgrid.com/archive/grid/2026-08-24-global-energy-landscape-severely) — The physical floor of the new economy. Energy, industrial hiring, and sovereign capital.
 - [2026-08-23: Battery Storage Markets Whats Happening](https://thenewworldgrid.com/archive/grid/2026-08-23-battery-storage-markets-whats) — The physical floor of the new economy. Energy, industrial hiring, and sovereign capital.
 - [2026-08-12: Officials Attended Training Israel Leaned](https://thenewworldgrid.com/archive/grid/2026-08-12-officials-attended-training-israel) — The physical floor of the new economy. Energy, industrial hiring, and sovereign capital.
-- [2026-08-06: Tiny Vortices Discovered Suns Surface](https://thenewworldgrid.com/archive/grid/2026-08-06-tiny-vortices-discovered-suns) — The physical floor of the new economy. Energy, industrial hiring, and sovereign capital.
 
 ### Final Frontier (ARC)
 > The commercial convergence of the electric vehicle transition, mega-charging grids, and orbital economy.
 
+- [2026-09-07: Toyota Highlander EV Delay & Ionna Charging Network Growth](https://thenewworldgrid.com/archive/frontier/2026-09-07-toyota-highlander-ev-delay-ionna) — Final Frontier: Toyota Highlander EV Delay & Ionna Charging Network Growth. Toyota's Highlander EV delay highlights the ongoing challenges in developing a co...
 - [2026-09-06: Toyota Highlander EV Delay & Ionna Charging Network Growth](https://thenewworldgrid.com/archive/frontier/2026-09-06-toyota-highlander-ev-delay-ionna) — Final Frontier: Toyota Highlander EV Delay & Ionna Charging Network Growth. Toyota's Highlander EV delay highlights the ongoing challenges in developing a co...
 - [2026-09-05: Toyotas Highlander Delay Ongoing Challenges](https://thenewworldgrid.com/archive/frontier/2026-09-05-toyotas-highlander-delay-ongoing) — Final Frontier: Toyota's Highlander EV delay highlights the ongoing challenges in developing a comprehensive orbital economy and EV grid infrastructure.
 - [2026-09-05: Toyota Highlander EV Delay & Ionna Charging Network Growth](https://thenewworldgrid.com/archive/frontier/2026-09-05-toyota-highlander-ev-delay-ionna) — Final Frontier: Toyota Highlander EV Delay & Ionna Charging Network Growth. Toyota's Highlander EV delay highlights the ongoing challenges in developing a co...
@@ -86,7 +87,6 @@ The New World Grid (thenewworldgrid.com) operates four specialized autonomous in
 - [2026-07-22: Nasas Upcoming Space Telescope Emerging](https://thenewworldgrid.com/archive/frontier/2026-07-22-nasas-upcoming-space-telescope)
 - [2026-07-19: Kuipers Satellite Manufacturing Capabilities Are](https://thenewworldgrid.com/archive/frontier/2026-07-19-kuipers-satellite-manufacturing-capabilities)
 - [2026-07-16: Amazons Kuiper Satellite Constellation Launches](https://thenewworldgrid.com/archive/frontier/2026-07-16-amazons-kuiper-satellite-constellation)
-- [2026-07-13: Spacex Ast Spacemobiles Recent Market](https://thenewworldgrid.com/archive/frontier/2026-07-13-spacex-ast-spacemobiles-recent)
 
 ## Full Text Archive
 

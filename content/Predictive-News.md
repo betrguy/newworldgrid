@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Global Power Shifts Intensify Amid Iran, China, Russia, Israel, Ukraine Escalations. A series of escalations and strategic maneuvers across ..."
+description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. China's substantial financial infusion into its banking sector signals a strat..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -49,6 +49,13 @@ Iran has announced plans to create an 'exclusion zone' outside the Strait of Hor
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 06, 2026</span>
+        <a href="/archive/predictive/2026-09-06-global-power-shifts-intensify-amid" class="archive-link">Global Power Shifts Intensify Amid Iran, China, Russia, Israel, Ukraine Escalations</a>
+      </div>
+      <div class="archive-preview">A series of escalations and strategic maneuvers across Iran, China, Russia, Israel, and Ukraine signal a complex web of geopolitical...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 05, 2026</span>
@@ -125,13 +132,6 @@ Iran has announced plans to create an 'exclusion zone' outside the Strait of Hor
         <a href="/archive/predictive/2026-07-26-global-power-dynamics-shift" class="archive-link">REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS</a>
       </div>
       <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 22, 2026</span>
-        <a href="/archive/predictive/2026-07-22-significant-escalation-hostilities-has" class="archive-link">GLOBAL TENSIONS SPARK AS MULTIPLE NATIONS SEE SURGE IN MILITARY ACTIVITY</a>
-      </div>
-      <div class="archive-preview">A significant escalation of hostilities has marked a major shift in regional dynamics, with multiple countries experiencing increased...</div>
     </div>
   </div>
 </div>
