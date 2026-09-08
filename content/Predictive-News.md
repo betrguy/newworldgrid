@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. China's substantial financial infusion into its banking sector signals a strat..."
+description: "Predictive News: US-Iran Gulf Maritime Escalation & Strategic Defense Alerts. A resurgence of hostilities in Eastern Europe escalates tensions, with Russia's..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -46,6 +46,13 @@ Houthis have expanded their offensive in the Middle East, striking Saudi Arabian
   <div class="sotg-archive-list">
     <div class="archive-item">
       <div class="archive-item-header">
+        <span class="archive-date">Sep 07, 2026</span>
+        <a href="/archive/predictive/2026-09-07-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
+      </div>
+      <div class="archive-preview">China's substantial financial infusion into its banking sector signals a strategic economic maneuver amidst escalating tensions in the...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
         <span class="archive-date">Sep 06, 2026</span>
         <a href="/archive/predictive/2026-09-06-global-power-shifts-intensify-amid" class="archive-link">Global Power Shifts Intensify Amid Iran, China, Russia, Israel, Ukraine Escalations</a>
       </div>
@@ -57,13 +64,6 @@ Houthis have expanded their offensive in the Middle East, striking Saudi Arabian
         <a href="/archive/predictive/2026-09-05-middle-east-escalation-signals-apple" class="archive-link">Middle East Escalation Signals & Apple UK Antitrust Pressures</a>
       </div>
       <div class="archive-preview">The Middle East and Asia has heightened tensions and raised concerns about military action, cyberattacks, and espionage, with multiple...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 03, 2026</span>
-        <a href="/archive/predictive/2026-09-03-significant-escalation-tensions-between" class="archive-link">US-Iran Gulf Maritime Escalation & Strategic Defense Alerts</a>
-      </div>
-      <div class="archive-preview">US and Iran has heightened concerns about the potential for military conflict in the region.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">

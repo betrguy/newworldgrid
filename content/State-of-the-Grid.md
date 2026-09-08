@@ -1,7 +1,7 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Labor Day saw record-breaking gas prices in the U.S., driven by geopolitical..."
+description: "State of the Grid: Gas Prices Soar Amid Iran Tensions & Data Center Surge. Record gas prices in the U.S. due to geopolitical tensions with Iran are straining..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
@@ -41,6 +41,13 @@ The current Kp index is 5.0, with a 24-hour average of 4.05, indicating a geomag
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 07, 2026</span>
+        <a href="/archive/grid/2026-09-07-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
+      </div>
+      <div class="archive-preview">Labor Day saw record-breaking gas prices in the U.S. due to tensions with Iran, highlighting the ongoing impact of geopolitical...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 06, 2026</span>
@@ -117,13 +124,6 @@ The current Kp index is 5.0, with a 24-hour average of 4.05, indicating a geomag
         <a href="/archive/grid/2026-07-26-2024" class="archive-link">2024</a>
       </div>
       <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 22, 2026</span>
-        <a href="/archive/grid/2026-07-22-global-electricity-demand-expected" class="archive-link">AI Data Centers Fuel Global Power Surge to 20% by 2030-2035</a>
-      </div>
-      <div class="archive-preview">Global electricity demand is expected to surge due to AI data center growth, potentially reaching 20% of global consumption by 2030-2035.</div>
     </div>
   </div>
 </div>

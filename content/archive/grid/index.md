@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 08, 2026** | [Gas Prices Soar Amid Iran Tensions & Data Center Surge](/archive/grid/2026-09-08-gas-prices-soar-amid-iran) | Record gas prices in the U.S. due to geopolitical tensions with Iran are straining grid stability, particularly as da... |
 | **Sep 07, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-07-strait-of-hormuz-flow-discrepancies) | Labor Day saw record-breaking gas prices in the U.S., driven by geopolitical tensions with Iran. |
 | **Sep 06, 2026** | [Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](/archive/grid/2026-09-06-oak-ridge-triso-haleu-testing) | The Department of Energy's Oak Ridge National Laboratory has completed TRISO fuel testing, advancing the development ... |
 | **Sep 01, 2026** | [US Grid's Battery Storage Capacity Surpasses 20 Nuclear Reactors in Four Years.](/archive/grid/2026-09-01-grid-has-rapidly-expanded) | The US grid has rapidly expanded its battery storage capacity, equivalent to 20 nuclear reactors, in just four years,... |
