@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-07 07:52 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-09-08 07:53 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,162 +51,152 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel continues to prosper despite BDS movement and boycotts, with no sales to India but building with it.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "India"
+    ],
+    "source_count": 17,
+    "timestamp": "07:52 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Hungary expels 10 Russian diplomats; Russia threatens a 'painful' response",
+    "emojis": "🚀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Hungary",
+      "Russia"
+    ],
+    "source_count": 24,
+    "timestamp": "07:52 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia resumes attacks on Kyiv; US envoys visit amid rising tensions and global market impacts.",
+    "emojis": "💥⚔️⚡",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "US",
+      "Ukraine"
+    ],
+    "source_count": 16,
+    "timestamp": "07:52 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Renewed blockade diverts 94 vessels; Houthis escalate Middle East conflict.",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "CENTCOM",
+      "Iran",
+      "Houthis"
+    ],
+    "source_count": 35,
+    "timestamp": "07:52 AM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China invests $54B in banks and insurers, military show in Egypt, national AI guidelines",
-    "emojis": "🪖✈️",
+    "summary": "China warns France, BYD sales drop, China-Turkmenistan talks",
+    "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "military",
-      "AI"
+      "France",
+      "China",
+      "BYD",
+      "China",
+      "Turkmenistan"
     ],
-    "source_count": 25,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran's actions escalate tensions, raising global energy costs and straining US-Iran relations.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US"
-    ],
-    "source_count": 29,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "US pushes for peace talks amid renewed attacks; Russia considers trilateral negotiations.",
-    "emojis": "⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "US",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 10,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Rise in antisemitism prompts Israelis to rethink travel; Golan maintains liberal values amid criticism.",
-    "emojis": "🪖🔺",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israelis",
-      "Golan",
-      "Critics"
-    ],
-    "source_count": 33,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "WiTricity opens Florida R&D site for autonomous wireless EV charging.",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "WiTricity",
-      "Florida"
-    ],
-    "source_count": 1,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Avalanche kills 11 climbers in southern Russia, as EV sales double due to fuel shortages.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "climbers",
-      "Russia"
-    ],
-    "source_count": 21,
-    "timestamp": "07:51 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Two killed in Israeli strike, Germany contests Gaza genocide claims at UN.",
-    "emojis": "💥💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Germany",
-      "UN"
-    ],
-    "source_count": 2,
+    "source_count": 28,
     "timestamp": "07:52 AM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India's Crude Oil Benchmark hits $100 amid Middle East conflict escalation.",
-    "emojis": "⚔️📈",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: FRANCE",
+    "summary": "France and Canada to join UK in sanctioning Israeli settlements",
+    "emojis": "🚫",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "India",
-      "Middle East"
+      "France",
+      "Canada",
+      "UK"
     ],
     "source_count": 1,
-    "timestamp": "07:52 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "ProLogium starts producing advanced solid-state batteries in Taiwan.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "ProLogium",
-      "Taiwan"
-    ],
-    "source_count": 1,
-    "timestamp": "07:52 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli airstrikes kill 11 in southern Lebanon, including 2 babies",
-    "emojis": "💥💣",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israel",
-      "Lebanon"
-    ],
-    "source_count": 8,
     "timestamp": "07:52 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK announces trade ban with Israeli settlements",
-    "emojis": "",
+    "summary": "UK to ban trade with Israeli settlements amidst threats of US retaliation.",
+    "emojis": "🚫",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "UK",
+      "US",
       "Israel"
     ],
-    "source_count": 1,
+    "source_count": 7,
     "timestamp": "07:52 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Danijar Hafner's agents plan for unexpected events",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Danijar Hafner",
+      "agents"
+    ],
+    "source_count": 1,
+    "timestamp": "07:53 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Houthi attacks ignite fires at Saudi oil facilities, wounding 73 people",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Houthis",
+      "Saudi Arabia"
+    ],
+    "source_count": 1,
+    "timestamp": "07:53 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Chinese coast guard ships intrude into Kinmen restricted waters",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Chinese coast guard ships",
+      "Kinmen"
+    ],
+    "source_count": 1,
+    "timestamp": "07:53 AM"
   }
 ];
 
