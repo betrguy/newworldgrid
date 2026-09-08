@@ -26,16 +26,11 @@ A resurgence of hostilities in Eastern Europe escalates tensions, with Russia's 
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Sep 07, 2026
+## Daily Intelligence Brief - Sep 08, 2026
 
-China is injecting $54 billion into state banks and insurers, signaling a push to stabilize its financial sector. This move could bolster state control over critical economic levers. Simultaneously, China is sending military aircraft to an air show in Egypt, a clear display of military presence and regional engagement.
+Houthis have expanded their offensive in the Middle East, striking Saudi Arabian cities. This marks a significant escalation in the ongoing conflict. In Europe, Zelenskyy claims that European intelligence agencies have been in contact with Russia, indicating a possible shift in the dynamics of the war. Russia has resumed attacks on Kyiv, a day after a US envoy visit, suggesting a continuation of its aggressive stance. CENTCOM has diverted 94 commercial vessels in a renewed maritime blockade of Iran, tightening the economic stranglehold. Israel's tactics, described as involving proxies, security zones, and fundamentalism, are being compared to Iran's methods, highlighting the complexity of the regional power play. China has warned France to halt its anti-ultra-fast fashion law, possibly to protect its economic interests. Hungary has ordered 10 Russian diplomats to leave the country due to activities deemed unacceptable, signaling a growing rift between the two nations.
 
-Iran has announced plans to create an 'exclusion zone' outside the Strait of Hormuz, a move likely aimed at exerting greater control over maritime traffic and potentially disrupting oil and gas transit. This could lead to further instability in global energy markets. The U.S. is pushing for an end to the war between Russia and Ukraine, indicating ongoing diplomatic efforts to de-escalate the conflict.
-
-**Watch for:** 
-- Escalation in military tensions around the Strait of Hormuz as Iran enforces its exclusion zone.
-- Progress or lack thereof in U.S. diplomatic efforts to end the Russia-Ukraine conflict.
-- Changes in China's financial sector following its massive investment in state banks and insurers.
+**Watch for:** Increased tensions between China and France over the anti-ultra-fast fashion law, potential expansion of the maritime blockade on Iran, and further diplomatic actions from Hungary against Russia.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
