@@ -1,7 +1,7 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Gas Prices Soar Amid Iran Tensions & Data Center Surge. Record gas prices in the U.S. due to geopolitical tensions with Iran are straining..."
+description: "State of the Grid: China's pause on new energy storage battery projects could signal a.... Geopolitical tensions persist, with Russia and China opposing the ..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
@@ -41,6 +41,13 @@ The current Kp index is 1.0, with a 24-hour average of 2.05 and a peak of 2.7, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 08, 2026</span>
+        <a href="/archive/grid/2026-09-08-gas-prices-soar-amid-iran" class="archive-link">Gas Prices Soar Amid Iran Tensions & Data Center Surge</a>
+      </div>
+      <div class="archive-preview">Record gas prices in the U.S. due to geopolitical tensions with Iran are straining grid stability, particularly as data centers drive up...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 07, 2026</span>
@@ -117,13 +124,6 @@ The current Kp index is 1.0, with a 24-hour average of 2.05 and a peak of 2.7, i
         <a href="/archive/grid/2026-08-02-data-centers-drive-electricity" class="archive-link">DATA CENTERS SPARK GRID STRESS AS ELECTRICITY DEMAND SOARS</a>
       </div>
       <div class="archive-preview">Data Centers Drive Up Electricity Demand, Causing Concern for Grid ...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 26, 2026</span>
-        <a href="/archive/grid/2026-07-26-2024" class="archive-link">2024</a>
-      </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
     </div>
   </div>
 </div>

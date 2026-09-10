@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: US-Iran Gulf Maritime Escalation & Strategic Defense Alerts. A resurgence of hostilities in Eastern Europe escalates tensions, with Russia's..."
+description: "Predictive News: US Sanctions Target Iran & Yemen Proxies Amid Escalating Middle East Tensions. Escalating Middle East tensions intensify as U.S. sanctions t..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -65,6 +65,13 @@ Israeli forces have carried out a strike in Gaza, killing a family of four, incl
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 08, 2026</span>
+        <a href="/archive/predictive/2026-09-08-usiran-gulf-maritime-escalation-strategic" class="archive-link">US-Iran Gulf Maritime Escalation & Strategic Defense Alerts</a>
+      </div>
+      <div class="archive-preview">A resurgence of hostilities in Eastern Europe escalates tensions, with Russia's renewed attacks on Kyiv amidst global market disruptions...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 07, 2026</span>
@@ -139,13 +146,6 @@ Israeli forces have carried out a strike in Gaza, killing a family of four, incl
       <div class="archive-item-header">
         <span class="archive-date">Aug 02, 2026</span>
         <a href="/archive/predictive/2026-08-02-global-power-dynamics-shift" class="archive-link">REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY</a>
-      </div>
-      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 26, 2026</span>
-        <a href="/archive/predictive/2026-07-26-global-power-dynamics-shift" class="archive-link">REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS</a>
       </div>
       <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
     </div>
