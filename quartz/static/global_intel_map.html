@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-08 07:53 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-09-10 18:19 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,151 +52,182 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel continues to prosper despite BDS movement and boycotts, with no sales to India but building with it.",
-    "emojis": "",
+    "summary": "Palestinian president warns Israel's actions may escalate tensions",
+    "emojis": "⚔️⚡📈",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "India"
+      "Palestinian president",
+      "Israel"
     ],
-    "source_count": 17,
-    "timestamp": "07:52 AM"
+    "source_count": 28,
+    "timestamp": "06:19 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Hungary expels 10 Russian diplomats; Russia threatens a 'painful' response",
-    "emojis": "🚀",
+    "summary": "Russia faces growing international scrutiny over AI, trade ties, sanctions, and Arctic interests.",
+    "emojis": "🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Hungary",
-      "Russia"
+      "Russia",
+      "international community",
+      "Japan",
+      "Vietnam",
+      "NATO",
+      "Canada",
+      "China"
     ],
-    "source_count": 24,
-    "timestamp": "07:52 AM"
+    "source_count": 10,
+    "timestamp": "06:19 PM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Yemen's Houthis threaten shipping via Bab el-Mandeb Strait.",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Yemen's Houthis",
+      "shipping"
+    ],
+    "source_count": 3,
+    "timestamp": "06:19 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia resumes attacks on Kyiv; US envoys visit amid rising tensions and global market impacts.",
-    "emojis": "💥⚔️⚡",
+    "summary": "Nato foils Russian plot; Zelensky seeks further aid; Canada bolsters Ukraine defense.",
+    "emojis": "🪖⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "NATO",
+      "Ukraine",
       "Russia",
-      "US",
-      "Ukraine"
+      "Canada",
+      "Zelenskyy"
     ],
     "source_count": 16,
-    "timestamp": "07:52 AM"
+    "timestamp": "06:19 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Renewed blockade diverts 94 vessels; Houthis escalate Middle East conflict.",
-    "emojis": "⚔️",
+    "summary": "U.S. sanctions Iran, its proxies, and Houthis in Yemen amid escalating Middle East tensions",
+    "emojis": "💥🚫⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "CENTCOM",
+      "U.S.",
       "Iran",
-      "Houthis"
+      "Houthis",
+      "UNSC"
     ],
-    "source_count": 35,
-    "timestamp": "07:52 AM"
+    "source_count": 36,
+    "timestamp": "06:19 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli strike kills at least 4, including children, in Gaza",
+    "emojis": "💥",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli forces",
+      "Gaza civilians"
+    ],
+    "source_count": 6,
+    "timestamp": "06:19 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China warns France, BYD sales drop, China-Turkmenistan talks",
-    "emojis": "⚔️",
+    "summary": "Ford expands ties with China amidst global economic tensions.",
+    "emojis": "⚔️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "France",
-      "China",
-      "BYD",
-      "China",
-      "Turkmenistan"
+      "Ford",
+      "China"
     ],
-    "source_count": 28,
-    "timestamp": "07:52 AM"
+    "source_count": 10,
+    "timestamp": "06:19 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "France and Canada to join UK in sanctioning Israeli settlements",
-    "emojis": "🚫",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: LEBANON",
+    "summary": "Earthquake after Israeli demolition of Lebanon's infrastructure",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "France",
-      "Canada",
-      "UK"
+      "Lebanon",
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "07:52 AM"
+    "timestamp": "06:19 PM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "Record EV sales face bottlenecks in Mexico",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "EV sales",
+      "Mexico"
+    ],
+    "source_count": 1,
+    "timestamp": "06:19 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK to ban trade with Israeli settlements amidst threats of US retaliation.",
+    "summary": "UK deploys first EV chargers, sanctions against Israeli settlers divide British Rabbis.",
     "emojis": "🚫",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "UK",
-      "US",
-      "Israel"
+      "Israeli settlers",
+      "British Rabbis"
     ],
-    "source_count": 7,
-    "timestamp": "07:52 AM"
+    "source_count": 2,
+    "timestamp": "06:19 PM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "Danijar Hafner's agents plan for unexpected events",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "Danijar Hafner",
-      "agents"
-    ],
-    "source_count": 1,
-    "timestamp": "07:53 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthi attacks ignite fires at Saudi oil facilities, wounding 73 people",
+    "title": "SITREP: US-NY",
+    "summary": "Quest to identify remains continues at Ground Zero.",
     "emojis": "⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "Houthis",
-      "Saudi Arabia"
+      "New York officials",
+      "search teams"
     ],
     "source_count": 1,
-    "timestamp": "07:53 AM"
+    "timestamp": "06:19 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Chinese coast guard ships intrude into Kinmen restricted waters",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: INDIA",
+    "summary": "India urges BRICS to stay neutral in geopolitics during Delhi summit.",
+    "emojis": "⚔️",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Chinese coast guard ships",
-      "Kinmen"
+      "India",
+      "BRICS"
     ],
     "source_count": 1,
-    "timestamp": "07:53 AM"
+    "timestamp": "06:19 PM"
   }
 ];
 
