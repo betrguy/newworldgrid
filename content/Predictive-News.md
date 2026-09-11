@@ -26,32 +26,18 @@ Global power dynamics shift as regional actors leverage influence. <span class="
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Sep 10, 2026
+## Daily Intelligence Brief - Sep 11, 2026
 
-Palestinian President Mahmoud Abbas has warned of a "dangerous escalation" by Israel, signaling a potential uptick in tensions in the region. **Anadolu Ajansı** reports this as a direct warning, suggesting heightened instability.
+**Global Intelligence Summary**
 
-India continues to maintain its strategic partnership with Russia, despite international pressure. **Bloomberg** highlights this as a strategic decision, indicating India's commitment to its existing alliances.
+- Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
+- ICYMI—Hagerty JoinsThe Scott Jennings Show on Salem News Channel to Discuss Midterms, Iran, Memphis, BLADE Act - Senator Bill Hagerty (.gov)
+- ISRAEL-PALESTINIANS/LEBANON-STRIKES - San Mateo Daily Journal
+- Iran-backed Houthis take control of Red Sea coastline in Yemen - NBC News
+- Iran frees Jewish Iranian-American jailed for visiting Israel to attend son's bar mitzvah, but bars him from leaving country - The Times of Israel
+- Rising diesel and fertilizer prices amid Iran war squeeze Jay farmers' profits - weartv.com
 
-Yemen's Houthi rebels are advancing towards the Bab el-Mandeb Strait, a critical waterway for shipping. **Reuters** notes this as a direct threat to global maritime trade, highlighting the ongoing conflict's impact on international commerce.
-
-NATO has foiled a Russian plot to deploy a secret weapon, according to **The Independent**. This suggests ongoing efforts by NATO to counter Russian aggression in Eastern Europe.
-
-The U.S. Treasury has imposed new aviation sanctions on Iran, extending beyond Tehran. **Time Magazine** details these sanctions as part of a broader strategy against Iran, indicating an intensification of economic pressure.
-
-Anthropic, an AI company, has disrupted AI abuse campaigns linked to Russia and China. **Межа. Новини України** reports this as a significant move by Anthropic, showing active countermeasures against malicious AI activities.
-
-Ukrainian prosecutors suspect ten former soldiers of treason after they joined Russia. **Межа. Новини України** reports this as a clear indication of internal conflict and loyalty issues within the Ukrainian military.
-
-Israeli forces have carried out a strike in Gaza, killing a family of four, including children. **Middle East Eye** reports this as a direct military action, highlighting ongoing violence in the region.
-
-**Watch for:** 
-- Escalation in tensions between Israel and Palestine, particularly if **Anadolu Ajansı** reports further warnings or actions.
-- Shifts in India's foreign policy, especially if it announces new alliances or sanctions against Russia.
-- Houthi movements in Bab el-Mandeb, as reported by **Reuters**, and their potential impact on shipping.
-- NATO's response to Russian activities, especially if **The Independent** reports new countermeasures.
-- Further sanctions against Iran, as detailed by **Time Magazine**, and their economic effects.
-- Anthropic's actions against AI abuse, particularly if **Межа. Новини України** reports new disruptions or partnerships.
-- Prosecutions of former Ukrainian soldiers, as reported by **М
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
