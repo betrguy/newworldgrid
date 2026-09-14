@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: US Sanctions Target Iran & Yemen Proxies Amid Escalating Middle East Tensions. Escalating Middle East tensions intensify as U.S. sanctions t..."
+description: "Predictive News: Global power dynamics shift & Regional actors leverage influence.. Global power dynamics shift as regional actors leverage influence."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -51,6 +51,13 @@ Global power dynamics shift as regional actors leverage influence. <span class="
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 10, 2026</span>
+        <a href="/archive/predictive/2026-09-10-us-sanctions-target-iran-yemen" class="archive-link">US Sanctions Target Iran & Yemen Proxies Amid Escalating Middle East Tensions</a>
+      </div>
+      <div class="archive-preview">Escalating Middle East tensions intensify as U.S. sanctions target Iran and its proxies, including the Houthis in Yemen, amidst...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 08, 2026</span>
@@ -127,13 +134,6 @@ Global power dynamics shift as regional actors leverage influence. <span class="
         <a href="/archive/predictive/2026-08-12-significant-escalation-tensions-has" class="archive-link">ARAB COUNTRIES UNITE IN CONDEMNATION OF COLOMBIA'S GOLAN HEIGHTS STANCE</a>
       </div>
       <div class="archive-preview">A significant escalation of tensions has emerged with Arab countries condemning Colombia's stance on Israeli sovereignty over the Golan...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 02, 2026</span>
-        <a href="/archive/predictive/2026-08-02-global-power-dynamics-shift" class="archive-link">REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY</a>
-      </div>
-      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
     </div>
   </div>
 </div>
