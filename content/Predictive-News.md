@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Global power dynamics shift & Regional actors leverage influence.. Global power dynamics shift as regional actors leverage influence."
+description: "Predictive News: NATO Pledges Support Amid Ukraine De-Escalation Proposal. A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment ..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -49,6 +49,13 @@ Congress's inaction on AI development is a notable development, highlighting the
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 11, 2026</span>
+        <a href="/archive/predictive/2026-09-11-global-power-dynamics-shift-regional" class="archive-link">Global power dynamics shift & Regional actors leverage influence.</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 10, 2026</span>
@@ -125,13 +132,6 @@ Congress's inaction on AI development is a notable development, highlighting the
         <a href="/archive/predictive/2026-08-23-global-power-dynamics-shift" class="archive-link">Regional Players Seize Global Stage Amid Shifts in Power & Influence.</a>
       </div>
       <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 12, 2026</span>
-        <a href="/archive/predictive/2026-08-12-significant-escalation-tensions-has" class="archive-link">ARAB COUNTRIES UNITE IN CONDEMNATION OF COLOMBIA'S GOLAN HEIGHTS STANCE</a>
-      </div>
-      <div class="archive-preview">A significant escalation of tensions has emerged with Arab countries condemning Colombia's stance on Israeli sovereignty over the Golan...</div>
     </div>
   </div>
 </div>

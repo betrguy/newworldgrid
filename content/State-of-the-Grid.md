@@ -1,7 +1,7 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: A new way to monitor methane from abandoned wells.. Monitoring grid substrate for significant momentum shifts."
+description: "State of the Grid: AI-driven data center growth is straining global grids & Particularly in.... The U.S.-China AI War has Kazakhstan caught in the crossfire,..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
@@ -41,6 +41,13 @@ The current Kp index is 2.7, with a 24-hour average of 2.29 and a peak of 4.0, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 11, 2026</span>
+        <a href="/archive/grid/2026-09-11-a-new-way-to-monitor" class="archive-link">A new way to monitor methane from abandoned wells.</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 10, 2026</span>
@@ -117,13 +124,6 @@ The current Kp index is 2.7, with a 24-hour average of 2.29 and a peak of 4.0, i
         <a href="/archive/grid/2026-08-12-officials-attended-training-israel" class="archive-link">US Officials Attend Anti-Muslim Stereotype Training in Israel</a>
       </div>
       <div class="archive-preview">U.S. officials attended training in Israel that leaned into anti-Muslim stereotypes - prismreports.org.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 06, 2026</span>
-        <a href="/archive/grid/2026-08-06-tiny-vortices-discovered-suns" class="archive-link">Tiny vortices discovered on the suns surface.</a>
-      </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
     </div>
   </div>
 </div>

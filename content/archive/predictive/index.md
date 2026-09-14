@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 14, 2026** | [NATO Pledges Support Amid Ukraine De-Escalation Proposal](/archive/predictive/2026-09-14-nato-pledges-support-amid-ukraine) | A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment to support following Russia's aggre... |
 | **Sep 11, 2026** | [Global power dynamics shift & Regional actors leverage influence.](/archive/predictive/2026-09-11-global-power-dynamics-shift-regional) | Global power dynamics shift as regional actors leverage influence. |
 | **Sep 10, 2026** | [US Sanctions Target Iran & Yemen Proxies Amid Escalating Middle East Tensions](/archive/predictive/2026-09-10-us-sanctions-target-iran-yemen) | Escalating Middle East tensions intensify as U.S. sanctions target Iran and its proxies, including the Houthis in Yem... |
 | **Sep 08, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-09-08-usiran-gulf-maritime-escalation-strategic) | A resurgence of hostilities in Eastern Europe escalates tensions, with Russia's renewed attacks on Kyiv amidst global... |
