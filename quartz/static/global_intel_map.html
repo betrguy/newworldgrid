@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-11 18:20 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-09-14 19:29 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,193 +51,169 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-    "emojis": "",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "google_israel",
-      "google_iran",
-      "bbc_world"
-    ],
-    "source_count": 39,
-    "timestamp": "06:20 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel bombs Lebanon ridge with underground Hezbollah site - wng.org",
-    "emojis": "💥💣",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 16,
-    "timestamp": "06:20 PM"
-  },
-  {
     "title": "SITREP: UKRAINE",
-    "summary": "Putin says deployment of European troops in Ukraine would mean war with Russia -",
-    "emojis": "🚀🪖💥",
+    "summary": "Zelensky proposes de-escalation, NATO pledges support post-Russia strikes near Poland.",
+    "emojis": "💥⚔️📈",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "google_russia"
+      "Zelensky",
+      "Russia",
+      "Ukraine",
+      "NATO",
+      "Poland"
     ],
-    "source_count": 8,
-    "timestamp": "06:20 PM"
+    "source_count": 13,
+    "timestamp": "07:28 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia stocks lower at close of trade; MOEX Russia Index down 1.14% - Investing.",
-    "emojis": "🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel facing internal and international scrutiny over actions in Lebanon, Gaza, and West Bank",
+    "emojis": "🪖🔺",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "google_russia"
+      "Israel",
+      "international community",
+      "Palestinian territories"
     ],
-    "source_count": 27,
-    "timestamp": "06:20 PM"
+    "source_count": 20,
+    "timestamp": "07:28 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US watchdog assesses Iran war's impact on stockpiles/military, Houthis target Saudi Arabia amid stalled talks",
+    "emojis": "🪖⚔️🚀",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran",
+      "Houthis",
+      "Saudi Arabia"
+    ],
+    "source_count": 46,
+    "timestamp": "07:28 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "| Could US-China compliance escalation raise cotton supply costs? - fibre2fashio",
-    "emojis": "📈",
+    "summary": "US-China AI dialogue amid safety concerns",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "google_china"
+      "US",
+      "China"
     ],
-    "source_count": 12,
-    "timestamp": "06:20 PM"
+    "source_count": 11,
+    "timestamp": "07:28 PM"
   },
   {
-    "title": "SITREP: IRAQ",
-    "summary": "Saudi Arabia says drones launched from Iraq hit East-West pipeline, holds off on",
-    "emojis": "✈️",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
+    "title": "SITREP: GAZA",
+    "summary": "Israeli attacks in Gaza; NYT scrutiny, UN staff deaths, legal reviews",
+    "emojis": "💥⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "google_middle_east"
+      "Israel",
+      "NYT",
+      "UN",
+      "Gazans"
     ],
-    "source_count": 1,
-    "timestamp": "06:20 PM"
+    "source_count": 5,
+    "timestamp": "07:28 PM"
   },
   {
-    "title": "SITREP: GERMANY",
-    "summary": "Germany’s AfD and the Return of European Nationalism - Geopolitical Futures",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
+    "title": "SITREP: RUSSIA",
+    "summary": "Over $1 trillion capital moved out of Russia; EU urges Arctic role against Russia 'threat'; Russia prepares 500-mile missile.",
+    "emojis": "🚀🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "google_geopolitics"
+      "Russia",
+      "EU",
+      "Russia"
     ],
-    "source_count": 1,
-    "timestamp": "06:20 PM"
+    "source_count": 10,
+    "timestamp": "07:28 PM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Trump's policies impact Georgia's EV factories, $5K checks, and AI regulations amid Middle East tensions.",
+    "emojis": "⚡",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "Trump",
+      "Georgia"
+    ],
+    "source_count": 2,
+    "timestamp": "07:29 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane -",
-    "emojis": "💥",
+    "summary": "Houthi attacks reveal gaps in Pakistan-Saudi defence pact, capture of Mocha shifts Yemen war dynamics",
+    "emojis": "⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "google_iran",
-      "google_middle_east",
-      "bbc_world"
+      "Houthis",
+      "Pakistan",
+      "Saudi Arabia",
+      "Yemen"
     ],
-    "source_count": 4,
-    "timestamp": "06:20 PM"
+    "source_count": 2,
+    "timestamp": "07:29 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "Declassified documents show UK aware of Israeli war crimes for 24 years - Al Jaz",
-    "emojis": "🪖⚔️🔴",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: US-TX",
+    "summary": "Texas GOP nominees face mixed reactions to racist remarks.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
-      "google_ev",
-      "google_israel",
-      "google_russia"
+      "Texas GOP nominees",
+      "Republicans"
     ],
-    "source_count": 4,
-    "timestamp": "06:20 PM"
+    "source_count": 1,
+    "timestamp": "07:29 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "NY City sues Trump over public benefits immigration rule",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "New York City",
+      "Trump administration"
+    ],
+    "source_count": 1,
+    "timestamp": "07:29 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Scoop: Mike Johnson urged to cancel House recess over AI warnings",
+    "summary": "Urgent warnings grow about AI as divided U.S. Congress struggles to act.",
     "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "axios"
+      "U.S. Congress",
+      "Artificial Intelligence"
     ],
     "source_count": 1,
-    "timestamp": "06:20 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Energy Markets Rattled After Saudi Pipeline Attacks - The New York Times",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "axios",
-      "google_middle_east"
-    ],
-    "source_count": 2,
-    "timestamp": "06:20 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Conversation with Prime Minister of India Narendra Modi - Президент России",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "google_russia"
-    ],
-    "source_count": 1,
-    "timestamp": "06:20 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Albany County Dems disavow Young Democrats’ Gaza ‘genocide’ claim - JNS.org",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "google_israel"
-    ],
-    "source_count": 2,
-    "timestamp": "06:20 PM"
-  },
-  {
-    "title": "SITREP: US-GA",
-    "summary": "Officials from Norway, Georgia and Zimbabwe call CIFTIS a platform for entering ",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
-    "actors": [
-      "google_china"
-    ],
-    "source_count": 1,
-    "timestamp": "06:20 PM"
+    "timestamp": "07:29 PM"
   }
 ];
 
