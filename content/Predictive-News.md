@@ -26,16 +26,18 @@ US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-bac
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Sep 14, 2026
+## Daily Intelligence Brief - Sep 16, 2026
 
-Ukraine and Russia are signaling potential de-escalatory steps, suggesting a possible thaw in their conflict. However, these moves come amid ongoing tensions, as evidenced by the Houthis' attack on Saudi Arabia, which has postponed Gulf-Iran talks. Meanwhile, the U.S. military faced challenges in the Middle East, with an airman surviving an F-15E crash and being rescued by Iranian forces. The situation in East Texas reflects broader regional impacts, with gas prices spiking due to Middle Eastern conflicts.
+**Global Intelligence Summary**
 
-Congress's inaction on AI development is a notable development, highlighting the disconnect between political and technological trends. Saudi Arabia's oil targets as a new Iran front indicate shifting geopolitical dynamics in the region. In the technology sector, Anthropic's co-founder warns of the risks of prioritizing rapid AI development, suggesting a potential shift in strategic priorities.
+- Russia plans to fully occupy the Donbas in six months, says Zelenskyy - UA.NEWS
+- Iran strikes on US diplomatic facilities in 4 Gulf countries cost $184M: IG report - KXAN Austin
+- Saudis pound Yemen as Houthis solidify gains in expansion of Middle East war - staradvertiser.com
+- Israeli officials leak details of secret US-Israel-Arab military meeting, says report - Middle East Eye
+- Meet the anti-war candidate risking plenty to challenge Russia's ruling elite - Yahoo
+- Houthi drone intercepted near Mecca as Iran-linked conflict spreads - NewsNation
 
-**Watch for:**  
-- Diplomatic progress or setbacks in Ukraine-Russia negotiations.  
-- Escalation or de-escalation in Gulf-Iran relations, particularly with postponed talks.  
-- Congressional actions or inactions on AI legislation and funding.
+*Watch for: Developing situations across monitored regions.*
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
