@@ -8,11 +8,11 @@ description: "Predictive News: NATO Pledges Support Amid Ukraine De-Escalation P
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 14, 2026 — 19:29</span>
+  <span class="sotg-timestamp">September 16, 2026 — 07:15</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment to support following Russia's aggressive maneuvers near Poland, amidst Israel's multifaceted international challenges and Iran's ongoing military tensions with Saudi Arabia. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-backed Houthis, Saudi Arabia shoots down Houthi drone south of Mecca amid ongoing Yemeni conflict, US vice president JD Vance insists Mideast policy can't be 'subservient' to Israel, Malaysia detains Israel-bound military shipments, Russia challenges US space weapons, faces sanctions, and contemplates war or. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 

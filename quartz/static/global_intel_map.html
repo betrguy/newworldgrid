@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-14 19:29 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-09-16 07:14 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,169 +51,166 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Zelensky proposes de-escalation, NATO pledges support post-Russia strikes near Poland.",
-    "emojis": "💥⚔️📈",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Zelensky",
-      "Russia",
-      "Ukraine",
-      "NATO",
-      "Poland"
-    ],
-    "source_count": 13,
-    "timestamp": "07:28 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel facing internal and international scrutiny over actions in Lebanon, Gaza, and West Bank",
-    "emojis": "🪖🔺",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "international community",
-      "Palestinian territories"
-    ],
-    "source_count": 20,
-    "timestamp": "07:28 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US watchdog assesses Iran war's impact on stockpiles/military, Houthis target Saudi Arabia amid stalled talks",
-    "emojis": "🪖⚔️🚀",
+    "summary": "US-Iran tensions escalate, China mediates talks, Gulf States confront Iran-backed Houthis.",
+    "emojis": "💥⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
       "Iran",
-      "Houthis",
-      "Saudi Arabia"
+      "China",
+      "Saudi Arabia",
+      "Houthis"
     ],
-    "source_count": 46,
-    "timestamp": "07:28 PM"
+    "source_count": 22,
+    "timestamp": "07:12 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "US-China AI dialogue amid safety concerns",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi Arabia shoots down Houthi drone south of Mecca amid ongoing Yemeni conflict.",
+    "emojis": "✈️⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Saudi Arabia",
+      "Houthis"
+    ],
+    "source_count": 2,
+    "timestamp": "07:12 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Leaks reveal secret US-Israel-Arab meeting; US vice president JD Vance insists Mideast policy can't be 'subservient' to Israel; Malaysia detains Israel-bound military shipments.",
+    "emojis": "🪖",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
       "US",
-      "China"
-    ],
-    "source_count": 11,
-    "timestamp": "07:28 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli attacks in Gaza; NYT scrutiny, UN staff deaths, legal reviews",
-    "emojis": "💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
       "Israel",
-      "NYT",
-      "UN",
-      "Gazans"
+      "Malaysia",
+      "JD Vance"
     ],
-    "source_count": 5,
-    "timestamp": "07:28 PM"
+    "source_count": 23,
+    "timestamp": "07:13 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Over $1 trillion capital moved out of Russia; EU urges Arctic role against Russia 'threat'; Russia prepares 500-mile missile.",
-    "emojis": "🚀🚫",
+    "summary": "Russia challenges US space weapons, faces sanctions, and contemplates war or peace.",
+    "emojis": "🚀⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "EU",
-      "Russia"
+      "US"
     ],
-    "source_count": 10,
-    "timestamp": "07:28 PM"
+    "source_count": 12,
+    "timestamp": "07:13 AM"
   },
   {
-    "title": "SITREP: US-GA",
-    "summary": "Trump's policies impact Georgia's EV factories, $5K checks, and AI regulations amid Middle East tensions.",
-    "emojis": "⚡",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
-    "actors": [
-      "Trump",
-      "Georgia"
-    ],
-    "source_count": 2,
-    "timestamp": "07:29 PM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthi attacks reveal gaps in Pakistan-Saudi defence pact, capture of Mocha shifts Yemen war dynamics",
-    "emojis": "⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Houthis",
-      "Pakistan",
-      "Saudi Arabia",
-      "Yemen"
-    ],
-    "source_count": 2,
-    "timestamp": "07:29 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Texas GOP nominees face mixed reactions to racist remarks.",
+    "title": "SITREP: CHINA",
+    "summary": "China strengthens economic ties with ASEAN, enhancing trade and freight links.",
     "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Texas GOP nominees",
-      "Republicans"
+      "China",
+      "ASEAN"
+    ],
+    "source_count": 22,
+    "timestamp": "07:13 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "CENTCOM holds secret meeting with Israeli and Arab military chiefs in Germany",
+    "emojis": "🪖",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "CENTCOM",
+      "Israeli military",
+      "Arab military"
     ],
     "source_count": 1,
-    "timestamp": "07:29 PM"
+    "timestamp": "07:13 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "At least 16 killed after Gaza building collapse",
+    "emojis": "💥⚔️💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Palestinians",
+      "Israeli"
+    ],
+    "source_count": 9,
+    "timestamp": "07:14 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian drone attack kills 5, injures 7 on Ukrainian bus",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 13,
+    "timestamp": "07:14 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US Senate crypto bill collapses amid partisan deadlock",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US Senate",
+      "Republicans",
+      "Democrats"
+    ],
+    "source_count": 3,
+    "timestamp": "07:14 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Trump's EV rollback impacts US auto factories; India faces US tariffs; needs better EV charging infrastructure.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Trump",
+      "India",
+      "US"
+    ],
+    "source_count": 4,
+    "timestamp": "07:14 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "NY City sues Trump over public benefits immigration rule",
+    "summary": "2027 F1 calendar announced with Middle East races and mid-December finish",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "New York City",
-      "Trump administration"
+      "F1",
+      "The New York Times"
     ],
     "source_count": 1,
-    "timestamp": "07:29 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Urgent warnings grow about AI as divided U.S. Congress struggles to act.",
-    "emojis": "⚔️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "U.S. Congress",
-      "Artificial Intelligence"
-    ],
-    "source_count": 1,
-    "timestamp": "07:29 PM"
+    "timestamp": "07:14 AM"
   }
 ];
 
