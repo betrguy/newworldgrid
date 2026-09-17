@@ -8,11 +8,11 @@ description: "Predictive News: US & China Mediate Iran Tensions Amid Escalating 
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 16, 2026 — 07:15</span>
+  <span class="sotg-timestamp">September 17, 2026 — 06:06</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-backed Houthis, Saudi Arabia shoots down Houthi drone south of Mecca amid ongoing Yemeni conflict, US vice president JD Vance insists Mideast policy can't be 'subservient' to Israel, Malaysia detains Israel-bound military shipments, Russia challenges US space weapons, faces sanctions, and contemplates war or. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+China's pursuit of strengthened defense relations with Africa is a significant geopolitical shift amidst global tech and AI strategy discussions. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 

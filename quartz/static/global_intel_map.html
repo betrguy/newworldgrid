@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-16 07:14 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-09-17 06:06 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,166 +51,152 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions escalate, China mediates talks, Gulf States confront Iran-backed Houthis.",
-    "emojis": "💥⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran",
-      "China",
-      "Saudi Arabia",
-      "Houthis"
-    ],
-    "source_count": 22,
-    "timestamp": "07:12 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Saudi Arabia shoots down Houthi drone south of Mecca amid ongoing Yemeni conflict.",
-    "emojis": "✈️⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Saudi Arabia",
-      "Houthis"
-    ],
-    "source_count": 2,
-    "timestamp": "07:12 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Leaks reveal secret US-Israel-Arab meeting; US vice president JD Vance insists Mideast policy can't be 'subservient' to Israel; Malaysia detains Israel-bound military shipments.",
-    "emojis": "🪖",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US",
-      "Israel",
-      "Malaysia",
-      "JD Vance"
-    ],
-    "source_count": 23,
-    "timestamp": "07:13 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia challenges US space weapons, faces sanctions, and contemplates war or peace.",
-    "emojis": "🚀⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "US"
-    ],
-    "source_count": 12,
-    "timestamp": "07:13 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "China strengthens economic ties with ASEAN, enhancing trade and freight links.",
+    "summary": "China seeks deeper Africa defense ties amid global tech and AI strategy discussions",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "ASEAN"
+      "Africa",
+      "US",
+      "EU"
     ],
-    "source_count": 22,
-    "timestamp": "07:13 AM"
+    "source_count": 33,
+    "timestamp": "06:04 AM"
   },
   {
-    "title": "SITREP: GERMANY",
-    "summary": "CENTCOM holds secret meeting with Israeli and Arab military chiefs in Germany",
-    "emojis": "🪖",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces new US sanctions affecting China and India amid EU tensions and digital development talks.",
+    "emojis": "🚫🕊️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "CENTCOM",
-      "Israeli military",
-      "Arab military"
+      "Russia",
+      "US",
+      "China",
+      "India",
+      "EU",
+      "Apple"
     ],
-    "source_count": 1,
-    "timestamp": "07:13 AM"
+    "source_count": 21,
+    "timestamp": "06:04 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "At least 16 killed after Gaza building collapse",
-    "emojis": "💥⚔️💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: IRAN",
+    "summary": "Iran vice president signals openness to US talks amid UN-claimed US war crimes in Iran strikes",
+    "emojis": "💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Palestinians",
-      "Israeli"
+      "Iran",
+      "US",
+      "UN"
     ],
-    "source_count": 9,
-    "timestamp": "07:14 AM"
+    "source_count": 28,
+    "timestamp": "06:05 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian drone attack kills 5, injures 7 on Ukrainian bus",
-    "emojis": "✈️💥⚔️",
+    "summary": "China warns AI shrinks military decision time; Russian missile barrage injures 19+ in Ukraine.",
+    "emojis": "🪖✈️🚀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "China",
+      "Russia"
     ],
-    "source_count": 13,
-    "timestamp": "07:14 AM"
+    "source_count": 14,
+    "timestamp": "06:05 AM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "US Senate crypto bill collapses amid partisan deadlock",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israeli citizenship revoked threat",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "US Senate",
-      "Republicans",
-      "Democrats"
+      "Netanyahu",
+      "NAZA filmmakers"
     ],
-    "source_count": 3,
-    "timestamp": "07:14 AM"
+    "source_count": 32,
+    "timestamp": "06:05 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Trump's EV rollback impacts US auto factories; India faces US tariffs; needs better EV charging infrastructure.",
-    "emojis": "",
+    "summary": "India's ₹2,000-crore EV push may fall short; US tariffs threaten ties over Russian oil.",
+    "emojis": "⚔️",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Trump",
       "India",
       "US"
     ],
-    "source_count": 4,
-    "timestamp": "07:14 AM"
+    "source_count": 5,
+    "timestamp": "06:05 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "2027 F1 calendar announced with Middle East races and mid-December finish",
+    "title": "SITREP: US-CA",
+    "summary": "California law mandates AI performer disclosure in ads.",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "F1",
-      "The New York Times"
+      "California",
+      "Advertisers"
     ],
     "source_count": 1,
-    "timestamp": "07:14 AM"
+    "timestamp": "06:05 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Emmanuel Macron welcomes Joseph Aoun to Paris for Middle East talks",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Emmanuel Macron",
+      "Joseph Aoun"
+    ],
+    "source_count": 1,
+    "timestamp": "06:05 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "FAUDA season five dramatizes Gaza genocide, highlighting continued killing and displacement.",
+    "emojis": "⚔️🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Fauda",
+      "Gaza conflict"
+    ],
+    "source_count": 2,
+    "timestamp": "06:06 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Paris talks focus on strengthening Lebanese army as UN mission nears end",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Paris",
+      "Lebanon",
+      "UN"
+    ],
+    "source_count": 1,
+    "timestamp": "06:06 AM"
   }
 ];
 
