@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: NATO Pledges Support Amid Ukraine De-Escalation Proposal. A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment ..."
+description: "Predictive News: US & China Mediate Iran Tensions Amid Escalating Middle East Conflict. US-Iran tensions escalate as China mediates talks, Gulf States confro..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -51,6 +51,13 @@ US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-bac
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 14, 2026</span>
+        <a href="/archive/predictive/2026-09-14-nato-pledges-support-amid-ukraine" class="archive-link">NATO Pledges Support Amid Ukraine De-Escalation Proposal</a>
+      </div>
+      <div class="archive-preview">A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment to support following Russia's aggressive maneuvers...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 11, 2026</span>
@@ -127,13 +134,6 @@ US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-bac
         <a href="/archive/predictive/2026-08-24-series-escalating-tensions-military" class="archive-link">GLOBAL INSTABILITY SPARKS AS CHINA, IRAN, ISRAEL TENSIONS ESCALATE</a>
       </div>
       <div class="archive-preview">A series of escalating tensions and military actions in various regions, including China's growing AI concerns, Iran's response to...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 23, 2026</span>
-        <a href="/archive/predictive/2026-08-23-global-power-dynamics-shift" class="archive-link">Regional Players Seize Global Stage Amid Shifts in Power & Influence.</a>
-      </div>
-      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
     </div>
   </div>
 </div>

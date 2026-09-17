@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 16, 2026** | [RUSSIA SANCTIONS LOOM OVER GLOBAL ENERGY MARKETS](/archive/grid/2026-09-16-russia-sanctions-loom-over-global) | The geopolitical landscape continues to exert pressure on global energy systems, with the U.S. |
 | **Sep 14, 2026** | [AI-driven data center growth is straining global grids & Particularly in...](/archive/grid/2026-09-14-aidriven-data-center-growth-is) | The U.S.-China AI War has Kazakhstan caught in the crossfire, potentially disrupting crude oil supplies, a key fuel f... |
 | **Sep 11, 2026** | [A new way to monitor methane from abandoned wells.](/archive/grid/2026-09-11-a-new-way-to-monitor) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 10, 2026** | [China's pause on new energy storage battery projects could signal a...](/archive/grid/2026-09-10-chinas-pause-on-new-energy) | Geopolitical tensions persist, with Russia and China opposing the reactivation of UN Iran sanctions, potentially isol... |

@@ -1,7 +1,7 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: Toyota Highlander EV Delay & Ionna Charging Network Growth. Toyota's Highlander EV delay highlights the ongoing challenges in developing a co..."
+description: "Final Frontier: Toyota Highlander EV Delay & Ionna Charging Network Growth. Chinese rocket launches satellites from sea while BYD showcases advanced Blade Ba..."
 ---
 
 <!-- ARC_BYLINE -->
