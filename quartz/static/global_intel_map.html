@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-17 06:06 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-09-18 06:07 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,152 +51,173 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Dutch Christians rally for Israel; Israeli tourist dies abroad; Israel expands settlements.",
+    "emojis": "⚔️🕊️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Dutch Christians",
+      "Israeli tourist",
+      "Israel"
+    ],
+    "source_count": 18,
+    "timestamp": "06:05 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces internal opposition ban, election rigging, and NATO fears.",
+    "emojis": "✈️💥🚀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "NATO",
+      "Poland"
+    ],
+    "source_count": 29,
+    "timestamp": "06:05 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "UN cites US war crimes, Iran strikes tanker, US sanctions Tehran, UN probe, pro-state rallies factional, US-Iran reshapes oil trade.",
+    "emojis": "💥⚔️🚫",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "UN",
+      "US",
+      "Iran",
+      "Germany",
+      "Russia",
+      "China",
+      "oil trade"
+    ],
+    "source_count": 41,
+    "timestamp": "06:06 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "EU, Norway bolster Ukraine amidst Russian aggression",
+    "emojis": "⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "EU",
+      "Norway",
+      "Russia"
+    ],
+    "source_count": 14,
+    "timestamp": "06:06 AM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China seeks deeper Africa defense ties amid global tech and AI strategy discussions",
+    "summary": "China targets transport, tourism companies in cybersecurity, boosts fiscal revenue, backs mining self-regulation, rams Philippine boat, recalls cars in China.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Africa",
-      "US",
-      "EU"
+      "transportation",
+      "tourism",
+      "US top diplomats"
     ],
-    "source_count": 33,
-    "timestamp": "06:04 AM"
+    "source_count": 17,
+    "timestamp": "06:06 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces new US sanctions affecting China and India amid EU tensions and digital development talks.",
-    "emojis": "🚫🕊️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "US",
-      "China",
-      "India",
-      "EU",
-      "Apple"
-    ],
-    "source_count": 21,
-    "timestamp": "06:04 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran vice president signals openness to US talks amid UN-claimed US war crimes in Iran strikes",
-    "emojis": "💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US",
-      "UN"
-    ],
-    "source_count": 28,
-    "timestamp": "06:05 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "China warns AI shrinks military decision time; Russian missile barrage injures 19+ in Ukraine.",
-    "emojis": "🪖✈️🚀",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "China",
-      "Russia"
-    ],
-    "source_count": 14,
-    "timestamp": "06:05 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israeli citizenship revoked threat",
+    "title": "SITREP: US-DC",
+    "summary": "Industry, policymakers, and businesses debate regulating AI.",
     "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
     "actors": [
-      "Netanyahu",
-      "NAZA filmmakers"
-    ],
-    "source_count": 32,
-    "timestamp": "06:05 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India's ₹2,000-crore EV push may fall short; US tariffs threaten ties over Russian oil.",
-    "emojis": "⚔️",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "India",
-      "US"
-    ],
-    "source_count": 5,
-    "timestamp": "06:05 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "California law mandates AI performer disclosure in ads.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "California",
-      "Advertisers"
+      "industry players",
+      "policy wonks",
+      "businesses"
     ],
     "source_count": 1,
-    "timestamp": "06:05 AM"
+    "timestamp": "06:06 AM"
   },
   {
-    "title": "SITREP: LEBANON",
-    "summary": "Emmanuel Macron welcomes Joseph Aoun to Paris for Middle East talks",
+    "title": "SITREP: UK",
+    "summary": "UK EV sales surge, Meta bans AI deepfakes targeting women.",
     "emojis": "",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Emmanuel Macron",
-      "Joseph Aoun"
-    ],
-    "source_count": 1,
-    "timestamp": "06:05 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "FAUDA season five dramatizes Gaza genocide, highlighting continued killing and displacement.",
-    "emojis": "⚔️🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Fauda",
-      "Gaza conflict"
+      "UK",
+      "Meta",
+      "women"
     ],
     "source_count": 2,
     "timestamp": "06:06 AM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Paris talks focus on strengthening Lebanese army as UN mission nears end",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: YEMEN",
+    "summary": "Houthi offensive escalates Middle East tensions",
+    "emojis": "➡️⚡📈",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Paris",
-      "Lebanon",
-      "UN"
+      "Houthi rebels",
+      "Middle East",
+      "Europe"
     ],
     "source_count": 1,
     "timestamp": "06:06 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Czech Republic worries over Taiwan-China tensions, influencing relations.",
+    "emojis": "⚡",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Czech Republic",
+      "Taiwan",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "06:06 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "NYT accuses Microsoft, OpenAI of unprecedented theft using news content",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "New York Times",
+      "Microsoft",
+      "OpenAI"
+    ],
+    "source_count": 1,
+    "timestamp": "06:07 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Fatal building collapse in Gaza after ceasefire shows ongoing dangers",
+    "emojis": "🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Gaza",
+      "AP News"
+    ],
+    "source_count": 1,
+    "timestamp": "06:07 AM"
   }
 ];
 
