@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: US & China Mediate Iran Tensions Amid Escalating Middle East Conflict. US-Iran tensions escalate as China mediates talks, Gulf States confro..."
+description: "Predictive News: Low-Carbon Volcanic Rock Cement & AI Model Optimization. China's pursuit of strengthened defense relations with Africa is a significant geop..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -58,6 +58,13 @@ States are preparing for ICE agents to be at polling places, hinting at possible
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 16, 2026</span>
+        <a href="/archive/predictive/2026-09-16-us-china-mediate-iran-tensions" class="archive-link">US & China Mediate Iran Tensions Amid Escalating Middle East Conflict</a>
+      </div>
+      <div class="archive-preview">US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-backed Houthis, Saudi Arabia shoots down Houthi drone south...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 14, 2026</span>
@@ -134,13 +141,6 @@ States are preparing for ICE agents to be at polling places, hinting at possible
         <a href="/archive/predictive/2026-08-26-global-tensions-escalated-russias" class="archive-link">RUSSIA'S MILITARY EXPANSION SPARKS GLOBAL CONCERNS OVER WIDENING CONFLICT</a>
       </div>
       <div class="archive-preview">Global tensions have escalated as Russia's military activities and cooperation with key adversaries have intensified, sparking concerns...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 24, 2026</span>
-        <a href="/archive/predictive/2026-08-24-series-escalating-tensions-military" class="archive-link">GLOBAL INSTABILITY SPARKS AS CHINA, IRAN, ISRAEL TENSIONS ESCALATE</a>
-      </div>
-      <div class="archive-preview">A series of escalating tensions and military actions in various regions, including China's growing AI concerns, Iran's response to...</div>
     </div>
   </div>
 </div>

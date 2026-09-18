@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 17, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-17-lowcarbon-volcanic-rock-cement-ai) | In 2026, AI models like GPT-4o have surpassed human performance on knowledge and reasoning tests, making them indispe... |
 | **Sep 16, 2026** | [AI can now accurately answer complex questions & Offering new insights...](/archive/optimism/2026-09-16-ai-can-now-accurately-answer) | AI is no longer just about training larger models; it&rsquo;s about inference&mdash;applying these models to real-wor... |
-| **Sep 14, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-14-lowcarbon-volcanic-rock-cement-ai) | Countries are implementing measures to mitigate the adverse effects of social media on adolescents, recognizing the b... |
 | **Sep 10, 2026** | [Smart Devices Outlast, Quantum Breakthroughs on Dark Matter Front](/archive/optimism/2026-09-10-smart-devices-outlast-quantum-breakthroughs) | Battery cells now store 10%&ndash;15% more energy at the same weight, thanks to optimized electrode structures, while... |
 | **Sep 06, 2026** | [LED Breakthrough & AI Predicting Failures Create 'Funhouse Mirror' Distortions](/archive/optimism/2026-09-06-led-breakthrough-ai-predicting-failures) | Researchers at Lund University have developed a new type of LED light that could significantly boost energy efficienc... |
 | **Sep 05, 2026** | [Quantum-Optical Associative Memory & High-Efficiency Nanowire LEDs](/archive/optimism/2026-09-05-quantumoptical-associative-memory-highefficiency-nanowire) | Artificial intelligence is taking a leap forward with the development of a quantum-optical spin glass, a network of a... |

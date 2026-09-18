@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 17, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-09-17-lowcarbon-volcanic-rock-cement-ai) | China's pursuit of strengthened defense relations with Africa is a significant geopolitical shift amidst global tech ... |
 | **Sep 16, 2026** | [US & China Mediate Iran Tensions Amid Escalating Middle East Conflict](/archive/predictive/2026-09-16-us-china-mediate-iran-tensions) | US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-backed Houthis, Saudi Arabia shoots down... |
 | **Sep 14, 2026** | [NATO Pledges Support Amid Ukraine De-Escalation Proposal](/archive/predictive/2026-09-14-nato-pledges-support-amid-ukraine) | A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment to support following Russia's aggre... |
 | **Sep 11, 2026** | [Global power dynamics shift & Regional actors leverage influence.](/archive/predictive/2026-09-11-global-power-dynamics-shift-regional) | Global power dynamics shift as regional actors leverage influence. |
