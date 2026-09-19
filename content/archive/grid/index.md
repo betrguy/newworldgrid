@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 19, 2026** | [CHINA REACTS TO US SANCTIONS, GLOBAL ENERGY TRADE AT RISK](/archive/grid/2026-09-19-china-reacts-to-us-sanctions) | Geopolitical tensions are escalating, with China's fury over U.S. sanctions against Russia signaling potential disrup... |
 | **Sep 19, 2026** | [CHINA, US SANCTIONS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-09-19-china-us-sanctions-spark-global) | China's fury over U.S. sanctions against Russia underscores the escalating geopolitical tensions that could disrupt g... |
 | **Sep 18, 2026** | [AI Power Surge Threatens US Grid by 2030](/archive/grid/2026-09-18-ai-power-surge-threatens-us) | The U.S. data center industry is facing a new challenge with 'time-to-power' becoming the primary constraint for AI d... |
 | **Sep 17, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-09-17-lowcarbon-volcanic-rock-cement-ai) | Paragraph 1: The U.S. House's passage of sanctions against Russia and India signals escalating geopolitical tensions ... |

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-14T19:33:30.455719",
-  "model": "mannix/llama3.1-8b-abliterated",
+  "generatedAt": "2026-09-19T19:51:18.992868",
+  "model": "qwen2.5:7b",
   "voice": "am_michael",
   "speed": 1.0,
   "scripts": {
-    "index_master_summary.wav": "Today, we're seeing a mix of geopolitics and infrastructure concerns. In the news, Ukraine's leader has proposed a de-escalation plan, which NATO has committed to support, amidst ongoing tensions with Russia and the Middle East. On the other hand, there's growing concern about AI-driven data center growth putting a strain on global grids, particularly in the U.S. due to high-density workloads. This could lead to supply chain disruptions, impacting grid resilience and reliability. Another significant development is that some countries are implementing measures to curb addictive screen time and promote AI optimization, which could make complex problem-solving more accessible."
+    "index_master_summary.wav": "Moving to the energy sector, China's satellite launches and a Colorado man's unexpected discovery of revolutionary fast charging technology in China offer insights into the evolving orbital economy and EV grid development. The U.S. grid faces a critical challenge as the power requirement for AI racks is expected to surge to 50\u2013100 kW by 2030, compared to 5\u201310 kW for traditional racks. This shift highlights the need for more efficient and rapid power delivery systems to support the increasing energy demands of advanced computing. On the optimism front, AI driven drug discovery and quantum stable gases are unlocking new realms of human potential. For the first time, a proposed cancer treatment emerged from AI analysis and was adopted by a major pharmaceutical company. Quantum gases, with their increased stability, are opening doors to studying strongly interacting systems, potentially leading to breakthroughs in technology and energy. Today's geomagnetic environment remains quiet, with a Kp index of 1.7, a 24-hour average of 1.86, and a peak Kp of 2.7, posing no significant risk to satellites and maintaining normal HF radio communications and power grid stability. Global tensions rise as China reacts to U.S. sanctions on Russia, while concerns over Iran's nuclear program and gas prices dominate political discourse. These tensions could destabilize regional power grids, requiring enhanced resilience measures. In the Final Frontier, China's satellite launches and a Colorado man's experience with BYD's Blade Battery technology could shift preferences towards BYD\u2019s models, especially in regions with harsh climates. The development of space-based solar panels by China's \"Celestial Net\" satellite constellation could lead to a new form of economic leverage, where countries reliant on space-based solar energy may find themselves unexpectedly dependent on China\u2019s space infrastructure. Watch for developments in AI-driven drug discovery, quantum stable gases, and space-based solar energy. These advancements together signify a profound capability to tackle complex global challenges, bringing us closer to a more sustainable and healthier future."
   },
   "durations": {
-    "index_master_summary.wav": "00:46"
+    "index_master_summary.wav": "02:37"
   }
 }
