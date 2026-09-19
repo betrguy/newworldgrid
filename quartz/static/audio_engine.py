@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
@@ -19,7 +19,7 @@ from kokoro import KPipeline
 
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434/api/generate")
-DEFAULT_MODEL = os.environ.get("OLLAMA_MODEL", "mannix/llama3.1-8b-abliterated")
+DEFAULT_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5:7b")
 DEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "am_michael")        
 DEFAULT_SPEED = float(os.environ.get("KOKORO_SPEED", "1.0"))       
 SAMPLE_RATE = 24000
@@ -201,7 +201,7 @@ def generate_script_via_ollama(model: str, prompt: str) -> str:
         method="POST",
     )
     try:
-        with urlopen(request, timeout=120) as response:
+        with urlopen(request, timeout=300) as response:
             data = json.loads(response.read().decode("utf-8"))      
     except HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")       

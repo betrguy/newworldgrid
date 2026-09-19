@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-18 06:07 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-09-19 19:09 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,172 +52,193 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Dutch Christians rally for Israel; Israeli tourist dies abroad; Israel expands settlements.",
-    "emojis": "⚔️🕊️",
+    "summary": "US embassy issues security alert over Houthi-Saudi fighting, Israel pardons soldier, IDF kills Hamas commander.",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Dutch Christians",
-      "Israeli tourist",
-      "Israel"
+      "US embassy",
+      "Israel",
+      "Houthi-Saudi Arabia",
+      "Israel",
+      "Hamas"
     ],
-    "source_count": 18,
-    "timestamp": "06:05 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces internal opposition ban, election rigging, and NATO fears.",
-    "emojis": "✈️💥🚀",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "NATO",
-      "Poland"
-    ],
-    "source_count": 29,
-    "timestamp": "06:05 AM"
+    "source_count": 49,
+    "timestamp": "07:07 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "UN cites US war crimes, Iran strikes tanker, US sanctions Tehran, UN probe, pro-state rallies factional, US-Iran reshapes oil trade.",
-    "emojis": "💥⚔️🚫",
+    "summary": "Iran strengthens ties with Houthis against Saudi Arabia; global tensions rise.",
+    "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "UN",
-      "US",
       "Iran",
-      "Germany",
-      "Russia",
-      "China",
-      "oil trade"
+      "Houthis",
+      "Saudi Arabia"
     ],
     "source_count": 41,
-    "timestamp": "06:06 AM"
+    "timestamp": "07:08 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "EU, Norway bolster Ukraine amidst Russian aggression",
+    "summary": "Ukraine attacks Russian regions; Russia holds votes in seized territories.",
     "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "EU",
-      "Norway",
+      "Ukraine",
       "Russia"
     ],
-    "source_count": 14,
-    "timestamp": "06:06 AM"
+    "source_count": 16,
+    "timestamp": "07:08 PM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "China targets transport, tourism companies in cybersecurity, boosts fiscal revenue, backs mining self-regulation, rams Philippine boat, recalls cars in China.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: GAZA",
+    "summary": "Israeli forces kill four Palestinians, including a child in Gaza.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "China",
-      "transportation",
-      "tourism",
-      "US top diplomats"
-    ],
-    "source_count": 17,
-    "timestamp": "06:06 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Industry, policymakers, and businesses debate regulating AI.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "industry players",
-      "policy wonks",
-      "businesses"
-    ],
-    "source_count": 1,
-    "timestamp": "06:06 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK EV sales surge, Meta bans AI deepfakes targeting women.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK",
-      "Meta",
-      "women"
+      "Israeli forces",
+      "Palestinians"
     ],
     "source_count": 2,
-    "timestamp": "06:06 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthi offensive escalates Middle East tensions",
-    "emojis": "➡️⚡📈",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Houthi rebels",
-      "Middle East",
-      "Europe"
-    ],
-    "source_count": 1,
-    "timestamp": "06:06 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Czech Republic worries over Taiwan-China tensions, influencing relations.",
-    "emojis": "⚡",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Czech Republic",
-      "Taiwan",
-      "China"
-    ],
-    "source_count": 1,
-    "timestamp": "06:06 AM"
+    "timestamp": "07:08 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "NYT accuses Microsoft, OpenAI of unprecedented theft using news content",
+    "summary": "Israeli President pardons soldier for killing incapacitated Palestinian. Impotent Russian spy trades secrets for treatment.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "New York Times",
-      "Microsoft",
-      "OpenAI"
+      "Israeli President",
+      "Soldier",
+      "Russian Spy"
     ],
-    "source_count": 1,
-    "timestamp": "06:07 AM"
+    "source_count": 2,
+    "timestamp": "07:08 PM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Fatal building collapse in Gaza after ceasefire shows ongoing dangers",
-    "emojis": "🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia intensifies actions; Europe condemns.",
+    "emojis": "⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Gaza",
-      "AP News"
+      "Russia",
+      "Europe"
+    ],
+    "source_count": 18,
+    "timestamp": "07:08 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Leapmotor overtakes competitors in global EV sales; US-China AI, F-35 parts, and tech deals unfold.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Leapmotor",
+      "US",
+      "China"
+    ],
+    "source_count": 16,
+    "timestamp": "07:09 PM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Houthi missiles intercepted in Riyadh, Yemeni army stops Houthi attack killing 12.",
+    "emojis": "⚔️🚀",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Houthis",
+      "Yemeni army",
+      "Saudi coalition"
+    ],
+    "source_count": 2,
+    "timestamp": "07:09 PM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Illinois plant wired over 100 EV battery packs into a 10-MWh bank",
+    "emojis": "",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "Illinois plant",
+      "EV battery packs"
     ],
     "source_count": 1,
-    "timestamp": "06:07 AM"
+    "timestamp": "07:09 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah vows resistance amid Israeli strikes in South Lebanon.",
+    "emojis": "🪖💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Israel"
+    ],
+    "source_count": 3,
+    "timestamp": "07:09 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Journalists from CNN, MSNBC, and Politico denied White House access after Trump banned their outlets.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "CNN",
+      "MSNBC",
+      "Politico"
+    ],
+    "source_count": 1,
+    "timestamp": "07:09 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "British sanctions on Israeli settlements debated as inevitable",
+    "emojis": "🚫",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "Israel"
+    ],
+    "source_count": 1,
+    "timestamp": "07:09 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "MG Hector Tomahawk EV enters Indian market as major player",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "MG Hector Tomahawk EV",
+      "Indian Market"
+    ],
+    "source_count": 1,
+    "timestamp": "07:09 PM"
   }
 ];
 
