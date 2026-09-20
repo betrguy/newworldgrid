@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Sep 20, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-09-20-lowcarbon-volcanic-rock-cement-ai) | This page compares the current statuses and impacts of Amazon's Project Kuiper and SpaceX's Starlink in low Earth orb... |
+| **Sep 20, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-09-20-lowcarbon-volcanic-rock-cement-ai) | This page compares the current statuses and impacts of Amazon's Project Kuiper and SpaceX's Starlink in the low Earth... |
 | **Sep 19, 2026** | [CHINA LEADS EV REVOLUTION & SATellite SPACEDOMAIN EXPANSION](/archive/frontier/2026-09-19-china-leads-ev-revolution-satellite) | China's satellite launches and a Colorado man's unexpected discovery of revolutionary fast-charging technology in Chi... |
 | **Sep 19, 2026** | [CHINA LEADS EV REVOLUTION & LAUNCHES INTO ORBITAL ECONOMY](/archive/frontier/2026-09-19-china-leads-ev-revolution-launches) | China's satellite launches and a Colorado man's unexpected discovery of revolutionary fast-charging technology in Chi... |
 | **Sep 18, 2026** | [Toyota Highlander EV Delay & Ionna Charging Network Growth](/archive/frontier/2026-09-18-toyota-highlander-ev-delay-ionna) | Chinese rocket launches satellites from sea while BYD showcases advanced Blade Battery technology in EVs, highlightin... |

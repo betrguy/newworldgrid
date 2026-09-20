@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 20, 2026** | [US Grid Reliability Under Siege Amid Aging Infrastructure & Rising Cyber Threats.](/archive/grid/2026-09-20-us-grid-reliability-under-siege) | Grid reliability is under increasing pressure due to aging infrastructure and rising outages, as highlighted by recen... |
 | **Sep 20, 2026** | [Interconnection bottlenecks and grid-scale storage backlogs continue to...](/archive/grid/2026-09-20-interconnection-bottlenecks-and-gridscale-storage) | The U.S. interconnection bottleneck persists, with grid-scale storage projects facing severe backlogs despite regulat... |
 | **Sep 19, 2026** | [CHINA REACTS TO US SANCTIONS, GLOBAL ENERGY TRADE AT RISK](/archive/grid/2026-09-19-china-reacts-to-us-sanctions) | Geopolitical tensions are escalating, with China's fury over U.S. sanctions against Russia signaling potential disrup... |
 | **Sep 19, 2026** | [CHINA, US SANCTIONS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-09-19-china-us-sanctions-spark-global) | China's fury over U.S. sanctions against Russia underscores the escalating geopolitical tensions that could disrupt g... |
