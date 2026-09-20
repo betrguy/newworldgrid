@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 20, 2026** | [US-Iran Tensions Escalate Amid Looming War Threat Over Iranian Conditions for Talks.](/archive/predictive/2026-09-20-usiran-tensions-escalate-amid-looming) | Iranian conditions for talks escalate US-Iran tensions amid looming war threat. |
 | **Sep 19, 2026** | [IRAN, SAUDI ARABIA, ISRAEL TENSIONS ESCALATE AS REGIONAL UNREST INTENSIFIES](/archive/predictive/2026-09-19-iran-saudi-arabia-israel-tensions) | Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests come to the fore amidst regional unrest... |
 | **Sep 19, 2026** | [Middle East Tensions Escalate Amid Houthi-Saudi Clashes & Israeli Gaza Crisis](/archive/predictive/2026-09-19-middle-east-tensions-escalate-amid) | A complex geopolitical landscape emerges as regional conflicts intensify with Israel's security alert amidst Houthi-S... |
 | **Sep 18, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-09-18-usiran-gulf-maritime-escalation-strategic) | A confluence of international tensions escalates as Israel's settlement expansion meets global criticism, Russia's in... |

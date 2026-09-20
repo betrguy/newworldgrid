@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: IRAN, SAUDI ARABIA, ISRAEL TENSIONS ESCALATE AS REGIONAL UNREST INTENSIFIES. Iran-Houthi tensions escalate with Saudi Arabia, Israel's strat..."
+description: "Predictive News: US-Iran Tensions Escalate Amid Looming War Threat Over Iranian Conditions for Talks.. Iranian conditions for talks escalate US-Iran tensions..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 19, 2026 — 19:33</span>
+  <span class="sotg-timestamp">September 20, 2026 — 15:59</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests come to the fore amidst regional unrest, while Ukraine-Russia conflict intensifies with new offensives and territorial disputes. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Iranian conditions for talks escalate US-Iran tensions amid looming war threat. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,16 +26,16 @@ Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests co
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Sep 19, 2026
+## Daily Intelligence Brief - Sep 20, 2026
 
 **Global Intelligence Summary**
 
-- Not all AI workers think the tech could kill everyone
-- 'I don't even know if my parents are alive' - the war heroes jailed 25 years ago
-- New attacks on Saudi Arabia as Middle East fighting escalates - NBC News
-- As Iran and Houthis tighten screws on Saudi Arabia, potential role emerges for Israel - timesofisrael.com
-- Russia Ukraine War - Goshen News
-- UAE dodges question on pre-October 7 warning to Netanyahu - Middle East Eye
+- Iran sets seven conditions for talks with US - Israel National News
+- Xinhua News | China wins first gold at Aichi-Nagoya Asian Games - Xinhua
+- Expert Says Russia and China May Have Backed Iran With Technology and Intelligence | Ukraine news - #Mezha - Межа. Новини України.
+- First Asian Games gold goes to Japan as China's 13-year-old Yu lights up pool - Yahoo News Singapore
+- Is US preparing for a major strike? Trump cuts short Camp David stay after Iran’s 'decisive war' warning - theweek.in
+- Nippon Foundation's Sasakawa Meets with Russian Officials in Moscow - nippon.com
 
 *Watch for: Developing situations across monitored regions.*
 
@@ -51,6 +51,13 @@ Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests co
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 19, 2026</span>
+        <a href="/archive/predictive/2026-09-19-iran-saudi-arabia-israel-tensions" class="archive-link">IRAN, SAUDI ARABIA, ISRAEL TENSIONS ESCALATE AS REGIONAL UNREST INTENSIFIES</a>
+      </div>
+      <div class="archive-preview">Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests come to the fore amidst regional unrest, while...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 19, 2026</span>
@@ -127,13 +134,6 @@ Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests co
         <a href="/archive/predictive/2026-09-01-global-tensions-intensified-multiple" class="archive-link">GLOBE TEETERS ON BRINK AS REGIONAL POWERS CLASH & HUMANITARIAN CRISIS ESCALATES</a>
       </div>
       <div class="archive-preview">Global tensions have intensified, with multiple flashpoints emerging across the globe, including heightened tensions between key...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 29, 2026</span>
-        <a href="/archive/predictive/2026-08-29-significant-escalation-tensions-middle" class="archive-link">MIDDLE EAST ON BRINK OF WIDESPREAD WAR AS MAJOR POWER DEFIES GLOBAL PRESSURE</a>
-      </div>
-      <div class="archive-preview">A significant escalation of tensions in the Middle East has raised concerns about the potential for widespread conflict, as a major...</div>
     </div>
   </div>
 </div>

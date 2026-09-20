@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-19 19:32 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-09-20 15:59 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,94 +51,139 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Multiple security alerts and political developments reported in Israel and surrounding areas",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "US embassy in Israel",
-      "APTOPIX Israel",
-      "Houthi-Saudi Arabia",
-      "Yair Netanyahu"
-    ],
-    "source_count": 50,
-    "timestamp": "07:30 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran, Houthis tighten screws on Saudi Arabia; Israel's potential role emerges.",
-    "emojis": "⚔️",
+    "summary": "Iran sets conditions for talks; US tensions rise amid war threat",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "Houthis",
-      "Israel",
-      "Saudi Arabia"
+      "US"
     ],
-    "source_count": 41,
-    "timestamp": "07:31 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia holds parliamentary vote in seized Ukrainian regions; Ukraine launches attack on 12 Russian regions",
-    "emojis": "⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 15,
-    "timestamp": "07:31 PM"
+    "source_count": 42,
+    "timestamp": "03:56 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China strengthens economic, tech ties ahead of Xi-Trump summit",
+    "summary": "Japan wins first Asian Games gold, China advances lunar research, AI misreporting nearly sparked US-China confrontation.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
+      "Japan",
       "China",
-      "US"
+      "US",
+      "CNN"
     ],
-    "source_count": 16,
-    "timestamp": "07:31 PM"
+    "source_count": 18,
+    "timestamp": "03:57 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli forces kill four Palestinians, including a child; Hamas contacts mediators amid escalations.",
-    "emojis": "⚔️📈",
+    "summary": "Ed Sheeran condemns Gaza crisis, while Israel reports killing four Palestinians, including a child, amidst Hamas-Mediator talks.",
+    "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli forces",
-      "Palestinians",
+      "Ed Sheeran",
+      "Israel",
       "Hamas"
     ],
-    "source_count": 3,
-    "timestamp": "07:31 PM"
+    "source_count": 4,
+    "timestamp": "03:57 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia's stocks drop amid sanctions, election unrest, and regional tensions.",
-    "emojis": "⚔️🚫⚡",
+    "summary": "Russia faces multiple crises: attacks, sanctions, and internal elections amidst international condemnation.",
+    "emojis": "✈️💥⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "United States",
-      "China"
+      "international community"
+    ],
+    "source_count": 13,
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine launched a large-scale attack on 12 regions of Russia; Russia holds parliamentary vote in seized areas.",
+    "emojis": "⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
     ],
     "source_count": 14,
-    "timestamp": "07:32 PM"
+    "timestamp": "03:57 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Joel Haber shares cholent recipe; Ed Sheeran condemns Gaza actions; Israel pardons combat medic; Israel-Cyprus defense talks; Turkey investigates Israel investment fraud.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Joel Haber",
+      "Ed Sheeran",
+      "Israel",
+      "Cyprus",
+      "Turkey"
+    ],
+    "source_count": 44,
+    "timestamp": "03:58 PM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Escalating Houthi-Saudi conflict prompts US security alerts and travel advisories.",
+    "emojis": "⚔️📈",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "US",
+      "Saudi Arabia",
+      "Houthi Rebels",
+      "Jordan",
+      "Bahrain"
+    ],
+    "source_count": 6,
+    "timestamp": "03:58 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Trump unexpectedly returns amid rising Middle East tensions",
+    "emojis": "⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Trump",
+      "Middle East tensions"
+    ],
+    "source_count": 2,
+    "timestamp": "03:58 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Widow runs 3km barefoot, Coco Gauff faces new controversy post US Op loss",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Mum",
+      "Coco Gauff"
+    ],
+    "source_count": 2,
+    "timestamp": "03:58 PM"
   },
   {
     "title": "SITREP: US-NY",
@@ -149,44 +194,30 @@
     "location": "US-NY",
     "actors": [
       "Israeli President",
-      "ex-soldier"
+      "Ex-soldier",
+      "Palestinian"
     ],
-    "source_count": 2,
-    "timestamp": "07:32 PM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthi missiles intercepted in Riyadh; Yemeni army stops attack, killing 12.",
-    "emojis": "⚔️🚀",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Houthis",
-      "Saudi coalition",
-      "Yemeni army"
-    ],
-    "source_count": 2,
-    "timestamp": "07:32 PM"
+    "source_count": 1,
+    "timestamp": "03:58 PM"
   },
   {
     "title": "SITREP: US-IL",
-    "summary": "Illinois plant repurposes over 100 EV battery packs for storage",
+    "summary": "More than 100 used EV battery packs wired into a 10 MWh bank at Illinois plant.",
     "emojis": "",
     "lat": 41.87,
     "lng": -87.62,
     "location": "US-IL",
     "actors": [
       "Illinois plant",
-      "EV battery packs"
+      "used EV battery packs"
     ],
     "source_count": 1,
-    "timestamp": "07:32 PM"
+    "timestamp": "03:59 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Hezbollah vows resistance against Israeli strikes in southern Lebanon.",
-    "emojis": "🪖💥",
+    "summary": "Hezbollah vows resistance against Israel despite military advantage.",
+    "emojis": "🪖",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
@@ -194,37 +225,8 @@
       "Hezbollah",
       "Israel"
     ],
-    "source_count": 3,
-    "timestamp": "07:32 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Journalists denied White House access after Trump banned CNN, MS NOW, Politico.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Journalists",
-      "Trump",
-      "White House"
-    ],
     "source_count": 1,
-    "timestamp": "07:32 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "British sanctions on Israeli settlements debated as inevitable.",
-    "emojis": "🚫",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "British Government",
-      "Israeli Settlements"
-    ],
-    "source_count": 1,
-    "timestamp": "07:32 PM"
+    "timestamp": "03:59 PM"
   }
 ];
 
