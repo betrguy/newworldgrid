@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 22, 2026** | [The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...](/archive/predictive/2026-09-22-the-ukrainerussia-conflict-intensifies-a) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 21, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-09-21-regional-actors-redefine-global-power) | Global power dynamics shift as regional actors leverage influence. |
 | **Sep 21, 2026** | [REGIONAL ACTORS RISE AS GLOBAL POWER SHIFTS](/archive/predictive/2026-09-21-regional-actors-rise-as-global) | Global power dynamics shift as regional actors leverage influence. |
 | **Sep 20, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-09-20-usiran-gulf-maritime-escalation-strategic) | Iran's recent closure of a French language center amid escalating tensions signals a significant downturn in cultural... |

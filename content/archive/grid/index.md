@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 22, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-22-strait-of-hormuz-flow-discrepancies) | How Will This Week’s China-U.S. Meeting Impact LNG Exports? The upcoming bilateral meeting between China and the U.S.... |
 | **Sep 21, 2026** | [CHINA-US TALKS TO TEST LNG EXPORTS' GLOBAL FUTURE](/archive/grid/2026-09-21-chinaus-talks-to-test-lng) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 21, 2026** | [CHINA-US TALKS TO TEST LNG EXPORTS' GLOBAL ROLE](/archive/grid/2026-09-21-chinaus-talks-to-test-lng) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 20, 2026** | [US Grid Reliability Under Siege Amid Aging Infrastructure & Rising Cyber Threats.](/archive/grid/2026-09-20-us-grid-reliability-under-siege) | Grid reliability is under increasing pressure due to aging infrastructure and rising outages, as highlighted by recen... |
@@ -27,7 +28,6 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 | **Sep 11, 2026** | [A new way to monitor methane from abandoned wells.](/archive/grid/2026-09-11-a-new-way-to-monitor) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 10, 2026** | [China's pause on new energy storage battery projects could signal a...](/archive/grid/2026-09-10-chinas-pause-on-new-energy) | Geopolitical tensions persist, with Russia and China opposing the reactivation of UN Iran sanctions, potentially isol... |
 | **Sep 08, 2026** | [Gas Prices Soar Amid Iran Tensions & Data Center Surge](/archive/grid/2026-09-08-gas-prices-soar-amid-iran) | Record gas prices in the U.S. due to geopolitical tensions with Iran are straining grid stability, particularly as da... |
-| **Sep 07, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-07-strait-of-hormuz-flow-discrepancies) | Labor Day saw record-breaking gas prices in the U.S., driven by geopolitical tensions with Iran. |
 | **Sep 06, 2026** | [Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](/archive/grid/2026-09-06-oak-ridge-triso-haleu-testing) | The Department of Energy's Oak Ridge National Laboratory has completed TRISO fuel testing, advancing the development ... |
 | **Sep 01, 2026** | [US Grid's Battery Storage Capacity Surpasses 20 Nuclear Reactors in Four Years.](/archive/grid/2026-09-01-grid-has-rapidly-expanded) | The US grid has rapidly expanded its battery storage capacity, equivalent to 20 nuclear reactors, in just four years,... |
 | **Aug 29, 2026** | [US BATTERY PRODUCTION SURGE THREATENS CHINA'S EV SUPPLY CHAIN DOMINANCE](/archive/grid/2026-08-29-witnessing-significant-shift-its) | The US is witnessing a significant shift in its battery production capabilities, potentially disrupting China's domin... |
