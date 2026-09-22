@@ -14,6 +14,8 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 21, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-09-21-regional-actors-redefine-global-power) | Global power dynamics shift as regional actors leverage influence. |
+| **Sep 21, 2026** | [REGIONAL ACTORS RISE AS GLOBAL POWER SHIFTS](/archive/predictive/2026-09-21-regional-actors-rise-as-global) | Global power dynamics shift as regional actors leverage influence. |
 | **Sep 20, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-09-20-usiran-gulf-maritime-escalation-strategic) | Iran's recent closure of a French language center amid escalating tensions signals a significant downturn in cultural... |
 | **Sep 20, 2026** | [US-Iran Tensions Escalate Amid Looming War Threat Over Iranian Conditions for Talks.](/archive/predictive/2026-09-20-usiran-tensions-escalate-amid-looming) | Iranian conditions for talks escalate US-Iran tensions amid looming war threat. |
 | **Sep 19, 2026** | [IRAN, SAUDI ARABIA, ISRAEL TENSIONS ESCALATE AS REGIONAL UNREST INTENSIFIES](/archive/predictive/2026-09-19-iran-saudi-arabia-israel-tensions) | Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests come to the fore amidst regional unrest... |
@@ -33,7 +35,6 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 | **Aug 24, 2026** | [GLOBAL INSTABILITY SPARKS AS CHINA, IRAN, ISRAEL TENSIONS ESCALATE](/archive/predictive/2026-08-24-series-escalating-tensions-military) | A series of escalating tensions and military actions in various regions, including China's growing AI concerns, Iran'... |
 | **Aug 23, 2026** | [Regional Players Seize Global Stage Amid Shifts in Power & Influence.](/archive/predictive/2026-08-23-global-power-dynamics-shift) | Global power dynamics shift as regional actors leverage influence. |
 | **Aug 12, 2026** | [ARAB COUNTRIES UNITE IN CONDEMNATION OF COLOMBIA'S GOLAN HEIGHTS STANCE](/archive/predictive/2026-08-12-significant-escalation-tensions-has) | A significant escalation of tensions has emerged with Arab countries condemning Colombia's stance on Israeli sovereig... |
-| **Aug 02, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-08-02-global-power-dynamics-shift) | Global power dynamics shift as regional actors leverage influence. |
 | **Jul 26, 2026** | [REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS](/archive/predictive/2026-07-26-global-power-dynamics-shift) | Global power dynamics shift as regional actors leverage influence. |
 | **Jul 22, 2026** | [GLOBAL TENSIONS SPARK AS MULTIPLE NATIONS SEE SURGE IN MILITARY ACTIVITY](/archive/predictive/2026-07-22-significant-escalation-hostilities-has) | A significant escalation of hostilities has marked a major shift in regional dynamics, with multiple countries experi... |
 | **Jul 21, 2026** | [GLOBAL TENSIONS REACH CRITICAL POINT AS MAJOR POWERS CLASH OVER REGIONAL SECURITY](/archive/predictive/2026-07-21-global-tensions-intensified-series) | Global tensions have intensified as a series of high-stakes conflicts and diplomatic exchanges have pushed major powe... |

@@ -14,6 +14,8 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 21, 2026** | [CHINA-US TALKS TO TEST LNG EXPORTS' GLOBAL FUTURE](/archive/grid/2026-09-21-chinaus-talks-to-test-lng) | Monitoring grid substrate for significant momentum shifts. |
+| **Sep 21, 2026** | [CHINA-US TALKS TO TEST LNG EXPORTS' GLOBAL ROLE](/archive/grid/2026-09-21-chinaus-talks-to-test-lng) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 20, 2026** | [US Grid Reliability Under Siege Amid Aging Infrastructure & Rising Cyber Threats.](/archive/grid/2026-09-20-us-grid-reliability-under-siege) | Grid reliability is under increasing pressure due to aging infrastructure and rising outages, as highlighted by recen... |
 | **Sep 20, 2026** | [Interconnection bottlenecks and grid-scale storage backlogs continue to...](/archive/grid/2026-09-20-interconnection-bottlenecks-and-gridscale-storage) | The U.S. interconnection bottleneck persists, with grid-scale storage projects facing severe backlogs despite regulat... |
 | **Sep 19, 2026** | [CHINA REACTS TO US SANCTIONS, GLOBAL ENERGY TRADE AT RISK](/archive/grid/2026-09-19-china-reacts-to-us-sanctions) | Geopolitical tensions are escalating, with China's fury over U.S. sanctions against Russia signaling potential disrup... |
