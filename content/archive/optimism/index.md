@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Aerospace enthusiasts now have the tools to measure distant asteroids with a simple setup, thanks to the phenomenon o... |
 | **Sep 24, 2026** | [ASTEROIDS REVEALED: DIY Rig Unlocks Quantum Secrets](/archive/optimism/2026-09-24-asteroids-revealed-diy-rig-unlocks) | Astronomy enthusiasts can now measure asteroid shadows, revealing critical data about these distant objects without n... |
-| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Amateur astronomers can now contribute to space science with tools as simple as their smartphones, while researchers ... |
 | **Sep 24, 2026** | [New DIY Tools Unlock Scientific Frontiers](/archive/optimism/2026-09-24-new-diy-tools-unlock-scientific) | Amateur astronomers can now detect the fleeting shadows of asteroids, providing insights that professional telescopes... |
 | **Sep 24, 2026** | [Measure distant asteroids and unveil new species](/archive/optimism/2026-09-24-measure-distant-asteroids-and-unveil) | Amateur astronomers can now measure distant asteroids with precision using a DIY rig, aligning with the path of the a... |
 | **Sep 24, 2026** | [ROBOTS UNLOCK ASTEROID DATA & REVOLUTIONIZE GLOBAL EDUCATION](/archive/optimism/2026-09-24-robots-unlock-asteroid-data-revolutionize) | Amateurs can now measure the shadows of asteroids during occultations, providing critical data on these distant objects. |
