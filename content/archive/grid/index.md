@@ -14,9 +14,9 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [ISRAEL-IRAN TENSIONS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-09-24-israeliran-tensions-spark-global-energy) | Geopolitical tensions, particularly the conflict between Israel, Iran, and Hamas, continue to pose significant risks ... |
 | **Sep 24, 2026** | [ISRAEL-IRAN TENSIONS SPARK ENERGY STABILITY RISK](/archive/grid/2026-09-24-israeliran-tensions-spark-energy-stability) | Geopolitical tensions, particularly the conflict between Israel, Iran, and Hamas, continue to pose significant risks ... |
 | **Sep 24, 2026** | [ISRAEL, IRAN, HAMAS TENSIONS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-09-24-israel-iran-hamas-tensions-spark) | Geopolitical tensions in the Middle East, particularly the ongoing conflict between Israel, Iran, and Hamas, are incr... |
-| **Sep 24, 2026** | [ISRAEL-IRAN TENSIONS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-09-24-israeliran-tensions-spark-global-energy) | Geopolitical tensions in the Middle East, particularly the ongoing conflict between Israel, Iran, and Hamas, are incr... |
 | **Sep 24, 2026** | [Geopolitical tensions continue to escalate & Israel facing challenges from...](/archive/grid/2026-09-24-geopolitical-tensions-continue-to-escalate) | Geopolitical tensions, particularly the ongoing conflict between Israel, Iran, and Hamas, are increasingly impacting ... |
 | **Sep 24, 2026** | [ISRAEL'S ENERGY STABILITY UNDER SIEGE AS IRAN TENSIONS ESCALATE](/archive/grid/2026-09-24-israels-energy-stability-under-siege) | Geopolitical tensions, particularly the ongoing conflict between Israel, Iran, and Hamas, are increasingly impacting ... |
 | **Sep 24, 2026** | [ISRAEL-IRAN TENSIONS SPARK GLOBAL ENERGY INFRASTRUCTURE UNCERTAINTY](/archive/grid/2026-09-24-israeliran-tensions-spark-global-energy) | Geopolitical tensions, particularly the ongoing conflict between Israel, Iran, and Hamas, are increasingly impacting ... |
