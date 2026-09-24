@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions. The Ukraine-Russia conflict intensifies with a ceasefi..."
+description: "Predictive News: RUSSIA OFFERS CEASEFIRE AS UKRAINE WAR ESCALATES. The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating milita..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -63,6 +63,13 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/predictive/2026-09-24-russia-proposes-ceasefire-amid-escalating" class="archive-link">RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
@@ -139,13 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-23-russia-proposes-ceasefire-amid-escalating" class="archive-link">RUSSIA Proposes Ceasefire Amid Escalating Ukraine Fighting & International Sanctions</a>
       </div>
       <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 21, 2026</span>
-        <a href="/archive/predictive/2026-09-21-regional-actors-redefine-global-power" class="archive-link">REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY</a>
-      </div>
-      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
     </div>
   </div>
 </div>
