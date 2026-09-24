@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst.... The Ukraine-Russia conflict intensifies with a ceasefire proposal ..."
+description: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS TENSIONS ESCALATE. The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst e..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -63,6 +63,13 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 22, 2026</span>
+        <a href="/archive/predictive/2026-09-22-the-ukrainerussia-conflict-intensifies-a" class="archive-link">The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 21, 2026</span>
@@ -139,13 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-10-us-sanctions-target-iran-yemen" class="archive-link">US Sanctions Target Iran & Yemen Proxies Amid Escalating Middle East Tensions</a>
       </div>
       <div class="archive-preview">Escalating Middle East tensions intensify as U.S. sanctions target Iran and its proxies, including the Houthis in Yemen, amidst...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 07, 2026</span>
-        <a href="/archive/predictive/2026-09-07-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
-      </div>
-      <div class="archive-preview">China's substantial financial infusion into its banking sector signals a strategic economic maneuver amidst escalating tensions in the...</div>
     </div>
   </div>
 </div>
