@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [RUSSIA UKE CEASEFIRE PROPOSAL HITS ROCKY GROUND AS MILITARY ENGAGEMENTS ESCALATE](/archive/predictive/2026-09-24-russia-uke-ceasefire-proposal-hits) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...](/archive/predictive/2026-09-23-the-ukrainerussia-conflict-intensifies-a) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [CEASEFIRE OFFER HITS ROADBLOCK AS RUSSIA, UKRAINE ENGAGE IN DEADLIEST BATTLE YET](/archive/predictive/2026-09-23-ceasefire-offer-hits-roadblock-as) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE](/archive/predictive/2026-09-23-ceasefire-proposal-hits-russia-as) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
