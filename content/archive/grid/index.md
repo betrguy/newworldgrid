@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 23, 2026** | [Middle East Tensions Spark Grid Security Concerns Amid Iran-Israel Conflict](/archive/grid/2026-09-23-middle-east-tensions-spark-grid) | Geopolitical tensions in the Middle East, as highlighted by Israel's internal challenges and the IRGC's demand for US... |
 | **Sep 23, 2026** | [ISRAEL'S ENERGY THREATS ESCALATE AS IRAN CALLS FOR US, ISRAELI WITHDRAWAL](/archive/grid/2026-09-23-israels-energy-threats-escalate-as) | Geopolitical tensions in the Middle East, as highlighted by Israel's internal challenges and the IRGC's demand for US... |
 | **Sep 23, 2026** | [IRGC ISSUES DEMAND FOR US, ISRAELI FORCES TO WITHDRAW FROM MIDDLE EAST](/archive/grid/2026-09-23-irgc-issues-demand-for-us) | Geopolitical tensions in the Middle East, as evidenced by Israel's internal challenges and the ongoing conflict with ... |
 | **Sep 23, 2026** | [IRGC Demands US, Israeli Forces Withdraw from Middle East Amid Escalating Tensions](/archive/grid/2026-09-23-irgc-demands-us-israeli-forces) | Geopolitical tensions in the Middle East, as evidenced by Israel's internal challenges and the ongoing conflict with ... |
