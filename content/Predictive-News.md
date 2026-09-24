@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst.... The Ukraine-Russia conflict intensifies with a ceasefire proposal ..."
+description: "Predictive News: CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY. The Ukraine-Russia conflict intensifies with a ceasefi..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -63,6 +63,13 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 23, 2026</span>
+        <a href="/archive/predictive/2026-09-23-the-ukrainerussia-conflict-intensifies-a" class="archive-link">The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 23, 2026</span>
@@ -139,13 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-17-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
       </div>
       <div class="archive-preview">China's pursuit of strengthened defense relations with Africa is a significant geopolitical shift amidst global tech and AI strategy discussions.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 16, 2026</span>
-        <a href="/archive/predictive/2026-09-16-us-china-mediate-iran-tensions" class="archive-link">US & China Mediate Iran Tensions Amid Escalating Middle East Conflict</a>
-      </div>
-      <div class="archive-preview">US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-backed Houthis, Saudi Arabia shoots down Houthi drone south...</div>
     </div>
   </div>
 </div>
