@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [ASTEROIDS DETECTED WITH DIY EQUIPMENT, REVEALING NEW INSIGHTS INTO QUANTUM MATERIALS](/archive/optimism/2026-09-24-asteroids-detected-with-diy-equipment) | Astronomers can now detect asteroids using simple equipment, thanks to the phenomenon of asteroid occultations. |
 | **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | With amateur astronomers now able to measure distant asteroids through the fleeting shadows of occultations, and rese... |
 | **Sep 24, 2026** | [DIY Breakthroughs Unlock New Human Capabilities](/archive/optimism/2026-09-24-diy-breakthroughs-unlock-new-human) | Now, amateur astronomers can contribute to asteroid research with simple equipment, where precise timing and location... |
 | **Sep 24, 2026** | [AMATEUR ASTRONOMERS UNLOCK NEW INSIGHTS INTO QUANTUM MATERIALS & ASTEROID MEASUREMENT](/archive/optimism/2026-09-24-amateur-astronomers-unlock-new-insights) | With a simple, portable device, amateur astronomers can now measure the fleeting shadows of distant asteroids, provid... |
