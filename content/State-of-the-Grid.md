@@ -1,14 +1,14 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: GRID SUBSTRATE SEEKS MAJOR MOMENTUM SHIFT AS DATA SYNCHRONIZATION NEARS COMPLETE.. Monitoring grid substrate for significant momentum shifts."
+description: "State of the Grid: GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.. Monitoring grid substrate for significant momentum shifts."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 - 12:53</span>
+  <span class="sotg-timestamp">September 24, 2026 - 12:59</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
@@ -19,7 +19,7 @@ A daily shift is taking shape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 3.7, with a 24-hour average of 2.81 and a peak of 4.3, indicating an Active geomagnetic condition. This can increase drag on satellites and cause communication disruptions, especially in polar regions. HF radio communications may fade or blackout, and power grids could experience voltage fluctuations and surges.
+The current geomagnetic condition is Active, with a Kp peak of 4.3, an average of 2.81, and a current Kp value of 3.7. This level of activity can disrupt satellite operations, affecting navigation and communications, and may cause HF radio fading or interruptions. Power grid stability is also at risk, requiring enhanced monitoring and protective measures to prevent outages.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -36,14 +36,7 @@ The current Kp index is 3.7, with a 24-hour average of 2.81 and a peak of 4.3, i
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION REACHES CRITICAL MASS</a>
-      </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION PROGRESSES</a>
+        <a href="/archive/grid/2026-09-24-grid-substrate-seeks-major-momentum" class="archive-link">GRID SUBSTRATE SEEKS MAJOR MOMENTUM SHIFT AS DATA SYNCHRONIZATION NEARS COMPLETE.</a>
       </div>
       <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
     </div>
@@ -116,6 +109,13 @@ The current Kp index is 3.7, with a 24-hour average of 2.81 and a peak of 4.3, i
         <a href="/archive/grid/2026-09-24-israeliran-tensions-spark-energy-infrastructure" class="archive-link">ISRAEL-IRAN TENSIONS SPARK ENERGY INFRASTRUCTURE CHAOS</a>
       </div>
       <div class="archive-preview">Ongoing geopolitical tensions, particularly involving Israel, Iran, and Hamas, continue to reshape regional dynamics and pose challenges...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-ai-surge-drives-data-center" class="archive-link">AI Surge Drives Data Center Power Demand, Strains Global Grids Worldwide</a>
+      </div>
+      <div class="archive-preview">Rapid growth in AI and data centers is putting significant strain on global power grids, necessitating new strategies for energy...</div>
     </div>
   </div>
 </div>
