@@ -1,14 +1,14 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Data Synchronization Sparks Momentum Shifts Amid Global Economic Uncertainty.. Monitoring grid substrate for significant momentum shifts."
+description: "State of the Grid: A daily shift is taking shape.. Monitoring grid substrate for significant momentum shifts."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 - 14:20</span>
+  <span class="sotg-timestamp">September 24, 2026 - 14:27</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
@@ -19,7 +19,7 @@ A daily shift is taking shape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition is Active, with a Kp index of 3.0 (peak 4.3) and an average of 3.0. This level of activity can disrupt satellite operations and HF radio communications, particularly at higher latitudes, and may cause minor fluctuations in power grids, requiring increased monitoring.
+The current 24-hour geomagnetic condition is Active, with a Kp peak of 4.3, average of 3.0, and a 24-hour Kp of 3.0. This activity can cause minor geomagnetic storms, potentially impacting satellites and increasing radiation exposure. HF radio communications may experience brief interruptions, and power grid stability could be affected.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -33,6 +33,13 @@ The current 24-hour geomagnetic condition is Active, with a Kp index of 3.0 (pea
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-data-synchronization-sparks-momentum-shifts" class="archive-link">Data Synchronization Sparks Momentum Shifts Amid Global Economic Uncertainty.</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
@@ -65,13 +72,6 @@ The current 24-hour geomagnetic condition is Active, with a Kp index of 3.0 (pea
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
         <a href="/archive/grid/2026-09-24-grid-substrate-sees-major-momentum" class="archive-link">GRID SUBSTRATE SEES MAJOR MOMENTUM SHIFT AS DATA SYNCHRONIZATION NEARS COMPLETE.</a>
-      </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-a-daily-shift-is-taking" class="archive-link">A daily shift is taking shape.</a>
       </div>
       <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
     </div>
