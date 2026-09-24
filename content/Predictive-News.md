@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions. The Ukraine-Russia conflict intensifies with a ceasefi..."
+description: "Predictive News: The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst.... The Ukraine-Russia conflict intensifies with a ceasefire proposal ..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -66,7 +66,14 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 23, 2026</span>
-        <a href="/archive/predictive/2026-09-23-the-ukrainerussia-conflict-intensifies-a" class="archive-link">The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...</a>
+        <a href="/archive/predictive/2026-09-23-russia-proposes-ceasefire-amid-escalating" class="archive-link">RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 23, 2026</span>
+        <a href="/archive/predictive/2026-09-23-russia-proposes-ceasefire-amid-escalating" class="archive-link">RUSSIA Proposes Ceasefire Amid Escalating Ukraine Fighting & International Sanctions</a>
       </div>
       <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
     </div>
@@ -139,13 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-14-nato-pledges-support-amid-ukraine" class="archive-link">NATO Pledges Support Amid Ukraine De-Escalation Proposal</a>
       </div>
       <div class="archive-preview">A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment to support following Russia's aggressive maneuvers...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 11, 2026</span>
-        <a href="/archive/predictive/2026-09-11-global-power-dynamics-shift-regional" class="archive-link">Global power dynamics shift & Regional actors leverage influence.</a>
-      </div>
-      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
     </div>
   </div>
 </div>
