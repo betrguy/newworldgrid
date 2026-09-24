@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Measure the shadow of distant asteroids with a DIY rig, allowing us to gather data that even the most powerful telesc... |
+| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Amateur astronomers now have tools to discern details about asteroids that even the largest telescopes can't capture,... |
 | **Sep 24, 2026** | [ASTEROIDS DETECTED, QUANTUM FORCES OBSERVED IN DIY LABS](/archive/optimism/2026-09-24-asteroids-detected-quantum-forces-observed) | Amateurs equipped with simple tools can now detect the fleeting shadows of distant asteroids, providing data that eve... |
 | **Sep 24, 2026** | [ASTEROIDS MEASURED, QUANTUM SIMULATOR REVEALS MATTER'S ESSENCE](/archive/optimism/2026-09-24-asteroids-measured-quantum-simulator-reveals) | Scientists have demonstrated that amateur astronomers can accurately measure the fleeting shadows of asteroids, provi... |
 | **Sep 24, 2026** | [ASTEROIDS REVEALED: New DIY Rigs Unlock Cosmic Secrets](/archive/optimism/2026-09-24-asteroids-revealed-new-diy-rigs) | Amateur astronomers now have a new way to measure distant asteroids through DIY rigs, revealing details that even pro... |
