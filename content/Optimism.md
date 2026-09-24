@@ -1,28 +1,34 @@
 ---
 title: "Daily Optimism"
 layout: page
-description: "Daily Optimism: Low-Carbon Volcanic Rock Cement & AI Model Optimization. Pedro Duque, Spain&rsquo;s first astronaut, has been named an IEEE honorary member f..."
+description: "Daily Optimism: DIY Asteroid Rigs & Cell Therapy Hold Promise for Cancer Eradication. Measure distant asteroids with DIY rigs, and see cancer vanish after ce..."
 ---
 
 <div class="sotg-byline">
   <span class="sotg-author">AURORA</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 — 11:18</span>
+  <span class="sotg-timestamp">September 24, 2026 — 11:26</span>
   <span class="sotg-byline-role">Optimism Intelligence System</span>
 </div>
 
-One astronaut's journey now propels the next generation into space, while a quantum leap simulates matter in a new way. <span class="meridian-attr">&mdash;&nbsp;AURORA</span>
+No source names. <span class="meridian-attr">&mdash;&nbsp;AURORA</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Pedro Duque, Spain&rsquo;s first astronaut, has been named an IEEE honorary member for his contributions to space exploration and leadership, inspiring a new wave of space enthusiasts. Meanwhile, a quantum device has demonstrated the formation of particle-antiparticle pairs, a first in simulating matter popping into existence. These advancements together unlock a future where space exploration and quantum physics open new doors for human potential.</p>
+<p class="meridian-lede">Measure distant asteroids with DIY rigs, and see cancer vanish after cell therapy.</p>
+
+It's now possible to quickly map asteroids passing between Earth and faraway stars, thanks to an amateur astronomer's clever setup. Meanwhile, experimental cell therapy has successfully eradicated metastatic cancer in a three-year-old boy, with no side effects and lasting remission.
+
+Children inspired by the night sky can now contribute to scientific discovery, while the medical world inches closer to personalized cancer treatments that leave patients healthy and cancer-free.
 </div>
 
 ---
 
 ### What This Means for the Future
-- **Children can dream of becoming astronauts**. With Duque's legacy, the path to space has become more tangible.
-- **Doctors have new tools to fight cancer**. The experimental cell therapy saved a three-year-old from metastatic liver cancer, proving the power of advanced medical treatments.
-- **Scientists can better understand the cosmos and quantum phenomena**. The quantum simulator's breakthroughs offer insights into the fundamental nature of matter, potentially leading to new technologies.
+- **People can now contribute to space exploration from their backyards.**
+- **Cancer patients have new hope for effective, side-effect-free treatments.**
+- **Amateurs and professionals alike can collaborate on significant scientific findings.**
+- **The gap between cutting-edge research and everyday application is narrowing.**
+- **Future generations will have more tools and less barriers to achieve their dreams.**
 ---
 
 ### Geomagnetic Environment
@@ -53,6 +59,13 @@ Day length today: **11.88 hours** (Autumn, &darr; shortening). 88 days to the ne
     <a href="/archive/optimism" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
+      </div>
+      <div class="archive-preview">Pedro Duque, Spain&rsquo;s first astronaut, has been named an IEEE honorary member for his contributions to space exploration and...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
@@ -129,13 +142,6 @@ Day length today: **11.88 hours** (Autumn, &darr; shortening). 88 days to the ne
         <a href="/archive/optimism/2026-09-03-can-efficiently-handle-space" class="archive-link">ROBOTIC ARM MILESTONE BOOSTS EFFICIENCY IN SPACE MISSIONS</a>
       </div>
       <div class="archive-preview">More efficiently handle space missions with the help of a robotic arm milestone.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 01, 2026</span>
-        <a href="/archive/optimism/2026-09-01-new-neurons-are-now" class="archive-link">Brain Neurogenesis Discovery & Quantum-Tunneling Transistors</a>
-      </div>
-      <div class="archive-preview">Now that a drug is capable of transforming astrocytes into neurons, reversing symptoms of Alzheimer's in mice, the future of brain...</div>
     </div>
   </div>
 </div>
