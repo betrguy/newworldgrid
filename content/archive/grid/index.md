@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 23, 2026** | [US, Israel Face Growing Risks Amid Iran's Escalating Threats & Energy Disruptions](/archive/grid/2026-09-23-us-israel-face-growing-risks) | Continental geopolitical tensions, particularly the ongoing challenges in Israel and the demands by the IRGC for US a... |
 | **Sep 23, 2026** | [US, Israel Face Growing Risks Amid Iran's Escalating Threats & Regional Instability](/archive/grid/2026-09-23-us-israel-face-growing-risks) | Geopolitical tensions, particularly the ongoing challenges in Israel and the demands by the International Revolutiona... |
 | **Sep 23, 2026** | [US, Israel Face Growing Threats Amid Iran's Escalating IRGC Demands](/archive/grid/2026-09-23-us-israel-face-growing-threats) | Geopolitical tensions, particularly the ongoing challenges in Israel and the demands by the International Revolutiona... |
 | **Sep 23, 2026** | [US, Israel Face Growing Threats Amid Iran's Escalating Demands & Regional Instability](/archive/grid/2026-09-23-us-israel-face-growing-threats) | Geopolitical tensions in the Middle East, as evidenced by Israel's internal challenges and the IRGC's demands for US ... |

@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 23, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-23-lowcarbon-volcanic-rock-cement-ai) | Aeronautics engineer Pedro Duque, Spain&rsquo;s first astronaut, has been recognized for his contributions to space e... |
 | **Sep 23, 2026** | [Spaniards can now look to the stars & Their first astronaut](/archive/optimism/2026-09-23-spaniards-can-now-look-to) | With Duque's appointment as an IEEE honorary member, the path between earth and space is not only more accessible but... |
-| **Sep 23, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-23-lowcarbon-volcanic-rock-cement-ai) | With Pedro Duque's recognition as an IEEE honorary member, the dream of space exploration is now more accessible to a... |
 | **Sep 23, 2026** | [New capabilities are emerging today.](/archive/optimism/2026-09-23-new-capabilities-are-emerging-today) | Simulating matter's birth and an astronaut's legacy show how far we've come in harnessing quantum phenomena and space... |
 | **Sep 23, 2026** | [Simulate the mysterious processes of particle creation and see...](/archive/optimism/2026-09-23-simulate-the-mysterious-processes-of) | A quantum device at the Duke Quantum Center has observed string-breaking dynamics related to particle-antiparticle fo... |
 | **Sep 20, 2026** | [AI-POWERED BREAKTHROUGH: 37,000 AGENTS UNITE TO REVOLUTIONIZE DRUG DISCOVERY](/archive/optimism/2026-09-20-aipowered-breakthrough-37000-agents-unite) | The virtual biotech company has harnessed 37,000 AI agents to identify drug candidates, significantly improving trial... |

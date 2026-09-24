@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE. The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst esc..."
+description: "Predictive News: CEASEFIRE OFFER HITS ROADBLOCK AS RUSSIA, UKRAINE ENGAGE IN DEADLIEST BATTLE YET. The Ukraine-Russia conflict intensifies with a ceasefire p..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -63,6 +63,20 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 23, 2026</span>
+        <a href="/archive/predictive/2026-09-23-ceasefire-proposal-hits-russia-as" class="archive-link">CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 23, 2026</span>
+        <a href="/archive/predictive/2026-09-23-ceasefire-proposal-hits-russia-as" class="archive-link">CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 23, 2026</span>
@@ -132,20 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-19-iran-saudi-arabia-israel-tensions" class="archive-link">IRAN, SAUDI ARABIA, ISRAEL TENSIONS ESCALATE AS REGIONAL UNREST INTENSIFIES</a>
       </div>
       <div class="archive-preview">Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests come to the fore amidst regional unrest, while...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 19, 2026</span>
-        <a href="/archive/predictive/2026-09-19-middle-east-tensions-escalate-amid" class="archive-link">Middle East Tensions Escalate Amid Houthi-Saudi Clashes & Israeli Gaza Crisis</a>
-      </div>
-      <div class="archive-preview">A complex geopolitical landscape emerges as regional conflicts intensify with Israel's security alert amidst Houthi-Saudi clashes,...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 17, 2026</span>
-        <a href="/archive/predictive/2026-09-17-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">China's pursuit of strengthened defense relations with Africa is a significant geopolitical shift amidst global tech and AI strategy discussions.</div>
     </div>
   </div>
 </div>
