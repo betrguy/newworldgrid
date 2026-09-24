@@ -1,14 +1,14 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: A daily shift is taking shape.. Monitoring grid substrate for significant momentum shifts."
+description: "State of the Grid: GRID SUBSTRATE SHOWS SIGNIFICANT MOMENTUM SHIFT, DATA SYNCHRONIZATION UNDERWAY. Monitoring grid substrate for significant momentum shifts."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 - 15:00</span>
+  <span class="sotg-timestamp">September 24, 2026 - 15:07</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
@@ -19,7 +19,7 @@ A daily shift is taking shape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic condition is Active, with a Kp peak of 4.3, an average of 3.0, and a 24-hour average of 3.0. This activity may cause minor geomagnetic storms, affecting satellites and increasing radiation exposure risks. HF radio communications and power grid stability could be impacted, though severely.
+The Kp index peaked at 4.3 with a 24-hour average of 3.0 and is currently at 3.0, marking an Active geomagnetic condition. During such conditions, satellites may experience increased drag, requiring orbit adjustments, and HF radio communications and power grid stability can be compromised due to geomagnetically induced currents.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -33,6 +33,13 @@ The current geomagnetic condition is Active, with a Kp peak of 4.3, an average o
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-a-daily-shift-is-taking" class="archive-link">A daily shift is taking shape.</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
@@ -85,13 +92,6 @@ The current geomagnetic condition is Active, with a Kp peak of 4.3, an average o
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-grid-substrate-shows-significant-momentum" class="archive-link">GRID SUBSTRATE SHOWS SIGNIFICANT MOMENTUM SHIFT AMID DATA SYNCHRONIZATION EFFORTS.</a>
-      </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 24, 2026</span>
         <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.</a>
       </div>
       <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
@@ -113,9 +113,9 @@ The current geomagnetic condition is Active, with a Kp peak of 4.3, an average o
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-grid-substrate-shows-significant-momentum" class="archive-link">GRID SUBSTRATE SHOWS SIGNIFICANT MOMENTUM SHIFT AMID GLOBAL ENERGY TRANSITION.</a>
+        <a href="/archive/grid/2026-09-24-israeliran-tensions-spark-global-energy" class="archive-link">ISRAEL-IRAN TENSIONS SPARK GLOBAL ENERGY CHAOS</a>
       </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+      <div class="archive-preview">Global geopolitical tensions, particularly involving Israel, Iran, and the United States, continue to reshape regional dynamics and...</div>
     </div>
   </div>
 </div>
