@@ -1,14 +1,14 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION REACHES CRITICAL MASS.. Monitoring grid substrate for significant momentum shifts."
+description: "State of the Grid: GRID SUBSTRATE SHOWS SIGNIFICANT MOMENTUM SHIFT AMID GLOBAL ENERGY TRANSITION.. Monitoring grid substrate for significant momentum shifts."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 - 12:19</span>
+  <span class="sotg-timestamp">September 24, 2026 - 12:26</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
@@ -19,7 +19,7 @@ A daily shift is taking shape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic condition is Active, with a Kp peak of 4.3, an average of 2.81, and a current Kp index of 3.7. This level of activity can disrupt satellite operations, especially those sensitive to magnetic fields, and may cause HF radio communications to fade or degrade in high-latitude regions. Power grid stability could also be affected, with potential voltage fluctuations and increased risk of electromagnetic interference.
+The current Kp index is 3.7 with a 24-hour average of 2.81 and a peak of 4.3, indicating an Active geomagnetic condition. During Active conditions, satellites may experience increased drag and communication disruptions, HF radio communications can be severely degraded, and power grid stability may be affected, with potential voltage fluctuations requiring increased monitoring.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -33,6 +33,13 @@ The current geomagnetic condition is Active, with a Kp peak of 4.3, an average o
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION REACHES CRITICAL MASS.</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
@@ -109,13 +116,6 @@ The current geomagnetic condition is Active, with a Kp peak of 4.3, an average o
         <a href="/archive/grid/2026-09-23-us-israel-face-growing-risks" class="archive-link">US, Israel Face Growing Risks Amid Iran's Escalating Threats & Regional Instability</a>
       </div>
       <div class="archive-preview">Continental geopolitical tensions, particularly involving Israel, Iran, and the United States, continue to reshape regional dynamics and...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 23, 2026</span>
-        <a href="/archive/grid/2026-09-23-us-israel-face-growing-threats" class="archive-link">US, Israel Face Growing Threats Amid Iran's Escalating IRGC Demands</a>
-      </div>
-      <div class="archive-preview">Global geopolitical tensions, particularly involving Israel, Iran, and the United States, continue to reshape regional dynamics and...</div>
     </div>
   </div>
 </div>

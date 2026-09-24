@@ -14,9 +14,9 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...](/archive/predictive/2026-09-24-the-ukrainerussia-conflict-intensifies-a) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 24, 2026** | [RUSSIA OFFERS CEASEFIRE AS UKRAINE WAR ESCALATES](/archive/predictive/2026-09-24-russia-offers-ceasefire-as-ukraine) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 24, 2026** | [RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions](/archive/predictive/2026-09-24-russia-proposes-ceasefire-amid-escalating) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
-| **Sep 24, 2026** | [The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...](/archive/predictive/2026-09-24-the-ukrainerussia-conflict-intensifies-a) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 24, 2026** | [RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS MILITARY ENGAGEMENTS ESCALATE](/archive/predictive/2026-09-24-russia-uke-ceasefire-offers-hang) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 24, 2026** | [CEASEFIRE HOPES DASHED AS RUSSIA, UKRAINE ENGAGE IN DEADLIEST BATTLE YET](/archive/predictive/2026-09-24-ceasefire-hopes-dashed-as-russia) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 24, 2026** | [RUSSIA UKE CEASEFIRE OFFERS AMID ESCALATING MILITARY ENGAGEMENTS & SANCTIONS](/archive/predictive/2026-09-24-russia-uke-ceasefire-offers-amid) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
