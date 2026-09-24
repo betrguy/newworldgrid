@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Sep 23, 2026** | [The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...](/archive/predictive/2026-09-23-the-ukrainerussia-conflict-intensifies-a) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY](/archive/predictive/2026-09-23-ceasefire-proposal-hits-russia-as) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
+| **Sep 23, 2026** | [The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...](/archive/predictive/2026-09-23-the-ukrainerussia-conflict-intensifies-a) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS MILITARY ENGAGEMENTS ESCALATE](/archive/predictive/2026-09-23-russia-uke-ceasefire-offers-hang) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions](/archive/predictive/2026-09-23-russia-proposes-ceasefire-amid-escalating) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [RUSSIA Proposes Ceasefire Amid Escalating Ukraine Fighting & International Sanctions](/archive/predictive/2026-09-23-russia-proposes-ceasefire-amid-escalating) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
