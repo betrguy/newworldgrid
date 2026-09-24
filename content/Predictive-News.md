@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY. The Ukraine-Russia conflict intensifies with a ceasefi..."
+description: "Predictive News: The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst.... The Ukraine-Russia conflict intensifies with a ceasefire proposal ..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -66,7 +66,7 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 23, 2026</span>
-        <a href="/archive/predictive/2026-09-23-the-ukrainerussia-conflict-intensifies-a" class="archive-link">The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...</a>
+        <a href="/archive/predictive/2026-09-23-ceasefire-proposal-hits-russia-as" class="archive-link">CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY</a>
       </div>
       <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
     </div>
