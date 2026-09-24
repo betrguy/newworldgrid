@@ -1,8 +1,8 @@
 ---
-title: "Predictive News: RUSSIA OFFERS CEASEFIRE AS UKRAINE DEEPENS INTO RUSSIAN-LED OFFENSIVE"
+title: "Predictive News: RUSSIA OFFERS CEASEFIRE AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY"
 date: 2026-09-24
 layout: page
-description: "Predictive News: RUSSIA OFFERS CEASEFIRE AS UKRAINE DEEPENS INTO RUSSIAN-LED OFFENSIVE. The Ukraine-Russia conflict intensifies with a ceasefire proposal ami..."
+description: "Predictive News: RUSSIA OFFERS CEASEFIRE AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY. The Ukraine-Russia conflict intensifies with a ceasefire prop..."
 ---
 
 <!-- ORACLE_BYLINE -->
