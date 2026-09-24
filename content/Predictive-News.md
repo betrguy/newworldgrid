@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: RUSSIA UKE CEASEFIRE PROPOSAL HITS ROCKY GROUND AS MILITARY ENGAGEMENTS ESCALATE. The Ukraine-Russia conflict intensifies with a ceasefire p..."
+description: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS HANG IN THE BALANCE AS MILITARY ENGAGEMENTS ESCALATE. The Ukraine-Russia conflict intensifies with a ceasefire p..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -63,6 +63,13 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/predictive/2026-09-24-russia-uke-ceasefire-proposal-hits" class="archive-link">RUSSIA UKE CEASEFIRE PROPOSAL HITS ROCKY GROUND AS MILITARY ENGAGEMENTS ESCALATE</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 23, 2026</span>
@@ -139,13 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-20-usiran-gulf-maritime-escalation-strategic" class="archive-link">US-Iran Gulf Maritime Escalation & Strategic Defense Alerts</a>
       </div>
       <div class="archive-preview">Iran's recent closure of a French language center amid escalating tensions signals a significant downturn in cultural diplomacy, while...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 20, 2026</span>
-        <a href="/archive/predictive/2026-09-20-usiran-tensions-escalate-amid-looming" class="archive-link">US-Iran Tensions Escalate Amid Looming War Threat Over Iranian Conditions for Talks.</a>
-      </div>
-      <div class="archive-preview">Iranian conditions for talks escalate US-Iran tensions amid looming war threat.</div>
     </div>
   </div>
 </div>
