@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Amateur astronomers can now map asteroid shadows with precision, providing new insights into these celestial bodies. |
+| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Astronomers can now measure distant asteroids with precision using a simple setup, thanks to the phenomenon of astero... |
 | **Sep 24, 2026** | [Groundbreaking Discoveries Unlock Future Tech Potential](/archive/optimism/2026-09-24-groundbreaking-discoveries-unlock-future-tech) | Researchers have discovered a new species of living cat, adding a vibrant new member to the feline family tree, while... |
 | **Sep 24, 2026** | [AMATEUR ASTRONOMERS UNLOCK ASTEROID SECRETS & ROBOTICS REACHES MEXICO'S CLASSROOMS](/archive/optimism/2026-09-24-amateur-astronomers-unlock-asteroid-secrets) | In classrooms across Guadalajara, Mexico, students can now engage with advanced robotics and AI through the portable ... |
 | **Sep 24, 2026** | [ASTEROIDS DETECTED WITH DIY EQUIPMENT, REVEALING NEW INSIGHTS INTO QUANTUM MATERIALS](/archive/optimism/2026-09-24-asteroids-detected-with-diy-equipment) | Astronomers can now detect asteroids using simple equipment, thanks to the phenomenon of asteroid occultations. |
