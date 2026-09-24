@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [Global geopolitical tensions continue to reshape regional alliances and...](/archive/grid/2026-09-24-global-geopolitical-tensions-continue-to) | Geopolitical tensions, particularly the ongoing conflict between Israel, Iran, and Hamas, are increasingly impacting ... |
 | **Sep 24, 2026** | [ISRAEL & IRAN TENSIONS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-09-24-israel-iran-tensions-spark-global) | Geopolitical tensions, particularly the ongoing conflict between Israel, Iran, and Hamas, are increasingly impacting ... |
 | **Sep 24, 2026** | [ISRAEL-IRAN TENSIONS SPARK ENERGY INFRASTRUCTURE CHAOS](/archive/grid/2026-09-24-israeliran-tensions-spark-energy-infrastructure) | Geopolitical tensions in Israel, as evidenced by the denial of settler violence and the detention of an American Isra... |
 | **Sep 24, 2026** | [AI Surge Drives Data Center Power Demand, Strains Global Grids Worldwide](/archive/grid/2026-09-24-ai-surge-drives-data-center) | AI's explosive growth is causing unprecedented data center power demand, straining global grids and necessitating adv... |
