@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 23, 2026** | [ISRAEL UNDER FIRE AS IRAN DEMANDS US & ISRAELI WITHDRAWAL](/archive/grid/2026-09-23-israel-under-fire-as-iran) | Geopolitical tensions, particularly the ongoing conflict between Iran and the United States, continue to pose signifi... |
 | **Sep 23, 2026** | [DATA CENTERS' ELECTRIFYING GROWTH STRAINS GLOBAL POWER GRIDS](/archive/grid/2026-09-23-data-centers-electrifying-growth-strains) | Data center growth is driving up electricity demand, with AI and cloud services expected to consume 20% of global ele... |
 | **Sep 22, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-22-strait-of-hormuz-flow-discrepancies) | How Will This Week’s China-U.S. Meeting Impact LNG Exports? The upcoming bilateral meeting between China and the U.S.... |
 | **Sep 21, 2026** | [CHINA-US TALKS TO TEST LNG EXPORTS' GLOBAL FUTURE](/archive/grid/2026-09-21-chinaus-talks-to-test-lng) | Monitoring grid substrate for significant momentum shifts. |

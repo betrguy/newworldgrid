@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS TENSIONS ESCALATE. The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst e..."
+description: "Predictive News: RUSSIA Proposes Ceasefire Amid Escalating Ukraine Fighting & International Sanctions. The Ukraine-Russia conflict intensifies with a ceasefi..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -63,6 +63,13 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 23, 2026</span>
+        <a href="/archive/predictive/2026-09-23-russia-uke-ceasefire-offers-hang" class="archive-link">RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS TENSIONS ESCALATE</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 22, 2026</span>
@@ -139,13 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-11-global-power-dynamics-shift-regional" class="archive-link">Global power dynamics shift & Regional actors leverage influence.</a>
       </div>
       <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 10, 2026</span>
-        <a href="/archive/predictive/2026-09-10-us-sanctions-target-iran-yemen" class="archive-link">US Sanctions Target Iran & Yemen Proxies Amid Escalating Middle East Tensions</a>
-      </div>
-      <div class="archive-preview">Escalating Middle East tensions intensify as U.S. sanctions target Iran and its proxies, including the Houthis in Yemen, amidst...</div>
     </div>
   </div>
 </div>
