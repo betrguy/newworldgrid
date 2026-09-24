@@ -1,8 +1,8 @@
 ---
-title: "Predictive News: CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE"
+title: "Predictive News: CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY"
 date: 2026-09-24
 layout: page
-description: "Predictive News: CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE. The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst esc..."
+description: "Predictive News: CEASEFIRE PROPOSAL HITS RUSSIA AS UKRAINE ENGAGEMENTS ESCALATE & SANCTIONS INTENSIFY. The Ukraine-Russia conflict intensifies with a ceasefi..."
 ---
 
 <!-- ORACLE_BYLINE -->

@@ -1,14 +1,14 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION REACHES CRITICAL MASS. Monitoring grid substrate for significant momentum shifts."
+description: "State of the Grid: GRID SUBSTRATE SEEKS MAJOR MOMENTUM SHIFT AS DATA SYNCHRONIZATION NEARS COMPLETE.. Monitoring grid substrate for significant momentum shifts."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 - 12:45</span>
+  <span class="sotg-timestamp">September 24, 2026 - 12:53</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
@@ -19,7 +19,7 @@ A daily shift is taking shape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition is Active, with a Kp peak of 4.3, average of 2.81, and a real-time value of 3.7. This activity can disrupt satellite operations and affect navigation and communication systems. HF radio communications may experience fading or signal degradation, especially at higher latitudes, and power grid stability could be compromised, increasing the risk of fluctuations and potential outages.
+The current Kp index is 3.7, with a 24-hour average of 2.81 and a peak of 4.3, indicating an Active geomagnetic condition. This can increase drag on satellites and cause communication disruptions, especially in polar regions. HF radio communications may fade or blackout, and power grids could experience voltage fluctuations and surges.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -33,6 +33,20 @@ The current 24-hour geomagnetic condition is Active, with a Kp peak of 4.3, aver
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION REACHES CRITICAL MASS</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION PROGRESSES</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
@@ -102,20 +116,6 @@ The current 24-hour geomagnetic condition is Active, with a Kp peak of 4.3, aver
         <a href="/archive/grid/2026-09-24-israeliran-tensions-spark-energy-infrastructure" class="archive-link">ISRAEL-IRAN TENSIONS SPARK ENERGY INFRASTRUCTURE CHAOS</a>
       </div>
       <div class="archive-preview">Ongoing geopolitical tensions, particularly involving Israel, Iran, and Hamas, continue to reshape regional dynamics and pose challenges...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-ai-surge-drives-data-center" class="archive-link">AI Surge Drives Data Center Power Demand, Strains Global Grids Worldwide</a>
-      </div>
-      <div class="archive-preview">Rapid growth in AI and data centers is putting significant strain on global power grids, necessitating new strategies for energy...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 23, 2026</span>
-        <a href="/archive/grid/2026-09-23-us-israel-face-growing-risks" class="archive-link">US, Israel Face Growing Risks Amid Iran's Escalating Threats & Energy Disruptions</a>
-      </div>
-      <div class="archive-preview">Global geopolitical tensions, particularly involving Israel, Iran, and the United States, continue to reshape regional dynamics and...</div>
     </div>
   </div>
 </div>
