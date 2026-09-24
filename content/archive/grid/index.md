@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 23, 2026** | [IRGC DEMANDS US, ISRAELI FORCES WITHDRAWAL FROM REGION](/archive/grid/2026-09-23-irgc-demands-us-israeli-forces) | Geopolitical tensions in the Middle East, as evidenced by the ongoing conflict between Iran and the United States, co... |
 | **Sep 23, 2026** | [IRAN DEMANDS US, ISRAELI FORCES WITHDRAWAL FROM REGION](/archive/grid/2026-09-23-iran-demands-us-israeli-forces) | Geopolitical tensions in the Middle East, as evidenced by the ongoing conflict between Iran and the United States, co... |
 | **Sep 23, 2026** | [ISRAEL UNDER FIRE AS IRAN DEMANDS US & ISRAELI WITHDRAWAL](/archive/grid/2026-09-23-israel-under-fire-as-iran) | Geopolitical tensions, particularly the ongoing conflict between Iran and the United States, continue to pose signifi... |
 | **Sep 23, 2026** | [DATA CENTERS' ELECTRIFYING GROWTH STRAINS GLOBAL POWER GRIDS](/archive/grid/2026-09-23-data-centers-electrifying-growth-strains) | Data center growth is driving up electricity demand, with AI and cloud services expected to consume 20% of global ele... |
