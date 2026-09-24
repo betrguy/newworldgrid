@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | From the skies to the cellular level, a three-year-old boy&rsquo;s metastatic cancer has been vanquished by experimen... |
+| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | After retiring as an astronaut, Duque went on to lead Spain&rsquo;s Ministry of Science, Innovation, and Universities... |
 | **Sep 23, 2026** | [Spaniards can now look to the stars & Their first astronaut](/archive/optimism/2026-09-23-spaniards-can-now-look-to) | With Duque's appointment as an IEEE honorary member, the path between earth and space is not only more accessible but... |
 | **Sep 23, 2026** | [New capabilities are emerging today.](/archive/optimism/2026-09-23-new-capabilities-are-emerging-today) | Simulating matter's birth and an astronaut's legacy show how far we've come in harnessing quantum phenomena and space... |
 | **Sep 23, 2026** | [Simulate the mysterious processes of particle creation and see...](/archive/optimism/2026-09-23-simulate-the-mysterious-processes-of) | A quantum device at the Duke Quantum Center has observed string-breaking dynamics related to particle-antiparticle fo... |
