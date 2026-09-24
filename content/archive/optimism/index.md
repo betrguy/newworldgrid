@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Pedro Duque, Spain&rsquo;s first astronaut, has been named an IEEE honorary member for his contributions to space exp... |
 | **Sep 24, 2026** | [Duque's Cosmic Quest Unites Space Exploration & Quantum Breakthroughs](/archive/optimism/2026-09-24-duques-cosmic-quest-unites-space) | Aeronautics engineer Pedro Duque, Spain's first astronaut, has been honored by the IEEE for his contributions to spac... |
-| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | In the realm of quantum physics, researchers have observed string-breaking dynamics on a quantum simulator, a first i... |
 | **Sep 23, 2026** | [Spaniards can now look to the stars & Their first astronaut](/archive/optimism/2026-09-23-spaniards-can-now-look-to) | With Duque's appointment as an IEEE honorary member, the path between earth and space is not only more accessible but... |
 | **Sep 23, 2026** | [New capabilities are emerging today.](/archive/optimism/2026-09-23-new-capabilities-are-emerging-today) | Simulating matter's birth and an astronaut's legacy show how far we've come in harnessing quantum phenomena and space... |
 | **Sep 23, 2026** | [Simulate the mysterious processes of particle creation and see...](/archive/optimism/2026-09-23-simulate-the-mysterious-processes-of) | A quantum device at the Duke Quantum Center has observed string-breaking dynamics related to particle-antiparticle fo... |
