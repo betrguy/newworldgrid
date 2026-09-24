@@ -1,8 +1,8 @@
 ---
-title: "Predictive News: RUSSIA Proposes Ceasefire Amid Escalating Ukraine Fighting & International Sanctions"
+title: "Predictive News: RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions"
 date: 2026-09-24
 layout: page
-description: "Predictive News: RUSSIA Proposes Ceasefire Amid Escalating Ukraine Fighting & International Sanctions. The Ukraine-Russia conflict intensifies with a ceasefi..."
+description: "Predictive News: RUSSIA Proposes Ceasefire Amid Escalating Ukraine Conflict & International Sanctions. The Ukraine-Russia conflict intensifies with a ceasefi..."
 ---
 
 <!-- ORACLE_BYLINE -->
