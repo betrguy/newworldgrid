@@ -1,14 +1,14 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS COMPLETE.. Monitoring grid substrate for significant momentum shifts."
+description: "State of the Grid: A daily shift is taking shape.. Monitoring grid substrate for significant momentum shifts."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 - 18:45</span>
+  <span class="sotg-timestamp">September 24, 2026 - 18:56</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
@@ -19,7 +19,7 @@ A daily shift is taking shape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 2.0, with a 24-hour average of 3.05 and a peak of 4.3, indicating an "Active" geomagnetic condition. This can lead to increased drag and radiation exposure for satellites, necessitating operational adjustments. HF radio communications may be disrupted, impacting shortwave radio and certain navigation systems. Power grid stability could also be affected, with potential voltage fluctuations requiring increased monitoring.
+The current geomagnetic condition is Active, with a Kp peak of 4.3, an average of 3.05, and a current Kp index of 2.0. This level of activity can disrupt satellite operations, especially for those sensitive to magnetic fields, and may cause HF radio communications to fade or fail in high-latitude regions. Power grid stability is also at risk, with potential voltage fluctuations and increased equipment damage.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -33,6 +33,20 @@ The current Kp index is 2.0, with a 24-hour average of 3.05 and a peak of 4.3, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS COMPLETE.</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 24, 2026</span>
+        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION REACHES CRITICAL MASS</a>
+      </div>
+      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
@@ -71,13 +85,6 @@ The current Kp index is 2.0, with a 24-hour average of 3.05 and a peak of 4.3, i
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-a-daily-shift-is-taking" class="archive-link">A daily shift is taking shape.</a>
-      </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 24, 2026</span>
         <a href="/archive/grid/2026-09-24-data-synchronization-sparks-momentum-shift" class="archive-link">Data Synchronization Sparks Momentum Shift Amid Global Economic Uncertainty.</a>
       </div>
       <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
@@ -106,14 +113,7 @@ The current Kp index is 2.0, with a 24-hour average of 3.05 and a peak of 4.3, i
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-grid-substrate-shifts-into-highgear" class="archive-link">GRID SUBSTRATE SHIFTS INTO HIGH-GEAR AMID DATA SYNCHRONIZATION BREAKTHROUGH.</a>
-      </div>
-      <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/grid/2026-09-24-grid-substrate-shows-significant-momentum" class="archive-link">GRID SUBSTRATE SHOWS SIGNIFICANT MOMENTUM SHIFT, DATA SYNCHRONIZATION UNDERWAY</a>
+        <a href="/archive/grid/2026-09-24-grid-shift-takes-shape-as" class="archive-link">GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.</a>
       </div>
       <div class="archive-preview">Monitoring grid substrate for significant momentum shifts.</div>
     </div>
