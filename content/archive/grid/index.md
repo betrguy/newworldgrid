@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 23, 2026** | [IRGC ISSUES DEMAND FOR US, ISRAELI FORCES TO WITHDRAW FROM MIDDLE EAST](/archive/grid/2026-09-23-irgc-issues-demand-for-us) | Geopolitical tensions in the Middle East, as evidenced by Israel's internal challenges and the ongoing conflict with ... |
 | **Sep 23, 2026** | [IRGC Demands US, Israeli Forces Withdraw from Middle East Amid Escalating Tensions](/archive/grid/2026-09-23-irgc-demands-us-israeli-forces) | Geopolitical tensions in the Middle East, as evidenced by Israel's internal challenges and the ongoing conflict with ... |
 | **Sep 23, 2026** | [IRGC DEMANDS US, ISRAELI WITHDRAWAL FROM MIDDLE EAST](/archive/grid/2026-09-23-irgc-demands-us-israeli-withdrawal) | Geopolitical tensions in the Middle East, as evidenced by Israel's internal challenges and the ongoing conflict with ... |
 | **Sep 23, 2026** | [IRAN DEMANDS US, ISRAELI FORCES WITHDRAWAL FROM REGION](/archive/grid/2026-09-23-iran-demands-us-israeli-forces) | Geopolitical tensions in the Middle East, as evidenced by the ongoing conflict between Iran and the United States, co... |

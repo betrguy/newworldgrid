@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS MILITARY ENGAGEMENTS ESCALATE. The Ukraine-Russia conflict intensifies with a ceasefire propo..."
+description: "Predictive News: The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst.... The Ukraine-Russia conflict intensifies with a ceasefire proposal ..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -66,7 +66,7 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 23, 2026</span>
-        <a href="/archive/predictive/2026-09-23-the-ukrainerussia-conflict-intensifies-a" class="archive-link">The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...</a>
+        <a href="/archive/predictive/2026-09-23-russia-uke-ceasefire-offers-hang" class="archive-link">RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS MILITARY ENGAGEMENTS ESCALATE</a>
       </div>
       <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
     </div>
@@ -81,6 +81,13 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
       <div class="archive-item-header">
         <span class="archive-date">Sep 23, 2026</span>
         <a href="/archive/predictive/2026-09-23-russia-proposes-ceasefire-amid-escalating" class="archive-link">RUSSIA Proposes Ceasefire Amid Escalating Ukraine Fighting & International Sanctions</a>
+      </div>
+      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 23, 2026</span>
+        <a href="/archive/predictive/2026-09-23-russia-uke-ceasefire-offers-hang" class="archive-link">RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS TENSIONS ESCALATE</a>
       </div>
       <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
     </div>
@@ -139,13 +146,6 @@ The Ukrainian community in Tampa advocated for Russian sanctions in Washington D
         <a href="/archive/predictive/2026-09-16-us-china-mediate-iran-tensions" class="archive-link">US & China Mediate Iran Tensions Amid Escalating Middle East Conflict</a>
       </div>
       <div class="archive-preview">US-Iran tensions escalate as China mediates talks, Gulf States confront Iran-backed Houthis, Saudi Arabia shoots down Houthi drone south...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 14, 2026</span>
-        <a href="/archive/predictive/2026-09-14-nato-pledges-support-amid-ukraine" class="archive-link">NATO Pledges Support Amid Ukraine De-Escalation Proposal</a>
-      </div>
-      <div class="archive-preview">A notable de-escalation proposal by Ukraine's leader meets with NATO's commitment to support following Russia's aggressive maneuvers...</div>
     </div>
   </div>
 </div>
