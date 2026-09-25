@@ -14,10 +14,10 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Amateur astronomers can now discern details about asteroids through DIY setups, thanks to the predictable shadows the... |
 | **Sep 24, 2026** | [ASTEROIDS REVEAL HIDDEN QUANTUM SECRETS](/archive/optimism/2026-09-24-asteroids-reveal-hidden-quantum-secrets) | Scientists have harnessed the natural shadow cast by asteroids to gather data that even large telescopes can't captur... |
 | **Sep 24, 2026** | [DIY TOOLS REVOLUTIONIZE SCIENCE](/archive/optimism/2026-09-24-diy-tools-revolutionize-science) | Amateur astronomers can now map distant asteroids with unprecedented accuracy, while physicists can explore the intri... |
 | **Sep 24, 2026** | [ASTEROIDS REVEAL QUANTUM SECRETS: Citizen Scientists Unlock New Insights](/archive/optimism/2026-09-24-asteroids-reveal-quantum-secrets-citizen) | Scientists have discovered a method for amateur astronomers to measure the fleeting shadows of distant asteroids, pro... |
-| **Sep 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-24-lowcarbon-volcanic-rock-cement-ai) | Aerospace enthusiasts now have the tools to measure distant asteroids with a simple setup, thanks to the phenomenon o... |
 | **Sep 24, 2026** | [ASTEROIDS REVEALED: DIY Rig Unlocks Quantum Secrets](/archive/optimism/2026-09-24-asteroids-revealed-diy-rig-unlocks) | Astronomy enthusiasts can now measure asteroid shadows, revealing critical data about these distant objects without n... |
 | **Sep 24, 2026** | [New DIY Tools Unlock Scientific Frontiers](/archive/optimism/2026-09-24-new-diy-tools-unlock-scientific) | Amateur astronomers can now detect the fleeting shadows of asteroids, providing insights that professional telescopes... |
 | **Sep 24, 2026** | [Measure distant asteroids and unveil new species](/archive/optimism/2026-09-24-measure-distant-asteroids-and-unveil) | Amateur astronomers can now measure distant asteroids with precision using a DIY rig, aligning with the path of the a... |
