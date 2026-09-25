@@ -9,7 +9,7 @@ description: "State of the Grid: A daily shift is taking shape.. Monitoring grid
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 24, 2026 - 18:56</span>
+  <span class="sotg-timestamp">September 24, 2026 - 20:34</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
@@ -20,6 +20,6 @@ A daily shift is taking shape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic condition is Active, with a Kp peak of 4.3, an average of 3.05, and a current Kp index of 2.0. This level of activity can disrupt satellite operations, especially for those sensitive to magnetic fields, and may cause HF radio communications to fade or fail in high-latitude regions. Power grid stability is also at risk, with potential voltage fluctuations and increased equipment damage.
+The current Kp index is 2.7, with a 24-hour average of 3.0 and a peak of 4.3, indicating an Active geomagnetic condition. During such conditions, satellites may experience increased drag and radiation, affecting their orbits and operations. HF radio communications can be disrupted, and power grid stability may be compromised, with increased risk of voltage fluctuations and equipment damage.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
