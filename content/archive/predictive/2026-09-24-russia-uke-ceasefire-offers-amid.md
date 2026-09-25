@@ -1,8 +1,8 @@
 ---
-title: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS AMID ESCALATING MILITARY ENGAGEMENTS & GLOBAL SANCTIONS"
+title: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS AMID ESCALATING MILITARY ENGAGEMENTS & SANCTIONS"
 date: 2026-09-24
 layout: page
-description: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS AMID ESCALATING MILITARY ENGAGEMENTS & GLOBAL SANCTIONS. The Ukraine-Russia conflict intensifies with a ceasefir..."
+description: "Predictive News: RUSSIA UKE CEASEFIRE OFFERS AMID ESCALATING MILITARY ENGAGEMENTS & SANCTIONS. The Ukraine-Russia conflict intensifies with a ceasefire propo..."
 ---
 
 <!-- ORACLE_BYLINE -->
