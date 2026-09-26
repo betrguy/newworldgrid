@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-22 08:02 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-09-26 15:30 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,195 +51,152 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Macron discusses Ukraine-Russia energy truce with Trump, Russia's military losses reported, Putin consolidates power, Ukraine escalates.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Macron",
-      "Trump",
-      "Putin",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 5,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia gains parliamentary dominance; EU, US face sanctions, energy ceasefire talks, and intelligence warnings.",
-    "emojis": "⚔️🚫🕊️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "EU",
-      "US"
-    ],
-    "source_count": 15,
-    "timestamp": "08:01 AM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Continued tension and violence in Israel-Palestine; US maintains strong support for Israel amidst controversy.",
-    "emojis": "⚡",
+    "summary": "Irish player leaves team as remaining players vote to play Israel games amid pre",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Palestine",
-      "United States"
+      "google_geopolitics",
+      "google_israel"
     ],
-    "source_count": 32,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "American Israeli held by Hamas sings survival songs",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "American Israeli",
-      "Hamas"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions escalate; Iran seeks UN summit amid global economic impact",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran",
-      "UN"
-    ],
-    "source_count": 43,
-    "timestamp": "08:01 AM"
+    "source_count": 38,
+    "timestamp": "03:29 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "CNN, MS NOW, Politico sue Trump over White House TV coverage ban.",
+    "summary": "White House bars CNN from travelling with Trump on Air Force One",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "CNN",
-      "MS NOW",
-      "Politico",
-      "Trump"
+      "bbc_world"
     ],
-    "source_count": 5,
-    "timestamp": "08:01 AM"
+    "source_count": 1,
+    "timestamp": "03:30 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "At UN, Russia Backs India's Bid For Permanent Security Council Seat - NDTV",
+    "emojis": "⚔️📈",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 20,
+    "timestamp": "03:30 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Zelensky Says Russia Shows No Readiness to End the War as Ukraine and Allies Pla",
+    "emojis": "🪖⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 16,
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Ro Khanna urges US-China to agree on AI safety; China expels two generals over corruption.",
-    "emojis": "🪖",
+    "summary": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi vi",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Ro Khanna",
-      "China"
+      "google_china"
     ],
-    "source_count": 26,
-    "timestamp": "08:01 AM"
+    "source_count": 25,
+    "timestamp": "03:30 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Talarico calls for fuel-tax break, end to Iran war in push to cut Texans' costs ",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "google_russia",
+      "google_iran",
+      "bbc_world"
+    ],
+    "source_count": 43,
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Trump and Mamdani enjoyed a warm meeting in New York.",
-    "emojis": "⚔️",
+    "summary": "Nor'easter storm brings coastal flooding, as New York and New Jersey declare eme",
+    "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "Trump",
-      "Mamdani"
+      "axios",
+      "bbc_world"
     ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
+    "source_count": 2,
+    "timestamp": "03:30 PM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Senator Shaheen warns Trump over Taiwan ahead of Xi talks",
-    "emojis": "⚔️",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: FRANCE",
+    "summary": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Par",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
     "actors": [
-      "Senator Shaheen",
-      "President Trump"
+      "bbc_world"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "03:30 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Air traffic control issues and Rwanda genocide charges",
-    "emojis": "",
+    "summary": "Can AION UT Turn UK Chinese EV Curiosity Into British Brand Loyalty? - Forbes",
+    "emojis": "💀💥",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK Airlines",
-      "Dr Vincent Brown"
+      "google_ev",
+      "bbc_world"
     ],
     "source_count": 2,
-    "timestamp": "08:01 AM"
+    "timestamp": "03:30 PM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "Middle East tensions drive Florida gas prices to their highest since May, Chinese nationals intercepted near Florida coast.",
-    "emojis": "⚡",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "Middle East",
-      "Chinese nationals"
-    ],
-    "source_count": 2,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Christine Fang's family supports California's EV expansion and oil reduction",
+    "title": "SITREP: GAZA",
+    "summary": "Israeli gunfire kills child in Gaza - Middle East Eye",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Christine Fang's family",
-      "California State Port",
-      "California politicians"
+      "google_middle_east"
     ],
     "source_count": 2,
-    "timestamp": "08:02 AM"
+    "timestamp": "03:30 PM"
   },
   {
-    "title": "SITREP: SYRIA",
-    "summary": "Syria probes Israeli involvement in explosives at weapons depot.",
-    "emojis": "💥",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
+    "title": "SITREP: GERMANY",
+    "summary": "German town bans 'stumbling stone' memorials to Nazi victims",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "Syria",
-      "Israel"
+      "bbc_world"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "03:30 PM"
   }
 ];
 
