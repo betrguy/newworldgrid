@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 26, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-09-26-lowcarbon-volcanic-rock-cement-ai) | Data center electricity demand, driven by AI and hyperscale operations, is projected to account for 20% of global ele... |
 | **Sep 24, 2026** | [GRID SUBSTRATE SEEKS MAJOR MOMENTUM SHIFT AS DATA SYNCHRONIZATION NEARS COMPLETE.](/archive/grid/2026-09-24-grid-substrate-seeks-major-momentum) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 24, 2026** | [A daily shift is taking shape.](/archive/grid/2026-09-24-a-daily-shift-is-taking) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 24, 2026** | [GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.](/archive/grid/2026-09-24-grid-shift-takes-shape-as) | Monitoring grid substrate for significant momentum shifts. |
@@ -67,7 +68,6 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 | **Sep 19, 2026** | [CHINA REACTS TO US SANCTIONS, GLOBAL ENERGY TRADE AT RISK](/archive/grid/2026-09-19-china-reacts-to-us-sanctions) | Geopolitical tensions are escalating, with China's fury over U.S. sanctions against Russia signaling potential disrup... |
 | **Sep 19, 2026** | [CHINA, US SANCTIONS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-09-19-china-us-sanctions-spark-global) | China's fury over U.S. sanctions against Russia underscores the escalating geopolitical tensions that could disrupt g... |
 | **Sep 18, 2026** | [AI Power Surge Threatens US Grid by 2030](/archive/grid/2026-09-18-ai-power-surge-threatens-us) | The U.S. data center industry is facing a new challenge with 'time-to-power' becoming the primary constraint for AI d... |
-| **Sep 17, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-09-17-lowcarbon-volcanic-rock-cement-ai) | Paragraph 1: The U.S. House's passage of sanctions against Russia and India signals escalating geopolitical tensions ... |
 | **Sep 16, 2026** | [RUSSIA SANCTIONS LOOM OVER GLOBAL ENERGY MARKETS](/archive/grid/2026-09-16-russia-sanctions-loom-over-global) | The geopolitical landscape continues to exert pressure on global energy systems, with the U.S. |
 | **Sep 14, 2026** | [AI-driven data center growth is straining global grids & Particularly in...](/archive/grid/2026-09-14-aidriven-data-center-growth-is) | The U.S.-China AI War has Kazakhstan caught in the crossfire, potentially disrupting crude oil supplies, a key fuel f... |
 | **Sep 11, 2026** | [A new way to monitor methane from abandoned wells.](/archive/grid/2026-09-11-a-new-way-to-monitor) | Monitoring grid substrate for significant momentum shifts. |
