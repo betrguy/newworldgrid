@@ -14,7 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Sep 26, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-26-strait-of-hormuz-flow-discrepancies) | Geopolitical tensions between the United States and Iran continue to escalate, with President Trump rejecting a seven... |
+| **Sep 27, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-27-strait-of-hormuz-flow-discrepancies) | Geopolitical tensions between the United States and Iran continue to escalate, with President Trump rejecting a seven... |
 | **Sep 26, 2026** | [TRUMP REJECTS IRAN CEASEFIRE, PRESERVES NUCLEAR DETERRENCE](/archive/grid/2026-09-26-trump-rejects-iran-ceasefire-preserves) | Trump reiterates Iran can not have a nuclear weapon as prez rejects regimes seven-day ceasefire proposal. |
 | **Sep 26, 2026** | [Data Synchronization Drives Daily Momentum Shifts.](/archive/grid/2026-09-26-data-synchronization-drives-daily-momentum) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 26, 2026** | [GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.](/archive/grid/2026-09-26-grid-shift-takes-shape-as) | Monitoring grid substrate for significant momentum shifts. |

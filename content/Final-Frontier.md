@@ -8,26 +8,26 @@ description: "Final Frontier: Low-Carbon Volcanic Rock Cement & AI Model Optimiz
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 26, 2026 - 21:00</span>
+  <span class="sotg-timestamp">September 27, 2026 - 10:40</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-Xi's visit brought coal deals and tariff discussions to the forefront, while EV owners in Pittsburgh face fluctuating charging rates that complicate grid development efforts. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Xi's visit brought coal deals and tariff discussions to the forefront, while EV owners in Pittsburgh face fluctuating charging costs, highlighting the complexities of orbital economy and grid development. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 ### **The High Ground**
 
-China is enhancing its orbital infrastructure, as reported by Politico. During President Xi’s visit, discussions included coal deals and tariff talks, alongside advancements in space technology. Additionally, Chinese scientists claim that the BeiDou navigation system was refueled in orbit, according to the South China Morning Post. These developments indicate growing capabilities in space-based operations, supporting the orbital economy through improved satellite longevity and efficiency.
+China’s recent visit with President Xi included discussions on coal deals and tariffs, but the focus on space tech advancements was notable. According to Politico, the BeiDou navigation system was refueled in orbit, enhancing its longevity and efficiency. This development supports China’s growing capabilities in space-based operations and contributes to the orbital economy by improving satellite performance and reliability.
 
 ### **The EV Race**
 
-Pittsburgh EV owners are experiencing a significant change in charging costs this week. According to a report from The Cool Down, an overnight charging rate of 8 cents per kWh has increased to peak rates of 35 cents per kWh. This change could affect charging behavior and cost management for EV users in the region. Grid operators will need to monitor these changes to ensure stable energy supply and manage peak demand more effectively.
+Pittsburgh EV owners are experiencing higher charging costs this week, as overnight rates that used to cost 8 cents per kWh have increased to 35 cents per kWh during peak times, according to The Cool Down. This sudden increase could shift charging behavior and impact cost management. Grid operators will need to manage peak demand more effectively to ensure a stable energy supply.
 
 *What follows is purely a thought experiment.*
 
-Imagine it’s 2036, and a small, seemingly inconsequential change in the price of coal has rippled through the global economy. The Xi visit to a major coal-producing country led to a temporary tariff agreement, but the deal left many unresolved issues. Fast forward to today, and a curious scenario has emerged. Due to the fluctuating coal prices, a company specializing in small satellite refueling—let’s call it Orbital Oasis—has seen a dramatic shift in its business model. Instead of focusing solely on refueling communications satellites, Orbital Oasis has begun offering a service to national space agencies and private orbital infrastructure firms. They propose a service: refueling in orbit isn’t just about extending the life of satellites; it can also be used to transfer critical materials, like coal, between orbiting platforms. This practice, dubbed "Orbital Resupply," has become a new front in the space economy, challenging traditional supply chains and logistics. As a result, strategic alliances between energy companies and orbital infrastructure providers are forming, creating a new layer of complexity in the space race.
+Imagine a future where SpaceX, already a dominant player in the orbital economy, faces a sudden shift in its mission. In 2036, following a series of geopolitical tensions and economic pressures, SpaceX decides to pivot entirely away from commercial launches and instead focuses on developing a new class of spacecraft designed specifically for transporting cargo and personnel between Earth and the Moon. This move, initially seen as a strategic retreat, turns out to be a clever gambit. The company begins to lease its lunar-capable vehicles to the Chinese National Space Administration (CNSA) for use in resupplying its newly established lunar research stations. This unexpected alliance not only revitalizes SpaceX’s financial health but also aligns with the CNSA’s long-term goals of lunar exploration and resource extraction. The outcome? A significant increase in the value of lunar real estate, driven by the influx of Chinese and American astronauts, scientists, and equipment. This unexpected cooperation could redefine the balance of power in the lunar economy, with implications that extend far beyond the Moon, influencing global space policy and trade relations for decades to come.
 
 <!-- /FRONTIER_ENGINE_END -->
 
