@@ -14,11 +14,11 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 27, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-09-27-lowcarbon-volcanic-rock-cement-ai) | Geopolitical tensions between the United States and Russia have intensified, with Russia claiming strikes on Ukrainia... |
 | **Sep 27, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-27-strait-of-hormuz-flow-discrepancies) | Geopolitical tensions between the United States and Iran continue to escalate, with President Trump rejecting a seven... |
 | **Sep 26, 2026** | [TRUMP REJECTS IRAN CEASEFIRE, PRESERVES NUCLEAR DETERRENCE](/archive/grid/2026-09-26-trump-rejects-iran-ceasefire-preserves) | Trump reiterates Iran can not have a nuclear weapon as prez rejects regimes seven-day ceasefire proposal. |
 | **Sep 26, 2026** | [Data Synchronization Drives Daily Momentum Shifts.](/archive/grid/2026-09-26-data-synchronization-drives-daily-momentum) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 26, 2026** | [GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.](/archive/grid/2026-09-26-grid-shift-takes-shape-as) | Monitoring grid substrate for significant momentum shifts. |
-| **Sep 26, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-09-26-lowcarbon-volcanic-rock-cement-ai) | Data center electricity demand, driven by AI and hyperscale operations, is projected to account for 20% of global ele... |
 | **Sep 24, 2026** | [GRID SUBSTRATE SEEKS MAJOR MOMENTUM SHIFT AS DATA SYNCHRONIZATION NEARS COMPLETE.](/archive/grid/2026-09-24-grid-substrate-seeks-major-momentum) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 24, 2026** | [A daily shift is taking shape.](/archive/grid/2026-09-24-a-daily-shift-is-taking) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 24, 2026** | [GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION PROGRESSES.](/archive/grid/2026-09-24-grid-shift-takes-shape-as) | Monitoring grid substrate for significant momentum shifts. |
