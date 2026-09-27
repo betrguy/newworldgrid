@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 26, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-26-strait-of-hormuz-flow-discrepancies) | Geopolitical tensions between the United States and Iran continue to escalate, with President Trump rejecting a seven... |
 | **Sep 26, 2026** | [TRUMP REJECTS IRAN CEASEFIRE, PRESERVES NUCLEAR DETERRENCE](/archive/grid/2026-09-26-trump-rejects-iran-ceasefire-preserves) | Trump reiterates Iran can not have a nuclear weapon as prez rejects regimes seven-day ceasefire proposal. |
 | **Sep 26, 2026** | [Data Synchronization Drives Daily Momentum Shifts.](/archive/grid/2026-09-26-data-synchronization-drives-daily-momentum) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 26, 2026** | [GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.](/archive/grid/2026-09-26-grid-shift-takes-shape-as) | Monitoring grid substrate for significant momentum shifts. |
@@ -61,7 +62,6 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 | **Sep 23, 2026** | [IRGC DEMANDS US, ISRAELI FORCES WITHDRAWAL FROM REGION](/archive/grid/2026-09-23-irgc-demands-us-israeli-forces) | Geopolitical tensions in the Middle East, as evidenced by the ongoing conflict between Iran and the United States, co... |
 | **Sep 23, 2026** | [ISRAEL UNDER FIRE AS IRAN DEMANDS US & ISRAELI WITHDRAWAL](/archive/grid/2026-09-23-israel-under-fire-as-iran) | Geopolitical tensions, particularly the ongoing conflict between Iran and the United States, continue to pose signifi... |
 | **Sep 23, 2026** | [DATA CENTERS' ELECTRIFYING GROWTH STRAINS GLOBAL POWER GRIDS](/archive/grid/2026-09-23-data-centers-electrifying-growth-strains) | Data center growth is driving up electricity demand, with AI and cloud services expected to consume 20% of global ele... |
-| **Sep 22, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-22-strait-of-hormuz-flow-discrepancies) | How Will This Week’s China-U.S. Meeting Impact LNG Exports? The upcoming bilateral meeting between China and the U.S.... |
 | **Sep 21, 2026** | [CHINA-US TALKS TO TEST LNG EXPORTS' GLOBAL FUTURE](/archive/grid/2026-09-21-chinaus-talks-to-test-lng) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 21, 2026** | [CHINA-US TALKS TO TEST LNG EXPORTS' GLOBAL ROLE](/archive/grid/2026-09-21-chinaus-talks-to-test-lng) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 20, 2026** | [US Grid Reliability Under Siege Amid Aging Infrastructure & Rising Cyber Threats.](/archive/grid/2026-09-20-us-grid-reliability-under-siege) | Grid reliability is under increasing pressure due to aging infrastructure and rising outages, as highlighted by recen... |
