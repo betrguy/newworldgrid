@@ -1,33 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Low-Carbon Volcanic Rock Cement & AI Model Optimization. Geopolitical tensions between the United States and Russia have intensified, with..."
+description: "State of the Grid: Low-Carbon Volcanic Rock Cement & AI Model Optimization. Paragraph 1: Geopolitical tensions between the United States and Russia have esca..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 27, 2026 - 18:08</span>
+  <span class="sotg-timestamp">September 28, 2026 - 19:44</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Data center growth is driving up electricity demand, raising concerns for global grid stability and infrastructure capacity. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Heat-resistant silicon carbide transistors, fabricated on 6-inch wafers, are advancing towards practical applications, signaling a significant shift in compute load capabilities for extreme environments. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Geopolitical tensions between the United States and Russia have intensified, with Russia claiming strikes on Ukrainian military infrastructure. These actions could exacerbate regional instability, potentially affecting energy transit routes and defense readiness. Simultaneously, data centers are driving up electricity demand, with AI centers expected to account for 20% of global electricity demand by 2030-2035. This surge poses significant challenges for grid stability, particularly for utilities like Dominion Energy, which must ensure reliable power supply amidst growing demand and infrastructure stress.</p>
+<p class="meridian-lede">Paragraph 1: Geopolitical tensions between the United States and Russia have escalated, with Russia claiming strikes on Ukrainian military infrastructure. These actions underscore the vulnerability of regional energy transit routes, potentially disrupting supply chains and affecting defense readiness. The ongoing conflict could lead to increased uncertainty in energy markets, impacting the reliability of power supplies in Europe and beyond.</p>
+
+Paragraph 2: The fabrication of heat-resistant silicon carbide transistors on 6-inch wafers marks a significant step towards practical application in extreme environments. This technological advancement is crucial for enhancing the robustness of power electronics in data centers, particularly those supporting AI and machine learning workloads. As these centers drive up electricity demand, utilities such as Dominion Energy must adapt by investing in new generation, demand response, and transmission infrastructure to ensure grid stability amidst growing energy consumption.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The conflict between the US and Russia could disrupt energy transit routes, impacting global energy markets and defense readiness.</li>
-  <li><strong>The big picture:</strong> This tension highlights the interdependence of geopolitical stability and technological advancement, particularly in energy and technology sectors.</li>
-  <li><strong>What to watch:</strong> Grid stability and potential blackouts in regions heavily reliant on data centers and AI infrastructure.</li>
+  <li><strong>Why it matters:</strong> The conflict between the U.S. and Russia threatens energy supply chains, impacting defense readiness and energy markets.</li>
+  <li><strong>The big picture:</strong> This tension could lead to broader geopolitical instability, affecting global energy security and economic stability.</li>
+  <li><strong>What to watch:</strong> Monitoring how utilities like Dominion Energy adapt to increased energy demands in data centers supporting AI and machine learning.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 0.3, with a 24-hour average of 1.81 and a peak of 4.0, indicating an Active geomagnetic condition. During Active conditions, satellite operations may experience minor disruptions, and HF radio communications can be affected, especially over higher latitudes. Power grid stability is generally maintained, but utilities may implement monitoring and precautionary measures to ensure reliability.
+The current geomagnetic condition is Quiet, with a Kp peak of 1.7, a 24-hour average of 1.1, and a current Kp index of 1.0. During Quiet conditions, satellite operations and power grid stability remain unaffected, though HF radio communications may experience minor interference.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 

@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-27 18:09 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-09-28 19:45 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,193 +51,161 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "Iran rejects US proposal, capturing 2 US submarines; Trump urges talks, economy crisis looms.",
+    "emojis": "🚢",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "Trump"
+    ],
+    "source_count": 29,
+    "timestamp": "07:44 PM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel revokes Dutch diplomats' credentials over West Bank goods ban",
-    "emojis": "",
+    "summary": "Israel's finance minister demands E1 settlement tender; Haredi protests and Netanyahu protests.",
+    "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Netherlands",
-      "Dutch Diplomats"
+      "Israel's finance minister",
+      "Haredi community",
+      "Netanyahu"
     ],
-    "source_count": 51,
-    "timestamp": "06:08 PM"
+    "source_count": 25,
+    "timestamp": "07:44 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Mixed international relations; KMT says anti-China ineffective; Trump offers weapons sale; FDA crackdown urged; giant pandas arrive in Atlanta; Singapore-China lead global education.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Unknown"
+    ],
+    "source_count": 7,
+    "timestamp": "07:44 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Geopolitical events and oil prices influence Indian markets this week.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Geopolitical events",
+      "Oil prices"
+    ],
+    "source_count": 1,
+    "timestamp": "07:44 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "AOC contemplates 2028 Senate run; Israeli operation kills Oct. 7 terrorist.",
+    "summary": "AOC considers Senate bid; terrorist kills Israeli kidnapper.",
     "emojis": "💀🔺",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "Alexandria Ocasio-Cortez",
-      "Israeli operation",
-      "Oct. 7 terrorist"
+      "terrorist",
+      "Noa Argamani"
     ],
     "source_count": 2,
-    "timestamp": "06:08 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "5 men arrested near UK airbase linked to US-Iran war.",
-    "emojis": "✈️💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "UK",
-      "US"
-    ],
-    "source_count": 37,
-    "timestamp": "06:08 PM"
+    "timestamp": "07:45 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California DIYer installs $1,200 solar array, saving $0.023/kWh",
+    "summary": "California DIYer installs $1,200 solar array for $0.023/kWh.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
       "California DIYer",
-      "Solar Array"
+      "solar array"
     ],
     "source_count": 1,
-    "timestamp": "06:08 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "Trump offers weapons to China, Xi visits US, US trade talks progress",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Trump",
-      "Xi Jinping",
-      "US trade representative"
-    ],
-    "source_count": 16,
-    "timestamp": "06:08 PM"
+    "timestamp": "07:45 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia continues military aggression; NATO responds to supersonic jets, economic impacts noted globally.",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Xi sees war's end as advantageous; NATO scramble triggered; CSTO exercises ongoing in Russia.",
+    "emojis": "✈️⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
+      "Xi Jinping",
       "NATO",
-      "Global Markets"
+      "CSTO"
     ],
-    "source_count": 11,
-    "timestamp": "06:08 PM"
+    "source_count": 4,
+    "timestamp": "07:45 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian drones kill 2 outside Kyiv, 3 others across Ukraine; 14 killed, 57 injured in 'mass strike'.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russian drones",
+      "Ukraine"
+    ],
+    "source_count": 3,
+    "timestamp": "07:45 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Escalating war in Yemen reported by BBC",
+    "summary": "Escalating war in Yemen worsens humanitarian crisis.",
     "emojis": "⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "BBC",
-      "Yemen"
+      "Yemen",
+      "Conflict"
     ],
     "source_count": 1,
-    "timestamp": "06:09 PM"
+    "timestamp": "07:45 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Israeli strikes in southern Lebanon despite ceasefire; life recovery efforts; Hezbollah contributes to housing displaced.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "Israeli strikes continue in southern Lebanon despite ceasefire",
+    "emojis": "💥🕊️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
       "Israel",
-      "Lebanon",
-      "Hezbollah"
+      "Lebanon"
     ],
-    "source_count": 3,
-    "timestamp": "06:09 PM"
+    "source_count": 1,
+    "timestamp": "07:45 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli attacks kill at least four in Gaza, Middle East Eye reports.",
+    "summary": "Israeli attacks kill at least four in Gaza",
     "emojis": "⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli military",
-      "Gaza residents"
+      "Israel",
+      "Gaza"
     ],
     "source_count": 1,
-    "timestamp": "06:09 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia threatens Ukraine over Starlink, new sanctions proposed, escalating attacks.",
-    "emojis": "💥⚔️🚫",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "European Union"
-    ],
-    "source_count": 12,
-    "timestamp": "06:09 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Trump offers China tech collaboration",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Trump",
-      "Chinese Leader"
-    ],
-    "source_count": 2,
-    "timestamp": "06:09 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Amodei's critics circulate negative brief about Trump before White House dinner",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Dario Amodei",
-      "Trump"
-    ],
-    "source_count": 1,
-    "timestamp": "06:09 PM"
-  },
-  {
-    "title": "SITREP: US-GA",
-    "summary": "Chinese Pandas arrive at Zoo Atlanta",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
-    "actors": [
-      "Chinese Pandas",
-      "Zoo Atlanta"
-    ],
-    "source_count": 1,
-    "timestamp": "06:09 PM"
+    "timestamp": "07:45 PM"
   }
 ];
 

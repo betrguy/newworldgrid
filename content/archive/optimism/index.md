@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 28, 2026** | [SMART GRID REVOLUTION: India's Power Grid Now Adapts to Outages in Minutes](/archive/optimism/2026-09-28-smart-grid-revolution-indias-power) | New Delhi&rsquo;s power grid has transformed from a frequent outage-prone system to one that rapidly responds to blac... |
 | **Sep 27, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-09-27-perovskite-solar-cells-achieve-25) | Generate more electricity from sunlight with enhanced efficiency, thanks to smoother perovskite films that have lifte... |
 | **Sep 27, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-09-27-lowcarbon-volcanic-rock-cement-ai) | Scientists have developed an air purifier that harnesses sunlight and indoor LED lights to recharge a washable filter... |
 | **Sep 26, 2026** | [Air purifiers are now more efficient & Even when powered by natural light.](/archive/optimism/2026-09-26-air-purifiers-are-now-more) | Scientists have developed an air purifier that charges with sunlight and indoor LED lights, maintaining 99% of its ma... |

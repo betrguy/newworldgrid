@@ -1,31 +1,33 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: SPACEX STARSHIP FLIGHTS FUEL ORBITAL ECONOMY GROWTH, AS EV REVOLUTION TAKES OFF. This page explores the current landscape of orbital economy ..."
+description: "Final Frontier: SpaceX's Starship Takes Flight Amid Global EV Grid Expansion Push. This page explores the current landscape of orbital economy and EV grid de..."
 ---
 
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">September 27, 2026 - 18:14</span>
+  <span class="sotg-timestamp">September 28, 2026 - 19:47</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-This page explores the current landscape of orbital economy development through SpaceX's Starship test flights and advances in EV, battery, and charging infrastructure. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flights to BYD's pricing strategies for Australia's most affordable electric vehicles. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 ### **The High Ground**
 
+SpaceX's Starship has conducted 13 test flights, which are essential for refining the rocket's capabilities. These tests are crucial for ensuring the rocket can handle the demands of orbital solar farm deployments. Additionally, in Bnei Brak, a local protest march was repurposed as a launch event for a political party, illustrating the increasing integration of space technology into everyday life and politics.
+
 ### **The EV Race**
 
-This week, overnight charging rates in Pittsburgh reportedly increased from 8 cents per kWh to 35 cents per kWh during peak times, according to the [ev market] EV, Battery & Charging News. This sudden rise is affecting EV owners, who now face higher costs to charge their vehicles. Grid operators will need to manage peak demand more efficiently to ensure a stable energy supply.
+BYD has confirmed that the price of its cheapest EV in Australia won't remain the lowest forever, as reported by CarExpert. Grid operators will need to prepare for potential price hikes and manage demand more carefully to avoid overloading the system. This change could affect EV owners who rely on overnight charging, potentially leading to higher costs and impacting their driving habits.
 
 *What follows is purely a thought experiment.*
 
-In 2036, the orbital economy has transformed, with SpaceX's Starship serving as the backbone of global satellite launches. However, a surprising development emerges: a small, boutique satellite company, QubitSat, begins using Starship to launch a series of micro-satellites designed not for communication or imaging, but for a novel application: orbital solar farms. These solar panels, once in place, beam energy directly to Earth, bypassing traditional power grids. The Kremlin's threat of "dangerous consequences" becomes a reality when Ukraine, with support from the United States, deploys QubitSat's system to power critical military and civilian infrastructure. This shift not only changes the energy landscape but also creates a new geopolitical chessboard, with nations scrambling to secure their own orbital solar capabilities and disrupt rivals' energy supplies.
+In 2036, the orbital economy has transformed the global landscape. SpaceX's Starship has become the backbone of commercial space travel, with regular flights to the International Space Station (ISS) and beyond. However, a strange second-order effect has emerged. BYD, the Chinese automaker, has quietly established a microgravity battery testing facility on the ISS. Their goal? To develop batteries that can harness the unique properties of the space environment for Earth-based applications. This move has caught the attention of both national security agencies and private investors, sparking a race to develop next-generation energy storage solutions. The implications are profound: if successful, these batteries could radically alter the economics of renewable energy storage, potentially challenging established giants like Tesla. The strategic value of this technology could shift the balance of power in the global energy market, making the ISS a pivotal player in the space economy.
 
 <!-- /FRONTIER_ENGINE_END -->
 
@@ -39,6 +41,13 @@ In 2036, the orbital economy has transformed, with SpaceX's Starship serving as 
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 27, 2026</span>
+        <a href="/archive/frontier/2026-09-27-spacex-starship-flights-fuel-orbital" class="archive-link">SPACEX STARSHIP FLIGHTS FUEL ORBITAL ECONOMY GROWTH, AS EV REVOLUTION TAKES OFF</a>
+      </div>
+      <div class="archive-preview">This page explores the current landscape of orbital economy development through SpaceX's Starship test flights and advances in EV,...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 27, 2026</span>
@@ -115,13 +124,6 @@ In 2036, the orbital economy has transformed, with SpaceX's Starship serving as 
         <a href="/archive/frontier/2026-07-26-amazons-kuiper-satellite-constellation" class="archive-link">KUIPER SATELLITE CONSTELLATION THREATENS STARLINK DOMINANCE</a>
       </div>
       <div class="archive-preview">Amazon's Kuiper satellite constellation is poised to challenge Starlink in the burgeoning market for low-Earth orbit internet...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 22, 2026</span>
-        <a href="/archive/frontier/2026-07-22-nasas-upcoming-space-telescope" class="archive-link">NASA's Space Telescope & EV Breakthroughs Converge on Revolutionary Frontiers</a>
-      </div>
-      <div class="archive-preview">NASA's upcoming space telescope and emerging electric vehicle technologies are converging to potentially revolutionize our understanding...</div>
     </div>
   </div>
 </div>
