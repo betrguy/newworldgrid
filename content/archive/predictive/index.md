@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Sep 28, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-09-28-strait-of-hormuz-flow-discrepancies) | Iran captures two US submarines, escalating tensions and prompting calls for diplomatic engagement amid looming econo... |
+| **Sep 30, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-09-30-strait-of-hormuz-flow-discrepancies) | Iran captures two US submarines, escalating tensions and prompting calls for diplomatic engagement amid looming econo... |
 | **Sep 27, 2026** | [Israel's revocation of Dutch diplomatic credentials over the West Bank...](/archive/predictive/2026-09-27-israels-revocation-of-dutch-diplomatic) | Israel's revocation of Dutch diplomatic credentials over the West Bank goods ban signals escalating tensions in the r... |
 | **Sep 27, 2026** | [ISRAEL'S ELECTIONS UNDER FIRE AS GAZA CONDEMnation REACHES GLOBAL BOILING POINT](/archive/predictive/2026-09-27-israels-elections-under-fire-as) | Israeli elections face international criticism amid calls for UN renaming and IDF protection, as global condemnation ... |
 | **Sep 26, 2026** | [ISRAEL'S INTERNAL UPRISING MEETS IRAN'S DIPLOMATIC STANCE](/archive/predictive/2026-09-26-israels-internal-uprising-meets-irans) | A complex geopolitical landscape emerges as regional tensions escalate, with Israel's internal unrest juxtaposed agai... |

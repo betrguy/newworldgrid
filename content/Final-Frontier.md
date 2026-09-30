@@ -1,7 +1,7 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: SpaceX's Starship Takes Flight Amid Global EV Grid Expansion Push. This page explores the current landscape of orbital economy and EV grid de..."
+description: "Final Frontier: SpaceX's Starship Takes Flight Amid Global EV Grid Development Push. This page explores the current landscape of orbital economy and EV grid ..."
 ---
 
 <!-- ARC_BYLINE -->
@@ -41,6 +41,13 @@ In 2036, the orbital economy has transformed the global landscape. SpaceX's Star
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 28, 2026</span>
+        <a href="/archive/frontier/2026-09-28-spacexs-starship-takes-flight-amid" class="archive-link">SpaceX's Starship Takes Flight Amid Global EV Grid Expansion Push</a>
+      </div>
+      <div class="archive-preview">This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flights to BYD's...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 27, 2026</span>
@@ -117,13 +124,6 @@ In 2036, the orbital economy has transformed the global landscape. SpaceX's Star
         <a href="/archive/frontier/2026-08-06-south-koreas-lunar-orbiter" class="archive-link">South Korea's lunar orbiter captures Moon images amidst SpaceX rocket...</a>
       </div>
       <div class="archive-preview">South Korea's lunar orbiter captures Moon images amidst SpaceX rocket debris crash, while Trump's comments on electric vehicles'...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Jul 26, 2026</span>
-        <a href="/archive/frontier/2026-07-26-amazons-kuiper-satellite-constellation" class="archive-link">KUIPER SATELLITE CONSTELLATION THREATENS STARLINK DOMINANCE</a>
-      </div>
-      <div class="archive-preview">Amazon's Kuiper satellite constellation is poised to challenge Starlink in the burgeoning market for low-Earth orbit internet...</div>
     </div>
   </div>
 </div>
