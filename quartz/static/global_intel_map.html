@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-09-30 20:19 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-10-01 19:48 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,181 +51,173 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Netanyahu praises Flydubai pilot who thwarted hijacking attempt.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: RUSSIA",
+    "summary": "Sweden threatens Russia, Russia warns NATO over Kaliningrad, tensions escalate",
+    "emojis": "💥⚔️☢️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Benjamin Netanyahu",
-      "Israeli passenger",
-      "Flydubai Pilot"
-    ],
-    "source_count": 50,
-    "timestamp": "08:19 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies war on Ukraine",
-    "emojis": "⚔️🔴",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
+      "Sweden",
       "Russia",
-      "Ukraine"
+      "NATO",
+      "Kaliningrad"
     ],
     "source_count": 9,
-    "timestamp": "08:19 PM"
+    "timestamp": "07:47 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Iranian oil supplies to China decline; China enforces AI regulations; US criticizes China on WTO, G20 commitments; US investigates China trade; China phases out EV battery subsidy.",
-    "emojis": "",
+    "summary": "Military action, martial arts, pandas, property market issues, AI, trade tensions, climate efforts",
+    "emojis": "🪖⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
+      "U.S.",
       "Iran",
-      "US",
-      "China",
-      "China",
-      "US"
+      "international bodies"
     ],
-    "source_count": 11,
-    "timestamp": "08:19 PM"
+    "source_count": 14,
+    "timestamp": "07:47 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US investigates Iran's potential involvement in RAF Fairford incident.",
-    "emojis": "🪖⚔️",
+    "summary": "US-Iran peace talks and regional tensions influence market; Iran showcases drones, and US discusses military operations.",
+    "emojis": "🪖✈️🕊️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
-      "Iran"
+      "Iran",
+      "investors",
+      "Russia"
     ],
     "source_count": 32,
-    "timestamp": "08:19 PM"
+    "timestamp": "07:47 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "MI5 alerts UK universities on tech theft risks from Chinese entities.",
+    "title": "SITREP: ISRAEL",
+    "summary": "Passengers foil co-pilot's crash attempt on FlyDubai flight to Israel.",
     "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "MI5",
-      "UK universities",
-      "Chinese front company"
+      "passengers",
+      "co-pilot"
     ],
-    "source_count": 3,
-    "timestamp": "08:19 PM"
+    "source_count": 52,
+    "timestamp": "07:47 PM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California bans child marriage, new-build condo buyer faces EV charger panel limits",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California",
+      "new-build condo buyer"
+    ],
+    "source_count": 2,
+    "timestamp": "07:48 PM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "At least 32 children have died in Balaghat district, India, since May due to measles outbreaks.",
+    "summary": "Children dying in remote tribal areas; CNG role for India's EV future",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Children",
-      "Balaghat district",
-      "India",
-      "measles"
+      "remote tribal heartland",
+      "CNG"
     ],
-    "source_count": 1,
-    "timestamp": "08:19 PM"
+    "source_count": 2,
+    "timestamp": "07:48 PM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia threatens NATO over Kaliningrad, escalating tensions",
-    "emojis": "⚔️☢️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia continues to bomb Ukraine despite international calls for peace.",
+    "emojis": "⚔️🔴💣",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
       "Russia",
-      "NATO"
+      "Ukraine",
+      "International Community"
     ],
     "source_count": 8,
-    "timestamp": "08:19 PM"
+    "timestamp": "07:48 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Range Rover Sport EV debuts; Saudi-British defence talks; MI5 warns UK universities of tech theft threats.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Car and Driver",
+      "Saudi Arabia",
+      "UK",
+      "MI5"
+    ],
+    "source_count": 3,
+    "timestamp": "07:48 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Eight killed, including a journalist, by Israeli attacks on Gaza.",
+    "summary": "Journalist killed among eight in Gaza attack",
     "emojis": "⚔️💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
       "Israeli forces",
-      "journalist",
-      "Gaza residents"
+      "Gazans",
+      "Journalist"
     ],
     "source_count": 1,
-    "timestamp": "08:19 PM"
+    "timestamp": "07:48 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Pilot arrested for attempted terrorist crash; Hasidic Jew protests Israeli flag.",
+    "summary": "Pilot arrested for attempted hijacking, Hasidic Jew protests, DOJ fights judges, FlyDubai crisis.",
     "emojis": "⚔️🔺",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "pilot",
-      "Hasidic Jew"
+      "Hasidic Jew",
+      "DOJ",
+      "federal judges",
+      "passenger",
+      "FlyDubai passengers"
     ],
     "source_count": 4,
-    "timestamp": "08:19 PM"
+    "timestamp": "07:48 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Elon Musk, Palmer Luckey, Newt Gingrich discuss Pentagon war study",
+    "summary": "Elon Musk, Palmer Luckey, and Newt Gingrich study Pentagon strategies.",
     "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
       "Elon Musk",
+      "Palmer Luckey",
       "Newt Gingrich"
     ],
     "source_count": 1,
-    "timestamp": "08:19 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Kanye West's Russian concerts cancelled, organisers say",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Kanye West",
-      "organisers"
-    ],
-    "source_count": 1,
-    "timestamp": "08:19 PM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "US troops exit Iraq; joy mixed with fear over potential security vacuum.",
-    "emojis": "🪖",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "US forces",
-      "Iraqi security"
-    ],
-    "source_count": 1,
-    "timestamp": "08:19 PM"
+    "timestamp": "07:48 PM"
   }
 ];
 
