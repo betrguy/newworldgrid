@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 30, 2026** | [CHINA & US REACH POSITIVE CONSENSUS ON ECONOMIC TARIFFS](/archive/grid/2026-09-30-china-us-reach-positive-consensus) | Geopolitical tensions are easing as China and the U.S. plan to reduce tariffs, potentially easing financial pressures... |
 | **Sep 30, 2026** | [CHINA & US TARIFF REDUCTIONS EASE GLOBAL ECONOMIC TENSIONS](/archive/grid/2026-09-30-china-us-tariff-reductions-ease) | Geopolitical relations are easing as China and the U.S. plan to reduce trade tensions through tariff reductions. |
 | **Sep 28, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-09-28-lowcarbon-volcanic-rock-cement-ai) | Paragraph 1: Geopolitical tensions between the United States and Russia have escalated, with Russia claiming strikes ... |
 | **Sep 27, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-09-27-strait-of-hormuz-flow-discrepancies) | Geopolitical tensions between the United States and Iran continue to escalate, with President Trump rejecting a seven... |

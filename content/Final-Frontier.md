@@ -1,7 +1,7 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: SpaceX's Starship Takes Flight Amid Global EV Grid Development Push. This page explores the current landscape of orbital economy and EV grid ..."
+description: "Final Frontier: SpaceX's Starship Flights Amid EV Grid Expansion Push. This page explores the current landscape of orbital economy and EV grid development, f..."
 ---
 
 <!-- ARC_BYLINE -->
@@ -41,6 +41,13 @@ In 2036, the orbital economy has transformed the global landscape. SpaceX's Star
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Sep 30, 2026</span>
+        <a href="/archive/frontier/2026-09-30-spacexs-starship-takes-flight-amid" class="archive-link">SpaceX's Starship Takes Flight Amid Global EV Grid Development Push</a>
+      </div>
+      <div class="archive-preview">This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flights to BYD's...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Sep 28, 2026</span>
@@ -117,13 +124,6 @@ In 2036, the orbital economy has transformed the global landscape. SpaceX's Star
         <a href="/archive/frontier/2026-08-12-chinas-ispace-secures-funding" class="archive-link">CHINA LEADS BOLD FORAY INTO SPACE & ELECTRIC REVOLUTION</a>
       </div>
       <div class="archive-preview">China's iSpace secures funding for reusable rocketry as BYD launches affordable electric vehicle options in the country, potentially...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Aug 06, 2026</span>
-        <a href="/archive/frontier/2026-08-06-south-koreas-lunar-orbiter" class="archive-link">South Korea's lunar orbiter captures Moon images amidst SpaceX rocket...</a>
-      </div>
-      <div class="archive-preview">South Korea's lunar orbiter captures Moon images amidst SpaceX rocket debris crash, while Trump's comments on electric vehicles'...</div>
     </div>
   </div>
 </div>
