@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 30, 2026** | [SWISS GLACIERS FACE SEVERE ICE LOSS AS CLIMATE CHANGE FORCES EV REVOLUTION](/archive/frontier/2026-09-30-swiss-glaciers-face-severe-ice) | As Swiss glaciers face severe ice loss threatening water supplies, the rapid pace of climate change is prompting shif... |
 | **Sep 30, 2026** | [SpaceX's Starship & EV Grid Development Push Global Sustainability Boundaries](/archive/frontier/2026-09-30-spacexs-starship-ev-grid-development) | This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flig... |
 | **Sep 30, 2026** | [SpaceX's Starship Flights Amid EV Grid Expansion Push](/archive/frontier/2026-09-30-spacexs-starship-flights-amid-ev) | This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flig... |
 | **Sep 30, 2026** | [SpaceX's Starship Takes Flight Amid Global EV Grid Development Push](/archive/frontier/2026-09-30-spacexs-starship-takes-flight-amid) | This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flig... |

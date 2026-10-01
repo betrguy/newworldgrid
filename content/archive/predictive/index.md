@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Sep 30, 2026** | [Nations Unite to Challenge US Dominance](/archive/predictive/2026-09-30-nations-unite-to-challenge-us) | A series of escalations and regulatory actions across multiple nations signal a significant shift in global power dyn... |
 | **Sep 30, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-09-30-strait-of-hormuz-flow-discrepancies) | Iran captures two US submarines, escalating tensions and prompting calls for diplomatic engagement amid looming econo... |
 | **Sep 27, 2026** | [Israel's revocation of Dutch diplomatic credentials over the West Bank...](/archive/predictive/2026-09-27-israels-revocation-of-dutch-diplomatic) | Israel's revocation of Dutch diplomatic credentials over the West Bank goods ban signals escalating tensions in the r... |
 | **Sep 27, 2026** | [ISRAEL'S ELECTIONS UNDER FIRE AS GAZA CONDEMnation REACHES GLOBAL BOILING POINT](/archive/predictive/2026-09-27-israels-elections-under-fire-as) | Israeli elections face international criticism amid calls for UN renaming and IDF protection, as global condemnation ... |
