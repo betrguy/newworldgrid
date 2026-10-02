@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 02, 2026** | [NYC Grid Shifts Amid Battery Innovation & Trade Tensions](/archive/grid/2026-10-02-nyc-grid-shifts-amid-battery) | Smaller, distributed batteries are gaining traction as a solution to grid instability, particularly in densely popula... |
 | **Oct 01, 2026** | [RUSSIA & IRAN COOPERATE ON GRID SECURITY THREATS](/archive/grid/2026-10-01-russia-iran-cooperate-on-grid) | Cybersecurity concerns and potential cooperation between Russia and Iran pose significant threats to global grid secu... |
 | **Sep 30, 2026** | [RUSSIA & IRAN COOPERATE ON CYBER THREATS TO GLOBAL GRID SECURITY](/archive/grid/2026-09-30-russia-iran-cooperate-on-cyber) | NATO's defensive stance against Russia's nuclear threats underscores the geopolitical tensions impacting global energ... |
 | **Sep 30, 2026** | [Global trade tensions ease & China and the U.S. reach a positive consensus...](/archive/grid/2026-09-30-global-trade-tensions-ease-china) | China and the U.S. have eased tariffs, potentially reducing financial pressures on utilities and encouraging investme... |

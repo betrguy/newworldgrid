@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 02, 2026** | [US military withdrawal from Iraq signals a significant geopolitical...](/archive/predictive/2026-10-02-us-military-withdrawal-from-iraq) | US military withdrawal from Iraq signals a significant geopolitical realignment, while escalating tensions between Ch... |
 | **Oct 01, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-01-usiran-gulf-maritime-escalation-strategic) | Escalating tensions between Russia and NATO over Kaliningrad prompt Sweden to issue a stern warning to Russia, while ... |
 | **Sep 30, 2026** | [Nations Unite to Challenge US Dominance](/archive/predictive/2026-09-30-nations-unite-to-challenge-us) | A series of escalations and regulatory actions across multiple nations signal a significant shift in global power dyn... |
 | **Sep 30, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-09-30-strait-of-hormuz-flow-discrepancies) | Iran captures two US submarines, escalating tensions and prompting calls for diplomatic engagement amid looming econo... |
