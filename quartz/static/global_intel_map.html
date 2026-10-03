@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-02 17:52 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-10-03 08:58 UTC | 16 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">16 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,179 +51,235 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "US forces exit Iraq, reshaping geopolitics. China criticises Taiwan, smuggling accusations arise.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US",
-      "China",
-      "Taiwan"
-    ],
-    "source_count": 20,
-    "timestamp": "05:51 PM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Co-pilot attempted to crash FlyDubai jet, Israel suspects radicalization",
-    "emojis": "✈️☢️🚫",
+    "summary": "Israeli businessman appointed as CEO amid Paramount-Warner merger",
+    "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Co-pilot",
-      "Israel"
+      "Israeli businessman",
+      "Paramount-Warner"
     ],
     "source_count": 29,
-    "timestamp": "05:51 PM"
+    "timestamp": "08:57 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Kanye West concerts cancelled, Russia threatening NATO, economic indicators rise amidst sanctions and tensions.",
-    "emojis": "⚔️🚫🕊️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: SYRIA",
+    "summary": "Christian community vanishing amidst Syrian war and displacement.",
+    "emojis": "⚔️",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
     "actors": [
-      "Kanye West",
-      "Russia",
-      "NATO",
-      "United States"
+      "Christian community",
+      "Syrian war",
+      "displacement"
     ],
-    "source_count": 16,
-    "timestamp": "05:51 PM"
+    "source_count": 1,
+    "timestamp": "08:57 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US deploys troops, threatens Iran over FlyDubai incident",
-    "emojis": "🪖",
+    "summary": "Escalating conflict in Yemen intensifies; US arrests Iran-linked employee; Saudi offensive planned; aviation security questioned.",
+    "emojis": "⚔️➡️💀",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
+      "Iran",
+      "Yemen",
       "US",
-      "Iran"
+      "Saudi Arabia",
+      "Iranian Houthis"
     ],
-    "source_count": 55,
-    "timestamp": "05:51 PM"
+    "source_count": 30,
+    "timestamp": "08:57 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli drone kills Palestinian; settlers kill another. Kushner’s firm profited from Israeli defense investments. ",
-    "emojis": "✈️⚔️",
+    "summary": "Israeli strikes kill four in Gaza, another three deaths reported; general says captives freed a year earlier.",
+    "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli drone",
-      "Palestinian",
-      "settlers",
-      "Kushner's firm"
-    ],
-    "source_count": 2,
-    "timestamp": "05:51 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Pentagon prepares for surge of naval forces in Middle East, sending over 4,000 Marines, sailors.",
-    "emojis": "🚢",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Pentagon",
-      "US-DC"
+      "Israel",
+      "Gazans"
     ],
     "source_count": 3,
-    "timestamp": "05:51 PM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Star Catcher to beam power between satellites for the first time.",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "Star Catcher",
-      "two satellites"
-    ],
-    "source_count": 1,
-    "timestamp": "05:51 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Dual UK-Iranian man arrested over RAF Fairford incident.",
-    "emojis": "🪖🔺",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "British police",
-      "UK-Iranian national"
-    ],
-    "source_count": 6,
-    "timestamp": "05:51 PM"
+    "timestamp": "08:57 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine debuts FP-7 missiles; Putin denies ceasefire; Kyiv Independent editor defends objective reporting.",
-    "emojis": "💥🚀🕊️",
+    "summary": "Increased fatalities hinder population growth; Russian strikes disrupt Kyiv infrastructure and Ukraine's power grid.",
+    "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Ukraine",
-      "Putin",
-      "Kyiv Independent editor"
+      "Russia"
     ],
-    "source_count": 3,
-    "timestamp": "05:52 PM"
+    "source_count": 12,
+    "timestamp": "08:57 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Investigators probe FlyDubai attack motive.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: CHINA",
+    "summary": "U.S.-China rivalry intensifies in AI, tech, and global trade.",
+    "emojis": "☢️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Investigators",
-      "FlyDubai"
+      "U.S.",
+      "China"
     ],
-    "source_count": 2,
-    "timestamp": "05:52 PM"
+    "source_count": 15,
+    "timestamp": "08:57 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Street magicians struggle, BEML unveils electric truck, Chinese AI execs warned",
+    "emojis": "⚔️",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Street Magicians",
+      "BEML",
+      "Chinese Government"
+    ],
+    "source_count": 3,
+    "timestamp": "08:57 AM"
+  },
+  {
+    "title": "SITREP: AFGHANISTAN",
+    "summary": "Afghanistan's isolation by Taliban demands new geopolitical strategy",
+    "emojis": "",
+    "lat": 33.9,
+    "lng": 67.7,
+    "location": "AFGHANISTAN",
+    "actors": [
+      "Afghanistan",
+      "Taliban"
+    ],
+    "source_count": 1,
+    "timestamp": "08:57 AM"
   },
   {
     "title": "SITREP: IRAQ",
-    "summary": "U.S. Troops finally leave Iraq, pending withdrawal from the Middle East.",
-    "emojis": "🪖",
+    "summary": "Iraq approves US-exempted Iranian flights to Najaf",
+    "emojis": "",
     "lat": 33.2,
     "lng": 43.6,
     "location": "IRAQ",
     "actors": [
-      "U.S. Troops",
       "Iraq",
-      "Middle East"
+      "Iran",
+      "US"
     ],
-    "source_count": 1,
-    "timestamp": "05:52 PM"
+    "source_count": 4,
+    "timestamp": "08:57 AM"
   },
   {
-    "title": "SITREP: US-MN",
-    "summary": "Renee Good's family sues Trump officials over woman's ICE killing.",
-    "emojis": "💀",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
+    "title": "SITREP: UK",
+    "summary": "UK charges 2 Iranians over Yom Kippur terror plot",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Renee Good's family",
-      "Trump officials"
+      "UK",
+      "2 Iranians"
+    ],
+    "source_count": 5,
+    "timestamp": "08:57 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Putin observes Urals military drills with foreign troops, amidst tense US-Russia relations.",
+    "emojis": "🪖⚔️💀",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "US",
+      "Russia"
+    ],
+    "source_count": 14,
+    "timestamp": "08:57 AM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Judge blocks Trump administration's Big Bend border wall construction.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Judge",
+      "Trump administration"
     ],
     "source_count": 1,
-    "timestamp": "05:52 PM"
+    "timestamp": "08:58 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "AIPAC spends millions to elect allies, sparking controversy; Jane Doe alleges rape, accusing Cornell officials of negligence.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "AIPAC",
+      "Jane Doe"
+    ],
+    "source_count": 2,
+    "timestamp": "08:58 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Riots disrupt 735 schools as students protest education standards.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "students",
+      "riot police"
+    ],
+    "source_count": 1,
+    "timestamp": "08:58 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Pentagon pushes for advanced weapons for Pacific defense.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Pentagon",
+      "US Defense Department"
+    ],
+    "source_count": 1,
+    "timestamp": "08:58 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Pakistan sent weapons to Saudi-backed Yemen",
+    "emojis": "",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Pakistan",
+      "Saudi Arabia"
+    ],
+    "source_count": 1,
+    "timestamp": "08:58 AM"
   }
 ];
 
