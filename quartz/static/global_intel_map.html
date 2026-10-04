@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-03 08:58 UTC | 16 active regions</div>
+        <div class="meta">Generated 2026-10-03 19:58 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">16 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,235 +51,164 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israeli businessman appointed as CEO amid Paramount-Warner merger",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israeli businessman",
-      "Paramount-Warner"
-    ],
-    "source_count": 29,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Christian community vanishing amidst Syrian war and displacement.",
-    "emojis": "⚔️",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Christian community",
-      "Syrian war",
-      "displacement"
-    ],
-    "source_count": 1,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Escalating conflict in Yemen intensifies; US arrests Iran-linked employee; Saudi offensive planned; aviation security questioned.",
-    "emojis": "⚔️➡️💀",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "Yemen",
-      "US",
-      "Saudi Arabia",
-      "Iranian Houthis"
-    ],
-    "source_count": 30,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strikes kill four in Gaza, another three deaths reported; general says captives freed a year earlier.",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Gazans"
-    ],
-    "source_count": 3,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Increased fatalities hinder population growth; Russian strikes disrupt Kyiv infrastructure and Ukraine's power grid.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 12,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "U.S.-China rivalry intensifies in AI, tech, and global trade.",
-    "emojis": "☢️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "U.S.",
-      "China"
-    ],
-    "source_count": 15,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Street magicians struggle, BEML unveils electric truck, Chinese AI execs warned",
-    "emojis": "⚔️",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Street Magicians",
-      "BEML",
-      "Chinese Government"
-    ],
-    "source_count": 3,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: AFGHANISTAN",
-    "summary": "Afghanistan's isolation by Taliban demands new geopolitical strategy",
-    "emojis": "",
-    "lat": 33.9,
-    "lng": 67.7,
-    "location": "AFGHANISTAN",
-    "actors": [
-      "Afghanistan",
-      "Taliban"
-    ],
-    "source_count": 1,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "Iraq approves US-exempted Iranian flights to Najaf",
-    "emojis": "",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "Iraq",
-      "Iran",
-      "US"
-    ],
-    "source_count": 4,
-    "timestamp": "08:57 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK charges 2 Iranians over Yom Kippur terror plot",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK",
-      "2 Iranians"
-    ],
-    "source_count": 5,
-    "timestamp": "08:57 AM"
-  },
-  {
     "title": "SITREP: RUSSIA",
-    "summary": "Putin observes Urals military drills with foreign troops, amidst tense US-Russia relations.",
-    "emojis": "🪖⚔️💀",
+    "summary": "Russia has created a new division for the first time in a year and immediately t",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Putin",
-      "US",
-      "Russia"
+      "google_russia"
     ],
-    "source_count": 14,
-    "timestamp": "08:57 AM"
+    "source_count": 17,
+    "timestamp": "07:57 PM"
   },
   {
-    "title": "SITREP: US-TX",
-    "summary": "Judge blocks Trump administration's Big Bend border wall construction.",
+    "title": "SITREP: CHINA",
+    "summary": "China slams US ‘lie’ over Starbucks stores in Xinjiang - Arab News",
     "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Judge",
-      "Trump administration"
+      "google_battery_tech",
+      "google_china"
     ],
-    "source_count": 1,
-    "timestamp": "08:58 AM"
+    "source_count": 8,
+    "timestamp": "07:57 PM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Opinion | In Israel's Supreme Court, thoughtcrime depends on whether you're Jewi",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "google_middle_east",
+      "google_israel"
+    ],
+    "source_count": 47,
+    "timestamp": "07:57 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Hegseth says US will not allow Iran to obtain nuclear weapons — Jerusalem Post -",
+    "emojis": "☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "google_middle_east",
+      "google_iran"
+    ],
+    "source_count": 35,
+    "timestamp": "07:57 PM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "ISW called Putin's claims about the capture of 1,300 sq km of Ukraine \"hallucina",
+    "emojis": "💥",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 15,
+    "timestamp": "07:57 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "AIPAC spends millions to elect allies, sparking controversy; Jane Doe alleges rape, accusing Cornell officials of negligence.",
+    "summary": "Two Iranian Diplomats Leave New York Days After U.S. Order to Depart - Northeast",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "AIPAC",
-      "Jane Doe"
-    ],
-    "source_count": 2,
-    "timestamp": "08:58 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Riots disrupt 735 schools as students protest education standards.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "students",
-      "riot police"
+      "google_iran"
     ],
     "source_count": 1,
-    "timestamp": "08:58 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Pentagon pushes for advanced weapons for Pacific defense.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Pentagon",
-      "US Defense Department"
-    ],
-    "source_count": 1,
-    "timestamp": "08:58 AM"
+    "timestamp": "07:57 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Pakistan sent weapons to Saudi-backed Yemen",
-    "emojis": "",
+    "summary": "Yemen's Houthi-run Al Masirah TV reports Saudi attack on Sanaa - middleeasteye.n",
+    "emojis": "⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Pakistan",
-      "Saudi Arabia"
+      "google_middle_east"
+    ],
+    "source_count": 3,
+    "timestamp": "07:58 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "In photos: Aftermath of deadly Israeli attacks on Gaza - Middle East Eye",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "google_middle_east"
     ],
     "source_count": 1,
-    "timestamp": "08:58 AM"
+    "timestamp": "07:58 PM"
+  },
+  {
+    "title": "SITREP: VENEZUELA",
+    "summary": "William Serafino: ‘Caracas and Washington Are Co-Governing Venezuela’ - Venezuel",
+    "emojis": "",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
+    "actors": [
+      "google_geopolitics"
+    ],
+    "source_count": 1,
+    "timestamp": "07:58 PM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Iraq says it transported two million barrels of crude through Strait of Hormuz -",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 1,
+    "timestamp": "07:58 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Prosecutor says 2 Iranian men scouted a UK synagogue for a chlorine bomb plot - ",
+    "emojis": "💣",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "google_ev_market",
+      "google_iran"
+    ],
+    "source_count": 3,
+    "timestamp": "07:58 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Flydubai hero pilot honored in UAE and India - israelnationalnews.com",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 1,
+    "timestamp": "07:58 PM"
   }
 ];
 

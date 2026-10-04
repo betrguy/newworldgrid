@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 03, 2026** | [KUSHNER'S ENERGY DEALINGS RAISE QUESTIONS OF CONFLICT OF INTEREST](/archive/grid/2026-10-03-kushners-energy-dealings-raise-questions) | Monitoring grid substrate for significant momentum shifts. |
 | **Oct 03, 2026** | [US Grid Stuck in Transition Amid Clean Energy Bottleneck](/archive/grid/2026-10-03-us-grid-stuck-in-transition) | The U.S. grid is experiencing a clean energy bottleneck due to market design issues, despite a record 17% share of el... |
 | **Oct 02, 2026** | [NYC Grid Shifts Amid Battery Innovation & Trade Tensions](/archive/grid/2026-10-02-nyc-grid-shifts-amid-battery) | Smaller, distributed batteries are gaining traction as a solution to grid instability, particularly in densely popula... |
 | **Oct 01, 2026** | [RUSSIA & IRAN COOPERATE ON GRID SECURITY THREATS](/archive/grid/2026-10-01-russia-iran-cooperate-on-grid) | Cybersecurity concerns and potential cooperation between Russia and Iran pose significant threats to global grid secu... |
