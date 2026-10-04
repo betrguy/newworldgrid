@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 04, 2026** | [US Sanctions on Russia Hang in Balance Amid Global Grid Uncertainty](/archive/grid/2026-10-04-us-sanctions-on-russia-hang) | Geopolitical tensions and potential shifts in compute infrastructure are reshaping global energy and grid dynamics. |
 | **Oct 04, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-10-04-strait-of-hormuz-flow-discrepancies) | Geopolitical tensions continue to pose significant challenges to grid resilience. |
 | **Oct 03, 2026** | [KUSHNER'S ENERGY DEALINGS RAISE QUESTIONS OF CONFLICT OF INTEREST](/archive/grid/2026-10-03-kushners-energy-dealings-raise-questions) | Monitoring grid substrate for significant momentum shifts. |
 | **Oct 03, 2026** | [US Grid Stuck in Transition Amid Clean Energy Bottleneck](/archive/grid/2026-10-03-us-grid-stuck-in-transition) | The U.S. grid is experiencing a clean energy bottleneck due to market design issues, despite a record 17% share of el... |

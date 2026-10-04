@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 04, 2026** | [ISRAEL, RUSSIA, IRAN TENSIONS ESCALATE IN MIDDLE EAST](/archive/predictive/2026-10-04-israel-russia-iran-tensions-escalate) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
 | **Oct 04, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-04-strait-of-hormuz-flow-discrepancies) | The intensification of US-China rivalry following Aryna Sabalenka's exit from the China Open signals a significant ge... |
 | **Oct 03, 2026** | [REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS LOSE INFLUENCE](/archive/predictive/2026-10-03-regional-actors-seize-global-stage) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 03, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-10-03-lowcarbon-volcanic-rock-cement-ai) | Israeli businessman appointed as CEO amid Paramount-Warner merger signals a significant corporate realignment in the ... |

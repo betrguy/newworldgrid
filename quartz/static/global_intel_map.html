@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-04 11:12 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-10-04 15:23 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,41 +51,23 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "Aryna Sabalenka exits China Open; US-China high-stakes race intensifies.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel confirms killing Turkish NGO director in Gaza, amidst global criticism over security and double standards.",
+    "emojis": "💥⚔️💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Aryna Sabalenka",
-      "US",
-      "China"
+      "Israel",
+      "Turkish NGO director"
     ],
-    "source_count": 13,
-    "timestamp": "11:10 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran resumes Najaf flights, threatens Hormuz closure; Yemen-Saudi offensive against Houthis; Iran accuses US of erasing evidence.",
-    "emojis": "⚔️➡️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US",
-      "Yemen",
-      "Saudi Arabia",
-      "Houthis"
-    ],
-    "source_count": 43,
-    "timestamp": "11:11 AM"
+    "source_count": 37,
+    "timestamp": "03:23 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian strikes hit Kyiv; Germany's Merz visits Ukraine amidst ongoing conflict.",
-    "emojis": "💥⚔️",
+    "summary": "Russia intensifies attacks on Ukraine amid international diplomatic efforts.",
+    "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -93,143 +75,142 @@
       "Russia",
       "Ukraine",
       "Germany",
-      "Merkel"
+      "US",
+      "India"
     ],
-    "source_count": 30,
-    "timestamp": "11:11 AM"
+    "source_count": 26,
+    "timestamp": "03:23 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran conflict escalates amid energy concerns and minister resignations",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "U.S. Energy Secretary Chris Wright"
+    ],
+    "source_count": 42,
+    "timestamp": "03:23 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Sanctions against Russia debated, detentions at pro-Kremlin rallies, major international deals, nuclear race on Moon, rising tensions ahead of U.S. talks",
+    "emojis": "☢️🚫⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "U.S. officials",
+      "Russian government",
+      "pro-Kremlin groups",
+      "Lakers",
+      "Zelenskyy"
+    ],
+    "source_count": 19,
+    "timestamp": "03:23 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Equinox EV sales plummet 92% in U.S.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Equinox",
+      "U.S."
+    ],
+    "source_count": 1,
+    "timestamp": "03:23 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Midterm elections affect Middle East policy.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US Congress",
+      "Middle East"
+    ],
+    "source_count": 1,
+    "timestamp": "03:23 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Wardlaw+Hartridge explore China's education innovation.",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Wardlaw+Hartridge Faculty Members",
+      "China"
+    ],
+    "source_count": 5,
+    "timestamp": "03:23 PM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "8 Israeli soldiers wounded in southern Lebanon collision; Israeli air strikes target southern Lebanon.",
-    "emojis": "🪖💥",
+    "summary": "8 Israeli soldiers wounded in southern Lebanon vehicle collision",
+    "emojis": "🪖",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Israel",
-      "Lebanon"
+      "Israeli soldiers",
+      "southern Lebanon"
     ],
-    "source_count": 2,
-    "timestamp": "11:11 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Flydubai hijacking; over 800 Palestinian teachers killed; elderly woman killed in Jerusalem.",
-    "emojis": "⚔️💀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Flydubai",
-      "Palestinian teachers",
-      "Jerusalem"
-    ],
-    "source_count": 24,
-    "timestamp": "11:11 AM"
+    "source_count": 1,
+    "timestamp": "03:23 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli strike kills Palestinian in Gaza; Christian mourning; medical shortages; child killed.",
+    "summary": "Israeli strike kills 1 Palestinian in Gaza, Christians mourn mother and daughter.",
     "emojis": "💥⚔️💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli military",
+      "Israel",
       "Palestinians",
-      "Gaza Christians",
-      "Medical community",
-      "Israeli attacks"
+      "Christians in Gaza"
     ],
-    "source_count": 4,
-    "timestamp": "11:11 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia intensifies military actions amid US-Russia talks and digital currency transition.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "US"
-    ],
-    "source_count": 9,
-    "timestamp": "11:11 AM"
+    "source_count": 2,
+    "timestamp": "03:23 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK car industry balances trade between China and EU markets amidst EV import surge",
+    "summary": "UK car industry struggles between Chinese and EU markets",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "UK car industry",
-      "China",
-      "EU"
+      "Chinese market",
+      "EU market"
     ],
-    "source_count": 2,
-    "timestamp": "11:11 AM"
+    "source_count": 1,
+    "timestamp": "03:23 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "Lucid Cosmos electric vehicle tests on California's Highway 101",
+    "summary": "Lucid Cosmos electric vehicle testing on CA Highway 101",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "Lucid Cosmos",
+      "Lucid",
       "California Highway 101"
     ],
     "source_count": 1,
-    "timestamp": "11:11 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Los Angeles considers adopting NYC's socialism.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Los Angeles",
-      "New York City"
-    ],
-    "source_count": 3,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Israeli spy Eli Cohen possibly buried near Damascus barracks; Syrian official claims.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Israeli spy Eli Cohen",
-      "Damascus barracks",
-      "Syrian official"
-    ],
-    "source_count": 1,
-    "timestamp": "11:12 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthis cut vital supply road to Taiz, Yemen",
-    "emojis": "",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Houthis",
-      "Taiz"
-    ],
-    "source_count": 1,
-    "timestamp": "11:12 AM"
+    "timestamp": "03:23 PM"
   }
 ];
 
