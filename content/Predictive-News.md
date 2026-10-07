@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: A surge in regional tensions is marked by Israel's targeted killing of a.... A surge in regional tensions is marked by Israel's targeted kil..."
+description: "Predictive News: Israel Kills Turkish NGO Director Amid Ukraine, Iran Instability. A surge in regional tensions is marked by Israel's targeted killing of a T..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -59,6 +59,13 @@ UN speeches on Gaza have reignited debates over double standards, with Israeli o
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 06, 2026</span>
+        <a href="/archive/predictive/2026-10-06-a-surge-in-regional-tensions" class="archive-link">A surge in regional tensions is marked by Israel's targeted killing of a...</a>
+      </div>
+      <div class="archive-preview">A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's intensified military...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 04, 2026</span>
@@ -133,13 +140,6 @@ UN speeches on Gaza have reignited debates over double standards, with Israeli o
       <div class="archive-item-header">
         <span class="archive-date">Sep 26, 2026</span>
         <a href="/archive/predictive/2026-09-26-the-ukrainerussia-conflict-intensifies-a" class="archive-link">The Ukraine-Russia conflict intensifies & A ceasefire proposal amidst...</a>
-      </div>
-      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 26, 2026</span>
-        <a href="/archive/predictive/2026-09-26-russia-uke-ceasefire-offers-hang" class="archive-link">RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS MILITARY ENGAGEMENTS ESCALATE</a>
       </div>
       <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
     </div>

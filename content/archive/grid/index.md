@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 06, 2026** | [RUSSIA SANCTIONS LOOM OVER GLOBAL OIL MARKETS](/archive/grid/2026-10-06-russia-sanctions-loom-over-global) | Geopolitical tensions are escalating, with the U.S. considering severe sanctions against Russia, which could disrupt ... |
 | **Oct 06, 2026** | [RUSSIA SANCTIONS LOOM OVER GLOBAL ENERGY MARKETS](/archive/grid/2026-10-06-russia-sanctions-loom-over-global) | Geopolitical tensions are escalating, with the U.S. considering severe sanctions against Russia, which could disrupt ... |
 | **Oct 06, 2026** | [The U.S. is considering severe sanctions against Russia & Middle Eastern...](/archive/grid/2026-10-06-the-us-is-considering-severe) | Geopolitical tensions, particularly the uncertainty surrounding potential sanctions against Russia, pose significant ... |
 | **Oct 04, 2026** | [US Sanctions on Russia Hang in Balance Amid Global Grid Uncertainty](/archive/grid/2026-10-04-us-sanctions-on-russia-hang) | Geopolitical tensions and potential shifts in compute infrastructure are reshaping global energy and grid dynamics. |

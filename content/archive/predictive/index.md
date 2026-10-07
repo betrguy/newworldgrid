@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 06, 2026** | [Israel Kills Turkish NGO Director Amid Ukraine, Iran Instability](/archive/predictive/2026-10-06-israel-kills-turkish-ngo-director) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
 | **Oct 06, 2026** | [A surge in regional tensions is marked by Israel's targeted killing of a...](/archive/predictive/2026-10-06-a-surge-in-regional-tensions) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
 | **Oct 04, 2026** | [ISRAEL, RUSSIA, IRAN TENSIONS ESCALATE IN MIDDLE EAST](/archive/predictive/2026-10-04-israel-russia-iran-tensions-escalate) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
 | **Oct 04, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-04-strait-of-hormuz-flow-discrepancies) | The intensification of US-China rivalry following Aryna Sabalenka's exit from the China Open signals a significant ge... |
