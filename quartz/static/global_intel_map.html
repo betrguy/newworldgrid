@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-04 15:23 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-10-06 22:25 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,165 +52,152 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel confirms killing Turkish NGO director in Gaza, amidst global criticism over security and double standards.",
-    "emojis": "💥⚔️💀",
+    "summary": "Israel marks Oct. 7 anniversary amid tense election and regional tensions.",
+    "emojis": "⚔️⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Turkish NGO director"
+      "Palestinians"
     ],
-    "source_count": 37,
-    "timestamp": "03:23 PM"
+    "source_count": 26,
+    "timestamp": "10:25 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran-backed Houthis launch missiles at Yemen airport; Trump suggests Iran could 'take out' LA/San Diego; US-Israel tension rises over Iran nuclear talks.",
+    "emojis": "🚀⚔️☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran-backed Houthis",
+      "Trump",
+      "US-Israel"
+    ],
+    "source_count": 46,
+    "timestamp": "10:25 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China's DeepZang AI aims to transform Tibetan language tech, promote unity",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "DeepZang AI",
+      "Tibetan language tech",
+      "Unity"
+    ],
+    "source_count": 11,
+    "timestamp": "10:25 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Trump discusses possible plague with Putin; US vet's mom pleads for son's release from Russia.",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Trump",
+      "Putin",
+      "US vet's mom"
+    ],
+    "source_count": 25,
+    "timestamp": "10:25 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies attacks on Ukraine amid international diplomatic efforts.",
+    "summary": "Russia launches attacks on Kyiv; Ukraine targets Sochi and Russia's oil industry.",
     "emojis": "✈️💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine",
-      "Germany",
-      "US",
-      "India"
+      "Ukraine"
     ],
-    "source_count": 26,
-    "timestamp": "03:23 PM"
+    "source_count": 3,
+    "timestamp": "10:25 PM"
   },
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran conflict escalates amid energy concerns and minister resignations",
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan aids 9M low-income households with fuel amid rising Middle East prices.",
     "emojis": "⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
     "actors": [
-      "Iran",
-      "U.S. Energy Secretary Chris Wright"
-    ],
-    "source_count": 42,
-    "timestamp": "03:23 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Sanctions against Russia debated, detentions at pro-Kremlin rallies, major international deals, nuclear race on Moon, rising tensions ahead of U.S. talks",
-    "emojis": "☢️🚫⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "U.S. officials",
-      "Russian government",
-      "pro-Kremlin groups",
-      "Lakers",
-      "Zelenskyy"
-    ],
-    "source_count": 19,
-    "timestamp": "03:23 PM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Equinox EV sales plummet 92% in U.S.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Equinox",
-      "U.S."
-    ],
-    "source_count": 1,
-    "timestamp": "03:23 PM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Midterm elections affect Middle East policy.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "US Congress",
+      "Pakistan",
       "Middle East"
     ],
     "source_count": 1,
-    "timestamp": "03:23 PM"
+    "timestamp": "10:25 PM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "Wardlaw+Hartridge explore China's education innovation.",
+    "title": "SITREP: YEMEN",
+    "summary": "Houthis seek reinforcements; crude oil exports rise above pre-war levels despite Houthi attacks.",
     "emojis": "⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Wardlaw+Hartridge Faculty Members",
-      "China"
-    ],
-    "source_count": 5,
-    "timestamp": "03:23 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "8 Israeli soldiers wounded in southern Lebanon vehicle collision",
-    "emojis": "🪖",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli soldiers",
-      "southern Lebanon"
-    ],
-    "source_count": 1,
-    "timestamp": "03:23 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strike kills 1 Palestinian in Gaza, Christians mourn mother and daughter.",
-    "emojis": "💥⚔️💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians",
-      "Christians in Gaza"
+      "Houthis",
+      "Yemen"
     ],
     "source_count": 2,
-    "timestamp": "03:23 PM"
+    "timestamp": "10:25 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK car industry struggles between Chinese and EU markets",
-    "emojis": "",
+    "summary": "Jaguar launches Type 01 EV for young Americans; US evacuates bombers after Iran drone threat",
+    "emojis": "✈️💣",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK car industry",
-      "Chinese market",
-      "EU market"
+      "Jaguar",
+      "US",
+      "Iran",
+      "UK",
+      "The Guardian",
+      "PBS"
     ],
-    "source_count": 1,
-    "timestamp": "03:23 PM"
+    "source_count": 2,
+    "timestamp": "10:25 PM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "Lucid Cosmos electric vehicle testing on CA Highway 101",
+    "title": "SITREP: GAZA",
+    "summary": "Smotrich proposes annexing Gaza and Lebanon",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Lucid",
-      "California Highway 101"
+      "Smotrich",
+      "Gaza",
+      "Lebanon"
     ],
     "source_count": 1,
-    "timestamp": "03:23 PM"
+    "timestamp": "10:25 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Hundreds of thousands protest; Riot police use tear gas.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "school protesters",
+      "riot police"
+    ],
+    "source_count": 1,
+    "timestamp": "10:25 PM"
   }
 ];
 

@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 06, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-06-lowcarbon-volcanic-rock-cement-ai) | Geopolitical tensions are intensifying, with the U.S. expanding security cooperation with Iceland to counter China an... |
 | **Oct 06, 2026** | [RUSSIA SANCTIONS LOOM OVER GLOBAL OIL MARKETS](/archive/grid/2026-10-06-russia-sanctions-loom-over-global) | Geopolitical tensions are escalating, with the U.S. considering severe sanctions against Russia, which could disrupt ... |
 | **Oct 06, 2026** | [RUSSIA SANCTIONS LOOM OVER GLOBAL ENERGY MARKETS](/archive/grid/2026-10-06-russia-sanctions-loom-over-global) | Geopolitical tensions are escalating, with the U.S. considering severe sanctions against Russia, which could disrupt ... |
 | **Oct 06, 2026** | [The U.S. is considering severe sanctions against Russia & Middle Eastern...](/archive/grid/2026-10-06-the-us-is-considering-severe) | Geopolitical tensions, particularly the uncertainty surrounding potential sanctions against Russia, pose significant ... |
@@ -27,7 +28,6 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 | **Sep 30, 2026** | [Global trade tensions ease & China and the U.S. reach a positive consensus...](/archive/grid/2026-09-30-global-trade-tensions-ease-china) | China and the U.S. have eased tariffs, potentially reducing financial pressures on utilities and encouraging investme... |
 | **Sep 30, 2026** | [CHINA & US REACH POSITIVE CONSENSUS ON ECONOMIC TARIFFS](/archive/grid/2026-09-30-china-us-reach-positive-consensus) | Geopolitical tensions are easing as China and the U.S. plan to reduce tariffs, potentially easing financial pressures... |
 | **Sep 30, 2026** | [CHINA & US TARIFF REDUCTIONS EASE GLOBAL ECONOMIC TENSIONS](/archive/grid/2026-09-30-china-us-tariff-reductions-ease) | Geopolitical relations are easing as China and the U.S. plan to reduce trade tensions through tariff reductions. |
-| **Sep 28, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-09-28-lowcarbon-volcanic-rock-cement-ai) | Paragraph 1: Geopolitical tensions between the United States and Russia have escalated, with Russia claiming strikes ... |
 | **Sep 26, 2026** | [TRUMP REJECTS IRAN CEASEFIRE, PRESERVES NUCLEAR DETERRENCE](/archive/grid/2026-09-26-trump-rejects-iran-ceasefire-preserves) | Trump reiterates Iran can not have a nuclear weapon as prez rejects regimes seven-day ceasefire proposal. |
 | **Sep 26, 2026** | [Data Synchronization Drives Daily Momentum Shifts.](/archive/grid/2026-09-26-data-synchronization-drives-daily-momentum) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 26, 2026** | [GRID SHIFT TAKES SHAPE AS DATA SYNCHRONIZATION NEARS CRITICAL MASS.](/archive/grid/2026-09-26-grid-shift-takes-shape-as) | Monitoring grid substrate for significant momentum shifts. |
