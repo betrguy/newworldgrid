@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: ISRAEL, RUSSIA, IRAN TENSIONS ESCALATE IN MIDDLE EAST. A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO ..."
+description: "Predictive News: A surge in regional tensions is marked by Israel's targeted killing of a.... A surge in regional tensions is marked by Israel's targeted kil..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -59,6 +59,13 @@ UN speeches on Gaza have reignited debates over double standards, with Israeli o
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 04, 2026</span>
+        <a href="/archive/predictive/2026-10-04-israel-russia-iran-tensions-escalate" class="archive-link">ISRAEL, RUSSIA, IRAN TENSIONS ESCALATE IN MIDDLE EAST</a>
+      </div>
+      <div class="archive-preview">A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's intensified military...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 04, 2026</span>
@@ -133,13 +140,6 @@ UN speeches on Gaza have reignited debates over double standards, with Israeli o
       <div class="archive-item-header">
         <span class="archive-date">Sep 26, 2026</span>
         <a href="/archive/predictive/2026-09-26-russia-uke-ceasefire-offers-hang" class="archive-link">RUSSIA UKE CEASEFIRE OFFERS HANG IN BALANCE AS MILITARY ENGAGEMENTS ESCALATE</a>
-      </div>
-      <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 24, 2026</span>
-        <a href="/archive/predictive/2026-09-24-russia-uke-ceasefire-offers-amid" class="archive-link">RUSSIA UKE CEASEFIRE OFFERS AMID ESCALATING MILITARY ENGAGEMENTS & SANCTIONS</a>
       </div>
       <div class="archive-preview">The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and international sanctions.</div>
     </div>
