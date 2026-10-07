@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 07, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-10-07-regional-actors-redefine-global-power) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 06, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-06-usiran-gulf-maritime-escalation-strategic) | A significant escalation in Middle Eastern tensions coincides with heightened US-Israel-Russia relations amid regiona... |
 | **Oct 06, 2026** | [Israel Kills Turkish NGO Director Amid Ukraine, Iran Instability](/archive/predictive/2026-10-06-israel-kills-turkish-ngo-director) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
 | **Oct 06, 2026** | [A surge in regional tensions is marked by Israel's targeted killing of a...](/archive/predictive/2026-10-06-a-surge-in-regional-tensions) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
@@ -47,7 +48,6 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 | **Sep 24, 2026** | [RUSSIA UKE CEASEFIRE OFFERS HANG IN THE BALANCE AS MILITARY ENGAGEMENTS ESCALATE](/archive/predictive/2026-09-24-russia-uke-ceasefire-offers-hang) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 24, 2026** | [RUSSIA UKE CEASEFIRE PROPOSAL HITS ROCKY GROUND AS MILITARY ENGAGEMENTS ESCALATE](/archive/predictive/2026-09-24-russia-uke-ceasefire-proposal-hits) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
 | **Sep 23, 2026** | [CEASEFIRE OFFER HITS ROADBLOCK AS RUSSIA, UKRAINE ENGAGE IN DEADLIEST BATTLE YET](/archive/predictive/2026-09-23-ceasefire-offer-hits-roadblock-as) | The Ukraine-Russia conflict intensifies with a ceasefire proposal amidst escalating military engagements and internat... |
-| **Sep 21, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-09-21-regional-actors-redefine-global-power) | Global power dynamics shift as regional actors leverage influence. |
 | **Sep 21, 2026** | [REGIONAL ACTORS RISE AS GLOBAL POWER SHIFTS](/archive/predictive/2026-09-21-regional-actors-rise-as-global) | Global power dynamics shift as regional actors leverage influence. |
 | **Sep 20, 2026** | [US-Iran Tensions Escalate Amid Looming War Threat Over Iranian Conditions for Talks.](/archive/predictive/2026-09-20-usiran-tensions-escalate-amid-looming) | Iranian conditions for talks escalate US-Iran tensions amid looming war threat. |
 | **Sep 19, 2026** | [IRAN, SAUDI ARABIA, ISRAEL TENSIONS ESCALATE AS REGIONAL UNREST INTENSIFIES](/archive/predictive/2026-09-19-iran-saudi-arabia-israel-tensions) | Iran-Houthi tensions escalate with Saudi Arabia, Israel's strategic interests come to the fore amidst regional unrest... |

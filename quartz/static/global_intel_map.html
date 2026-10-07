@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-06 22:25 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-10-07 08:03 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,152 +52,177 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel marks Oct. 7 anniversary amid tense election and regional tensions.",
-    "emojis": "⚔️⚡",
+    "summary": "First Thing: Israel marks third anniversary of 7 October Hamas attacks - The Gua",
+    "emojis": "⚔️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Palestinians"
-    ],
-    "source_count": 26,
-    "timestamp": "10:25 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran-backed Houthis launch missiles at Yemen airport; Trump suggests Iran could 'take out' LA/San Diego; US-Israel tension rises over Iran nuclear talks.",
-    "emojis": "🚀⚔️☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran-backed Houthis",
-      "Trump",
-      "US-Israel"
+      "google_israel"
     ],
     "source_count": 46,
-    "timestamp": "10:25 PM"
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Trump vows to take up deadly Russia plague case with Vladimir Putin - Yahoo",
+    "emojis": "☢️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "google_russia"
+    ],
+    "source_count": 27,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian strikes on Ukrainian cities kill at least 21 in a major attack that Kyiv",
+    "emojis": "💥⚔️💀",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "bbc_world",
+      "google_russia"
+    ],
+    "source_count": 16,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India's EV Retail Sales Hit Record 3.33 Lakh Units in September, Up 74% YoY - ET",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "google_ev",
+      "google_ev_market"
+    ],
+    "source_count": 2,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's DeepZang AI aims to transform Tibetan language tech, promote unity",
+    "summary": "EU Seeks Deal With China to Curb Car Imports - Yahoo",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "DeepZang AI",
-      "Tibetan language tech",
-      "Unity"
+      "google_china"
     ],
-    "source_count": 11,
-    "timestamp": "10:25 PM"
+    "source_count": 13,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Trump discusses possible plague with Putin; US vet's mom pleads for son's release from Russia.",
+    "title": "SITREP: US-TX",
+    "summary": "Why Texas may see fewer Iranian lawyers - Chron",
     "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
-      "Trump",
-      "Putin",
-      "US vet's mom"
-    ],
-    "source_count": 25,
-    "timestamp": "10:25 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia launches attacks on Kyiv; Ukraine targets Sochi and Russia's oil industry.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 3,
-    "timestamp": "10:25 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan aids 9M low-income households with fuel amid rising Middle East prices.",
-    "emojis": "⚔️",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Pakistan",
-      "Middle East"
+      "google_iran"
     ],
     "source_count": 1,
-    "timestamp": "10:25 PM"
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthis seek reinforcements; crude oil exports rise above pre-war levels despite Houthi attacks.",
-    "emojis": "⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
+    "title": "SITREP: IRAN",
+    "summary": "Opinion by Pa. 7th District congressional candidate Bob Brooks: Where I stand on",
+    "emojis": "⚔️☢️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Houthis",
-      "Yemen"
+      "google_iran",
+      "google_israel"
     ],
-    "source_count": 2,
-    "timestamp": "10:25 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Jaguar launches Type 01 EV for young Americans; US evacuates bombers after Iran drone threat",
-    "emojis": "✈️💣",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Jaguar",
-      "US",
-      "Iran",
-      "UK",
-      "The Guardian",
-      "PBS"
-    ],
-    "source_count": 2,
-    "timestamp": "10:25 PM"
+    "source_count": 20,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Smotrich proposes annexing Gaza and Lebanon",
-    "emojis": "",
+    "summary": "Israeli attacks across Gaza kill at least four Palestinians - Al Jazeera",
+    "emojis": "⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Smotrich",
-      "Gaza",
-      "Lebanon"
+      "google_middle_east",
+      "google_israel"
     ],
-    "source_count": 1,
-    "timestamp": "10:25 PM"
+    "source_count": 5,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Houthis strike Yemen government-held and Saudi targets as violence intensifies -",
+    "emojis": "💥⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "google_middle_east"
+    ],
+    "source_count": 2,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "Hundreds of thousands protest; Riot police use tear gas.",
-    "emojis": "",
+    "summary": "France halts use of stun grenades after boy's hand blown off in student protests",
+    "emojis": "⚔️",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "school protesters",
-      "riot police"
+      "bbc_world",
+      "google_ev"
+    ],
+    "source_count": 2,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK Electric Van Sales Hit Record in September 2026 - Electric Cars Report",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "google_ev"
     ],
     "source_count": 1,
-    "timestamp": "10:25 PM"
+    "timestamp": "08:03 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California pair charged with abusing at least 14 surrogate-born children",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "bbc_world"
+    ],
+    "source_count": 1,
+    "timestamp": "08:03 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Israeli forces raid town in southern Syria, arrest young man - Anadolu Ajansı",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "google_israel"
+    ],
+    "source_count": 1,
+    "timestamp": "08:03 AM"
   }
 ];
 
