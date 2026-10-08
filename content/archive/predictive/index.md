@@ -14,10 +14,10 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 08, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-08-usiran-gulf-maritime-escalation-strategic) | A new phase of heightened global tensions emerges with the execution of a US-DC attacker livestreamed, US-Iran confro... |
 | **Oct 08, 2026** | [REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS](/archive/predictive/2026-10-08-regional-actors-emerge-as-global) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 08, 2026** | [REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN](/archive/predictive/2026-10-08-regional-actors-seize-global-stage) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 07, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-10-07-regional-actors-redefine-global-power) | Global power dynamics shift as regional actors leverage influence. |
-| **Oct 06, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-06-usiran-gulf-maritime-escalation-strategic) | A significant escalation in Middle Eastern tensions coincides with heightened US-Israel-Russia relations amid regiona... |
 | **Oct 06, 2026** | [Israel Kills Turkish NGO Director Amid Ukraine, Iran Instability](/archive/predictive/2026-10-06-israel-kills-turkish-ngo-director) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
 | **Oct 06, 2026** | [A surge in regional tensions is marked by Israel's targeted killing of a...](/archive/predictive/2026-10-06-a-surge-in-regional-tensions) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
 | **Oct 04, 2026** | [ISRAEL, RUSSIA, IRAN TENSIONS ESCALATE IN MIDDLE EAST](/archive/predictive/2026-10-04-israel-russia-iran-tensions-escalate) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
