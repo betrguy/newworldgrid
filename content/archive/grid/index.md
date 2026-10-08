@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 08, 2026** | [OIL PRICES SOAR AS MIDDLE EAST TENSIONS & GULF STORM THREATS LOOM](/archive/grid/2026-10-08-oil-prices-soar-as-middle) | Middle East tensions and Gulf storm threats are driving oil prices higher, potentially straining grid resilience, esp... |
 | **Oct 08, 2026** | [OIL PRICES SOAR AS MIDDLE EAST TENSIONS & GULF STORM THREATS INTENSIFY](/archive/grid/2026-10-08-oil-prices-soar-as-middle) | Middle East tensions and Gulf storm threats are driving oil prices higher, reflecting increased supply concerns. |
 | **Oct 07, 2026** | [KREMLIN DENOUNCES FRANCE'S NUCLEAR TEST AS PART OF 'DEAD END' ANTI-RUSSIA STRATEGY](/archive/grid/2026-10-07-kremlin-denounces-frances-nuclear-test) | Kremlin Says Frances Test Nuclear Launch Is Part of Dead End Anti-Russia Strategy - U.S. |
 | **Oct 06, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-06-lowcarbon-volcanic-rock-cement-ai) | Geopolitical tensions are intensifying, with the U.S. expanding security cooperation with Iceland to counter China an... |

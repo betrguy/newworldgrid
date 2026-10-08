@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN. Global power dynamics shift as regional actors leverage influence."
+description: "Predictive News: REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS. Global power dynamics shift as regional actors leverage influence."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -56,6 +56,13 @@ Russian strikes on Ukrainian cities killed at least 21, prompting concern in Kyi
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 08, 2026</span>
+        <a href="/archive/predictive/2026-10-08-regional-actors-seize-global-stage" class="archive-link">REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 07, 2026</span>
@@ -132,13 +139,6 @@ Russian strikes on Ukrainian cities killed at least 21, prompting concern in Kyi
         <a href="/archive/predictive/2026-09-27-israels-revocation-of-dutch-diplomatic" class="archive-link">Israel's revocation of Dutch diplomatic credentials over the West Bank...</a>
       </div>
       <div class="archive-preview">Israel's revocation of Dutch diplomatic credentials over the West Bank goods ban signals escalating tensions in the region, while US-NY...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 27, 2026</span>
-        <a href="/archive/predictive/2026-09-27-israels-elections-under-fire-as" class="archive-link">ISRAEL'S ELECTIONS UNDER FIRE AS GAZA CONDEMnation REACHES GLOBAL BOILING POINT</a>
-      </div>
-      <div class="archive-preview">Israeli elections face international criticism amid calls for UN renaming and IDF protection, as global condemnation of Israel's actions...</div>
     </div>
   </div>
 </div>
