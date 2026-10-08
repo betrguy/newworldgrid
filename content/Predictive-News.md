@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY. Global power dynamics shift as regional actors leverage influence."
+description: "Predictive News: REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN. Global power dynamics shift as regional actors leverage influence."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -56,6 +56,13 @@ Russian strikes on Ukrainian cities killed at least 21, prompting concern in Kyi
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 07, 2026</span>
+        <a href="/archive/predictive/2026-10-07-regional-actors-redefine-global-power" class="archive-link">REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY</a>
+      </div>
+      <div class="archive-preview">Global power dynamics shift as regional actors leverage influence.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 06, 2026</span>
@@ -132,13 +139,6 @@ Russian strikes on Ukrainian cities killed at least 21, prompting concern in Kyi
         <a href="/archive/predictive/2026-09-27-israels-elections-under-fire-as" class="archive-link">ISRAEL'S ELECTIONS UNDER FIRE AS GAZA CONDEMnation REACHES GLOBAL BOILING POINT</a>
       </div>
       <div class="archive-preview">Israeli elections face international criticism amid calls for UN renaming and IDF protection, as global condemnation of Israel's actions...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 26, 2026</span>
-        <a href="/archive/predictive/2026-09-26-israels-internal-uprising-meets-irans" class="archive-link">ISRAEL'S INTERNAL UPRISING MEETS IRAN'S DIPLOMATIC STANCE</a>
-      </div>
-      <div class="archive-preview">A complex geopolitical landscape emerges as regional tensions escalate, with Israel's internal unrest juxtaposed against Iran's...</div>
     </div>
   </div>
 </div>

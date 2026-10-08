@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 08, 2026** | [REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN](/archive/predictive/2026-10-08-regional-actors-seize-global-stage) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 07, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-10-07-regional-actors-redefine-global-power) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 06, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-06-usiran-gulf-maritime-escalation-strategic) | A significant escalation in Middle Eastern tensions coincides with heightened US-Israel-Russia relations amid regiona... |
 | **Oct 06, 2026** | [Israel Kills Turkish NGO Director Amid Ukraine, Iran Instability](/archive/predictive/2026-10-06-israel-kills-turkish-ngo-director) | A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's inten... |
@@ -60,7 +61,6 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 | **Sep 05, 2026** | [Middle East Escalation Signals & Apple UK Antitrust Pressures](/archive/predictive/2026-09-05-middle-east-escalation-signals-apple) | The Middle East and Asia has heightened tensions and raised concerns about military action, cyberattacks, and espiona... |
 | **Sep 01, 2026** | [GLOBE TEETERS ON BRINK AS REGIONAL POWERS CLASH & HUMANITARIAN CRISIS ESCALATES](/archive/predictive/2026-09-01-global-tensions-intensified-multiple) | Global tensions have intensified, with multiple flashpoints emerging across the globe, including heightened tensions ... |
 | **Aug 29, 2026** | [MIDDLE EAST ON BRINK OF WIDESPREAD WAR AS MAJOR POWER DEFIES GLOBAL PRESSURE](/archive/predictive/2026-08-29-significant-escalation-tensions-middle) | A significant escalation of tensions in the Middle East has raised concerns about the potential for widespread confli... |
-| **Aug 28, 2026** | [REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN](/archive/predictive/2026-08-28-global-power-dynamics-shift) | Global power dynamics shift as regional actors leverage influence. |
 | **Aug 26, 2026** | [RUSSIA'S MILITARY EXPANSION SPARKS GLOBAL CONCERNS OVER WIDENING CONFLICT](/archive/predictive/2026-08-26-global-tensions-escalated-russias) | Global tensions have escalated as Russia's military activities and cooperation with key adversaries have intensified,... |
 | **Aug 24, 2026** | [GLOBAL INSTABILITY SPARKS AS CHINA, IRAN, ISRAEL TENSIONS ESCALATE](/archive/predictive/2026-08-24-series-escalating-tensions-military) | A series of escalating tensions and military actions in various regions, including China's growing AI concerns, Iran'... |
 | **Aug 23, 2026** | [Regional Players Seize Global Stage Amid Shifts in Power & Influence.](/archive/predictive/2026-08-23-global-power-dynamics-shift) | Global power dynamics shift as regional actors leverage influence. |
