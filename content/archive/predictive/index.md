@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 10, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-10-usiran-gulf-maritime-escalation-strategic) | Russia's blockage of the US-Russia diesel deal signals a potential shift in global energy alliances and economic sanc... |
 | **Oct 09, 2026** | [Global Tensions Escalate Amid US-China Diplomacy & Russian Aggression](/archive/predictive/2026-10-09-global-tensions-escalate-amid-uschina) | A series of escalating geopolitical tensions and conflicts are unfolding, marked by intensified anti-Israel protests,... |
-| **Oct 08, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-08-usiran-gulf-maritime-escalation-strategic) | A new phase of heightened global tensions emerges with the execution of a US-DC attacker livestreamed, US-Iran confro... |
 | **Oct 08, 2026** | [REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS](/archive/predictive/2026-10-08-regional-actors-emerge-as-global) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 08, 2026** | [REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN](/archive/predictive/2026-10-08-regional-actors-seize-global-stage) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 07, 2026** | [REGIONAL ACTORS REDEFINE GLOBAL POWER PLAY](/archive/predictive/2026-10-07-regional-actors-redefine-global-power) | Global power dynamics shift as regional actors leverage influence. |

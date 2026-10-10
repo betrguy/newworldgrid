@@ -14,9 +14,9 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 10, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-10-lowcarbon-volcanic-rock-cement-ai) | This page explores recent advancements in orbital economy through satellite launches and the evolution of electric ve... |
 | **Oct 09, 2026** | [Satellite Support & EV Grids: Ukraine's Dual Economic Imperative](/archive/frontier/2026-10-09-satellite-support-ev-grids-ukraines) | Ukraine's ongoing needs for satellite communication support coincide with Scotland's efforts to expand its electric v... |
 | **Oct 08, 2026** | [Russia-Ukraine Conflict Sparks Grid, EV Investment Surge](/archive/frontier/2026-10-08-russiaukraine-conflict-sparks-grid-ev) | This page explores the evolving orbital economy in the context of geopolitical tensions, such as the Russia-Ukraine c... |
-| **Oct 08, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-08-lowcarbon-volcanic-rock-cement-ai) | Jaguar's luxury EV launch and Believ's expansion of EV charging points highlight advancements in both orbital economy... |
 | **Oct 06, 2026** | [Toyota Highlander EV Delay & Ionna Charging Network Growth](/archive/frontier/2026-10-06-toyota-highlander-ev-delay-ionna) | Orbital threats loom as the future of electric vehicles and grid infrastructure advances. |
 | **Oct 01, 2026** | [Passengers, Crew Intervene Amid EV Infrastructure Surge](/archive/frontier/2026-10-01-passengers-crew-intervene-amid-ev) | Orbital economy developments saw passengers and crew intervene to prevent a flight incident, while significant invest... |
 | **Sep 30, 2026** | [SWISS GLACIERS FACE SEVERE ICE LOSS AS CLIMATE CHANGE FORCES EV REVOLUTION](/archive/frontier/2026-09-30-swiss-glaciers-face-severe-ice) | As Swiss glaciers face severe ice loss threatening water supplies, the rapid pace of climate change is prompting shif... |
