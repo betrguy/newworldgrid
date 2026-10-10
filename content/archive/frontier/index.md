@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 09, 2026** | [Satellite Support & EV Grids: Ukraine's Dual Economic Imperative](/archive/frontier/2026-10-09-satellite-support-ev-grids-ukraines) | Ukraine's ongoing needs for satellite communication support coincide with Scotland's efforts to expand its electric v... |
 | **Oct 08, 2026** | [Russia-Ukraine Conflict Sparks Grid, EV Investment Surge](/archive/frontier/2026-10-08-russiaukraine-conflict-sparks-grid-ev) | This page explores the evolving orbital economy in the context of geopolitical tensions, such as the Russia-Ukraine c... |
 | **Oct 08, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-08-lowcarbon-volcanic-rock-cement-ai) | Jaguar's luxury EV launch and Believ's expansion of EV charging points highlight advancements in both orbital economy... |
 | **Oct 06, 2026** | [Toyota Highlander EV Delay & Ionna Charging Network Growth](/archive/frontier/2026-10-06-toyota-highlander-ev-delay-ionna) | Orbital threats loom as the future of electric vehicles and grid infrastructure advances. |

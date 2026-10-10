@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Oct 08, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-08-lowcarbon-volcanic-rock-cement-ai) | By 2028, genetic engineering and gene therapy, bolstered by artificial intelligence, have become standard in treating... |
+| **Oct 09, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-09-lowcarbon-volcanic-rock-cement-ai) | With the development of quantum chips that can hold multiple photons at once, storing quantum information is no longe... |
 | **Oct 07, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-10-07-perovskite-solar-cells-achieve-25) | Researchers at UNSW have teamed up with UtmoLight to set a new world record for perovskite photovoltaic efficiency at... |
 | **Oct 06, 2026** | [SCIENTISTS UNCOVER QUANTUM 'SCARS' AS SMARTPHONE USE PLUMMETS](/archive/optimism/2026-10-06-scientists-uncover-quantum-scars-as) | With the discovery of "quantum birthmarks" in chaotic quantum systems, researchers are gaining new insights into the ... |
 | **Oct 06, 2026** | [Quantum systems now remember their origins & And open-source AI...](/archive/optimism/2026-10-06-quantum-systems-now-remember-their) | Researchers at Tampere University, Harvard University, and TU Dresden uncovered a "quantum birthmark" in chaotic quan... |

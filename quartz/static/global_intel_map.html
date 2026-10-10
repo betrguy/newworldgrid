@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-08 19:51 UTC | 15 active regions</div>
+        <div class="meta">Generated 2026-10-09 20:14 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">15 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,129 +51,171 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: US-DC",
-    "summary": "Fort Hood attacker's execution livestreamed; Trump criticizes AI.",
-    "emojis": "⚔️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "title": "SITREP: ISRAEL",
+    "summary": "Anti-Israel protests, military actions, and US involvement noted.",
+    "emojis": "🪖⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "US Defence",
-      "President Trump"
+      "Israel",
+      "Anti-Israel protesters",
+      "US defense",
+      "Netanyahu"
     ],
-    "source_count": 2,
-    "timestamp": "07:50 PM"
+    "source_count": 25,
+    "timestamp": "08:14 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "EU seeks outcomes in China talks; China urges Japan on Taiwan; China warns Philippines; China's EV push in Kenya.",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "EU",
+      "China",
+      "Japan",
+      "Philippines",
+      "Kenya"
+    ],
+    "source_count": 15,
+    "timestamp": "08:14 PM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India IT faces fourth year of weak growth due to geopolitics and AI risks.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India IT sector",
+      "geopolitics",
+      "AI risks"
+    ],
+    "source_count": 1,
+    "timestamp": "08:14 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions high; Pentagon prepares for potential war despite vetoes, Israel fears election delay.",
-    "emojis": "💥⚔️⚡",
+    "summary": "81 US aircraft lost in Iran war, US blockade ongoing, USS Lincoln returns, tensions persist, no immediate US attack",
+    "emojis": "✈️💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "US",
       "Iran",
-      "Pentagon",
-      "Israel"
+      "USS Abraham Lincoln"
     ],
-    "source_count": 48,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces protests, condemnation, and escalating violence in Gaza and domestic backlash.",
-    "emojis": "🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Palestinians",
-      "domestic opposition"
-    ],
-    "source_count": 30,
-    "timestamp": "07:51 PM"
+    "source_count": 57,
+    "timestamp": "08:14 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian attack kills 30 in Ukraine's Kramatorsk; Kushner, Witkoff propose 'new ideas' to end war.",
-    "emojis": "⚔️",
+    "summary": "Russian strike kills at least 33 in eastern Ukraine.",
+    "emojis": "💥⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine",
-      "Steve Witkoff",
-      "Jared Kushner"
+      "Ukraine"
     ],
-    "source_count": 6,
-    "timestamp": "07:51 PM"
+    "source_count": 10,
+    "timestamp": "08:14 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Suspected plague death in Russia; US vigilance amidst political tensions.",
+    "emojis": "⚡📈",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "US"
+    ],
+    "source_count": 8,
+    "timestamp": "08:14 PM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Houthi attacks prompt Saudi response; coalition vows 'punishment'.",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Houthi",
+      "Saudi Arabia",
+      "Yemeni Rebels"
+    ],
+    "source_count": 1,
+    "timestamp": "08:14 PM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Fort Hood attacker's execution by firing squad will be livestreamed.",
+    "emojis": "⚔️",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "US Defence",
+      "Fort Hood attacker",
+      "Public"
+    ],
+    "source_count": 1,
+    "timestamp": "08:14 PM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "California threatens House 2027 elections, Chinese spy arrested.",
+    "summary": "California threatens to worsen House Democrats' 2027 headaches",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
       "California",
-      "Chinese Spy"
+      "House Democrats"
     ],
-    "source_count": 2,
-    "timestamp": "07:51 PM"
+    "source_count": 1,
+    "timestamp": "08:14 PM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Freed hostage's brother urges continued pressure on Hamas; Israeli strikes kill seven in Gaza.",
-    "emojis": "💥💀",
+    "summary": "Hostage's brother urges continued pressure on Hamas three years after Oct. 7.",
+    "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Freed hostage's brother",
-      "Hamas",
-      "Israeli forces",
-      "Gaza residents"
+      "Hostage's Brother",
+      "Hamas"
     ],
-    "source_count": 3,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China's expanding influence across various sectors globally",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Global South",
-      "International Community"
-    ],
-    "source_count": 12,
-    "timestamp": "07:51 PM"
+    "source_count": 4,
+    "timestamp": "08:14 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "Zohran Mamdani defends handling of Oct. 7 amid criticism",
+    "summary": "Mayor Zohran Mamdani condemns Israeli actions; NYC prepares for Oct. 7 anniversary amid criticism.",
     "emojis": "⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
       "Zohran Mamdani",
-      "CBS News",
-      "The New York Times"
+      "New York City"
     ],
     "source_count": 3,
-    "timestamp": "07:51 PM"
+    "timestamp": "08:14 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Research on heat-storing gel to reduce building energy consumption.",
+    "summary": "Heat-storing gel could cut buildings' energy consumption",
     "emojis": "",
     "lat": 30.26,
     "lng": -97.74,
@@ -183,93 +225,7 @@
       "building owners"
     ],
     "source_count": 1,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Five brothers released from Russian prison; expert Q&A on Russia's 'plague'; Russia denies WHO's epidemic risk concerns.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russian authorities",
-      "World Health Organization",
-      "Experts"
-    ],
-    "source_count": 3,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Germany's EV boom boosts polycarbonate demand",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Germany",
-      "Polycarbonate"
-    ],
-    "source_count": 1,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Pakistan denies Yemen Houthi strikes",
-    "emojis": "💥",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Pakistan",
-      "Yemen",
-      "Houthis"
-    ],
-    "source_count": 1,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "US-Israeli owner charged with defrauding clients of Florida ransomware firm.",
-    "emojis": "⚔️",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "US-Israeli owner",
-      "Florida ransomware firm clients"
-    ],
-    "source_count": 1,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: VENEZUELA",
-    "summary": "Maduro charged with conspiracy to commit torture over US citizens.",
-    "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
-    "actors": [
-      "Nicolás Maduro",
-      "US citizens"
-    ],
-    "source_count": 1,
-    "timestamp": "07:51 PM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Syria demands independent probe into Black Sea ship sinking.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Syria",
-      "International community"
-    ],
-    "source_count": 1,
-    "timestamp": "07:51 PM"
+    "timestamp": "08:14 PM"
   }
 ];
 
