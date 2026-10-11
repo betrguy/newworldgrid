@@ -1,33 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: EV Charging Shift & Iran Nuclear Site Activity Raise Cybersecurity Concerns. Significant activity detected at an Iran nuclear site, indica..."
+description: "State of the Grid: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Significant activity detected at an Iran nuclear site, indicative of ongoing..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">October 10, 2026 - 18:08</span>
+  <span class="sotg-timestamp">October 11, 2026 - 13:06</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-China's EV drivers are set to choose between rapid 3-minute battery swaps and convenient 5-minute charging, signaling a significant shift in electric vehicle infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Significant activity has been detected at the Iran nuclear site, indicating ongoing developments that could impact regional stability and energy infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
 <p class="meridian-lede">Significant activity detected at an Iran nuclear site, indicative of ongoing efforts to rebuild or maintain critical infrastructure, underscores the persistent threat of cyber and physical security risks. This activity highlights the need for robust cybersecurity measures, as evidenced by Anthropic's recent cybersecurity initiative aimed at enhancing grid security strategies. Additionally, Iran's continued production of missiles and drones, supported by Russian arms, suggests potential regional instability that could impact global energy markets and geopolitical dynamics. These factors emphasize the interconnectedness of grid resilience, cybersecurity, and geopolitical tensions, necessitating a comprehensive approach to safeguarding critical infrastructure.</p>
+
+The Hormuz strike count nears 20 vessels as Iran tightens its grip, hitting another tanker, which could disrupt oil flows and exacerbate supply chain disruptions. This event underscores the vulnerability of global energy supply chains, particularly in the Middle East, and the potential for increased geopolitical tensions to impact regional stability and energy prices. Enhanced coordination and robust security measures are essential to mitigate the risks to the grid and ensure the continuity of energy supply.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Iran's activities at nuclear sites and missile production pose significant cybersecurity and geopolitical risks.</li>
-  <li><strong>The big picture:</strong> These actions underscore the need for integrated approaches to cybersecurity and energy market stability.</li>
-  <li><strong>What to watch:</strong> Evolution of U.S. and European sanctions and countermeasures against Iran's cyber and military capabilities.</li>
+  <li><strong>Why it matters:</strong> The ongoing activity at Iran's nuclear site and recent strikes in the Gulf highlight the interconnected risks of cyber and physical security threats.</li>
+  <li><strong>The big picture:</strong> These events underscore the need for a comprehensive approach to safeguarding critical infrastructure, linking cybersecurity, geopolitics, and energy markets.</li>
+  <li><strong>What to watch:</strong> Monitoring the response from international allies and the effectiveness of enhanced security measures in the region.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 6.7, with a 24-hour average of 3.95 and a peak of 7.0, indicating a Severe Storm condition. This geomagnetic activity can significantly impact satellites, cause orbit disruptions, and increase radiation exposure. HF radio communications are severely degraded, and power grid stability is at risk, with potential voltage fluctuations and increased load on transformers.
+The current 24-hour geomagnetic condition is labeled as a storm, with a peak Kp index of 6.7, an average of 3.95, and a current Kp of 2.3. This storm can disrupt satellite operations, especially those sensitive to magnetic fields, and may degrade HF radio communications. Power grid stability is also at risk, with potential fluctuations and outages.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -41,6 +43,13 @@ The current Kp index is 6.7, with a 24-hour average of 3.95 and a peak of 7.0, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 10, 2026</span>
+        <a href="/archive/grid/2026-10-10-ev-charging-shift-iran-nuclear" class="archive-link">EV Charging Shift & Iran Nuclear Site Activity Raise Cybersecurity Concerns</a>
+      </div>
+      <div class="archive-preview">China's EV drivers are set to choose between rapid 3-minute battery swaps and convenient 5-minute charging, signaling a significant...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 09, 2026</span>
@@ -110,13 +119,6 @@ The current Kp index is 6.7, with a 24-hour average of 3.95 and a peak of 7.0, i
         <a href="/archive/grid/2026-10-04-us-sanctions-on-russia-hang" class="archive-link">US Sanctions on Russia Hang in Balance Amid Global Grid Uncertainty</a>
       </div>
       <div class="archive-preview">Developments in geopolitical tensions and policy shifts could significantly impact the state of the grid, particularly regarding data...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 04, 2026</span>
-        <a href="/archive/grid/2026-10-04-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
-      </div>
-      <div class="archive-preview">Geopolitical tensions and potential shifts in compute infrastructure are reshaping global energy and grid dynamics, with Iran's closure...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">

@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 11, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-10-11-strait-of-hormuz-flow-discrepancies) | Significant activity detected at an Iran nuclear site, indicative of ongoing efforts to rebuild or maintain critical ... |
 | **Oct 10, 2026** | [EV Charging Shift & Iran Nuclear Site Activity Raise Cybersecurity Concerns](/archive/grid/2026-10-10-ev-charging-shift-iran-nuclear) | Significant activity detected at an Iran nuclear site, indicative of ongoing efforts to rebuild or maintain critical ... |
 | **Oct 09, 2026** | [ANTHROPIC UNVEILS AI-POWERED CYBERSECURITY FOR CRITICAL INFRASTRUCTURE](/archive/grid/2026-10-09-anthropic-unveils-aipowered-cybersecurity-for) | Anthropic's launch of a new cybersecurity initiative for critical infrastructure signals a significant shift in grid ... |
 | **Oct 08, 2026** | [US & Russia Weigh Revival of Russian Gas Sales Amid Global Energy Shifts](/archive/grid/2026-10-08-us-russia-weigh-revival-of) | The U.S. and Russia are discussing the revival of Russian gas sales to Europe, which could influence Europe’s energy ... |
@@ -25,7 +26,6 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 | **Oct 06, 2026** | [RUSSIA SANCTIONS LOOM OVER GLOBAL ENERGY MARKETS](/archive/grid/2026-10-06-russia-sanctions-loom-over-global) | Geopolitical tensions are escalating, with the U.S. considering severe sanctions against Russia, which could disrupt ... |
 | **Oct 06, 2026** | [The U.S. is considering severe sanctions against Russia & Middle Eastern...](/archive/grid/2026-10-06-the-us-is-considering-severe) | Geopolitical tensions, particularly the uncertainty surrounding potential sanctions against Russia, pose significant ... |
 | **Oct 04, 2026** | [US Sanctions on Russia Hang in Balance Amid Global Grid Uncertainty](/archive/grid/2026-10-04-us-sanctions-on-russia-hang) | Geopolitical tensions and potential shifts in compute infrastructure are reshaping global energy and grid dynamics. |
-| **Oct 04, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-10-04-strait-of-hormuz-flow-discrepancies) | Geopolitical tensions continue to pose significant challenges to grid resilience. |
 | **Oct 03, 2026** | [KUSHNER'S ENERGY DEALINGS RAISE QUESTIONS OF CONFLICT OF INTEREST](/archive/grid/2026-10-03-kushners-energy-dealings-raise-questions) | Monitoring grid substrate for significant momentum shifts. |
 | **Oct 03, 2026** | [US Grid Stuck in Transition Amid Clean Energy Bottleneck](/archive/grid/2026-10-03-us-grid-stuck-in-transition) | The U.S. grid is experiencing a clean energy bottleneck due to market design issues, despite a record 17% share of el... |
 | **Oct 02, 2026** | [NYC Grid Shifts Amid Battery Innovation & Trade Tensions](/archive/grid/2026-10-02-nyc-grid-shifts-amid-battery) | Smaller, distributed batteries are gaining traction as a solution to grid instability, particularly in densely popula... |

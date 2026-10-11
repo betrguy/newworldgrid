@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-10 18:10 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-10-11 13:07 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,171 +51,185 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Rep. Fitzpatrick blocks Trump-Russia diesel deal; Pence urges 'rescind'; Kaja Kallas criticizes revenue from US sanctions suspension; mystery worker's death at Russia lab.",
-    "emojis": "⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israeli election debate shaped by flydubai hijacking, Red Cross comments, ICC complaint, US casualties count, Hamas unrest, Mamdani criticism",
+    "emojis": "🪖💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Rep. Brian Fitzpatrick",
-      "Mike Pence",
-      "Kaja Kallas",
-      "Unknown worker",
-      "President Trump",
-      "Russian officials",
-      "Russian lab"
+      "Israeli election",
+      "flydubai",
+      "Red Cross",
+      "ICC",
+      "US",
+      "Hamas",
+      "Mamdani"
     ],
-    "source_count": 13,
-    "timestamp": "06:08 PM"
+    "source_count": 38,
+    "timestamp": "01:06 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US fighter jet disables cargo ship breaching Iran blockade",
+    "emojis": "🪖🚢✈️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Iran"
+    ],
+    "source_count": 43,
+    "timestamp": "01:07 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Zelenskyy warns of Trump-Putin diesel deal funding Russia's war; Trump calls for Ukraine to replace Zelenskyy.",
-    "emojis": "⚔️💣",
+    "summary": "Trump urges Ukraine to replace Zelenskyy, GOP rejects Russia-U.S. diesel deal amid intensifying war.",
+    "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "Trump",
       "Zelenskyy",
-      "Trump"
+      "Ukraine",
+      "Russia",
+      "GOP"
     ],
-    "source_count": 25,
-    "timestamp": "06:09 PM"
+    "source_count": 26,
+    "timestamp": "01:07 PM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China's cultural presence, EV sales growth, and EU-China trade tensions noted.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "ABS-CBN",
+      "EU",
+      "Tesla"
+    ],
+    "source_count": 7,
+    "timestamp": "01:07 PM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "US, China, Russia may join UFO arms race",
+    "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "US",
+      "China",
+      "Russia"
+    ],
+    "source_count": 18,
+    "timestamp": "01:07 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon death toll rises to 4,386 from Israeli attacks since March 2.",
+    "emojis": "🪖⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Lebanon",
+      "Israel"
+    ],
+    "source_count": 1,
+    "timestamp": "01:07 PM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "BMW opens advanced battery plant in Bavaria.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "BMW",
+      "Bavaria"
+    ],
+    "source_count": 1,
+    "timestamp": "01:07 PM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan leader urges stronger defense and cooperation",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan leader",
+      "NHK News"
+    ],
+    "source_count": 1,
+    "timestamp": "01:07 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Dozens injured in Houthi attack on Riyadh airport; Yemen advances against Houthis.",
+    "summary": "Saudi Arabia closes Riyadh Airport after Houthi missile attack injures dozens",
     "emojis": "💥⚔️🚀",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Yemen",
-      "Houthis",
-      "Saudi Arabia"
-    ],
-    "source_count": 6,
-    "timestamp": "06:09 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran-backed Houthis strike Riyadh airport amid rising US-Iran tensions.",
-    "emojis": "💥⚔️☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "Houthis",
       "Saudi Arabia",
-      "US"
+      "Houthi rebels"
     ],
-    "source_count": 34,
-    "timestamp": "06:09 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Doctors demand suspension of Israel, Arab bloc threatens Netanyahu's government.",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Doctors",
-      "World Medical Association",
-      "Netanyahu",
-      "Arab bloc in Israel"
-    ],
-    "source_count": 33,
-    "timestamp": "06:10 PM"
+    "source_count": 3,
+    "timestamp": "01:07 PM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "Air France bans Israeli-affected pilots; Riyadh airport attack kills 2, injures multiple.",
-    "emojis": "⚔️💀",
+    "summary": "Air France bans Muslim pilots over Israeli sanctions; Riyadh airport attack kills 2, injures many",
+    "emojis": "⚔️💀🚫",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
       "Air France",
-      "Riyadh airport"
+      "Israeli sanctions",
+      "Riyadh airport",
+      "Muslim pilots"
     ],
     "source_count": 2,
-    "timestamp": "06:10 PM"
+    "timestamp": "01:07 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli attack destroys building in Gaza one year into 'ceasefire'; Palestinians still being killed.",
+    "emojis": "⚔️💀🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Palestinians in Gaza"
+    ],
+    "source_count": 2,
+    "timestamp": "01:07 PM"
   },
   {
     "title": "SITREP: US-TX",
-    "summary": "Tesla to launch Cybercab in Dallas soon, Austin sees over 300 registered units, Frank Kent Cadillac EV fire in Fort Worth",
+    "summary": "Tesla Cybercab expands to Dallas soon",
     "emojis": "",
     "lat": 30.26,
     "lng": -97.74,
     "location": "US-TX",
     "actors": [
       "Tesla",
-      "Dallas",
-      "Austin",
-      "Frank Kent Cadillac"
-    ],
-    "source_count": 3,
-    "timestamp": "06:10 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces a new EV charging choice and rare earths could challenge its dominance.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Texas"
-    ],
-    "source_count": 13,
-    "timestamp": "06:10 PM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Attack pushes new Israeli voters to right",
-    "emojis": "⚔️",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Israeli voters",
-      "TAIWAN"
-    ],
-    "source_count": 1,
-    "timestamp": "06:10 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "IAF strikes Iranian-backed terrorists in Marjayoun district.",
-    "emojis": "💥🔺",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "IAF",
-      "Iranian-backed terrorists"
+      "Dallas"
     ],
     "source_count": 2,
-    "timestamp": "06:10 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strikes kill five in Gaza, ceasefire 'in name only'.",
-    "emojis": "💥🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli strikes",
-      "Gaza",
-      "aid groups"
-    ],
-    "source_count": 3,
-    "timestamp": "06:10 PM"
+    "timestamp": "01:07 PM"
   }
 ];
 
