@@ -2,7 +2,7 @@
 title: "Daily Optimism: SCIENTISTS UNCOVER QUANTUM 'SCARS' AS SMARTPHONE USE PLUMMETS"
 date: 2026-10-06
 layout: page
-description: "Daily Optimism: SCIENTISTS UNCOVER QUANTUM 'SCARS' AS SMARTPHONE USE PLUMMETS. With the discovery of "quantum birthmarks" in chaotic quantum systems, researc..."
+description: "Daily Optimism: SCIENTISTS UNCOVER QUANTUM 'SCARS' AS SMARTPHONE USE PLUMMETS. With the discovery of 'quantum birthmarks' in chaotic quantum systems, researc..."
 ---
 
 <div class="sotg-byline">
