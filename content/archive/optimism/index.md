@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 12, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-12-lowcarbon-volcanic-rock-cement-ai) | Gurmeet Saran, an engineer at Anthropic, is building an infrastructure to ensure that Claude, the AI agent, provides ... |
 | **Oct 11, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-10-11-perovskite-solar-cells-achieve-25) | With the IEEE's new design program for AI chips, engineers can address the growing complexity of deep neural networks... |
-| **Oct 10, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-10-lowcarbon-volcanic-rock-cement-ai) | Engineers are mastering AI chip principles, which could dramatically reduce data transfer bottlenecks in edge devices. |
 | **Oct 06, 2026** | [SCIENTISTS UNCOVER QUANTUM 'SCARS' AS SMARTPHONE USE PLUMMETS](/archive/optimism/2026-10-06-scientists-uncover-quantum-scars-as) | With the discovery of "quantum birthmarks" in chaotic quantum systems, researchers are gaining new insights into the ... |
 | **Oct 06, 2026** | [Quantum systems now remember their origins & And open-source AI...](/archive/optimism/2026-10-06-quantum-systems-now-remember-their) | Researchers at Tampere University, Harvard University, and TU Dresden uncovered a "quantum birthmark" in chaotic quan... |
 | **Oct 03, 2026** | [Scientists have discovered a way to strengthen superconductors using...](/archive/optimism/2026-10-03-scientists-have-discovered-a-way) | The clean energy transition is gaining momentum as the market design is being reevaluated, allowing for a more effici... |

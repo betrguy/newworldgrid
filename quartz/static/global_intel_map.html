@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-11 13:07 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-10-12 19:34 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,185 +51,137 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israeli election debate shaped by flydubai hijacking, Red Cross comments, ICC complaint, US casualties count, Hamas unrest, Mamdani criticism",
-    "emojis": "🪖💀",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israeli election",
-      "flydubai",
-      "Red Cross",
-      "ICC",
-      "US",
-      "Hamas",
-      "Mamdani"
-    ],
-    "source_count": 38,
-    "timestamp": "01:06 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US fighter jet disables cargo ship breaching Iran blockade",
-    "emojis": "🪖🚢✈️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 43,
-    "timestamp": "01:07 PM"
-  },
-  {
     "title": "SITREP: UKRAINE",
-    "summary": "Trump urges Ukraine to replace Zelenskyy, GOP rejects Russia-U.S. diesel deal amid intensifying war.",
-    "emojis": "⚔️",
+    "summary": "Trump claims Russia-Ukraine energy ceasefire amid ongoing attacks",
+    "emojis": "💥⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "Trump",
-      "Zelenskyy",
-      "Ukraine",
+      "President Donald Trump",
       "Russia",
-      "GOP"
+      "Ukraine"
     ],
-    "source_count": 26,
-    "timestamp": "01:07 PM"
+    "source_count": 17,
+    "timestamp": "07:32 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's cultural presence, EV sales growth, and EU-China trade tensions noted.",
-    "emojis": "⚡",
+    "summary": "China boosts gold imports, cuts soybean output, reshapes steel sector",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "ABS-CBN",
-      "EU",
-      "Tesla"
+      "China"
     ],
-    "source_count": 7,
-    "timestamp": "01:07 PM"
+    "source_count": 16,
+    "timestamp": "07:33 PM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran threatens AI data centers amid US-Iran tensions.",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "China"
+    ],
+    "source_count": 29,
+    "timestamp": "07:33 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "US, China, Russia may join UFO arms race",
-    "emojis": "",
+    "summary": "NATO warns Russia over potential attacks; UK claims Russia interfered in Brexit vote; US-Russia diesel plan aims to lower prices.",
+    "emojis": "⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "US",
-      "China",
-      "Russia"
+      "NATO",
+      "Russia",
+      "UK",
+      "US"
     ],
-    "source_count": 18,
-    "timestamp": "01:07 PM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon death toll rises to 4,386 from Israeli attacks since March 2.",
-    "emojis": "🪖⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Lebanon",
-      "Israel"
-    ],
-    "source_count": 1,
-    "timestamp": "01:07 PM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "BMW opens advanced battery plant in Bavaria.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "BMW",
-      "Bavaria"
-    ],
-    "source_count": 1,
-    "timestamp": "01:07 PM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan leader urges stronger defense and cooperation",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan leader",
-      "NHK News"
-    ],
-    "source_count": 1,
-    "timestamp": "01:07 PM"
+    "source_count": 20,
+    "timestamp": "07:33 PM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Saudi Arabia closes Riyadh Airport after Houthi missile attack injures dozens",
-    "emojis": "💥⚔️🚀",
+    "summary": "Houthi attacks on Saudi airports kill one, injure 11; demand end to attacks",
+    "emojis": "💥⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
+      "Houthi",
       "Saudi Arabia",
-      "Houthi rebels"
+      "Pakistan",
+      "Egypt",
+      "Turkey"
     ],
-    "source_count": 3,
-    "timestamp": "01:07 PM"
+    "source_count": 4,
+    "timestamp": "07:33 PM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Air France bans Muslim pilots over Israeli sanctions; Riyadh airport attack kills 2, injures many",
-    "emojis": "⚔️💀🚫",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: ISRAEL",
+    "summary": "Netanyahu seeks probe, election poll favors Eisenkot",
+    "emojis": "💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Air France",
-      "Israeli sanctions",
-      "Riyadh airport",
-      "Muslim pilots"
+      "Netanyahu",
+      "Eisenkot"
     ],
-    "source_count": 2,
-    "timestamp": "01:07 PM"
+    "source_count": 27,
+    "timestamp": "07:33 PM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli attack destroys building in Gaza one year into 'ceasefire'; Palestinians still being killed.",
-    "emojis": "⚔️💀🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians in Gaza"
-    ],
-    "source_count": 2,
-    "timestamp": "01:07 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Tesla Cybercab expands to Dallas soon",
+    "title": "SITREP: US-CA",
+    "summary": "VinFast expands in California, VW, EVelution compete in EV market.",
     "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "Tesla",
-      "Dallas"
+      "VinFast",
+      "VW",
+      "EVelution"
     ],
-    "source_count": 2,
-    "timestamp": "01:07 PM"
+    "source_count": 1,
+    "timestamp": "07:33 PM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK Greens leader seeks rule change after declaring Zionism racism",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK Greens leader",
+      "party members"
+    ],
+    "source_count": 1,
+    "timestamp": "07:34 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Israeli election sees unprecedented coalition talks",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Israeli voters",
+      "Coalition leaders"
+    ],
+    "source_count": 1,
+    "timestamp": "07:34 PM"
   }
 ];
 
