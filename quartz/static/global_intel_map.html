@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-12 19:34 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-10-13 08:24 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,137 +51,167 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Trump claims Russia-Ukraine energy ceasefire amid ongoing attacks",
-    "emojis": "💥⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "President Donald Trump",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 17,
-    "timestamp": "07:32 PM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China boosts gold imports, cuts soybean output, reshapes steel sector",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China"
-    ],
-    "source_count": 16,
-    "timestamp": "07:33 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran threatens AI data centers amid US-Iran tensions.",
-    "emojis": "⚔️⚡",
+    "summary": "Iran targeting RAF Fairford, UK spies report hybrid campaigns; Trump claims Iran's nuclear capabilities obliterated.",
+    "emojis": "🪖☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "US",
-      "China"
-    ],
-    "source_count": 29,
-    "timestamp": "07:33 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "NATO warns Russia over potential attacks; UK claims Russia interfered in Brexit vote; US-Russia diesel plan aims to lower prices.",
-    "emojis": "⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "NATO",
-      "Russia",
       "UK",
-      "US"
+      "Russia",
+      "Trump"
     ],
-    "source_count": 20,
-    "timestamp": "07:33 PM"
+    "source_count": 34,
+    "timestamp": "08:24 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Houthi attacks on Saudi airports kill one, injure 11; demand end to attacks",
+    "summary": "Houthi rebels report airstrikes in Yemen; fears of wider Middle East war.",
     "emojis": "💥⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Houthi",
-      "Saudi Arabia",
-      "Pakistan",
-      "Egypt",
-      "Turkey"
+      "Houthi rebels",
+      "Saudi Arabia"
     ],
-    "source_count": 4,
-    "timestamp": "07:33 PM"
+    "source_count": 7,
+    "timestamp": "08:24 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia accused of Starlink sabotage in Poland; UK prepares for hybrid warfare.",
+    "emojis": "⚔️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Poland",
+      "UK"
+    ],
+    "source_count": 13,
+    "timestamp": "08:24 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Netanyahu seeks probe, election poll favors Eisenkot",
-    "emojis": "💥⚔️",
+    "summary": "Violence, legal challenges, and tensions rise in Israel",
+    "emojis": "💀⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Netanyahu",
-      "Eisenkot"
+      "Palestinians",
+      "Israeli government",
+      "Ethiopian Airlines",
+      "High Court",
+      "Indigenous women"
     ],
-    "source_count": 27,
-    "timestamp": "07:33 PM"
+    "source_count": 35,
+    "timestamp": "08:24 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "VinFast expands in California, VW, EVelution compete in EV market.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "title": "SITREP: CHINA",
+    "summary": "Huang Qifan under investigation, BMW sales drop, Visa bank cards, rare earth profits surge, India-Ladakh tensions",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "VinFast",
-      "VW",
-      "EVelution"
+      "Huang Qifan",
+      "BMW",
+      "Visa",
+      "China",
+      "India"
+    ],
+    "source_count": 23,
+    "timestamp": "08:24 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Zelenskyy claims no intel on missile strikes; Russia hits no energy targets; Russia attacks Kharkiv.",
+    "emojis": "💥⚔️🚀",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Zelenskyy",
+      "Russia"
+    ],
+    "source_count": 5,
+    "timestamp": "08:24 AM"
+  },
+  {
+    "title": "SITREP: US-GA",
+    "summary": "Tesla opens first Megacharger in Georgia",
+    "emojis": "",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
+    "actors": [
+      "Tesla",
+      "Georgia"
     ],
     "source_count": 1,
-    "timestamp": "07:33 PM"
+    "timestamp": "08:24 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Leapmotor showcases expanded lineup; Kia Seltos HEV debuts in Paris; notable auto show hits.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Leapmotor",
+      "Kia",
+      "Paris auto show"
+    ],
+    "source_count": 3,
+    "timestamp": "08:24 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "IMARC Group sets up EV Charging Station Manufacturing Plant in India",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "IMARC Group",
+      "India"
+    ],
+    "source_count": 1,
+    "timestamp": "08:24 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK Greens leader seeks rule change after declaring Zionism racism",
+    "summary": "Stellantis CEO anticipates US EV market shift; auto industry evolving regionally.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK Greens leader",
-      "party members"
+      "Stellantis CEO"
     ],
     "source_count": 1,
-    "timestamp": "07:34 PM"
+    "timestamp": "08:24 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Israeli election sees unprecedented coalition talks",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: GAZA",
+    "summary": "Year of 'ceasefire' marked by increased Israeli killings in Gaza",
+    "emojis": "🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Israeli voters",
-      "Coalition leaders"
+      "Gaza",
+      "Israeli forces"
     ],
-    "source_count": 1,
-    "timestamp": "07:34 PM"
+    "source_count": 2,
+    "timestamp": "08:24 AM"
   }
 ];
 

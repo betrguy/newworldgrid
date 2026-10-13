@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: A significant geopolitical shift is observed & Russia faces international.... A significant geopolitical shift is observed as Russia faces i..."
+description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Iran's aggressive hybrid warfare tactics against RAF Fairford signal a signifi..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">October 12, 2026 — 19:34</span>
+  <span class="sotg-timestamp">October 13, 2026 — 08:24</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-A significant geopolitical shift is observed as Russia faces international warnings and accusations of interference, while China adjusts its industrial strategies amidst global trade tensions. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Iran's aggressive hybrid warfare tactics against RAF Fairford signal a significant escalation in regional tensions, while concurrent developments in Yemen, Russia's alleged cyber operations, rising violence in Israel, China's internal investigations, and India's border tensions collectively underscore a period of heightened geopolitical volatility. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,14 +26,16 @@ A significant geopolitical shift is observed as Russia faces international warni
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Oct 12, 2026
+## Daily Intelligence Brief - Oct 13, 2026
 
-Russia has resumed attacks on Ukraine's power infrastructure, contradicting recent claims of a ceasefire. This action targets critical energy sectors, potentially exacerbating the humanitarian situation and economic strain. In Asia, China and ASEAN are collaborating to integrate AI and e-court systems in judicial processes, signaling a push towards digital governance. Meanwhile, China’s energy technocrats are rapidly advancing, possibly in response to global energy shifts. The U.S. dollar remains strong, influenced by Mideast tensions and inflation concerns. Iran's security chief has issued warnings against U.S. military targets, particularly AI data centers and undersea cables, suggesting potential escalation risks. In South Carolina, a debate over Iran, AI, and Trump highlights domestic political tensions.
+MI5 chief warns of Iran's ongoing targeting of military sites, indicating a heightened threat of hybrid warfare. The UK is preparing for potential tests by Russia, which is seen as a growing hybrid warfare threat. Iran and Russia are stepping up their hybrid campaigns in Britain, according to the UK spy chief. Iran has also struck 'non-compliant' Greek and Chinese tankers in the Strait of Hormuz, raising tensions in the region. Houthi rebels in Yemen are reporting airstrikes, further destabilizing the Middle East. Saudi Arabia is concerned about potential wider conflicts due to Houthi attacks.
+
+Bulgaria has summoned the Russian ambassador following a ship sinking in the Black Sea, possibly linked to a drone attack, highlighting Russia's growing leverage in regional disputes. Trump asserts that he does not believe Russia and China are aiding Iran, suggesting a potential shift in U.S. strategy towards Iran.
 
 **Watch for:**  
-- Further escalation of tensions between Russia and Ukraine.  
-- Progress on AI and e-court integration between China and ASEAN.  
-- Changes in U.S. dollar stability due to Mideast developments.
+- Escalation in hybrid warfare tests between Russia and the UK.  
+- Further actions by Iran in the Strait of Hormuz, potentially targeting more vessels.  
+- Diplomatic responses from Greece and China to Iran's tanker strikes.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -47,6 +49,13 @@ Russia has resumed attacks on Ukraine's power infrastructure, contradicting rece
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 12, 2026</span>
+        <a href="/archive/predictive/2026-10-12-a-significant-geopolitical-shift-is" class="archive-link">A significant geopolitical shift is observed & Russia faces international...</a>
+      </div>
+      <div class="archive-preview">A significant geopolitical shift is observed as Russia faces international warnings and accusations of interference, while China adjusts...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 11, 2026</span>
@@ -102,13 +111,6 @@ Russia has resumed attacks on Ukraine's power infrastructure, contradicting rece
         <a href="/archive/predictive/2026-10-04-israel-russia-iran-tensions-escalate" class="archive-link">ISRAEL, RUSSIA, IRAN TENSIONS ESCALATE IN MIDDLE EAST</a>
       </div>
       <div class="archive-preview">A surge in regional tensions is marked by Israel's targeted killing of a Turkish NGO director in Gaza, Russia's intensified military...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 04, 2026</span>
-        <a href="/archive/predictive/2026-10-04-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
-      </div>
-      <div class="archive-preview">The intensification of US-China rivalry following Aryna Sabalenka's exit from the China Open signals a significant geopolitical shift...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
