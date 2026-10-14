@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 14, 2026** | [RUSSIA, UKRAINE, US, CHINA & FIJI TEETER ON BRINK OF GLOBAL CONFLICT](/archive/predictive/2026-10-14-russia-ukraine-us-china-fiji) | A Russian journalist's detention on espionage charges sparks diplomatic tension between Russia and Japan, while Ukrai... |
 | **Oct 13, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-13-strait-of-hormuz-flow-discrepancies) | Iran's aggressive hybrid warfare tactics against RAF Fairford signal a significant escalation in regional tensions, w... |
 | **Oct 12, 2026** | [A significant geopolitical shift is observed & Russia faces international...](/archive/predictive/2026-10-12-a-significant-geopolitical-shift-is) | A significant geopolitical shift is observed as Russia faces international warnings and accusations of interference, ... |
 | **Oct 11, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-11-usiran-gulf-maritime-escalation-strategic) | A recent escalation in Middle Eastern tensions is marked by Israel's electoral debate influenced by a hijacking incid... |

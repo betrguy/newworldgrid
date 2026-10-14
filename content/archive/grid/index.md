@@ -14,8 +14,8 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 14, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-14-lowcarbon-volcanic-rock-cement-ai) | Faster molecular simulations for diamond-based materials are accelerating the development of quantum computers and se... |
 | **Oct 13, 2026** | [IRAN'S NUCLEAR FORTIFICATIONS STRAIN REGIONAL GRID STABILITY](/archive/grid/2026-10-13-irans-nuclear-fortifications-strain-regional) | Iran's reported fortification of nuclear sites in anticipation of potential U.S. strikes highlights the ongoing geopo... |
-| **Oct 12, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-12-lowcarbon-volcanic-rock-cement-ai) | Russia and China's geopolitical tensions indicate a heightened risk of disruption to global energy markets, potential... |
 | **Oct 11, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-10-11-strait-of-hormuz-flow-discrepancies) | Significant activity detected at an Iran nuclear site, indicative of ongoing efforts to rebuild or maintain critical ... |
 | **Oct 10, 2026** | [EV Charging Shift & Iran Nuclear Site Activity Raise Cybersecurity Concerns](/archive/grid/2026-10-10-ev-charging-shift-iran-nuclear) | Significant activity detected at an Iran nuclear site, indicative of ongoing efforts to rebuild or maintain critical ... |
 | **Oct 09, 2026** | [ANTHROPIC UNVEILS AI-POWERED CYBERSECURITY FOR CRITICAL INFRASTRUCTURE](/archive/grid/2026-10-09-anthropic-unveils-aipowered-cybersecurity-for) | Anthropic's launch of a new cybersecurity initiative for critical infrastructure signals a significant shift in grid ... |

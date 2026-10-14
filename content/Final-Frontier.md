@@ -1,33 +1,35 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: Exploring the geopolitical implications of satellite networks and.... Exploring the geopolitical implications of satellite networks and advan..."
+description: "Final Frontier: RUSSIA'S SPACE STRUGGLE & EV RACE HEAT UP AS BYD & GEELY CLASH. This page explores the current landscape of orbital economy development, incl..."
 ---
 
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">October 13, 2026 - 08:26</span>
+  <span class="sotg-timestamp">October 14, 2026 - 08:06</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-Exploring the geopolitical implications of satellite networks and advancing EV infrastructure through specific pilot projects in the U.S. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+This page explores the current landscape of orbital economy development, including Russia's satellite challenges, and the emerging EV market dynamics between BYD and Geely. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
-### **The High Ground**
+### The High Ground
 
-Orbital Energy and Space Compute are expanding their operations. Orbital Energy is increasing its microgravity manufacturing plants, while Space Compute is constructing additional space-based data centers. These developments could shift the balance of power in the orbital economy. Satellite networks are being viewed as a tool for geopolitical control, with think tanks advocating for stricter regulations to limit the influence of powerful constellations like Starlink.
+Orbital Energy’s satellites are degrading faster than expected, according to a report by PCMag. This could impact the efficiency of their space-based solar power stations. Additionally, Ukraine’s President Zelensky claims that allies did not provide warning of an impending missile attack, underscoring the importance of secure space-based communication systems.
 
 ### **The EV Race**
 
-Pilot launched its first Tesla Megacharger station in the U.S., targeting heavy-duty EVs. This move aims to enhance charging infrastructure, making long-haul travel more feasible.
+A cheap EV price war is brewing between BYD and Geely, according to caradvice.com.au. Both automakers are stepping up their game to undercut each other, making electric vehicles more affordable for buyers. This development could significantly boost EV sales.
 
 *What follows is purely a thought experiment.*
 
-Imagine a future where SpaceX, long a leader in satellite launches and space station services, faces a surprising competitor from an unexpected quarter: the United Nations. In 2036, the UN launches a new initiative called "Global Harmony Space" (GHS), designed to regulate and standardize satellite networks globally. GHS’s hardware, called the "Cosmic Compass," integrates advanced AI and quantum encryption, aiming to create a unified, non-commercial space infrastructure. This move effectively targets SpaceX’s Starlink network, which has become a de facto backbone for global internet access and geopolitical maneuvering. While SpaceX continues to push for private access and commercial use of space, GHS’s Cosmic Compass becomes the go-to solution for governments and organizations seeking a secure, standardized alternative. This shift not only disrupts SpaceX’s business model but also reshapes the orbital economy, forcing a reevaluation of space as a public good versus a private asset.
+Imagine it’s 2035, and the world is grappling with the unexpected fall of Russia’s latest satellite constellation. As these satellites re-enter the atmosphere, a peculiar scenario unfolds. A small company, Qubix Aerospace, which was previously a minor player in the space debris mitigation market, suddenly finds itself at the center of a global supply chain crisis. Qubix had been developing a novel material for use in satellite shielding, claiming it could reduce the risk of space debris by 90%. However, with the sudden influx of Russian satellites, the market demand for their material skyrocketed.
+
+The material, known as Zerodeco, was initially priced at $10,000 per kilogram. Overnight, it became a scarce commodity, pushing prices to $100,000 per kilogram. This price hike has far-reaching consequences. Major satellite operators like SpaceX and OneWeb, reliant on Qubix’s shielding, find their costs skyrocketing. To mitigate this, they begin to develop their own shielding solutions, leading to a technological race. This race not only reshapes the satellite manufacturing landscape but also shifts the balance of power in the orbital infrastructure market. Nations and private companies that can innovate quickly and afford the materials gain a strategic advantage, while those left behind face significant operational challenges.
 
 <!-- /FRONTIER_ENGINE_END -->
 
@@ -41,6 +43,13 @@ Imagine a future where SpaceX, long a leader in satellite launches and space sta
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 13, 2026</span>
+        <a href="/archive/frontier/2026-10-13-exploring-the-geopolitical-implications-of" class="archive-link">Exploring the geopolitical implications of satellite networks and...</a>
+      </div>
+      <div class="archive-preview">Exploring the geopolitical implications of satellite networks and advancing EV infrastructure through specific pilot projects in the U.S.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 12, 2026</span>
@@ -115,13 +124,6 @@ Imagine a future where SpaceX, long a leader in satellite launches and space sta
       <div class="archive-item-header">
         <span class="archive-date">Sep 30, 2026</span>
         <a href="/archive/frontier/2026-09-30-spacexs-starship-takes-flight-amid" class="archive-link">SpaceX's Starship Takes Flight Amid Global EV Grid Development Push</a>
-      </div>
-      <div class="archive-preview">This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flights to BYD's...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Sep 28, 2026</span>
-        <a href="/archive/frontier/2026-09-28-spacexs-starship-takes-flight-amid" class="archive-link">SpaceX's Starship Takes Flight Amid Global EV Grid Expansion Push</a>
       </div>
       <div class="archive-preview">This page explores the current landscape of orbital economy and EV grid development, from SpaceX's Starship test flights to BYD's...</div>
     </div>
