@@ -14,9 +14,9 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 15, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-10-15-perovskite-solar-cells-achieve-25) | Silicon spin qubits have surpassed 99.99% gate fidelity while operating three at once, bringing quantum computing clo... |
 | **Oct 14, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-14-lowcarbon-volcanic-rock-cement-ai) | Identify the perfect diamond for quantum sensors without physically inspecting each one. |
 | **Oct 13, 2026** | [AI Breakthroughs Unleash Quantum Leap in Energy & Trust](/archive/optimism/2026-10-13-ai-breakthroughs-unleash-quantum-leap) | Developers can now trust AI agents like Claude to provide accurate and trustworthy information, and engineers are har... |
-| **Oct 11, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-10-11-perovskite-solar-cells-achieve-25) | With the IEEE's new design program for AI chips, engineers can address the growing complexity of deep neural networks... |
 | **Oct 06, 2026** | [SCIENTISTS UNCOVER QUANTUM 'SCARS' AS SMARTPHONE USE PLUMMETS](/archive/optimism/2026-10-06-scientists-uncover-quantum-scars-as) | With the discovery of "quantum birthmarks" in chaotic quantum systems, researchers are gaining new insights into the ... |
 | **Oct 06, 2026** | [Quantum systems now remember their origins & And open-source AI...](/archive/optimism/2026-10-06-quantum-systems-now-remember-their) | Researchers at Tampere University, Harvard University, and TU Dresden uncovered a "quantum birthmark" in chaotic quan... |
 | **Oct 03, 2026** | [Scientists have discovered a way to strengthen superconductors using...](/archive/optimism/2026-10-03-scientists-have-discovered-a-way) | The clean energy transition is gaining momentum as the market design is being reevaluated, allowing for a more effici... |
