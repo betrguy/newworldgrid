@@ -1,35 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: CALIFORNIA DEMS SEE IRAN WAR AS GAS PRICE GAME-CHANGER. California Democrats' hopes for a shift in gas prices due to potential geopolitica..."
+description: "State of the Grid: GEOTHERMAL ENERGY GAINS UNPRECEDENTED BIPARTISAN SUPPORT. Geothermal energy is gaining bipartisan support in the U.S., reflecting a shift ..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">October 16, 2026 - 19:56</span>
+  <span class="sotg-timestamp">October 17, 2026 - 09:09</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-California Democrats are banking on an Iran war to shift public perception on gas prices, while geopolitical tensions continue to influence global denuclearization talks. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Geothermal energy is gaining unexpected bipartisan support in the U.S., standing out as a rare point of political agreement amid the AI boom. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">California Democrats' hopes for a shift in gas prices due to potential geopolitical tensions highlight the ongoing influence of international relations on domestic energy markets. This sentiment underscores the interconnectedness of global and local energy policies, where regional conflicts and political negotiations can rapidly affect fuel costs and availability.</p>
+<p class="meridian-lede">Geothermal energy is gaining bipartisan support in the U.S., reflecting a shift towards sustainable and politically palatable energy sources. This development underscores the growing recognition of geothermal's reliability and environmental benefits, which could enhance grid stability and reduce political polarization over energy policy.</p>
 
-Geopolitical discussions between the U.S. and Russia, China, and the focus on denuclearization, particularly in relation to Iran, indicate a complex web of international relations that could impact global energy supply chains. Enhanced grid resilience strategies, including robust cybersecurity measures and diversified fuel sources, will be essential to ensure continuous power supply and minimize disruptions in the face of potential geopolitical and economic volatility.
+The suspension of 13,000 accounts linked to China, Russia, and Iran by X highlights the increasing focus on cybersecurity and the geopolitical risks posed by foreign actors. This action underscores the need for robust cybersecurity measures to protect critical infrastructure, ensuring the grid remains resilient against potential cyber threats.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Geopolitical tensions can rapidly affect fuel costs and availability, impacting domestic energy markets.</li>
-  <li><strong>The big picture:</strong> International relations and regional conflicts form a complex web that could significantly alter global energy supply chains.</li>
-  <li><strong>What to watch:</strong> Enhanced grid resilience strategies, including robust cybersecurity measures and diversified fuel sources.</li>
+  <li><strong>Why it matters:</strong> Bipartisan support for geothermal energy shows a shift towards sustainable and politically palatable energy sources.</li>
+  <li><strong>The big picture:</strong> This shift could enhance grid stability and reduce political polarization over energy policy, impacting broader energy markets.</li>
+  <li><strong>What to watch:</strong> Monitoring the integration of geothermal energy into national security strategies to protect critical infrastructure.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic condition is unsettled with a Kp peak of 3.7, a 24-hour average of 2.57, and can cause minor disruptions to satellites and HF radio communications. Power grid stability is generally maintained, but utility operators should monitor for voltage fluctuations.
+The current Kp index is 0.7 with a 24-hour average of 1.95 and a peak of 3.7, indicating unsettled geomagnetic activity. Such conditions can increase drag and radiation exposure for satellites, potentially disrupting their operations and orbits. HF radio communications may experience signal fading and static, and power grid stability could be affected, requiring increased monitoring to ensure reliability.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -43,6 +43,13 @@ The current geomagnetic condition is unsettled with a Kp peak of 3.7, a 24-hour 
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 16, 2026</span>
+        <a href="/archive/grid/2026-10-16-california-dems-see-iran-war" class="archive-link">CALIFORNIA DEMS SEE IRAN WAR AS GAS PRICE GAME-CHANGER</a>
+      </div>
+      <div class="archive-preview">California Democrats are banking on an Iran war to shift public perception on gas prices, while geopolitical tensions continue to...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 15, 2026</span>
@@ -117,13 +124,6 @@ The current geomagnetic condition is unsettled with a Kp peak of 3.7, a 24-hour 
       <div class="archive-item-header">
         <span class="archive-date">Oct 06, 2026</span>
         <a href="/archive/grid/2026-10-06-russia-sanctions-loom-over-global" class="archive-link">RUSSIA SANCTIONS LOOM OVER GLOBAL OIL MARKETS</a>
-      </div>
-      <div class="archive-preview">Geopolitical tensions are escalating, with the U.S. considering severe sanctions against Russia, which could disrupt energy supply...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 06, 2026</span>
-        <a href="/archive/grid/2026-10-06-russia-sanctions-loom-over-global" class="archive-link">RUSSIA SANCTIONS LOOM OVER GLOBAL ENERGY MARKETS</a>
       </div>
       <div class="archive-preview">Geopolitical tensions are escalating, with the U.S. considering severe sanctions against Russia, which could disrupt energy supply...</div>
     </div>

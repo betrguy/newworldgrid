@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Oct 16, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-16-lowcarbon-volcanic-rock-cement-ai) | Ukraine's orbital economy gains momentum as satellite services recover, while China introduces a cost-competitive ele... |
+| **Oct 17, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-17-lowcarbon-volcanic-rock-cement-ai) | This page explores recent advancements in the orbital economy, such as SpaceX's activities, and developments in EV gr... |
 | **Oct 14, 2026** | [RUSSIA'S SPACE STRUGGLE & EV RACE HEAT UP AS BYD & GEELY CLASH](/archive/frontier/2026-10-14-russias-space-struggle-ev-race) | This page explores the current landscape of orbital economy development, including Russia's satellite challenges, and... |
 | **Oct 13, 2026** | [Exploring the geopolitical implications of satellite networks and...](/archive/frontier/2026-10-13-exploring-the-geopolitical-implications-of) | Exploring the geopolitical implications of satellite networks and advancing EV infrastructure through specific pilot ... |
 | **Oct 12, 2026** | [Xpeng Unveils Mona L05 Amid EV Grid Revolution](/archive/frontier/2026-10-12-xpeng-unveils-mona-l05-amid) | Xpeng's Mona L05 is set for a Q4 launch, while developments in EV and grid technology continue to shape the future of... |

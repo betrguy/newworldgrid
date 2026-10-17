@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-16 19:57 UTC | 17 active regions</div>
+        <div class="meta">Generated 2026-10-17 09:10 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">17 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,94 +51,125 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "Japan vows to increase monitoring after China carrier sails",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Japan",
-      "China"
-    ],
-    "source_count": 24,
-    "timestamp": "07:56 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US considers 'Mother of All Bombs' on Iran amidst escalating tensions.",
-    "emojis": "⚔️💣⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 39,
-    "timestamp": "07:56 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Jewish Israelis, NYC, China voice concerns, resistance highlighted",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Jewish Israelis",
-      "NYC",
-      "China",
-      "Hezbollah"
-    ],
-    "source_count": 28,
-    "timestamp": "07:56 PM"
-  },
-  {
     "title": "SITREP: RUSSIA",
-    "summary": "Trump talks to Russia and China about denuclearization; MS NOW apologizes for false report.",
-    "emojis": "☢️",
+    "summary": "Russia intensifies conflict in Ukraine, US relaxes sanctions; Ukraine faces humanitarian crisis",
+    "emojis": "⚔️🚫",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Trump",
-      "MS NOW"
+      "Russia",
+      "Ukraine",
+      "United States"
     ],
-    "source_count": 9,
-    "timestamp": "07:56 PM"
+    "source_count": 13,
+    "timestamp": "09:09 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine resumes strikes on Russian refineries; energy ceasefire over.",
-    "emojis": "💥🚀⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: CHINA",
+    "summary": "China expands Japanese trade trip amid 'hot economics, cold politics'.",
+    "emojis": "✈️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Ukraine",
-      "Russia"
+      "China",
+      "Japan"
     ],
-    "source_count": 11,
-    "timestamp": "07:56 PM"
+    "source_count": 16,
+    "timestamp": "09:09 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US Navy blockades Iran, boosting midterm races; Norway teen sentenced; GOP shifts on Iran, Russia policy.",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US Navy",
+      "Iran",
+      "Norway",
+      "GOP candidates"
+    ],
+    "source_count": 32,
+    "timestamp": "09:09 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "IDF destroys terrorist monuments in West Bank",
+    "emojis": "🔺",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "IDF",
+      "terrorist monuments"
+    ],
+    "source_count": 32,
+    "timestamp": "09:09 AM"
   },
   {
     "title": "SITREP: TAIWAN",
-    "summary": "Taiwan urges citizens to avoid Chinese revolutionary anniversary events.",
+    "summary": "Taiwan deports Chinese student, bans entry for five years",
     "emojis": "",
     "lat": 23.6,
     "lng": 120.9,
     "location": "TAIWAN",
     "actors": [
       "Taiwan",
-      "Chinese anniversary events"
+      "Chinese student"
     ],
     "source_count": 1,
-    "timestamp": "07:56 PM"
+    "timestamp": "09:09 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Increased tensions between Ukraine, Russia, and international players amidst military and civilian hardships.",
+    "emojis": "🪖🔴🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia",
+      "United States",
+      "European Union"
+    ],
+    "source_count": 9,
+    "timestamp": "09:09 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Flat EV sales despite high gas prices and new rebates",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California",
+      "EV sales"
+    ],
+    "source_count": 3,
+    "timestamp": "09:09 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Over 340 Palestinian children killed in Gaza since ceasefire; Israeli fire kills at least three Palestinians across Gaza.",
+    "emojis": "💀🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Palestinian children",
+      "Israeli"
+    ],
+    "source_count": 2,
+    "timestamp": "09:09 AM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "White House press secretary Katie Zacharia did not pass bar exam",
+    "summary": "Katie Zacharia ousted as White House press secretary after five days.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
@@ -147,152 +178,81 @@
       "Katie Zacharia",
       "White House"
     ],
-    "source_count": 1,
-    "timestamp": "07:56 PM"
+    "source_count": 4,
+    "timestamp": "09:09 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Houthi missile attack on Aden's presidential palace kills five, including the prime minister.",
-    "emojis": "⚔️🚀",
+    "summary": "Oil surges to $110 amid Houthis striking Yemen's Presidential Palace amid Saudi Arabia reports.",
+    "emojis": "💥⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
       "Houthis",
-      "Yemen"
-    ],
-    "source_count": 5,
-    "timestamp": "07:56 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France suggests student protests manipulated ahead of election, Paris honors Nobel Laureate Narges Mohammadi.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Paris City Hall",
-      "Narges Mohammadi"
+      "Yemen",
+      "Saudi Arabia",
+      "Global Oil Market"
     ],
     "source_count": 2,
-    "timestamp": "07:56 PM"
+    "timestamp": "09:10 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "NYC Comptroller defends decision against investing in Israeli bonds.",
+    "title": "SITREP: US-FL",
+    "summary": "Electric vehicle drivers save over $2K/year on gas",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
     "actors": [
-      "New York City Comptroller",
-      "Israeli bonds"
+      "Electric vehicle drivers",
+      "States"
     ],
     "source_count": 1,
-    "timestamp": "07:57 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "US-TX: Key insights on EV charger installation at North Texas Expo 2026.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "US-TX",
-      "North Texas Expo 2026",
-      "EV chargers"
-    ],
-    "source_count": 1,
-    "timestamp": "07:57 PM"
+    "timestamp": "09:10 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Secretary Marco Rubio urges Lebanon to resist Hezbollah pressure over seized explosives",
+    "summary": "Trump's plan to restart US flights to Lebanon faces a roadblock.",
     "emojis": "",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Secretary Marco Rubio",
-      "Lebanon",
-      "Hezbollah"
+      "Trump",
+      "Lebanon"
     ],
     "source_count": 1,
-    "timestamp": "07:57 PM"
+    "timestamp": "09:10 AM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "U.S. sanctions Cuba state bank for collaborating with Iran",
-    "emojis": "🚫",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "title": "SITREP: US-NY",
+    "summary": "ICE officer shoots, settlers attack journalist in West Bank.",
+    "emojis": "⚔️",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "U.S.",
-      "Cuba state bank",
-      "Iran"
+      "ICE officer",
+      "Israeli settlers",
+      "Washington Post journalist"
     ],
-    "source_count": 1,
-    "timestamp": "07:57 PM"
+    "source_count": 3,
+    "timestamp": "09:10 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Researchers uncover vulnerability in water systems exposing encryption limits.",
+    "summary": "UK PM adviser supports Palestine, No 10 leaves option to impose EV tariffs if UK joins EU scheme",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "University of British Columbia researchers",
-      "Cyber threat"
+      "UK PM adviser",
+      "No 10"
     ],
-    "source_count": 1,
-    "timestamp": "07:57 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "33 pupils and a teacher killed in school roof collapse.",
-    "emojis": "💀",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "pupils",
-      "teacher"
-    ],
-    "source_count": 1,
-    "timestamp": "07:57 PM"
-  },
-  {
-    "title": "SITREP: AFGHANISTAN",
-    "summary": "Afghanistan peace talks ongoing amid Middle East tensions.",
-    "emojis": "🕊️⚡",
-    "lat": 33.9,
-    "lng": 67.7,
-    "location": "AFGHANISTAN",
-    "actors": [
-      "Afghanistan",
-      "Middle East"
-    ],
-    "source_count": 1,
-    "timestamp": "07:57 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli airstrikes continue across Gaza, causing significant destruction and casualties.",
-    "emojis": "💥💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Gaza"
-    ],
-    "source_count": 4,
-    "timestamp": "07:57 PM"
+    "source_count": 2,
+    "timestamp": "09:10 AM"
   }
 ];
 

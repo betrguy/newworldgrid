@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 17, 2026** | [Electric Truck Deliveries Set to Speed Up Amid Breakthrough Battery Design Advances](/archive/optimism/2026-10-17-electric-truck-deliveries-set-to) | With the advent of advanced simulation apps, electric truck delivery times are set to dramatically decrease. |
 | **Oct 16, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-10-16-perovskite-solar-cells-achieve-25) | Sovereign Tech simulation apps are accelerating the design of electric truck batteries, while new high-frequency meth... |
 | **Oct 14, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-14-lowcarbon-volcanic-rock-cement-ai) | Identify the perfect diamond for quantum sensors without physically inspecting each one. |
 | **Oct 13, 2026** | [AI Breakthroughs Unleash Quantum Leap in Energy & Trust](/archive/optimism/2026-10-13-ai-breakthroughs-unleash-quantum-leap) | Developers can now trust AI agents like Claude to provide accurate and trustworthy information, and engineers are har... |
