@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-17 09:10 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-10-18 09:08 UTC | 17 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">17 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,208 +51,251 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia intensifies conflict in Ukraine, US relaxes sanctions; Ukraine faces humanitarian crisis",
-    "emojis": "⚔️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Ukraine",
-      "United States"
-    ],
-    "source_count": 13,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China expands Japanese trade trip amid 'hot economics, cold politics'.",
-    "emojis": "✈️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Japan"
-    ],
-    "source_count": 16,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US Navy blockades Iran, boosting midterm races; Norway teen sentenced; GOP shifts on Iran, Russia policy.",
-    "emojis": "⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US Navy",
-      "Iran",
-      "Norway",
-      "GOP candidates"
-    ],
-    "source_count": 32,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "IDF destroys terrorist monuments in West Bank",
-    "emojis": "🔺",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "IDF",
-      "terrorist monuments"
-    ],
-    "source_count": 32,
-    "timestamp": "09:09 AM"
-  },
-  {
     "title": "SITREP: TAIWAN",
-    "summary": "Taiwan deports Chinese student, bans entry for five years",
-    "emojis": "",
+    "summary": "Taiwan tracks 14 Chinese ships and 2 military aircraft, Chinese coast guard enters restricted waters near Pratas Islands.",
+    "emojis": "🪖✈️",
     "lat": 23.6,
     "lng": 120.9,
     "location": "TAIWAN",
     "actors": [
       "Taiwan",
-      "Chinese student"
-    ],
-    "source_count": 1,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Increased tensions between Ukraine, Russia, and international players amidst military and civilian hardships.",
-    "emojis": "🪖🔴🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "United States",
-      "European Union"
-    ],
-    "source_count": 9,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Flat EV sales despite high gas prices and new rebates",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "California",
-      "EV sales"
-    ],
-    "source_count": 3,
-    "timestamp": "09:09 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Over 340 Palestinian children killed in Gaza since ceasefire; Israeli fire kills at least three Palestinians across Gaza.",
-    "emojis": "💀🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Palestinian children",
-      "Israeli"
+      "Chinese coast guard",
+      "Chinese ships",
+      "military aircraft"
     ],
     "source_count": 2,
-    "timestamp": "09:09 AM"
+    "timestamp": "09:07 AM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Katie Zacharia ousted as White House press secretary after five days.",
+    "title": "SITREP: CHINA",
+    "summary": "Western brands struggle amidst rising pre-owned luxury market in China",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Katie Zacharia",
-      "White House"
+      "Western brands",
+      "China"
     ],
-    "source_count": 4,
-    "timestamp": "09:09 AM"
+    "source_count": 8,
+    "timestamp": "09:07 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "JNF approves NIS 33M for northern border towns; Israel launches women in tech initiative; incursions into southern Syria.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "JNF",
+      "Israel",
+      "US"
+    ],
+    "source_count": 36,
+    "timestamp": "09:07 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran war affects US missile stockpile replenishment, global oil markets, and diplomatic tensions.",
+    "emojis": "✈️⚔️🚀",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US"
+    ],
+    "source_count": 31,
+    "timestamp": "09:07 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Zelenskyy criticizes Trump waiving Russia sanctions; new drone raids disrupt Russia air traffic.",
+    "emojis": "✈️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Zelenskyy",
+      "Trump",
+      "Russia"
+    ],
+    "source_count": 35,
+    "timestamp": "09:07 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Photos reveal Kim Jong Un's luxurious summer retreat with a 50m pool and slides",
+    "emojis": "⬅️",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "Kim Jong Un",
+      "Summer retreat"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Oil surges to $110 amid Houthis striking Yemen's Presidential Palace amid Saudi Arabia reports.",
-    "emojis": "💥⚔️",
+    "summary": "Riyadh residents warned of 'hostile aerial threat' as Saudi Arabia intercepts Houthi missiles",
+    "emojis": "🚀⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Houthis",
-      "Yemen",
+      "Riyadh residents",
       "Saudi Arabia",
-      "Global Oil Market"
-    ],
-    "source_count": 2,
-    "timestamp": "09:10 AM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Electric vehicle drivers save over $2K/year on gas",
-    "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "Electric vehicle drivers",
-      "States"
+      "Houthi missiles"
     ],
     "source_count": 1,
-    "timestamp": "09:10 AM"
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Trump waives new Russia sanctions amid Ukraine-Russia war tensions.",
+    "emojis": "💥⚔️🚫",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Trump",
+      "Ukraine",
+      "Russia",
+      "Zelensky"
+    ],
+    "source_count": 5,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Trump waives Russian sanctions; outrages Congress.",
+    "emojis": "🚫",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Trump",
+      "Congress"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Violent protests with looting and arson in France; hundreds arrested.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "protesters",
+      "law enforcement"
+    ],
+    "source_count": 2,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Slate opens first U.S. showroom in Tesla's Chicago store",
+    "emojis": "",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "Slate",
+      "Tesla"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Trump's plan to restart US flights to Lebanon faces a roadblock.",
-    "emojis": "",
+    "summary": "Lebanon's military delegation seeks halt to Israeli attacks during US talks.",
+    "emojis": "🪖⚔️",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Trump",
-      "Lebanon"
+      "Lebanon",
+      "Israel",
+      "United States"
+    ],
+    "source_count": 3,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "17 dead, many injured in Kolkata Hindu festival event",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Indian citizens",
+      "Hindu festival attendees"
     ],
     "source_count": 1,
-    "timestamp": "09:10 AM"
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Six Palestinians killed in Israeli strikes across Gaza in a day.",
+    "emojis": "✈️💥⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Palestinians",
+      "Israel"
+    ],
+    "source_count": 3,
+    "timestamp": "09:08 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "ICE officer shoots, settlers attack journalist in West Bank.",
+    "summary": "Israeli settlers attack Palestinians and diplomats in West Bank.",
     "emojis": "⚔️",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "ICE officer",
       "Israeli settlers",
-      "Washington Post journalist"
+      "Palestinians",
+      "diplomats"
     ],
-    "source_count": 3,
-    "timestamp": "09:10 AM"
+    "source_count": 1,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Limited qualifying models for California's used-EV rebate",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California drivers",
+      "Used-EV rebate"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK PM adviser supports Palestine, No 10 leaves option to impose EV tariffs if UK joins EU scheme",
+    "summary": "Toyota threatens UK sales cut over ZEV mandate; Burnaston Plant future uncertain.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK PM adviser",
-      "No 10"
+      "Toyota",
+      "UK government"
     ],
-    "source_count": 2,
-    "timestamp": "09:10 AM"
+    "source_count": 1,
+    "timestamp": "09:08 AM"
   }
 ];
 

@@ -14,10 +14,10 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 18, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-18-lowcarbon-volcanic-rock-cement-ai) | The emergence of a hidden device capable of freeing up gigawatts of grid power signals a significant technological sh... |
 | **Oct 17, 2026** | [GEOTHERMAL ENERGY GAINS UNPRECEDENTED BIPARTISAN SUPPORT](/archive/grid/2026-10-17-geothermal-energy-gains-unprecedented-bipartisan) | Geothermal energy is gaining bipartisan support in the U.S., reflecting a shift towards sustainable and politically p... |
 | **Oct 16, 2026** | [CALIFORNIA DEMS SEE IRAN WAR AS GAS PRICE GAME-CHANGER](/archive/grid/2026-10-16-california-dems-see-iran-war) | California Democrats' hopes for a shift in gas prices due to potential geopolitical tensions highlight the ongoing in... |
 | **Oct 15, 2026** | [RUSSIA'S DIESEL DEAL SIGNALS ECONOMIC SUPPORT AS GLOBAL ENERGY MARKETS SHIFTS](/archive/grid/2026-10-15-russias-diesel-deal-signals-economic) | The U.S. diesel deal with Russia, while a positive signal for Russia's economy, underscores the evolving geopolitical... |
-| **Oct 14, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-14-lowcarbon-volcanic-rock-cement-ai) | Faster molecular simulations for diamond-based materials are accelerating the development of quantum computers and se... |
 | **Oct 13, 2026** | [IRAN'S NUCLEAR FORTIFICATIONS STRAIN REGIONAL GRID STABILITY](/archive/grid/2026-10-13-irans-nuclear-fortifications-strain-regional) | Iran's reported fortification of nuclear sites in anticipation of potential U.S. strikes highlights the ongoing geopo... |
 | **Oct 11, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-10-11-strait-of-hormuz-flow-discrepancies) | Significant activity detected at an Iran nuclear site, indicative of ongoing efforts to rebuild or maintain critical ... |
 | **Oct 10, 2026** | [EV Charging Shift & Iran Nuclear Site Activity Raise Cybersecurity Concerns](/archive/grid/2026-10-10-ev-charging-shift-iran-nuclear) | Significant activity detected at an Iran nuclear site, indicative of ongoing efforts to rebuild or maintain critical ... |
