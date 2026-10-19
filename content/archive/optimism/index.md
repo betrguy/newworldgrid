@@ -14,10 +14,10 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 19, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-19-lowcarbon-volcanic-rock-cement-ai) | With the launch of Digit 5 from Agility Robotics, humanoids are poised to fill labor gaps in physically demanding tasks. |
 | **Oct 18, 2026** | [Engineers now design electric truck batteries faster & Opening new...](/archive/optimism/2026-10-18-engineers-now-design-electric-truck) | Simulation apps are revolutionizing battery design, enabling engineers at Aurobay and Resolvent to accelerate the dev... |
 | **Oct 17, 2026** | [Electric Truck Deliveries Set to Speed Up Amid Breakthrough Battery Design Advances](/archive/optimism/2026-10-17-electric-truck-deliveries-set-to) | With the advent of advanced simulation apps, electric truck delivery times are set to dramatically decrease. |
 | **Oct 16, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-10-16-perovskite-solar-cells-achieve-25) | Sovereign Tech simulation apps are accelerating the design of electric truck batteries, while new high-frequency meth... |
-| **Oct 14, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-14-lowcarbon-volcanic-rock-cement-ai) | Identify the perfect diamond for quantum sensors without physically inspecting each one. |
 | **Oct 13, 2026** | [AI Breakthroughs Unleash Quantum Leap in Energy & Trust](/archive/optimism/2026-10-13-ai-breakthroughs-unleash-quantum-leap) | Developers can now trust AI agents like Claude to provide accurate and trustworthy information, and engineers are har... |
 | **Oct 06, 2026** | [SCIENTISTS UNCOVER QUANTUM 'SCARS' AS SMARTPHONE USE PLUMMETS](/archive/optimism/2026-10-06-scientists-uncover-quantum-scars-as) | With the discovery of "quantum birthmarks" in chaotic quantum systems, researchers are gaining new insights into the ... |
 | **Oct 06, 2026** | [Quantum systems now remember their origins & And open-source AI...](/archive/optimism/2026-10-06-quantum-systems-now-remember-their) | Researchers at Tampere University, Harvard University, and TU Dresden uncovered a "quantum birthmark" in chaotic quan... |
