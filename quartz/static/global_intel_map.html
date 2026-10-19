@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-18 09:08 UTC | 17 active regions</div>
+        <div class="meta">Generated 2026-10-19 09:08 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">17 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,248 +51,193 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan tracks 14 Chinese ships and 2 military aircraft, Chinese coast guard enters restricted waters near Pratas Islands.",
-    "emojis": "🪖✈️",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan",
-      "Chinese coast guard",
-      "Chinese ships",
-      "military aircraft"
-    ],
-    "source_count": 2,
-    "timestamp": "09:07 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "Western brands struggle amidst rising pre-owned luxury market in China",
+    "summary": "China's GDP grew 4.6% in Q3, driven by AI, exports, energy storage.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Western brands",
       "China"
     ],
-    "source_count": 8,
-    "timestamp": "09:07 AM"
+    "source_count": 31,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: US-MN",
+    "summary": "Tribute to Nicole Amor held at White Bear Lake.",
+    "emojis": "",
+    "lat": 44.97,
+    "lng": -93.26,
+    "location": "US-MN",
+    "actors": [
+      "White Bear Lake",
+      "Nicole Amor"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Egypt backs Saudi Arabia against Iran; US and Iran negotiate Strait; US warns Iran alone; California farmers struggle; China exports surge",
+    "emojis": "⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Egypt",
+      "Saudi Arabia",
+      "Iran",
+      "US",
+      "Iran",
+      "Iran",
+      "California farmers",
+      "China"
+    ],
+    "source_count": 32,
+    "timestamp": "09:08 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "JNF approves NIS 33M for northern border towns; Israel launches women in tech initiative; incursions into southern Syria.",
+    "summary": "Trump endorses Netanyahu amid Israel's election turmoil",
     "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "JNF",
-      "Israel",
-      "US"
-    ],
-    "source_count": 36,
-    "timestamp": "09:07 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran war affects US missile stockpile replenishment, global oil markets, and diplomatic tensions.",
-    "emojis": "✈️⚔️🚀",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US"
-    ],
-    "source_count": 31,
-    "timestamp": "09:07 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Zelenskyy criticizes Trump waiving Russia sanctions; new drone raids disrupt Russia air traffic.",
-    "emojis": "✈️🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Zelenskyy",
       "Trump",
-      "Russia"
+      "Netanyahu"
     ],
-    "source_count": 35,
-    "timestamp": "09:07 AM"
-  },
-  {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "Photos reveal Kim Jong Un's luxurious summer retreat with a 50m pool and slides",
-    "emojis": "⬅️",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
-    "actors": [
-      "Kim Jong Un",
-      "Summer retreat"
-    ],
-    "source_count": 1,
+    "source_count": 27,
     "timestamp": "09:08 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Riyadh residents warned of 'hostile aerial threat' as Saudi Arabia intercepts Houthi missiles",
-    "emojis": "🚀⚔️",
+    "summary": "Houthi attacks expose Saudi military limitations.",
+    "emojis": "🪖⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Riyadh residents",
-      "Saudi Arabia",
-      "Houthi missiles"
-    ],
-    "source_count": 1,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Trump waives new Russia sanctions amid Ukraine-Russia war tensions.",
-    "emojis": "💥⚔️🚫",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Trump",
-      "Ukraine",
-      "Russia",
-      "Zelensky"
-    ],
-    "source_count": 5,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Trump waives Russian sanctions; outrages Congress.",
-    "emojis": "🚫",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Trump",
-      "Congress"
-    ],
-    "source_count": 1,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Violent protests with looting and arson in France; hundreds arrested.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "protesters",
-      "law enforcement"
-    ],
-    "source_count": 2,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: US-IL",
-    "summary": "Slate opens first U.S. showroom in Tesla's Chicago store",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
-    "actors": [
-      "Slate",
-      "Tesla"
-    ],
-    "source_count": 1,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Lebanon's military delegation seeks halt to Israeli attacks during US talks.",
-    "emojis": "🪖⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Lebanon",
-      "Israel",
-      "United States"
-    ],
-    "source_count": 3,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "17 dead, many injured in Kolkata Hindu festival event",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Indian citizens",
-      "Hindu festival attendees"
-    ],
-    "source_count": 1,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Six Palestinians killed in Israeli strikes across Gaza in a day.",
-    "emojis": "✈️💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Palestinians",
-      "Israel"
-    ],
-    "source_count": 3,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Israeli settlers attack Palestinians and diplomats in West Bank.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Israeli settlers",
-      "Palestinians",
-      "diplomats"
-    ],
-    "source_count": 1,
-    "timestamp": "09:08 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Limited qualifying models for California's used-EV rebate",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "California drivers",
-      "Used-EV rebate"
+      "Houthi",
+      "Saudi Arabia"
     ],
     "source_count": 1,
     "timestamp": "09:08 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Toyota threatens UK sales cut over ZEV mandate; Burnaston Plant future uncertain.",
+    "summary": "British Pound above 1.3300; USD steadies due to Fed decisions and geopolitics.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Toyota",
-      "UK government"
+      "British Pound",
+      "USD"
+    ],
+    "source_count": 2,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Florida contemplates aerial highway network after unused EV funds.",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "Florida",
+      "government"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Trump defends shifting Ukraine positions, touts Russia progress; Ukraine defies US, tensions rise",
+    "emojis": "⚡",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Trump",
+      "Zelensky",
+      "Ukraine",
+      "Russia",
+      "US Congress"
+    ],
+    "source_count": 25,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Trump waives Russia sanctions, oil prices slide; anti-Putin Russia sabotage reported; Zelenskyy warns U.S. against alignment with Russia; US-Russia diesel deal faces backlash; Euro falls amid Russia risk.",
+    "emojis": "⚔️🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Trump",
+      "Russia",
+      "Ukraine",
+      "U.S.",
+      "EU"
+    ],
+    "source_count": 23,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Iranian Foreign Minister calls on Pakistan's Mohammad Ishaq Dar for regional diplomacy",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Seyed Abbas Araghchi",
+      "Mohammad Ishaq Dar"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Mass funeral for killed loved ones in Gaza",
+    "emojis": "💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Palestinians"
+    ],
+    "source_count": 2,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Andy Beshear clashes with Latino lawmakers over Texas funds",
+    "emojis": "⚔️",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Andy Beshear",
+      "Latino lawmakers"
+    ],
+    "source_count": 1,
+    "timestamp": "09:08 AM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Chicago combats rising US synthetic drug wave",
+    "emojis": "⚔️",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "Chicago",
+      "US synthetic drugs"
     ],
     "source_count": 1,
     "timestamp": "09:08 AM"
