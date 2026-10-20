@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 20, 2026** | [US, Russia Relations Fray Amid Global Tech Tensions & Energy Disruptions](/archive/predictive/2026-10-20-us-russia-relations-fray-amid) | Iran denies US claims of IRGC cash shortage amid regional tensions; Russia intensifies attacks on Ukrainian energy in... |
 | **Oct 19, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-19-strait-of-hormuz-flow-discrepancies) | A surge in China's economic growth fueled by AI advancements and energy shifts coincides with heightened tensions in ... |
 | **Oct 19, 2026** | [The surge in China's GDP & Heightened tensions in the Middle East and...](/archive/predictive/2026-10-19-the-surge-in-chinas-gdp) | The surge in China's GDP, coupled with heightened tensions in the Middle East and US-Israeli political dynamics, unde... |
 | **Oct 18, 2026** | [TAIWAN MONITORS CHINA'S SOUTH CHINA SEA INCURSIONS & TENSIONS ESCALATE](/archive/predictive/2026-10-18-taiwan-monitors-chinas-south-china) | Taiwan's monitoring of Chinese maritime movements and incursions into restricted areas signals escalating tensions in... |

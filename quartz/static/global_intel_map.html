@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-19 19:19 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-10-20 09:16 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,195 +51,201 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "Iran denies US claims IRGC cash shortage, Iraq agrees to expel Kurds, Iran targets US AI centers, birth rate drops in Iran",
+    "emojis": "",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "Iraq",
+      "Iran",
+      "US AI centers"
+    ],
+    "source_count": 23,
+    "timestamp": "09:16 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia intensifies attacks on Ukrainian energy infrastructure",
+    "emojis": "💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 18,
+    "timestamp": "09:16 AM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China's economy grows by 4.6% in Q3 amid AI boom and energy transition.",
+    "summary": "China's CATL sees profit slowdown amidst EV market competition; Xpeng bet by VW fails; US bans AI tools.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China"
-    ],
-    "source_count": 31,
-    "timestamp": "07:18 PM"
-  },
-  {
-    "title": "SITREP: US-MN",
-    "summary": "Tribute to Nicole Amor at White Bear Lake Memorial Day",
-    "emojis": "",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
-    "actors": [
-      "Nicole Amor",
-      "White Bear Lake Memorial Day"
-    ],
-    "source_count": 1,
-    "timestamp": "07:18 PM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Egypt supports Saudi Arabia against Iran-backed Houthis, Iran warns after Trump endorses Netanyahu, US Embassy alerts Iran",
-    "emojis": "⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Egypt",
-      "Iran",
-      "Saudi Arabia",
-      "Netanyahu",
+      "China",
+      "CATL",
+      "VW",
+      "Xpeng",
       "US"
     ],
-    "source_count": 32,
-    "timestamp": "07:18 PM"
+    "source_count": 29,
+    "timestamp": "09:16 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Multiple sources highlight tensions: bipartisan backlash, a missing Newcastle soldier, high car exports, detained US citizen, low oil shipments, US-Russia relations, Pope's peace appeal.",
+    "emojis": "🚫🕊️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Trump",
+      "Russia",
+      "US citizens",
+      "China",
+      "Pope Leo"
+    ],
+    "source_count": 14,
+    "timestamp": "09:16 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Ben Gvir accuses Netanyahu amid flight threats and Trump endorses Netanyahu in Israel",
+    "summary": "Israel faces potential election fraud and international pressure ahead of Oct. 27 elections.",
     "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Ben Gvir",
-      "Netanyahu",
-      "Trump"
+      "Israel",
+      "NAZA",
+      "US envoy",
+      "Bank of Israel",
+      "Israel-Lebanon talks",
+      "Evogene"
     ],
-    "source_count": 27,
-    "timestamp": "07:18 PM"
+    "source_count": 28,
+    "timestamp": "09:16 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California EV ports hit 224,400, Lucid sales drop 11.6%.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California",
+      "Lucid"
+    ],
+    "source_count": 2,
+    "timestamp": "09:16 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Houthi attacks expose Saudi military limitations.",
-    "emojis": "🪖⚔️",
+    "summary": "UK sends jets to defend Saudi Arabia from Houthi attacks",
+    "emojis": "✈️⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Houthi rebels",
-      "Saudi Arabia"
+      "UK",
+      "Saudi Arabia",
+      "Houthi"
     ],
     "source_count": 1,
-    "timestamp": "07:18 PM"
+    "timestamp": "09:16 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Marseille faces more unrest after protests escalate.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Marseille",
+      "protesters"
+    ],
+    "source_count": 2,
+    "timestamp": "09:16 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "British Pound holds above 1.3300 as USD steadies on Fed, geopolitics",
+    "summary": "Li Auto enters UK in 2027 after Norway and Netherlands, Chinese Embassy urges vigilance at UK borders",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "British Pound",
-      "USD",
-      "Fed",
-      "geopolitics"
+      "Li Auto",
+      "Chinese Embassy"
     ],
     "source_count": 2,
-    "timestamp": "07:18 PM"
+    "timestamp": "09:16 AM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "Florida plans flying cars amid unused EV funds",
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Photos of Kim Jong Un debunked death rumours.",
     "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
     "actors": [
-      "Florida",
-      "Flying Cars"
+      "North Korean state media",
+      "Kim Jong Un"
     ],
     "source_count": 1,
-    "timestamp": "07:18 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "US President defends Ukraine stance, sanctions waivers amid tensions with Russia",
-    "emojis": "🚫⚡",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Trump",
-      "Zelenskyy",
-      "Russia"
-    ],
-    "source_count": 25,
-    "timestamp": "07:19 PM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Trump waives Russia sanctions, oil prices slide; anti-Putin sabotage reported; US-Russia diesel deal backlash; US-Russia tensions persist.",
-    "emojis": "⚔️🚫⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Donald Trump",
-      "Russia",
-      "Ukraine",
-      "US",
-      "US-Russia"
-    ],
-    "source_count": 23,
-    "timestamp": "07:19 PM"
+    "timestamp": "09:16 AM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Iranian Foreign Minister calls on Pakistan for regional diplomacy",
+    "summary": "Exclusive: Mecca defence pact signed by Turkey, Saudi Arabia, and Pakistan.",
     "emojis": "",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
-      "Seyed Abbas Araghchi",
-      "Mohammad Ishaq Dar"
+      "Turkey",
+      "Saudi Arabia",
+      "Pakistan"
     ],
     "source_count": 1,
-    "timestamp": "07:19 PM"
+    "timestamp": "09:16 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Palestinians mourn multiple deaths in Gaza.",
-    "emojis": "💀",
+    "summary": "Israeli strikes kill five in Gaza; pre-dawn attack kills two more.",
+    "emojis": "💥⚔️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Palestinians",
-      "Gaza"
+      "Israel",
+      "Palestinian civilians"
     ],
-    "source_count": 2,
-    "timestamp": "07:19 PM"
+    "source_count": 7,
+    "timestamp": "09:16 AM"
   },
   {
-    "title": "SITREP: US-TX",
-    "summary": "Andy Beshear clashes with Latino lawmakers over Texas funding",
-    "emojis": "⚔️",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Andy Beshear",
-      "Latino lawmakers"
-    ],
-    "source_count": 1,
-    "timestamp": "07:19 PM"
-  },
-  {
-    "title": "SITREP: US-IL",
-    "summary": "Synthetic drugs surge in Chicago, raising fears.",
+    "title": "SITREP: GERMANY",
+    "summary": "Nvidia CEO Jensen Huang encourages Germany's manufacturers to embrace AI.",
     "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "Chicago",
-      "Synthetic drugs"
+      "Jensen Huang",
+      "German manufacturers"
     ],
     "source_count": 1,
-    "timestamp": "07:19 PM"
+    "timestamp": "09:16 AM"
   }
 ];
 
