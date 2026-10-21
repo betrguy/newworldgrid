@@ -14,8 +14,8 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 21, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-21-lowcarbon-volcanic-rock-cement-ai) | Geopolitical tensions persist, with U.S. crude oil markets reflecting ongoing supply concerns due to geopolitical pre... |
 | **Oct 20, 2026** | [IRAN'S NUCLEAR AMBITION SPARKS GLOBAL ENERGY SECURITY CONCERNS](/archive/grid/2026-10-20-irans-nuclear-ambition-sparks-global) | Iran's admission of seeking nuclear weapons underscores the growing geopolitical tension in the Middle East, potentia... |
-| **Oct 19, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-19-lowcarbon-volcanic-rock-cement-ai) | Geopolitical tensions are escalating, with U.S. |
 | **Oct 17, 2026** | [GEOTHERMAL ENERGY GAINS UNPRECEDENTED BIPARTISAN SUPPORT](/archive/grid/2026-10-17-geothermal-energy-gains-unprecedented-bipartisan) | Geothermal energy is gaining bipartisan support in the U.S., reflecting a shift towards sustainable and politically p... |
 | **Oct 16, 2026** | [CALIFORNIA DEMS SEE IRAN WAR AS GAS PRICE GAME-CHANGER](/archive/grid/2026-10-16-california-dems-see-iran-war) | California Democrats' hopes for a shift in gas prices due to potential geopolitical tensions highlight the ongoing in... |
 | **Oct 15, 2026** | [RUSSIA'S DIESEL DEAL SIGNALS ECONOMIC SUPPORT AS GLOBAL ENERGY MARKETS SHIFTS](/archive/grid/2026-10-15-russias-diesel-deal-signals-economic) | The U.S. diesel deal with Russia, while a positive signal for Russia's economy, underscores the evolving geopolitical... |

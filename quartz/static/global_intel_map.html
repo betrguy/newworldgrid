@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-20 09:16 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-10-21 08:01 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,201 +51,165 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran denies US claims IRGC cash shortage, Iraq agrees to expel Kurds, Iran targets US AI centers, birth rate drops in Iran",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia releases US citizen Stephen Hubbard; Trump comments.",
     "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "USA",
+      "Stephen Hubbard",
+      "Trump"
+    ],
+    "source_count": 75,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "IBEF reports growth in EV battery tech, but Bain survey highlights charging infrastructure challenges.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "IBEF",
+      "Bain"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran maintains demands amid tensions, faces threats, and pushes for diplomacy.",
+    "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
       "US",
-      "Iraq",
-      "Iran",
-      "US AI centers"
+      "Israel"
     ],
-    "source_count": 23,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia intensifies attacks on Ukrainian energy infrastructure",
-    "emojis": "💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 18,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China's CATL sees profit slowdown amidst EV market competition; Xpeng bet by VW fails; US bans AI tools.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "CATL",
-      "VW",
-      "Xpeng",
-      "US"
-    ],
-    "source_count": 29,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Multiple sources highlight tensions: bipartisan backlash, a missing Newcastle soldier, high car exports, detained US citizen, low oil shipments, US-Russia relations, Pope's peace appeal.",
-    "emojis": "🚫🕊️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Trump",
-      "Russia",
-      "US citizens",
-      "China",
-      "Pope Leo"
-    ],
-    "source_count": 14,
-    "timestamp": "09:16 AM"
+    "source_count": 16,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces potential election fraud and international pressure ahead of Oct. 27 elections.",
-    "emojis": "",
+    "summary": "Israel's election next week features key candidates; probe summoned Netanyahu, IDF chief.",
+    "emojis": "🚢",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "NAZA",
-      "US envoy",
-      "Bank of Israel",
-      "Israel-Lebanon talks",
-      "Evogene"
+      "Netanyahu",
+      "IDF"
     ],
-    "source_count": 28,
-    "timestamp": "09:16 AM"
+    "source_count": 25,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "California EV ports hit 224,400, Lucid sales drop 11.6%.",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine peace talks resume; Russia releases U.S. detainee.",
+    "emojis": "⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Witkoff",
+      "Putin"
+    ],
+    "source_count": 14,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "US, EU, China on trade, climate, and diplomacy.",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "California",
-      "Lucid"
+      "US House committee",
+      "EU",
+      "China"
     ],
-    "source_count": 2,
-    "timestamp": "09:16 AM"
+    "source_count": 18,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: YEMEN",
-    "summary": "UK sends jets to defend Saudi Arabia from Houthi attacks",
-    "emojis": "✈️⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
+    "title": "SITREP: US-IL",
+    "summary": "Rising gas prices prompt debate on electric vehicle cost savings.",
+    "emojis": "🚀",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
     "actors": [
-      "UK",
-      "Saudi Arabia",
-      "Houthi"
+      "Chicago Sun-Times",
+      "Consumers"
     ],
     "source_count": 1,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Marseille faces more unrest after protests escalate.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Marseille",
-      "protesters"
-    ],
-    "source_count": 2,
-    "timestamp": "09:16 AM"
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Li Auto enters UK in 2027 after Norway and Netherlands, Chinese Embassy urges vigilance at UK borders",
+    "summary": "UK study shows high-mileage electric cars less likely to fail inspections than gas cars.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Li Auto",
-      "Chinese Embassy"
-    ],
-    "source_count": 2,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "Photos of Kim Jong Un debunked death rumours.",
-    "emojis": "",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
-    "actors": [
-      "North Korean state media",
-      "Kim Jong Un"
+      "UK study",
+      "electric cars",
+      "gas cars"
     ],
     "source_count": 1,
-    "timestamp": "09:16 AM"
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Exclusive: Mecca defence pact signed by Turkey, Saudi Arabia, and Pakistan.",
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan discusses AI and geopolitics between China and the US.",
     "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
     "actors": [
-      "Turkey",
-      "Saudi Arabia",
-      "Pakistan"
+      "George Chen",
+      "China",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "09:16 AM"
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strikes kill five in Gaza; pre-dawn attack kills two more.",
-    "emojis": "💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinian civilians"
-    ],
-    "source_count": 7,
-    "timestamp": "09:16 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Nvidia CEO Jensen Huang encourages Germany's manufacturers to embrace AI.",
+    "title": "SITREP: US-CA",
+    "summary": "Beam Global deploys off-grid EV charging systems in California tribal communities.",
     "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "Jensen Huang",
-      "German manufacturers"
+      "Beam Global",
+      "California tribal communities"
     ],
     "source_count": 1,
-    "timestamp": "09:16 AM"
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Heavy fighting reported between Saudi-led coalition and Houthis in southwestern Yemen.",
+    "emojis": "",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Saudi-led coalition",
+      "Houthis"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
   }
 ];
 
