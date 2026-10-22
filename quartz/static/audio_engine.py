@@ -37,7 +37,7 @@ DEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "am_michael")
 DEFAULT_SPEED = float(os.environ.get("KOKORO_SPEED", "1.0"))
 SAMPLE_RATE = 24000
 PLAYER_MARKER = "NWG_AUDIO_PLAYER"
-SCRIPT_WORD_TARGET = "350 to 450 words"
+SCRIPT_WORD_TARGET = "280 to 350 words"
 DATE_STAMP = datetime.now().strftime("%b %d").upper()
 
 # Pause & Cue timing constants for the closing "Thought Experiment" fictional section
@@ -123,6 +123,7 @@ def main() -> int:
         prompt = build_prompt(target, targets, plain_text_cache)
         real_news_script = generate_script_via_ollama(model=args.model, prompt=prompt)
         real_news_script = strip_thought_experiment_from_script(real_news_script)
+        real_news_script = ensure_opening_intro(real_news_script)
 
         if target.include_other_pages and thought_experiment_text:
             full_manifest_script = (
@@ -183,8 +184,10 @@ def strip_archive_and_boilerplate(raw_text: str) -> str:
     text = raw_text
     # Cut off everything starting at EDITION_ARCHIVE_BACKLOG
     text = re.split(r"<!--\s*EDITION_ARCHIVE_BACKLOG\s*-->", text, maxsplit=1)[0]
-    # Remove byline blocks and jump buttons
+    # Remove byline blocks, author attribution spans, section date headers, and jump buttons
     text = re.sub(r"<div class=\"sotg-byline\">.*?</div>", " ", text, flags=re.DOTALL)
+    text = re.sub(r"<span class=\"meridian-attr\">.*?</span>", " ", text, flags=re.DOTALL)
+    text = re.sub(r"##\s+Daily Intelligence Brief[^\r\n]*", " ", text)
     text = re.sub(r"<!--\s*NEWS_HUNTER_JUMP\s*-->.*?<!--\s*/NEWS_HUNTER_JUMP\s*-->", " ", text, flags=re.DOTALL)
     # Remove Breaking trends in AI GitHub repo links list at bottom of Optimism.md
     text = re.split(r"###\s+Breaking trends in AI today", text, maxsplit=1)[0]
@@ -245,6 +248,37 @@ def strip_thought_experiment_from_script(script_text: str) -> str:
     return parts[0].strip()
 
 
+def ensure_opening_intro(script_text: str) -> str:
+    """
+    Guarantees the broadcast opens with a grounded 'Today on New World Grid,' intro
+    and never starts mid-thought with a transition phrase like 'Moving to...' or 'Moving into...'.
+    """
+    cleaned = script_text.strip()
+    if not cleaned:
+        return cleaned
+
+    # Strip any accidental leading mid-stream transition phrase at 00:00
+    cleaned = re.sub(
+        r"^(?:Moving\s+(?:to|into)\s+[^,]+,\s*|Turning\s+to\s+[^,]+,\s*|Next,\s*)",
+        "",
+        cleaned,
+        count=1,
+        flags=re.IGNORECASE,
+    ).strip()
+
+    # If the model already opened with 'Today on New World Grid' or 'Today's findings across New World Grid', keep it
+    if re.match(r"^Today(?:'s|\u2019s)?\s+(?:on|across|in)\s+(?:the\s+)?New World Grid", cleaned, flags=re.IGNORECASE):
+        return cleaned
+
+    # Lowercase the first word only if it's a common article/word (preserve acronyms & proper nouns)
+    first_word = cleaned.split(" ", 1)[0].rstrip(",.:;")
+    lowercase_starters = {"The", "In", "Across", "Recent", "New", "Global", "Multiple", "Significant", "Decentralized", "Geopolitical", "While", "Meanwhile"}
+    if first_word in lowercase_starters:
+        cleaned = cleaned[0].lower() + cleaned[1:]
+
+    return f"Today on New World Grid, {cleaned}"
+
+
 def normalize_source_for_prompt(raw_text: str) -> str:
     text = strip_archive_and_boilerplate(raw_text)
     text = re.sub(r"^---\s*\r?\n.*?^\-\-\-\s*\r?\n?", "", text, flags=re.DOTALL | re.MULTILINE)
@@ -289,12 +323,13 @@ def build_prompt(
         f"Objective: {target.prompt_scope}\n"
         "Tone and Style Guidelines:\n"
         "- Voice: Conversational and casual, yet remains analytical and unbiased. Speak as a colleague sharing a clear, indifferent summary of facts—knowledgeable but not performing.\n"
+        "- Begin the broadcast with the exact opening phrase: 'Today on New World Grid,' followed immediately by the first analytical point from Predictive News.\n"
         "- Cover all four desks in order: Predictive News, Daily Optimism, State of the Grid, and Final Frontier (The High Ground and The EV Race).\n"
-        "- Use natural sentence transitions (e.g., 'Moving to the energy sector,' or 'On the optimism front,') while avoiding dramatic flair.\n"
+        "- NEVER start the first sentence with a mid-stream transition phrase such as 'Moving to...' or 'Moving into...'. Reserve natural transitions (e.g., 'On the optimism front,', 'Turning to the State of the Grid,', 'In the Final Frontier,') strictly for moving between the subsequent desks.\n"
+        "- Synthesize the key takeaways concisely rather than reading every paragraph verbatim, and mention the geomagnetic Kp index only once.\n"
         "- DO NOT include any fictional 'thought experiment' or '2036' scenario; cover ONLY the real-news reporting.\n"
         "- DO NOT use high-stakes, dramatic, or sensationalist language.\n"
-        "- NO formal introductions or closures. Do not say 'Hello', 'Welcome', 'Breaking news', or 'Signing off'.\n"
-        "- Start immediately with the first analytical point. No preamble.\n"
+        "- Do not say 'Hello', 'Welcome', 'Breaking news', or 'Signing off'.\n"
         "- No author names or meta-commentary about the text itself (e.g., 'the author states', 'this page shows').\n"
         "- You may mention 'New World Grid' and the specific page title when relevant to the context.\n"
         "- Use clean spoken prose only. No bullet points, stage directions, or markdown symbols.\n"
