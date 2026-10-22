@@ -1,33 +1,33 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: NASA's Nuclear-Powered Spaceships & Electric Vehicle Boom Reshape Final Frontier. NASA's Space Reactor-1 Freedom and the expanding electric v..."
+description: "Final Frontier: Low-Carbon Volcanic Rock Cement & AI Model Optimization. Israeli designer Arik Weiss's Emmy-winning work and the 2027 Cadillac LYRIQ's advanc..."
 ---
 
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">October 21, 2026 - 08:03</span>
+  <span class="sotg-timestamp">October 22, 2026 - 08:03</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-NASA's Space Reactor-1 Freedom and the expanding electric vehicle market, from nuclear-powered spaceships to the rise of Chinese plug-in hybrids in Europe, are reshaping the final frontier and our grids alike. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Israeli designer Arik Weiss's Emmy-winning work and the 2027 Cadillac LYRIQ's advanced EV charging features highlight the evolving orbital economy and grid development. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
-### The High Ground
+### **The High Ground**
 
-NASA’s Space Reactor-1 Freedom, set to launch next year, aims to power interplanetary missions with nuclear energy. This includes the uncrewed Space Reactor-1 Freedom, which is part of NASA’s plans to build the first-ever nuclear-reactor-powered interplanetary spacecraft. Meanwhile, China’s satellite constellation is expanding coverage to the Arctic, as reported by Sixth Tone, indicating a push for greater control over polar regions.
+Israeli designer Arik Weiss won an Emmy for Marvel’s Spider-Noir titles, highlighting the increasing significance of space-based media and entertainment. Additionally, researchers are developing autonomous mobility services, which suggest future advancements in electric public transport. These developments reflect the expanding orbital infrastructure that supports both commercial and civilian needs.
 
 ### **The EV Race**
 
+OnStar AI is integrating with the 2027 Cadillac LYRIQ to enhance EV charging, as reported by Electric Cars Report on October 22, 2026. This week, the system introduced new features to improve charging efficiency and user experience. For buyers, this means faster and more convenient charging, potentially boosting the adoption of electric vehicles. Manufacturers like General Motors are investing in such technology to stay competitive.
+
 *What follows is purely a thought experiment.*
 
-Imagine the year 2036, when Space Reactor-1 Freedom (SR-1) from NASA finally completes its maiden voyage. This nuclear-powered spacecraft, designed for deep space missions, opens a new frontier in interplanetary travel. But the real shock comes when SR-1 isn't just used for scientific exploration—it becomes a key component in a new global surveillance network.
-
-China's BeiDou Navigation Satellite System (BNSS) decides to integrate SR-1's power into their constellation, extending coverage to the Arctic. This isn't just about navigation; it's about strategic control. With SR-1's nuclear reactor powering satellites in high orbits, China gains unprecedented surveillance capabilities over the Arctic, a region rich in natural resources and strategic importance. This move not only enhances China's geopolitical influence but also creates a new layer of economic dominance, potentially reshaping trade routes and resource access.
+In 2036, the world watches as SpaceX’s Starlink constellation reaches 10,000 satellites, providing global internet coverage. But beneath the surface, a new player emerges: Quantum Computing Inc. (QCI). QCI launches a series of specialized satellites, not for internet, but for quantum key distribution (QKD). These satellites create a secure, unhackable communication network. The move is strategic, as QCI aims to sell its quantum encryption services to governments and corporations, leveraging the vast, untapped data security market. The unexpected consequence? Nations scramble to develop their own quantum secure networks, diverting funds from other space projects. This shift reshapes the orbital economy, as QCI’s dominance in secure communications sets the stage for a new era of encrypted data flows, fundamentally altering the balance of power and economic influence in the digital age.
 
 <!-- /FRONTIER_ENGINE_END -->
 
@@ -43,17 +43,17 @@ China's BeiDou Navigation Satellite System (BNSS) decides to integrate SR-1's po
   <div class="sotg-archive-list">
     <div class="archive-item">
       <div class="archive-item-header">
+        <span class="archive-date">Oct 21, 2026</span>
+        <a href="/archive/frontier/2026-10-21-nasas-nuclearpowered-spaceships-electric-vehicle" class="archive-link">NASA's Nuclear-Powered Spaceships & Electric Vehicle Boom Reshape Final Frontier</a>
+      </div>
+      <div class="archive-preview">NASA's Space Reactor-1 Freedom and the expanding electric vehicle market, from nuclear-powered spaceships to the rise of Chinese plug-in...</div>
+    </div>
+    <div class="archive-item">
+      <div class="archive-item-header">
         <span class="archive-date">Oct 20, 2026</span>
         <a href="/archive/frontier/2026-10-20-spacex-dominates-orbit-california-ev" class="archive-link">SPACEX DOMINATES ORBIT, CALIFORNIA EV CHARGING NEARS 2030 GOAL</a>
       </div>
       <div class="archive-preview">By August 2026, SpaceX's Starlink constellation had grown to over 11,000 satellites, dominating the orbital landscape, while...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 19, 2026</span>
-        <a href="/archive/frontier/2026-10-19-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">Orbital economy development faces challenges from rising gas prices, while EV and grid advancements continue to shift focus to states...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">

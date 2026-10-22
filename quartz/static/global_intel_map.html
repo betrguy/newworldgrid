@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-21 08:01 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-10-22 08:02 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,39 +51,38 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israeli election tensions rise with media crusades and right-wing plans.",
+    "emojis": "💥⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "DC media outlets",
+      "Ben-Gvir",
+      "Netanyahu"
+    ],
+    "source_count": 25,
+    "timestamp": "08:01 AM"
+  },
+  {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia releases US citizen Stephen Hubbard; Trump comments.",
+    "summary": "Retired American teacher released after 4 years in Russia.",
     "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "USA",
-      "Stephen Hubbard",
-      "Trump"
+      "American teacher"
     ],
-    "source_count": 75,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "IBEF reports growth in EV battery tech, but Bain survey highlights charging infrastructure challenges.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "IBEF",
-      "Bain"
-    ],
-    "source_count": 2,
+    "source_count": 23,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran maintains demands amid tensions, faces threats, and pushes for diplomacy.",
-    "emojis": "⚔️⚡",
+    "summary": "Iran reports tanker attacks in Hormuz, tensions rise with US and Israel.",
+    "emojis": "💥⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -92,124 +91,123 @@
       "US",
       "Israel"
     ],
-    "source_count": 16,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel's election next week features key candidates; probe summoned Netanyahu, IDF chief.",
-    "emojis": "🚢",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Netanyahu",
-      "IDF"
-    ],
-    "source_count": 25,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine peace talks resume; Russia releases U.S. detainee.",
-    "emojis": "⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Witkoff",
-      "Putin"
-    ],
-    "source_count": 14,
+    "source_count": 45,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "US, EU, China on trade, climate, and diplomacy.",
+    "summary": "Chinese businesses face challenges as domestic competition intensifies and global markets shift.",
     "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "US House committee",
-      "EU",
+      "Starbucks",
+      "China Telecom",
+      "Hang Seng",
+      "Shanshui Cement",
       "China"
     ],
-    "source_count": 18,
+    "source_count": 26,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-IL",
-    "summary": "Rising gas prices prompt debate on electric vehicle cost savings.",
-    "emojis": "🚀",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
-    "actors": [
-      "Chicago Sun-Times",
-      "Consumers"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK study shows high-mileage electric cars less likely to fail inspections than gas cars.",
+    "title": "SITREP: GAZA",
+    "summary": "Israeli restrictions on engine oil hinder Gaza's humanitarian response.",
     "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "UK study",
-      "electric cars",
-      "gas cars"
+      "Israeli authorities",
+      "humanitarians"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan discusses AI and geopolitics between China and the US.",
+    "title": "SITREP: FRANCE",
+    "summary": "Storm floods in southern France kill 4; Shamonda virus first detected in human in France.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "storm",
+      "officials"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia intensifies attacks on Kyiv despite peace talks; Ukraine exchanges 252 bodies.",
+    "emojis": "💥⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 14,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Houthis claim Saudi Arabia targeted Indian boat; rescue ops launched.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Houthis",
+      "Saudi Arabia"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Israeli forces kill disabled man in Syrian raid.",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Israeli forces",
+      "Syria"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "New Mexico judge orders Meta to pay $25 billion in Cambridge Analytica case.",
     "emojis": "",
     "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "lng": -102.5,
+    "location": "MEXICO",
     "actors": [
-      "George Chen",
-      "China",
-      "US"
+      "New Mexico judge",
+      "Meta"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Beam Global deploys off-grid EV charging systems in California tribal communities.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "Beam Global",
-      "California tribal communities"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Heavy fighting reported between Saudi-led coalition and Houthis in southwestern Yemen.",
-    "emojis": "",
+    "summary": "Two killed in airport attack by Houthi in Saudi Arabia.",
+    "emojis": "⚔️💀",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Saudi-led coalition",
-      "Houthis"
+      "Houthi movement",
+      "Saudi Arabia"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   }
 ];
 

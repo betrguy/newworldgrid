@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 22, 2026** | [CYBERATTACKS ON CRITICAL INFRASTRUCTURE SPARK DECENTRALIZED NETWORK DEFENSE EFFORTS](/archive/grid/2026-10-22-cyberattacks-on-critical-infrastructure-spark) | The decentralized network used in the recent cyberattack on Ukraine highlights the evolving threat landscape for crit... |
 | **Oct 21, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-21-lowcarbon-volcanic-rock-cement-ai) | Geopolitical tensions persist, with U.S. crude oil markets reflecting ongoing supply concerns due to geopolitical pre... |
 | **Oct 20, 2026** | [IRAN'S NUCLEAR AMBITION SPARKS GLOBAL ENERGY SECURITY CONCERNS](/archive/grid/2026-10-20-irans-nuclear-ambition-sparks-global) | Iran's admission of seeking nuclear weapons underscores the growing geopolitical tension in the Middle East, potentia... |
 | **Oct 17, 2026** | [GEOTHERMAL ENERGY GAINS UNPRECEDENTED BIPARTISAN SUPPORT](/archive/grid/2026-10-17-geothermal-energy-gains-unprecedented-bipartisan) | Geothermal energy is gaining bipartisan support in the U.S., reflecting a shift towards sustainable and politically p... |
