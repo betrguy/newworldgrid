@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Oct 22, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-22-lowcarbon-volcanic-rock-cement-ai) | Israeli designer Arik Weiss's Emmy-winning work and the 2027 Cadillac LYRIQ's advanced EV charging features highlight... |
+| **Oct 23, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-23-lowcarbon-volcanic-rock-cement-ai) | Nio's rapid expansion in electric vehicle deliveries mirrors Devon's growing EV charging network, signaling advanceme... |
 | **Oct 21, 2026** | [NASA's Nuclear-Powered Spaceships & Electric Vehicle Boom Reshape Final Frontier](/archive/frontier/2026-10-21-nasas-nuclearpowered-spaceships-electric-vehicle) | NASA's Space Reactor-1 Freedom and the expanding electric vehicle market, from nuclear-powered spaceships to the rise... |
 | **Oct 20, 2026** | [SPACEX DOMINATES ORBIT, CALIFORNIA EV CHARGING NEARS 2030 GOAL](/archive/frontier/2026-10-20-spacex-dominates-orbit-california-ev) | By August 2026, SpaceX's Starlink constellation had grown to over 11,000 satellites, dominating the orbital landscape... |
 | **Oct 19, 2026** | [RUSSIA DEPLOYING DEADLY SATELLITES AS US LIMITS UKRAINE'S SPACE ACCESS](/archive/frontier/2026-10-19-russia-deploying-deadly-satellites-as) | Space war: Russia may be deploying killer satellites as US throttles Ukraines access - IntelliNews. |

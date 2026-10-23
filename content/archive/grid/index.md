@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 23, 2026** | [Greece's Russian Diesel Shipments Signal Shift in U.S. Energy Supply Dynamics](/archive/grid/2026-10-23-greeces-russian-diesel-shipments-signal) | Greek tankers carrying Russian diesel to the U.S. mark a shift in energy supply dynamics, potentially reducing relian... |
 | **Oct 22, 2026** | [CYBERATTACKS ON CRITICAL INFRASTRUCTURE SPARK DECENTRALIZED NETWORK DEFENSE EFFORTS](/archive/grid/2026-10-22-cyberattacks-on-critical-infrastructure-spark) | The decentralized network used in the recent cyberattack on Ukraine highlights the evolving threat landscape for crit... |
 | **Oct 21, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-21-lowcarbon-volcanic-rock-cement-ai) | Geopolitical tensions persist, with U.S. crude oil markets reflecting ongoing supply concerns due to geopolitical pre... |
 | **Oct 20, 2026** | [IRAN'S NUCLEAR AMBITION SPARKS GLOBAL ENERGY SECURITY CONCERNS](/archive/grid/2026-10-20-irans-nuclear-ambition-sparks-global) | Iran's admission of seeking nuclear weapons underscores the growing geopolitical tension in the Middle East, potentia... |

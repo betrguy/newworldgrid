@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 23, 2026** | [RUSSIA'S ECONOMIC CHALLENGES AMID UKE-Russia TENSIONS](/archive/predictive/2026-10-23-russias-economic-challenges-amid-ukerussia) | Russia's actions against Ukraine, including ship attacks and increased tensions with the West, coupled with internal ... |
 | **Oct 22, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-22-strait-of-hormuz-flow-discrepancies) | Iran's reported tanker attacks in the Strait of Hormuz elevate regional tensions with the U.S. and Israel. |
 | **Oct 21, 2026** | [RUSSIA RELEASES US CITIZEN AS UKRAINE PEACE TALKS RESUME](/archive/predictive/2026-10-21-russia-releases-us-citizen-as) | Ukraine peace talks resume and Russia releases U.S. citizen Stephen Hubbard, signaling potential diplomatic shifts in... |
 | **Oct 20, 2026** | [US, Russia Relations Fray Amid Global Tech Tensions & Energy Disruptions](/archive/predictive/2026-10-20-us-russia-relations-fray-amid) | Iran denies US claims of IRGC cash shortage amid regional tensions; Russia intensifies attacks on Ukrainian energy in... |
