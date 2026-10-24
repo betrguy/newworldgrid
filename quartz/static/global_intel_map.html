@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-23 08:01 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-10-24 08:01 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,130 +51,189 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia sends diesel to US, hardens stance on Japan; Ukraine reports soldier deaths.",
-    "emojis": "⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 5,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Oil rises, tensions rise amid US-Iran tensions and Israeli calls for overthrow.",
-    "emojis": "💥⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Israel",
-      "Iran"
-    ],
-    "source_count": 27,
-    "timestamp": "08:01 AM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel orders West Bank closure after army fatalities; election impacts U.S. relations.",
-    "emojis": "",
+    "summary": "Israel intensifies West Bank operations, faces diplomatic shifts and legal challenges.",
+    "emojis": "➡️",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "United States",
-      "Palestinians"
+      "Turkey",
+      "Argentina"
     ],
-    "source_count": 52,
+    "source_count": 50,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran threatens U.S. warships; U.S. readies for possible strikes amid tensions.",
+    "emojis": "🚢💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "U.S."
+    ],
+    "source_count": 47,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Kim Jong Un visits China via new bridge; China names new provincial chiefs.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Kim Jong Un",
+      "China's Communist Party"
+    ],
+    "source_count": 37,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Fire at Hitler's Eagle's Nest; 200 emergency personnel respond.",
+    "emojis": "🚀⬅️",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Emergency personnel",
+      "Unknown suspect"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine reports Starlink speed limits lifted, eyeing peace talks amid Russian attacks.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Starlink",
+      "Russia"
+    ],
+    "source_count": 10,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Israeli election outcomes unlikely to alter US-NY relations.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "US",
+      "NY",
+      "Israel"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "Kim Jong Un visits Chinese border city Dandong unannounced.",
+    "emojis": "",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "Kim Jong Un",
+      "China"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK involved in Saudi Arabia's Middle East conflict; British woman dies rescuing children in Bahamas.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Saudi Arabia",
+      "UK",
+      "Bahamas"
+    ],
+    "source_count": 2,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Volkswagen halts EV investment in India amid partnership discussions.",
+    "summary": "Volkswagen halts India EV investments for JSW partnership.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Volkswagen"
+      "Volkswagen",
+      "JSW"
+    ],
+    "source_count": 3,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "US government advises AI executives to be cautious.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Washington",
+      "AI execs"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi-led coalition destroys Houthi missiles; US warns of potential escalation.",
+    "emojis": "⚔️🚀📈",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Saudi-led coalition",
+      "Houthi",
+      "US"
     ],
     "source_count": 2,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces international backlash over ship attacks and Ukrainian spying allegations.",
-    "emojis": "⚔️",
+    "summary": "Russia faces military losses, while economic relations with Norway and US persist.",
+    "emojis": "🪖",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "Romania",
-      "Ukraine"
+      "Norway",
+      "US"
     ],
-    "source_count": 21,
+    "source_count": 5,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "EU plans to address 'China Shock 2.0', while China faces challenges in EV market and space race.",
+    "title": "SITREP: US-MN",
+    "summary": "Ex-Trump border chief says Minneapolis withdrawal was 'surrender'.",
     "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "lat": 44.97,
+    "lng": -93.26,
+    "location": "US-MN",
     "actors": [
-      "EU ministers",
-      "Hyundai",
-      "China"
-    ],
-    "source_count": 20,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Paris suburb shooting leaves 1 dead, 4 injured; suspect in custody.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "French prime minister",
-      "police"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strike in southern Gaza kills 1, wounds several.",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Palestinians"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Palestinian gunmen fired on Israelis in West Bank.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Palestinian gunmen",
-      "Israelis"
+      "Greg Bovino",
+      "Minneapolis"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
