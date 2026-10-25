@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 25, 2026** | [Ukraine's Satellite Internet Shift Amid EV Charging Disruption](/archive/frontier/2026-10-25-ukraines-satellite-internet-shift-amid) | Exploring new frontiers, Ukraine's reliance on Starlink for satellite internet highlights the growing competition in ... |
 | **Oct 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-24-lowcarbon-volcanic-rock-cement-ai) | Orbital economy developments and EV grid advancements are reshaping transportation and defense, with Ukraine's defens... |
 | **Oct 21, 2026** | [NASA's Nuclear-Powered Spaceships & Electric Vehicle Boom Reshape Final Frontier](/archive/frontier/2026-10-21-nasas-nuclearpowered-spaceships-electric-vehicle) | NASA's Space Reactor-1 Freedom and the expanding electric vehicle market, from nuclear-powered spaceships to the rise... |
 | **Oct 20, 2026** | [SPACEX DOMINATES ORBIT, CALIFORNIA EV CHARGING NEARS 2030 GOAL](/archive/frontier/2026-10-20-spacex-dominates-orbit-california-ev) | By August 2026, SpaceX's Starlink constellation had grown to over 11,000 satellites, dominating the orbital landscape... |

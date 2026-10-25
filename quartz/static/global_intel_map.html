@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-24 08:01 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-10-25 08:01 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,188 +52,142 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel intensifies West Bank operations, faces diplomatic shifts and legal challenges.",
-    "emojis": "➡️",
+    "summary": "UK sanctions on Israel could harm Palestinian economy, while domestic protests and election loom.",
+    "emojis": "🚫",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
+      "UK",
       "Israel",
-      "Turkey",
-      "Argentina"
+      "Palestinians"
     ],
-    "source_count": 50,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran threatens U.S. warships; U.S. readies for possible strikes amid tensions.",
-    "emojis": "🚢💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "U.S."
-    ],
-    "source_count": 47,
+    "source_count": 54,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Kim Jong Un visits China via new bridge; China names new provincial chiefs.",
-    "emojis": "",
+    "summary": "Quakes, reunification push, AI film, and diplomatic moves highlight China’s activities.",
+    "emojis": "💥",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Kim Jong Un",
-      "China's Communist Party"
+      "China",
+      "Taiwan",
+      "AI",
+      "Diplomacy"
     ],
-    "source_count": 37,
+    "source_count": 22,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: GERMANY",
-    "summary": "Fire at Hitler's Eagle's Nest; 200 emergency personnel respond.",
-    "emojis": "🚀⬅️",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
+    "title": "SITREP: IRAN",
+    "summary": "Tensions rise as Trump considers new strikes, Iran threatens retaliation.",
+    "emojis": "💥⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Emergency personnel",
-      "Unknown suspect"
+      "Trump",
+      "Iran"
     ],
-    "source_count": 1,
+    "source_count": 32,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine reports Starlink speed limits lifted, eyeing peace talks amid Russian attacks.",
-    "emojis": "🪖✈️⚔️",
+    "summary": "Ukraine and Russia continue to clash, with strikes causing casualties and tensions rising.",
+    "emojis": "💥⚔️💀",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Ukraine",
-      "Starlink",
       "Russia"
     ],
-    "source_count": 10,
+    "source_count": 15,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Israeli election outcomes unlikely to alter US-NY relations.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "title": "SITREP: RUSSIA",
+    "summary": "Ukrainian attacks on Russia's Belgorod and Perm regions injure multiple, tensions rise.",
+    "emojis": "⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "US",
-      "NY",
-      "Israel"
+      "Ukraine",
+      "Russia"
     ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "Kim Jong Un visits Chinese border city Dandong unannounced.",
-    "emojis": "",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
-    "actors": [
-      "Kim Jong Un",
-      "China"
-    ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK involved in Saudi Arabia's Middle East conflict; British woman dies rescuing children in Bahamas.",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Saudi Arabia",
-      "UK",
-      "Bahamas"
-    ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Volkswagen halts India EV investments for JSW partnership.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Volkswagen",
-      "JSW"
-    ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "US government advises AI executives to be cautious.",
-    "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Washington",
-      "AI execs"
-    ],
-    "source_count": 1,
+    "source_count": 13,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Saudi-led coalition destroys Houthi missiles; US warns of potential escalation.",
-    "emojis": "⚔️🚀📈",
+    "summary": "Saudi-led coalition downed Houthi missile; U.S. updates travel advisories.",
+    "emojis": "🚀⚔️",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
       "Saudi-led coalition",
-      "Houthi",
-      "US"
+      "U.S."
     ],
     "source_count": 2,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces military losses, while economic relations with Norway and US persist.",
-    "emojis": "🪖",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: US-NY",
+    "summary": "Middle East tensions rise, risking wider conflict.",
+    "emojis": "⚔️⚡",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
     "actors": [
-      "Russia",
-      "Norway",
-      "US"
+      "New York Times",
+      "Middle Eastern countries"
     ],
-    "source_count": 5,
+    "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-MN",
-    "summary": "Ex-Trump border chief says Minneapolis withdrawal was 'surrender'.",
+    "title": "SITREP: INDIA",
+    "summary": "Tata Motors reaches 1000 fast charging points with MegaCharger Network.",
     "emojis": "",
-    "lat": 44.97,
-    "lng": -93.26,
-    "location": "US-MN",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Greg Bovino",
-      "Minneapolis"
+      "Tata Motors"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Surrogacy scandal reveals California mansion as 'House of Horrors'.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Surrogacy clients",
+      "Surrogacy agency"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "410,000 participate in new French protests",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "people",
+      "France"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
