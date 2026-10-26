@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 26, 2026** | [US, China, India, Russia Clash in Global Power Shift](/archive/predictive/2026-10-26-us-china-india-russia-clash) | US-China tech tensions, coupled with India's pivot away from Russian oil and Russia's escalating conflict with Ukrain... |
 | **Oct 25, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-25-strait-of-hormuz-flow-discrepancies) | Tensions escalate globally, with renewed military clashes in Ukraine, Iranian threats following potential US strikes,... |
 | **Oct 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-10-24-lowcarbon-volcanic-rock-cement-ai) | Iran's threats against U.S. warships and escalating tensions could precipitate direct military confrontation. |
 | **Oct 23, 2026** | [RUSSIA'S ECONOMIC CHALLENGES AMID UKE-Russia TENSIONS](/archive/predictive/2026-10-23-russias-economic-challenges-amid-ukerussia) | Russia's actions against Ukraine, including ship attacks and increased tensions with the West, coupled with internal ... |

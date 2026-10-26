@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 26, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-26-lowcarbon-volcanic-rock-cement-ai) | With the advent of supercurrent, quantum bits can now be read without collapsing their state, addressing a long-stand... |
 | **Oct 25, 2026** | [ENGINEERS TAKE CENTER STAGE AS CONSUMER ELECTRONICS SEES REVOLUTION](/archive/optimism/2026-10-25-engineers-take-center-stage-as) | With engineers like Preethi Ashwath stepping out from behind the scenes, the consumer electronics industry is seeing ... |
-| **Oct 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-10-24-lowcarbon-volcanic-rock-cement-ai) | Scientists at Fraunhofer IAF have developed a diamond laser system that significantly enhances magnetic-field detecti... |
 | **Oct 18, 2026** | [Engineers now design electric truck batteries faster & Opening new...](/archive/optimism/2026-10-18-engineers-now-design-electric-truck) | Simulation apps are revolutionizing battery design, enabling engineers at Aurobay and Resolvent to accelerate the dev... |
 | **Oct 17, 2026** | [Electric Truck Deliveries Set to Speed Up Amid Breakthrough Battery Design Advances](/archive/optimism/2026-10-17-electric-truck-deliveries-set-to) | With the advent of advanced simulation apps, electric truck delivery times are set to dramatically decrease. |
 | **Oct 16, 2026** | [Perovskite Solar Cells Achieve 25% Efficiency & Extended Durability](/archive/optimism/2026-10-16-perovskite-solar-cells-achieve-25) | Sovereign Tech simulation apps are accelerating the design of electric truck batteries, while new high-frequency meth... |
