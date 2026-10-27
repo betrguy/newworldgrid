@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 27, 2026** | [Radio Waves Unlock Fusion Plasma Current, Paving Path to Continuous Reactor Operation](/archive/grid/2026-10-27-radio-waves-unlock-fusion-plasma) | Radio waves have been successfully used to drive a fusion plasma current, potentially enabling continuous reactor ope... |
 | **Oct 26, 2026** | [US & Russia Strengthen Energy Ties Amid China's Export Curbs & India's Solar Setback](/archive/grid/2026-10-26-us-russia-strengthen-energy-ties) | Geopolitical shifts, particularly the Russia-China plan to position Viktor Orbán for a U.N. post, indicate a strength... |
 | **Oct 25, 2026** | [IRAN THREATS SPARK GLOBAL ENERGY MARKET CHAOS](/archive/grid/2026-10-25-iran-threats-spark-global-energy) | Iran's threats to target senior American officials and warn of potential infrastructure strikes underscore escalating... |
 | **Oct 24, 2026** | [US Aircraft Carrier Deployment Amid Iran Nuclear Talks Revival](/archive/grid/2026-10-24-us-aircraft-carrier-deployment-amid) | The geopolitical tensions in the Middle East continue to evolve, with the U.S. and Iran engaging in a complex dance o... |

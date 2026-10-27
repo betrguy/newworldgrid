@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-26 08:01 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-10-27 08:01 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,194 +51,177 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: CHINA",
+    "summary": "China suspends La Liga, debates nationalism; auto sales forecast modest growth.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "La Liga",
+      "Porsche",
+      "CPCA"
+    ],
+    "source_count": 29,
+    "timestamp": "08:01 AM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces elections amid geopolitical tensions, Lula’s re-election impacts Latin America.",
-    "emojis": "⚔️🕊️⚡",
+    "summary": "Israeli election tensions rise amid high turnout, Netanyahu’s future uncertain.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Lula"
+      "Netanyahu"
     ],
-    "source_count": 36,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "US-China tech tensions, solar export curbs, and AI developments affect Asia.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "US",
-      "China",
-      "India",
-      "Philippines",
-      "Volkswagen",
-      "Xpeng"
-    ],
-    "source_count": 23,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine seeks EU rep at Russia talks; Russia claims Ukraine strikes; Europe discusses support.",
-    "emojis": "✈️💥💣",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "EU"
-    ],
-    "source_count": 11,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "India shifts oil sources, Zelenskyy sets conditions, Russia-US ties grow.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "India",
-      "Zelenskyy",
-      "Russia",
-      "US"
-    ],
-    "source_count": 23,
+    "source_count": 46,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US, Israel escalating tensions with Iran amid trade growth, diplomatic efforts.",
-    "emojis": "⚡📈",
+    "summary": "Tensions rise in Iran amid border disputes, domestic debates, and security concerns.",
+    "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Netanyahu",
-      "Iran"
+      "Iran",
+      "Iraq",
+      "Israel",
+      "UK"
     ],
-    "source_count": 35,
+    "source_count": 25,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "Jewish entertainment panel, market surge, Tata Comm AI",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "title": "SITREP: RUSSIA",
+    "summary": "Multiple leaders engage Putin; US-Russia deal sparks European concerns.",
+    "emojis": "💥🕊️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Modi Rosenfeld",
-      "Jackie Goldschneider",
-      "Sensex",
-      "Tata Comm"
+      "Russia",
+      "United States",
+      "Europe",
+      "Finland",
+      "Norway"
     ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Trump's Board of Peace appoints Shelley Greenspan to lead Congress outreach.",
-    "emojis": "🕊️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Trump's Board of Peace",
-      "Shelley Greenspan"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Rival invests $2.4M in EV charging at 4 Texas Buc-ee's locations.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Rival",
-      "Buc-ee's"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Ukrainians suppress feelings, Jordan arrests suspects, Israeli Jews face election fears.",
-    "emojis": "⚔️",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Ukrainians",
-      "Jordan",
-      "Israeli Jews"
-    ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli drones burn Gaza refugee camp, displacing 800 Palestinians.",
-    "emojis": "✈️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli",
-      "Palestinians"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-GA",
-    "summary": "Anthropic's AI model accessed publicly available voter data.",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
-    "actors": [
-      "Anthropic",
-      "Claude AI model"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: VENEZUELA",
-    "summary": "Opposition leader María Machado returns to Venezuela amid welcoming crowds.",
-    "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
-    "actors": [
-      "María Machado",
-      "Venezuelan opposition"
-    ],
-    "source_count": 1,
+    "source_count": 12,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: FRANCE",
-    "summary": "Protests in Paris focus on domestic issues, not Islam.",
+    "summary": "Six French nationals sentenced to life for IS membership in Iraq.",
     "emojis": "",
     "lat": 46.2,
     "lng": 2.2,
     "location": "FRANCE",
     "actors": [
-      "Parisians",
-      "French government"
+      "French nationals",
+      "Iraqi court"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Melania Trump brokers one-city ceasefire in Ukraine as Russia strikes elsewhere.",
+    "emojis": "💥🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine",
+      "Melania Trump"
+    ],
+    "source_count": 15,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Syria condemns Jordanian strikes as unauthorized airspace violation.",
+    "emojis": "💥",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Syria",
+      "Jordan"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan rejects Chinese actor's visit.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Chinese actor"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "XPENG and Electronity launch charging network in Mexico.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "XPENG",
+      "Electronity"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Battery costs and VW’s investment halt concern India’s EV market.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India",
+      "Volkswagen"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Oil prices rise amid Houthi attacks; Saudi-led coalition responds.",
+    "emojis": "✈️⚔️🚀",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Houthi",
+      "Saudi-led coalition"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "German and EU investments stall amid political upheaval.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Merz",
+      "Germany",
+      "EU"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"

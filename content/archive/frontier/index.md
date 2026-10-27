@@ -14,9 +14,9 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 27, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-27-lowcarbon-volcanic-rock-cement-ai) | Orbital economy developments and advancements in EV grid infrastructure continue to unfold, with key issues like the ... |
 | **Oct 26, 2026** | [Orbital Economy Faces Geopolitical Turbulence Amid EV Grid Revolution](/archive/frontier/2026-10-26-orbital-economy-faces-geopolitical-turbulence) | This page explores the current landscape of orbital economy development amid geopolitical tensions and advances in el... |
 | **Oct 25, 2026** | [Ukraine's Satellite Internet Shift Amid EV Charging Disruption](/archive/frontier/2026-10-25-ukraines-satellite-internet-shift-amid) | Exploring new frontiers, Ukraine's reliance on Starlink for satellite internet highlights the growing competition in ... |
-| **Oct 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/frontier/2026-10-24-lowcarbon-volcanic-rock-cement-ai) | Orbital economy developments and EV grid advancements are reshaping transportation and defense, with Ukraine's defens... |
 | **Oct 21, 2026** | [NASA's Nuclear-Powered Spaceships & Electric Vehicle Boom Reshape Final Frontier](/archive/frontier/2026-10-21-nasas-nuclearpowered-spaceships-electric-vehicle) | NASA's Space Reactor-1 Freedom and the expanding electric vehicle market, from nuclear-powered spaceships to the rise... |
 | **Oct 20, 2026** | [SPACEX DOMINATES ORBIT, CALIFORNIA EV CHARGING NEARS 2030 GOAL](/archive/frontier/2026-10-20-spacex-dominates-orbit-california-ev) | By August 2026, SpaceX's Starlink constellation had grown to over 11,000 satellites, dominating the orbital landscape... |
 | **Oct 19, 2026** | [RUSSIA DEPLOYING DEADLY SATELLITES AS US LIMITS UKRAINE'S SPACE ACCESS](/archive/frontier/2026-10-19-russia-deploying-deadly-satellites-as) | Space war: Russia may be deploying killer satellites as US throttles Ukraines access - IntelliNews. |
