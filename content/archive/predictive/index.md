@@ -14,9 +14,9 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 27, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-10-27-lowcarbon-volcanic-rock-cement-ai) | Iran's nuclear inspections demand heightens regional tensions, driving gas prices upward and reshaping Middle Eastern... |
 | **Oct 27, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-27-strait-of-hormuz-flow-discrepancies) | Tensions escalate in Iran, Russia, and Israel, while China debates nationalism and Europe grapples with US-Russia rel... |
 | **Oct 26, 2026** | [US, China, India, Russia Clash in Global Power Shift](/archive/predictive/2026-10-26-us-china-india-russia-clash) | US-China tech tensions, coupled with India's pivot away from Russian oil and Russia's escalating conflict with Ukrain... |
-| **Oct 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-10-24-lowcarbon-volcanic-rock-cement-ai) | Iran's threats against U.S. warships and escalating tensions could precipitate direct military confrontation. |
 | **Oct 23, 2026** | [RUSSIA'S ECONOMIC CHALLENGES AMID UKE-Russia TENSIONS](/archive/predictive/2026-10-23-russias-economic-challenges-amid-ukerussia) | Russia's actions against Ukraine, including ship attacks and increased tensions with the West, coupled with internal ... |
 | **Oct 21, 2026** | [RUSSIA RELEASES US CITIZEN AS UKRAINE PEACE TALKS RESUME](/archive/predictive/2026-10-21-russia-releases-us-citizen-as) | Ukraine peace talks resume and Russia releases U.S. citizen Stephen Hubbard, signaling potential diplomatic shifts in... |
 | **Oct 20, 2026** | [US, Russia Relations Fray Amid Global Tech Tensions & Energy Disruptions](/archive/predictive/2026-10-20-us-russia-relations-fray-amid) | Iran denies US claims of IRGC cash shortage amid regional tensions; Russia intensifies attacks on Ukrainian energy in... |
