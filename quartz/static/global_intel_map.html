@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-27 13:56 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-10-28 08:01 UTC | 8 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">8 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,136 +51,124 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "BYD tests cars, US Army uses balloons, China debates rare earths, AI bubble bursts, Mbappe apologizes in China.",
-    "emojis": "💥",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "BYD",
-      "US Army",
-      "China",
-      "Mbappe"
-    ],
-    "source_count": 19,
-    "timestamp": "01:55 PM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "High-stakes Israeli election with low congressional support for Israel.",
-    "emojis": "⚔️🕊️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Netanyahu",
-      "Democrats"
-    ],
-    "source_count": 30,
-    "timestamp": "01:56 PM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Tesla shares rise as Texas robotaxi fleet reaches 1,000 vehicles.",
-    "emojis": "🚢",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Tesla",
-      "Texas"
-    ],
-    "source_count": 1,
-    "timestamp": "01:56 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran tensions escalate with nuclear inspections demanded, impacting gas prices and Middle East politics.",
-    "emojis": "⚔️☢️⚡",
+    "summary": "Iran war spending exceeds $47 billion; security talks hailed, filmmaker faces prison.",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "IAEA",
-      "U.S."
+      "Trump",
+      "Panahi"
     ],
-    "source_count": 34,
-    "timestamp": "01:56 PM"
+    "source_count": 40,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Jordan, Syria form panel; Israel election uncertain amid regional tensions.",
+    "emojis": "💥⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Jordan",
+      "Syria",
+      "Israel"
+    ],
+    "source_count": 21,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine and Russia extend ceasefire; drones harass trains.",
+    "emojis": "✈️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 7,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Real Madrid, China Pacific Insurance, and other entities respond to geopolitical and economic issues.",
+    "emojis": "🪖",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Real Madrid",
+      "China Pacific Insurance",
+      "China"
+    ],
+    "source_count": 40,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia hosts multiple gas summit reports; oil exports through western ports decline.",
-    "emojis": "",
+    "summary": "Russian-African relations in focus amid geopolitical tensions.",
+    "emojis": "⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "traders"
+      "African countries",
+      "Norway",
+      "Finland",
+      "Philippines",
+      "Saudi Arabia",
+      "Ukraine"
     ],
-    "source_count": 16,
-    "timestamp": "01:56 PM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia strikes Kyiv; ceasefire in Kherson; Nordic leaders urge end to war.",
-    "emojis": "💥🚀⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Kyiv",
-      "Melania Trump",
-      "Pope Leo",
-      "Nordic leaders"
-    ],
-    "source_count": 25,
-    "timestamp": "01:56 PM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Omani FM proposes Middle East non-aggression pact at UK meeting.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Omani FM",
-      "UK"
-    ],
-    "source_count": 1,
-    "timestamp": "01:56 PM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "18,000 Iranian containers stranded in Pakistan.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Iran",
-      "Pakistan"
-    ],
-    "source_count": 1,
-    "timestamp": "01:56 PM"
+    "source_count": 10,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "FBI raids Swalwell home over sexual misconduct allegations.",
+    "summary": "Meta and Snap to face jury trial in social media harms case.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "FBI",
-      "Eric Swalwell"
+      "Meta",
+      "Snap"
     ],
     "source_count": 1,
-    "timestamp": "01:56 PM"
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "Hunting shares drop 11% due to weaker regional activity.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Hunting",
+      "Jefferies"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli attack wounds two in southern Gaza during election count.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israel",
+      "Gaza"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
   }
 ];
 

@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 28, 2026** | [IRAN'S WAR BUDGET SURPASSES $47 BILLION AS REGIONAL TENSIONS ESCALATE](/archive/predictive/2026-10-28-irans-war-budget-surpasses-47) | Iran's war spending surpasses $47 billion as regional tensions escalate, coinciding with Russia's focus on African re... |
 | **Oct 27, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-10-27-lowcarbon-volcanic-rock-cement-ai) | Iran's nuclear inspections demand heightens regional tensions, driving gas prices upward and reshaping Middle Eastern... |
 | **Oct 27, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-27-strait-of-hormuz-flow-discrepancies) | Tensions escalate in Iran, Russia, and Israel, while China debates nationalism and Europe grapples with US-Russia rel... |
 | **Oct 26, 2026** | [US, China, India, Russia Clash in Global Power Shift](/archive/predictive/2026-10-26-us-china-india-russia-clash) | US-China tech tensions, coupled with India's pivot away from Russian oil and Russia's escalating conflict with Ukrain... |
