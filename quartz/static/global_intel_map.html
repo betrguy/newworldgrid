@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-28 08:01 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-10-29 08:01 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,120 +52,131 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran war spending exceeds $47 billion; security talks hailed, filmmaker faces prison.",
-    "emojis": "⚔️",
+    "summary": "Iran reports mine strikes on oil tankers; U.S. sanctions affect proxy funding.",
+    "emojis": "💥🚫",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "Trump",
-      "Panahi"
+      "U.S."
     ],
-    "source_count": 40,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Jordan, Syria form panel; Israel election uncertain amid regional tensions.",
-    "emojis": "💥⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Jordan",
-      "Syria",
-      "Israel"
-    ],
-    "source_count": 21,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine and Russia extend ceasefire; drones harass trains.",
-    "emojis": "✈️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 7,
+    "source_count": 29,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Real Madrid, China Pacific Insurance, and other entities respond to geopolitical and economic issues.",
-    "emojis": "🪖",
+    "summary": "China faces trade tensions, purges, and solar industry updates.",
+    "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Real Madrid",
-      "China Pacific Insurance",
-      "China"
+      "China",
+      "EU",
+      "Xi",
+      "Japan"
     ],
-    "source_count": 40,
+    "source_count": 37,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russian-African relations in focus amid geopolitical tensions.",
-    "emojis": "⚡",
+    "summary": "Russia-North Korea concerns prompt Germany-South Korea security partnership; Putin engages African leaders.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "Germany",
+      "South Korea",
       "Russia",
-      "African countries",
-      "Norway",
-      "Finland",
-      "Philippines",
-      "Saudi Arabia",
+      "African leaders",
+      "Putin"
+    ],
+    "source_count": 33,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian drone strike kills 13 at Dnipro train station; aid mission pending.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
       "Ukraine"
     ],
-    "source_count": 10,
+    "source_count": 30,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces election deadlock and probes of foreign interference, amid economic growth.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Qatar",
+      "Turkey"
+    ],
+    "source_count": 12,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Alaska governor investigates Democratic campaign’s ties to rival candidate.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Alaska governor",
+      "Democratic campaign"
+    ],
+    "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: US-CA",
-    "summary": "Meta and Snap to face jury trial in social media harms case.",
+    "summary": "Highest electric-vehicle ownership rate in US-CA county.",
     "emojis": "",
     "lat": 34.05,
     "lng": -118.24,
     "location": "US-CA",
     "actors": [
-      "Meta",
-      "Snap"
+      "California county"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "Hunting shares drop 11% due to weaker regional activity.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Hunting",
-      "Jefferies"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli attack wounds two in southern Gaza during election count.",
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan's DPP warns of Chinese election interference.",
     "emojis": "⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
     "actors": [
-      "Israel",
-      "Gaza"
+      "Taiwan's DPP",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Cape Canaveral rockets launching at record pace, outstripping global competitors.",
+    "emojis": "🚀⚔️",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "Cape Canaveral",
+      "US space agency"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"

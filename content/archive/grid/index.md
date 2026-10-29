@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 29, 2026** | [CHINA SURPASSES 2 TW IN WIND & SOLAR POWER CAPACITY](/archive/grid/2026-10-29-china-surpasses-2-tw-in) | China’s wind and solar power capacity has surpassed 2 terawatts, marking a significant milestone in renewable energy ... |
 | **Oct 28, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-28-lowcarbon-volcanic-rock-cement-ai) | Prototype systems for rapidly refreshing cryptographic keys are enhancing the security of military satellite communic... |
 | **Oct 27, 2026** | [US Gas Prices Soar Amid Iran Tensions, Straining Grid Stability](/archive/grid/2026-10-27-us-gas-prices-soar-amid) | Record gas price hikes in the U.S. underscore the vulnerability of the grid to external geopolitical tensions, partic... |
 | **Oct 27, 2026** | [Radio Waves Unlock Fusion Plasma Current, Paving Path to Continuous Reactor Operation](/archive/grid/2026-10-27-radio-waves-unlock-fusion-plasma) | Radio waves have been successfully used to drive a fusion plasma current, potentially enabling continuous reactor ope... |

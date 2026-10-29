@@ -1,35 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Low-Carbon Volcanic Rock Cement & AI Model Optimization. Prototype systems for rapidly refreshing cryptographic keys are enhancing the sec..."
+description: "State of the Grid: CHINA SURPASSES 2 TW IN WIND & SOLAR POWER CAPACITY. China’s wind and solar power capacity has surpassed 2 terawatts, marking a significan..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">October 28, 2026 - 08:01</span>
+  <span class="sotg-timestamp">October 29, 2026 - 08:01</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Prototype systems are enhancing military satellite communications and radiation-resistant microchips are accelerating, bolstering secure and resilient grid infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+China's significant expansion of wind and solar power capacity to over 2 TW underscores a major shift towards renewable energy sources, bolstering global grid security and sustainability. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Prototype systems for rapidly refreshing cryptographic keys are enhancing the security of military satellite communications, ensuring robust data integrity and confidentiality during critical operations. This advancement underscores the growing emphasis on protecting critical infrastructure from cyber threats, especially as geopolitical tensions rise. The U.S. Air Force, Navy, and Army are integrating these systems to safeguard real-time mission-critical data, reinforcing the grid's resilience against potential disruptions.</p>
+<p class="meridian-lede">China’s wind and solar power capacity has surpassed 2 terawatts, marking a significant milestone in renewable energy deployment. This expansion underscores the global shift towards sustainable energy sources and reduces dependency on fossil fuels. The increase in renewable capacity not only enhances grid stability but also improves overall grid resilience against physical and cyber threats.</p>
 
-The agreement between Japan and the U.S. to boost deterrence amid China's growing influence signals a heightened focus on regional security. This cooperation is likely to include enhanced monitoring and protection of shared infrastructure, including the U.S. grid, to mitigate the risks of cyber and physical attacks. The development of radiation-resistant microchips for satellites and nuclear reactors is crucial for maintaining the integrity of these systems in harsh environments, ensuring that critical services remain operational even under extreme conditions.
+Geopolitical tensions continue to impact grid security, as Russian attacks have caused new power outages in three Ukrainian oblasts. These outages highlight the vulnerability of grid infrastructure to both physical and cyber attacks. The situation underscores the need for robust security measures and the integration of advanced technologies, such as radiation-resistant microchips, to protect critical infrastructure.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Enhancing cryptographic security in military communications strengthens overall national security.</li>
-  <li><strong>The big picture:</strong> This advancement in cybersecurity is part of a broader strategy to protect critical infrastructure amid rising geopolitical tensions.</li>
-  <li><strong>What to watch:</strong> Monitoring the integration of radiation-resistant microchips in both satellites and nuclear reactors for improved resilience.</li>
+  <li><strong>Why it matters:</strong> China’s renewable energy expansion reduces fossil fuel dependency and enhances grid resilience.</li>
+  <li><strong>The big picture:</strong> This shift strengthens China’s geopolitical influence and sets a precedent for global energy security.</li>
+  <li><strong>What to watch:</strong> Monitoring the integration of radiation-resistant microchips in grid security systems.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 2.3, with a 24-hour average of 1.72 and a peak of 2.3, indicating a Quiet condition. During Quiet conditions, satellite operations and HF radio communications remain stable, and power grid stability is high with minimal risk of geomagnetically induced currents.
+The current 24-hour geomagnetic condition is Quiet, with a peak Kp index of 2.3, an average of 1.78, and a current Kp value of 0.7. During Quiet conditions, satellite operations and power grid stability are unaffected, though HF radio communications may experience minor interference.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -43,6 +43,13 @@ The current Kp index is 2.3, with a 24-hour average of 1.72 and a peak of 2.3, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 28, 2026</span>
+        <a href="/archive/grid/2026-10-28-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
+      </div>
+      <div class="archive-preview">Prototype systems are enhancing military satellite communications and radiation-resistant microchips are accelerating, bolstering secure...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 27, 2026</span>
@@ -119,13 +126,6 @@ The current Kp index is 2.3, with a 24-hour average of 1.72 and a peak of 2.3, i
         <a href="/archive/grid/2026-10-15-russias-diesel-deal-signals-economic" class="archive-link">RUSSIA'S DIESEL DEAL SIGNALS ECONOMIC SUPPORT AS GLOBAL ENERGY MARKETS SHIFTS</a>
       </div>
       <div class="archive-preview">Global energy markets continue to shift, with Russia's diesel deal signaling economic support, while geopolitical tensions and Iran's...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 13, 2026</span>
-        <a href="/archive/grid/2026-10-13-irans-nuclear-fortifications-strain-regional" class="archive-link">IRAN'S NUCLEAR FORTIFICATIONS STRAIN REGIONAL GRID STABILITY</a>
-      </div>
-      <div class="archive-preview">Iran's reported fortification of nuclear sites in anticipation of potential U.S. strikes highlights the ongoing geopolitical tensions...</div>
     </div>
   </div>
 </div>

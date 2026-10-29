@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 29, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-29-usiran-gulf-maritime-escalation-strategic) | Russian drone strike in Dnipro prompts heightened tensions and challenges aid missions in Ukraine. |
 | **Oct 28, 2026** | [IRAN'S WAR BUDGET SURPASSES $47 BILLION AS REGIONAL TENSIONS ESCALATE](/archive/predictive/2026-10-28-irans-war-budget-surpasses-47) | Iran's war spending surpasses $47 billion as regional tensions escalate, coinciding with Russia's focus on African re... |
 | **Oct 27, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-10-27-lowcarbon-volcanic-rock-cement-ai) | Iran's nuclear inspections demand heightens regional tensions, driving gas prices upward and reshaping Middle Eastern... |
 | **Oct 27, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-27-strait-of-hormuz-flow-discrepancies) | Tensions escalate in Iran, Russia, and Israel, while China debates nationalism and Europe grapples with US-Russia rel... |
@@ -27,7 +28,6 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 | **Oct 16, 2026** | [MIDDLE EAST TENSIONS FLARE AS ASIA SEA CONFLICTS ESCALATE](/archive/predictive/2026-10-16-middle-east-tensions-flare-as) | Escalating tensions in the Middle East threaten regional stability, while increased maritime monitoring in East Asia ... |
 | **Oct 14, 2026** | [RUSSIA, UKRAINE, US, CHINA & FIJI TEETER ON BRINK OF GLOBAL CONFLICT](/archive/predictive/2026-10-14-russia-ukraine-us-china-fiji) | A Russian journalist's detention on espionage charges sparks diplomatic tension between Russia and Japan, while Ukrai... |
 | **Oct 12, 2026** | [A significant geopolitical shift is observed & Russia faces international...](/archive/predictive/2026-10-12-a-significant-geopolitical-shift-is) | A significant geopolitical shift is observed as Russia faces international warnings and accusations of interference, ... |
-| **Oct 11, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-11-usiran-gulf-maritime-escalation-strategic) | A recent escalation in Middle Eastern tensions is marked by Israel's electoral debate influenced by a hijacking incid... |
 | **Oct 09, 2026** | [Global Tensions Escalate Amid US-China Diplomacy & Russian Aggression](/archive/predictive/2026-10-09-global-tensions-escalate-amid-uschina) | A series of escalating geopolitical tensions and conflicts are unfolding, marked by intensified anti-Israel protests,... |
 | **Oct 08, 2026** | [REGIONAL ACTORS EMERGE AS GLOBAL POWER PLAYERS](/archive/predictive/2026-10-08-regional-actors-emerge-as-global) | Global power dynamics shift as regional actors leverage influence. |
 | **Oct 08, 2026** | [REGIONAL ACTORS SEIZE GLOBAL STAGE AS MAJOR POWERS WEAKEN](/archive/predictive/2026-10-08-regional-actors-seize-global-stage) | Global power dynamics shift as regional actors leverage influence. |
