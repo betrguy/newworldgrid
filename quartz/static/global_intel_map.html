@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-29 08:01 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-10-30 08:01 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,131 +52,145 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran reports mine strikes on oil tankers; U.S. sanctions affect proxy funding.",
-    "emojis": "💥🚫",
+    "summary": "Iran tensions escalate with U.S. and Europe amid tanker incidents and diplomatic disputes.",
+    "emojis": "⚔️🕊️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "U.S."
+      "U.S.",
+      "Europe"
     ],
-    "source_count": 29,
+    "source_count": 25,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China faces trade tensions, purges, and solar industry updates.",
-    "emojis": "⚡",
+    "summary": "Chinese officials engage globally, from Oman visit to U.S. tech concerns.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "EU",
-      "Xi",
-      "Japan"
+      "Oman",
+      "U.S."
     ],
-    "source_count": 37,
+    "source_count": 40,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia-North Korea concerns prompt Germany-South Korea security partnership; Putin engages African leaders.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel's election yields no clear winner; negotiations ahead.",
+    "emojis": "🚫",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Germany",
-      "South Korea",
-      "Russia",
-      "African leaders",
-      "Putin"
+      "Netanyahu",
+      "Opposition"
     ],
-    "source_count": 33,
+    "source_count": 15,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian drone strike kills 13 at Dnipro train station; aid mission pending.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Ukraine faces Russian aggression; evacuation and aid operations underway; US urges truce.",
+    "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
-      "Ukraine"
+      "Ukraine",
+      "US",
+      "Melania Trump"
     ],
-    "source_count": 30,
+    "source_count": 19,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces election deadlock and probes of foreign interference, amid economic growth.",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces ship repairs issues, closes media, pushes nuclear deals, and faces U.S. satellite concerns.",
+    "emojis": "🚢⚔️☢️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Israel",
-      "Qatar",
-      "Turkey"
+      "Russia",
+      "U.S.",
+      "Pentagon",
+      "Novaya Gazeta"
     ],
-    "source_count": 12,
+    "source_count": 19,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Alaska governor investigates Democratic campaign’s ties to rival candidate.",
+    "title": "SITREP: INDIA",
+    "summary": "Two protests threaten India's geopolitical stability.",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Alaska governor",
-      "Democratic campaign"
+      "Protesters",
+      "Indian Government"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "Highest electric-vehicle ownership rate in US-CA county.",
+    "title": "SITREP: US-GA",
+    "summary": "Op-ed discusses Americans' perceptions of Chinese cars.",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
     "actors": [
-      "California county"
+      "The Atlanta Journal-Constitution"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan's DPP warns of Chinese election interference.",
-    "emojis": "⚔️",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: YEMEN",
+    "summary": "Yemen army investigates Houthi use of toxic gases in Taiz; governor claims city is being reverted to stone age.",
+    "emojis": "",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Taiwan's DPP",
-      "China"
+      "Yemen army",
+      "Houthis"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "TRM links North Korea to $6.3B Binance hack.",
+    "emojis": "",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "TRM",
+      "North Korea"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "Cape Canaveral rockets launching at record pace, outstripping global competitors.",
-    "emojis": "🚀⚔️",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "title": "SITREP: IRAQ",
+    "summary": "Drought and oil expansion threaten livelihoods in Iraq's Hawizeh Marshes.",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Cape Canaveral",
-      "US space agency"
+      "Drought",
+      "Oil Expansion"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
