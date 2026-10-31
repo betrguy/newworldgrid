@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Iran tensions with the U.S. and Europe intensify over tanker incidents and dip..."
+description: "Predictive News: NORTH KOREA'S CYBER HEIST SPARKS GLOBAL FINANCIAL ALERTS. North Korea's cyber heist highlights the evolving threat landscape in global finan..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">October 30, 2026 — 08:01</span>
+  <span class="sotg-timestamp">October 31, 2026 — 08:01</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Iran tensions with the U.S. and Europe intensify over tanker incidents and diplomatic spats, while Russia faces domestic challenges including media restrictions and international disputes over nuclear deals. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+North Korea's cyber heist highlights the evolving threat landscape in global financial security. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,24 +26,26 @@ Iran tensions with the U.S. and Europe intensify over tanker incidents and diplo
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Oct 30, 2026
+## Daily Intelligence Brief - Oct 31, 2026
 
-Europe's economy has shown moderate growth in Q3, brushing off the energy shock from the Iran war. This resilience suggests a gradual recovery and potential stabilization in the region, though underlying tensions remain.
+China is investigating possible corruption by former Sinopec chief Fu Chengyu. This move highlights ongoing internal power struggles within China.
 
-Oman's sultan is set to visit China, a move signaling strengthened ties and potential economic cooperation between the two nations. This visit could indicate growing regional alliances as countries seek alternative partners.
+Qatar mediators have returned to Tehran, while JD Vance leads a U.S. delegation to Islamabad to discuss Iran over Lebanon and sanctions. These diplomatic maneuvers suggest U.S. efforts to engage with Iran, potentially through backchannels.
 
-In Israel, Benjamin Netanyahu's unexpected victory in the election has shifted the political landscape, though ongoing investigations into bribery may have limited impact. The outcome could reshape domestic policies and regional diplomacy.
+Ukrainians evacuated from Russian-occupied Oleshky have arrived in Belarus. This indicates continued conflict and ceasefire agreements in eastern Ukraine.
 
-Ukraine faces renewed threats as Russian strikes plunge a city into a blackout, with Zelenskyy warning of further missile attacks. This escalation highlights the ongoing conflict's volatility and the potential for wider regional destabilization.
+North Korea has perfected a significant crypto heist, showcasing its cyber capabilities and financial influence. 
 
-Russia's return to the ice hockey world championships after a sports court ruling underscores the country's efforts to maintain a presence in international sporting events, despite sanctions.
+In the U.S., Donald Trump's softer China stance during a Senate race in Michigan suggests a shift in political strategy and priorities.
 
-Oil prices jumped more than 2% due to fears of renewed Middle Eastern supply disruptions, triggered by a tanker attack in the Strait of Hormuz. This spike in prices reflects continued concerns over energy security in the region.
+Iran's Supreme Leader Khamenei met with military brass as the U.S. reportedly plots post-midterm strikes. This underscores tensions between the U.S. and Iran.
+
+In Israel, prominent politicians are left out of the Knesset, signaling changes in political dynamics and representation.
 
 Watch for:  
-- Diplomatic developments between Oman and China  
-- Netanyahu's policy initiatives and their impact on Israel's political environment  
-- Escalation in the conflict between Ukraine and Russia, particularly in terms of missile attacks and energy infrastructure disruptions
+- Further developments in the U.S.-Iran negotiations and potential diplomatic breakthroughs.  
+- Increased cyber attacks attributed to North Korea as it continues to exploit its financial gains.  
+- Changes in the composition and influence of political parties in the Israeli Knesset post-election.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -57,6 +59,13 @@ Watch for:
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Oct 30, 2026</span>
+        <a href="/archive/predictive/2026-10-30-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
+      </div>
+      <div class="archive-preview">Iran tensions with the U.S. and Europe intensify over tanker incidents and diplomatic spats, while Russia faces domestic challenges...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Oct 29, 2026</span>
@@ -133,13 +142,6 @@ Watch for:
         <a href="/archive/predictive/2026-10-16-middle-east-tensions-flare-as" class="archive-link">MIDDLE EAST TENSIONS FLARE AS ASIA SEA CONFLICTS ESCALATE</a>
       </div>
       <div class="archive-preview">Escalating tensions in the Middle East threaten regional stability, while increased maritime monitoring in East Asia signals a potential...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 14, 2026</span>
-        <a href="/archive/predictive/2026-10-14-russia-ukraine-us-china-fiji" class="archive-link">RUSSIA, UKRAINE, US, CHINA & FIJI TEETER ON BRINK OF GLOBAL CONFLICT</a>
-      </div>
-      <div class="archive-preview">A Russian journalist's detention on espionage charges sparks diplomatic tension between Russia and Japan, while Ukraine faces energy...</div>
     </div>
   </div>
 </div>

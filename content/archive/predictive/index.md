@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Oct 31, 2026** | [NORTH KOREA'S CYBER HEIST SPARKS GLOBAL FINANCIAL ALERTS](/archive/predictive/2026-10-31-north-koreas-cyber-heist-sparks) | North Korea's cyber heist highlights the evolving threat landscape in global financial security. |
 | **Oct 30, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-10-30-strait-of-hormuz-flow-discrepancies) | Iran tensions with the U.S. and Europe intensify over tanker incidents and diplomatic spats, while Russia faces domes... |
 | **Oct 29, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-10-29-usiran-gulf-maritime-escalation-strategic) | Russian drone strike in Dnipro prompts heightened tensions and challenges aid missions in Ukraine. |
 | **Oct 28, 2026** | [IRAN'S WAR BUDGET SURPASSES $47 BILLION AS REGIONAL TENSIONS ESCALATE](/archive/predictive/2026-10-28-irans-war-budget-surpasses-47) | Iran's war spending surpasses $47 billion as regional tensions escalate, coinciding with Russia's focus on African re... |

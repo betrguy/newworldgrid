@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-10-30 08:01 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-10-31 08:01 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,148 +51,167 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran tensions escalate with U.S. and Europe amid tanker incidents and diplomatic disputes.",
-    "emojis": "⚔️🕊️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "U.S.",
-      "Europe"
-    ],
-    "source_count": 25,
-    "timestamp": "08:01 AM"
-  },
-  {
     "title": "SITREP: CHINA",
-    "summary": "Chinese officials engage globally, from Oman visit to U.S. tech concerns.",
-    "emojis": "",
+    "summary": "China investigates corruption, tests AI, and extends currency swap.",
+    "emojis": "🚢",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Oman",
-      "U.S."
+      "Fu Chengyu"
     ],
-    "source_count": 40,
+    "source_count": 43,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel's election yields no clear winner; negotiations ahead.",
-    "emojis": "🚫",
+    "summary": "Israeli political landscape shifts with new entrants and economic concerns.",
+    "emojis": "💥",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Netanyahu",
-      "Opposition"
+      "High profile names",
+      "Pro-Palestinian group",
+      "Houthi",
+      "Medici"
     ],
-    "source_count": 15,
+    "source_count": 16,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Qatar mediators and US delegation engage Iran amid military tensions and threats.",
+    "emojis": "🪖💥🚫",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Qatar",
+      "US",
+      "Iran"
+    ],
+    "source_count": 45,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "North Korea hackers executed the world's biggest crypto heist, showcasing their growing cyber capabilities.",
+    "emojis": "⚔️",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "North Korea"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Meta settles, Snap faces trial; Chinese nationals sentenced; CA family frustrated by high power bills.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Meta",
+      "Snap",
+      "Chinese nationals",
+      "CA family"
+    ],
+    "source_count": 3,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces multiple challenges including prolonged diesel export limits, draft fears, drone attacks, and diplomatic tensions.",
+    "emojis": "✈️⚔️⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Ukraine",
+      "Japan",
+      "United States",
+      "China"
+    ],
+    "source_count": 12,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Lebanon charges 13 over Hezbollah explosives seizure.",
+    "emojis": "",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Lebanon",
+      "Hezbollah"
+    ],
+    "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine faces Russian aggression; evacuation and aid operations underway; US urges truce.",
-    "emojis": "⚔️",
+    "summary": "Record Russian losses, US missile sale to Ukraine, war impacts Black Sea.",
+    "emojis": "🚢🚀⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Russia",
       "Ukraine",
-      "US",
-      "Melania Trump"
+      "US"
     ],
-    "source_count": 19,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces ship repairs issues, closes media, pushes nuclear deals, and faces U.S. satellite concerns.",
-    "emojis": "🚢⚔️☢️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "U.S.",
-      "Pentagon",
-      "Novaya Gazeta"
-    ],
-    "source_count": 19,
+    "source_count": 5,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Two protests threaten India's geopolitical stability.",
+    "summary": "Amazon and Tata Motors to deploy 3,000 electric trucks in India.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Protesters",
-      "Indian Government"
+      "Amazon",
+      "Tata Motors"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-GA",
-    "summary": "Op-ed discusses Americans' perceptions of Chinese cars.",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
+    "title": "SITREP: GAZA",
+    "summary": "Israeli strike on Gaza's Nuseirat camp kills Palestinian, injures one who later dies.",
+    "emojis": "💥",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "The Atlanta Journal-Constitution"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Yemen army investigates Houthi use of toxic gases in Taiz; governor claims city is being reverted to stone age.",
-    "emojis": "",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Yemen army",
-      "Houthis"
+      "Israel",
+      "Palestinian"
     ],
     "source_count": 2,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "TRM links North Korea to $6.3B Binance hack.",
-    "emojis": "",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi-led forces intercept Houthi drone, discuss Hormuz, Yemen with Russia.",
+    "emojis": "✈️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "TRM",
-      "North Korea"
+      "Saudi-led coalition",
+      "Houthi",
+      "Saudi foreign minister",
+      "Russian foreign minister"
     ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "Drought and oil expansion threaten livelihoods in Iraq's Hawizeh Marshes.",
-    "emojis": "",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "Drought",
-      "Oil Expansion"
-    ],
-    "source_count": 1,
+    "source_count": 2,
     "timestamp": "08:01 AM"
   }
 ];
