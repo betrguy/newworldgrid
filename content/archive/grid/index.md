@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 01, 2026** | [CHINA'S MARITIME PATROLS Threaten Global Energy Supply Chains](/archive/grid/2026-11-01-chinas-maritime-patrols-threaten-global) | Geopolitical tensions continue to rise, with China's increased maritime patrols off the coast of Taiwan, potentially ... |
 | **Oct 31, 2026** | [MOON NUCLEAR RACE HEATS UP AS US, RUSSIA, CHINA VYE FOR LUNAR ENERGY DOMINANCE](/archive/grid/2026-10-31-moon-nuclear-race-heats-up) | The United States and Iran are engaging in talks on Lebanon and sanctions, signaling potential geopolitical shifts th... |
 | **Oct 30, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-30-lowcarbon-volcanic-rock-cement-ai) | Russian satellite developments and potential nuclear threats underscore the evolving geopolitical landscape, which po... |
 | **Oct 29, 2026** | [CHINA SURPASSES 2 TW IN WIND & SOLAR POWER CAPACITY](/archive/grid/2026-10-29-china-surpasses-2-tw-in) | China’s wind and solar power capacity has surpassed 2 terawatts, marking a significant milestone in renewable energy ... |
