@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-01 08:01 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-11-02 08:02 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,151 +51,160 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: US-FL",
-    "summary": "Florida Republicans wary of midterm turnout challenges.",
-    "emojis": "⚔️",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "Florida Republicans"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces crypto crackdown, boosts EV exports, tightens Party discipline.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "BYD",
-      "Communist Party"
-    ],
-    "source_count": 23,
-    "timestamp": "08:01 AM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "Iran and Qatar continue talks, while Iran warns against US strikes.",
-    "emojis": "💥⚔️",
+    "summary": "Iran warns of war if U.S. pursues threats; Gulf states brace for potential attacks.",
+    "emojis": "⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "Qatar",
-      "US"
+      "U.S.",
+      "Gulf states"
     ],
-    "source_count": 35,
+    "source_count": 42,
     "timestamp": "08:01 AM"
   },
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Cyberattacks hit emergency alert apps in Ukraine and Russia; Russia targets energy sites.",
+    "emojis": "⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 30,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Oman and China sign multibillion-dollar trade and investment deals.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Oman",
+      "China"
+    ],
+    "source_count": 26,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia resumes Kherson strikes, exports rise, Poland strengthens border defense.",
+    "emojis": "✈️💥",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Poland"
+    ],
+    "source_count": 13,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "UCS urges new CA governor to intensify electric vehicle and zero-emission freight policies.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "UCS",
+      "California's next governor"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Jordan's king criticizes Israel, Israel signs defense deal, political deadlock continues.",
+    "emojis": "💣",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Jordan's king",
+      "Israel",
+      "Elbit Systems"
+    ],
+    "source_count": 12,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Syria considers joining Saudi-Turkey-Pakistan pact for regional security.",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Syria",
+      "Saudi Arabia",
+      "Turkey",
+      "Pakistan"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: PAKISTAN",
+    "summary": "Pakistan rejects use of water as geopolitical tool.",
+    "emojis": "",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
+    "actors": [
+      "Pakistan"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
     "title": "SITREP: INDIA",
-    "summary": "Tata Punch EV sets sales record; JSW MG Motor sees growth.",
+    "summary": "Tata Motors' EV sales surge 75%, signaling a shift in India’s electric car market.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Tata Motors",
-      "JSW MG Motor"
+      "Tata Motors"
     ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
+    "source_count": 1,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Arrests, political tensions, and security concerns in Israel.",
-    "emojis": "⚔️⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Police",
-      "Rahat residents",
-      "Benjamin Netanyahu allies",
-      "Donald Trump",
-      "Isaac Herzog",
-      "Gadi Eisenkot"
-    ],
-    "source_count": 29,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-GA",
-    "summary": "Trump faces setbacks in Georgia election probes ahead of midterms.",
+    "title": "SITREP: IRAQ",
+    "summary": "Kurdish Peshmerga control northern Iraq, with Turkish and Syrian involvement.",
     "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Trump",
-      "Georgia"
+      "Kurdish Peshmerga",
+      "Turkey",
+      "Syria"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Pope hopes Oleshky ceasefire may lead to peace talks; Russia continues attacks.",
-    "emojis": "💥⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: US-TX",
+    "summary": "ST LNG targets 2027 FID for Texas port development.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
-      "Pope Leo",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 27,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strikes in Gaza kill at least one child; Qataris report Gulf incident.",
-    "emojis": "💥💀",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israel",
-      "Qatar"
-    ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "US warns Russia over plots; Russia attacks Ukraine; nuclear deal with Ghana.",
-    "emojis": "✈️⚔️☢️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "US",
-      "Russia",
-      "Ghana"
-    ],
-    "source_count": 7,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Iran approved attack on Pakistan LNG cargo near Hormuz.",
-    "emojis": "⚔️",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
-    "actors": [
-      "Pakistan",
-      "Iran"
+      "ST LNG"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   }
 ];
 
