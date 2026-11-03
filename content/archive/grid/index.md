@@ -14,7 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Nov 02, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-11-02-strait-of-hormuz-flow-discrepancies) | The powerful El Niño weather pattern poses significant challenges to the U.S. power grid, particularly with the incre... |
+| **Nov 03, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-11-03-strait-of-hormuz-flow-discrepancies) | The U.S. strikes on Iranian targets in the Strait of Hormuz underscore the ongoing geopolitical tensions that threate... |
 | **Nov 01, 2026** | [CHINA'S MARITIME PATROLS Threaten Global Energy Supply Chains](/archive/grid/2026-11-01-chinas-maritime-patrols-threaten-global) | Geopolitical tensions continue to rise, with China's increased maritime patrols off the coast of Taiwan, potentially ... |
 | **Oct 31, 2026** | [MOON NUCLEAR RACE HEATS UP AS US, RUSSIA, CHINA VYE FOR LUNAR ENERGY DOMINANCE](/archive/grid/2026-10-31-moon-nuclear-race-heats-up) | The United States and Iran are engaging in talks on Lebanon and sanctions, signaling potential geopolitical shifts th... |
 | **Oct 30, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-10-30-lowcarbon-volcanic-rock-cement-ai) | Russian satellite developments and potential nuclear threats underscore the evolving geopolitical landscape, which po... |
