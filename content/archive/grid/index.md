@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 06, 2026** | [MIDDLE EAST TENSIONS SPILL OVER INTO GLOBAL ENERGY MARKETS](/archive/grid/2026-11-06-middle-east-tensions-spill-over) | Geopolitical tensions in the Middle East, as evidenced by increased tanker attacks and rising oil exports, could disr... |
 | **Nov 06, 2026** | [MIDDLE EAST TANKER ATTACKS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-11-06-middle-east-tanker-attacks-spark) | The Middle East's increased oil exports and rising tanker attacks indicate escalating geopolitical tensions, which co... |
 | **Nov 06, 2026** | [AI-driven cyber threats are rapidly evolving & Posing a significant risk...](/archive/grid/2026-11-06-aidriven-cyber-threats-are-rapidly) | The Middle East's increased oil exports and rising tanker attacks underscore heightened geopolitical tensions, which ... |
 | **Nov 05, 2026** | [Iran Seeks Nuclear Deal Amid Shifts In Global Energy Landscape](/archive/grid/2026-11-05-iran-seeks-nuclear-deal-amid) | Iran's nuclear proposal to the U.S. via Qatar signals a potential shift in regional dynamics, which could influence g... |
