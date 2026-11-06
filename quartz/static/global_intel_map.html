@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-03 08:02 UTC | 13 active regions</div>
+        <div class="meta">Generated 2026-11-05 19:18 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">13 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,190 +52,139 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Netanyahu extends peace offers, faces unity government challenges amid settler violence and rocket investigations.",
-    "emojis": "🚀🕊️",
+    "summary": "Israel faces political transition amid U.S. midterms and high-stakes alliances.",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
+      "Eisenkot",
       "Netanyahu",
-      "Unity Government",
-      "Settlers",
-      "Israeli Authorities"
+      "Herzog",
+      "Trump",
+      "Blair"
     ],
-    "source_count": 23,
-    "timestamp": "08:01 AM"
+    "source_count": 26,
+    "timestamp": "07:17 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China's strategic moves in rare earths, technology, culture, and military cooperation highlighted.",
-    "emojis": "🪖",
+    "summary": "China blocks SoftBank deal, meets North Korea, tensions persist with Japan.",
+    "emojis": "⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Indonesia",
       "China",
-      "Hygreen",
-      "Elcogen",
-      "Russia",
-      "U.S."
+      "SoftBank",
+      "North Korea",
+      "Japan"
     ],
-    "source_count": 35,
-    "timestamp": "08:01 AM"
+    "source_count": 19,
+    "timestamp": "07:18 PM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran facing economic strain, closer ties with Russia amid regional tensions.",
-    "emojis": "✈️⚔️⚡",
+    "summary": "Iran sends nuclear proposal to U.S., Trump weighs next move post-election.",
+    "emojis": "⚔️☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "Russia"
+      "U.S.",
+      "Trump"
     ],
-    "source_count": 26,
-    "timestamp": "08:01 AM"
+    "source_count": 43,
+    "timestamp": "07:18 PM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian missile and drone attacks in Ukraine injure 158, hit hospitals in Dnipro and Kharkiv.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Ukraine and Russia continue airstrikes; US Democrats win landslide; Trump meets Putin envoy.",
+    "emojis": "💥",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "Ukraine",
       "Russia",
-      "Ukraine"
+      "US Democrats",
+      "Trump",
+      "Putin"
     ],
-    "source_count": 18,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "Envoy launches EV car-sharing in Florida; jet crash victims named.",
-    "emojis": "✈️",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
-    "actors": [
-      "Envoy Technologies",
-      "Jet crash victims"
-    ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli forces kill 19 Palestinians in Gaza attacks, spark displacement fears.",
-    "emojis": "💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli forces",
-      "Palestinians"
-    ],
-    "source_count": 4,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: VENEZUELA",
-    "summary": "US urges Venezuela to release political prisoners, seeks free elections.",
-    "emojis": "",
-    "lat": 6.4,
-    "lng": -66.5,
-    "location": "VENEZUELA",
-    "actors": [
-      "US",
-      "Venezuela"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
+    "source_count": 26,
+    "timestamp": "07:18 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Multiple nations threaten to boycott Russia in various sports and activities.",
+    "summary": "Trump discusses potential deals with Putin envoy; Russia stocks rise.",
     "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
-      "Nations"
+      "Trump",
+      "Putin"
     ],
-    "source_count": 14,
-    "timestamp": "08:01 AM"
+    "source_count": 9,
+    "timestamp": "07:18 PM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "France and UK consider nuclear options amid geopolitical tensions.",
-    "emojis": "☢️⚡",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "France",
-      "UK"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-GA",
-    "summary": "29 dead, 48 missing in Russian strike on Ukrainian aid site.",
-    "emojis": "💥",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
-    "actors": [
-      "Russian",
-      "Ukrainian"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Honda ALPHA Electric SUV unveiled in India on December 2, 2026.",
+    "title": "SITREP: US-CA",
+    "summary": "California Governor commutes sentences for 548 death row inmates.",
     "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "Honda",
-      "Autopunditz"
+      "California Governor",
+      "548 death row inmates"
     ],
-    "source_count": 1,
-    "timestamp": "08:02 AM"
+    "source_count": 2,
+    "timestamp": "07:18 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Pentagon's former top military planner faces federal investigation.",
-    "emojis": "🪖",
+    "summary": "First Lady meets Russian and Ukrainian officials, sees Oleshky ceasefire as hopeful.",
+    "emojis": "🕊️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Pentagon's former top military planner"
+      "First Lady",
+      "Russian officials",
+      "Ukrainian officials"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "07:18 PM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli air strikes hit Lebanon's Nabatieh, Tyre districts.",
+    "emojis": "💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israel",
+      "Lebanon"
+    ],
+    "source_count": 1,
+    "timestamp": "07:18 PM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "The New York Times discusses Israel's democratic test on Arab government inclusion.",
+    "summary": "Bloody fight breaks out over line-cutting in crowded tourist spot.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "The New York Times",
-      "Israel"
+      "fight participants",
+      "tourists"
     ],
-    "source_count": 2,
-    "timestamp": "08:02 AM"
+    "source_count": 1,
+    "timestamp": "07:18 PM"
   }
 ];
 

@@ -1,35 +1,33 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: US-Iran Escalation Threatens Global Energy Stability. Geopolitical tensions are escalating, with the U.S. launching new strikes on Iran, w..."
+description: "State of the Grid: Iran Seeks Nuclear Deal Amid Shifts In Global Energy Landscape. Iran's nuclear proposal to the U.S. via Qatar signals a potential shift in..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 05, 2026 - 19:07</span>
+  <span class="sotg-timestamp">November 05, 2026 - 19:17</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Growing tensions in the Middle East, particularly Iran's nuclear ambitions and U.S. military posturing, could significantly impact regional power markets and geopolitical stability. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Iran's nuclear proposal to the U.S. and Petrovietnam's shift towards LNG, wind, and nuclear power highlight significant changes in global energy strategies. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Geopolitical tensions are escalating, with the U.S. launching new strikes on Iran, which could disrupt energy supply routes and increase volatility in oil markets. These actions underscore the growing risk to grid resilience, particularly for regions heavily dependent on imported energy. The U.S. and its allies must ensure that critical energy assets are protected from both physical and cyber threats, while also maintaining strategic reserves and transmission capacity to mitigate any potential outages.</p>
-
-The growing push in Iran to develop nuclear weapons further complicates regional stability, raising concerns about potential disruptions to the global energy grid. Enhanced cybersecurity measures and robust grid infrastructure are essential to withstand these risks, ensuring that critical energy assets remain secure and reliable.
+<p class="meridian-lede">Iran's nuclear proposal to the U.S. via Qatar signals a potential shift in regional dynamics, which could influence geopolitical stability and energy market volatility. Petrovietnam's shift towards LNG, wind, and nuclear energy underscores a broader trend towards diversifying energy sources to reduce dependency on Middle Eastern crude, particularly amid ongoing tensions. This move enhances grid resilience and reduces vulnerability to supply disruptions, aligning with global efforts to secure energy supplies and mitigate geopolitical risks.</p>
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Escalating U.S. strikes on Iran threaten global energy markets and grid resilience.</li>
-  <li><strong>The big picture:</strong> This could lead to increased volatility and potential disruptions in critical energy supply routes.</li>
-  <li><strong>What to watch:</strong> Monitoring cybersecurity measures and grid infrastructure developments in key energy regions.</li>
+  <li><strong>Why it matters:</strong> Iran's nuclear proposal could ease tensions and stabilize the region, impacting both energy markets and geopolitics.</li>
+  <li><strong>The big picture:</strong> A reduction in regional tensions could lead to more predictable energy prices and enhanced cooperation in the Middle East.</li>
+  <li><strong>What to watch:</strong> The response from other Gulf states and the U.S. to Iran's proposal.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition is Quiet, with a Kp peak of 2.7, a 24-hour average of 1.53, and a current Kp of 2.7. This Quiet condition, indicating minimal geomagnetic activity, poses low risk for satellites and maintains stable power grid operations. HF radio communications may experience slight interference, but overall signal quality remains stable.
+The current Kp index is 2.3, with a 24-hour average of 1.48 and a peak of 2.3, indicating a Quiet geomagnetic condition. During Quiet conditions, satellite operations, HF radio communications, and power grid stability remain unaffected with minimal risk of geomagnetically induced currents.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -43,6 +41,13 @@ The current 24-hour geomagnetic condition is Quiet, with a Kp peak of 2.7, a 24-
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 05, 2026</span>
+        <a href="/archive/grid/2026-11-05-usiran-escalation-threatens-global-energy" class="archive-link">US-Iran Escalation Threatens Global Energy Stability</a>
+      </div>
+      <div class="archive-preview">Growing tensions in the Middle East, particularly Iran's nuclear ambitions and U.S. military posturing, could significantly impact...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 05, 2026</span>
@@ -119,13 +124,6 @@ The current 24-hour geomagnetic condition is Quiet, with a Kp peak of 2.7, a 24-
         <a href="/archive/grid/2026-10-24-us-aircraft-carrier-deployment-amid" class="archive-link">US Aircraft Carrier Deployment Amid Iran Nuclear Talks Revival</a>
       </div>
       <div class="archive-preview">Iran tensions escalate as nuclear talks revive and a U.S. aircraft carrier approaches, signaling potential geopolitical shifts that...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 23, 2026</span>
-        <a href="/archive/grid/2026-10-23-greeces-russian-diesel-shipments-signal" class="archive-link">Greece's Russian Diesel Shipments Signal Shift in U.S. Energy Supply Dynamics</a>
-      </div>
-      <div class="archive-preview">Greek tankers carrying Russian diesel to the U.S. mark a shift in energy supply dynamics, potentially reducing reliance on Middle Eastern sources.</div>
     </div>
   </div>
 </div>
