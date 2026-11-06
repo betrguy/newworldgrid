@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 05, 2026** | [US-Iran Escalation Threatens Global Energy Stability](/archive/grid/2026-11-05-usiran-escalation-threatens-global-energy) | Geopolitical tensions are escalating, with the U.S. launching new strikes on Iran, which could disrupt energy supply ... |
 | **Nov 05, 2026** | [US-Iran Escalation Sparks Grid Security Fears Amid Global Energy Volatility](/archive/grid/2026-11-05-usiran-escalation-sparks-grid-security) | Geopolitical tensions continue to escalate, with the U.S. launching new strikes on Iran, which could disrupt energy s... |
 | **Nov 03, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-11-03-strait-of-hormuz-flow-discrepancies) | The U.S. strikes on Iranian targets in the Strait of Hormuz underscore the ongoing geopolitical tensions that threate... |
 | **Nov 01, 2026** | [CHINA'S MARITIME PATROLS Threaten Global Energy Supply Chains](/archive/grid/2026-11-01-chinas-maritime-patrols-threaten-global) | Geopolitical tensions continue to rise, with China's increased maritime patrols off the coast of Taiwan, potentially ... |

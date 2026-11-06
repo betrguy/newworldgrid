@@ -1,7 +1,7 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: ORBITAL ECONOMY PUSH REDEFINES MODERNIZATION STRATEGIES. Orbital economy developments and the push for EV charging infrastructure are reshapi..."
+description: "Final Frontier: ORBITAL ECONOMY PUSHES EV CHARGING INFRASTRUCTURE INTO STRATEGIC FOCUS. Orbital economy developments and the push for EV charging infrastruct..."
 ---
 
 <!-- ARC_BYLINE -->
@@ -41,6 +41,13 @@ Imagine it's 2036, and a small, cutting-edge startup called QuantumSky has just 
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 05, 2026</span>
+        <a href="/archive/frontier/2026-11-05-orbital-economy-push-redefines-modernization" class="archive-link">ORBITAL ECONOMY PUSH REDEFINES MODERNIZATION STRATEGIES</a>
+      </div>
+      <div class="archive-preview">Orbital economy developments and the push for EV charging infrastructure are reshaping strategic pillars in modernization efforts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 03, 2026</span>
@@ -117,13 +124,6 @@ Imagine it's 2036, and a small, cutting-edge startup called QuantumSky has just 
         <a href="/archive/frontier/2026-10-13-exploring-the-geopolitical-implications-of" class="archive-link">Exploring the geopolitical implications of satellite networks and...</a>
       </div>
       <div class="archive-preview">Exploring the geopolitical implications of satellite networks and advancing EV infrastructure through specific pilot projects in the U.S.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 12, 2026</span>
-        <a href="/archive/frontier/2026-10-12-xpeng-unveils-mona-l05-amid" class="archive-link">Xpeng Unveils Mona L05 Amid EV Grid Revolution</a>
-      </div>
-      <div class="archive-preview">Xpeng's Mona L05 is set for a Q4 launch, while developments in EV and grid technology continue to shape the future of transportation and energy.</div>
     </div>
   </div>
 </div>
