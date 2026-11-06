@@ -10,7 +10,8 @@ export const sharedPageComponents: SharedLayout = {
       showOnPages: "briefings",
     }),
     Component.NewsletterSignup({
-      formAction: "",
+      formAction:
+        "https://script.google.com/macros/s/AKfycbxKqwM1gUfAdR_-ZZBxtQkDG1yyDYcRwcM9TT6n-MojsgV2muorp9tHM2BgvHsnKZyJ/exec",
     }),
   ],
   footer: Component.Footer({

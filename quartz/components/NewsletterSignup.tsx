@@ -8,38 +8,30 @@ interface Options {
   placeholder?: string
 }
 
+const DEFAULT_WEBHOOK_URL =
+  "https://script.google.com/macros/s/AKfycbxKqwM1gUfAdR_-ZZBxtQkDG1yyDYcRwcM9TT6n-MojsgV2muorp9tHM2BgvHsnKZyJ/exec"
+
 const defaults: Options = {
-  title: "Intelligence Briefing",
-  subtitle: "Daily signals delivered to your inbox.",
-  formAction: "",
+  title: "Sunday Intelligence Briefing",
+  subtitle: "Weekly synthesis, data tables & grid telemetry delivered every Sunday at 7:30 PM EST.",
+  formAction: DEFAULT_WEBHOOK_URL,
   buttonText: "Subscribe",
   placeholder: "your@email.com",
 }
 
 export default ((userOpts?: Options) => {
   const opts = { ...defaults, ...userOpts }
+  const actionUrl = opts.formAction || DEFAULT_WEBHOOK_URL
 
   const NewsletterSignup: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
-    if (!opts.formAction) {
-      return (
-        <div class={`newsletter-signup ${displayClass ?? ""}`}>
-          <div class="newsletter-container">
-            <h3 class="newsletter-title">{opts.title}</h3>
-            <p class="newsletter-subtitle">{opts.subtitle}</p>
-            <div class="newsletter-placeholder">
-              <span class="terminal-blink">_</span> Sign up at anything@thenewworldgrid.com
-            </div>
-          </div>
-        </div>
-      )
-    }
-
     return (
       <div class={`newsletter-signup ${displayClass ?? ""}`}>
         <div class="newsletter-container">
           <h3 class="newsletter-title">{opts.title}</h3>
           <p class="newsletter-subtitle">{opts.subtitle}</p>
-          <form class="newsletter-form" action={opts.formAction} method="POST">
+          <form class="newsletter-form" action={actionUrl} method="POST" data-webhook={actionUrl}>
+            <input type="hidden" name="action" value="nwg_subscribe" />
+            <input type="hidden" name="source" value="thenewworldgrid.com" />
             <input
               type="email"
               name="email"
@@ -52,11 +44,69 @@ export default ((userOpts?: Options) => {
               {opts.buttonText}
             </button>
           </form>
-          <p class="newsletter-privacy">No spam. Unsubscribe anytime.</p>
+          <p class="newsletter-status" aria-live="polite"></p>
+          <p class="newsletter-privacy">
+            Or email <code>anything@thenewworldgrid.com</code> &bull; No spam. Unsubscribe anytime.
+          </p>
         </div>
       </div>
     )
   }
+
+  NewsletterSignup.afterDOMLoaded = `
+  document.querySelectorAll(".newsletter-form").forEach((formEl) => {
+    if (formEl.dataset.bound === "true") return;
+    formEl.dataset.bound = "true";
+    formEl.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const form = e.currentTarget;
+      const input = form.querySelector(".newsletter-input");
+      const btn = form.querySelector(".newsletter-button");
+      const statusEl = form.parentElement ? form.parentElement.querySelector(".newsletter-status") : null;
+      const email = input ? input.value.trim() : "";
+      if (!email) return;
+
+      const origText = btn ? btn.textContent : "Subscribe";
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Transmitting...";
+      }
+      if (statusEl) {
+        statusEl.textContent = "";
+      }
+
+      try {
+        const endpoint = form.getAttribute("data-webhook") || form.action;
+        const body = new URLSearchParams({
+          action: "nwg_subscribe",
+          email: email,
+          source: "thenewworldgrid.com"
+        }).toString();
+
+        await fetch(endpoint, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: body
+        });
+
+        if (input) input.value = "";
+        if (btn) btn.textContent = "Subscribed ✓";
+        if (statusEl) {
+          statusEl.textContent = "✓ Locked in for the Sunday Briefing. Check your inbox for confirmation.";
+        }
+      } catch (err) {
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = origText;
+        }
+        if (statusEl) {
+          statusEl.textContent = "Transmission error — please try again or email anything@thenewworldgrid.com.";
+        }
+      }
+    });
+  });
+  `
 
   NewsletterSignup.css = `
 .newsletter-signup {
@@ -137,6 +187,15 @@ export default ((userOpts?: Options) => {
 .newsletter-button:hover {
   background: var(--light);
   color: var(--secondary);
+}
+
+.newsletter-status {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin: 0 0 0.4rem 0;
+  text-align: center;
+  min-height: 1.1em;
 }
 
 .newsletter-privacy {
