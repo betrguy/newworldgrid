@@ -198,9 +198,10 @@ class TextSectionBlock:
     kicker: Optional[str] = None
     callout: Optional[str] = None
     is_placeholder: bool = False
+    is_byline: bool = False
 
     def render_html(self) -> str:
-        safe_heading = sanitize_cell_value(self.heading)
+        safe_heading = sanitize_cell_value(self.heading) if self.heading else ""
         safe_kicker = sanitize_cell_value(self.kicker) if self.kicker else ""
         safe_paras: List[str] = []
         for p in self.paragraphs:
@@ -214,6 +215,13 @@ class TextSectionBlock:
             else ""
         )
 
+        heading_html = (
+            f'<h2 style="font-family:Georgia,\'Libre Baskerville\',serif;font-size:20px;'
+            f'font-weight:700;color:#0f172a;margin:0 0 14px 0;line-height:1.3;">{safe_heading}</h2>'
+            if self.heading and not self.is_byline
+            else ""
+        )
+
         if self.is_placeholder and not safe_paras:
             body_html = (
                 '<div style="padding:16px;border:1px dashed #cbd5e1;background-color:#f8fafc;'
@@ -223,6 +231,13 @@ class TextSectionBlock:
                 'Awaiting weekly editorial context.]'
                 '</div>'
             )
+        elif self.is_byline:
+            p_tags = [
+                f'<p style="font-family:Georgia,\'Libre Baskerville\',serif;font-size:17px;'
+                f'line-height:1.68;color:#0f172a;font-style:italic;margin:0;">{para}</p>'
+                for para in safe_paras
+            ]
+            body_html = "\n".join(p_tags)
         else:
             p_tags = [
                 f'<p style="font-family:Georgia,\'Libre Baskerville\',serif;font-size:16px;'
@@ -243,14 +258,19 @@ class TextSectionBlock:
                     '</table>'
                 )
 
+        td_style = (
+            "padding:18px 24px;background-color:#f8fafc;border:1px solid #cbd5e1;border-left:4px solid #10b981;"
+            if self.is_byline
+            else "padding:20px 24px;background-color:#ffffff;border:1px solid #e2e8f0;"
+        )
+
         return (
             f'<!-- START ISOLATED PROSE BLOCK: {html.escape(self.section_id)} -->\n'
             '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
             'style="margin:0 0 24px 0;border-collapse:collapse;">'
-            '<tr><td style="padding:20px 24px;background-color:#ffffff;border:1px solid #e2e8f0;">'
+            f'<tr><td style="{td_style}">'
             f'{kicker_html}'
-            f'<h2 style="font-family:Georgia,\'Libre Baskerville\',serif;font-size:20px;'
-            f'font-weight:700;color:#0f172a;margin:0 0 14px 0;line-height:1.3;">{safe_heading}</h2>'
+            f'{heading_html}'
             f'{body_html}'
             f'{callout_html}'
             '</td></tr></table>\n'
@@ -261,8 +281,9 @@ class TextSectionBlock:
         lines = []
         if self.kicker:
             lines.append(f"[{self.kicker.upper()}]")
-        lines.append(self.heading.upper())
-        lines.append("-" * len(self.heading))
+        if self.heading and not self.is_byline:
+            lines.append(self.heading.upper())
+            lines.append("-" * len(self.heading))
         if self.is_placeholder and not self.paragraphs:
             lines.append(f"[Prose Slot: {self.section_id} — Awaiting weekly editorial context]")
         else:
@@ -863,9 +884,11 @@ def get_prior_week_window(ref_dt: Optional[datetime.datetime] = None) -> Tuple[s
 
 def build_weekly_recap_scaffold(ref_dt: Optional[datetime.datetime] = None) -> NewsletterBuilder:
     """
-    Constructs the Sunday Weekly Recap Newsletter with strictly isolated Prose vs. Data slots.
-    NOTE: Per user specification, the actual weekly contents are intentionally left empty
-    (structured placeholder slots) until content/reporting specifications are provided.
+    Constructs the empty 7-block Sunday Weekly Recap scaffold:
+      1. 2-Sentence Introductory Byline Hook (TextSectionBlock, is_byline=True)
+      2. Section I: 'The Real' (TextSectionBlock) + Paired Data Element Slot (DataTableBlock)
+      3. Section II: 'Major Markets' (TextSectionBlock) + Paired Chart Slot (ChartImageBlock)
+      4. Section III: 'On the Horizon' (TextSectionBlock) + Paired Visual Slot (ChartImageBlock)
     """
     edition_id, range_label, date_label = get_prior_week_window(ref_dt)
     builder = NewsletterBuilder(
@@ -875,32 +898,52 @@ def build_weekly_recap_scaffold(ref_dt: Optional[datetime.datetime] = None) -> N
         preheader=f"Weekly synthesis and telemetry recap for {range_label}.",
     )
 
-    # 1. Isolated Written/LLM Narrative Slot (Opening Thesis)
+    # 1. Opening 2-Sentence Introductory Byline Hook
     builder.add_block(
         TextSectionBlock(
-            section_id="weekly_opening_synthesis",
-            kicker="PART I // EDITORIAL SYNTHESIS",
-            heading="Prior Week Signal Recap",
+            section_id="intro_byline_hook",
+            kicker="WEEKLY DISPATCH BYLINE",
+            heading="",
+            paragraphs=[],
+            is_placeholder=True,
+            is_byline=True,
+        )
+    )
+
+    # 2. Section I: The Real + Paired Grid Stability/Capacity Data Slot
+    builder.add_block(
+        TextSectionBlock(
+            section_id="the_real",
+            kicker="SECTION I // CIVILIZATIONAL VELOCITY",
+            heading="The Real",
             paragraphs=[],
             is_placeholder=True,
         )
     )
-
-    # 2. Isolated Deterministic KPI Metric Strip Slot
     builder.add_block(
-        MetricStripBlock(
-            block_id="weekly_kpi_strip",
-            title="WEEKLY GRID TELEMETRY // KEY INDICATORS",
-            metrics=[],
+        DataTableBlock(
+            table_id="the_real_grid_capacity_slot",
+            title="Global Power Grid Stability & Capacity Telemetry (U.S. / China / Major Powers)",
+            columns=[],
+            rows=[],
             is_placeholder=True,
         )
     )
 
-    # 3. Isolated Deterministic Chart / Graph Slot (Matplotlib -> CID PNG)
+    # 3. Section II: Major Markets + Paired 7-Day SPX/NQ/DJI/BTC Line Chart Slot
+    builder.add_block(
+        TextSectionBlock(
+            section_id="major_markets",
+            kicker="SECTION II // MARKET SENTIMENT & TONE",
+            heading="Major Markets",
+            paragraphs=[],
+            is_placeholder=True,
+        )
+    )
     builder.add_block(
         ChartImageBlock(
-            chart_id="weekly_primary_chart",
-            title="Weekly Signal & Infrastructure Trajectory",
+            chart_id="major_markets_price_chart_slot",
+            title="7-Day Price Activity: SPX / NQ / DJI / BTC",
             chart_type="line",
             labels=[],
             series=[],
@@ -908,24 +951,135 @@ def build_weekly_recap_scaffold(ref_dt: Optional[datetime.datetime] = None) -> N
         )
     )
 
-    # 4. Isolated Deterministic Data Table Slot
+    # 4. Section III: On the Horizon + Paired Sci-Fi Visual Slot
+    builder.add_block(
+        TextSectionBlock(
+            section_id="on_the_horizon",
+            kicker="SECTION III // FRONTIER SPECULATION (ARC)",
+            heading="On the Horizon",
+            paragraphs=[],
+            is_placeholder=True,
+        )
+    )
+    builder.add_block(
+        ChartImageBlock(
+            chart_id="on_the_horizon_scifi_visual_slot",
+            title="On the Horizon // Speculative Scenario Rendering",
+            chart_type="line",
+            labels=[],
+            series=[],
+            is_placeholder=True,
+        )
+    )
+
+    return builder
+
+
+def build_weekly_recap_edition(
+    ref_dt: Optional[datetime.datetime] = None,
+    llm_fn: Optional[ Any ] = None,
+    fetch_network: bool = True,
+) -> NewsletterBuilder:
+    """
+    Compiles the live Sunday Weekly Recap prose sections via NewsletterContentEngine:
+      - Synthesizes 'The Real' (<= 7-8 sentences from Grid, Predictive, Optimism archives)
+      - Synthesizes 'Major Markets' (<= 7-8 sentences from MarketSentimentPipeline)
+      - Synthesizes 'On the Horizon' (<= 7-8 sentences from the 3 least similar ARC thought experiments)
+      - Runs Header & 2-Sentence Introductory Byline Hook builder LAST
+      - Keeps the 3 paired Data/Chart/Visual slots in isolated placeholder mode until data/chart builders are enabled.
+    """
+    from newsletter_content import NewsletterContentEngine
+
+    edition_id, range_label, date_label = get_prior_week_window(ref_dt)
+    engine = NewsletterContentEngine(llm_fn=llm_fn)
+    content = engine.compile_weekly_content(
+        ref_dt=ref_dt,
+        edition_id=edition_id,
+        range_label=range_label,
+        date_label=date_label,
+        fetch_network=fetch_network,
+    )
+
+    builder = NewsletterBuilder(
+        subject=content.email_subject,
+        edition_label=f"SUNDAY RECAP // EDITION {content.edition_id}",
+        date_label=content.date_label,
+        preheader=content.byline_hook,
+    )
+
+    # 1. Opening 2-Sentence Introductory Byline Hook (Generated LAST from all 3 sections)
+    builder.add_block(
+        TextSectionBlock(
+            section_id="intro_byline_hook",
+            kicker="THIS WEEK ON THE GRID",
+            heading="",
+            paragraphs=[content.byline_hook],
+            is_placeholder=False,
+            is_byline=True,
+        )
+    )
+
+    # 2. Section I: The Real (Prose populated; paired data element slot kept in placeholder mode)
+    builder.add_block(
+        TextSectionBlock(
+            section_id="the_real",
+            kicker="SECTION I // CIVILIZATIONAL VELOCITY",
+            heading="The Real",
+            paragraphs=[content.the_real_prose],
+            is_placeholder=False,
+        )
+    )
     builder.add_block(
         DataTableBlock(
-            table_id="weekly_data_ledger",
-            title="Weekly Sector & Signal Ledger",
+            table_id="the_real_grid_capacity_slot",
+            title="Global Power Grid Stability & Capacity Telemetry (U.S. / China / Major Powers)",
+            subtitle="Data element slot paired with 'The Real' (awaiting grid telemetry specification).",
             columns=[],
             rows=[],
             is_placeholder=True,
         )
     )
 
-    # 5. Isolated Written/LLM Narrative Slot (Closing Vector)
+    # 3. Section II: Major Markets (Prose + raw 7-day price series populated; chart visual in placeholder mode)
     builder.add_block(
         TextSectionBlock(
-            section_id="weekly_forward_vector",
-            kicker="PART II // FORWARD VECTOR",
-            heading="The Week Ahead",
-            paragraphs=[],
+            section_id="major_markets",
+            kicker="SECTION II // MARKET SENTIMENT & TONE",
+            heading="Major Markets",
+            paragraphs=[content.major_markets_prose],
+            is_placeholder=False,
+        )
+    )
+    builder.add_block(
+        ChartImageBlock(
+            chart_id="major_markets_price_chart_slot",
+            title="7-Day Price Activity: SPX / NQ / DJI / BTC",
+            chart_type="line",
+            labels=content.market_report.chart_labels,
+            series=content.market_report.chart_series_raw,
+            caption=f"Regime: {content.market_report.regime_label} (Y-axis normalization & chart visual pending).",
+            is_placeholder=True,
+        )
+    )
+
+    # 4. Section III: On the Horizon (Prose populated with 3 least similar ARC hypotheticals; visual in placeholder mode)
+    builder.add_block(
+        TextSectionBlock(
+            section_id="on_the_horizon",
+            kicker="SECTION III // FRONTIER SPECULATION (ARC)",
+            heading="On the Horizon",
+            paragraphs=[content.on_the_horizon_prose],
+            is_placeholder=False,
+        )
+    )
+    builder.add_block(
+        ChartImageBlock(
+            chart_id="on_the_horizon_scifi_visual_slot",
+            title="On the Horizon // Speculative Scenario Rendering",
+            chart_type="line",
+            labels=[],
+            series=[],
+            caption="Visual rendering slot paired with 'On the Horizon'.",
             is_placeholder=True,
         )
     )
@@ -1476,7 +1630,7 @@ def run_weekly_dispatch(
     unless --allow-scaffold is explicitly passed.
     """
     edition_id, range_label, _ = get_prior_week_window()
-    active_builder = builder or build_weekly_recap_scaffold()
+    active_builder = builder or build_weekly_recap_edition()
 
     if not force and manager.has_edition_been_sent(edition_id):
         return {
@@ -1606,9 +1760,19 @@ def main() -> None:
         return
 
     if args.preview:
-        scaffold = build_weekly_recap_scaffold()
-        out = export_preview(scaffold)
-        print(json.dumps({"ok": True, "preview_path": str(out)}, indent=2))
+        edition_builder = build_weekly_recap_edition()
+        out = export_preview(edition_builder)
+        print(
+            json.dumps(
+                {
+                    "ok": True,
+                    "subject": edition_builder.subject,
+                    "preheader": edition_builder.preheader,
+                    "preview_path": str(out),
+                },
+                indent=2,
+            )
+        )
         return
 
     if args.send_weekly:
