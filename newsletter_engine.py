@@ -683,14 +683,411 @@ class ChartImageBlock:
         return "\n".join(lines)
 
 
-NewsletterBlock = Union[TextSectionBlock, MetricStripBlock, DataTableBlock, ChartImageBlock]
+@dataclasses.dataclass
+class WorldMapNode:
+    """Single pinned global node on the Tactical World Map HUD."""
+    node_id: str
+    code: str            # e.g., "01"
+    name: str            # e.g., "U.S. GRID (ERCOT/PJM)"
+    lon: float           # Longitude (-180 to +180)
+    lat: float           # Latitude (-60 to +75)
+    metric_line: str     # e.g., "1.30 TW | GRID +3.5%"
+    status: str = "nominal"  # "nominal" (green), "elevated" (amber), "stress" (red)
+    label_dx: float = 0.0    # Offset in degrees lon for callout box
+    label_dy: float = 0.0    # Offset in degrees lat for callout box
+
+
+@dataclasses.dataclass
+class TelemetryStripRow:
+    """Single compact row in the 4-row color-coded HTML telemetry strip beneath the World Map."""
+    corridor_label: str      # e.g., "[01/05] U.S. vs. China Grid Scale"
+    baseline_spec: str       # e.g., "US 1.30 TW (94 Nucl) / CN 3.35 TW (28 Const)"
+    weekly_pulse: str        # e.g., "GRID +3.5% | HG +5.0%"
+    pulse_trend: str = "neutral"  # "up", "down", "warn", "neutral"
+    status_label: str = "NOMINAL"
+    status_level: str = "nominal"  # "nominal", "elevated", "stress"
+
+
+@dataclasses.dataclass
+class WorldMapTelemetryBlock:
+    """
+    ISOLATED TACTICAL WORLD MAP + 4-ROW COLOR-CODED HTML TELEMETRY STRIP:
+    Renders a dark-mode vector world map PNG (via Matplotlib Agg + Natural Earth vectors)
+    with glowing status pins for the 5 global grid/chokepoint nodes and a NOAA Space Weather HUD bar,
+    and docks a compact 4-row color-coded HTML telemetry table flush underneath.
+    """
+    slot_id: str
+    title: str
+    subtitle: Optional[str] = None
+    nodes: List[WorldMapNode] = dataclasses.field(default_factory=list)
+    strip_rows: List[TelemetryStripRow] = dataclasses.field(default_factory=list)
+    kp_peak: float = 2.67
+    kp_scale_label: str = "G0 QUIET"
+    kp_risk_label: str = "NOMINAL GIC"
+    kp_status_level: str = "nominal"  # "nominal", "elevated", "stress"
+    footnote: Optional[str] = None
+    png_bytes: Optional[bytes] = None
+    is_placeholder: bool = False
+
+    @staticmethod
+    def _status_hex(level: str) -> str:
+        lvl = (level or "nominal").lower()
+        if lvl in ("stress", "critical", "high", "down"):
+            return "#ef4444"
+        if lvl in ("elevated", "watch", "moderate", "warn"):
+            return "#f59e0b"
+        return "#10b981"
+
+    def compile_png(self) -> Optional[bytes]:
+        if self.png_bytes:
+            return self.png_bytes
+        if self.is_placeholder or not self.nodes:
+            return None
+
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+        from matplotlib.patches import FancyBboxPatch, Polygon as MplPolygon, Rectangle
+        import numpy as np
+
+        fig, ax = plt.subplots(figsize=(7.2, 2.88), dpi=175)
+        ocean_bg = "#090d16"
+        land_fill = "#162235"
+        land_edge = "#2a3f5f"
+        border_edge = "#1e2f48"
+        grid_line = "#131c2e"
+
+        fig.patch.set_facecolor(ocean_bg)
+        ax.set_facecolor(ocean_bg)
+        ax.set_xlim(-175, 180)
+        ax.set_ylim(-58, 84)
+        ax.set_aspect("equal", adjustable="box")
+        ax.axis("off")
+
+        # 1. Subtle Latitude / Longitude Graticule Grid
+        for lon_g in range(-150, 180, 30):
+            ax.plot([lon_g, lon_g], [-52, 74], color=grid_line, linewidth=0.55, linestyle=":", zorder=1)
+        for lat_g in (-40, -20, 20, 40, 60):
+            ax.plot([-172, 177], [lat_g, lat_g], color=grid_line, linewidth=0.55, linestyle=":", zorder=1)
+        # Equator line
+        ax.plot([-172, 177], [0, 0], color="#1e293b", linewidth=0.8, linestyle="--", zorder=1)
+
+        # 2. Continents & Country Borders from bundled Natural Earth vectors
+        vec_path = Path(__file__).parent / "world_map_vectors.json"
+        if vec_path.exists():
+            try:
+                vec_data = json.loads(vec_path.read_text(encoding="utf-8"))
+                for ring in vec_data.get("land", []):
+                    poly = MplPolygon(
+                        ring,
+                        closed=True,
+                        facecolor=land_fill,
+                        edgecolor=land_edge,
+                        linewidth=0.65,
+                        zorder=2,
+                    )
+                    ax.add_patch(poly)
+                for bline in vec_data.get("borders", []):
+                    xs = [pt[0] for pt in bline]
+                    ys = [pt[1] for pt in bline]
+                    ax.plot(xs, ys, color=border_edge, linewidth=0.35, alpha=0.75, zorder=2.5)
+            except Exception:
+                pass
+
+        # 3. Subtle Tactical Corridor Arcs between Pinned Nodes
+        node_by_code = {n.code: n for n in self.nodes}
+        corridor_pairs = [("01", "02"), ("02", "03"), ("03", "05"), ("02", "04"), ("04", "05")]
+        for c_a, c_b in corridor_pairs:
+            na = node_by_code.get(c_a)
+            nb = node_by_code.get(c_b)
+            if na and nb:
+                ts = np.linspace(0.0, 1.0, 40)
+                xs = (1 - ts) * na.lon + ts * nb.lon
+                arc_lift = 7.0 * np.sin(np.pi * ts)
+                ys = (1 - ts) * na.lat + ts * nb.lat + arc_lift
+                ax.plot(xs, ys, color="#38bdf8", linewidth=0.85, linestyle="--", alpha=0.32, zorder=3)
+
+        # 4. Pinned Global Nodes (Glowing Halo + Core Dot + Tactical HUD Callout Box)
+        for node in self.nodes:
+            col = self._status_hex(node.status)
+            # Outer & mid glow rings
+            ax.scatter([node.lon], [node.lat], s=260, color=col, alpha=0.16, edgecolors="none", zorder=4)
+            ax.scatter([node.lon], [node.lat], s=95, color=col, alpha=0.36, edgecolors="none", zorder=5)
+            # Core status pin
+            ax.scatter([node.lon], [node.lat], s=32, color=col, edgecolors="#ffffff", linewidths=0.9, zorder=6)
+
+            box_x = node.lon + node.label_dx
+            box_y = node.lat + node.label_dy
+            # Leader line from pin to callout box
+            ax.plot([node.lon, box_x], [node.lat, box_y], color=col, linewidth=0.9, alpha=0.85, zorder=5)
+
+            callout_text = f"[{node.code}] {node.name}\n{node.metric_line}"
+            ax.text(
+                box_x,
+                box_y,
+                callout_text,
+                fontsize=6.3,
+                fontfamily="monospace",
+                fontweight="bold",
+                color="#f8fafc",
+                ha="center",
+                va="center",
+                zorder=8,
+                bbox=dict(
+                    boxstyle="round,pad=0.34,rounding_size=0.2",
+                    facecolor="#0b1322",
+                    edgecolor=col,
+                    linewidth=1.05,
+                    alpha=0.93,
+                ),
+            )
+
+        # 5. Top Tactical HUD Header Bar (Lat 73 to 83.5)
+        top_bar = Rectangle((-175, 73.0), 355, 11.0, facecolor="#050811", edgecolor="#1e293b", linewidth=0.8, zorder=9)
+        ax.add_patch(top_bar)
+        ax.text(
+            -169,
+            78.2,
+            "GLOBAL GRID & CHOKEPOINT TELEMETRY // 7D TACTICAL SCAN",
+            fontsize=7.0,
+            fontfamily="monospace",
+            fontweight="bold",
+            color="#10b981",
+            va="center",
+            ha="left",
+            zorder=10,
+        )
+        # Status legend on top right
+        ax.scatter([68], [78.2], s=22, color="#10b981", zorder=10)
+        ax.text(73, 78.2, "NOMINAL", fontsize=6.0, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
+        ax.scatter([108], [78.2], s=22, color="#f59e0b", zorder=10)
+        ax.text(113, 78.2, "ELEVATED", fontsize=6.0, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
+        ax.scatter([151], [78.2], s=22, color="#ef4444", zorder=10)
+        ax.text(156, 78.2, "STRESS", fontsize=6.0, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
+
+        # 6. Bottom NOAA SWPC Space Weather & Geomagnetic HUD Bar (Lat -58 to -46.5)
+        bot_bar = Rectangle((-175, -58.0), 355, 11.5, facecolor="#050811", edgecolor="#1e293b", linewidth=0.8, zorder=9)
+        ax.add_patch(bot_bar)
+        kp_col = self._status_hex(self.kp_status_level)
+        ax.text(
+            -169,
+            -52.2,
+            f"NOAA SWPC GEOMAGNETIC HUD // 7D PEAK Kp: {self.kp_peak:.2f} ({self.kp_scale_label})",
+            fontsize=6.5,
+            fontfamily="monospace",
+            fontweight="bold",
+            color="#e2e8f0",
+            va="center",
+            ha="left",
+            zorder=10,
+        )
+        # 9-segment visual Kp meter (x = 12 to 84)
+        for seg_idx in range(1, 10):
+            seg_x = 8 + (seg_idx - 1) * 8.2
+            seg_active = self.kp_peak >= (seg_idx - 0.35)
+            if seg_idx <= 4:
+                seg_col = "#10b981"
+            elif seg_idx <= 6:
+                seg_col = "#f59e0b"
+            else:
+                seg_col = "#ef4444"
+            seg_rect = Rectangle(
+                (seg_x, -55.0),
+                6.6,
+                5.6,
+                facecolor=seg_col if seg_active else "#162032",
+                edgecolor="#334155",
+                linewidth=0.5,
+                alpha=0.95 if seg_active else 0.45,
+                zorder=10,
+            )
+            ax.add_patch(seg_rect)
+
+        ax.text(
+            173,
+            -52.2,
+            f"GIC RISK: {self.kp_risk_label}",
+            fontsize=6.4,
+            fontfamily="monospace",
+            fontweight="bold",
+            color=kp_col,
+            va="center",
+            ha="right",
+            zorder=10,
+        )
+
+        fig.subplots_adjust(left=0.0, right=1.0, top=1.0, bottom=0.0)
+        buf = io.BytesIO()
+        fig.savefig(buf, format="png", dpi=165, facecolor=ocean_bg, edgecolor="none", pad_inches=0.0)
+        plt.close(fig)
+        self.png_bytes = buf.getvalue()
+        return self.png_bytes
+
+    def get_cid(self) -> str:
+        clean_id = re.sub(r"[^a-zA-Z0-9_.-]", "_", self.slot_id)
+        return f"{clean_id}@thenewworldgrid.com"
+
+    @staticmethod
+    def _render_status_pill(label: str, level: str) -> str:
+        safe_lbl = sanitize_cell_value(label)
+        lvl = (level or "nominal").lower()
+        if lvl in ("stress", "critical", "high"):
+            bg, fg, border = "#fee2e2", "#991b1b", "#fca5a5"
+        elif lvl in ("elevated", "watch", "moderate", "warn"):
+            bg, fg, border = "#fef3c7", "#92400e", "#fcd34d"
+        else:
+            bg, fg, border = "#dcfce7", "#166534", "#86efac"
+        return (
+            f'<span style="display:inline-block;padding:2px 7px;background-color:{bg};color:{fg};'
+            f'border:1px solid {border};border-radius:3px;font-family:\'JetBrains Mono\',Consolas,monospace;'
+            f'font-size:10px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;">{safe_lbl}</span>'
+        )
+
+    @staticmethod
+    def _pulse_color(trend: str) -> str:
+        t = (trend or "neutral").lower()
+        if t == "up":
+            return "#059669"
+        if t == "down":
+            return "#dc2626"
+        if t == "warn":
+            return "#d97706"
+        return "#0f172a"
+
+    def render_html(self) -> Tuple[str, Optional[InlineChartAttachment]]:
+        safe_title = sanitize_cell_value(self.title)
+        safe_sub = sanitize_cell_value(self.subtitle) if self.subtitle else ""
+        png_data = self.compile_png()
+        attachment: Optional[InlineChartAttachment] = None
+
+        sub_html = (
+            f'<p style="font-family:\'Source Sans Pro\',Arial,sans-serif;font-size:13px;'
+            f'color:#64748b;margin:0 0 12px 0;">{safe_sub}</p>'
+            if safe_sub
+            else ""
+        )
+
+        if png_data is None:
+            map_html = (
+                '<div style="padding:20px;border:1px dashed #cbd5e1;background-color:#f8fafc;'
+                'font-family:\'JetBrains Mono\',Consolas,monospace;font-size:12px;color:#64748b;'
+                'text-align:center;">'
+                f'[WORLD MAP TELEMETRY SLOT: {html.escape(self.slot_id)} — Awaiting global grid & chokepoint dataset]'
+                '</div>'
+            )
+            strip_html = ""
+        else:
+            cid = self.get_cid()
+            attachment = InlineChartAttachment(
+                chart_id=cid,
+                filename=f"{re.sub(r'[^a-zA-Z0-9_-]', '_', self.slot_id)}.png",
+                png_bytes=png_data,
+                alt_text=self.title,
+            )
+            map_html = (
+                f'<img src="cid:{cid}" alt="{safe_title}" width="550" '
+                f'style="display:block;width:100%;max-width:550px;height:auto;'
+                f'border:1px solid #0f172a;border-bottom:none;margin:0;" />'
+            )
+
+            # Build Flush 4-Row Compact Color-Coded HTML Telemetry Strip directly beneath the map canvas
+            tr_rows: List[str] = []
+            for idx, r in enumerate(self.strip_rows[:4]):
+                bg = "#ffffff" if idx % 2 == 0 else "#f8fafc"
+                safe_corridor = sanitize_cell_value(r.corridor_label)
+                safe_base = sanitize_cell_value(r.baseline_spec)
+                safe_pulse = sanitize_cell_value(r.weekly_pulse)
+                pulse_col = self._pulse_color(r.pulse_trend)
+                pill_html = self._render_status_pill(r.status_label, r.status_level)
+
+                tr_rows.append(
+                    f'<tr>'
+                    f'<td align="left" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
+                    f'font-family:\'JetBrains Mono\',Consolas,monospace;font-size:11px;font-weight:700;color:#0f172a;'
+                    f'white-space:nowrap;">{safe_corridor}</td>'
+                    f'<td align="left" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
+                    f'font-family:\'Source Sans Pro\',Arial,sans-serif;font-size:11.5px;color:#334155;">{safe_base}</td>'
+                    f'<td align="right" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
+                    f'font-family:\'JetBrains Mono\',Consolas,monospace;font-size:11px;font-weight:700;color:{pulse_col};'
+                    f'font-variant-numeric:tabular-nums;white-space:nowrap;">{safe_pulse}</td>'
+                    f'<td align="right" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
+                    f'text-align:right;white-space:nowrap;">{pill_html}</td>'
+                    f'</tr>'
+                )
+
+            strip_html = (
+                '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
+                'style="border-collapse:collapse;border:1px solid #0f172a;border-top:2px solid #10b981;margin:0;">'
+                '<thead>'
+                '<tr style="background-color:#0f172a;">'
+                '<th align="left" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
+                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#94a3b8;">NODE // CORRIDOR</th>'
+                '<th align="left" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
+                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#94a3b8;">GRID BASELINE</th>'
+                '<th align="right" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
+                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#94a3b8;">7D PULSE</th>'
+                '<th align="right" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
+                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#94a3b8;">STATUS</th>'
+                '</tr>'
+                '</thead>'
+                f'<tbody>{"".join(tr_rows)}</tbody>'
+                '</table>'
+            )
+
+        foot_html = ""
+        if self.footnote:
+            safe_foot = sanitize_cell_value(self.footnote)
+            foot_html = (
+                f'<div style="font-family:\'JetBrains Mono\',Consolas,monospace;font-size:10.5px;'
+                f'color:#64748b;margin-top:8px;line-height:1.45;">{safe_foot}</div>'
+            )
+
+        block_html = (
+            f'<!-- START ISOLATED WORLD MAP TELEMETRY BLOCK: {html.escape(self.slot_id)} -->\n'
+            '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
+            'style="margin:0 0 24px 0;border-collapse:collapse;">'
+            '<tr><td style="padding:20px 24px;background-color:#ffffff;border:1px solid #e2e8f0;">'
+            '<div style="font-family:\'JetBrains Mono\',Consolas,monospace;font-size:11px;'
+            'font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#10b981;'
+            'margin:0 0 4px 0;">GLOBAL GRID &amp; CHOKEPOINT TELEMETRY</div>'
+            f'<h3 style="font-family:Georgia,\'Libre Baskerville\',serif;font-size:18px;'
+            f'font-weight:700;color:#0f172a;margin:0 0 6px 0;">{safe_title}</h3>'
+            f'{sub_html}'
+            f'{map_html}'
+            f'{strip_html}'
+            f'{foot_html}'
+            '</td></tr></table>\n'
+            f'<!-- END ISOLATED WORLD MAP TELEMETRY BLOCK: {html.escape(self.slot_id)} -->'
+        )
+        return block_html, attachment
+
+    def render_text(self) -> str:
+        lines = [f"[WORLD MAP TELEMETRY: {self.title.upper()}]"]
+        if self.is_placeholder or not self.strip_rows:
+            lines.append(f"  [World Map Telemetry Slot: {self.slot_id} — Awaiting weekly dataset]")
+            return "\n".join(lines)
+        lines.append(f"  NOAA Space Weather HUD: 7D Peak Kp {self.kp_peak:.2f} ({self.kp_scale_label}) | {self.kp_risk_label}")
+        for r in self.strip_rows[:4]:
+            lines.append(f"  • {r.corridor_label}: {r.baseline_spec} | {r.weekly_pulse} [{r.status_label}]")
+        if self.footnote:
+            lines.append(f"  Note: {self.footnote}")
+        return "\n".join(lines)
+
+
+NewsletterBlock = Union[
+    TextSectionBlock,
+    MetricStripBlock,
+    DataTableBlock,
+    ChartImageBlock,
+    WorldMapTelemetryBlock,
+]
 
 
 class NewsletterBuilder:
     """
     Assembles isolated Prose (TextSectionBlock) and Data (MetricStripBlock,
-    DataTableBlock, ChartImageBlock) blocks into a hygienic, mobile-responsive
-    HTML + Plain-Text + Inline-CID MIME email.
+    DataTableBlock, ChartImageBlock, WorldMapTelemetryBlock) blocks into a hygienic,
+    mobile-responsive HTML + Plain-Text + Inline-CID MIME email.
     """
 
     def __init__(
@@ -707,10 +1104,13 @@ class NewsletterBuilder:
         self.blocks: List[NewsletterBlock] = []
 
     def add_block(self, block: NewsletterBlock) -> "NewsletterBuilder":
-        if not isinstance(block, (TextSectionBlock, MetricStripBlock, DataTableBlock, ChartImageBlock)):
+        if not isinstance(
+            block,
+            (TextSectionBlock, MetricStripBlock, DataTableBlock, ChartImageBlock, WorldMapTelemetryBlock),
+        ):
             raise TypeError(
                 f"Data/Text Isolation Violation: Invalid block type {type(block).__name__}. "
-                "Use TextSectionBlock, MetricStripBlock, DataTableBlock, or ChartImageBlock."
+                "Use TextSectionBlock, MetricStripBlock, DataTableBlock, ChartImageBlock, or WorldMapTelemetryBlock."
             )
         self.blocks.append(block)
         return self
@@ -722,7 +1122,7 @@ class NewsletterBuilder:
         attachments: List[InlineChartAttachment] = []
 
         for block in self.blocks:
-            if isinstance(block, ChartImageBlock):
+            if isinstance(block, (ChartImageBlock, WorldMapTelemetryBlock)):
                 b_html, att = block.render_html()
                 rendered_html_blocks.append(b_html)
                 if att:
@@ -910,7 +1310,7 @@ def build_weekly_recap_scaffold(ref_dt: Optional[datetime.datetime] = None) -> N
         )
     )
 
-    # 2. Section I: The Real + Paired Grid Stability/Capacity Data Slot
+    # 2. Section I: The Real + Paired Tactical World Map & 4-Row Telemetry Strip Slot
     builder.add_block(
         TextSectionBlock(
             section_id="the_real",
@@ -921,11 +1321,9 @@ def build_weekly_recap_scaffold(ref_dt: Optional[datetime.datetime] = None) -> N
         )
     )
     builder.add_block(
-        DataTableBlock(
-            table_id="the_real_grid_capacity_slot",
-            title="Global Power Grid Stability & Capacity Telemetry (U.S. / China / Major Powers)",
-            columns=[],
-            rows=[],
+        WorldMapTelemetryBlock(
+            slot_id="the_real_grid_capacity_slot",
+            title="Global Grid Telemetry & Chokepoint Matrix",
             is_placeholder=True,
         )
     )
@@ -1019,7 +1417,7 @@ def build_weekly_recap_edition(
         )
     )
 
-    # 2. Section I: The Real (Prose populated; paired data element slot kept in placeholder mode)
+    # 2. Section I: The Real + Paired Tactical World Map & Compact 4-Row Telemetry Strip
     builder.add_block(
         TextSectionBlock(
             section_id="the_real",
@@ -1029,16 +1427,33 @@ def build_weekly_recap_edition(
             is_placeholder=False,
         )
     )
-    builder.add_block(
-        DataTableBlock(
-            table_id="the_real_grid_capacity_slot",
-            title="Global Power Grid Stability & Capacity Telemetry (U.S. / China / Major Powers)",
-            subtitle="Data element slot paired with 'The Real' (awaiting grid telemetry specification).",
-            columns=[],
-            rows=[],
-            is_placeholder=True,
+    gm = content.grid_map_report
+    if gm and gm.nodes and gm.strip_rows:
+        map_nodes = [WorldMapNode(**n) for n in gm.nodes]
+        strip_rows = [TelemetryStripRow(**r) for r in gm.strip_rows[:4]]
+        builder.add_block(
+            WorldMapTelemetryBlock(
+                slot_id="the_real_grid_capacity_slot",
+                title="Global Grid Telemetry & Chokepoint Matrix",
+                subtitle="Superpower generation baselines, 7-day physical grid/corridor pulse, and NOAA geomagnetic transformer risk.",
+                nodes=map_nodes,
+                strip_rows=strip_rows,
+                kp_peak=gm.kp_peak,
+                kp_scale_label=gm.kp_scale_label,
+                kp_risk_label=gm.kp_risk_label,
+                kp_status_level=gm.kp_status_level,
+                footnote=gm.footnote,
+                is_placeholder=False,
+            )
         )
-    )
+    else:
+        builder.add_block(
+            WorldMapTelemetryBlock(
+                slot_id="the_real_grid_capacity_slot",
+                title="Global Grid Telemetry & Chokepoint Matrix",
+                is_placeholder=True,
+            )
+        )
 
     # 3. Section II: Major Markets (Prose + raw 7-day price series populated; chart visual in placeholder mode)
     builder.add_block(

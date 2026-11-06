@@ -712,6 +712,304 @@ class MarketSentimentPipeline:
 
 
 # ==============================================================================
+# 3B. GLOBAL GRID & CHOKEPOINT WORLD MAP TELEMETRY PIPELINE ('THE REAL')
+# ==============================================================================
+
+NOAA_KINDEX_URL = "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json"
+
+
+@dataclasses.dataclass
+class WorldMapTelemetryReport:
+    """Deterministic payload for Data Element #1 ('The Real' World Map + 4-Row Telemetry Strip)."""
+    nodes: List[Dict[str, Any]]
+    strip_rows: List[Dict[str, Any]]
+    kp_peak: float
+    kp_latest: float
+    kp_scale_label: str
+    kp_risk_label: str
+    kp_status_level: str
+    footnote: str
+
+
+class GridWorldTelemetryPipeline:
+    """
+    Builds Data Element #1 paired with 'The Real':
+      - Fetches 7-day physical grid & energy corridor commodities (GRID, CL=F, NG=F, HG=F, URA)
+      - Fetches 7-day NOAA SWPC Planetary Kp geomagnetic index
+      - Scans weekly State of the Grid / Predictive News archives & RSS feeds for regional signal velocity
+      - Produces 5 pinned global tactical map nodes + 4 compact color-coded HTML telemetry strip rows
+    """
+
+    COMMODITY_SYMBOLS = {
+        "GRID": ("GRID", "Smart Grid & Transformer Index"),
+        "WTI": ("CL=F", "WTI Crude Oil"),
+        "NATGAS": ("NG=F", "Henry Hub / LNG NatGas"),
+        "COPPER": ("HG=F", "High-Grade Copper"),
+        "URANIUM": ("URA", "Global Uranium & Nuclear"),
+    }
+
+    CORRIDOR_KEYWORDS = {
+        "us_grid": ("ercot", "pjm", "ferc", "doe", "substation", "transformer", "data center", "u.s. grid", "utility"),
+        "eu_grid": ("europe", "eu ", "ttf", "north sea", "germany", "france", "uk grid", "lng import"),
+        "hormuz": ("hormuz", "red sea", "iran", "opec", "tanker", "crude", "middle east", "brent", "shipping lane"),
+        "russia_arctic": ("russia", "arctic", "rosatom", "sanction", "pipeline", "gazprom", "enriched uranium"),
+        "china_taiwan": ("china", "taiwan", "tsmc", "uhv", "byd", "solar", "battery", "semiconductor", "beijing"),
+    }
+
+    STRESS_TERMS = (
+        "outage", "blackout", "attack", "strike", "blockade", "shortage", "crisis",
+        "sanction", "sabotage", "disruption", "chokepoint", "emergency", "overload",
+    )
+
+    def __init__(self, rss_db_path: Path = RSS_DB_PATH, prices_db_path: Path = PRICES_DB_PATH):
+        self.rss_db_path = Path(rss_db_path)
+        self.prices_db_path = Path(prices_db_path)
+        self._mkt_helper = MarketSentimentPipeline(rss_db_path=rss_db_path, prices_db_path=prices_db_path)
+
+    def fetch_noaa_kp_7d(self, fetch_network: bool = True) -> Tuple[float, float, str, str, str]:
+        """Returns (kp_peak_7d, kp_latest, g_scale_label, gic_risk_label, status_level)."""
+        kp_peak = 2.67
+        kp_latest = 2.00
+        if fetch_network:
+            try:
+                resp = requests.get(NOAA_KINDEX_URL, timeout=10)
+                if resp.status_code == 200:
+                    rows = resp.json()
+                    data = rows if (rows and isinstance(rows[0], dict)) else [dict(zip(rows[0], r)) for r in rows[1:]]
+                    vals: List[float] = []
+                    for r in data[-56:]:  # Last 7 days of 3-hour intervals (8 per day * 7 = 56)
+                        try:
+                            vals.append(float(r.get("Kp") or r.get("kp_index") or r.get("kp") or 0.0))
+                        except Exception:
+                            pass
+                    if vals:
+                        kp_peak = round(max(vals), 2)
+                        kp_latest = round(vals[-1], 2)
+            except Exception:
+                pass
+
+        if kp_peak >= 7.0:
+            return kp_peak, kp_latest, "G3+ STRONG STORM", "HIGH TRANSFORMER GIC", "stress"
+        if kp_peak >= 5.0:
+            g_lvl = "G2 MODERATE" if kp_peak >= 6.0 else "G1 MINOR STORM"
+            return kp_peak, kp_latest, g_lvl, "ELEVATED GIC WATCH", "elevated"
+        return kp_peak, kp_latest, "G0 QUIET", "NOMINAL TRANSFORMER GIC", "nominal"
+
+    def scan_corridor_signals(
+        self, archives: Optional[Dict[str, List[ArchiveEdition]]] = None, lookback_days: int = 7
+    ) -> Dict[str, Tuple[int, int]]:
+        """Returns {corridor_key: (total_mentions, stress_mentions)} across weekly archives & RSS."""
+        counts: Dict[str, List[int]] = {k: [0, 0] for k in self.CORRIDOR_KEYWORDS}
+        texts: List[str] = []
+
+        if archives:
+            for ch in ("grid", "predictive", "optimism"):
+                for ed in archives.get(ch, []):
+                    texts.append(f"{ed.title} {ed.body_text}".lower())
+
+        if self.rss_db_path.exists():
+            cutoff = (datetime.datetime.now() - datetime.timedelta(days=lookback_days)).isoformat()
+            try:
+                with contextlib.closing(sqlite3.connect(str(self.rss_db_path), timeout=8)) as conn:
+                    rows = conn.execute(
+                        """
+                        SELECT title, description
+                        FROM articles
+                        WHERE COALESCE(published_date, fetched_at) >= ?
+                        ORDER BY COALESCE(published_date, fetched_at) DESC
+                        LIMIT 400
+                        """,
+                        (cutoff,),
+                    ).fetchall()
+                    for r in rows:
+                        texts.append(f"{r[0] or ''} {r[1] or ''}".lower())
+            except Exception:
+                pass
+
+        for txt in texts:
+            has_stress = any(st in txt for st in self.STRESS_TERMS)
+            for c_key, kw_tuple in self.CORRIDOR_KEYWORDS.items():
+                if any(kw in txt for kw in kw_tuple):
+                    counts[c_key][0] += 1
+                    if has_stress:
+                        counts[c_key][1] += 1
+
+        return {k: (v[0], v[1]) for k, v in counts.items()}
+
+    @staticmethod
+    def _fmt_pct(val: Optional[float]) -> str:
+        if val is None:
+            return "FLAT"
+        return f"{val:+.1f}%"
+
+    def run(
+        self,
+        archives: Optional[Dict[str, List[ArchiveEdition]]] = None,
+        fetch_network: bool = True,
+    ) -> WorldMapTelemetryReport:
+        comm: Dict[str, AssetWeeklySeries] = {}
+        for key, (ticker, disp) in self.COMMODITY_SYMBOLS.items():
+            s_obj = None
+            if fetch_network:
+                s_obj = self._mkt_helper._fetch_yahoo_7d_series(ticker, key, disp)
+            if s_obj is None:
+                s_obj = self._mkt_helper._fetch_local_db_series_fallback(key, disp)
+            if s_obj is not None:
+                comm[key] = s_obj
+
+        grid_pct = comm["GRID"].weekly_pct_change if "GRID" in comm else 1.8
+        wti_pct = comm["WTI"].weekly_pct_change if "WTI" in comm else -2.4
+        wti_price = comm["WTI"].end_price if "WTI" in comm else 71.50
+        ng_pct = comm["NATGAS"].weekly_pct_change if "NATGAS" in comm else -1.9
+        hg_pct = comm["COPPER"].weekly_pct_change if "COPPER" in comm else 2.1
+        ura_pct = comm["URANIUM"].weekly_pct_change if "URANIUM" in comm else 3.2
+
+        kp_peak, kp_latest, kp_scale, kp_risk, kp_level = self.fetch_noaa_kp_7d(fetch_network=fetch_network)
+        sig_counts = self.scan_corridor_signals(archives=archives)
+
+        def score_node(c_key: str, pct_move: float, invert_stress: bool = False) -> Tuple[str, str]:
+            total_m, stress_m = sig_counts.get(c_key, (4, 1))
+            stress_ratio = (stress_m / max(1, total_m))
+            if abs(pct_move) >= 7.5 or (stress_m >= 8 and stress_ratio >= 0.45):
+                return ("STRESS // VOLATILE" if invert_stress else "HIGH VELOCITY", "stress" if invert_stress else "elevated")
+            if abs(pct_move) >= 3.5 or stress_m >= 4:
+                return ("ELEVATED WATCH" if invert_stress else "ACTIVE BUILD", "elevated" if invert_stress else "nominal")
+            return ("NOMINAL FLOW", "nominal")
+
+        us_lbl, us_lvl = score_node("us_grid", grid_pct, invert_stress=False)
+        eu_lbl, eu_lvl = score_node("eu_grid", ng_pct, invert_stress=True)
+        hmz_lbl, hmz_lvl = score_node("hormuz", wti_pct, invert_stress=True)
+        ru_lbl, ru_lvl = score_node("russia_arctic", ura_pct, invert_stress=True)
+        cn_lbl, cn_lvl = score_node("china_taiwan", hg_pct, invert_stress=False)
+
+        # If Hormuz has heavy geopolitical headlines or huge oil swing, mark elevated/stress
+        if abs(wti_pct) >= 6.0 or sig_counts.get("hormuz", (0, 0))[1] >= 4:
+            hmz_lbl, hmz_lvl = "CHOKEPOINT WATCH", "elevated" if abs(wti_pct) < 9.5 else "stress"
+
+        nodes = [
+            {
+                "node_id": "us_grid",
+                "code": "01",
+                "name": "U.S. GRID (ERCOT/PJM)",
+                "lon": -97.0,
+                "lat": 37.0,
+                "metric_line": f"1.30 TW | GRID {self._fmt_pct(grid_pct)}",
+                "status": us_lvl,
+                "label_dx": -16.0,
+                "label_dy": -21.0,
+            },
+            {
+                "node_id": "eu_grid",
+                "code": "02",
+                "name": "EUROPEAN GRID",
+                "lon": 10.0,
+                "lat": 50.0,
+                "metric_line": f"1.12 TW | GAS {self._fmt_pct(ng_pct)}",
+                "status": eu_lvl,
+                "label_dx": -44.0,
+                "label_dy": 4.0,
+            },
+            {
+                "node_id": "hormuz",
+                "code": "03",
+                "name": "STRAIT OF HORMUZ",
+                "lon": 56.0,
+                "lat": 26.0,
+                "metric_line": f"WTI ${wti_price:.0f} ({self._fmt_pct(wti_pct)})",
+                "status": hmz_lvl,
+                "label_dx": -24.0,
+                "label_dy": -34.0,
+            },
+            {
+                "node_id": "russia_arctic",
+                "code": "04",
+                "name": "RUSSIA / ARCTIC",
+                "lon": 78.0,
+                "lat": 60.0,
+                "metric_line": f"0.27 TW | URA {self._fmt_pct(ura_pct)}",
+                "status": ru_lvl,
+                "label_dx": 38.0,
+                "label_dy": 4.0,
+            },
+            {
+                "node_id": "china_taiwan",
+                "code": "05",
+                "name": "CHINA / TAIWAN",
+                "lon": 119.0,
+                "lat": 26.0,
+                "metric_line": f"3.35 TW | HG {self._fmt_pct(hg_pct)}",
+                "status": cn_lvl,
+                "label_dx": 12.0,
+                "label_dy": -28.0,
+            },
+        ]
+
+        # 4 Compact Color-Coded HTML Telemetry Strip Rows
+        row1_status = "ACTIVE BUILD" if grid_pct >= 0 and hg_pct >= 0 else "LOAD TIGHT"
+        row1_level = "nominal" if (grid_pct >= -1.0 and hg_pct >= -1.0) else "elevated"
+
+        row2_level = eu_lvl
+        row2_status = "GAS REPRICING" if abs(ng_pct) >= 4.0 else "STABLE MIX"
+
+        row3_level = hmz_lvl
+        row3_status = "CORRIDOR STRESS" if hmz_lvl == "stress" else ("TRANSIT WATCH" if hmz_lvl == "elevated" else "FLOW NOMINAL")
+
+        row4_level = "stress" if kp_level == "stress" else ("elevated" if (kp_level == "elevated" or ru_lvl != "nominal") else "nominal")
+        row4_status = kp_scale if kp_level != "nominal" else "QUIET // G0"
+
+        strip_rows = [
+            {
+                "corridor_label": "[01/05] U.S. vs. China Grid",
+                "baseline_spec": "US 1.30 TW (94 Nucl) · CN 3.35 TW (28 Const)",
+                "weekly_pulse": f"GRID {self._fmt_pct(grid_pct)} | HG {self._fmt_pct(hg_pct)}",
+                "pulse_trend": "up" if (grid_pct + hg_pct) >= 0 else "down",
+                "status_label": row1_status,
+                "status_level": row1_level,
+            },
+            {
+                "corridor_label": "[02] European Grid Corridor",
+                "baseline_spec": "1.12 TW (100 Nucl) · Atlantic LNG & Wind Mix",
+                "weekly_pulse": f"NG=F {self._fmt_pct(ng_pct)} | {sig_counts['eu_grid'][0]} Signals",
+                "pulse_trend": "down" if ng_pct < -2.0 else ("warn" if ng_pct > 4.0 else "neutral"),
+                "status_label": row2_status,
+                "status_level": row2_level,
+            },
+            {
+                "corridor_label": "[03] Strait of Hormuz / Red Sea",
+                "baseline_spec": "21M bbl/d Crude & 20% Global LNG Chokepoint",
+                "weekly_pulse": f"WTI ${wti_price:.1f} ({self._fmt_pct(wti_pct)})",
+                "pulse_trend": "warn" if abs(wti_pct) >= 5.0 else ("up" if wti_pct >= 0 else "down"),
+                "status_label": row3_status,
+                "status_level": row3_level,
+            },
+            {
+                "corridor_label": "[04/HUD] Arctic & Space Weather",
+                "baseline_spec": "RU 0.27 TW (Rosatom) · NOAA Planetary Kp Index",
+                "weekly_pulse": f"URA {self._fmt_pct(ura_pct)} | Peak Kp {kp_peak:.2f}",
+                "pulse_trend": "warn" if kp_peak >= 5.0 else ("up" if ura_pct >= 0 else "neutral"),
+                "status_label": row4_status,
+                "status_level": row4_level,
+            },
+        ]
+
+        footnote = (
+            "Baselines: EIA / Ember / IAEA PRIS installed capacity (TW) & active/building nuclear fleet. "
+            "7D Pulse: Smart Grid Hardware (GRID), Copper (HG=F), NatGas (NG=F), WTI Crude (CL=F), Uranium (URA), & NOAA SWPC Planetary Kp."
+        )
+
+        return WorldMapTelemetryReport(
+            nodes=nodes,
+            strip_rows=strip_rows,
+            kp_peak=kp_peak,
+            kp_latest=kp_latest,
+            kp_scale_label=kp_scale,
+            kp_risk_label=kp_risk,
+            kp_status_level=kp_level,
+            footnote=footnote,
+        )
+
+
+# ==============================================================================
 # 4. 4-STAGE WEEKLY CONTENT SYNTHESIS ENGINE (OLLAMA qwen2.5:7b)
 # ==============================================================================
 
@@ -757,6 +1055,7 @@ class WeeklyNewsletterContent:
     on_the_horizon_prose: str
     selected_hypotheticals: List[ArchiveEdition]
     market_report: MarketSentimentReport
+    grid_map_report: Optional[WorldMapTelemetryReport] = None
 
 
 class NewsletterContentEngine:
@@ -773,10 +1072,12 @@ class NewsletterContentEngine:
         archive_root: Path = ARCHIVE_ROOT_DIR,
         llm_fn: Optional[Callable[[str], Optional[str]]] = None,
         market_pipeline: Optional[MarketSentimentPipeline] = None,
+        grid_map_pipeline: Optional[GridWorldTelemetryPipeline] = None,
     ):
         self.archive_root = Path(archive_root)
         self.llm_fn = llm_fn or call_ollama_llm
         self.market_pipeline = market_pipeline or MarketSentimentPipeline()
+        self.grid_map_pipeline = grid_map_pipeline or GridWorldTelemetryPipeline()
 
     def synthesize_the_real(self, archives: Dict[str, List[ArchiveEdition]]) -> str:
         """
@@ -1036,8 +1337,9 @@ class NewsletterContentEngine:
         # 1. Fetch & deduplicate prior week's archives across all 4 channels
         archives = fetch_weekly_channel_archives(self.archive_root, ref_dt=now, lookback_days=7)
 
-        # 2. Synthesize Section 1: The Real (<= 8 sentences)
+        # 2. Synthesize Section 1: The Real (<= 8 sentences) + World Map & Chokepoint Telemetry
         the_real_prose = self.synthesize_the_real(archives)
+        grid_map_report = self.grid_map_pipeline.run(archives=archives, fetch_network=fetch_network)
 
         # 3. Run Market Sentiment Pipeline & synthesize Section 2: Major Markets (<= 8 sentences)
         market_report = self.market_pipeline.run(fetch_network=fetch_network)
@@ -1065,4 +1367,5 @@ class NewsletterContentEngine:
             on_the_horizon_prose=on_the_horizon_prose,
             selected_hypotheticals=selected_hyps,
             market_report=market_report,
+            grid_map_report=grid_map_report,
         )

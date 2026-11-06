@@ -25,6 +25,7 @@ from newsletter_engine import (
     NewsletterBuilder,
     SubscriberManager,
     TextSectionBlock,
+    WorldMapTelemetryBlock,
     build_weekly_recap_edition,
     build_weekly_recap_scaffold,
     build_welcome_email,
@@ -226,8 +227,22 @@ class TestNewsletterIsolationAndEngine(unittest.TestCase):
             f"Unexpected opening: {horizon_text}",
         )
 
-        # Verify all 3 paired data/chart/visual slots remain in placeholder mode
-        self.assertTrue(real_data_slot.is_placeholder)
+        # Verify Data Element #1 ('The Real' World Map + 4-row HTML telemetry strip) is live & populated
+        self.assertIsInstance(real_data_slot, WorldMapTelemetryBlock)
+        self.assertFalse(real_data_slot.is_placeholder)
+        self.assertEqual(len(real_data_slot.nodes), 5)
+        self.assertEqual(len(real_data_slot.strip_rows), 4)
+        html_out, text_out, attachments = builder.render(unsubscribe_email="reader@example.com")
+        self.assertEqual(len(attachments), 1)
+        self.assertEqual(attachments[0].chart_id, "the_real_grid_capacity_slot@thenewworldgrid.com")
+        self.assertTrue(attachments[0].png_bytes.startswith(b"\x89PNG\r\n\x1a\n"))
+        self.assertIn("[01/05] U.S. vs. China Grid", html_out)
+        self.assertIn("[02] European Grid Corridor", html_out)
+        self.assertIn("[03] Strait of Hormuz / Red Sea", html_out)
+        self.assertIn("[04/HUD] Arctic &amp; Space Weather", html_out)
+        self.assertIn("NODE // CORRIDOR", html_out)
+
+        # Verify remaining 2 paired chart/visual slots remain in placeholder mode until built
         self.assertTrue(markets_chart_slot.is_placeholder)
         self.assertTrue(horizon_visual_slot.is_placeholder)
 

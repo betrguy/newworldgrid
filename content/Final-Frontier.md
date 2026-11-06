@@ -1,33 +1,31 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: Orbital economy tensions rise & Russia rehearses satellite attacks. Orbital economy tensions rise as Russia rehearses satellite attacks, whil..."
+description: "Final Frontier: SATELLITE EXPANSION RAISES SECURITY CONCERNS IN ORBITAL ECONOMY. Orbital economy developments raise security concerns as satellite services e..."
 ---
 
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 05, 2026 - 19:20</span>
+  <span class="sotg-timestamp">November 06, 2026 - 08:03</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-Orbital economy tensions rise as Russia rehearses satellite attacks, while Mercedes-Benz shifts focus to electric vehicle charging infrastructure in Europe. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Orbital economy developments raise security concerns as satellite services expand, while EV charging infrastructure sees new partnerships aimed at boosting adoption in Spain. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 ### **The High Ground**
 
-Russia is rehearsing satellite attacks in orbit, as reported by Aerospace Global News on November 5, 2026. This indicates that space is no longer just a domain for exploration but has become a new front in strategic competition. With increasing focus on controlling orbital infrastructure, the importance of orbital data transmission and computational capabilities is growing.
-
 ### **The EV Race**
 
-Mercedes-Benz has exited the European EV charging business, selling its operations to Electra, as reported by Drive Tesla Canada on November 5, 2026. This move indicates a consolidation in the market, with major automakers focusing on core vehicle production.
+BYD and Iberdrola are now offering EV charging discounts in Spain, as reported by Electric Cars Report on November 6, 2026. This move by two major players indicates a strategy to attract more EV users and increase market share. For buyers, this means lower costs for charging their vehicles.
 
 *What follows is purely a thought experiment.*
 
-Imagine it’s 2036, and a mysterious entity known only as "Orbital Dynamics" has quietly acquired a significant share of the orbital debris cleanup market. Orbital Dynamics isn't a traditional aerospace company; it’s a shadowy consortium with roots in global financial networks and intelligence agencies. Their mission is to not only clean up space but also to monetize the process by recycling rare materials from decommissioned satellites. This has created a new front in the orbital economy, with companies like SpaceX and Boeing scrambling to adapt their launch vehicles to include specialized modules for debris capture and recycling. The geopolitical implications are profound: nations are now vying to control access to Orbital Dynamics’ services, leading to a new form of space-based power play. Nations with less access face economic disadvantages, forcing them to negotiate or risk being left behind in the tech race.
+Imagine the year 2036, where Starlink and Oneweb satellites orbit the Earth in a dense network, providing global internet access. Suddenly, a new player emerges: a consortium of countries, including Russia, China, and France, form the "Orbital Sovereignty Alliance" (OSA). Their mission? To create a new layer of national airspace, granting sovereign control over satellite services. The OSA introduces a novel technology: the "SkyGuardian," a high-altitude drone designed to intercept and disable unauthorized satellites. This move forces Starlink and Oneweb to adapt, integrating SkyGuardian-resistant hardware into their constellation. The unexpected consequence? A global surge in satellite repair and maintenance services, with companies like SpaceX and Boeing pivoting their R&D to develop maintenance drones and robots. This shift not only reshapes the satellite industry but also creates a new market for specialized equipment and services, worth billions, with significant geopolitical implications.
 
 <!-- /FRONTIER_ENGINE_END -->
 
@@ -41,6 +39,13 @@ Imagine it’s 2036, and a mysterious entity known only as "Orbital Dynamics" ha
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 05, 2026</span>
+        <a href="/archive/frontier/2026-11-05-orbital-economy-tensions-rise-russia" class="archive-link">Orbital economy tensions rise & Russia rehearses satellite attacks</a>
+      </div>
+      <div class="archive-preview">Orbital economy tensions rise as Russia rehearses satellite attacks, while Mercedes-Benz shifts focus to electric vehicle charging...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 05, 2026</span>
@@ -117,13 +122,6 @@ Imagine it’s 2036, and a mysterious entity known only as "Orbital Dynamics" ha
         <a href="/archive/frontier/2026-10-18-orbital-economy-ev-grid-development" class="archive-link">ORBITAL ECONOMY & EV GRID DEVELOPMENT GET BOOST FROM MILITARY & TECH INVESTMENTS</a>
       </div>
       <div class="archive-preview">Exploring the orbital economy and advancing EV grid development, from missile stockpile replenishment to electric vehicle investments,...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 14, 2026</span>
-        <a href="/archive/frontier/2026-10-14-russias-space-struggle-ev-race" class="archive-link">RUSSIA'S SPACE STRUGGLE & EV RACE HEAT UP AS BYD & GEELY CLASH</a>
-      </div>
-      <div class="archive-preview">This page explores the current landscape of orbital economy development, including Russia's satellite challenges, and the emerging EV...</div>
     </div>
   </div>
 </div>
