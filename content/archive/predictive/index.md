@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 06, 2026** | [UKRAINE STRIKES BACK AT RUSSIA, AS TENSIONS RISE OVER POTENTIAL US-RU DEALS](/archive/predictive/2026-11-06-ukraine-strikes-back-at-russia) | Ukraine reports increased military activity, striking Russian targets, while tensions rise over potential US-mediated... |
 | **Nov 06, 2026** | [Ukraine Conflict Escalates Amid US Midterms & Russia Tensions](/archive/predictive/2026-11-06-ukraine-conflict-escalates-amid-us) | Ukraine's ongoing conflict intensifies amid U.S. midterm elections and heightened tensions with Russia, shaping regio... |
 | **Nov 05, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-11-05-strait-of-hormuz-flow-discrepancies) | Russian missile and drone attacks on Ukrainian hospitals in Dnipro and Kharkiv injure 158, escalating regional confli... |
 | **Nov 01, 2026** | [IRAN & QATAR TALKS AMID US MILITARY THREATS](/archive/predictive/2026-11-01-iran-qatar-talks-amid-us) | Iran's ongoing talks with Qatar and warnings against potential US military action highlight evolving regional dynamic... |
