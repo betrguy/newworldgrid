@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Nov 03, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-03-lowcarbon-volcanic-rock-cement-ai) | The landscape of protein design has been transformed. |
+| **Nov 05, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-05-lowcarbon-volcanic-rock-cement-ai) | Researchers have successfully controlled a unique quantum phenomenon&mdash;the quantum-geometric nonlinear Hall (QgNL... |
 | **Oct 27, 2026** | [AI Breakthroughs Tackle Diseases & Mosquito Species with Unprecedented Accuracy](/archive/optimism/2026-10-27-ai-breakthroughs-tackle-diseases-mosquito) | Researchers can now access the IEEE Xplore AI Research Suite to seamlessly search and discover articles, accelerating... |
 | **Oct 25, 2026** | [ENGINEERS TAKE CENTER STAGE AS CONSUMER ELECTRONICS SEES REVOLUTION](/archive/optimism/2026-10-25-engineers-take-center-stage-as) | With engineers like Preethi Ashwath stepping out from behind the scenes, the consumer electronics industry is seeing ... |
 | **Oct 18, 2026** | [Engineers now design electric truck batteries faster & Opening new...](/archive/optimism/2026-10-18-engineers-now-design-electric-truck) | Simulation apps are revolutionizing battery design, enabling engineers at Aurobay and Resolvent to accelerate the dev... |
