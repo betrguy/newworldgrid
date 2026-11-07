@@ -1,35 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: RUSSIA LAUNCHED OVERNIGHT ASSAULT ON UKRAINE'S NUCLEAR POWER GRID.. Geopolitical tensions and targeted attacks on energy infrastructure hi..."
+description: "State of the Grid: Ukraine's Grid Teeters on Brink of Collapse. Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power ..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 07, 2026 - 08:00</span>
+  <span class="sotg-timestamp">November 07, 2026 - 08:15</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Overnight attacks on substations near Kyiv threaten the stability of Ukraine's grid, highlighting ongoing challenges to energy infrastructure in the region. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Geopolitical tensions and targeted attacks on energy infrastructure highlight the fragility of global grid resilience. Russia's overnight assault on substations linking Kyiv to nuclear power plants underscores the vulnerability of critical energy nodes, potentially leading to localized outages and strain on the Ukrainian grid. These incidents underscore the need for enhanced cybersecurity measures and robust backup systems to mitigate the impact of such disruptions.</p>
+<p class="meridian-lede">Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrastructure, highlighting the vulnerability of critical energy nodes. These incidents underscore the need for enhanced cybersecurity measures and robust backup systems to mitigate the impact of such disruptions, particularly in regions dependent on nuclear power plants.</p>
 
 The U.S. Treasury's sanctions on Canadian money-exchange firms for their role in evading Iran sanctions further complicate the geopolitical landscape. While this action aims to enforce compliance, it could inadvertently disrupt energy trade flows, affecting global energy markets. Such disruptions could pose challenges for grid stability, particularly in regions dependent on international energy trade, necessitating closer monitoring of supply chain vulnerabilities and the development of alternative energy sources to ensure grid reliability.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Cyberattacks on energy infrastructure highlight the intersection of defense and geopolitics.</li>
-  <li><strong>The big picture:</strong> These incidents underscore the need for integrated cybersecurity and energy grid resilience strategies.</li>
-  <li><strong>What to watch:</strong> Developments in international energy trade and grid stability in regions dependent on external supplies.</li>
+  <li><strong>Why it matters:</strong> Overnight attacks on Ukraine's substations highlight the intersection of energy security and cyber warfare.</li>
+  <li><strong>The big picture:</strong> These incidents could lead to broader systemic risks in critical infrastructure, affecting geopolitical stability and energy markets.</li>
+  <li><strong>What to watch:</strong> Monitoring the development of international standards for enhanced cybersecurity in energy grids.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition is labeled as Unsettled with a Kp index of 2.81 (peak 3.3). This level can cause minor disruptions to satellite operations and affect HF radio communications, especially over polar regions. Power grid stability remains generally unaffected, but utility companies may monitor for potential impacts.
+The current 24-hour geomagnetic condition is labeled as Unsettled with a Kp peak of 3.3, an average of 2.81, and peak Kp matching the current value. This condition may increase drag and cause anomalous heating in satellites, disrupt HF radio communications over higher latitudes, and impact power grid stability, leading to potential voltage fluctuations and increased monitoring.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -43,6 +43,13 @@ The current 24-hour geomagnetic condition is labeled as Unsettled with a Kp inde
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 07, 2026</span>
+        <a href="/archive/grid/2026-11-07-russia-launched-overnight-assault-on" class="archive-link">RUSSIA LAUNCHED OVERNIGHT ASSAULT ON UKRAINE'S NUCLEAR POWER GRID.</a>
+      </div>
+      <div class="archive-preview">Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrastructure.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 06, 2026</span>
@@ -119,13 +126,6 @@ The current 24-hour geomagnetic condition is labeled as Unsettled with a Kp inde
         <a href="/archive/grid/2026-10-29-china-surpasses-2-tw-in" class="archive-link">CHINA SURPASSES 2 TW IN WIND & SOLAR POWER CAPACITY</a>
       </div>
       <div class="archive-preview">China's significant expansion of wind and solar power capacity to over 2 TW underscores a major shift towards renewable energy sources,...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 27, 2026</span>
-        <a href="/archive/grid/2026-10-27-us-gas-prices-soar-amid" class="archive-link">US Gas Prices Soar Amid Iran Tensions, Straining Grid Stability</a>
-      </div>
-      <div class="archive-preview">Record gas price hikes in the U.S. underscore the vulnerability of the grid to external geopolitical tensions, particularly with Iran.</div>
     </div>
   </div>
 </div>

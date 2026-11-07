@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Nov 07, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-11-07-lowcarbon-volcanic-rock-cement-ai) | Iran's missile capabilities are expanding as tensions escalate with Israel, coinciding with Russian intensification o... |
+| **Nov 07, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-11-07-lowcarbon-volcanic-rock-cement-ai) | Russia intensifies pressure on Ukraine ahead of talks, while Iran readies for potential conflict amid U.S. tensions. |
 | **Nov 06, 2026** | [UKRAINE RESISTANCE HITS NEW PEAK AS RUSSIA LAUNCHES FRESH ATTACKS](/archive/predictive/2026-11-06-ukraine-resistance-hits-new-peak) | Ukraine reports continued casualties and counters Russian attacks, while diplomatic efforts and domestic policies per... |
 | **Nov 06, 2026** | [UKRAINE STRIKES BACK AT RUSSIA, AS TENSIONS RISE OVER POTENTIAL US-RU DEALS](/archive/predictive/2026-11-06-ukraine-strikes-back-at-russia) | Ukraine reports increased military activity, striking Russian targets, while tensions rise over potential US-mediated... |
 | **Nov 06, 2026** | [Ukraine Conflict Escalates Amid US Midterms & Russia Tensions](/archive/predictive/2026-11-06-ukraine-conflict-escalates-amid-us) | Ukraine's ongoing conflict intensifies amid U.S. midterm elections and heightened tensions with Russia, shaping regio... |

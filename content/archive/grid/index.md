@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 07, 2026** | [Ukraine's Grid Teeters on Brink of Collapse](/archive/grid/2026-11-07-ukraines-grid-teeters-on-brink) | Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrast... |
 | **Nov 07, 2026** | [RUSSIA LAUNCHED OVERNIGHT ASSAULT ON UKRAINE'S NUCLEAR POWER GRID.](/archive/grid/2026-11-07-russia-launched-overnight-assault-on) | Geopolitical tensions and targeted attacks on energy infrastructure highlight the fragility of global grid resilience. |
 | **Nov 06, 2026** | [MIDDLE EAST TENSIONS SPILL OVER INTO GLOBAL ENERGY MARKETS](/archive/grid/2026-11-06-middle-east-tensions-spill-over) | Geopolitical tensions in the Middle East, as evidenced by increased tanker attacks and rising oil exports, could disr... |
 | **Nov 06, 2026** | [MIDDLE EAST TANKER ATTACKS SPARK GLOBAL ENERGY CHAOS](/archive/grid/2026-11-06-middle-east-tanker-attacks-spark) | The Middle East's increased oil exports and rising tanker attacks indicate escalating geopolitical tensions, which co... |
