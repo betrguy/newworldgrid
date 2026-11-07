@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-06 08:27 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-11-07 08:01 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,176 +51,178 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "Iran preparing for war, lifting missile limits, amid tensions and Israeli threats.",
+    "emojis": "🪖⚔️🚀",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "Netanyahu",
+      "Trump"
+    ],
+    "source_count": 41,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia targets Kyiv power and infrastructure ahead of talks.",
+    "emojis": "⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Kyiv"
+    ],
+    "source_count": 26,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Oil traders avoid Russian diesel, while tensions rise with NATO and Russia's actions criticized.",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "oil traders",
+      "NATO",
+      "Kremlin",
+      "Russia",
+      "Washington"
+    ],
+    "source_count": 21,
+    "timestamp": "08:01 AM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China sees steady patent growth, engages in economic dialogues and EV market advancements.",
-    "emojis": "",
+    "summary": "Therapy reduces seizures in China, Nanjing University changes policy, China-Pakistan space cooperation, and more.",
+    "emojis": "🚫",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "EU",
-      "US"
+      "Nanjing University",
+      "Pakistan"
     ],
-    "source_count": 32,
-    "timestamp": "08:27 AM"
+    "source_count": 30,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "US midterms, Israeli elections, and Shin Bet chief unite Israeli politics.",
-    "emojis": "",
+    "summary": "Israel forms coalition, AI advancements, and government formation challenges.",
+    "emojis": "💀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "US midterms",
-      "Israeli elections",
-      "Shin Bet chief Zini"
+      "Israel",
+      "AI researchers",
+      "Arab parties"
     ],
-    "source_count": 25,
-    "timestamp": "08:27 AM"
+    "source_count": 20,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Japan and EU nations urge actions against Russia amid business disputes.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: GAZA",
+    "summary": "Cisco continued military deals in Gaza, while a nurse waits for freedom.",
+    "emojis": "🪖⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Japan",
-      "EU nations",
-      "Russia"
+      "Cisco",
+      "Gaza nurse"
     ],
-    "source_count": 19,
-    "timestamp": "08:27 AM"
+    "source_count": 2,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-GA",
-    "summary": "Atlanta's giant pandas debut after 2-year absence.",
-    "emojis": "",
-    "lat": 33.74,
-    "lng": -84.38,
-    "location": "US-GA",
+    "title": "SITREP: YEMEN",
+    "summary": "Airstrikes in Yemen's Sanaa province kill 33, US advises vigilance for Americans.",
+    "emojis": "💥⚔️💀",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Atlanta's giant pandas"
+      "Houthi",
+      "Saudi",
+      "US"
+    ],
+    "source_count": 3,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Indian Army denies Chinese troop advancement claims; US issues Middle East travel advisory.",
+    "emojis": "🪖⚔️",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Indian Army",
+      "US"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli army continues strikes in southern Lebanon.",
+    "emojis": "💥",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israeli army",
+      "Middle East Monitor"
     ],
     "source_count": 1,
-    "timestamp": "08:27 AM"
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine reports casualties, counters Russian attacks, while diplomatic efforts and domestic policies continue.",
-    "emojis": "⚔️💀",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "Trump",
-      "Latvia",
-      "Bloomberg"
-    ],
-    "source_count": 9,
-    "timestamp": "08:27 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions fluctuate with nuclear talks, military options, and economic impacts.",
-    "emojis": "🪖💥☢️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 24,
-    "timestamp": "08:27 AM"
-  },
-  {
-    "title": "SITREP: US-FL",
-    "summary": "University of South Florida develops white paint to cool homes, reduce energy bills.",
+    "title": "SITREP: US-TX",
+    "summary": "Israeli elections create uncertainty for future.",
     "emojis": "",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
     "actors": [
-      "University of South Florida"
+      "Jordan",
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "08:27 AM"
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Israeli political stalemate and new U.S. Congress shape Middle East future.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Israeli government",
+      "U.S. Congress"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK electric car sales rise 32.7% in October.",
+    "summary": "UK electric van registrations surge in October.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK Electric Car Market"
+      "UK"
     ],
     "source_count": 1,
-    "timestamp": "08:27 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India's EV retail sales reach 3.55 lakh units, up 44.88% in October.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "FADA",
-      "BioEnergy Times"
-    ],
-    "source_count": 1,
-    "timestamp": "08:27 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Bus crash in France kills one child, one young adult.",
-    "emojis": "💀",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "bus",
-      "officials"
-    ],
-    "source_count": 1,
-    "timestamp": "08:27 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "US aircraft carrier delays Middle East deployment, Russian bombing raises Ukrainian death toll.",
-    "emojis": "🚀✈️💥",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "USS Theodore Roosevelt",
-      "Russian",
-      "Ukraine"
-    ],
-    "source_count": 2,
-    "timestamp": "08:27 AM"
-  },
-  {
-    "title": "SITREP: US-DC",
-    "summary": "Democrats threaten subpoenas in healthcare investigation.",
-    "emojis": "⚔️",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
-    "actors": [
-      "Democrats",
-      "US-DC"
-    ],
-    "source_count": 1,
-    "timestamp": "08:27 AM"
+    "timestamp": "08:01 AM"
   }
 ];
 

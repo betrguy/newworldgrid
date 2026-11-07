@@ -847,164 +847,116 @@ class GridWorldTelemetryPipeline:
         archives: Optional[Dict[str, List[ArchiveEdition]]] = None,
         fetch_network: bool = True,
     ) -> WorldMapTelemetryReport:
-        comm: Dict[str, AssetWeeklySeries] = {}
-        for key, (ticker, disp) in self.COMMODITY_SYMBOLS.items():
-            s_obj = None
-            if fetch_network:
-                s_obj = self._mkt_helper._fetch_yahoo_7d_series(ticker, key, disp)
-            if s_obj is None:
-                s_obj = self._mkt_helper._fetch_local_db_series_fallback(key, disp)
-            if s_obj is not None:
-                comm[key] = s_obj
-
-        grid_pct = comm["GRID"].weekly_pct_change if "GRID" in comm else 1.8
-        wti_pct = comm["WTI"].weekly_pct_change if "WTI" in comm else -2.4
-        wti_price = comm["WTI"].end_price if "WTI" in comm else 71.50
-        ng_pct = comm["NATGAS"].weekly_pct_change if "NATGAS" in comm else -1.9
-        hg_pct = comm["COPPER"].weekly_pct_change if "COPPER" in comm else 2.1
-        ura_pct = comm["URANIUM"].weekly_pct_change if "URANIUM" in comm else 3.2
-
-        kp_peak, kp_latest, kp_scale, kp_risk, kp_level = self.fetch_noaa_kp_7d(fetch_network=fetch_network)
-        sig_counts = self.scan_corridor_signals(archives=archives)
-
-        def score_node(c_key: str, pct_move: float, invert_stress: bool = False) -> Tuple[str, str]:
-            total_m, stress_m = sig_counts.get(c_key, (4, 1))
-            stress_ratio = (stress_m / max(1, total_m))
-            if abs(pct_move) >= 7.5 or (stress_m >= 8 and stress_ratio >= 0.45):
-                return ("STRESS // VOLATILE" if invert_stress else "HIGH VELOCITY", "stress" if invert_stress else "elevated")
-            if abs(pct_move) >= 3.5 or stress_m >= 4:
-                return ("ELEVATED WATCH" if invert_stress else "ACTIVE BUILD", "elevated" if invert_stress else "nominal")
-            return ("NOMINAL FLOW", "nominal")
-
-        us_lbl, us_lvl = score_node("us_grid", grid_pct, invert_stress=False)
-        eu_lbl, eu_lvl = score_node("eu_grid", ng_pct, invert_stress=True)
-        hmz_lbl, hmz_lvl = score_node("hormuz", wti_pct, invert_stress=True)
-        ru_lbl, ru_lvl = score_node("russia_arctic", ura_pct, invert_stress=True)
-        cn_lbl, cn_lvl = score_node("china_taiwan", hg_pct, invert_stress=False)
-
-        # If Hormuz has heavy geopolitical headlines or huge oil swing, mark elevated/stress
-        if abs(wti_pct) >= 6.0 or sig_counts.get("hormuz", (0, 0))[1] >= 4:
-            hmz_lbl, hmz_lvl = "CHOKEPOINT WATCH", "elevated" if abs(wti_pct) < 9.5 else "stress"
-
+        """
+        Builds the 4-Superpower Grid Scale vs. New Power Buildout payload for:
+          1. China:         3,350 GW existing | +370.0 GW/yr new buildout (+11.0% / yr)
+          2. United States: 1,300 GW existing |  +62.0 GW/yr new buildout ( +4.8% / yr)
+          3. Europe (EU):   1,120 GW existing |  +68.0 GW/yr new buildout ( +6.1% / yr)
+          4. Russia:          270 GW existing |   +6.5 GW/yr new buildout ( +2.4% / yr)
+        """
         nodes = [
             {
                 "node_id": "us_grid",
-                "code": "01",
-                "name": "U.S. GRID (ERCOT/PJM)",
-                "lon": -97.0,
-                "lat": 37.0,
-                "metric_line": f"1.30 TW | GRID {self._fmt_pct(grid_pct)}",
-                "status": us_lvl,
+                "code": "US",
+                "name": "UNITED STATES",
+                "lon": -98.0,
+                "lat": 39.0,
+                "metric_line": "EXISTING: 1,300 GW\nBUILDOUT: +62 GW/yr (+4.8%)",
+                "status": "elevated",
                 "label_dx": -16.0,
-                "label_dy": -21.0,
+                "label_dy": -26.0,
+                "existing_gw": 1300.0,
+                "buildout_gw": 62.0,
             },
             {
                 "node_id": "eu_grid",
-                "code": "02",
-                "name": "EUROPEAN GRID",
-                "lon": 10.0,
+                "code": "EU",
+                "name": "EUROPE (EU)",
+                "lon": 11.0,
                 "lat": 50.0,
-                "metric_line": f"1.12 TW | GAS {self._fmt_pct(ng_pct)}",
-                "status": eu_lvl,
-                "label_dx": -44.0,
-                "label_dy": 4.0,
+                "metric_line": "EXISTING: 1,120 GW\nBUILDOUT: +68 GW/yr (+6.1%)",
+                "status": "elevated",
+                "label_dx": -46.0,
+                "label_dy": -4.0,
+                "existing_gw": 1120.0,
+                "buildout_gw": 68.0,
             },
             {
-                "node_id": "hormuz",
-                "code": "03",
-                "name": "STRAIT OF HORMUZ",
+                "node_id": "russia_grid",
+                "code": "RU",
+                "name": "RUSSIA",
                 "lon": 56.0,
-                "lat": 26.0,
-                "metric_line": f"WTI ${wti_price:.0f} ({self._fmt_pct(wti_pct)})",
-                "status": hmz_lvl,
-                "label_dx": -24.0,
-                "label_dy": -34.0,
+                "lat": 59.0,
+                "metric_line": "EXISTING: 270 GW\nBUILDOUT: +6.5 GW/yr (+2.4%)",
+                "status": "stress",
+                "label_dx": -18.0,
+                "label_dy": -46.0,
+                "existing_gw": 270.0,
+                "buildout_gw": 6.5,
             },
             {
-                "node_id": "russia_arctic",
-                "code": "04",
-                "name": "RUSSIA / ARCTIC",
-                "lon": 78.0,
-                "lat": 60.0,
-                "metric_line": f"0.27 TW | URA {self._fmt_pct(ura_pct)}",
-                "status": ru_lvl,
-                "label_dx": 38.0,
-                "label_dy": 4.0,
-            },
-            {
-                "node_id": "china_taiwan",
-                "code": "05",
-                "name": "CHINA / TAIWAN",
-                "lon": 119.0,
-                "lat": 26.0,
-                "metric_line": f"3.35 TW | HG {self._fmt_pct(hg_pct)}",
-                "status": cn_lvl,
-                "label_dx": 12.0,
-                "label_dy": -28.0,
+                "node_id": "china_grid",
+                "code": "CN",
+                "name": "CHINA",
+                "lon": 106.0,
+                "lat": 34.0,
+                "metric_line": "EXISTING: 3,350 GW\nBUILDOUT: +370 GW/yr (+11.0%)",
+                "status": "nominal",
+                "label_dx": 22.0,
+                "label_dy": -36.0,
+                "existing_gw": 3350.0,
+                "buildout_gw": 370.0,
             },
         ]
 
-        # 4 Compact Color-Coded HTML Telemetry Strip Rows
-        row1_status = "ACTIVE BUILD" if grid_pct >= 0 and hg_pct >= 0 else "LOAD TIGHT"
-        row1_level = "nominal" if (grid_pct >= -1.0 and hg_pct >= -1.0) else "elevated"
-
-        row2_level = eu_lvl
-        row2_status = "GAS REPRICING" if abs(ng_pct) >= 4.0 else "STABLE MIX"
-
-        row3_level = hmz_lvl
-        row3_status = "CORRIDOR STRESS" if hmz_lvl == "stress" else ("TRANSIT WATCH" if hmz_lvl == "elevated" else "FLOW NOMINAL")
-
-        row4_level = "stress" if kp_level == "stress" else ("elevated" if (kp_level == "elevated" or ru_lvl != "nominal") else "nominal")
-        row4_status = kp_scale if kp_level != "nominal" else "QUIET // G0"
-
         strip_rows = [
             {
-                "corridor_label": "[01/05] U.S. vs. China Grid",
-                "baseline_spec": "US 1.30 TW (94 Nucl) · CN 3.35 TW (28 Const)",
-                "weekly_pulse": f"GRID {self._fmt_pct(grid_pct)} | HG {self._fmt_pct(hg_pct)}",
-                "pulse_trend": "up" if (grid_pct + hg_pct) >= 0 else "down",
-                "status_label": row1_status,
-                "status_level": row1_level,
+                "corridor_label": "China",
+                "baseline_spec": "3,350 GW (3.35 TW · 56 Active Nuclear)",
+                "weekly_pulse": "+370.0 GW/yr (Solar, Wind, Coal, 28 Nuclear)",
+                "pulse_trend": "up",
+                "status_label": "+11.0% / YR (RAPID)",
+                "status_level": "nominal",
             },
             {
-                "corridor_label": "[02] European Grid Corridor",
-                "baseline_spec": "1.12 TW (100 Nucl) · Atlantic LNG & Wind Mix",
-                "weekly_pulse": f"NG=F {self._fmt_pct(ng_pct)} | {sig_counts['eu_grid'][0]} Signals",
-                "pulse_trend": "down" if ng_pct < -2.0 else ("warn" if ng_pct > 4.0 else "neutral"),
-                "status_label": row2_status,
-                "status_level": row2_level,
+                "corridor_label": "Europe (EU)",
+                "baseline_spec": "1,120 GW (1.12 TW · 100 Active Nuclear)",
+                "weekly_pulse": "+68.0 GW/yr (Wind, Solar, Interconnects)",
+                "pulse_trend": "warn",
+                "status_label": "+6.1% / YR (MODERATE)",
+                "status_level": "elevated",
             },
             {
-                "corridor_label": "[03] Strait of Hormuz / Red Sea",
-                "baseline_spec": "21M bbl/d Crude & 20% Global LNG Chokepoint",
-                "weekly_pulse": f"WTI ${wti_price:.1f} ({self._fmt_pct(wti_pct)})",
-                "pulse_trend": "warn" if abs(wti_pct) >= 5.0 else ("up" if wti_pct >= 0 else "down"),
-                "status_label": row3_status,
-                "status_level": row3_level,
+                "corridor_label": "United States",
+                "baseline_spec": "1,300 GW (1.30 TW · 94 Active Nuclear)",
+                "weekly_pulse": "+62.0 GW/yr (Solar, Storage, Gas, 2 Nuclear)",
+                "pulse_trend": "warn",
+                "status_label": "+4.8% / YR (MODERATE)",
+                "status_level": "elevated",
             },
             {
-                "corridor_label": "[04/HUD] Arctic & Space Weather",
-                "baseline_spec": "RU 0.27 TW (Rosatom) · NOAA Planetary Kp Index",
-                "weekly_pulse": f"URA {self._fmt_pct(ura_pct)} | Peak Kp {kp_peak:.2f}",
-                "pulse_trend": "warn" if kp_peak >= 5.0 else ("up" if ura_pct >= 0 else "neutral"),
-                "status_label": row4_status,
-                "status_level": row4_level,
+                "corridor_label": "Russia",
+                "baseline_spec": "270 GW (0.27 TW · 36 Active Nuclear)",
+                "weekly_pulse": "+6.5 GW/yr (Rosatom VVER & Thermal)",
+                "pulse_trend": "down",
+                "status_label": "+2.4% / YR (SLOW)",
+                "status_level": "stress",
             },
         ]
 
         footnote = (
-            "Baselines: EIA / Ember / IAEA PRIS installed capacity (TW) & active/building nuclear fleet. "
-            "7D Pulse: Smart Grid Hardware (GRID), Copper (HG=F), NatGas (NG=F), WTI Crude (CL=F), Uranium (URA), & NOAA SWPC Planetary Kp."
+            "Sources: EIA, Ember Global Electricity Review, NEA China, ENTSO-E, and IAEA PRIS. "
+            "Inner blue circles scale with existing installed grid capacity (GW); outer rings scale with annual new capacity additions (+GW/yr)."
         )
 
         return WorldMapTelemetryReport(
             nodes=nodes,
             strip_rows=strip_rows,
-            kp_peak=kp_peak,
-            kp_latest=kp_latest,
-            kp_scale_label=kp_scale,
-            kp_risk_label=kp_risk,
-            kp_status_level=kp_level,
+            kp_peak=0.0,
+            kp_latest=0.0,
+            kp_scale_label="",
+            kp_risk_label="",
+            kp_status_level="nominal",
             footnote=footnote,
         )
 

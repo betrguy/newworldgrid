@@ -1,33 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: MIDDLE EAST TENSIONS SPILL OVER INTO GLOBAL ENERGY MARKETS. Geopolitical tensions in the Middle East, as evidenced by increased tanker att..."
+description: "State of the Grid: RUSSIA LAUNCHED OVERNIGHT ASSAULT ON UKRAINE'S NUCLEAR POWER GRID.. Geopolitical tensions and targeted attacks on energy infrastructure hi..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 06, 2026 - 08:27</span>
+  <span class="sotg-timestamp">November 07, 2026 - 08:00</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Geopolitical tensions and increased tanker attacks in the Middle East could disrupt global energy supplies, potentially impacting power markets and grid stability. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Geopolitical tensions in the Middle East, as evidenced by increased tanker attacks and rising oil exports, could disrupt global energy flows, posing a direct threat to supply chains and potentially leading to supply disruptions and increased energy price volatility. This instability could strain grid resilience, particularly in regions heavily dependent on imported oil, such as the United States, where domestic grid stability might be impacted by political developments from the U.S. midterm elections, which could affect regional energy policies and trade relations.</p>
+<p class="meridian-lede">Geopolitical tensions and targeted attacks on energy infrastructure highlight the fragility of global grid resilience. Russia's overnight assault on substations linking Kyiv to nuclear power plants underscores the vulnerability of critical energy nodes, potentially leading to localized outages and strain on the Ukrainian grid. These incidents underscore the need for enhanced cybersecurity measures and robust backup systems to mitigate the impact of such disruptions.</p>
+
+The U.S. Treasury's sanctions on Canadian money-exchange firms for their role in evading Iran sanctions further complicate the geopolitical landscape. While this action aims to enforce compliance, it could inadvertently disrupt energy trade flows, affecting global energy markets. Such disruptions could pose challenges for grid stability, particularly in regions dependent on international energy trade, necessitating closer monitoring of supply chain vulnerabilities and the development of alternative energy sources to ensure grid reliability.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Increased tanker attacks in the Middle East threaten global energy supply chains and could lead to higher energy prices.</li>
-  <li><strong>The big picture:</strong> Geopolitical tensions could strain grid resilience in regions dependent on imported oil, impacting overall energy security.</li>
-  <li><strong>What to watch:</strong> Domestic grid stability in the United States during the midterm elections and how it may affect energy policies and trade relations.</li>
+  <li><strong>Why it matters:</strong> Cyberattacks on energy infrastructure highlight the intersection of defense and geopolitics.</li>
+  <li><strong>The big picture:</strong> These incidents underscore the need for integrated cybersecurity and energy grid resilience strategies.</li>
+  <li><strong>What to watch:</strong> Developments in international energy trade and grid stability in regions dependent on external supplies.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 2.3, with a 24-hour average of 1.86 and a peak of 2.7, indicating a Quiet condition. During Quiet periods, satellite operations and HF radio communications remain stable, and the power grid shows minimal risk of geomagnetically induced currents.
+The current 24-hour geomagnetic condition is labeled as Unsettled with a Kp index of 2.81 (peak 3.3). This level can cause minor disruptions to satellite operations and affect HF radio communications, especially over polar regions. Power grid stability remains generally unaffected, but utility companies may monitor for potential impacts.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -41,6 +43,13 @@ The current Kp index is 2.3, with a 24-hour average of 1.86 and a peak of 2.7, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 06, 2026</span>
+        <a href="/archive/grid/2026-11-06-middle-east-tensions-spill-over" class="archive-link">MIDDLE EAST TENSIONS SPILL OVER INTO GLOBAL ENERGY MARKETS</a>
+      </div>
+      <div class="archive-preview">Geopolitical tensions and increased tanker attacks in the Middle East could disrupt global energy supplies, potentially impacting power...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 06, 2026</span>
@@ -117,13 +126,6 @@ The current Kp index is 2.3, with a 24-hour average of 1.86 and a peak of 2.7, i
         <a href="/archive/grid/2026-10-27-us-gas-prices-soar-amid" class="archive-link">US Gas Prices Soar Amid Iran Tensions, Straining Grid Stability</a>
       </div>
       <div class="archive-preview">Record gas price hikes in the U.S. underscore the vulnerability of the grid to external geopolitical tensions, particularly with Iran.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 27, 2026</span>
-        <a href="/archive/grid/2026-10-27-radio-waves-unlock-fusion-plasma" class="archive-link">Radio Waves Unlock Fusion Plasma Current, Paving Path to Continuous Reactor Operation</a>
-      </div>
-      <div class="archive-preview">Radio waves have been successfully used to drive a fusion plasma current, potentially enabling continuous reactor operation.</div>
     </div>
   </div>
 </div>
