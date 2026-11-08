@@ -227,22 +227,16 @@ class TestNewsletterIsolationAndEngine(unittest.TestCase):
             f"Unexpected opening: {horizon_text}",
         )
 
-        # Verify Data Element #1 ('The Real' World Map + 4-row HTML telemetry strip) is live & populated
+        # Verify Data Element #1 ('The Real' World Map) is live & populated (with no redundant table underneath)
         self.assertIsInstance(real_data_slot, WorldMapTelemetryBlock)
         self.assertFalse(real_data_slot.is_placeholder)
         self.assertEqual(len(real_data_slot.nodes), 4)
-        self.assertEqual(len(real_data_slot.strip_rows), 4)
         html_out, text_out, attachments = builder.render(unsubscribe_email="reader@example.com")
         self.assertEqual(len(attachments), 1)
         self.assertEqual(attachments[0].chart_id, "the_real_grid_capacity_slot@thenewworldgrid.com")
         self.assertTrue(attachments[0].png_bytes.startswith(b"\x89PNG\r\n\x1a\n"))
-        self.assertIn("China", html_out)
-        self.assertIn("Europe (EU)", html_out)
-        self.assertIn("United States", html_out)
-        self.assertIn("Russia", html_out)
-        self.assertIn("POWER BLOC", html_out)
-        self.assertIn("EXISTING GRID", html_out)
-        self.assertIn("NEW POWER BUILDOUT", html_out)
+        self.assertIn("Current world grid capacity vs projected annual growth", html_out)
+        self.assertNotIn("POWER BLOC", html_out)
 
         # Verify remaining 2 paired chart/visual slots remain in placeholder mode until built
         self.assertTrue(markets_chart_slot.is_placeholder)

@@ -1,35 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Ukraine's Nuclear Grid Teeters on Brink of Collapse. Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclea..."
+description: "State of the Grid: ZAPORIZHZZHIA POWER OUTAGE EXPOSES GLOBAL ENERGY INFRASTRUCTURE WEAKNESS. The Zaporizhzhia Nuclear Plant's loss of external power supply u..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 07, 2026 - 08:27</span>
+  <span class="sotg-timestamp">November 08, 2026 - 08:00</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid, raising concerns about energy security in the region. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Zaporizhzhia Nuclear Plant's loss of external power supply amid geopolitical tensions highlights a critical vulnerability in global energy infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrastructure, highlighting the vulnerability of critical energy nodes. These incidents underscore the need for enhanced cybersecurity measures and robust backup systems to mitigate the impact of such disruptions, particularly in regions dependent on nuclear power plants.</p>
+<p class="meridian-lede">The Zaporizhzhia Nuclear Plant's loss of external power supply underscores the critical nature of grid resilience. This event highlights the potential for physical disruptions to major energy infrastructure, which could have cascading effects on regional stability and power supply.</p>
 
-The U.S. Treasury's sanctions on Canadian money-exchange firms for their role in evading Iran sanctions further complicate the geopolitical landscape. While this action aims to enforce compliance, it could inadvertently disrupt energy trade flows, affecting global energy markets. Such disruptions could pose challenges for grid stability, particularly in regions dependent on international energy trade, necessitating closer monitoring of supply chain vulnerabilities and the development of alternative energy sources to ensure grid reliability.
+Geopolitical tensions, exemplified by renewed U.S. strikes on Iran's defenses, complicate the international energy trade landscape. These actions may disrupt supply chains and increase the risk of cyber and physical attacks on energy assets, necessitating enhanced cybersecurity measures and robust backup systems to ensure grid stability.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Overnight attacks on substations near Kyiv highlight the vulnerability of critical energy infrastructure.</li>
-  <li><strong>The big picture:</strong> These incidents underscore the need for enhanced cybersecurity measures and robust backup systems.</li>
-  <li><strong>What to watch:</strong> Monitoring the impact on Ukraine's nuclear power grid and broader energy stability.</li>
+  <li><strong>Why it matters:</strong> The loss of power at Zaporizhzhia Nuclear Plant highlights the vulnerability of critical energy infrastructure to geopolitical tensions.</li>
+  <li><strong>The big picture:</strong> This event underscores the need for enhanced cybersecurity and robust backup systems to prevent cascading failures in energy markets.</li>
+  <li><strong>What to watch:</strong> Monitoring the response of international energy markets to geopolitical events and cyber threats.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition, marked by a Kp peak and average of 3.3, is labeled Unsettled. This can lead to mild to moderate disruptions in satellite operations and potential impacts on HF radio communications, especially at higher latitudes. Power grid stability may be affected with minor fluctuations requiring increased monitoring.
+The current Kp index is 3.3, with a 24-hour average of 3.86 and a peak of 5.3, indicating a geomagnetic storm condition. This storm can increase radiation exposure for satellites, disrupt HF radio communications, and compromise power grid stability, raising the risk of voltage fluctuations and surges.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -43,6 +43,13 @@ The current 24-hour geomagnetic condition, marked by a Kp peak and average of 3.
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 07, 2026</span>
+        <a href="/archive/grid/2026-11-07-ukraines-nuclear-grid-teeters-on" class="archive-link">Ukraine's Nuclear Grid Teeters on Brink of Collapse</a>
+      </div>
+      <div class="archive-preview">Attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid, raising concerns about energy security in the region.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 07, 2026</span>
@@ -119,13 +126,6 @@ The current 24-hour geomagnetic condition, marked by a Kp peak and average of 3.
         <a href="/archive/grid/2026-10-31-moon-nuclear-race-heats-up" class="archive-link">MOON NUCLEAR RACE HEATS UP AS US, RUSSIA, CHINA VYE FOR LUNAR ENERGY DOMINANCE</a>
       </div>
       <div class="archive-preview">The United States and Iran are engaging in talks on Lebanon and sanctions, signaling potential geopolitical shifts that could impact...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Oct 30, 2026</span>
-        <a href="/archive/grid/2026-10-30-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">Russian developments threaten U.S. grid security with plans for nuclear-armed satellites, while ongoing conflicts continue to disrupt...</div>
     </div>
   </div>
 </div>

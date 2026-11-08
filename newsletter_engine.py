@@ -750,9 +750,11 @@ class WorldMapTelemetryBlock:
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
-        from matplotlib.patches import Polygon as MplPolygon, Rectangle
+        from matplotlib.patches import FancyBboxPatch, Polygon as MplPolygon, Rectangle
 
-        fig, ax = plt.subplots(figsize=(7.2, 2.88), dpi=175)
+        # Default 10%+ zoomed-in viewport focused on US, Europe, Russia, and China:
+        # Lon: -145 to 160 (width = 305), Total Y: -75 to 82.5 (height = 157.5) -> aspect = 0.5164 -> figsize=(7.2, 3.72)
+        fig, ax = plt.subplots(figsize=(7.2, 3.72), dpi=175)
         ocean_bg = "#090d16"
         land_fill = "#111826"
         land_edge = "#1e2c42"
@@ -763,17 +765,17 @@ class WorldMapTelemetryBlock:
 
         fig.patch.set_facecolor(ocean_bg)
         ax.set_facecolor(ocean_bg)
-        ax.set_xlim(-175, 180)
-        ax.set_ylim(-58, 84)
+        ax.set_xlim(-145, 160)
+        ax.set_ylim(-75, 82.5)
         ax.set_aspect("equal", adjustable="box")
         ax.axis("off")
 
-        # 1. Subtle Latitude / Longitude Graticule Grid
-        for lon_g in range(-150, 180, 30):
-            ax.plot([lon_g, lon_g], [-46, 73], color=grid_line, linewidth=0.55, linestyle=":", zorder=1)
-        for lat_g in (-40, -20, 20, 40, 60):
-            ax.plot([-172, 177], [lat_g, lat_g], color=grid_line, linewidth=0.55, linestyle=":", zorder=1)
-        ax.plot([-172, 177], [0, 0], color="#1e293b", linewidth=0.75, linestyle="--", zorder=1)
+        # 1. Subtle Latitude / Longitude Graticule Grid (Map Region: Lat -28 to 72)
+        for lon_g in range(-120, 160, 30):
+            ax.plot([lon_g, lon_g], [-28, 72], color=grid_line, linewidth=0.55, linestyle=":", zorder=1)
+        for lat_g in (-20, 20, 40, 60):
+            ax.plot([-143, 158], [lat_g, lat_g], color=grid_line, linewidth=0.55, linestyle=":", zorder=1)
+        ax.plot([-143, 158], [0, 0], color="#1e293b", linewidth=0.75, linestyle="--", zorder=1)
 
         # 2. Continents & Highlighted 4 Superpower Territories (U.S., Europe, Russia, China)
         vec_path = Path(__file__).parent / "world_map_vectors.json"
@@ -804,25 +806,23 @@ class WorldMapTelemetryBlock:
                             closed=True,
                             facecolor=bloc_fill,
                             edgecolor=bloc_edge,
-                            linewidth=0.7,
+                            linewidth=0.75,
                             zorder=2.6,
                         )
                         ax.add_patch(b_poly)
             except Exception:
                 pass
 
-        # 3. Plot the 4 Superpowers:
-        #    - Inner Solid Blue Circle (#38bdf8) scaled to EXISTING GRID SIZE (GW)
-        #    - Outer Glowing Ring (Green/Amber/Red) scaled to NEW POWER BUILDOUT (+GW/yr)
+        # 3. Plot the 4 Superpower Dots on the Map (kept in exact geographic position):
+        #    - Inner Solid Blue Circle (#38bdf8) scaled to CURRENT CAPACITY (GW)
+        #    - Outer Glowing Ring (Green/Amber/Red) scaled to PROJECTED BUILDOUT (+GW/yr)
         total_existing = sum(n.existing_gw for n in self.nodes)
         total_buildout = sum(n.buildout_gw for n in self.nodes)
 
         for node in self.nodes:
             build_col = self._status_hex(node.status)
-            # Inner solid circle area proportional to Existing Grid Capacity (GW)
-            core_size = max(45.0, (node.existing_gw / 3350.0) * 480.0)
-            # Outer ring area adds proportionally to New Power Buildout (+GW/yr)
-            buildout_ring_add = max(26.0, (node.buildout_gw / 370.0) * 520.0)
+            core_size = max(55.0, (node.existing_gw / 3350.0) * 560.0)
+            buildout_ring_add = max(32.0, (node.buildout_gw / 370.0) * 600.0)
             ring_size = core_size + buildout_ring_add
 
             # Soft outer glow scaled to buildout
@@ -844,75 +844,59 @@ class WorldMapTelemetryBlock:
                 s=ring_size,
                 facecolors="none",
                 edgecolors=build_col,
-                linewidths=1.8,
+                linewidths=1.9,
                 alpha=0.98,
                 zorder=5.5,
             )
-            # Inner solid circle (Existing Grid Size)
+            # Inner solid circle (Current Grid Size)
             ax.scatter(
                 [node.lon],
                 [node.lat],
                 s=core_size,
                 color="#38bdf8",
                 edgecolors="#f8fafc",
-                linewidths=0.9,
+                linewidths=0.95,
                 alpha=0.98,
                 zorder=6,
             )
 
-            box_x = node.lon + node.label_dx
-            box_y = node.lat + node.label_dy
-            ax.plot([node.lon, box_x], [node.lat, box_y], color=build_col, linewidth=1.0, alpha=0.9, zorder=5)
-
-            callout_text = f"{node.name}\n{node.metric_line}"
-            ax.text(
-                box_x,
-                box_y,
-                callout_text,
-                fontsize=6.1,
-                fontfamily="monospace",
-                fontweight="bold",
-                color="#f8fafc",
-                ha="center",
-                va="center",
-                zorder=8,
-                bbox=dict(
-                    boxstyle="round,pad=0.36,rounding_size=0.2",
-                    facecolor="#0b1322",
-                    edgecolor=build_col,
-                    linewidth=1.15,
-                    alpha=0.94,
-                ),
-            )
-
-        # 4. Top Header Bar (Lat 73 to 84)
-        top_bar = Rectangle((-175, 73.0), 355, 11.0, facecolor="#050811", edgecolor="#1e293b", linewidth=0.8, zorder=9)
+        # 4. Top Header Bar (Lat 72 to 82.5) — Clean Legend Only
+        top_bar = Rectangle((-145, 72.0), 305, 10.5, facecolor="#050811", edgecolor="#1e293b", linewidth=0.8, zorder=9)
         ax.add_patch(top_bar)
+        ax.scatter([-137], [77.2], s=38, color="#38bdf8", edgecolors="#ffffff", linewidths=0.8, zorder=10)
         ax.text(
-            -169,
-            78.2,
-            "SUPERPOWER GRID SCALE (GW) vs. NEW POWER BUILDOUT (+GW/YR)",
-            fontsize=6.8,
+            -131,
+            77.2,
+            "CURRENT CAPACITY (GW)",
+            fontsize=6.5,
             fontfamily="monospace",
             fontweight="bold",
-            color="#38bdf8",
+            color="#e2e8f0",
             va="center",
             ha="left",
             zorder=10,
         )
-        # Visual Legend on Top Right
-        ax.scatter([36], [78.2], s=32, color="#38bdf8", edgecolors="#ffffff", linewidths=0.7, zorder=10)
-        ax.text(42, 78.2, "EXISTING GRID (GW)", fontsize=5.8, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
-        ax.scatter([112], [78.2], s=54, facecolors="none", edgecolors="#10b981", linewidths=1.7, zorder=10)
-        ax.text(119, 78.2, "NEW BUILDOUT (+GW/YR)", fontsize=5.8, fontfamily="monospace", color="#10b981", va="center", zorder=10)
+        ax.scatter([-34], [77.2], s=62, facecolors="none", edgecolors="#10b981", linewidths=1.8, zorder=10)
+        ax.text(
+            -27,
+            77.2,
+            "PROJECTED GRID CAPACITY (+GW/YR)",
+            fontsize=6.5,
+            fontfamily="monospace",
+            fontweight="bold",
+            color="#10b981",
+            va="center",
+            ha="left",
+            zorder=10,
+        )
 
-        # 5. Bottom Summary Bar (Lat -58 to -46.5)
-        bot_bar = Rectangle((-175, -58.0), 355, 11.5, facecolor="#050811", edgecolor="#1e293b", linewidth=0.8, zorder=9)
+        # 5. Middle Summary Bar (Lat -39.0 to -28.0)
+        bot_bar = Rectangle((-145, -39.0), 305, 11.0, facecolor="#050811", edgecolor="#1e293b", linewidth=0.8, zorder=9)
         ax.add_patch(bot_bar)
         ax.text(
-            -169,
-            -52.2,
-            f"4-BLOC INSTALLED BASELINE: {total_existing:,.0f} GW  //  ACTIVE NEW BUILDOUT: +{total_buildout:,.1f} GW/YR",
+            -140,
+            -33.5,
+            f"TOTAL GRID CAPACITY: {total_existing:,.0f} GW  //  ACTIVE NEW BUILDOUT: +{total_buildout:,.1f} GW/YR",
             fontsize=6.2,
             fontfamily="monospace",
             fontweight="bold",
@@ -921,13 +905,129 @@ class WorldMapTelemetryBlock:
             ha="left",
             zorder=10,
         )
-        # Buildout Pace Legend on Bottom Right
-        ax.scatter([48], [-52.2], s=22, color="#10b981", zorder=10)
-        ax.text(53, -52.2, "RAPID (>8%/yr)", fontsize=5.7, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
-        ax.scatter([103], [-52.2], s=22, color="#f59e0b", zorder=10)
-        ax.text(108, -52.2, "MODERATE (4-8%)", fontsize=5.7, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
-        ax.scatter([158], [-52.2], s=22, color="#ef4444", zorder=10)
-        ax.text(163, -52.2, "SLOW", fontsize=5.7, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
+        # Buildout Pace Legend on Right
+        ax.scatter([39], [-33.5], s=22, color="#10b981", zorder=10)
+        ax.text(43.5, -33.5, "RAPID (>8%/yr)", fontsize=5.7, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
+        ax.scatter([89], [-33.5], s=22, color="#f59e0b", zorder=10)
+        ax.text(93.5, -33.5, "MODERATE (4-8%)", fontsize=5.7, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
+        ax.scatter([140], [-33.5], s=22, color="#ef4444", zorder=10)
+        ax.text(144.5, -33.5, "SLOW", fontsize=5.7, fontfamily="monospace", color="#cbd5e1", va="center", zorder=10)
+
+        # 6. Enlarged Bottom Footer Dock (Lat -75 to -39): 4 Superpower Cards in One Horizontal Row
+        footer_dock = Rectangle((-145, -75.0), 305, 36.0, facecolor="#04070f", edgecolor="#1e293b", linewidth=0.8, zorder=8.5)
+        ax.add_patch(footer_dock)
+
+        card_w = 72.8
+        card_h = 28.6
+        card_gap = 2.6
+        start_x = -142.0
+        box_y = -57.0
+
+        for idx, node in enumerate(self.nodes[:4]):
+            build_col = self._status_hex(node.status)
+            card_left = start_x + idx * (card_w + card_gap)
+            left_x = card_left + 3.0
+            right_x = card_left + card_w - 3.0
+
+            raw_lines = [ln.strip() for ln in node.metric_line.splitlines() if ln.strip()]
+            parsed_rows: List[Tuple[str, str]] = []
+            for ln in raw_lines[:2]:
+                if ":" in ln:
+                    k_str, v_str = ln.split(":", 1)
+                    parsed_rows.append((k_str.strip(), v_str.strip()))
+                else:
+                    parsed_rows.append(("", ln))
+
+            card_patch = FancyBboxPatch(
+                (card_left, box_y - card_h / 2.0),
+                card_w,
+                card_h,
+                boxstyle="round,pad=0.0,rounding_size=2.2",
+                facecolor="#080f1e",
+                edgecolor=build_col,
+                linewidth=1.25,
+                alpha=0.98,
+                zorder=9.5,
+            )
+            ax.add_patch(card_patch)
+
+            # Header Row: Left-Aligned Larger Country Name + Right Status Dot
+            y_hdr = box_y + 8.3
+            ax.text(
+                left_x,
+                y_hdr,
+                node.name,
+                fontsize=8.3,
+                fontfamily="sans-serif",
+                fontweight="bold",
+                color="#ffffff",
+                ha="left",
+                va="center",
+                zorder=10,
+            )
+            ax.scatter([right_x - 1.0], [y_hdr], s=22, color=build_col, zorder=10)
+
+            # Subtle Horizontal Divider Line
+            y_div = box_y + 2.8
+            ax.plot([left_x, right_x], [y_div, y_div], color="#1e293b", linewidth=0.85, zorder=9.8)
+
+            # Row 1 (Existing Capacity): Label Left, Value Right
+            if len(parsed_rows) >= 1:
+                lbl1, val1 = parsed_rows[0]
+                y_r1 = box_y - 2.6
+                ax.text(
+                    left_x,
+                    y_r1,
+                    lbl1,
+                    fontsize=6.0,
+                    fontfamily="monospace",
+                    fontweight="bold",
+                    color="#94a3b8",
+                    ha="left",
+                    va="center",
+                    zorder=10,
+                )
+                ax.text(
+                    right_x,
+                    y_r1,
+                    val1,
+                    fontsize=6.5,
+                    fontfamily="monospace",
+                    fontweight="bold",
+                    color="#38bdf8",
+                    ha="right",
+                    va="center",
+                    zorder=10,
+                )
+
+            # Row 2 (Buildout): Label Left, Value Right
+            if len(parsed_rows) >= 2:
+                lbl2, val2 = parsed_rows[1]
+                y_r2 = box_y - 8.8
+                ax.text(
+                    left_x,
+                    y_r2,
+                    lbl2,
+                    fontsize=6.0,
+                    fontfamily="monospace",
+                    fontweight="bold",
+                    color="#94a3b8",
+                    ha="left",
+                    va="center",
+                    zorder=10,
+                )
+                ax.text(
+                    right_x,
+                    y_r2,
+                    val2,
+                    fontsize=6.5,
+                    fontfamily="monospace",
+                    fontweight="bold",
+                    color=build_col,
+                    ha="right",
+                    va="center",
+                    zorder=10,
+                )
 
         fig.subplots_adjust(left=0.0, right=1.0, top=1.0, bottom=0.0)
         buf = io.BytesIO()
@@ -939,33 +1039,6 @@ class WorldMapTelemetryBlock:
     def get_cid(self) -> str:
         clean_id = re.sub(r"[^a-zA-Z0-9_.-]", "_", self.slot_id)
         return f"{clean_id}@thenewworldgrid.com"
-
-    @staticmethod
-    def _render_status_pill(label: str, level: str) -> str:
-        safe_lbl = sanitize_cell_value(label)
-        lvl = (level or "nominal").lower()
-        if lvl in ("stress", "critical", "high"):
-            bg, fg, border = "#fee2e2", "#991b1b", "#fca5a5"
-        elif lvl in ("elevated", "watch", "moderate", "warn"):
-            bg, fg, border = "#fef3c7", "#92400e", "#fcd34d"
-        else:
-            bg, fg, border = "#dcfce7", "#166534", "#86efac"
-        return (
-            f'<span style="display:inline-block;padding:2px 7px;background-color:{bg};color:{fg};'
-            f'border:1px solid {border};border-radius:3px;font-family:\'JetBrains Mono\',Consolas,monospace;'
-            f'font-size:10px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;">{safe_lbl}</span>'
-        )
-
-    @staticmethod
-    def _pulse_color(trend: str) -> str:
-        t = (trend or "neutral").lower()
-        if t == "up":
-            return "#059669"
-        if t == "down":
-            return "#dc2626"
-        if t == "warn":
-            return "#d97706"
-        return "#0f172a"
 
     def render_html(self) -> Tuple[str, Optional[InlineChartAttachment]]:
         safe_title = sanitize_cell_value(self.title)
@@ -985,10 +1058,9 @@ class WorldMapTelemetryBlock:
                 '<div style="padding:20px;border:1px dashed #cbd5e1;background-color:#f8fafc;'
                 'font-family:\'JetBrains Mono\',Consolas,monospace;font-size:12px;color:#64748b;'
                 'text-align:center;">'
-                f'[WORLD MAP TELEMETRY SLOT: {html.escape(self.slot_id)} — Awaiting global grid & chokepoint dataset]'
+                f'[WORLD MAP TELEMETRY SLOT: {html.escape(self.slot_id)} — Awaiting global grid dataset]'
                 '</div>'
             )
-            strip_html = ""
         else:
             cid = self.get_cid()
             attachment = InlineChartAttachment(
@@ -1000,59 +1072,15 @@ class WorldMapTelemetryBlock:
             map_html = (
                 f'<img src="cid:{cid}" alt="{safe_title}" width="550" '
                 f'style="display:block;width:100%;max-width:550px;height:auto;'
-                f'border:1px solid #0f172a;border-bottom:none;margin:0;" />'
-            )
-
-            # Build Flush 4-Row Compact Color-Coded HTML Telemetry Strip directly beneath the map canvas
-            tr_rows: List[str] = []
-            for idx, r in enumerate(self.strip_rows[:4]):
-                bg = "#ffffff" if idx % 2 == 0 else "#f8fafc"
-                safe_corridor = sanitize_cell_value(r.corridor_label)
-                safe_base = sanitize_cell_value(r.baseline_spec)
-                safe_pulse = sanitize_cell_value(r.weekly_pulse)
-                pulse_col = self._pulse_color(r.pulse_trend)
-                pill_html = self._render_status_pill(r.status_label, r.status_level)
-
-                tr_rows.append(
-                    f'<tr>'
-                    f'<td align="left" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
-                    f'font-family:\'JetBrains Mono\',Consolas,monospace;font-size:11px;font-weight:700;color:#0f172a;'
-                    f'white-space:nowrap;">{safe_corridor}</td>'
-                    f'<td align="left" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
-                    f'font-family:\'Source Sans Pro\',Arial,sans-serif;font-size:11.5px;color:#334155;">{safe_base}</td>'
-                    f'<td align="right" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
-                    f'font-family:\'JetBrains Mono\',Consolas,monospace;font-size:11px;font-weight:700;color:{pulse_col};'
-                    f'font-variant-numeric:tabular-nums;white-space:nowrap;">{safe_pulse}</td>'
-                    f'<td align="right" style="padding:7px 9px;background-color:{bg};border-bottom:1px solid #e2e8f0;'
-                    f'text-align:right;white-space:nowrap;">{pill_html}</td>'
-                    f'</tr>'
-                )
-
-            strip_html = (
-                '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
-                'style="border-collapse:collapse;border:1px solid #0f172a;border-top:2px solid #38bdf8;margin:0;">'
-                '<thead>'
-                '<tr style="background-color:#0f172a;">'
-                '<th align="left" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
-                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#94a3b8;">POWER BLOC</th>'
-                '<th align="left" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
-                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#38bdf8;">EXISTING GRID</th>'
-                '<th align="right" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
-                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#10b981;">NEW POWER BUILDOUT</th>'
-                '<th align="right" style="padding:6px 9px;font-family:\'JetBrains Mono\',Consolas,monospace;'
-                'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#94a3b8;">EXPANSION RATE</th>'
-                '</tr>'
-                '</thead>'
-                f'<tbody>{"".join(tr_rows)}</tbody>'
-                '</table>'
+                f'border:1px solid #0f172a;margin:0;" />'
             )
 
         foot_html = ""
         if self.footnote:
             safe_foot = sanitize_cell_value(self.footnote)
             foot_html = (
-                f'<div style="font-family:\'JetBrains Mono\',Consolas,monospace;font-size:10.5px;'
-                f'color:#64748b;margin-top:8px;line-height:1.45;">{safe_foot}</div>'
+                f'<div style="font-family:\'JetBrains Mono\',Consolas,monospace;font-size:8px;'
+                f'color:#94a3b8;margin-top:6px;line-height:1.3;">{safe_foot}</div>'
             )
 
         block_html = (
@@ -1062,12 +1090,9 @@ class WorldMapTelemetryBlock:
             '<tr><td style="padding:20px 24px;background-color:#ffffff;border:1px solid #e2e8f0;">'
             '<div style="font-family:\'JetBrains Mono\',Consolas,monospace;font-size:11px;'
             'font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#10b981;'
-            'margin:0 0 4px 0;">SUPERPOWER GRID TELEMETRY</div>'
-            f'<h3 style="font-family:Georgia,\'Libre Baskerville\',serif;font-size:18px;'
-            f'font-weight:700;color:#0f172a;margin:0 0 6px 0;">{safe_title}</h3>'
+            'margin:0 0 4px 0;">GLOBAL GRID TELEMETRY</div>'
             f'{sub_html}'
             f'{map_html}'
-            f'{strip_html}'
             f'{foot_html}'
             '</td></tr></table>\n'
             f'<!-- END ISOLATED WORLD MAP TELEMETRY BLOCK: {html.escape(self.slot_id)} -->'
@@ -1336,7 +1361,7 @@ def build_weekly_recap_scaffold(ref_dt: Optional[datetime.datetime] = None) -> N
     builder.add_block(
         WorldMapTelemetryBlock(
             slot_id="the_real_grid_capacity_slot",
-            title="Existing Grid Scale vs. New Power Buildout (U.S. · China · Europe · Russia)",
+            title="Current World Grid Capacity vs. Projected Annual Growth",
             is_placeholder=True,
         )
     )
@@ -1447,8 +1472,8 @@ def build_weekly_recap_edition(
         builder.add_block(
             WorldMapTelemetryBlock(
                 slot_id="the_real_grid_capacity_slot",
-                title="Existing Grid Scale vs. New Power Buildout (U.S. · China · Europe · Russia)",
-                subtitle="Installed generation capacity (GW) vs. active annual power buildout (+GW/yr) across the four primary power blocs.",
+                title="Current World Grid Capacity vs. Projected Annual Growth",
+                subtitle="Current world grid capacity vs projected annual growth",
                 nodes=map_nodes,
                 strip_rows=strip_rows,
                 kp_peak=gm.kp_peak,
@@ -1463,7 +1488,7 @@ def build_weekly_recap_edition(
         builder.add_block(
             WorldMapTelemetryBlock(
                 slot_id="the_real_grid_capacity_slot",
-                title="Existing Grid Scale vs. New Power Buildout (U.S. · China · Europe · Russia)",
+                title="Current World Grid Capacity vs. Projected Annual Growth",
                 is_placeholder=True,
             )
         )

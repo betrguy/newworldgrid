@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 08, 2026** | [ZAPORIZHZZHIA POWER OUTAGE EXPOSES GLOBAL ENERGY INFRASTRUCTURE WEAKNESS](/archive/grid/2026-11-08-zaporizhzzhia-power-outage-exposes-global) | The Zaporizhzhia Nuclear Plant's loss of external power supply underscores the critical nature of grid resilience. |
 | **Nov 07, 2026** | [Ukraine's Nuclear Grid Teeters on Brink of Collapse](/archive/grid/2026-11-07-ukraines-nuclear-grid-teeters-on) | Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrast... |
 | **Nov 07, 2026** | [Ukraine's Grid Teeters on Brink of Collapse](/archive/grid/2026-11-07-ukraines-grid-teeters-on-brink) | Overnight attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid and broader infrast... |
 | **Nov 07, 2026** | [RUSSIA LAUNCHED OVERNIGHT ASSAULT ON UKRAINE'S NUCLEAR POWER GRID.](/archive/grid/2026-11-07-russia-launched-overnight-assault-on) | Geopolitical tensions and targeted attacks on energy infrastructure highlight the fragility of global grid resilience. |
