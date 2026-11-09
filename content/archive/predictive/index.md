@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 09, 2026** | [RUSSIA UNLEASHES AI-FUELED DISINFORMATION CAMPAIGN & ECONOMIC CHALLENGES](/archive/predictive/2026-11-09-russia-unleashes-aifueled-disinformation-campaign) | Russia's multifaceted geopolitical maneuvers, including the use of AI for disinformation, concurrent economic challen... |
 | **Nov 08, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-11-08-strait-of-hormuz-flow-discrepancies) | Russian military actions and diplomatic pressures continue to drive global geopolitical tensions, with significant im... |
 | **Nov 07, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-11-07-usiran-gulf-maritime-escalation-strategic) | Tensions escalate globally, with critical conflicts in Gaza, Ukraine, and Iran heightening geopolitical risks. |
 | **Nov 07, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-11-07-lowcarbon-volcanic-rock-cement-ai) | Russia intensifies pressure on Ukraine ahead of talks, while Iran readies for potential conflict amid U.S. tensions. |

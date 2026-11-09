@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-08 08:01 UTC | 15 active regions</div>
+        <div class="meta">Generated 2026-11-09 08:01 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">15 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,215 +51,146 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UK",
-    "summary": "UK sees rise in EV sales, warns of Russian threat, welcomes Chinese tech.",
-    "emojis": "🪖⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "title": "SITREP: IRAN",
+    "summary": "G7 and Turkey oppose U.S. strikes on Iran; Russia aids, Iran faces economic challenges.",
+    "emojis": "💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "UK",
+      "G7 ministers",
+      "Turkey",
       "Russia",
-      "China"
+      "Iran"
     ],
-    "source_count": 3,
+    "source_count": 32,
+    "timestamp": "08:00 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel forms new drone battalions, amid regional tensions and domestic issues.",
+    "emojis": "✈️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "IDF",
+      "Turkey",
+      "UK Labour",
+      "US"
+    ],
+    "source_count": 31,
     "timestamp": "08:00 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Russian attacks target emergency crews, disrupt power; Zelenskiy seeks US support.",
-    "emojis": "💥⚔️🕊️",
+    "summary": "Nine foreigners arrested in South Africa for planning to fight in Ukraine; energy sites attacked by Russia and Ukraine ahead of talks.",
+    "emojis": "⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "South African police",
       "Russia",
-      "Ukraine",
-      "US"
+      "Ukraine"
     ],
-    "source_count": 28,
+    "source_count": 24,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia uses AI for fake videos, faces sanctions, and seeks security talks.",
+    "emojis": "🚫",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "Canada",
+      "Abu Dhabi"
+    ],
+    "source_count": 21,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK electric vehicle targets cut as AI sector booms.",
+    "emojis": "⚔️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK Government",
+      "AI Companies"
+    ],
+    "source_count": 5,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Russian Novaya Gazeta shuts newsroom.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Russian Novaya Gazeta"
+    ],
+    "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China tests tank microbubble system; Philippines rebukes officials over China comments; Taiwan receives F-16 jets amid tensions.",
-    "emojis": "✈️⚡",
+    "summary": "China rejects Nvidia spy claims, praises innovation, and extends entity list pause.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Philippines",
-      "Taiwan"
+      "Nvidia"
     ],
-    "source_count": 22,
+    "source_count": 20,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Russian-linked disinfo may fuel French unrest, CIA ex-officer warns.",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: YEMEN",
+    "summary": "Houthi rebels report 44 killed in airstrike near Yemeni capital.",
+    "emojis": "💥💀",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Russian-linked entities",
-      "CIA ex-officer"
-    ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces political and external challenges with coalition talks, military aid loss, and new government formation attempts.",
-    "emojis": "🪖",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Liberman",
-      "Trump",
-      "Eisenkot",
-      "Netanyahu"
-    ],
-    "source_count": 36,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran reports tanker fires in Strait of Hormuz; U.S., Israel tensions rise.",
-    "emojis": "☢️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "U.S.",
-      "Israel"
-    ],
-    "source_count": 29,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "California man urges immediate Tesla purchase.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
-    "actors": [
-      "California man",
-      "Tesla"
+      "Houthi rebels",
+      "Yemeni government"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Pakistan-built robots serve diners in Karachi restaurant.",
-    "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "title": "SITREP: GAZA",
+    "summary": "Gaza mudslide and sand embankment collapse kill nine, spark global criticism, US prepares for potential deployment.",
+    "emojis": "🚀🪖💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
     "actors": [
-      "Pakistan-built robots",
-      "Karachi diners"
+      "Gaza authorities",
+      "US military"
     ],
-    "source_count": 1,
+    "source_count": 3,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India ramps up electric auto rickshaw production.",
+    "summary": "Auto dealers in India struggle with low EV margins despite growing sales.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Indian factory",
-      "Electric auto rickshaws"
-    ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Heavy rain floods Gaza, prompting aid appeals from Palestinian church committee.",
-    "emojis": "",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Palestinian church committee",
-      "Gaza residents"
-    ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Israel seeks new government formation with Gadi Eisenkot.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Gadi Eisenkot"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Kushner proposes NATO-Russia Council model; Zaporizhzhia Nuclear Plant struggles with power supply.",
-    "emojis": "☢️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Kushner",
-      "Russia"
-    ],
-    "source_count": 6,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthi missiles attack Saudi Arabia, damaging towers and Aramco sites.",
-    "emojis": "⚔️🚀",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Houthi",
-      "Saudi Arabia"
-    ],
-    "source_count": 4,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan detains Communist Party leader over alleged Chinese election sponsorship.",
-    "emojis": "",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan",
-      "Communist Party leader"
-    ],
-    "source_count": 4,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "Iraq faces economic crisis due to oil price shock and currency devaluation.",
-    "emojis": "",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "Iraq"
+      "Auto Dealers",
+      "FADA"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
