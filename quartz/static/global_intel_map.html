@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-10 08:03 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-11-10 08:19 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,52 +51,84 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: IRAN",
+    "summary": "US and allies respond to Iran's missile policy amid American opposition to Iran war.",
+    "emojis": "🚀⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "France"
+    ],
+    "source_count": 34,
+    "timestamp": "08:17 AM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel prepares to swear in new parliament as leaders compete to form government amid internal and external political dynamics.",
-    "emojis": "",
+    "summary": "Israel's political landscape shifts with new parliament, amid tensions and rivalries.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Benjamin Netanyahu",
       "Gadi Eisenkot",
-      "Palestinians"
+      "Benjamin Netanyahu"
     ],
     "source_count": 30,
-    "timestamp": "08:02 AM"
+    "timestamp": "08:17 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "U.S.-brokered peace talks between Russia and Ukraine resume in Abu Dhabi.",
+    "summary": "U.S.-brokered peace talks between Russia and Ukraine held in Abu Dhabi.",
     "emojis": "🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
+      "U.S.",
       "Russia",
       "Ukraine"
     ],
-    "source_count": 32,
-    "timestamp": "08:02 AM"
+    "source_count": 31,
+    "timestamp": "08:17 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China’s oil imports rise, car exports surge, trade ties strengthen, despite tensions with Japan.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Japan",
+      "Canada"
+    ],
+    "source_count": 17,
+    "timestamp": "08:17 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK PM denies plans to cut electric vehicle sales targets.",
-    "emojis": "",
+    "summary": "UK government faces scrutiny over EV target and Israel-linked deals.",
+    "emojis": "⚔️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK Prime Minister",
-      "UK Government"
+      "UK Government",
+      "Middle East Eye",
+      "electric-vehicles.com",
+      "What Car?"
     ],
-    "source_count": 3,
-    "timestamp": "08:02 AM"
+    "source_count": 4,
+    "timestamp": "08:18 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Ukraine attacks reduce Russian oil processing, Poland arrests Ukrainians spying.",
+    "summary": "Ukraine attacks reduce Russia's oil processing capacity; Poland arrests Ukrainians; CSTO involved.",
     "emojis": "⚔️",
     "lat": 61.5,
     "lng": 105.3,
@@ -106,8 +138,8 @@
       "Russia",
       "Poland"
     ],
-    "source_count": 22,
-    "timestamp": "08:02 AM"
+    "source_count": 15,
+    "timestamp": "08:18 AM"
   },
   {
     "title": "SITREP: YEMEN",
@@ -121,41 +153,11 @@
       "Houthi"
     ],
     "source_count": 1,
-    "timestamp": "08:03 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China's exports, trade surplus, and tech advancements highlight economic growth.",
-    "emojis": "⚔️💀⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Nvidia",
-      "BYD"
-    ],
-    "source_count": 16,
-    "timestamp": "08:03 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US-Iran tensions persist with US moving tankers, Qatar mediating.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran",
-      "Qatar"
-    ],
-    "source_count": 35,
-    "timestamp": "08:03 AM"
+    "timestamp": "08:18 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "FBI investigates Nvidia CEO Jensen Huang’s potential ties to Chinese spy.",
+    "summary": "FBI investigates Nvidia CEO Jensen Huang's alleged affair with Chinese spy.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
@@ -165,36 +167,35 @@
       "Jensen Huang"
     ],
     "source_count": 1,
-    "timestamp": "08:03 AM"
+    "timestamp": "08:18 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli fire kills father and son in Gaza.",
-    "emojis": "",
+    "summary": "Israeli air strikes kill multiple Palestinians, including a child, in Gaza City.",
+    "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli forces",
-      "Gaza residents"
+      "Israeli",
+      "Palestinians"
     ],
-    "source_count": 1,
-    "timestamp": "08:03 AM"
+    "source_count": 2,
+    "timestamp": "08:18 AM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Congress to host Hyderabad Bharat Summit, amid political tensions with Trump supporter turning critical.",
-    "emojis": "⚔️⚡",
+    "summary": "Congress to host Hyderabad Bharat Summit; MAHA leader torched White House.",
+    "emojis": "⚔️",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
       "Congress",
-      "Calley Means",
-      "Trump"
+      "MAHA leader"
     ],
-    "source_count": 3,
-    "timestamp": "08:03 AM"
+    "source_count": 2,
+    "timestamp": "08:19 AM"
   }
 ];
 
