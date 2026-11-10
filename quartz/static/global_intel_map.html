@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-09 08:01 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-11-10 08:03 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,149 +51,150 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "G7 and Turkey oppose U.S. strikes on Iran; Russia aids, Iran faces economic challenges.",
-    "emojis": "💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "G7 ministers",
-      "Turkey",
-      "Russia",
-      "Iran"
-    ],
-    "source_count": 32,
-    "timestamp": "08:00 AM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel forms new drone battalions, amid regional tensions and domestic issues.",
-    "emojis": "✈️⚡",
+    "summary": "Israel prepares to swear in new parliament as leaders compete to form government amid internal and external political dynamics.",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "IDF",
-      "Turkey",
-      "UK Labour",
-      "US"
+      "Israel",
+      "Benjamin Netanyahu",
+      "Gadi Eisenkot",
+      "Palestinians"
     ],
-    "source_count": 31,
-    "timestamp": "08:00 AM"
+    "source_count": 30,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Nine foreigners arrested in South Africa for planning to fight in Ukraine; energy sites attacked by Russia and Ukraine ahead of talks.",
-    "emojis": "⚔️",
+    "summary": "U.S.-brokered peace talks between Russia and Ukraine resume in Abu Dhabi.",
+    "emojis": "🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
-      "South African police",
       "Russia",
       "Ukraine"
     ],
-    "source_count": 24,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia uses AI for fake videos, faces sanctions, and seeks security talks.",
-    "emojis": "🚫",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Canada",
-      "Abu Dhabi"
-    ],
-    "source_count": 21,
-    "timestamp": "08:01 AM"
+    "source_count": 32,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK electric vehicle targets cut as AI sector booms.",
-    "emojis": "⚔️",
+    "summary": "UK PM denies plans to cut electric vehicle sales targets.",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK Government",
-      "AI Companies"
+      "UK Prime Minister",
+      "UK Government"
     ],
-    "source_count": 5,
-    "timestamp": "08:01 AM"
+    "source_count": 3,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Russian Novaya Gazeta shuts newsroom.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "title": "SITREP: RUSSIA",
+    "summary": "Ukraine attacks reduce Russian oil processing, Poland arrests Ukrainians spying.",
+    "emojis": "⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Russian Novaya Gazeta"
+      "Ukraine",
+      "Russia",
+      "Poland"
+    ],
+    "source_count": 22,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Missiles intercepted over Saudi Arabia due to Houthi attacks.",
+    "emojis": "⚔️🚀",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Saudi Arabia",
+      "Houthi"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:03 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China rejects Nvidia spy claims, praises innovation, and extends entity list pause.",
-    "emojis": "",
+    "summary": "China's exports, trade surplus, and tech advancements highlight economic growth.",
+    "emojis": "⚔️💀⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Nvidia"
+      "Nvidia",
+      "BYD"
     ],
-    "source_count": 20,
-    "timestamp": "08:01 AM"
+    "source_count": 16,
+    "timestamp": "08:03 AM"
   },
   {
-    "title": "SITREP: YEMEN",
-    "summary": "Houthi rebels report 44 killed in airstrike near Yemeni capital.",
-    "emojis": "💥💀",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
+    "title": "SITREP: IRAN",
+    "summary": "US-Iran tensions persist with US moving tankers, Qatar mediating.",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
     "actors": [
-      "Houthi rebels",
-      "Yemeni government"
+      "US",
+      "Iran",
+      "Qatar"
+    ],
+    "source_count": 35,
+    "timestamp": "08:03 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "FBI investigates Nvidia CEO Jensen Huang’s potential ties to Chinese spy.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "FBI",
+      "Jensen Huang"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:03 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Gaza mudslide and sand embankment collapse kill nine, spark global criticism, US prepares for potential deployment.",
-    "emojis": "🚀🪖💀",
+    "summary": "Israeli fire kills father and son in Gaza.",
+    "emojis": "",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Gaza authorities",
-      "US military"
-    ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Auto dealers in India struggle with low EV margins despite growing sales.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Auto Dealers",
-      "FADA"
+      "Israeli forces",
+      "Gaza residents"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:03 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Congress to host Hyderabad Bharat Summit, amid political tensions with Trump supporter turning critical.",
+    "emojis": "⚔️⚡",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Congress",
+      "Calley Means",
+      "Trump"
+    ],
+    "source_count": 3,
+    "timestamp": "08:03 AM"
   }
 ];
 
