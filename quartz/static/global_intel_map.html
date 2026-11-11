@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-10 08:19 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-11-11 08:01 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,150 +52,131 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "US and allies respond to Iran's missile policy amid American opposition to Iran war.",
-    "emojis": "🚀⚔️",
+    "summary": "Iran threatens attacks, vows to keep nuclear material; U.S. keeps pressure.",
+    "emojis": "🪖⚔️🚀",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "Iran",
-      "US",
-      "France"
+      "U.S."
     ],
-    "source_count": 34,
-    "timestamp": "08:17 AM"
+    "source_count": 26,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel's political landscape shifts with new parliament, amid tensions and rivalries.",
+    "summary": "Netanyahu calls for unity, amid tensions and international criticisms.",
     "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Gadi Eisenkot",
-      "Benjamin Netanyahu"
+      "Netanyahu",
+      "International actors"
     ],
-    "source_count": 30,
-    "timestamp": "08:17 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "U.S.-brokered peace talks between Russia and Ukraine held in Abu Dhabi.",
-    "emojis": "🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "U.S.",
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 31,
-    "timestamp": "08:17 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China’s oil imports rise, car exports surge, trade ties strengthen, despite tensions with Japan.",
-    "emojis": "⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Japan",
-      "Canada"
-    ],
-    "source_count": 17,
-    "timestamp": "08:17 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK government faces scrutiny over EV target and Israel-linked deals.",
-    "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK Government",
-      "Middle East Eye",
-      "electric-vehicles.com",
-      "What Car?"
-    ],
-    "source_count": 4,
-    "timestamp": "08:18 AM"
+    "source_count": 32,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Ukraine attacks reduce Russia's oil processing capacity; Poland arrests Ukrainians; CSTO involved.",
-    "emojis": "⚔️",
+    "summary": "US envoys likely to meet Putin; Russia stores grain, silences critics.",
+    "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Ukraine",
-      "Russia",
-      "Poland"
+      "US envoys",
+      "Putin",
+      "Russia"
     ],
     "source_count": 15,
-    "timestamp": "08:18 AM"
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: YEMEN",
-    "summary": "Missiles intercepted over Saudi Arabia due to Houthi attacks.",
-    "emojis": "⚔️🚀",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Saudi Arabia",
-      "Houthi"
-    ],
-    "source_count": 1,
-    "timestamp": "08:18 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "FBI investigates Nvidia CEO Jensen Huang's alleged affair with Chinese spy.",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia and Ukraine agree to major prisoner swap after Abu Dhabi talks.",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "FBI",
-      "Jensen Huang"
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 1,
-    "timestamp": "08:18 AM"
+    "source_count": 32,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Chinese biologists face criticism; car quality issues; economic policies; electric car exports surge.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Yuan Junying",
+      "BYD",
+      "China's central bank"
+    ],
+    "source_count": 21,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli air strikes kill multiple Palestinians, including a child, in Gaza City.",
+    "summary": "Rights group concerns over jailed Dr Abu Safia as Israeli strikes kill 5 in Gaza.",
     "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli",
-      "Palestinians"
+      "Rights group",
+      "Israeli"
     ],
     "source_count": 2,
-    "timestamp": "08:18 AM"
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Nvidia CEO's affair with Indian woman sparks media attention.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Jensen Huang",
+      "Alice Huang"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "British Jews accuse Board of Deputies of denying genocide.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "British Jews",
+      "Board of Deputies"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Congress to host Hyderabad Bharat Summit; MAHA leader torched White House.",
-    "emojis": "⚔️",
+    "summary": "Democrats in Congress seek to reshape US Middle East policy.",
+    "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Congress",
-      "MAHA leader"
+      "Democrats in Congress",
+      "US"
     ],
-    "source_count": 2,
-    "timestamp": "08:19 AM"
+    "source_count": 1,
+    "timestamp": "08:01 AM"
   }
 ];
 

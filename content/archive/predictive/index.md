@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 11, 2026** | [RUSSIA & UKRAINE SWAP PRISONERS IN SIGNIFICANT ABU DHABI-BROKEN DIPLOMACY SHIFT](/archive/predictive/2026-11-11-russia-ukraine-swap-prisoners-in) | Russia and Ukraine's prisoner swap following Abu Dhabi talks marks a significant shift in their conflict dynamics. |
 | **Nov 10, 2026** | [RUSSIA & UKRAINE ENTER ABU DHABI PEACE TALKS AMID GLOBAL DIPLOMATIC SHIFT](/archive/predictive/2026-11-10-russia-ukraine-enter-abu-dhabi) | U.S.-brokered peace talks between Russia and Ukraine in Abu Dhabi mark a significant shift in diplomatic efforts to r... |
 | **Nov 10, 2026** | [US-BROKERED PEACE TALKS RESUME IN ABU DHABI](/archive/predictive/2026-11-10-usbrokered-peace-talks-resume-in) | U.S.-brokered peace talks resume in Abu Dhabi as Russia and Ukraine engage, while Israel prepares for new parliamenta... |
 | **Nov 09, 2026** | [RUSSIA UNLEASHES AI-FUELED DISINFORMATION CAMPAIGN & ECONOMIC CHALLENGES](/archive/predictive/2026-11-09-russia-unleashes-aifueled-disinformation-campaign) | Russia's multifaceted geopolitical maneuvers, including the use of AI for disinformation, concurrent economic challen... |
