@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-12 19:45 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-11-13 08:01 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,183 +51,165 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "U.S. and Europe involved in stalled peace talks as Russia continues attacks.",
-    "emojis": "⚔️🕊️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "U.S.",
-      "Europe",
-      "Russia"
-    ],
-    "source_count": 10,
-    "timestamp": "07:44 PM"
-  },
-  {
     "title": "SITREP: IRAN",
-    "summary": "US and Iran tensions rise as Trump rejects deal, oil prices increase.",
-    "emojis": "💥⚔️☢️",
+    "summary": "Iran faces UN concerns over nuclear sites, retaliates against US in Bahrain.",
+    "emojis": "🪖💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Trump",
-      "Iran"
+      "UN",
+      "Iran",
+      "US"
     ],
-    "source_count": 37,
-    "timestamp": "07:44 PM"
+    "source_count": 34,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "US soldier identified as spy; US envoys meet Zelenskyy, Putin; Russia seeks compensation.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine attacks Russian warships in Baltic amid talks; fires 1,200 drones at Russia.",
+    "emojis": "🚢✈️⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "US soldier",
-      "US envoys",
-      "Zelenskyy",
-      "Putin",
+      "Ukraine",
       "Russia"
     ],
-    "source_count": 13,
-    "timestamp": "07:44 PM"
+    "source_count": 41,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "US-China tensions escalate over Nvidia chip diversion, climate policy, and quantum advancements.",
-    "emojis": "⬅️⚡",
+    "summary": "China faces car quality issues, seeks APEC support, and rivals US in tech.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Lutnick",
+      "BYD",
       "China",
+      "APEC leaders",
       "US"
     ],
-    "source_count": 18,
-    "timestamp": "07:44 PM"
+    "source_count": 28,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces cyberattacks, political uncertainty, and regional tensions.",
-    "emojis": "⚔️⚡",
+    "summary": "Israel faces political turmoil, hospital attack, and international backlash.",
+    "emojis": "💥⚔️💀",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Cyberattack perpetrators",
-      "Political parties",
-      "Gaza",
-      "France"
+      "Netanyahu",
+      "Netanyahu critics",
+      "France",
+      "Jean-Luc Melenchon"
     ],
-    "source_count": 26,
-    "timestamp": "07:44 PM"
+    "source_count": 18,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: UK",
-    "summary": "US officer accused of Russian spying to face UK charges; UK car industry seeks EU delay on Brexit EV tariffs; Tui cruise search for missing woman ends.",
+    "title": "SITREP: YEMEN",
+    "summary": "Yemeni forces repel Houthi attack in Taiz.",
     "emojis": "⚔️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "US officer",
-      "UK",
-      "UK car industry",
-      "EU",
-      "Tui cruise"
+      "Yemeni forces",
+      "Houthi"
     ],
-    "source_count": 3,
-    "timestamp": "07:44 PM"
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Middle East oil exports exceed pre-war levels, but tanker attacks rise.",
+    "emojis": "⚔️",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Middle East",
+      "Texas"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Israeli forces shell southern Lebanon towns; drones fly over Beirut.",
+    "emojis": "✈️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Israeli forces",
+      "Drones"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Bombings in Russia wound former aide; EU considers army amid Russian fears.",
+    "emojis": "💥💣",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Moscow",
+      "EU",
+      "Russia"
+    ],
+    "source_count": 10,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: NORTH KOREA",
+    "summary": "North Korea surprisingly acts as a key ally to Russia.",
+    "emojis": "",
+    "lat": 40.3,
+    "lng": 127.5,
+    "location": "NORTH KOREA",
+    "actors": [
+      "North Korea",
+      "Russia"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "BYD plans plug-in hybrids, Cellebrite cleared for phone-hacking tools in India.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "BYD",
+      "Cellebrite"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Readers question Congress's intention to add EV fees.",
+    "summary": "Democrats cautious, calm, and compromising in social media trap.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Congress",
-      "Readers"
-    ],
-    "source_count": 2,
-    "timestamp": "07:44 PM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Saudi foreign minister and Chinese envoy discuss Houthi attacks, EU designation.",
-    "emojis": "⚔️🔺",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Saudi foreign minister",
-      "Chinese envoy"
-    ],
-    "source_count": 2,
-    "timestamp": "07:44 PM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strikes on Gaza hospital kill 6, injure 28, amid aid restrictions.",
-    "emojis": "💥⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli military",
-      "Palestinians"
-    ],
-    "source_count": 5,
-    "timestamp": "07:44 PM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Pro-Palestinian group demands ban on Israeli real estate fair in Paris.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Pro-Palestinian group",
-      "Israeli real estate fair organizers"
+      "Chuck Schumer",
+      "Hakeem Jeffries"
     ],
     "source_count": 1,
-    "timestamp": "07:44 PM"
-  },
-  {
-    "title": "SITREP: US-IL",
-    "summary": "Nvidia confirms chip tracking for smuggling fight, industry questions feasibility.",
-    "emojis": "",
-    "lat": 41.87,
-    "lng": -87.62,
-    "location": "US-IL",
-    "actors": [
-      "Nvidia",
-      "Industry"
-    ],
-    "source_count": 1,
-    "timestamp": "07:44 PM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Russian oil tankers drift as no buyer for Trump’s diesel deal",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Russian oil tankers",
-      "Trump"
-    ],
-    "source_count": 1,
-    "timestamp": "07:45 PM"
+    "timestamp": "08:01 AM"
   }
 ];
 

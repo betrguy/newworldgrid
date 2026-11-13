@@ -1,33 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: China's rapid embrace of AI data centers is reshaping global compute load.... Data-center electricity demand is on the rise, driven by off..."
+description: "State of the Grid: Cyber Threats Loom Over Global Grids Amid Iranian Attacks & Turkish Renewable Push. Belgian ministers are debating the implications of all..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 12, 2026 - 19:44</span>
+  <span class="sotg-timestamp">November 13, 2026 - 08:01</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-China's rapid embrace of AI data centers is reshaping global compute load dynamics, while geopolitical tensions continue to impact grid stability. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+China's $15 billion investment in Turkish renewable energy signals a significant shift towards global cooperation in sustainable power generation. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Data-center electricity demand is on the rise, driven by official tracking from the Federal Register and the US Department of Energy. This trend underscores the increasing importance of digital infrastructure, which is pivotal for grid stability and economic activity. The geopolitical landscape is also shifting, with Ukraine reporting limitations on Musk's Starshield, which could impact Russian military operations. Meanwhile, China's embrace of AI data centers highlights the global race for technological dominance and its implications for energy consumption and security.</p>
+<p class="meridian-lede">Belgian ministers are debating the implications of alleged Iranian cyberattacks on refrigerators, which could indicate a growing threat to smart grid infrastructure. These attacks highlight the need for enhanced cybersecurity measures to protect critical systems.</p>
+
+The geopolitical landscape is also influencing grid stability, as evidenced by the U.S. government's directive to focus on domestic corruption rather than pursuing an Iran deal. This shift in priorities could affect international cooperation on energy and cybersecurity, potentially impacting the resilience and security of the U.S. grid.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Rising data-center electricity demand highlights the growing intersection of technology and energy markets.</li>
-  <li><strong>The big picture:</strong> This trend signals a shift in geopolitical dynamics, particularly as nations vie for technological and energy supremacy.</li>
-  <li><strong>What to watch:</strong> Monitoring how countries like China and the U.S. balance their AI development with energy security.</li>
+  <li><strong>Why it matters:</strong> Alleged Iranian cyberattacks on smart grid infrastructure underscore the vulnerability of energy systems to cyber threats.</li>
+  <li><strong>The big picture:</strong> This incident highlights the intersection of cybersecurity and energy security, potentially affecting international cooperation and grid resilience.</li>
+  <li><strong>What to watch:</strong> U.S. government efforts to balance domestic priorities with international energy and cybersecurity alliances.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 1.7, with a 24-hour average of 1.14 and a peak of 1.7, indicating a Quiet geomagnetic condition. During such conditions, satellite operations are generally unaffected, HF radio communications are likely to be good, and power grid stability remains high with minimal risk of geomagnetically induced currents.
+The current geomagnetic condition is Quiet, with a Kp peak of 1.7, a 24-hour average of 1.05, and a current Kp index of 1.0. During Quiet conditions, satellite operations, HF radio communications, and power grid stability remain unaffected.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -41,6 +43,13 @@ The current Kp index is 1.7, with a 24-hour average of 1.14 and a peak of 1.7, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 12, 2026</span>
+        <a href="/archive/grid/2026-11-12-chinas-rapid-embrace-of-ai" class="archive-link">China's rapid embrace of AI data centers is reshaping global compute load...</a>
+      </div>
+      <div class="archive-preview">China's rapid embrace of AI data centers is reshaping global compute load dynamics, while geopolitical tensions continue to impact grid stability.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 11, 2026</span>
@@ -117,13 +126,6 @@ The current Kp index is 1.7, with a 24-hour average of 1.14 and a peak of 1.7, i
         <a href="/archive/grid/2026-11-05-iran-seeks-nuclear-deal-amid" class="archive-link">Iran Seeks Nuclear Deal Amid Shifts In Global Energy Landscape</a>
       </div>
       <div class="archive-preview">Iran's nuclear proposal to the U.S. and Petrovietnam's shift towards LNG, wind, and nuclear power highlight significant changes in...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 05, 2026</span>
-        <a href="/archive/grid/2026-11-05-usiran-escalation-threatens-global-energy" class="archive-link">US-Iran Escalation Threatens Global Energy Stability</a>
-      </div>
-      <div class="archive-preview">Growing tensions in the Middle East, particularly Iran's nuclear ambitions and U.S. military posturing, could significantly impact...</div>
     </div>
   </div>
 </div>

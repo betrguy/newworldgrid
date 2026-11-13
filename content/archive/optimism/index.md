@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Nov 12, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-12-lowcarbon-volcanic-rock-cement-ai) | In the annals of industrial history, the dynamo-electric principle, discovered by Werner von Siemens in 1866, has rem... |
+| **Nov 13, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-13-lowcarbon-volcanic-rock-cement-ai) | Quantum computing is advancing, with researchers at Cornell developing a chip-based laser-cooling technique that coul... |
 | **Nov 10, 2026** | [Fast Charging & Longer Life Achieved](/archive/optimism/2026-11-10-fast-charging-longer-life-achieved) | Now, imagine charging your phone in seconds rather than hours, all while maintaining a longer battery life. |
 | **Nov 10, 2026** | [Spin Tech Breakthrough Extends Polarization 300x](/archive/optimism/2026-11-10-spin-tech-breakthrough-extends-polarization) | Preserve spin information for optoelectronic technologies using a perovskite chiral multiple quantum-well system, ext... |
 | **Nov 08, 2026** | [Land on a moon & Almost no gravity and track individual atoms](/archive/optimism/2026-11-08-land-on-a-moon-almost) | Scientists have captured the first-ever images of Phobos, the enigmatic Martian moon, transiting the Sun from the Mar... |
