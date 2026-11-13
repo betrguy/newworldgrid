@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-11 08:01 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-11-12 19:45 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,132 +51,183 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "U.S. and Europe involved in stalled peace talks as Russia continues attacks.",
+    "emojis": "⚔️🕊️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "U.S.",
+      "Europe",
+      "Russia"
+    ],
+    "source_count": 10,
+    "timestamp": "07:44 PM"
+  },
+  {
     "title": "SITREP: IRAN",
-    "summary": "Iran threatens attacks, vows to keep nuclear material; U.S. keeps pressure.",
-    "emojis": "🪖⚔️🚀",
+    "summary": "US and Iran tensions rise as Trump rejects deal, oil prices increase.",
+    "emojis": "💥⚔️☢️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Iran",
-      "U.S."
+      "Trump",
+      "Iran"
     ],
-    "source_count": 26,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Netanyahu calls for unity, amid tensions and international criticisms.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Netanyahu",
-      "International actors"
-    ],
-    "source_count": 32,
-    "timestamp": "08:01 AM"
+    "source_count": 37,
+    "timestamp": "07:44 PM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "US envoys likely to meet Putin; Russia stores grain, silences critics.",
+    "summary": "US soldier identified as spy; US envoys meet Zelenskyy, Putin; Russia seeks compensation.",
     "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
+      "US soldier",
       "US envoys",
+      "Zelenskyy",
       "Putin",
       "Russia"
     ],
-    "source_count": 15,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia and Ukraine agree to major prisoner swap after Abu Dhabi talks.",
-    "emojis": "",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 32,
-    "timestamp": "08:01 AM"
+    "source_count": 13,
+    "timestamp": "07:44 PM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Chinese biologists face criticism; car quality issues; economic policies; electric car exports surge.",
-    "emojis": "",
+    "summary": "US-China tensions escalate over Nvidia chip diversion, climate policy, and quantum advancements.",
+    "emojis": "⬅️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Yuan Junying",
-      "BYD",
-      "China's central bank"
+      "Lutnick",
+      "China",
+      "US"
     ],
-    "source_count": 21,
-    "timestamp": "08:01 AM"
+    "source_count": 18,
+    "timestamp": "07:44 PM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Rights group concerns over jailed Dr Abu Safia as Israeli strikes kill 5 in Gaza.",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces cyberattacks, political uncertainty, and regional tensions.",
+    "emojis": "⚔️⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Rights group",
-      "Israeli"
+      "Israel",
+      "Cyberattack perpetrators",
+      "Political parties",
+      "Gaza",
+      "France"
     ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Nvidia CEO's affair with Indian woman sparks media attention.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Jensen Huang",
-      "Alice Huang"
-    ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
+    "source_count": 26,
+    "timestamp": "07:44 PM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "British Jews accuse Board of Deputies of denying genocide.",
-    "emojis": "",
+    "summary": "US officer accused of Russian spying to face UK charges; UK car industry seeks EU delay on Brexit EV tariffs; Tui cruise search for missing woman ends.",
+    "emojis": "⚔️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "British Jews",
-      "Board of Deputies"
+      "US officer",
+      "UK",
+      "UK car industry",
+      "EU",
+      "Tui cruise"
     ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
+    "source_count": 3,
+    "timestamp": "07:44 PM"
   },
   {
     "title": "SITREP: US-DC",
-    "summary": "Democrats in Congress seek to reshape US Middle East policy.",
+    "summary": "Readers question Congress's intention to add EV fees.",
     "emojis": "",
     "lat": 38.9,
     "lng": -77.03,
     "location": "US-DC",
     "actors": [
-      "Democrats in Congress",
-      "US"
+      "Congress",
+      "Readers"
+    ],
+    "source_count": 2,
+    "timestamp": "07:44 PM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi foreign minister and Chinese envoy discuss Houthi attacks, EU designation.",
+    "emojis": "⚔️🔺",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Saudi foreign minister",
+      "Chinese envoy"
+    ],
+    "source_count": 2,
+    "timestamp": "07:44 PM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli strikes on Gaza hospital kill 6, injure 28, amid aid restrictions.",
+    "emojis": "💥⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli military",
+      "Palestinians"
+    ],
+    "source_count": 5,
+    "timestamp": "07:44 PM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Pro-Palestinian group demands ban on Israeli real estate fair in Paris.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Pro-Palestinian group",
+      "Israeli real estate fair organizers"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "07:44 PM"
+  },
+  {
+    "title": "SITREP: US-IL",
+    "summary": "Nvidia confirms chip tracking for smuggling fight, industry questions feasibility.",
+    "emojis": "",
+    "lat": 41.87,
+    "lng": -87.62,
+    "location": "US-IL",
+    "actors": [
+      "Nvidia",
+      "Industry"
+    ],
+    "source_count": 1,
+    "timestamp": "07:44 PM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Russian oil tankers drift as no buyer for Trump’s diesel deal",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Russian oil tankers",
+      "Trump"
+    ],
+    "source_count": 1,
+    "timestamp": "07:45 PM"
   }
 ];
 

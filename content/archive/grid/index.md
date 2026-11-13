@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 12, 2026** | [China's rapid embrace of AI data centers is reshaping global compute load...](/archive/grid/2026-11-12-chinas-rapid-embrace-of-ai) | Data-center electricity demand is on the rise, driven by official tracking from the Federal Register and the US Depar... |
 | **Nov 11, 2026** | [ARENA ENERGY SECURES $480 MILLION LOAN FOR 22 GULF OF AMERICA PLATFORMS](/archive/grid/2026-11-11-arena-energy-secures-480-million) | Arena Energy's $480 million loan for 22 Gulf of America platforms signals a continued focus on offshore oil and gas p... |
 | **Nov 10, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/grid/2026-11-10-strait-of-hormuz-flow-discrepancies) | Quantum computing advancements could significantly reduce the energy consumption of AI data centers, potentially tran... |
 | **Nov 09, 2026** | [IRAN SETS CHINA OIL HUB, THWARTING US SANCTIONS](/archive/grid/2026-11-09-iran-sets-china-oil-hub) | Geopolitical tensions are escalating, as evidenced by EA-Clarity, Please VideoCast's discussion on geopolitics and it... |
