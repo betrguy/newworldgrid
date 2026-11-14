@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 14, 2026** | [Iran Nuclear Program Sparks Global Energy Security Concerns Amid Escalating Tensions.](/archive/grid/2026-11-14-iran-nuclear-program-sparks-global) | Iran’s nuclear program remains under international scrutiny as UN inspectors are still denied access, potentially imp... |
 | **Nov 13, 2026** | [Cyber Threats Loom Over Global Grids Amid Iranian Attacks & Turkish Renewable Push](/archive/grid/2026-11-13-cyber-threats-loom-over-global) | Belgian ministers are debating the implications of alleged Iranian cyberattacks on refrigerators, which could indicat... |
 | **Nov 12, 2026** | [China's rapid embrace of AI data centers is reshaping global compute load...](/archive/grid/2026-11-12-chinas-rapid-embrace-of-ai) | Data-center electricity demand is on the rise, driven by official tracking from the Federal Register and the US Depar... |
 | **Nov 11, 2026** | [ARENA ENERGY SECURES $480 MILLION LOAN FOR 22 GULF OF AMERICA PLATFORMS](/archive/grid/2026-11-11-arena-energy-secures-480-million) | Arena Energy's $480 million loan for 22 Gulf of America platforms signals a continued focus on offshore oil and gas p... |

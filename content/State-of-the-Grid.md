@@ -1,35 +1,33 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Cyber Threats Loom Over Global Grids Amid Iranian Attacks & Turkish Renewable Push. Belgian ministers are debating the implications of all..."
+description: "State of the Grid: Iran Nuclear Program Sparks Global Energy Security Concerns Amid Escalating Tensions.. Iran’s nuclear program remains under international ..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 13, 2026 - 08:01</span>
+  <span class="sotg-timestamp">November 14, 2026 - 08:00</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-China's $15 billion investment in Turkish renewable energy signals a significant shift towards global cooperation in sustainable power generation. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+As UN inspectors are barred from monitoring Iran’s nuclear program, concerns over global energy security intensify, highlighting potential disruptions to the grid. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Belgian ministers are debating the implications of alleged Iranian cyberattacks on refrigerators, which could indicate a growing threat to smart grid infrastructure. These attacks highlight the need for enhanced cybersecurity measures to protect critical systems.</p>
-
-The geopolitical landscape is also influencing grid stability, as evidenced by the U.S. government's directive to focus on domestic corruption rather than pursuing an Iran deal. This shift in priorities could affect international cooperation on energy and cybersecurity, potentially impacting the resilience and security of the U.S. grid.
+<p class="meridian-lede">Iran’s nuclear program remains under international scrutiny as UN inspectors are still denied access, potentially impacting global energy security and geopolitical dynamics. This situation could lead to increased tensions and affect international cooperation on energy and cybersecurity, which are crucial for grid resilience. The U.S. and China’s trade council meeting on tariffs highlights the economic interdependencies that underpin grid stability, as trade disruptions can affect energy imports and exports, impacting overall grid reliability.</p>
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Alleged Iranian cyberattacks on smart grid infrastructure underscore the vulnerability of energy systems to cyber threats.</li>
-  <li><strong>The big picture:</strong> This incident highlights the intersection of cybersecurity and energy security, potentially affecting international cooperation and grid resilience.</li>
-  <li><strong>What to watch:</strong> U.S. government efforts to balance domestic priorities with international energy and cybersecurity alliances.</li>
+  <li><strong>Why it matters:</strong> The ongoing scrutiny of Iran’s nuclear program could escalate tensions, impacting global energy security and geopolitical stability.</li>
+  <li><strong>The big picture:</strong> This situation highlights the interconnectedness of energy markets, defense, and geopolitics, emphasizing the need for international cooperation.</li>
+  <li><strong>What to watch:</strong> Monitoring the outcome of the U.S. and China’s trade council meeting on tariffs to assess its impact on grid stability and energy imports.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic condition is Quiet, with a Kp peak of 1.7, a 24-hour average of 1.05, and a current Kp index of 1.0. During Quiet conditions, satellite operations, HF radio communications, and power grid stability remain unaffected.
+The current geomagnetic condition is Quiet, with a Kp index of 1.3, a 24-hour average of 0.76, and a peak Kp of 1.3. This indicates minimal activity, beneficial for satellite operations and HF radio communications, and maintaining power grid stability with low risk of geomagnetically induced currents.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -43,6 +41,13 @@ The current geomagnetic condition is Quiet, with a Kp peak of 1.7, a 24-hour ave
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 13, 2026</span>
+        <a href="/archive/grid/2026-11-13-cyber-threats-loom-over-global" class="archive-link">Cyber Threats Loom Over Global Grids Amid Iranian Attacks & Turkish Renewable Push</a>
+      </div>
+      <div class="archive-preview">China's $15 billion investment in Turkish renewable energy signals a significant shift towards global cooperation in sustainable power generation.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 12, 2026</span>
@@ -119,13 +124,6 @@ The current geomagnetic condition is Quiet, with a Kp peak of 1.7, a 24-hour ave
         <a href="/archive/grid/2026-11-06-aidriven-cyber-threats-are-rapidly" class="archive-link">AI-driven cyber threats are rapidly evolving & Posing a significant risk...</a>
       </div>
       <div class="archive-preview">The Middle East's increased oil exports and rising tanker attacks underscore heightened geopolitical tensions, which could disrupt...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 05, 2026</span>
-        <a href="/archive/grid/2026-11-05-iran-seeks-nuclear-deal-amid" class="archive-link">Iran Seeks Nuclear Deal Amid Shifts In Global Energy Landscape</a>
-      </div>
-      <div class="archive-preview">Iran's nuclear proposal to the U.S. and Petrovietnam's shift towards LNG, wind, and nuclear power highlight significant changes in...</div>
     </div>
   </div>
 </div>

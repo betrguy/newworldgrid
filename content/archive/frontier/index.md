@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 14, 2026** | [Iran Targets U.S. Bases Amid Orbital Economy Shifts & Solar-Powered EV Charging Boom](/archive/frontier/2026-11-14-iran-targets-us-bases-amid) | Iran's data-driven approach to targeting U.S. bases highlights the evolving orbital economy, while BYD's solar-powere... |
 | **Nov 13, 2026** | [Quality Issues Spark EV Grid Upgrades Amid Global Supply Chain Turmoil](/archive/frontier/2026-11-13-quality-issues-spark-ev-grid) | This page explores recent developments in the orbital economy and EV grid, including quality issues in automotive man... |
 | **Nov 12, 2026** | [Rivian & Tesla Stocks Plunge Amid Russia-Ukraine Tensions & Electric Grid Uncertainty](/archive/frontier/2026-11-12-rivian-tesla-stocks-plunge-amid) | This page explores the current landscape of orbital economy development, including Russia-Ukraine tensions, and the e... |
 | **Nov 11, 2026** | [Iran Unveils Underground Missile Complex Amid Growing EV/GRID Investment](/archive/frontier/2026-11-11-iran-unveils-underground-missile-complex) | Exploring the orbital economy and advancing EV/grid technology, Iran's underground missile complex and BYD's solar-in... |

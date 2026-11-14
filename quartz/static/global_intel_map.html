@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-13 08:01 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-11-14 08:01 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,161 +52,148 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran faces UN concerns over nuclear sites, retaliates against US in Bahrain.",
-    "emojis": "🪖💥⚔️",
+    "summary": "Iran facing environmental, economic, and diplomatic challenges.",
+    "emojis": "🚢💥",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "UN",
       "Iran",
-      "US"
+      "Iraq",
+      "Turkey",
+      "Uzbekistan"
     ],
-    "source_count": 34,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine attacks Russian warships in Baltic amid talks; fires 1,200 drones at Russia.",
-    "emojis": "🚢✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 41,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China faces car quality issues, seeks APEC support, and rivals US in tech.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "BYD",
-      "China",
-      "APEC leaders",
-      "US"
-    ],
-    "source_count": 28,
-    "timestamp": "08:01 AM"
+    "source_count": 35,
+    "timestamp": "08:00 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel faces political turmoil, hospital attack, and international backlash.",
-    "emojis": "💥⚔️💀",
+    "summary": "Israel arrests suspect in Bulgarian killing, pushes for unity and truth.",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Netanyahu",
-      "Netanyahu critics",
-      "France",
-      "Jean-Luc Melenchon"
+      "Bat Yam suspect"
     ],
-    "source_count": 18,
+    "source_count": 22,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: YEMEN",
-    "summary": "Yemeni forces repel Houthi attack in Taiz.",
-    "emojis": "⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
+    "title": "SITREP: CHINA",
+    "summary": "China and US discuss trade, while tensions persist with Japan and military cooperation with Laos.",
+    "emojis": "🪖⚔️☢️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Yemeni forces",
-      "Houthi"
+      "China",
+      "US",
+      "Japan",
+      "Laos"
     ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-TX",
-    "summary": "Middle East oil exports exceed pre-war levels, but tanker attacks rise.",
-    "emojis": "⚔️",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Middle East",
-      "Texas"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Israeli forces shell southern Lebanon towns; drones fly over Beirut.",
-    "emojis": "✈️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Israeli forces",
-      "Drones"
-    ],
-    "source_count": 1,
+    "source_count": 34,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Bombings in Russia wound former aide; EU considers army amid Russian fears.",
-    "emojis": "💥💣",
+    "summary": "Russia modernizes missiles, strikes Ukraine, meets with leaders.",
+    "emojis": "💥🚀",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Moscow",
-      "EU",
-      "Russia"
+      "Russia",
+      "Ukraine",
+      "USA",
+      "China",
+      "UK"
     ],
-    "source_count": 10,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: NORTH KOREA",
-    "summary": "North Korea surprisingly acts as a key ally to Russia.",
-    "emojis": "",
-    "lat": 40.3,
-    "lng": 127.5,
-    "location": "NORTH KOREA",
-    "actors": [
-      "North Korea",
-      "Russia"
-    ],
-    "source_count": 1,
+    "source_count": 23,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "BYD plans plug-in hybrids, Cellebrite cleared for phone-hacking tools in India.",
+    "summary": "India aims to triple clean energy by 2035, faces hurdles; EV adoption won't curb road-fuel growth till 2034.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "BYD",
-      "Cellebrite"
+      "India",
+      "UN",
+      "BNEF"
     ],
     "source_count": 2,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Democrats cautious, calm, and compromising in social media trap.",
+    "title": "SITREP: PAKISTAN",
+    "summary": "Amnesty urges Pakistan to release Kashmir activists.",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 30.3,
+    "lng": 69.3,
+    "location": "PAKISTAN",
     "actors": [
-      "Chuck Schumer",
-      "Hakeem Jeffries"
+      "Amnesty",
+      "Pakistan"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Russia demands NATO pullback; Ukraine reports strikes, tensions persist.",
+    "emojis": "🪖🚢💥",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Russia",
+      "Ukraine"
+    ],
+    "source_count": 19,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli soldiers kill Palestinians, UN warns of Gaza health system collapse.",
+    "emojis": "🪖⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli soldiers",
+      "UN"
+    ],
+    "source_count": 3,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Government forces repel Houthi attack; Saudi-led coalition targets Saada, Razih.",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Yemen's government-aligned forces",
+      "Houthis",
+      "Saudi-led coalition"
+    ],
+    "source_count": 2,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Germany strengthens defense and industry in response to geopolitical challenges.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Germany"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
