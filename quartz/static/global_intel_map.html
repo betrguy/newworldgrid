@@ -38,7 +38,7 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-14 08:01 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-11-15 08:02 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
@@ -51,152 +51,150 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: IRAN",
-    "summary": "Iran facing environmental, economic, and diplomatic challenges.",
-    "emojis": "🚢💥",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "Iraq",
-      "Turkey",
-      "Uzbekistan"
-    ],
-    "source_count": 35,
-    "timestamp": "08:00 AM"
-  },
-  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israel arrests suspect in Bulgarian killing, pushes for unity and truth.",
-    "emojis": "",
+    "summary": "Israeli coalition talks and tensions with Iran, U.S., and Hamas.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Bat Yam suspect"
+      "Iran",
+      "U.S.",
+      "Hamas"
     ],
-    "source_count": 22,
+    "source_count": 52,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "China and US discuss trade, while tensions persist with Japan and military cooperation with Laos.",
-    "emojis": "🪖⚔️☢️",
+    "summary": "Chinese Premier Li Qiang visits Philippines for ASEAN summit.",
+    "emojis": "⚔️",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "China",
-      "US",
-      "Japan",
-      "Laos"
+      "Chinese Premier Li Qiang",
+      "Philippines"
     ],
-    "source_count": 34,
-    "timestamp": "08:01 AM"
+    "source_count": 23,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran conducts drone strikes on US radar in Bahrain, tensions rise.",
+    "emojis": "🪖✈️💥",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "Bahrain"
+    ],
+    "source_count": 40,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia modernizes missiles, strikes Ukraine, meets with leaders.",
-    "emojis": "💥🚀",
+    "summary": "Ukraine targets Russian petrochemicals, tensions rise ahead of APEC meeting.",
+    "emojis": "⚔️☣️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
-      "Russia",
       "Ukraine",
-      "USA",
-      "China",
-      "UK"
+      "Russia"
     ],
-    "source_count": 23,
-    "timestamp": "08:01 AM"
+    "source_count": 15,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: INDIA",
-    "summary": "India aims to triple clean energy by 2035, faces hurdles; EV adoption won't curb road-fuel growth till 2034.",
+    "title": "SITREP: UK",
+    "summary": "UK's cheap Chinese electric car boom may end due to potential EU rule change.",
     "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "India",
-      "UN",
-      "BNEF"
+      "UK",
+      "China",
+      "EU"
     ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine reports strikes on Russian sites; Russia launches attacks; peace efforts ongoing.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia",
+      "US",
+      "Kushner"
+    ],
+    "source_count": 12,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: PAKISTAN",
-    "summary": "Amnesty urges Pakistan to release Kashmir activists.",
+    "summary": "Trump's Pakistan pivot may have cost him US midterm support.",
     "emojis": "",
     "lat": 30.3,
     "lng": 69.3,
     "location": "PAKISTAN",
     "actors": [
-      "Amnesty",
-      "Pakistan"
+      "Trump",
+      "US midterm voters"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russia demands NATO pullback; Ukraine reports strikes, tensions persist.",
-    "emojis": "🪖🚢💥",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Ukraine"
-    ],
-    "source_count": 19,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli soldiers kill Palestinians, UN warns of Gaza health system collapse.",
-    "emojis": "🪖⚔️",
+    "summary": "Israeli airstrike kills senior Hamas commander in Gaza.",
+    "emojis": "💥💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli soldiers",
-      "UN"
+      "Israel",
+      "Hamas"
     ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
+    "source_count": 4,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Israeli hostage situation sparks blame between decades-old adversaries.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Israel",
+      "US-NY"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: YEMEN",
-    "summary": "Government forces repel Houthi attack; Saudi-led coalition targets Saada, Razih.",
-    "emojis": "⚔️",
+    "summary": "Yemen government withdraws, Houthis control Bab el-Mandeb area.",
+    "emojis": "",
     "lat": 15.5,
     "lng": 48.5,
     "location": "YEMEN",
     "actors": [
-      "Yemen's government-aligned forces",
-      "Houthis",
-      "Saudi-led coalition"
-    ],
-    "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Germany strengthens defense and industry in response to geopolitical challenges.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Germany"
+      "Yemen government",
+      "Houthis"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   }
 ];
 

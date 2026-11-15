@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 15, 2026** | [IRAN LAUNCHES DRONE STRIKES NEAR US MILITARY BASES IN BAHRAIN](/archive/predictive/2026-11-15-iran-launches-drone-strikes-near) | Iran's drone strikes on US radar in Bahrain escalate regional tensions, particularly with the US and Israel. |
 | **Nov 14, 2026** | [RUSSIA'S MISSILE MODERNIZATION & UKEINIAN CONFLICT SPARK GLOBAL GEOPOLITICAL TENSIONS](/archive/predictive/2026-11-14-russias-missile-modernization-ukeinian-conflict) | Russia's ongoing missile modernization and intensified military activities in Ukraine, coupled with its diplomatic en... |
 | **Nov 13, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-11-13-lowcarbon-volcanic-rock-cement-ai) | Ukraine's aggressive drone campaign against Russian targets in the Baltic Sea intensifies tensions amid ongoing diplo... |
 | **Nov 12, 2026** | [WESTERN POWERS FACE OFF AGAINST GLOBAL GIANT ALLIANCES](/archive/predictive/2026-11-12-western-powers-face-off-against) | US-led Western powers face escalating tensions with Russia, Iran, and China, while maintaining engagement with key le... |
