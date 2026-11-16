@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-15 08:02 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-11-16 08:14 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -52,149 +52,212 @@
         var INTEL_DATA = [
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israeli coalition talks and tensions with Iran, U.S., and Hamas.",
-    "emojis": "⚡",
+    "summary": "Houthis regain control, Israel-UAE discuss Tel Aviv route, Venezuelan delegation visits.",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
+      "Houthis",
       "Israel",
-      "Iran",
-      "U.S.",
-      "Hamas"
+      "UAE",
+      "Venezuela"
     ],
-    "source_count": 52,
-    "timestamp": "08:01 AM"
+    "source_count": 18,
+    "timestamp": "08:14 AM"
   },
   {
     "title": "SITREP: CHINA",
-    "summary": "Chinese Premier Li Qiang visits Philippines for ASEAN summit.",
-    "emojis": "⚔️",
+    "summary": "China marks museum centennial, seeks APEC trade deal, faces economic challenges.",
+    "emojis": "",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Chinese Premier Li Qiang",
-      "Philippines"
+      "China",
+      "Xinhua News",
+      "Megaspeed",
+      "APEC"
     ],
-    "source_count": 23,
-    "timestamp": "08:02 AM"
+    "source_count": 33,
+    "timestamp": "08:14 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran conducts drone strikes on US radar in Bahrain, tensions rise.",
-    "emojis": "🪖✈️💥",
+    "summary": "Tensions rise as US, Iran near war; neighbors support Hormuz plan.",
+    "emojis": "⚔️⚡",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "Iran",
       "US",
-      "Bahrain"
+      "Iran"
     ],
-    "source_count": 40,
-    "timestamp": "08:02 AM"
+    "source_count": 31,
+    "timestamp": "08:14 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Ukraine targets Russian petrochemicals, tensions rise ahead of APEC meeting.",
-    "emojis": "⚔️☣️⚡",
+    "summary": "Ukraine launches largest drone attack on Russia; Putin, Yadrov mentioned.",
+    "emojis": "✈️💥⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Ukraine",
-      "Russia"
+      "Russia",
+      "Putin",
+      "Yadrov"
     ],
-    "source_count": 15,
-    "timestamp": "08:02 AM"
+    "source_count": 26,
+    "timestamp": "08:14 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Israeli military operations in Syria justify continued presence.",
+    "emojis": "🚀🪖",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Israeli military",
+      "Syria"
+    ],
+    "source_count": 2,
+    "timestamp": "08:14 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK's cheap Chinese electric car boom may end due to potential EU rule change.",
+    "summary": "UK defines 'anti-Muslim hostility', VW ID. Cross prices announced, XPENG unveils EV models.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
       "UK",
-      "China",
-      "EU"
+      "Volkswagen",
+      "XPENG"
+    ],
+    "source_count": 3,
+    "timestamp": "08:14 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "India's quiet diplomacy with the US may incur geopolitical costs.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "India",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "08:14 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine reports strikes on Russian sites; Russia launches attacks; peace efforts ongoing.",
-    "emojis": "✈️💥⚔️",
+    "summary": "Ukraine launches major drone attack on Russia, oil production hit.",
+    "emojis": "✈️⚔️🕊️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
     "actors": [
       "Ukraine",
-      "Russia",
-      "US",
-      "Kushner"
+      "Russia"
     ],
-    "source_count": 12,
-    "timestamp": "08:02 AM"
+    "source_count": 11,
+    "timestamp": "08:14 AM"
   },
   {
-    "title": "SITREP: PAKISTAN",
-    "summary": "Trump's Pakistan pivot may have cost him US midterm support.",
+    "title": "SITREP: US-CA",
+    "summary": "Tesla uses fine print in user agreements to limit safety lawsuit liability.",
     "emojis": "",
-    "lat": 30.3,
-    "lng": 69.3,
-    "location": "PAKISTAN",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
     "actors": [
-      "Trump",
-      "US midterm voters"
+      "Tesla"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "08:14 AM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Iraq bans Telegram for non-compliance.",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "Iraq",
+      "Telegram"
+    ],
+    "source_count": 1,
+    "timestamp": "08:14 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Renault cuts up to 1,000 white-collar jobs, France bans Israeli official.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Renault",
+      "France"
+    ],
+    "source_count": 2,
+    "timestamp": "08:14 AM"
+  },
+  {
+    "title": "SITREP: GERMANY",
+    "summary": "Klopp criticizes Infantino; EU countries plan Rwanda migrant centers.",
+    "emojis": "",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
+    "actors": [
+      "Klopp",
+      "Infantino",
+      "Germany",
+      "Denmark",
+      "Austria",
+      "Greece",
+      "Netherlands"
+    ],
+    "source_count": 2,
+    "timestamp": "08:14 AM"
+  },
+  {
+    "title": "SITREP: LEBANON",
+    "summary": "Hezbollah faces challenges in Syria without conflict, amid Israeli and US pressure.",
+    "emojis": "💥⚔️",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
+    "actors": [
+      "Hezbollah",
+      "Damascus",
+      "Israel",
+      "US"
+    ],
+    "source_count": 4,
+    "timestamp": "08:14 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli airstrike kills senior Hamas commander in Gaza.",
+    "summary": "Hamas Rafah Brigade commander killed in Israeli airstrike.",
     "emojis": "💥💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israel",
-      "Hamas"
-    ],
-    "source_count": 4,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Israeli hostage situation sparks blame between decades-old adversaries.",
-    "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
-    "actors": [
-      "Israel",
-      "US-NY"
+      "Hamas Rafah Brigade commander",
+      "Israel"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Yemen government withdraws, Houthis control Bab el-Mandeb area.",
-    "emojis": "",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "Yemen government",
-      "Houthis"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "08:14 AM"
   }
 ];
 
