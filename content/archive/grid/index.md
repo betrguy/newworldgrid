@@ -14,7 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Nov 15, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-15-lowcarbon-volcanic-rock-cement-ai) | The U.S. now accounts for nearly 40% of global data center electricity consumption due to the surge in AI-driven work... |
+| **Nov 16, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-16-lowcarbon-volcanic-rock-cement-ai) | The U.S. and its allies have formed a strategic alliance to protect AI technology and infrastructure amid growing com... |
 | **Nov 14, 2026** | [Iran Nuclear Program Sparks Global Energy Security Concerns Amid Escalating Tensions.](/archive/grid/2026-11-14-iran-nuclear-program-sparks-global) | Iran’s nuclear program remains under international scrutiny as UN inspectors are still denied access, potentially imp... |
 | **Nov 13, 2026** | [Cyber Threats Loom Over Global Grids Amid Iranian Attacks & Turkish Renewable Push](/archive/grid/2026-11-13-cyber-threats-loom-over-global) | Belgian ministers are debating the implications of alleged Iranian cyberattacks on refrigerators, which could indicat... |
 | **Nov 12, 2026** | [China's rapid embrace of AI data centers is reshaping global compute load...](/archive/grid/2026-11-12-chinas-rapid-embrace-of-ai) | Data-center electricity demand is on the rise, driven by official tracking from the Federal Register and the US Depar... |

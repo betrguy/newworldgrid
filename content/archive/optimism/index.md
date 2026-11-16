@@ -14,8 +14,8 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 16, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-16-lowcarbon-volcanic-rock-cement-ai) | Identify critical security flaws in complex robotics systems more quickly. |
 | **Nov 15, 2026** | [No source names.](/archive/optimism/2026-11-15-no-source-names) | Predict human error and simulate complex laser interactions with unprecedented speed, setting the stage for safer voy... |
-| **Nov 14, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-14-lowcarbon-volcanic-rock-cement-ai) | Scientists at Stanford, UCLA, and SLAC have developed an AI system that simulates complex laser interactions thousand... |
 | **Nov 10, 2026** | [Fast Charging & Longer Life Achieved](/archive/optimism/2026-11-10-fast-charging-longer-life-achieved) | Now, imagine charging your phone in seconds rather than hours, all while maintaining a longer battery life. |
 | **Nov 10, 2026** | [Spin Tech Breakthrough Extends Polarization 300x](/archive/optimism/2026-11-10-spin-tech-breakthrough-extends-polarization) | Preserve spin information for optoelectronic technologies using a perovskite chiral multiple quantum-well system, ext... |
 | **Nov 08, 2026** | [Land on a moon & Almost no gravity and track individual atoms](/archive/optimism/2026-11-08-land-on-a-moon-almost) | Scientists have captured the first-ever images of Phobos, the enigmatic Martian moon, transiting the Sun from the Mar... |

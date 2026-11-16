@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: IRAN LAUNCHES DRONE STRIKES NEAR US MILITARY BASES IN BAHRAIN. Iran's drone strikes on US radar in Bahrain escalate regional tensions, parti..."
+description: "Predictive News: US-Iran Gulf Maritime Escalation & Strategic Defense Alerts. Iran's drone strikes on US radar in Bahrain escalate regional tensions, particu..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -26,18 +26,14 @@ Iran's drone strikes on US radar in Bahrain escalate regional tensions, particul
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 15, 2026
+## Daily Intelligence Brief - Nov 16, 2026
 
-Bahrain and Iran are reportedly engaging in proxy conflicts, with blasts rocking Bahrain and accusations of Iranian attacks. Israel, through Mossad, has reportedly abducted and interrogated Iranian generals in a secret operation to recover a missing airman, Ron Arad. Iran, in retaliation, has accused Bahrain of territory attacks, suggesting a complex web of regional tensions.
-
-Zelenskyy claims Russia's energy attacks have been bolstered by Starshield restrictions. Akhtubinsk airfield in Russia and a drone launch site were reportedly struck by Ukrainian forces, indicating ongoing military activity and a strategic push.
-
-China Daily Life, highlighted in a WV News report, showcases changes in daily life, possibly linked to a decline in unconventional patents as noted by the South China Morning Post. This suggests a shift in innovation focus, though the exact nature remains unclear.
+China’s steel mills are bracing for a difficult winter, reflecting ongoing economic challenges. The Shenyang Palace Museum in northeast China marks a centennial, highlighting cultural preservation efforts. In Iran, Tehran has imposed costs on its population for domestic crackdowns. Russia faces its largest Ukrainian drone attack yet, with 1,336 drones intercepted. Megaspeed, a Chinese company, arranged nearly $12 billion worth of Nvidia chip orders, underscoring China’s efforts to secure technology supplies. A man named Riad Bouchaker was sentenced for an attempted murder of three children, though this incident is unrelated to the geopolitical landscape. China is seeking a roadmap for an Asia-Pacific free trade area at APEC, aiming to promote regional economic integration. The United States and Iran are sliding closer to a fresh all-out war, with increasing exchanges of fire.
 
 **Watch for:** 
-- Further developments in the proxy conflicts between Bahrain and Iran.
-- Russia’s response to Ukraine’s reported strikes, particularly on energy infrastructure.
-- Changes in China’s patent landscape and their implications on innovation.
+- Further escalation in the conflict between the U.S. and Iran, particularly if there are more exchanges of fire or military deployments.
+- Economic indicators from China’s steel industry, such as production levels or export volumes, to gauge broader economic health.
+- Progress or setbacks in the Asia-Pacific free trade area discussions, as indicated by official statements or bilateral agreements.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -51,6 +47,13 @@ China Daily Life, highlighted in a WV News report, showcases changes in daily li
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 15, 2026</span>
+        <a href="/archive/predictive/2026-11-15-iran-launches-drone-strikes-near" class="archive-link">IRAN LAUNCHES DRONE STRIKES NEAR US MILITARY BASES IN BAHRAIN</a>
+      </div>
+      <div class="archive-preview">Iran's drone strikes on US radar in Bahrain escalate regional tensions, particularly with the US and Israel.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 14, 2026</span>
@@ -106,13 +109,6 @@ China Daily Life, highlighted in a WV News report, showcases changes in daily li
         <a href="/archive/predictive/2026-11-08-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
       </div>
       <div class="archive-preview">Russian military actions and diplomatic pressures continue to drive global geopolitical tensions, with significant impacts on Ukraine,...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 07, 2026</span>
-        <a href="/archive/predictive/2026-11-07-usiran-gulf-maritime-escalation-strategic" class="archive-link">US-Iran Gulf Maritime Escalation & Strategic Defense Alerts</a>
-      </div>
-      <div class="archive-preview">Tensions escalate globally, with critical conflicts in Gaza, Ukraine, and Iran heightening geopolitical risks.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">
