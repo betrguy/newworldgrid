@@ -1,33 +1,33 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: ROCKET FAILURE DAMPENS ORBITAL ECONOMY AS EV CHARGING SOLUTIONS TAKE FLIGHT. Amazon's rocket failure dampens orbital economy prospects as BYD..."
+description: "Final Frontier: EV CHARGING INFRASTRUCTURE GETS SMARTER AS NIT ROURKELA SECURES PATENT. Li Auto's recruitment signals potential expansion into Australia's EV..."
 ---
 
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 16, 2026 - 08:16</span>
+  <span class="sotg-timestamp">November 17, 2026 - 08:04</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
 
-Amazon's rocket failure dampens orbital economy prospects as BYD deploys innovative EV charging solutions in the UAE, highlighting shifts in both space and grid technologies. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
+Li Auto's recruitment signals potential expansion into Australia's EV market, while NIT Rourkela's patent advances smart power management for EV charging infrastructure. <span class="meridian-attr">&mdash;&nbsp;ARC</span>
 
 <!-- FRONTIER_ENGINE_START -->
 
 ### The High Ground
 
-Amazon's recent loss of 40 satellites from its internet constellation following a failed rocket launch on Sunday marks a setback in its competition with Starlink. This incident highlights the risks associated with orbital infrastructure. As a result, the orbital economy may experience shifts, creating new opportunities for firms like Celestia, a small Canadian company, to repurpose these satellites into space-based solar farms, potentially generating power for Earth-based data centers.
+Li Auto, a Chinese EV maker, is expanding its reach to Australia, planning a potential local launch in 2027. This move could signal a new phase in orbital energy and compute, as more companies look to tap into space resources.
 
 ### The EV Race
 
-BYD has launched solar panels, battery energy storage systems (BESS), and robotic EV charging systems in the UAE, according to a report from Solarbytes. These new charging solutions are intended to offer more convenient and sustainable options for electric vehicle owners. Grid operators may anticipate increased demand as these new charging stations become operational, which could help stabilize the grid during peak usage times.
+BYD has launched solar panels, battery energy storage systems (BESS), and robotic EV charging systems in the UAE, aiming to provide more convenient and sustainable charging options for electric vehicle owners.
 
 *What follows is purely a thought experiment.*
 
-In 2036, a decade after Amazon's catastrophic rocket failure, the remaining 60 satellites of its internet constellation—now owned by a mysterious Chinese firm called QuantumSky—are repurposed. QuantumSky had initially planned to use these satellites for high-resolution Earth observation. However, a bizarre twist occurs when QuantumSky discovers a way to enhance the satellites' power efficiency by 30% through a novel solar cell technology. This breakthrough, combined with the satellites' unique vantage point, allows QuantumSky to develop a novel space-based weather prediction system. The service proves so accurate that it disrupts traditional weather forecasting models, leading to a significant shift in the insurance and agricultural industries. The U.S. and European Union scramble to develop their own space-based weather systems, leading to a new arms race in the orbital economy.
+In 2036, the world watches in shock as SpaceX's Starship lands on the moon, not to establish a base, but to install a massive solar array. The mission, codenamed LunaSolar, was designed to beam energy back to Earth via lasers. However, the project's true purpose was revealed only after the array's completion: it was a clandestine communications hub, using the array's power to relay encrypted signals across the globe. This move by SpaceX, once seen as a clean-energy play, now raises questions about the space race's new frontier: the militarization of space. Nations scramble to develop their own space-based surveillance capabilities, and the balance of power shifts, threatening existing space treaties and setting the stage for a new era of geopolitical tension.
 
 <!-- /FRONTIER_ENGINE_END -->
 
@@ -41,6 +41,13 @@ In 2036, a decade after Amazon's catastrophic rocket failure, the remaining 60 s
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 16, 2026</span>
+        <a href="/archive/frontier/2026-11-16-rocket-failure-dampens-orbital-economy" class="archive-link">ROCKET FAILURE DAMPENS ORBITAL ECONOMY AS EV CHARGING SOLUTIONS TAKE FLIGHT</a>
+      </div>
+      <div class="archive-preview">Amazon's rocket failure dampens orbital economy prospects as BYD deploys innovative EV charging solutions in the UAE, highlighting...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 16, 2026</span>
@@ -117,13 +124,6 @@ In 2036, a decade after Amazon's catastrophic rocket failure, the remaining 60 s
         <a href="/archive/frontier/2026-11-06-satellite-expansion-raises-security-concerns" class="archive-link">SATELLITE EXPANSION RAISES SECURITY CONCERNS IN ORBITAL ECONOMY</a>
       </div>
       <div class="archive-preview">Orbital economy developments raise security concerns as satellite services expand, while EV charging infrastructure sees new...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 05, 2026</span>
-        <a href="/archive/frontier/2026-11-05-orbital-economy-tensions-rise-russia" class="archive-link">Orbital economy tensions rise & Russia rehearses satellite attacks</a>
-      </div>
-      <div class="archive-preview">Orbital economy tensions rise as Russia rehearses satellite attacks, while Mercedes-Benz shifts focus to electric vehicle charging...</div>
     </div>
   </div>
 </div>

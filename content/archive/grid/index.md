@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 17, 2026** | [UKRAINE STRIKES CRIMEA BRIDGE IN RETALIATION AMID GLOBAL INFRASTRUCTURE WARFARE](/archive/grid/2026-11-17-ukraine-strikes-crimea-bridge-in) | Ukraine's retaliatory strike against a Crimea bridge underscores the escalating geopolitical tensions and the vulnera... |
 | **Nov 16, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-16-lowcarbon-volcanic-rock-cement-ai) | Quantum teleportation advancements could revolutionize data transfer methods, potentially easing the strain on curren... |
 | **Nov 14, 2026** | [Iran Nuclear Program Sparks Global Energy Security Concerns Amid Escalating Tensions.](/archive/grid/2026-11-14-iran-nuclear-program-sparks-global) | Iran’s nuclear program remains under international scrutiny as UN inspectors are still denied access, potentially imp... |
 | **Nov 13, 2026** | [Cyber Threats Loom Over Global Grids Amid Iranian Attacks & Turkish Renewable Push](/archive/grid/2026-11-13-cyber-threats-loom-over-global) | Belgian ministers are debating the implications of alleged Iranian cyberattacks on refrigerators, which could indicat... |

@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-16 08:14 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-11-17 08:02 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,114 +51,111 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Houthis regain control, Israel-UAE discuss Tel Aviv route, Venezuelan delegation visits.",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Houthis",
-      "Israel",
-      "UAE",
-      "Venezuela"
-    ],
-    "source_count": 18,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China marks museum centennial, seeks APEC trade deal, faces economic challenges.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "Xinhua News",
-      "Megaspeed",
-      "APEC"
-    ],
-    "source_count": 33,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions rise as US, Iran near war; neighbors support Hormuz plan.",
-    "emojis": "⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Iran"
-    ],
-    "source_count": 31,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Ukraine launches largest drone attack on Russia; Putin, Yadrov mentioned.",
-    "emojis": "✈️💥⚔️",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Ukraine",
-      "Russia",
-      "Putin",
-      "Yadrov"
-    ],
-    "source_count": 26,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Israeli military operations in Syria justify continued presence.",
-    "emojis": "🚀🪖",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Israeli military",
-      "Syria"
-    ],
-    "source_count": 2,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK defines 'anti-Muslim hostility', VW ID. Cross prices announced, XPENG unveils EV models.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK",
-      "Volkswagen",
-      "XPENG"
-    ],
-    "source_count": 3,
-    "timestamp": "08:14 AM"
-  },
-  {
     "title": "SITREP: INDIA",
-    "summary": "India's quiet diplomacy with the US may incur geopolitical costs.",
+    "summary": "Quad leaders meet in Manila ahead of APEC summit.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
-      "US"
+      "Quad leaders",
+      "APEC"
     ],
     "source_count": 1,
-    "timestamp": "08:14 AM"
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel screens Gaza aid trucks; ties for 2nd in AI startups; resumes flights with UAE; Czech PM discusses security threats.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Gaza",
+      "AI startups",
+      "UAE",
+      "Czech PM"
+    ],
+    "source_count": 19,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK sanctions firms over Israeli West Bank settlements.",
+    "emojis": "🚫",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK",
+      "Israeli construction companies"
+    ],
+    "source_count": 4,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "U.S. and China engage in tech and trade tensions amid diplomatic meetings.",
+    "emojis": "⚡",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "U.S."
+    ],
+    "source_count": 41,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces EU sanctions, NATO tensions, and mixed bridge damage reports.",
+    "emojis": "💥🚫⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "EU",
+      "NATO"
+    ],
+    "source_count": 14,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran targets US in Bahrain, plots against Washington suspected.",
+    "emojis": "💥⚔️💣",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US"
+    ],
+    "source_count": 35,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Apple faces French trial for alleged planned obsolescence.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Apple",
+      "France"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine launches major drone attack on Russia, oil production hit.",
-    "emojis": "✈️⚔️🕊️",
+    "summary": "Ukraine strikes Crimea Bridge with drones and missiles, Russia responds angrily.",
+    "emojis": "🪖✈️💥",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -166,98 +163,64 @@
       "Ukraine",
       "Russia"
     ],
-    "source_count": 11,
-    "timestamp": "08:14 AM"
+    "source_count": 18,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: US-CA",
-    "summary": "Tesla uses fine print in user agreements to limit safety lawsuit liability.",
-    "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi-backed forces bolster Aden defenses against Houthis.",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Tesla"
+      "Saudi-backed forces",
+      "Houthis"
     ],
     "source_count": 1,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: IRAQ",
-    "summary": "Iraq bans Telegram for non-compliance.",
-    "emojis": "",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
-    "actors": [
-      "Iraq",
-      "Telegram"
-    ],
-    "source_count": 1,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "Renault cuts up to 1,000 white-collar jobs, France bans Israeli official.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Renault",
-      "France"
-    ],
-    "source_count": 2,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Klopp criticizes Infantino; EU countries plan Rwanda migrant centers.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Klopp",
-      "Infantino",
-      "Germany",
-      "Denmark",
-      "Austria",
-      "Greece",
-      "Netherlands"
-    ],
-    "source_count": 2,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "Hezbollah faces challenges in Syria without conflict, amid Israeli and US pressure.",
-    "emojis": "💥⚔️",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "Hezbollah",
-      "Damascus",
-      "Israel",
-      "US"
-    ],
-    "source_count": 4,
-    "timestamp": "08:14 AM"
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Hamas Rafah Brigade commander killed in Israeli airstrike.",
-    "emojis": "💥💀",
+    "summary": "UK sanctions on Israeli settlement builders, Gaza aid-blockers.",
+    "emojis": "🚫",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Hamas Rafah Brigade commander",
+      "Britain",
       "Israel"
     ],
     "source_count": 1,
-    "timestamp": "08:14 AM"
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Congress considers EV fees; Trump's border project lags.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Congress",
+      "President Trump"
+    ],
+    "source_count": 2,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-FL",
+    "summary": "Florida converts stormwater ponds to solar farms.",
+    "emojis": "",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
+    "actors": [
+      "Florida",
+      "retention ponds"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
   }
 ];
 

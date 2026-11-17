@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Final Frontier. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 17, 2026** | [EV CHARGING INFRASTRUCTURE GETS SMARTER AS NIT ROURKELA SECURES PATENT](/archive/frontier/2026-11-17-ev-charging-infrastructure-gets-smarter) | Li Auto's recruitment signals potential expansion into Australia's EV market, while NIT Rourkela's patent advances sm... |
 | **Nov 16, 2026** | [ROCKET FAILURE DAMPENS ORBITAL ECONOMY AS EV CHARGING SOLUTIONS TAKE FLIGHT](/archive/frontier/2026-11-16-rocket-failure-dampens-orbital-economy) | Amazon's rocket failure dampens orbital economy prospects as BYD deploys innovative EV charging solutions in the UAE,... |
 | **Nov 16, 2026** | [ROCKET FAILURE HITS ORBITAL ECONOMY AS EV REVOLUTION TAKES ROOT IN UAE](/archive/frontier/2026-11-16-rocket-failure-hits-orbital-economy) | Amazon's rocket failure dampens orbital economy prospects as BYD deploys innovative EV charging solutions in the UAE,... |
 | **Nov 15, 2026** | [SPACEX SECURES STARSHIP RECOVERY, BYD LEADS EV GRID REVOLUTION](/archive/frontier/2026-11-15-spacex-secures-starship-recovery-byd) | SpaceX's catch of a Starship rocket on return to Earth marks a significant milestone in orbital economy development, ... |
