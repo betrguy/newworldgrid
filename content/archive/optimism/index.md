@@ -14,9 +14,9 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 18, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-18-lowcarbon-volcanic-rock-cement-ai) | We are no longer limited to the speed of silicon-based processors; the integration of artificial intelligence (AI) wi... |
 | **Nov 17, 2026** | [A surgeon can operate on a stroke patient miles away & And tiny robots can...](/archive/optimism/2026-11-17-a-surgeon-can-operate-on) | Surgeons now have the capability to perform complex surgeries remotely, thanks to advanced surgical robots like the R... |
 | **Nov 16, 2026** | [New insights into robotics security have dramatically tightened...](/archive/optimism/2026-11-16-new-insights-into-robotics-security) | One set of 28 previously unknown vulnerabilities, identified by VicOne using AI-assisted research, underscores the pr... |
-| **Nov 16, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-16-lowcarbon-volcanic-rock-cement-ai) | Identify critical security flaws in complex robotics systems more quickly. |
 | **Nov 15, 2026** | [No source names.](/archive/optimism/2026-11-15-no-source-names) | Predict human error and simulate complex laser interactions with unprecedented speed, setting the stage for safer voy... |
 | **Nov 10, 2026** | [Fast Charging & Longer Life Achieved](/archive/optimism/2026-11-10-fast-charging-longer-life-achieved) | Now, imagine charging your phone in seconds rather than hours, all while maintaining a longer battery life. |
 | **Nov 10, 2026** | [Spin Tech Breakthrough Extends Polarization 300x](/archive/optimism/2026-11-10-spin-tech-breakthrough-extends-polarization) | Preserve spin information for optoelectronic technologies using a perovskite chiral multiple quantum-well system, ext... |

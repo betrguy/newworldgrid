@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: QUAD LEADERS UNITE IN MANILA AS CHINA TENSIONS ESCALATE. Quad leaders' meeting in Manila precedes APEC summit, signaling enhanced Indo-Pacif..."
+description: "Predictive News: TRUMP'S CHINA SUMMIT WITH PUTIN & XI SIGNALS GLOBAL GEOPOLITICS REALIGNMENT. Trump's trilateral summit with Putin and Xi in China signals a ..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 17, 2026 — 08:02</span>
+  <span class="sotg-timestamp">November 18, 2026 — 08:02</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Quad leaders' meeting in Manila precedes APEC summit, signaling enhanced Indo-Pacific cooperation amid growing tensions with China. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Trump's trilateral summit with Putin and Xi in China signals a potential realignment in global geopolitics. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,25 +26,18 @@ Quad leaders' meeting in Manila precedes APEC summit, signaling enhanced Indo-Pa
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 17, 2026
+## Daily Intelligence Brief - Nov 18, 2026
 
-Russia and Venezuela are hosting an international friendly match, signaling potential geopolitical overtones. The event is livestreamed on 17 November 2026, with Japanese trading group involvement.
+Israel Police have arrested two Fatah terrorists suspected of planning an attack in Israel, according to JNS.org. North Macedonia uncovered an alleged Iran-linked plot to assassinate a target in Greece, reported by Arab News. Iran has expanded its attacks in the Gulf by targeting a U.S. air base in Kuwait and sites in Bahrain, as per The Killeen Daily Herald. These actions suggest ongoing regional tensions, with Iran seeking to escalate its confrontations.
 
-The UK has imposed sanctions on firms linked to Israeli West Bank settlements, indicating a stance against settlement activities.
+Trump shook hands with Putin in China, marking a historic summit where the leaders will meet together for the first time, as reported by NBC News. This interaction, along with Xi Jinping’s personal welcome, indicates growing geopolitical alignments and the importance of multilateral diplomacy.
 
-U.S. President Trump states, "China plays games with us and we play games with China," suggesting ongoing strategic competition between the two nations.
+Iran's spy case and expanding attacks have raised European security concerns ahead of the APEC talks, according to The Jerusalem Post. This signals potential increased scrutiny and collaboration among European nations to address shared security threats.
 
-Iran launches its third strike on U.S. targets in Bahrain, ending a two-month lull in hostilities, which may indicate a shift in the intensity of the conflict.
-
-Russia questions the legality of remarks made by the EU's Kallas on intelligence gathering, reflecting tensions in EU-Russia relations.
-
-China expresses anger over new U.S. chip curbs ahead of a Trump-Xi meeting, highlighting economic and technological tensions.
-
-**Watch for:**  
-- The outcome of the international friendly between Russia and Venezuela, particularly any diplomatic statements or actions.  
-- Further sanctions from the UK against firms involved in Israeli settlements.  
-- The tone and content of the upcoming Trump-Xi meeting, especially regarding chip curbs and broader economic relations.  
-- Any new statements or actions from Iran following its third strike on U.S. targets in Bahrain.
+Watch for: 
+- Further diplomatic engagements between the leaders of the United States, Russia, and China during the APEC summit.
+- Escalation of tensions between Iran and its regional adversaries, particularly Israel and Saudi Arabia.
+- European countries’ responses to Iran’s spy case and expansion of attacks, and their coordination efforts.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -58,6 +51,13 @@ China expresses anger over new U.S. chip curbs ahead of a Trump-Xi meeting, high
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 17, 2026</span>
+        <a href="/archive/predictive/2026-11-17-quad-leaders-unite-in-manila" class="archive-link">QUAD LEADERS UNITE IN MANILA AS CHINA TENSIONS ESCALATE</a>
+      </div>
+      <div class="archive-preview">Quad leaders' meeting in Manila precedes APEC summit, signaling enhanced Indo-Pacific cooperation amid growing tensions with China.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 16, 2026</span>
@@ -134,13 +134,6 @@ China expresses anger over new U.S. chip curbs ahead of a Trump-Xi meeting, high
         <a href="/archive/predictive/2026-11-06-ukraine-resistance-hits-new-peak" class="archive-link">UKRAINE RESISTANCE HITS NEW PEAK AS RUSSIA LAUNCHES FRESH ATTACKS</a>
       </div>
       <div class="archive-preview">Ukraine reports continued casualties and counters Russian attacks, while diplomatic efforts and domestic policies persist amid geopolitical tensions.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 06, 2026</span>
-        <a href="/archive/predictive/2026-11-06-ukraine-strikes-back-at-russia" class="archive-link">UKRAINE STRIKES BACK AT RUSSIA, AS TENSIONS RISE OVER POTENTIAL US-RU DEALS</a>
-      </div>
-      <div class="archive-preview">Ukraine reports increased military activity, striking Russian targets, while tensions rise over potential US-mediated deals with Russia's envoy.</div>
     </div>
   </div>
 </div>

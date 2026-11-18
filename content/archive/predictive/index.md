@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 18, 2026** | [TRUMP'S CHINA SUMMIT WITH PUTIN & XI SIGNALS GLOBAL GEOPOLITICS REALIGNMENT](/archive/predictive/2026-11-18-trumps-china-summit-with-putin) | Trump's trilateral summit with Putin and Xi in China signals a potential realignment in global geopolitics. |
 | **Nov 17, 2026** | [QUAD LEADERS UNITE IN MANILA AS CHINA TENSIONS ESCALATE](/archive/predictive/2026-11-17-quad-leaders-unite-in-manila) | Quad leaders' meeting in Manila precedes APEC summit, signaling enhanced Indo-Pacific cooperation amid growing tensio... |
 | **Nov 16, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-11-16-strait-of-hormuz-flow-discrepancies) | Tensions between the U.S. and Iran are escalating, with potential for direct conflict over control of the Strait of H... |
 | **Nov 16, 2026** | [US-Iran Gulf Maritime Escalation & Strategic Defense Alerts](/archive/predictive/2026-11-16-usiran-gulf-maritime-escalation-strategic) | Iran's drone strikes on US radar in Bahrain escalate regional tensions, particularly with the US and Israel. |
