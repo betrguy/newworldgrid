@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-19 08:02 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-11-19 11:08 UTC | 13 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">13 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,23 +51,128 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "China bans Bloomberg reporter, discusses oil demand, and boosts tech exports.",
+    "title": "SITREP: US-CA",
+    "summary": "UCSC harvests electricity from cacti; SF warns EV owners about floodwater; SpaceX rocket launch details.",
+    "emojis": "🚀⚔️",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "UCSC",
+      "SF Fire Officials",
+      "SpaceX"
+    ],
+    "source_count": 3,
+    "timestamp": "11:07 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces protests, extends detentions, and investigates mosque fire amid political tensions.",
+    "emojis": "⚡",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel Police",
+      "Gazans",
+      "Dr. Hussam Abu Safiya",
+      "Palestinian group"
+    ],
+    "source_count": 20,
+    "timestamp": "11:07 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Palestinians flee as Israeli tanks breach Gaza ceasefire line.",
+    "emojis": "🕊️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Palestinians",
+      "Israeli tanks"
+    ],
+    "source_count": 1,
+    "timestamp": "11:08 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Putin criticizes sports ban, as leaders conclude U.S.-China-Russia summit.",
     "emojis": "",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Putin",
+      "Trump",
+      "Xi"
+    ],
+    "source_count": 48,
+    "timestamp": "11:08 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US, China, Russia agree peace declaration avoiding Iran and Ukraine.",
+    "emojis": "⚔️🕊️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "China",
+      "Russia",
+      "US"
+    ],
+    "source_count": 14,
+    "timestamp": "11:08 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "Experts discuss Shenzhen Declaration’s impact; US warns AI on attacks; India notes trilateral summit.",
+    "emojis": "💥⚔️💣",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "Experts",
+      "US government",
+      "India"
+    ],
+    "source_count": 4,
+    "timestamp": "11:08 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China launches satellite, restricts reporters, amid AI debate.",
+    "emojis": "🚀",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
       "China",
-      "Bloomberg Reporter"
+      "Hunterbrook",
+      "Bloomberg reporter"
     ],
-    "source_count": 14,
-    "timestamp": "08:02 AM"
+    "source_count": 12,
+    "timestamp": "11:08 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "British sanctions impact Israeli settlements in West Bank.",
+    "emojis": "🚫",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "Britain",
+      "Israel"
+    ],
+    "source_count": 2,
+    "timestamp": "11:08 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine strikes key Russian-Crimea bridge, Russia retaliates, affecting infrastructure and energy.",
-    "emojis": "💥",
+    "summary": "Ukraine bombs Crimean Bridge; Putin vows response.",
+    "emojis": "💥💣",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -75,135 +180,64 @@
       "Ukraine",
       "Russia"
     ],
-    "source_count": 7,
-    "timestamp": "08:02 AM"
+    "source_count": 8,
+    "timestamp": "11:08 AM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "IEA warns Mideast crisis poses unprecedented threat to global energy security.",
+    "title": "SITREP: US-TX",
+    "summary": "X-ELIO selects e-STORAGE for 590 MW battery storage in Texas.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "X-ELIO",
+      "e-STORAGE"
+    ],
+    "source_count": 1,
+    "timestamp": "11:08 AM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Iraq avoids conflict with militia over stronghold through compromise.",
     "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "IEA"
+      "Iraq",
+      "militia"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "US and Europe press Iran on nuclear inspections; domestic crises escalate.",
-    "emojis": "☢️💣",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Europe",
-      "Iran"
-    ],
-    "source_count": 29,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces legal, diplomatic challenges amid domestic incidents and U.S. aid cuts.",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
-      "Israel",
-      "Netanyahu",
-      "UK",
-      "U.S."
-    ],
-    "source_count": 20,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Trump, Putin, and Xi hold historic trilateral meeting in China.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Trump",
-      "Putin",
-      "Xi"
-    ],
-    "source_count": 65,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Recyclers and manufacturers dispute scrap metal exports in India.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Recyclers",
-      "Manufacturers"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "Lepas L6, a new Chinese EV, enters the UK market; pricing details available.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "Lepas L6",
-      "UK market"
-    ],
-    "source_count": 1,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "Yemen conflict divides families as cousins fight.",
-    "emojis": "⚔️",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "cousins"
-    ],
-    "source_count": 2,
-    "timestamp": "08:02 AM"
+    "timestamp": "11:08 AM"
   },
   {
     "title": "SITREP: US-NY",
-    "summary": "The New York Times reports on the decline of Iranian restaurants in NYC.",
+    "summary": "Mamdani defends remarks, Israeli consul calls him dangerous.",
     "emojis": "",
     "lat": 40.71,
     "lng": -74.0,
     "location": "US-NY",
     "actors": [
-      "The New York Times"
+      "Mamdani",
+      "Israeli consul general"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "11:08 AM"
   },
   {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan reports 2 Russian military aircraft nearby, second time this week.",
-    "emojis": "🪖✈️",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
+    "title": "SITREP: VENEZUELA",
+    "summary": "Venezuela signs military deal with US, contrary to expectations.",
+    "emojis": "🪖",
+    "lat": 6.4,
+    "lng": -66.5,
+    "location": "VENEZUELA",
     "actors": [
-      "Taiwan",
-      "Russia"
+      "Venezuela",
+      "US"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "11:08 AM"
   }
 ];
 

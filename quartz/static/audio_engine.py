@@ -123,6 +123,7 @@ def main() -> int:
         prompt = build_prompt(target, targets, plain_text_cache)
         real_news_script = generate_script_via_ollama(model=args.model, prompt=prompt)
         real_news_script = strip_thought_experiment_from_script(real_news_script)
+        real_news_script = deduplicate_spoken_script(real_news_script)
         real_news_script = ensure_opening_intro(real_news_script)
 
         if target.include_other_pages and thought_experiment_text:
@@ -180,16 +181,19 @@ def main() -> int:
 
 
 def strip_archive_and_boilerplate(raw_text: str) -> str:
-    """Strips archive backlog cards, byline headers, and jump links so only today's live text remains."""
+    """Strips archive backlog cards, byline headers, hook recaps, and duplicate blocks so only fresh body text remains."""
     text = raw_text
     # Cut off everything starting at EDITION_ARCHIVE_BACKLOG
     text = re.split(r"<!--\s*EDITION_ARCHIVE_BACKLOG\s*-->", text, maxsplit=1)[0]
-    # Remove byline blocks, author attribution spans, section date headers, and jump buttons
+    # Remove byline blocks, opening hook recap lines, summary bullet recaps, and jump buttons
     text = re.sub(r"<div class=\"sotg-byline\">.*?</div>", " ", text, flags=re.DOTALL)
-    text = re.sub(r"<span class=\"meridian-attr\">.*?</span>", " ", text, flags=re.DOTALL)
+    text = re.sub(r"[^\r\n]*<span class=\"meridian-attr\">.*?</span>[^\r\n]*", " ", text)
+    text = re.sub(r"<div class=\"sotg-bullets\">.*?</div>", " ", text, flags=re.DOTALL)
     text = re.sub(r"##\s+Daily Intelligence Brief[^\r\n]*", " ", text)
     text = re.sub(r"<!--\s*NEWS_HUNTER_JUMP\s*-->.*?<!--\s*/NEWS_HUNTER_JUMP\s*-->", " ", text, flags=re.DOTALL)
-    # Remove Breaking trends in AI GitHub repo links list at bottom of Optimism.md
+    # Remove duplicate Geomagnetic/Solar/GitHub sections from Optimism.md (Kp is spoken once in State of the Grid)
+    text = re.split(r"###\s+Geomagnetic Environment", text, maxsplit=1)[0]
+    # Remove Breaking trends in AI GitHub repo links list at bottom of Optimism.md if Geomagnetic was absent
     text = re.split(r"###\s+Breaking trends in AI today", text, maxsplit=1)[0]
     return text
 
@@ -327,6 +331,7 @@ def build_prompt(
         "- Cover all four desks in order: Predictive News, Daily Optimism, State of the Grid, and Final Frontier (The High Ground and The EV Race).\n"
         "- NEVER start the first sentence with a mid-stream transition phrase such as 'Moving to...' or 'Moving into...'. Reserve natural transitions (e.g., 'On the optimism front,', 'Turning to the State of the Grid,', 'In the Final Frontier,') strictly for moving between the subsequent desks.\n"
         "- Synthesize the key takeaways concisely rather than reading every paragraph verbatim, and mention the geomagnetic Kp index only once.\n"
+        "- NEVER repeat the same event, story, or fact twice—neither within the same desk nor across different desks. If a story or topic was already covered in an earlier desk, do not mention it again.\n"
         "- DO NOT include any fictional 'thought experiment' or '2036' scenario; cover ONLY the real-news reporting.\n"
         "- DO NOT use high-stakes, dramatic, or sensationalist language.\n"
         "- Do not say 'Hello', 'Welcome', 'Breaking news', or 'Signing off'.\n"
@@ -374,6 +379,60 @@ def generate_script_via_ollama(model: str, prompt: str) -> str:
     if not script_text:
         raise RuntimeError("Ollama returned an empty script.")
     return script_text
+
+
+_SPOKEN_STOPWORDS = {
+    "that", "with", "from", "this", "have", "will", "after", "amid", "over",
+    "into", "more", "than", "says", "also", "which", "while", "could", "would",
+    "being", "their", "about", "there", "these", "those", "today", "front",
+}
+
+
+def _spoken_content_tokens(sentence: str) -> set[str]:
+    tokens = re.findall(r"[a-z0-9]{4,}", sentence.lower())
+    return {tok for tok in tokens if tok not in _SPOKEN_STOPWORDS}
+
+
+def deduplicate_spoken_script(script_text: str) -> str:
+    """Drops near-duplicate sentences from the synthesized broadcast monologue."""
+    cleaned = script_text.strip()
+    if not cleaned:
+        return cleaned
+
+    protected = cleaned
+    abbrevs = [("U.S.", "U_S_DOT"), ("U.K.", "U_K_DOT"), ("E.U.", "E_U_DOT"), ("Sen.", "Sen_DOT"), ("Dr.", "Dr_DOT"), ("Mr.", "Mr_DOT"), ("Ms.", "Ms_DOT")]
+    for orig, token in abbrevs:
+        protected = protected.replace(orig, token)
+
+    sentences = re.split(r"(?<=[.!?])\s+(?=[A-Z\"\u201c])", protected)
+    kept: list[str] = []
+    seen_token_sets: list[set[str]] = []
+
+    for sent in sentences:
+        restored = sent
+        for orig, token in abbrevs:
+            restored = restored.replace(token, orig)
+        restored = restored.strip()
+        if not restored:
+            continue
+
+        cur_tokens = _spoken_content_tokens(restored)
+        is_dup = False
+        if len(cur_tokens) >= 4:
+            for prev_tokens in seen_token_sets:
+                if len(prev_tokens) < 4:
+                    continue
+                union = len(cur_tokens | prev_tokens)
+                if union and (len(cur_tokens & prev_tokens) / union) >= 0.55:
+                    is_dup = True
+                    break
+        if is_dup:
+            continue
+
+        kept.append(restored)
+        seen_token_sets.append(cur_tokens)
+
+    return " ".join(kept).strip()
 
 
 def clean_script_text(text: str) -> str:
