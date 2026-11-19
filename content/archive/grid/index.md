@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 19, 2026** | [US Crude Inventories Surge, Oil Prices Plummet Amid Global Shift](/archive/grid/2026-11-19-us-crude-inventories-surge-oil) | Oil prices have fallen sharply due to increased U.S. crude inventories, reducing the immediate pressure on global ene... |
 | **Nov 18, 2026** | [Oil Prices Plummet Amid Rising U.S. Inventories, Middle East Supply Worries](/archive/grid/2026-11-18-oil-prices-plummet-amid-rising) | Oil prices have plummeted due to rising U.S. crude inventories, overshadowing concerns over Middle East supply risks. |
 | **Nov 17, 2026** | [UKRAINE STRIKES CRIMEA BRIDGE IN RETALIATION AMID GLOBAL INFRASTRUCTURE WARFARE](/archive/grid/2026-11-17-ukraine-strikes-crimea-bridge-in) | Ukraine's retaliatory strike against a Crimea bridge underscores the escalating geopolitical tensions and the vulnera... |
 | **Nov 16, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-16-lowcarbon-volcanic-rock-cement-ai) | Quantum teleportation advancements could revolutionize data transfer methods, potentially easing the strain on curren... |

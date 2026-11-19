@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-18 08:02 UTC | 7 active regions</div>
+        <div class="meta">Generated 2026-11-19 08:02 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">7 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,37 +51,80 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel Police arrest Fatah suspects, reopen Erez Crossing, threatens more Gaza territory.",
-    "emojis": "⚔️🔺",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: CHINA",
+    "summary": "China bans Bloomberg reporter, discusses oil demand, and boosts tech exports.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Israel Police",
-      "Fatah",
-      "Israel"
+      "China",
+      "Bloomberg Reporter"
     ],
-    "source_count": 28,
-    "timestamp": "08:01 AM"
+    "source_count": 14,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine strikes key Russian-Crimea bridge, Russia retaliates, affecting infrastructure and energy.",
+    "emojis": "💥",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 7,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "IEA warns Mideast crisis poses unprecedented threat to global energy security.",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "IEA"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "North Macedonia exposes Iran-linked plot, tensions rise ahead of Trump summit.",
-    "emojis": "⚔️⚡",
+    "summary": "US and Europe press Iran on nuclear inspections; domestic crises escalate.",
+    "emojis": "☢️💣",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
-      "North Macedonia",
+      "US",
+      "Europe",
       "Iran"
     ],
-    "source_count": 35,
-    "timestamp": "08:01 AM"
+    "source_count": 29,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces legal, diplomatic challenges amid domestic incidents and U.S. aid cuts.",
+    "emojis": "",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Netanyahu",
+      "UK",
+      "U.S."
+    ],
+    "source_count": 20,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Trump meets Putin and Xi in China for historic trilateral talks.",
+    "summary": "Trump, Putin, and Xi hold historic trilateral meeting in China.",
     "emojis": "",
     "lat": 61.5,
     "lng": 105.3,
@@ -91,66 +134,75 @@
       "Putin",
       "Xi"
     ],
-    "source_count": 27,
-    "timestamp": "08:01 AM"
+    "source_count": 65,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: CHINA",
-    "summary": "Xi welcomes Trump at APEC, China seeks AI tech amid global patent surge.",
+    "title": "SITREP: INDIA",
+    "summary": "Recyclers and manufacturers dispute scrap metal exports in India.",
     "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Xi",
-      "Trump",
-      "China",
-      "APEC"
+      "Recyclers",
+      "Manufacturers"
     ],
-    "source_count": 51,
-    "timestamp": "08:01 AM"
+    "source_count": 1,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Top 10 electric cars dominate UK sales.",
+    "summary": "Lepas L6, a new Chinese EV, enters the UK market; pricing details available.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK consumers",
-      "electric car manufacturers"
+      "Lepas L6",
+      "UK market"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Trump's Board of Peace reports Gaza ceasefire shows no visible progress.",
-    "emojis": "🕊️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: YEMEN",
+    "summary": "Yemen conflict divides families as cousins fight.",
+    "emojis": "⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Trump's Board of Peace",
-      "Gaza"
+      "cousins"
+    ],
+    "source_count": 2,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "The New York Times reports on the decline of Iranian restaurants in NYC.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "The New York Times"
     ],
     "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "EU proposes €45B loan for Ukraine, repayment pending Russian reparations.",
-    "emojis": "💥",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan reports 2 Russian military aircraft nearby, second time this week.",
+    "emojis": "🪖✈️",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
     "actors": [
-      "EU",
-      "Ukraine",
+      "Taiwan",
       "Russia"
     ],
-    "source_count": 4,
+    "source_count": 1,
     "timestamp": "08:02 AM"
   }
 ];
