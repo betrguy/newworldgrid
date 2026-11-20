@@ -1,33 +1,33 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: How US nuclear power policies and international geopolitical.... The U.S. nuclear energy sector is poised for significant transformation u..."
+description: "State of the Grid: US Grid Evolves Amid Data Center Boom & Nuclear Shifts. The U.S. energy sector continues to evolve, with ERCOT's leadership extension sign..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 19, 2026 - 11:07</span>
+  <span class="sotg-timestamp">November 20, 2026 - 08:00</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-How US nuclear power policies and international geopolitical tensions could reshape the global energy landscape. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Texas resumes data center permit reviews, while Andhra Pradesh shifts to small nuclear reactors, signaling significant changes in grid and energy infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The U.S. nuclear energy sector is poised for significant transformation under a new legislative bill, potentially altering the balance of power generation. This shift aligns with public sentiment favoring the integration of nuclear power alongside wind and solar, emphasizing the need for diversified and reliable energy sources. Geopolitically, tensions between the U.S. and its allies over Iran's nuclear program continue to escalate, impacting regional stability and energy security. These developments underscore the importance of robust grid resilience, particularly as data centers in Nevada expand, driving up energy demands and necessitating enhanced infrastructure to ensure stable power supply amidst potential geopolitical disruptions.</p>
+<p class="meridian-lede">The U.S. energy sector continues to evolve, with ERCOT's leadership extension signaling stability in grid management. Meanwhile, Texas's resumption of data center permit reviews underscores the growing importance of grid resilience in the face of increasing computational demands. Andhra Pradesh's shift towards small nuclear reactors marks a strategic move towards diversifying its energy portfolio, potentially reducing reliance on thermal power. These developments highlight the need for robust grid infrastructure capable of handling diverse energy sources and the expanding load from data centers, ensuring stable power supply amidst geopolitical uncertainties.</p>
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The new legislative bill aims to transform the U.S. nuclear energy sector, aligning with public sentiment for diversified energy sources.</li>
-  <li><strong>The big picture:</strong> This shift has broader implications for energy security and geopolitical stability, especially in light of tensions with Iran.</li>
-  <li><strong>What to watch:</strong> The impact of increased energy demands on grid resilience, particularly in regions with expanding data centers.</li>
+  <li><strong>Why it matters:</strong> Grid stability and resilience are crucial for supporting both energy and technology sectors.</li>
+  <li><strong>The big picture:</strong> This interconnection underscores the necessity for integrated energy and infrastructure planning to address future challenges.</li>
+  <li><strong>What to watch:</strong> Monitoring how grid management adaptations affect data center operations and energy pricing.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition is labeled as a storm, with a peak Kp value of 5.0, an average Kp of 2.19, and a Kp of 2.0. This storm can impact satellites by increasing drag in low Earth orbit, disrupt HF radio communications, and compromise power grid stability, risking voltage fluctuations and transformer overloads.
+The current 24-hour geomagnetic condition is labeled as Unsettled, with a Kp peak of 3.0, an average of 1.67, and a current value of 0.7. This period may cause minor disruptions to satellites and affect HF radio communications, especially at higher latitudes. While power grid stability is generally maintained, operators should monitor for potential fluctuations.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -41,6 +41,13 @@ The current 24-hour geomagnetic condition is labeled as a storm, with a peak Kp 
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 19, 2026</span>
+        <a href="/archive/grid/2026-11-19-how-us-nuclear-power-policies" class="archive-link">How US nuclear power policies and international geopolitical...</a>
+      </div>
+      <div class="archive-preview">The U.S. nuclear energy sector is poised for significant transformation under a new legislative bill, potentially altering the balance...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 18, 2026</span>
@@ -117,13 +124,6 @@ The current 24-hour geomagnetic condition is labeled as a storm, with a peak Kp 
         <a href="/archive/grid/2026-11-07-ukraines-nuclear-grid-teeters-on" class="archive-link">Ukraine's Nuclear Grid Teeters on Brink of Collapse</a>
       </div>
       <div class="archive-preview">Attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid, raising concerns about energy security in the region.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 07, 2026</span>
-        <a href="/archive/grid/2026-11-07-ukraines-grid-teeters-on-brink" class="archive-link">Ukraine's Grid Teeters on Brink of Collapse</a>
-      </div>
-      <div class="archive-preview">Overnight attacks on substations near Kyiv threaten the stability of Ukraine's grid, highlighting ongoing challenges to energy...</div>
     </div>
   </div>
 </div>

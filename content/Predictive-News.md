@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: ISRAEL & RUSSIA TENSIONS SPARK MIDDLE EAST GEOPOLITICS SHIFT. Israel's intensifying conflict with Gaza, coupled with broader regional tensio..."
+description: "Predictive News: ISRAEL & GAZA TENSIONS SPARK NEW MIDDLE EAST POWER DYNAMICS. Israel's intensifying conflict with Gaza, coupled with broader regional tension..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -26,22 +26,16 @@ Israel's intensifying conflict with Gaza, coupled with broader regional tensions
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 19, 2026
+## Daily Intelligence Brief - Nov 20, 2026
 
-China, Russia, and the United States have agreed to a peace declaration, despite the absence of specific mentions of ongoing conflicts in Ukraine and Iran. This move signals a potential realignment in global power dynamics, although the exact implications are unclear.
+Russian missiles struck Poland during an overnight attack on Ukraine, prompting Prime Minister Donald Tusk to question the incident’s accidental nature. Ukraine’s nuclear power plants reduced output following the attack, highlighting the vulnerability of critical infrastructure. Estonia has closed its border with Russia for at least six months, signifying increased tensions. Britain has confirmed cyber operations against four adversaries, including Russia, China, Iran, and North Korea, indicating heightened cyber warfare. Russian forces continue to bombard Ukraine, killing at least eight. 
 
-China has tightened export controls on drone parts used by Russia, indicating a potential shift in strategic cooperation between the two nations. Meanwhile, the U.S. is bolstering its military presence around Iran, raising concerns about the sustainability of another conflict in the region.
+**Russia** and **Ukraine** are engaged in ongoing hostilities. **Poland** is within range of Russian missile attacks. **Estonia** is tightening its border security. **Britain** is intensifying its cyber defense posture. 
 
-A cyberattack using AI targeted a key European Union institution, highlighting the growing threat of AI-driven cyber threats. The U.S. government claims it could leverage AI to develop military plans, suggesting a new dimension in strategic competition.
-
-Russia is reportedly using war recruitment ads in El Salvador, aiming to expand its military presence in the region. The launch of a Shijian-24 satellite by China underscores its ongoing investment in space technology.
-
-In response to Ukraine's bombing of the Kerch Bridge, Putin vows a 'painful' response, indicating ongoing tensions in the region.
-
-**Watch for:**  
-- Further military movements or escalations around Iran.  
-- Developments in AI-driven cyberattacks and their impact on critical infrastructure.  
-- Diplomatic responses to the peace declaration and its implications for global power structures.
+**Watch for:** 
+- Any escalation in Russian missile strikes on Poland.
+- Further border closures or security measures in Estonia.
+- Increased cyber operations by Britain targeting Russia and its allies.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -55,6 +49,13 @@ In response to Ukraine's bombing of the Kerch Bridge, Putin vows a 'painful' res
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 19, 2026</span>
+        <a href="/archive/predictive/2026-11-19-israel-russia-tensions-spark-middle" class="archive-link">ISRAEL & RUSSIA TENSIONS SPARK MIDDLE EAST GEOPOLITICS SHIFT</a>
+      </div>
+      <div class="archive-preview">Israel's intensifying conflict with Gaza, coupled with broader regional tensions involving Russia and Iran, marks a critical shift in...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 18, 2026</span>
@@ -131,13 +132,6 @@ In response to Ukraine's bombing of the Kerch Bridge, Putin vows a 'painful' res
         <a href="/archive/predictive/2026-11-10-usbrokered-peace-talks-resume-in" class="archive-link">US-BROKERED PEACE TALKS RESUME IN ABU DHABI</a>
       </div>
       <div class="archive-preview">U.S.-brokered peace talks resume in Abu Dhabi as Russia and Ukraine engage, while Israel prepares for new parliamentary governance amid...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 09, 2026</span>
-        <a href="/archive/predictive/2026-11-09-russia-unleashes-aifueled-disinformation-campaign" class="archive-link">RUSSIA UNLEASHES AI-FUELED DISINFORMATION CAMPAIGN & ECONOMIC CHALLENGES</a>
-      </div>
-      <div class="archive-preview">Russia's multifaceted geopolitical maneuvers, including the use of AI for disinformation, concurrent economic challenges, and renewed...</div>
     </div>
   </div>
 </div>
