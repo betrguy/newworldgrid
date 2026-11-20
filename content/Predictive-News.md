@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: ISRAEL & GAZA TENSIONS SPARK NEW MIDDLE EAST POWER DYNAMICS. Israel's intensifying conflict with Gaza, coupled with broader regional tension..."
+description: "Predictive News: RUSSIA LAUNCHES MISSILE ATTACK ON UKRAINE FROM POLAND. Russian missiles and drones targeting Ukraine from Poland heighten regional tensions,..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 19, 2026 — 11:08</span>
+  <span class="sotg-timestamp">November 20, 2026 — 08:14</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Israel's intensifying conflict with Gaza, coupled with broader regional tensions involving Russia and Iran, marks a critical shift in Middle Eastern geopolitics. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Russian missiles and drones targeting Ukraine from Poland heighten regional tensions, complicating diplomatic efforts. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -28,14 +28,11 @@ Israel's intensifying conflict with Gaza, coupled with broader regional tensions
 
 ## Daily Intelligence Brief - Nov 20, 2026
 
-Russian missiles struck Poland during an overnight attack on Ukraine, prompting Prime Minister Donald Tusk to question the incident’s accidental nature. Ukraine’s nuclear power plants reduced output following the attack, highlighting the vulnerability of critical infrastructure. Estonia has closed its border with Russia for at least six months, signifying increased tensions. Britain has confirmed cyber operations against four adversaries, including Russia, China, Iran, and North Korea, indicating heightened cyber warfare. Russian forces continue to bombard Ukraine, killing at least eight. 
+Russian missiles targeted Ukraine, hitting Poland's southeast, causing no casualties. Meanwhile, Poland and Ukraine's allies conducted a military exercise, raising concerns over potential miscalculations. Estonia announced it would close its border with Russia for at least six months, tightening security. Britain confirmed cyber operations against four adversaries: Russia, China, Iran, and North Korea. 
 
-**Russia** and **Ukraine** are engaged in ongoing hostilities. **Poland** is within range of Russian missile attacks. **Estonia** is tightening its border security. **Britain** is intensifying its cyber defense posture. 
+Ukraine's nuclear power plants reduced output following an overnight Russian attack. In response, Ukraine's allies, including the U.S., are positioning for a possible escalation. Russia's retaliation for the Kerch Bridge attack has intensified the conflict, while NATO-like security discussions between Ukraine and Russia remain uncertain.
 
-**Watch for:** 
-- Any escalation in Russian missile strikes on Poland.
-- Further border closures or security measures in Estonia.
-- Increased cyber operations by Britain targeting Russia and its allies.
+**Watch for:** Escalation in cyber operations targeting major powers; further border closures or restrictions between Eastern European nations; and NATO's response to the exercise and missile incident.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -49,6 +46,13 @@ Russian missiles struck Poland during an overnight attack on Ukraine, prompting 
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 20, 2026</span>
+        <a href="/archive/predictive/2026-11-20-israel-gaza-tensions-spark-new" class="archive-link">ISRAEL & GAZA TENSIONS SPARK NEW MIDDLE EAST POWER DYNAMICS</a>
+      </div>
+      <div class="archive-preview">Israel's intensifying conflict with Gaza, coupled with broader regional tensions involving Russia and Iran, marks a critical shift in...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 19, 2026</span>
@@ -125,13 +129,6 @@ Russian missiles struck Poland during an overnight attack on Ukraine, prompting 
         <a href="/archive/predictive/2026-11-10-russia-ukraine-enter-abu-dhabi" class="archive-link">RUSSIA & UKRAINE ENTER ABU DHABI PEACE TALKS AMID GLOBAL DIPLOMATIC SHIFT</a>
       </div>
       <div class="archive-preview">U.S.-brokered peace talks between Russia and Ukraine in Abu Dhabi mark a significant shift in diplomatic efforts to resolve the conflict.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 10, 2026</span>
-        <a href="/archive/predictive/2026-11-10-usbrokered-peace-talks-resume-in" class="archive-link">US-BROKERED PEACE TALKS RESUME IN ABU DHABI</a>
-      </div>
-      <div class="archive-preview">U.S.-brokered peace talks resume in Abu Dhabi as Russia and Ukraine engage, while Israel prepares for new parliamentary governance amid...</div>
     </div>
   </div>
 </div>

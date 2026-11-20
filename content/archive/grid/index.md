@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 20, 2026** | [PJM's plan to reduce grid connection times for data centers and...](/archive/grid/2026-11-20-pjms-plan-to-reduce-grid) | Texas's reduction in data center connection times to 12 months through the PJM plan signals a shift towards more effi... |
 | **Nov 20, 2026** | [US Grid Evolves Amid Data Center Boom & Nuclear Shifts](/archive/grid/2026-11-20-us-grid-evolves-amid-data) | The U.S. energy sector continues to evolve, with ERCOT's leadership extension signaling stability in grid management. |
 | **Nov 19, 2026** | [How US nuclear power policies and international geopolitical...](/archive/grid/2026-11-19-how-us-nuclear-power-policies) | The U.S. nuclear energy sector is poised for significant transformation under a new legislative bill, potentially alt... |
 | **Nov 18, 2026** | [Oil Prices Plummet Amid Rising U.S. Inventories, Middle East Supply Worries](/archive/grid/2026-11-18-oil-prices-plummet-amid-rising) | Oil prices have plummeted due to rising U.S. crude inventories, overshadowing concerns over Middle East supply risks. |

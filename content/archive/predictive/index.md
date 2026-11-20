@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 20, 2026** | [RUSSIA LAUNCHES MISSILE ATTACK ON UKRAINE FROM POLAND](/archive/predictive/2026-11-20-russia-launches-missile-attack-on) | Russian missiles and drones targeting Ukraine from Poland heighten regional tensions, complicating diplomatic efforts. |
 | **Nov 20, 2026** | [ISRAEL & GAZA TENSIONS SPARK NEW MIDDLE EAST POWER DYNAMICS](/archive/predictive/2026-11-20-israel-gaza-tensions-spark-new) | Israel's intensifying conflict with Gaza, coupled with broader regional tensions involving Russia and Iran, marks a c... |
 | **Nov 19, 2026** | [ISRAEL & RUSSIA TENSIONS SPARK MIDDLE EAST GEOPOLITICS SHIFT](/archive/predictive/2026-11-19-israel-russia-tensions-spark-middle) | Israel's intensifying conflict with Gaza, coupled with broader regional tensions involving Russia and Iran, marks a c... |
 | **Nov 18, 2026** | [TRUMP'S CHINA SUMMIT WITH PUTIN & XI SIGNALS GLOBAL GEOPOLITICS REALIGNMENT](/archive/predictive/2026-11-18-trumps-china-summit-with-putin) | Trump's trilateral summit with Putin and Xi in China signals a potential realignment in global geopolitics. |

@@ -1,33 +1,33 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: US Grid Evolves Amid Data Center Boom & Nuclear Shifts. The U.S. energy sector continues to evolve, with ERCOT's leadership extension sign..."
+description: "State of the Grid: PJM's plan to reduce grid connection times for data centers and.... Texas's reduction in data center connection times to 12 months through..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 20, 2026 - 08:00</span>
+  <span class="sotg-timestamp">November 20, 2026 - 08:14</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-Texas resumes data center permit reviews, while Andhra Pradesh shifts to small nuclear reactors, signaling significant changes in grid and energy infrastructure. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+PJM's plan to reduce grid connection times for data centers and power plants to 12 months signals a significant shift in infrastructure development. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">The U.S. energy sector continues to evolve, with ERCOT's leadership extension signaling stability in grid management. Meanwhile, Texas's resumption of data center permit reviews underscores the growing importance of grid resilience in the face of increasing computational demands. Andhra Pradesh's shift towards small nuclear reactors marks a strategic move towards diversifying its energy portfolio, potentially reducing reliance on thermal power. These developments highlight the need for robust grid infrastructure capable of handling diverse energy sources and the expanding load from data centers, ensuring stable power supply amidst geopolitical uncertainties.</p>
+<p class="meridian-lede">Texas's reduction in data center connection times to 12 months through the PJM plan signals a shift towards more efficient grid integration, enhancing the reliability and flexibility of the power supply. Simultaneously, Andhra Pradesh's adoption of small modular reactors (SMRs) as an alternative to thermal power underscores a strategic move towards cleaner, more sustainable energy sources. These developments highlight the growing importance of grid resilience and the need for integrated infrastructure planning to support both data centers and nuclear power adoption, ensuring stable power supply amidst geopolitical uncertainties.</p>
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Grid stability and resilience are crucial for supporting both energy and technology sectors.</li>
-  <li><strong>The big picture:</strong> This interconnection underscores the necessity for integrated energy and infrastructure planning to address future challenges.</li>
-  <li><strong>What to watch:</strong> Monitoring how grid management adaptations affect data center operations and energy pricing.</li>
+  <li><strong>Why it matters:</strong> Enhanced grid integration and cleaner energy sources are crucial for maintaining stability in power supply.</li>
+  <li><strong>The big picture:</strong> These changes signal a shift towards more resilient and sustainable energy systems, essential in an era of geopolitical tensions.</li>
+  <li><strong>What to watch:</strong> Monitoring the impact of SMRs on reducing carbon emissions and improving grid reliability.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition is labeled as Unsettled, with a Kp peak of 3.0, an average of 1.67, and a current value of 0.7. This period may cause minor disruptions to satellites and affect HF radio communications, especially at higher latitudes. While power grid stability is generally maintained, operators should monitor for potential fluctuations.
+The current Kp index is 0.7, with a 24-hour average of 1.67 and a peak of 3.0, indicating an Unsettled condition. This may cause minor disruptions to satellites and affect HF radio communications, especially at higher latitudes. Power grid stability is generally maintained, but operators should monitor for potential fluctuations.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -41,6 +41,13 @@ The current 24-hour geomagnetic condition is labeled as Unsettled, with a Kp pea
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 20, 2026</span>
+        <a href="/archive/grid/2026-11-20-us-grid-evolves-amid-data" class="archive-link">US Grid Evolves Amid Data Center Boom & Nuclear Shifts</a>
+      </div>
+      <div class="archive-preview">Texas resumes data center permit reviews, while Andhra Pradesh shifts to small nuclear reactors, signaling significant changes in grid...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 19, 2026</span>
@@ -117,13 +124,6 @@ The current 24-hour geomagnetic condition is labeled as Unsettled, with a Kp pea
         <a href="/archive/grid/2026-11-08-zaporizhzzhia-power-outage-exposes-global" class="archive-link">ZAPORIZHZZHIA POWER OUTAGE EXPOSES GLOBAL ENERGY INFRASTRUCTURE WEAKNESS</a>
       </div>
       <div class="archive-preview">Zaporizhzhia Nuclear Plant's loss of external power supply amid geopolitical tensions highlights a critical vulnerability in global...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 07, 2026</span>
-        <a href="/archive/grid/2026-11-07-ukraines-nuclear-grid-teeters-on" class="archive-link">Ukraine's Nuclear Grid Teeters on Brink of Collapse</a>
-      </div>
-      <div class="archive-preview">Attacks on substations near Kyiv threaten the stability of Ukraine's nuclear power grid, raising concerns about energy security in the region.</div>
     </div>
   </div>
 </div>
