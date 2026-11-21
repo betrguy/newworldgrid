@@ -1,33 +1,35 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: PJM's plan to reduce grid connection times for data centers and.... Texas's reduction in data center connection times to 12 months through..."
+description: "State of the Grid: Low-Carbon Volcanic Rock Cement & AI Model Optimization. Fluence and Linxon's partnership for a 200 MWh battery energy storage system (BES..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 20, 2026 - 08:14</span>
+  <span class="sotg-timestamp">November 21, 2026 - 08:00</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-PJM's plan to reduce grid connection times for data centers and power plants to 12 months signals a significant shift in infrastructure development. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Fluence and Linxon's partnership for battery energy storage systems following a significant award in ERCOT signals a major advancement in grid storage capabilities. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Texas's reduction in data center connection times to 12 months through the PJM plan signals a shift towards more efficient grid integration, enhancing the reliability and flexibility of the power supply. Simultaneously, Andhra Pradesh's adoption of small modular reactors (SMRs) as an alternative to thermal power underscores a strategic move towards cleaner, more sustainable energy sources. These developments highlight the growing importance of grid resilience and the need for integrated infrastructure planning to support both data centers and nuclear power adoption, ensuring stable power supply amidst geopolitical uncertainties.</p>
+<p class="meridian-lede">Fluence and Linxon's partnership for a 200 MWh battery energy storage system (BESS) in ERCOT underscores the growing importance of advanced energy storage solutions in grid management. This development aligns with the broader strategy of enhancing grid stability and flexibility, ensuring a more reliable power supply amidst increasing demand and variability.</p>
+
+Simultaneously, India's AERB approval for the indigenous 700 MW RAPP-8 reactor in Rajasthan marks a significant step in the country's nuclear power expansion. This move not only diversifies India's energy portfolio but also underscores the global trend towards cleaner, more sustainable energy sources. These technological advancements in storage and nuclear power are crucial for maintaining grid resilience and reducing dependency on traditional fossil fuels, particularly in the face of geopolitical tensions and energy security concerns.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Enhanced grid integration and cleaner energy sources are crucial for maintaining stability in power supply.</li>
-  <li><strong>The big picture:</strong> These changes signal a shift towards more resilient and sustainable energy systems, essential in an era of geopolitical tensions.</li>
-  <li><strong>What to watch:</strong> Monitoring the impact of SMRs on reducing carbon emissions and improving grid reliability.</li>
+  <li><strong>Why it matters:</strong> Fluence and Linxon's BESS partnership and India's RAPP-8 reactor approval highlight the dual focus on advanced energy storage and nuclear power for grid stability and sustainability.</li>
+  <li><strong>The big picture:</strong> These developments reflect a broader shift towards more resilient and sustainable energy systems, essential in the face of geopolitical tensions and energy security concerns.</li>
+  <li><strong>What to watch:</strong> Monitoring the integration of these technologies in grid management and their impact on regional and global energy markets.</li>
 </ul>
 </div>
 
 </div>
 
 <div class="sotg-analyst">
-The current Kp index is 0.7, with a 24-hour average of 1.67 and a peak of 3.0, indicating an Unsettled condition. This may cause minor disruptions to satellites and affect HF radio communications, especially at higher latitudes. Power grid stability is generally maintained, but operators should monitor for potential fluctuations.
+The current Kp index is 2.0, with a 24-hour average of 1.29 and a peak of 2.7, indicating a Quiet condition. During Quiet periods, satellite operations, HF radio communications, and power grid stability remain unaffected with minimal risk of geomagnetically induced currents.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -41,6 +43,13 @@ The current Kp index is 0.7, with a 24-hour average of 1.67 and a peak of 3.0, i
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 20, 2026</span>
+        <a href="/archive/grid/2026-11-20-pjms-plan-to-reduce-grid" class="archive-link">PJM's plan to reduce grid connection times for data centers and...</a>
+      </div>
+      <div class="archive-preview">PJM's plan to reduce grid connection times for data centers and power plants to 12 months signals a significant shift in infrastructure development.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 20, 2026</span>
@@ -68,13 +77,6 @@ The current Kp index is 0.7, with a 24-hour average of 1.67 and a peak of 3.0, i
         <a href="/archive/grid/2026-11-17-ukraine-strikes-crimea-bridge-in" class="archive-link">UKRAINE STRIKES CRIMEA BRIDGE IN RETALIATION AMID GLOBAL INFRASTRUCTURE WARFARE</a>
       </div>
       <div class="archive-preview">Ukraine's retaliatory strike against a Crimea bridge underscores the escalating geopolitical tensions and the vulnerability of critical...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 16, 2026</span>
-        <a href="/archive/grid/2026-11-16-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">Quantum teleportation advancements could redefine secure information transfer, potentially reshaping compute loads and infrastructure dynamics.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">

@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: RUSSIA LAUNCHES MISSILE ATTACK ON UKRAINE FROM POLAND. Russian missiles and drones targeting Ukraine from Poland heighten regional tensions,..."
+description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Tensions escalate globally as Iran threatens force in response to US and Israe..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 20, 2026 — 08:14</span>
+  <span class="sotg-timestamp">November 21, 2026 — 08:01</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Russian missiles and drones targeting Ukraine from Poland heighten regional tensions, complicating diplomatic efforts. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Tensions escalate globally as Iran threatens force in response to US and Israeli actions, while Russia intensifies diplomatic and military posturing amid ongoing conflicts in Ukraine and the Gulf of Finland. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,13 +26,14 @@ Russian missiles and drones targeting Ukraine from Poland heighten regional tens
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 20, 2026
+## Daily Intelligence Brief - Nov 21, 2026
 
-Russian missiles targeted Ukraine, hitting Poland's southeast, causing no casualties. Meanwhile, Poland and Ukraine's allies conducted a military exercise, raising concerns over potential miscalculations. Estonia announced it would close its border with Russia for at least six months, tightening security. Britain confirmed cyber operations against four adversaries: Russia, China, Iran, and North Korea. 
+Russia has intensified its attacks on Ukraine, targeting bridges from Crimea to Kyiv. The strikes continue to disrupt infrastructure and supply lines. Simultaneously, Iran claims to have shot down the 58th US MQ-9 drone over the Strait of Hormuz, increasing tensions in the region. Attacks on the Strait of Hormuz have reached their highest level since the beginning of the Iran war, reflecting a renewed focus on maritime security. In Ukraine, a ballistic missile attack on Zelenskyy’s hometown in central Ukraine has killed two and wounded several, underscoring the war's impact on civilian areas.
 
-Ukraine's nuclear power plants reduced output following an overnight Russian attack. In response, Ukraine's allies, including the U.S., are positioning for a possible escalation. Russia's retaliation for the Kerch Bridge attack has intensified the conflict, while NATO-like security discussions between Ukraine and Russia remain uncertain.
-
-**Watch for:** Escalation in cyber operations targeting major powers; further border closures or restrictions between Eastern European nations; and NATO's response to the exercise and missile incident.
+**Watch for:** 
+- Increased Russian strikes on key Ukrainian infrastructure, particularly bridges and transportation networks.
+- Further escalation of US-Iran tensions, possibly through additional drone shoot-downs or military exercises in the region.
+- Diplomatic developments, such as China's response to Zelenskyy's claim that the recent summit was unsuccessful for Russia.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -46,6 +47,13 @@ Ukraine's nuclear power plants reduced output following an overnight Russian att
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 20, 2026</span>
+        <a href="/archive/predictive/2026-11-20-russia-launches-missile-attack-on" class="archive-link">RUSSIA LAUNCHES MISSILE ATTACK ON UKRAINE FROM POLAND</a>
+      </div>
+      <div class="archive-preview">Russian missiles and drones targeting Ukraine from Poland heighten regional tensions, complicating diplomatic efforts.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 20, 2026</span>
@@ -73,13 +81,6 @@ Ukraine's nuclear power plants reduced output following an overnight Russian att
         <a href="/archive/predictive/2026-11-17-quad-leaders-unite-in-manila" class="archive-link">QUAD LEADERS UNITE IN MANILA AS CHINA TENSIONS ESCALATE</a>
       </div>
       <div class="archive-preview">Quad leaders' meeting in Manila precedes APEC summit, signaling enhanced Indo-Pacific cooperation amid growing tensions with China.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 16, 2026</span>
-        <a href="/archive/predictive/2026-11-16-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
-      </div>
-      <div class="archive-preview">Tensions between the U.S. and Iran are escalating, with potential for direct conflict over control of the Strait of Hormuz.</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">

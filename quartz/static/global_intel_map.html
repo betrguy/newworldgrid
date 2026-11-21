@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-20 08:14 UTC | 8 active regions</div>
+        <div class="meta">Generated 2026-11-21 08:01 UTC | 12 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">8 events tracked</div>
+    <div id="event-count">12 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,123 +51,177 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine strikes Crimea bridge in response to Russian attacks; Zelensky meets UK official.",
+    "emojis": "💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia",
+      "Zelensky",
+      "UK"
+    ],
+    "source_count": 19,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Tensions rise as Iran threatens force, downing US drones; US, Israel consider strikes.",
+    "emojis": "✈️💥⚔️",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "US",
+      "Israel"
+    ],
+    "source_count": 27,
+    "timestamp": "08:01 AM"
+  },
+  {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces tensions over Ukraine, Poland incidents while diplomatic talks continue.",
-    "emojis": "⚡",
+    "summary": "Russia claims drone attacks on ships in Gulf of Finland; seeks to revive old demands in US security talks.",
+    "emojis": "✈️⚔️",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "Ukraine",
-      "Poland"
+      "US"
     ],
-    "source_count": 26,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "US-China talks, Xiaomi launch, EV discussions, market fluctuations.",
-    "emojis": "",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "Trump",
-      "Xi",
-      "Musk",
-      "Xiaomi",
-      "BYD"
-    ],
-    "source_count": 20,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russian missiles and drones hit Poland, targeting Ukraine.",
-    "emojis": "🪖✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Russia",
-      "Poland",
-      "Ukraine"
-    ],
-    "source_count": 26,
-    "timestamp": "08:14 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "U.S., Israel consider joint strike on Iran amid tensions.",
-    "emojis": "💥⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "U.S.",
-      "Israel",
-      "Iran"
-    ],
-    "source_count": 31,
-    "timestamp": "08:14 AM"
+    "source_count": 17,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: ISRAEL",
-    "summary": "Israeli-Palestinian tensions escalate with settler attacks and international reactions.",
-    "emojis": "⚔️⚡",
+    "summary": "AI in Israeli courtrooms, youth violence in Jerusalem, political tensions with Democrats.",
+    "emojis": "⚡",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
       "Israel",
-      "Palestinians",
-      "France",
-      "India"
+      "AI",
+      "Youth",
+      "Democrats"
     ],
-    "source_count": 16,
-    "timestamp": "08:14 AM"
+    "source_count": 27,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK proposes higher duties on Chinese excavators, facing EV driveway rules debate.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK watchdog",
+      "Andy Burnham"
+    ],
+    "source_count": 4,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "ICJ's Rohingya ruling has no direct legal impact on Gaza.",
-    "emojis": "",
+    "summary": "Multiple Palestinians killed and wounded in Israeli attacks on Gaza.",
+    "emojis": "⚔️💀🕊️",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "ICJ",
-      "Gaza"
+      "Palestinians",
+      "Israel"
     ],
-    "source_count": 1,
-    "timestamp": "08:14 AM"
+    "source_count": 4,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China showcases Shenzhen, AI chip challenges, space mining, nuclear research, earthquakes, and more.",
+    "emojis": "☢️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "US"
+    ],
+    "source_count": 24,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "BJP criticizes Rahul Gandhi over geopolitical comments.",
+    "summary": "India expands EV charging network, balances space exploration, boosts electric truck sales.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "BJP",
-      "Rahul Gandhi"
+      "Govt",
+      "Tata Motors",
+      "UltraTech"
     ],
-    "source_count": 2,
-    "timestamp": "08:14 AM"
+    "source_count": 5,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: US-DC",
-    "summary": "Five 'nones' join Congress as lawmakers.",
+    "title": "SITREP: LEBANON",
+    "summary": "Syria intercepts weapons bound for Lebanon.",
     "emojis": "",
-    "lat": 38.9,
-    "lng": -77.03,
-    "location": "US-DC",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "Five lawmakers"
+      "Syria",
+      "Lebanon"
     ],
     "source_count": 1,
-    "timestamp": "08:14 AM"
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "Macron warns of heightened Russian aggression.",
+    "emojis": "⚔️",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "Macron",
+      "Russia"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan debates final nuclear energy referendum.",
+    "emojis": "☢️",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "Hawaii surpasses California in gas prices due to EV concerns.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "Hawaii",
+      "California"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
   }
 ];
 
