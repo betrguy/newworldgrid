@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Tensions escalate globally as Iran threatens force in response to US and Israe..."
+description: "Predictive News: RUSSIA UNLEASHES DRONE WARFARE IN UKRAINE & GULF. Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 21, 2026 — 08:01</span>
+  <span class="sotg-timestamp">November 22, 2026 — 08:02</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Tensions escalate globally as Iran threatens force in response to US and Israeli actions, while Russia intensifies diplomatic and military posturing amid ongoing conflicts in Ukraine and the Gulf of Finland. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts in Ukraine and regional tensions involving Iran, Israel, and the United States. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,14 +26,20 @@ Tensions escalate globally as Iran threatens force in response to US and Israeli
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 21, 2026
+## Daily Intelligence Brief - Nov 22, 2026
 
-Russia has intensified its attacks on Ukraine, targeting bridges from Crimea to Kyiv. The strikes continue to disrupt infrastructure and supply lines. Simultaneously, Iran claims to have shot down the 58th US MQ-9 drone over the Strait of Hormuz, increasing tensions in the region. Attacks on the Strait of Hormuz have reached their highest level since the beginning of the Iran war, reflecting a renewed focus on maritime security. In Ukraine, a ballistic missile attack on Zelenskyy’s hometown in central Ukraine has killed two and wounded several, underscoring the war's impact on civilian areas.
+Russia and Ukraine remain in a state of conflict, with ongoing military operations. Kaliningrad has experienced a heightened state of alert following an attack on a Russia-bound ship in the Gulf of Finland, indicating potential escalation risks.
 
-**Watch for:** 
-- Increased Russian strikes on key Ukrainian infrastructure, particularly bridges and transportation networks.
-- Further escalation of US-Iran tensions, possibly through additional drone shoot-downs or military exercises in the region.
-- Diplomatic developments, such as China's response to Zelenskyy's claim that the recent summit was unsuccessful for Russia.
+The U.S. and Israel are reportedly developing plans for an attack on Iran, as Jeffries calls for an end to the Iran conflict. This suggests a continued focus on Iran despite diplomatic efforts. Hakeem Jeffries has vowed sanctions against violent West Bank settlers, signaling internal U.S. political shifts.
+
+China, Russia, and the U.S. have jointly commended a summit as historic for world stability and peace, indicating a new phase in their interactions. However, the U.S. Congress continues to debate its role in ending the Iran conflict, with some like JD Vance not fully endorsing past war policies.
+
+Iran has attacked Bahrain, adding another layer of complexity to regional tensions. The U.S. has been involved in various diplomatic and military actions, including potential attacks on Iran, and internal debates on the Iran conflict persist.
+
+Watch for: 
+- Further military activities in the Gulf of Finland.
+- Decisions by the U.S. Congress on sanctions against Iran.
+- Joint statements or actions by China, Russia, and the U.S. regarding the Iran conflict.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -47,6 +53,13 @@ Russia has intensified its attacks on Ukraine, targeting bridges from Crimea to 
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 21, 2026</span>
+        <a href="/archive/predictive/2026-11-21-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
+      </div>
+      <div class="archive-preview">Tensions escalate globally as Iran threatens force in response to US and Israeli actions, while Russia intensifies diplomatic and...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 20, 2026</span>
@@ -123,13 +136,6 @@ Russia has intensified its attacks on Ukraine, targeting bridges from Crimea to 
         <a href="/archive/predictive/2026-11-11-russia-ukraine-swap-prisoners-in" class="archive-link">RUSSIA & UKRAINE SWAP PRISONERS IN SIGNIFICANT ABU DHABI-BROKEN DIPLOMACY SHIFT</a>
       </div>
       <div class="archive-preview">Russia and Ukraine's prisoner swap following Abu Dhabi talks marks a significant shift in their conflict dynamics.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 10, 2026</span>
-        <a href="/archive/predictive/2026-11-10-russia-ukraine-enter-abu-dhabi" class="archive-link">RUSSIA & UKRAINE ENTER ABU DHABI PEACE TALKS AMID GLOBAL DIPLOMATIC SHIFT</a>
-      </div>
-      <div class="archive-preview">U.S.-brokered peace talks between Russia and Ukraine in Abu Dhabi mark a significant shift in diplomatic efforts to resolve the conflict.</div>
     </div>
   </div>
 </div>

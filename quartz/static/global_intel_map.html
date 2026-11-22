@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-21 08:01 UTC | 12 active regions</div>
+        <div class="meta">Generated 2026-11-22 08:02 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">12 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,177 +51,135 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine strikes Crimea bridge in response to Russian attacks; Zelensky meets UK official.",
-    "emojis": "💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: CHINA",
+    "summary": "Lexus ES electric launch, ITMA Asia relocation, chip issues, dual city insights.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
     "actors": [
-      "Ukraine",
-      "Russia",
-      "Zelensky",
-      "UK"
-    ],
-    "source_count": 19,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions rise as Iran threatens force, downing US drones; US, Israel consider strikes.",
-    "emojis": "✈️💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "US",
-      "Israel"
+      "Lexus",
+      "ITMA Asia",
+      "China's Ministry of State Security",
+      "Alice Huang"
     ],
     "source_count": 27,
     "timestamp": "08:01 AM"
   },
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces border rebuilding, AI disinformation, and coalition talks.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israeli officials",
+      "AI",
+      "US tycoon",
+      "Netanyahu"
+    ],
+    "source_count": 40,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US and Israel plan attacks on Iran amid escalating Gulf tensions.",
+    "emojis": "⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Israel",
+      "Iran"
+    ],
+    "source_count": 25,
+    "timestamp": "08:01 AM"
+  },
+  {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia claims drone attacks on ships in Gulf of Finland; seeks to revive old demands in US security talks.",
-    "emojis": "✈️⚔️",
+    "summary": "Air alerts in Kaliningrad, Russia, after ship attack; Estonia closes borders amid tensions.",
+    "emojis": "⚔️🕊️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "US"
+      "Estonia"
     ],
-    "source_count": 17,
+    "source_count": 13,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "AI in Israeli courtrooms, youth violence in Jerusalem, political tensions with Democrats.",
-    "emojis": "⚡",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: UKRAINE",
+    "summary": "Russian drones strike Kyiv region; 20 Ukrainian regions hit by Russian attacks.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Israel",
-      "AI",
-      "Youth",
-      "Democrats"
+      "Russia",
+      "Ukraine"
     ],
-    "source_count": 27,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK proposes higher duties on Chinese excavators, facing EV driveway rules debate.",
-    "emojis": "",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK watchdog",
-      "Andy Burnham"
-    ],
-    "source_count": 4,
+    "source_count": 15,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Multiple Palestinians killed and wounded in Israeli attacks on Gaza.",
-    "emojis": "⚔️💀🕊️",
+    "summary": "Hamas demands talks after Israeli strike; remains of 129 Palestinians recovered.",
+    "emojis": "💥💀",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Palestinians",
+      "Hamas",
       "Israel"
     ],
-    "source_count": 4,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China showcases Shenzhen, AI chip challenges, space mining, nuclear research, earthquakes, and more.",
-    "emojis": "☢️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "US"
-    ],
-    "source_count": 24,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "India expands EV charging network, balances space exploration, boosts electric truck sales.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Govt",
-      "Tata Motors",
-      "UltraTech"
-    ],
-    "source_count": 5,
+    "source_count": 2,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: LEBANON",
-    "summary": "Syria intercepts weapons bound for Lebanon.",
+    "summary": "France aims for functional ties with future Israeli government regarding Lebanon.",
     "emojis": "",
     "lat": 33.8,
     "lng": 35.8,
     "location": "LEBANON",
     "actors": [
-      "Syria",
-      "Lebanon"
+      "France",
+      "Israel"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: FRANCE",
-    "summary": "Macron warns of heightened Russian aggression.",
-    "emojis": "⚔️",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "Macron",
-      "Russia"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: TAIWAN",
-    "summary": "Taiwan debates final nuclear energy referendum.",
-    "emojis": "☢️",
-    "lat": 23.6,
-    "lng": 120.9,
-    "location": "TAIWAN",
-    "actors": [
-      "Taiwan"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: US-CA",
-    "summary": "Hawaii surpasses California in gas prices due to EV concerns.",
+    "title": "SITREP: GERMANY",
+    "summary": "Hundreds protest pro-Palestine in Berlin.",
     "emojis": "",
-    "lat": 34.05,
-    "lng": -118.24,
-    "location": "US-CA",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "Hawaii",
-      "California"
+      "Pro-Palestine demonstrators",
+      "Berlin"
     ],
     "source_count": 1,
     "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: INDIA",
+    "summary": "VinFast to enter India's electric two-wheeler market in H1 2027.",
+    "emojis": "",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
+    "actors": [
+      "VinFast",
+      "India"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
   }
 ];
 
