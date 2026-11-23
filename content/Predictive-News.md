@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: RUSSIA UNLEASHES DRONE WARFARE IN UKRAINE & GULF. Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts..."
+description: "Predictive News: Tensions escalate globally & Iran facing potential military conflict. Tensions escalate globally, with Iran facing potential military confli..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 22, 2026 — 08:02</span>
+  <span class="sotg-timestamp">November 23, 2026 — 08:02</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts in Ukraine and regional tensions involving Iran, Israel, and the United States. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./Chinese competition, and China-U.S. relations deteriorating further across technological and diplomatic fronts. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,20 +26,13 @@ Russian drone strikes and escalating tensions in the Gulf highlight intensifying
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 22, 2026
+## Daily Intelligence Brief - Nov 23, 2026
 
-Russia and Ukraine remain in a state of conflict, with ongoing military operations. Kaliningrad has experienced a heightened state of alert following an attack on a Russia-bound ship in the Gulf of Finland, indicating potential escalation risks.
+Russia and Ukraine have resumed military strikes despite recent diplomatic efforts, suggesting ongoing tensions on the ground. Iran has held talks with Russia and China, likely seeking support amid domestic and regional challenges. The United States, China, and Russia are competing for Africa’s mineral wealth, indicating a scramble for strategic resources. The U.S. Senate GOP leaders have signaled openness to cutting off Iran war funding, potentially increasing pressure on Tehran. Iran has threatened a response to any naval blockade, indicating a sensitive situation in the region.
 
-The U.S. and Israel are reportedly developing plans for an attack on Iran, as Jeffries calls for an end to the Iran conflict. This suggests a continued focus on Iran despite diplomatic efforts. Hakeem Jeffries has vowed sanctions against violent West Bank settlers, signaling internal U.S. political shifts.
+**Russia, Ukraine carry out strikes despite recent diplomatic efforts.** **Iran** has held talks with **Russia** and **China**, suggesting strategic alignment. The **U.S., China, and Russia** are competing for Africa’s mineral wealth. The **U.S. Senate GOP** leaders have signaled openness to cutting off Iran war funding, possibly intensifying tensions. **Iran** has threatened a response to any naval blockade.
 
-China, Russia, and the U.S. have jointly commended a summit as historic for world stability and peace, indicating a new phase in their interactions. However, the U.S. Congress continues to debate its role in ending the Iran conflict, with some like JD Vance not fully endorsing past war policies.
-
-Iran has attacked Bahrain, adding another layer of complexity to regional tensions. The U.S. has been involved in various diplomatic and military actions, including potential attacks on Iran, and internal debates on the Iran conflict persist.
-
-Watch for: 
-- Further military activities in the Gulf of Finland.
-- Decisions by the U.S. Congress on sanctions against Iran.
-- Joint statements or actions by China, Russia, and the U.S. regarding the Iran conflict.
+Watch for: increased military activity in the Black Sea region, potential economic sanctions against Iran, and further diplomatic talks between Russia, China, and Iran.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -53,6 +46,13 @@ Watch for:
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 22, 2026</span>
+        <a href="/archive/predictive/2026-11-22-russia-unleashes-drone-warfare-in" class="archive-link">RUSSIA UNLEASHES DRONE WARFARE IN UKRAINE & GULF</a>
+      </div>
+      <div class="archive-preview">Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts in Ukraine and regional tensions involving...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 21, 2026</span>
@@ -129,13 +129,6 @@ Watch for:
         <a href="/archive/predictive/2026-11-12-western-powers-face-off-against" class="archive-link">WESTERN POWERS FACE OFF AGAINST GLOBAL GIANT ALLIANCES</a>
       </div>
       <div class="archive-preview">US-led Western powers face escalating tensions with Russia, Iran, and China, while maintaining engagement with key leaders in Ukraine and Israel.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 11, 2026</span>
-        <a href="/archive/predictive/2026-11-11-russia-ukraine-swap-prisoners-in" class="archive-link">RUSSIA & UKRAINE SWAP PRISONERS IN SIGNIFICANT ABU DHABI-BROKEN DIPLOMACY SHIFT</a>
-      </div>
-      <div class="archive-preview">Russia and Ukraine's prisoner swap following Abu Dhabi talks marks a significant shift in their conflict dynamics.</div>
     </div>
   </div>
 </div>

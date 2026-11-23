@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 23, 2026** | [Tensions escalate globally & Iran facing potential military conflict](/archive/predictive/2026-11-23-tensions-escalate-globally-iran-facing) | Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./... |
 | **Nov 22, 2026** | [RUSSIA UNLEASHES DRONE WARFARE IN UKRAINE & GULF](/archive/predictive/2026-11-22-russia-unleashes-drone-warfare-in) | Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts in Ukraine and regional te... |
 | **Nov 21, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-11-21-strait-of-hormuz-flow-discrepancies) | Tensions escalate globally as Iran threatens force in response to US and Israeli actions, while Russia intensifies di... |
 | **Nov 20, 2026** | [RUSSIA LAUNCHES MISSILE ATTACK ON UKRAINE FROM POLAND](/archive/predictive/2026-11-20-russia-launches-missile-attack-on) | Russian missiles and drones targeting Ukraine from Poland heighten regional tensions, complicating diplomatic efforts. |

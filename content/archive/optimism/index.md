@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 23, 2026** | [New Tech Hurdle Emerges Amid Breakthrough in Interstellar Travel](/archive/optimism/2026-11-23-new-tech-hurdle-emerges-amid) | The light that propels future spacecraft could slow them down as they approach 75% of the speed of light, presenting ... |
 | **Nov 22, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-22-lowcarbon-volcanic-rock-cement-ai) | Nuclear fusion is advancing, solving the 40-year puzzle of how to maintain plasma stability, while astronomers are us... |
 | **Nov 19, 2026** | [Scientists Near Seizure Cure & Quantum Computers Unlock Performance Secrets](/archive/optimism/2026-11-19-scientists-near-seizure-cure-quantum) | Scientists are now able to nearly eliminate drug-resistant seizures, and quantum computers are unlocking fundamental ... |
 | **Nov 17, 2026** | [A surgeon can operate on a stroke patient miles away & And tiny robots can...](/archive/optimism/2026-11-17-a-surgeon-can-operate-on) | Surgeons now have the capability to perform complex surgeries remotely, thanks to advanced surgical robots like the R... |

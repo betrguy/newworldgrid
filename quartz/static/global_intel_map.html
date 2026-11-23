@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-22 08:02 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-11-23 08:02 UTC | 10 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">10 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,41 +51,56 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: CHINA",
-    "summary": "Lexus ES electric launch, ITMA Asia relocation, chip issues, dual city insights.",
+    "title": "SITREP: US-TX",
+    "summary": "Developers decide on disclosing data from ERCOT survey.",
     "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Developers",
+      "ERCOT"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China-U.S. trade tensions persist, with AI, cyberattacks, and business visa relaxations.",
+    "emojis": "⚔️⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Lexus",
-      "ITMA Asia",
-      "China's Ministry of State Security",
-      "Alice Huang"
+      "China",
+      "U.S.",
+      "AI",
+      "Cyberattacks",
+      "Business visas"
     ],
-    "source_count": 27,
+    "source_count": 37,
     "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces border rebuilding, AI disinformation, and coalition talks.",
-    "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces competition from US, China in Africa; tensions rise with NATO, Cyprus.",
+    "emojis": "⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
     "actors": [
-      "Israeli officials",
-      "AI",
-      "US tycoon",
-      "Netanyahu"
+      "US",
+      "China",
+      "Cyprus",
+      "NATO"
     ],
-    "source_count": 40,
-    "timestamp": "08:01 AM"
+    "source_count": 18,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "US and Israel plan attacks on Iran amid escalating Gulf tensions.",
-    "emojis": "⚔️⚡",
+    "summary": "Tensions escalate as US and Israel signal potential strikes, Iran threatens response amid naval blockade.",
+    "emojis": "🚢💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
@@ -94,91 +109,95 @@
       "Israel",
       "Iran"
     ],
-    "source_count": 25,
-    "timestamp": "08:01 AM"
+    "source_count": 20,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: RUSSIA",
-    "summary": "Air alerts in Kaliningrad, Russia, after ship attack; Estonia closes borders amid tensions.",
-    "emojis": "⚔️🕊️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
+    "title": "SITREP: ISRAEL",
+    "summary": "Mixed reports on Israel, from schoolchild propaganda to property market opportunities.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
     "actors": [
-      "Russia",
-      "Estonia"
+      "Israel",
+      "Lebanon",
+      "Gaza",
+      "Egypt",
+      "Cyprus"
     ],
-    "source_count": 13,
-    "timestamp": "08:01 AM"
+    "source_count": 14,
+    "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Russian drones strike Kyiv region; 20 Ukrainian regions hit by Russian attacks.",
-    "emojis": "✈️💥⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: UK",
+    "summary": "UK EV industry faces challenges with factory plans and innovation advancements.",
+    "emojis": "",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
     "actors": [
-      "Russia",
-      "Ukraine"
+      "London EV Show",
+      "UK gigafactory"
     ],
-    "source_count": 15,
-    "timestamp": "08:01 AM"
+    "source_count": 2,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Hamas demands talks after Israeli strike; remains of 129 Palestinians recovered.",
-    "emojis": "💥💀",
+    "summary": "Israeli strikes in Gaza kill UN workers, spark outrage.",
+    "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Hamas",
-      "Israel"
+      "Israeli Army",
+      "UN Palestinian agency"
+    ],
+    "source_count": 6,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine sinks Russian warships in Libya despite diplomatic efforts.",
+    "emojis": "🚢✈️💥",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 28,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-NY",
+    "summary": "Nvidia, LS Cable in news for China link, NY grid deal.",
+    "emojis": "",
+    "lat": 40.71,
+    "lng": -74.0,
+    "location": "US-NY",
+    "actors": [
+      "Nvidia",
+      "LS Cable"
     ],
     "source_count": 2,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: LEBANON",
-    "summary": "France aims for functional ties with future Israeli government regarding Lebanon.",
-    "emojis": "",
-    "lat": 33.8,
-    "lng": 35.8,
-    "location": "LEBANON",
-    "actors": [
-      "France",
-      "Israel"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Hundreds protest pro-Palestine in Berlin.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Pro-Palestine demonstrators",
-      "Berlin"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "VinFast to enter India's electric two-wheeler market in H1 2027.",
+    "summary": "India's festive vehicle retail hits 55.25 lakh units, EV sales surge set for strong 2040 growth.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "VinFast",
-      "India"
+      "India",
+      "Vehicle Manufacturers",
+      "EV Industry"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "timestamp": "08:02 AM"
   }
 ];
