@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 24, 2026** | [GHANA UNVEILS NUCLEAR POWER PLANS AS GLOBAL TRENDS DRIVE INDUSTRIAL GROWTH](/archive/grid/2026-11-24-ghana-unveils-nuclear-power-plans) | Paragraph 1: Ghana’s nuclear power preparations aim to drive industrial growth and create youth jobs, reflecting a gl... |
 | **Nov 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-24-lowcarbon-volcanic-rock-cement-ai) | Advanced nuclear reactor components arriving at the Rooppur plant in Bangladesh underscore the global push for enhanc... |
 | **Nov 23, 2026** | [Texas Nuclear Power Plants Set to Boost Grid Resilience Amid AI-Driven Power Surge](/archive/grid/2026-11-23-texas-nuclear-power-plants-set) | Advanced reactor developments in Texas are advancing the U.S. grid's capabilities, with plans to bring online next-ge... |
 | **Nov 22, 2026** | [IRAN'S NUCLEAR DOCTRINE TENSIONS SIMMER AS GLOBAL ENERGY COSTS FALL](/archive/grid/2026-11-22-irans-nuclear-doctrine-tensions-simmer) | Iran's allies, China and Russia, have expressed opposition to any changes in Iran's nuclear doctrine, indicating ongo... |

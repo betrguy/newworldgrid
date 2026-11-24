@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: GLOBAL TENSIONS BOIL OVER AS IRAN, RUSSIA, AND CHINA FACE MULTIFACETED THREATS. Tensions escalate globally, with Iran facing potential milit..."
+description: "Predictive News: EU DEEPENS IN RUSSIA CONFLICT AS THREATS ESCALATE. Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategi..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 23, 2026 — 08:02</span>
+  <span class="sotg-timestamp">November 24, 2026 — 08:17</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./Chinese competition, and China-U.S. relations deteriorating further across technological and diplomatic fronts. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategic debates over involvement. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -28,13 +28,14 @@ Tensions escalate globally, with Iran facing potential military conflict, Russia
 
 ## Daily Intelligence Brief - Nov 24, 2026
 
-Ukraine has the right to strike military targets in Russia, but any actions must avoid spreading the war to the Baltic Sea, according to Ukrainian Defense Minister Pistorius. Meanwhile, Moscow threatens NATO member Estonia with open war over its actions that Russia deems hostile, pushing the conflict towards a potential global escalation. Kyiv has reported a Russian strike in Ukraine that killed two and wounded children, while Russian officials see no added value in EU participation in Ukraine talks, suggesting a lack of progress in negotiations.
+Ukraine has the right to strike military targets in Russia but must avoid spreading the conflict to the Baltic Sea, according to Pistorius. Moscow threatens NATO member Estonia with open war over its alleged hostile actions, nearing the threshold of open conflict, as reported by The Independent. Russia sees no added value in EU participation in Ukraine talks, as stated by the Kremlin. Kyiv claims responsibility for an attack in Libya, while a Russian strike kills two and wounds children. The Ukraine-Russia war is escalating, potentially reaching a tipping point next year, warns The Independent.
 
-The situation remains tense, with both sides signaling a willingness to escalate. The Baltic Sea region is a critical area of concern, as any conflict there could draw in more NATO members. Watch for:
+Ukraine maintains its stance on military action, while Russia escalates threats against NATO members. The conflict's global implications grow as the war widens. Kyiv continues operations outside Ukraine, and Russia persists with strikes.
 
-- Escalation of hostilities in the Baltic Sea region.
-- Further threats or actions by Russia against NATO members.
-- Developments in Ukraine-Russia peace talks and their impact on regional stability.
+**Watch for:**  
+- NATO's response to Russia's threats against Estonia  
+- Kyiv's next military actions outside Ukraine  
+- Escalation in intensity or scale of Russia's strikes on Ukraine
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -48,6 +49,13 @@ The situation remains tense, with both sides signaling a willingness to escalate
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 24, 2026</span>
+        <a href="/archive/predictive/2026-11-24-global-tensions-boil-over-as" class="archive-link">GLOBAL TENSIONS BOIL OVER AS IRAN, RUSSIA, AND CHINA FACE MULTIFACETED THREATS</a>
+      </div>
+      <div class="archive-preview">Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./Chinese...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 23, 2026</span>
@@ -124,13 +132,6 @@ The situation remains tense, with both sides signaling a willingness to escalate
         <a href="/archive/predictive/2026-11-14-russias-missile-modernization-ukeinian-conflict" class="archive-link">RUSSIA'S MISSILE MODERNIZATION & UKEINIAN CONFLICT SPARK GLOBAL GEOPOLITICAL TENSIONS</a>
       </div>
       <div class="archive-preview">Russia's ongoing missile modernization and intensified military activities in Ukraine, coupled with its diplomatic engagements,...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 13, 2026</span>
-        <a href="/archive/predictive/2026-11-13-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
-      </div>
-      <div class="archive-preview">Ukraine's aggressive drone campaign against Russian targets in the Baltic Sea intensifies tensions amid ongoing diplomatic efforts.</div>
     </div>
   </div>
 </div>

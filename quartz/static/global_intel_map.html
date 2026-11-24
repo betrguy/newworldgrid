@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-23 08:02 UTC | 10 active regions</div>
+        <div class="meta">Generated 2026-11-24 08:17 UTC | 11 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">10 events tracked</div>
+    <div id="event-count">11 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,154 +51,172 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: US-TX",
-    "summary": "Developers decide on disclosing data from ERCOT survey.",
-    "emojis": "",
-    "lat": 30.26,
-    "lng": -97.74,
-    "location": "US-TX",
-    "actors": [
-      "Developers",
-      "ERCOT"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China-U.S. trade tensions persist, with AI, cyberattacks, and business visa relaxations.",
-    "emojis": "⚔️⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
-      "U.S.",
-      "AI",
-      "Cyberattacks",
-      "Business visas"
-    ],
-    "source_count": 37,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces competition from US, China in Africa; tensions rise with NATO, Cyprus.",
-    "emojis": "⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "US",
-      "China",
-      "Cyprus",
-      "NATO"
-    ],
-    "source_count": 18,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Tensions escalate as US and Israel signal potential strikes, Iran threatens response amid naval blockade.",
-    "emojis": "🚢💥⚔️",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "US",
-      "Israel",
-      "Iran"
-    ],
-    "source_count": 20,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Mixed reports on Israel, from schoolchild propaganda to property market opportunities.",
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine conflict intensifies with Russian threats, EU involvement debated.",
     "emojis": "⚔️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
     "actors": [
-      "Israel",
-      "Lebanon",
-      "Gaza",
-      "Egypt",
-      "Cyprus"
+      "Russia",
+      "EU",
+      "UK",
+      "Ukraine"
     ],
-    "source_count": 14,
-    "timestamp": "08:02 AM"
+    "source_count": 16,
+    "timestamp": "08:16 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK EV industry faces challenges with factory plans and innovation advancements.",
+    "summary": "Subaru E-Outback priced, Enagas CEO on gas ban, EV targets rumoured.",
     "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "London EV Show",
-      "UK gigafactory"
+      "Subaru",
+      "Enagas CEO",
+      "ECIU"
     ],
-    "source_count": 2,
-    "timestamp": "08:02 AM"
+    "source_count": 3,
+    "timestamp": "08:16 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Xiaomi and Alibaba Health face profits challenges; China investigates Chen Jining; EU hybrid cap expands.",
+    "emojis": "",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "Xiaomi",
+      "Alibaba Health",
+      "Chen Jining",
+      "China",
+      "EU"
+    ],
+    "source_count": 35,
+    "timestamp": "08:16 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces multiple conflicts, sanctions, and tests new military technologies.",
+    "emojis": "🪖✈️⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "NATO",
+      "Estonia",
+      "EU",
+      "Latvia",
+      "South Korea"
+    ],
+    "source_count": 14,
+    "timestamp": "08:16 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "US-Democrats clash over Iran policy amid tensions, cyberattacks, and economic sanctions.",
+    "emojis": "⚔️🚫⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "US",
+      "Democrats",
+      "Iran"
+    ],
+    "source_count": 29,
+    "timestamp": "08:16 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israel faces international criticism and military actions in Gaza; US aid uncertain.",
+    "emojis": "🪖💥⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Kushner",
+      "Israel",
+      "Hamas",
+      "US"
+    ],
+    "source_count": 23,
+    "timestamp": "08:16 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli strikes in Gaza kill UN workers, spark outrage.",
+    "summary": "Israeli airstrikes in Gaza kill Hamas internal security chief.",
     "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israeli Army",
-      "UN Palestinian agency"
+      "Israel",
+      "Hamas"
     ],
-    "source_count": 6,
-    "timestamp": "08:02 AM"
+    "source_count": 7,
+    "timestamp": "08:17 AM"
   },
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine sinks Russian warships in Libya despite diplomatic efforts.",
-    "emojis": "🚢✈️💥",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 28,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: US-NY",
-    "summary": "Nvidia, LS Cable in news for China link, NY grid deal.",
+    "title": "SITREP: GERMANY",
+    "summary": "Volkswagen and Elli to launch vehicle-to-grid charging in Germany.",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 51.1,
+    "lng": 10.4,
+    "location": "GERMANY",
     "actors": [
-      "Nvidia",
-      "LS Cable"
+      "Volkswagen",
+      "Elli"
     ],
-    "source_count": 2,
-    "timestamp": "08:02 AM"
+    "source_count": 1,
+    "timestamp": "08:17 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "India's festive vehicle retail hits 55.25 lakh units, EV sales surge set for strong 2040 growth.",
+    "summary": "India invites bids for battery storage projects, EV sales reach 500,000 ahead of festive retail surge.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "India",
-      "Vehicle Manufacturers",
-      "EV Industry"
+      "NVVN",
+      "India"
     ],
     "source_count": 2,
-    "timestamp": "08:02 AM"
+    "timestamp": "08:17 AM"
+  },
+  {
+    "title": "SITREP: US-TX",
+    "summary": "Energy Vault secures $78M for Texas battery storage, ACLU expands Supreme Court election fight.",
+    "emojis": "",
+    "lat": 30.26,
+    "lng": -97.74,
+    "location": "US-TX",
+    "actors": [
+      "Energy Vault",
+      "ACLU"
+    ],
+    "source_count": 2,
+    "timestamp": "08:17 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi air strikes in Yemen kill horses and humans, Russia’s stance strains region.",
+    "emojis": "💥➡️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Saudi Arabia",
+      "Russia",
+      "Houthi"
+    ],
+    "source_count": 3,
+    "timestamp": "08:17 AM"
   }
 ];
 

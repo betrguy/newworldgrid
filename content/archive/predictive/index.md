@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 24, 2026** | [EU DEEPENS IN RUSSIA CONFLICT AS THREATS ESCALATE](/archive/predictive/2026-11-24-eu-deepens-in-russia-conflict) | Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategic debates over involvement. |
 | **Nov 24, 2026** | [GLOBAL TENSIONS BOIL OVER AS IRAN, RUSSIA, AND CHINA FACE MULTIFACETED THREATS](/archive/predictive/2026-11-24-global-tensions-boil-over-as) | Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./... |
 | **Nov 23, 2026** | [Tensions escalate globally & Iran facing potential military conflict](/archive/predictive/2026-11-23-tensions-escalate-globally-iran-facing) | Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./... |
 | **Nov 22, 2026** | [RUSSIA UNLEASHES DRONE WARFARE IN UKRAINE & GULF](/archive/predictive/2026-11-22-russia-unleashes-drone-warfare-in) | Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts in Ukraine and regional te... |
