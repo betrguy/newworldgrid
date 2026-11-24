@@ -14,9 +14,9 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-24-lowcarbon-volcanic-rock-cement-ai) | Advanced nuclear reactor components arriving at the Rooppur plant in Bangladesh underscore the global push for enhanc... |
 | **Nov 23, 2026** | [Texas Nuclear Power Plants Set to Boost Grid Resilience Amid AI-Driven Power Surge](/archive/grid/2026-11-23-texas-nuclear-power-plants-set) | Advanced reactor developments in Texas are advancing the U.S. grid's capabilities, with plans to bring online next-ge... |
 | **Nov 22, 2026** | [IRAN'S NUCLEAR DOCTRINE TENSIONS SIMMER AS GLOBAL ENERGY COSTS FALL](/archive/grid/2026-11-22-irans-nuclear-doctrine-tensions-simmer) | Iran's allies, China and Russia, have expressed opposition to any changes in Iran's nuclear doctrine, indicating ongo... |
-| **Nov 21, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-21-lowcarbon-volcanic-rock-cement-ai) | Fluence and Linxon's partnership for a 200 MWh battery energy storage system (BESS) in ERCOT underscores the growing ... |
 | **Nov 20, 2026** | [PJM's plan to reduce grid connection times for data centers and...](/archive/grid/2026-11-20-pjms-plan-to-reduce-grid) | Texas's reduction in data center connection times to 12 months through the PJM plan signals a shift towards more effi... |
 | **Nov 20, 2026** | [US Grid Evolves Amid Data Center Boom & Nuclear Shifts](/archive/grid/2026-11-20-us-grid-evolves-amid-data) | The U.S. energy sector continues to evolve, with ERCOT's leadership extension signaling stability in grid management. |
 | **Nov 19, 2026** | [How US nuclear power policies and international geopolitical...](/archive/grid/2026-11-19-how-us-nuclear-power-policies) | The U.S. nuclear energy sector is poised for significant transformation under a new legislative bill, potentially alt... |

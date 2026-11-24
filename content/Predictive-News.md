@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Tensions escalate globally & Iran facing potential military conflict. Tensions escalate globally, with Iran facing potential military confli..."
+description: "Predictive News: GLOBAL TENSIONS BOIL OVER AS IRAN, RUSSIA, AND CHINA FACE MULTIFACETED THREATS. Tensions escalate globally, with Iran facing potential milit..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -26,13 +26,15 @@ Tensions escalate globally, with Iran facing potential military conflict, Russia
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 23, 2026
+## Daily Intelligence Brief - Nov 24, 2026
 
-Russia and Ukraine have resumed military strikes despite recent diplomatic efforts, suggesting ongoing tensions on the ground. Iran has held talks with Russia and China, likely seeking support amid domestic and regional challenges. The United States, China, and Russia are competing for Africa’s mineral wealth, indicating a scramble for strategic resources. The U.S. Senate GOP leaders have signaled openness to cutting off Iran war funding, potentially increasing pressure on Tehran. Iran has threatened a response to any naval blockade, indicating a sensitive situation in the region.
+Ukraine has the right to strike military targets in Russia, but any actions must avoid spreading the war to the Baltic Sea, according to Ukrainian Defense Minister Pistorius. Meanwhile, Moscow threatens NATO member Estonia with open war over its actions that Russia deems hostile, pushing the conflict towards a potential global escalation. Kyiv has reported a Russian strike in Ukraine that killed two and wounded children, while Russian officials see no added value in EU participation in Ukraine talks, suggesting a lack of progress in negotiations.
 
-**Russia, Ukraine carry out strikes despite recent diplomatic efforts.** **Iran** has held talks with **Russia** and **China**, suggesting strategic alignment. The **U.S., China, and Russia** are competing for Africa’s mineral wealth. The **U.S. Senate GOP** leaders have signaled openness to cutting off Iran war funding, possibly intensifying tensions. **Iran** has threatened a response to any naval blockade.
+The situation remains tense, with both sides signaling a willingness to escalate. The Baltic Sea region is a critical area of concern, as any conflict there could draw in more NATO members. Watch for:
 
-Watch for: increased military activity in the Black Sea region, potential economic sanctions against Iran, and further diplomatic talks between Russia, China, and Iran.
+- Escalation of hostilities in the Baltic Sea region.
+- Further threats or actions by Russia against NATO members.
+- Developments in Ukraine-Russia peace talks and their impact on regional stability.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -46,6 +48,13 @@ Watch for: increased military activity in the Black Sea region, potential econom
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 23, 2026</span>
+        <a href="/archive/predictive/2026-11-23-tensions-escalate-globally-iran-facing" class="archive-link">Tensions escalate globally & Iran facing potential military conflict</a>
+      </div>
+      <div class="archive-preview">Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./Chinese...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 22, 2026</span>
@@ -122,13 +131,6 @@ Watch for: increased military activity in the Black Sea region, potential econom
         <a href="/archive/predictive/2026-11-13-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
       </div>
       <div class="archive-preview">Ukraine's aggressive drone campaign against Russian targets in the Baltic Sea intensifies tensions amid ongoing diplomatic efforts.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 12, 2026</span>
-        <a href="/archive/predictive/2026-11-12-western-powers-face-off-against" class="archive-link">WESTERN POWERS FACE OFF AGAINST GLOBAL GIANT ALLIANCES</a>
-      </div>
-      <div class="archive-preview">US-led Western powers face escalating tensions with Russia, Iran, and China, while maintaining engagement with key leaders in Ukraine and Israel.</div>
     </div>
   </div>
 </div>
