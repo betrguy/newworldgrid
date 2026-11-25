@@ -1,7 +1,7 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Low-Carbon Volcanic Rock Cement & AI Model Optimization. China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI..."
+description: "Predictive News: CHINA, RUSSIA & WEST CLASH OVER AI CHIPS & ENERGY EXPORTS. China, Russia, and the West engage in a multifaceted geopolitical struggle, with ..."
 ---
 
 <!-- ORACLE_BYLINE -->
@@ -28,14 +28,16 @@ China, Russia, and the West engage in a multifaceted geopolitical struggle, with
 
 ## Daily Intelligence Brief - Nov 25, 2026
 
-Russia has expanded its sanctions on entities linked to its military and industrial sectors, targeting 15 additional businesses. This move aims to further isolate Russia economically and militarily. In response, the U.S. has abandoned business deals as incentives for Russia to cease hostilities in Ukraine. Instead, the administration is shifting focus to a "land for peace" approach, emphasizing territorial concessions in lieu of economic inducements.
+Russia has restricted trade with 15 entities linked to its military and industry, tightening sanctions on Ukraine. This move aims to isolate Russia further and pressure it to end its war. The EU's action follows the U.S. shift away from business deals as incentives for a peace agreement, indicating a more punitive approach.
 
-Ukraine continues to face significant challenges, particularly in maintaining power supplies in Odesa, where Russian strikes have disrupted the grid. The Zaporizhzhia Nuclear Plant has experienced its 28th power outage since the 2022 invasion, raising concerns about the plant's safety and stability.
+Ukraine continues to face significant challenges, battling to maintain power supply in Odesa despite Russian strikes. The Zaporizhzhia nuclear plant has lost external power for the 28th time since the 2022 invasion, highlighting the ongoing conflict’s impact on critical infrastructure.
 
-**Watch for:**  
-- Further military escalations in Ukraine, particularly around the Zaporizhzhia Nuclear Plant.  
-- Diplomatic negotiations focusing on territorial concessions to de-escalate the conflict.  
-- Economic sanctions targeting more Russian entities and their impact on the Russian military and industrial sectors.
+The conflict in Ukraine has taken a toll, with nearly 500,000 Russian soldiers reportedly killed, according to leaked data. These figures underscore the severity of the war and its human cost.
+
+Watch for:
+- Further escalation of sanctions against Russian entities and individuals.
+- Potential military actions or diplomatic efforts by Israel, as hinted by Katz's calls for an Iran strike.
+- Continued disruptions to Zaporizhzhia nuclear plant operations and their broader implications for energy security.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -49,6 +51,13 @@ Ukraine continues to face significant challenges, particularly in maintaining po
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 25, 2026</span>
+        <a href="/archive/predictive/2026-11-25-lowcarbon-volcanic-rock-cement-ai" class="archive-link">Low-Carbon Volcanic Rock Cement & AI Model Optimization</a>
+      </div>
+      <div class="archive-preview">China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports emerging as key battlegrounds.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 24, 2026</span>
@@ -123,13 +132,6 @@ Ukraine continues to face significant challenges, particularly in maintaining po
       <div class="archive-item-header">
         <span class="archive-date">Nov 16, 2026</span>
         <a href="/archive/predictive/2026-11-16-usiran-gulf-maritime-escalation-strategic" class="archive-link">US-Iran Gulf Maritime Escalation & Strategic Defense Alerts</a>
-      </div>
-      <div class="archive-preview">Iran's drone strikes on US radar in Bahrain escalate regional tensions, particularly with the US and Israel.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 15, 2026</span>
-        <a href="/archive/predictive/2026-11-15-iran-launches-drone-strikes-near" class="archive-link">IRAN LAUNCHES DRONE STRIKES NEAR US MILITARY BASES IN BAHRAIN</a>
       </div>
       <div class="archive-preview">Iran's drone strikes on US radar in Bahrain escalate regional tensions, particularly with the US and Israel.</div>
     </div>

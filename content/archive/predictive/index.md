@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 25, 2026** | [CHINA, RUSSIA & WEST CLASH OVER AI CHIPS & ENERGY EXPORTS](/archive/predictive/2026-11-25-china-russia-west-clash-over) | China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports... |
 | **Nov 25, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-11-25-lowcarbon-volcanic-rock-cement-ai) | China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports... |
 | **Nov 24, 2026** | [EU DEEPENS IN RUSSIA CONFLICT AS THREATS ESCALATE](/archive/predictive/2026-11-24-eu-deepens-in-russia-conflict) | Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategic debates over involvement. |
 | **Nov 24, 2026** | [GLOBAL TENSIONS BOIL OVER AS IRAN, RUSSIA, AND CHINA FACE MULTIFACETED THREATS](/archive/predictive/2026-11-24-global-tensions-boil-over-as) | Tensions escalate globally, with Iran facing potential military conflict, Russia confronting increased NATO and U.S./... |

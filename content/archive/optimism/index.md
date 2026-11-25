@@ -14,9 +14,9 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 25, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-25-lowcarbon-volcanic-rock-cement-ai) | This breakthrough could fundamentally change how we approach computational complexity, potentially unlocking new algo... |
 | **Nov 25, 2026** | [AI Solves 47-Year-Old Math Problem, Cracking Algebraic P≠NP](/archive/optimism/2026-11-25-ai-solves-47yearold-math-problem) | This breakthrough suggests a new era in computational complexity, where advanced AI can tackle previously intractable... |
 | **Nov 24, 2026** | [Anthropic's Claude has solved the VP vs VNP math conjecture & A...](/archive/optimism/2026-11-24-anthropics-claude-has-solved-the) | The U.S. has seen significant advancements in AI-assisted mathematical proofs, with researchers leveraging AI to tack... |
-| **Nov 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-24-lowcarbon-volcanic-rock-cement-ai) | Local measurements now reveal the global quantum properties of complex systems in a constant number of experimental r... |
 | **Nov 23, 2026** | [New Tech Hurdle Emerges Amid Breakthrough in Interstellar Travel](/archive/optimism/2026-11-23-new-tech-hurdle-emerges-amid) | The light that propels future spacecraft could slow them down as they approach 75% of the speed of light, presenting ... |
 | **Nov 19, 2026** | [Scientists Near Seizure Cure & Quantum Computers Unlock Performance Secrets](/archive/optimism/2026-11-19-scientists-near-seizure-cure-quantum) | Scientists are now able to nearly eliminate drug-resistant seizures, and quantum computers are unlocking fundamental ... |
 | **Nov 17, 2026** | [A surgeon can operate on a stroke patient miles away & And tiny robots can...](/archive/optimism/2026-11-17-a-surgeon-can-operate-on) | Surgeons now have the capability to perform complex surgeries remotely, thanks to advanced surgical robots like the R... |
