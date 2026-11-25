@@ -1,37 +1,37 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: FERC OKs MISO Plan to Speed Renewable Interconnections Amid Grid Modernization Push. Primary developments across the U.S. power grid conti..."
+description: "State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. Primary developments across the U.S. power grid continue to focus on regulator..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 24, 2026 - 09:56</span>
+  <span class="sotg-timestamp">November 25, 2026 - 08:01</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-The U.S. grid sees FERC approval for MISO plans to expedite interconnection studies, while Texas receives a landmark construction permit for a small modular reactor plant. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+TVA's $1.7B data center deal underpins U.S. grid expansion, while Ghana invests in nuclear power and Armenia grapples with solar grid integration and battery storage costs. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. The Federal Energy Regulatory Commission (FERC) has approved MISO’s plan to expedite the interconnection study process, which will streamline the integration of new renewable energy projects into the grid. This move is crucial for accelerating the deployment of renewable energy resources and enhancing grid resilience. Additionally, the issuance of a landmark construction permit for a small modular reactor (SMR) plant in Texas signals a significant step in the development of advanced nuclear energy infrastructure. This project is expected to provide a reliable and low-carbon energy source, contributing to the grid’s flexibility and reliability.</p>
+<p class="meridian-lede">Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. The Federal Energy Regulatory Commission (FERC) has approved MISO’s plan to expedite the interconnection study process, which will streamline the integration of new renewable energy projects into the grid. This move is crucial for accelerating the deployment of renewable energy resources and enhancing grid resilience. Additionally, Tennessee Valley Authority (TVA) has announced a $1.7 billion data center deal under a new large-load tariff, indicating growing data center power demands. Separately, TVA has received the first small modular reactor (SMR) construction permit from the Nuclear Regulatory Commission (NRC) for a BWRX-300 reactor at the Clinch River Site in Oak Ridge, Tennessee, though the utility has not yet decided on the exact deployment plan. These developments highlight the ongoing efforts to integrate advanced nuclear energy infrastructure and support the growing data center sector.</p>
 
-U.S. data center power load, domestic nuclear/SMR, battery storage, and grid resilience/technology buildout are all areas of active development. New Jersey utilities are moving forward with the implementation of virtual power plants, which will enable distributed energy resources to provide grid services more effectively. This initiative is part of a broader strategy to integrate advanced technologies and enhance grid flexibility. The construction of the SMR plant in Texas will also bolster the region’s nuclear capacity, providing a stable and sustainable power source. Furthermore, the increasing adoption of battery storage systems is expected to improve grid resilience and support the integration of intermittent renewable energy sources. These developments reflect a concerted effort to modernize the grid and ensure its reliability in the face of growing energy demands.
+U.S. data center power load, domestic nuclear/SMR, battery storage, and grid resilience/technology buildout are all areas of active development. The data center boom through 2028, as predicted by Goldman Sachs, will significantly lift power and gas demand, underscoring the critical role of reliable and flexible grid infrastructure. The U.S. continues to explore advanced nuclear energy options, with Ghana investing $200 million in nuclear power preparations from 2027. Battery storage systems are also gaining traction, supporting the integration of intermittent renewable energy sources and enhancing grid resilience. The construction of the SMR plant in Texas will bolster the region’s nuclear capacity, providing a stable and sustainable power source, while virtual power plants in New Jersey are enabling distributed energy resources to provide grid services more effectively.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> Streamlining renewable energy integration and the construction of advanced nuclear plants are key steps toward a more resilient and sustainable grid.</li>
-  <li><strong>The big picture:</strong> These developments underscore a global shift towards cleaner, more reliable energy sources, impacting geopolitics and technological advancements.</li>
-  <li><strong>What to watch:</strong> Monitoring the operational performance and cost-effectiveness of the SMR plant in Texas.</li>
+  <li><strong>Why it matters:</strong> Streamlining renewable energy integration and supporting data center growth are crucial for advancing grid resilience and technology.</li>
+  <li><strong>The big picture:</strong> These developments highlight the interdependence of energy markets, technology, and grid infrastructure in achieving sustainable and reliable power systems.</li>
+  <li><strong>What to watch:</strong> Monitoring the deployment plans for the SMR reactor at the Clinch River Site to assess its impact on regional nuclear capacity.</li>
 </ul>
 </div>
 
 
-Global developments highlight the ongoing trend towards sustainable energy solutions. An Australian home’s off-grid power setup, which includes 65 solar panels and battery storage, cost $49,000. This example showcases the growing affordability and accessibility of renewable energy technologies, even for individual households. Such setups are becoming more common as the cost of solar panels and battery storage continues to decline, making it easier for homeowners to transition to renewable energy sources. These local innovations contribute to the broader global push towards decarbonization and sustainable energy practices.
+Global developments highlight the ongoing trend towards sustainable energy solutions. Armenia’s solar boom is hitting a grid bottleneck, raising the question of who will fund the necessary battery storage. This issue underscores the challenges of integrating large-scale renewable energy projects into existing grid infrastructure, necessitating significant investment in storage solutions. These global challenges mirror the efforts and obstacles faced by the U.S. grid in modernizing and ensuring reliability amidst rapid technological and regulatory changes.
 </div>
 
 <div class="sotg-analyst">
-The current 24-hour geomagnetic condition is Quiet, with a Kp peak of 1.7, an average of 1.05, and a current value of 1.0. During Quiet conditions, geomagnetic activity is minimal, supporting optimal satellite operations and HF radio communications, and maintaining power grid stability with no significant risks of geomagnetically induced currents.
+The current Kp index is 2.0 with a 24-hour average of 1.86 and a peak of 3.0, indicating an Unsettled condition. This level may cause minor disturbances in satellite operations, potential interference with HF radio communications, and minor impacts on power grid stability.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
@@ -45,6 +45,13 @@ The current 24-hour geomagnetic condition is Quiet, with a Kp peak of 1.7, an av
     <a href="/archive/grid" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 24, 2026</span>
+        <a href="/archive/grid/2026-11-24-ferc-oks-miso-plan-to" class="archive-link">FERC OKs MISO Plan to Speed Renewable Interconnections Amid Grid Modernization Push</a>
+      </div>
+      <div class="archive-preview">The U.S. grid sees FERC approval for MISO plans to expedite interconnection studies, while Texas receives a landmark construction permit...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 24, 2026</span>
@@ -121,13 +128,6 @@ The current 24-hour geomagnetic condition is Quiet, with a Kp peak of 1.7, an av
         <a href="/archive/grid/2026-11-13-cyber-threats-loom-over-global" class="archive-link">Cyber Threats Loom Over Global Grids Amid Iranian Attacks & Turkish Renewable Push</a>
       </div>
       <div class="archive-preview">China's $15 billion investment in Turkish renewable energy signals a significant shift towards global cooperation in sustainable power generation.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 12, 2026</span>
-        <a href="/archive/grid/2026-11-12-chinas-rapid-embrace-of-ai" class="archive-link">China's rapid embrace of AI data centers is reshaping global compute load...</a>
-      </div>
-      <div class="archive-preview">China's rapid embrace of AI data centers is reshaping global compute load dynamics, while geopolitical tensions continue to impact grid stability.</div>
     </div>
   </div>
 </div>

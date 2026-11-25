@@ -6,7 +6,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 # ⚡ State of the Grid Archive
 
-> The physical substrate beneath the news cycle. U.S. grid capacity, energy infrastructure, compute accumulation, and global developments.
+> The physical substrate beneath the news cycle. Energy infrastructure, compute accumulation, and geomagnetic state.
 
 [← Back to Today's Live Edition](/State-of-the-Grid)
 
@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 25, 2026** | [Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](/archive/grid/2026-11-25-oak-ridge-triso-haleu-testing) | Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. |
 | **Nov 24, 2026** | [FERC OKs MISO Plan to Speed Renewable Interconnections Amid Grid Modernization Push](/archive/grid/2026-11-24-ferc-oks-miso-plan-to) | Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. |
 | **Nov 24, 2026** | [GHANA UNVEILS NUCLEAR POWER PLANS AS GLOBAL TRENDS DRIVE INDUSTRIAL GROWTH](/archive/grid/2026-11-24-ghana-unveils-nuclear-power-plans) | Paragraph 1: Ghana’s nuclear power preparations aim to drive industrial growth and create youth jobs, reflecting a gl... |
 | **Nov 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-24-lowcarbon-volcanic-rock-cement-ai) | Advanced nuclear reactor components arriving at the Rooppur plant in Bangladesh underscore the global push for enhanc... |
@@ -130,7 +131,6 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 | **Sep 11, 2026** | [A new way to monitor methane from abandoned wells.](/archive/grid/2026-09-11-a-new-way-to-monitor) | Monitoring grid substrate for significant momentum shifts. |
 | **Sep 10, 2026** | [China's pause on new energy storage battery projects could signal a...](/archive/grid/2026-09-10-chinas-pause-on-new-energy) | Geopolitical tensions persist, with Russia and China opposing the reactivation of UN Iran sanctions, potentially isol... |
 | **Sep 08, 2026** | [Gas Prices Soar Amid Iran Tensions & Data Center Surge](/archive/grid/2026-09-08-gas-prices-soar-amid-iran) | Record gas prices in the U.S. due to geopolitical tensions with Iran are straining grid stability, particularly as da... |
-| **Sep 06, 2026** | [Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](/archive/grid/2026-09-06-oak-ridge-triso-haleu-testing) | The Department of Energy's Oak Ridge National Laboratory has completed TRISO fuel testing, advancing the development ... |
 | **Sep 01, 2026** | [US Grid's Battery Storage Capacity Surpasses 20 Nuclear Reactors in Four Years.](/archive/grid/2026-09-01-grid-has-rapidly-expanded) | The US grid has rapidly expanded its battery storage capacity, equivalent to 20 nuclear reactors, in just four years,... |
 | **Aug 29, 2026** | [US BATTERY PRODUCTION SURGE THREATENS CHINA'S EV SUPPLY CHAIN DOMINANCE](/archive/grid/2026-08-29-witnessing-significant-shift-its) | The US is witnessing a significant shift in its battery production capabilities, potentially disrupting China's domin... |
 | **Aug 28, 2026** | [US Battery Firm Seeks to Disrupt China's EV Supply Chain Dominance](/archive/grid/2026-08-28-american-battery-could-break) | This American Battery Could Break China’s Grip On The EV Supply Chain. |

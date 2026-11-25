@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: EU DEEPENS IN RUSSIA CONFLICT AS THREATS ESCALATE. Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategi..."
+description: "Predictive News: Low-Carbon Volcanic Rock Cement & AI Model Optimization. China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 24, 2026 — 08:17</span>
+  <span class="sotg-timestamp">November 25, 2026 — 08:02</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategic debates over involvement. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports emerging as key battlegrounds. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,16 +26,16 @@ Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 24, 2026
+## Daily Intelligence Brief - Nov 25, 2026
 
-Ukraine has the right to strike military targets in Russia but must avoid spreading the conflict to the Baltic Sea, according to Pistorius. Moscow threatens NATO member Estonia with open war over its alleged hostile actions, nearing the threshold of open conflict, as reported by The Independent. Russia sees no added value in EU participation in Ukraine talks, as stated by the Kremlin. Kyiv claims responsibility for an attack in Libya, while a Russian strike kills two and wounds children. The Ukraine-Russia war is escalating, potentially reaching a tipping point next year, warns The Independent.
+Russia has expanded its sanctions on entities linked to its military and industrial sectors, targeting 15 additional businesses. This move aims to further isolate Russia economically and militarily. In response, the U.S. has abandoned business deals as incentives for Russia to cease hostilities in Ukraine. Instead, the administration is shifting focus to a "land for peace" approach, emphasizing territorial concessions in lieu of economic inducements.
 
-Ukraine maintains its stance on military action, while Russia escalates threats against NATO members. The conflict's global implications grow as the war widens. Kyiv continues operations outside Ukraine, and Russia persists with strikes.
+Ukraine continues to face significant challenges, particularly in maintaining power supplies in Odesa, where Russian strikes have disrupted the grid. The Zaporizhzhia Nuclear Plant has experienced its 28th power outage since the 2022 invasion, raising concerns about the plant's safety and stability.
 
 **Watch for:**  
-- NATO's response to Russia's threats against Estonia  
-- Kyiv's next military actions outside Ukraine  
-- Escalation in intensity or scale of Russia's strikes on Ukraine
+- Further military escalations in Ukraine, particularly around the Zaporizhzhia Nuclear Plant.  
+- Diplomatic negotiations focusing on territorial concessions to de-escalate the conflict.  
+- Economic sanctions targeting more Russian entities and their impact on the Russian military and industrial sectors.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -49,6 +49,13 @@ Ukraine maintains its stance on military action, while Russia escalates threats 
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 24, 2026</span>
+        <a href="/archive/predictive/2026-11-24-eu-deepens-in-russia-conflict" class="archive-link">EU DEEPENS IN RUSSIA CONFLICT AS THREATS ESCALATE</a>
+      </div>
+      <div class="archive-preview">Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategic debates over involvement.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 24, 2026</span>
@@ -125,13 +132,6 @@ Ukraine maintains its stance on military action, while Russia escalates threats 
         <a href="/archive/predictive/2026-11-15-iran-launches-drone-strikes-near" class="archive-link">IRAN LAUNCHES DRONE STRIKES NEAR US MILITARY BASES IN BAHRAIN</a>
       </div>
       <div class="archive-preview">Iran's drone strikes on US radar in Bahrain escalate regional tensions, particularly with the US and Israel.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 14, 2026</span>
-        <a href="/archive/predictive/2026-11-14-russias-missile-modernization-ukeinian-conflict" class="archive-link">RUSSIA'S MISSILE MODERNIZATION & UKEINIAN CONFLICT SPARK GLOBAL GEOPOLITICAL TENSIONS</a>
-      </div>
-      <div class="archive-preview">Russia's ongoing missile modernization and intensified military activities in Ukraine, coupled with its diplomatic engagements,...</div>
     </div>
   </div>
 </div>

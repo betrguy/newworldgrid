@@ -1,14 +1,14 @@
 ---
 title: "Final Frontier"
 layout: page
-description: "Final Frontier: US Leads Orbital Push Amid Tesla Sales Woes. The U.S. continues to push the boundaries of the final frontier with SpaceX's Vandenberg launch,..."
+description: "Final Frontier: US Leads Orbital Push Amid Tesla Sales Slump. The U.S. continues to push the boundaries of the final frontier with SpaceX's Vandenberg launch..."
 ---
 
 <!-- ARC_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ARC</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 24, 2026 - 09:56</span>
+  <span class="sotg-timestamp">November 25, 2026 - 08:04</span>
   <span class="sotg-byline-role">Final Frontier Intelligence</span>
 </div>
 <!-- /ARC_BYLINE -->
@@ -19,15 +19,17 @@ The U.S. continues to push the boundaries of the final frontier with SpaceX's Va
 
 ### **The High Ground**
 
-SpaceX is set to launch a rocket from Vandenberg today at 11:07 AM, and you can track the liftoff via the Ventura County Star. Meanwhile, Amazon’s Leo satellite network had to abort a launch of 36 satellites at the last minute due to ground equipment malfunctions.
+SpaceX is launching a rocket from Vandenberg at 11:07 AM. You can track the liftoff via the Ventura County Star. Additionally, Ariane 6 has successfully launched 36 Amazon Leo satellites into orbit.
 
 ### **The EV Race**
 
-Tesla China’s October retail sales declined by 66% due to the year-end "Te Congrong" plan, which reduced the Model 3’s price by 10,000 yuan. Meanwhile, Ford introduced the Bronco Dahaidao Edition in China, indicating a strategic move in the local market. These actions are reshaping the competitive landscape, with Tesla facing increased competition from Chinese brands.
+Tesla China’s October sales dropped 66% due to a year-end "Te Congrong" price cut, reducing the Model 3’s price by 10,000 yuan. Rivian has been highlighted as a top pick by Seaport, with analysts recommending buying shares in Tesla, Ford, and GM. On the global front, Hyundai is unifying chargers, while GM is expanding Tesla’s charging network, aiming to enhance user experience. These actions are reshaping the competitive landscape, with U.S. and Chinese brands vying for market share through pricing and charging infrastructure.
 
 *What follows is purely a thought experiment.*
 
-Imagine a future where SpaceX’s Starlink constellation, originally designed to provide global internet access, has inadvertently created a new market for space-based solar power. By 2036, the company has installed a series of large, reflective solar panels on a subset of its satellites. These panels beam solar energy directly to receiving stations on Earth, bypassing traditional power grids and reducing reliance on terrestrial solar farms. This shift has profound economic and strategic implications, particularly for oil-rich nations in the Middle East and Russia, who now face a significant competitor in the renewable energy sector. The energy sent from space is cheaper and more reliable, leading to a 25% drop in oil prices globally. This unexpected development has forced OPEC and other oil-dependent economies to diversify their energy sources, potentially leading to geopolitical shifts and new trade dynamics.
+Imagine it’s 2036, and the world is awash with satellite constellations, making the sky a bustling highway of data and communication. One day, SpaceX announces a radical plan: it will start launching a series of lightweight, modular habitats into low Earth orbit (LEO). These habitats are designed for short-term stays by private companies and governments, offering a flexible and cost-effective alternative to traditional space stations. The catch? Each habitat is equipped with a unique, high-speed data port that can only be accessed by a specific, proprietary satellite from a smaller, lesser-known firm—OneWeb. This exclusivity quickly becomes a game-changer.
+
+OneWeb, which was once a marginal player in the satellite market, suddenly finds itself at the center of a new space economy. Its satellites, originally designed for internet coverage, now serve as key nodes in a new network, enabling a seamless flow of data between the habitats and Earth. The cost of launching and maintaining these habitats skyrockets, making it a profitable niche market for OneWeb. Nations and corporations scramble to secure their access points, driving up demand and further solidifying OneWeb’s position. This unexpected pivot transforms the company from a satellite provider to a gatekeeper in the orbital infrastructure, illustrating how a small, overlooked detail can have profound and far-reaching consequences in the space economy.
 
 <!-- /FRONTIER_ENGINE_END -->
 
@@ -41,6 +43,13 @@ Imagine a future where SpaceX’s Starlink constellation, originally designed to
     <a href="/archive/frontier" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 24, 2026</span>
+        <a href="/archive/frontier/2026-11-24-us-leads-orbital-push-amid" class="archive-link">US Leads Orbital Push Amid Tesla Sales Woes</a>
+      </div>
+      <div class="archive-preview">The U.S. continues to push the boundaries of the final frontier with SpaceX's Vandenberg launch, while Tesla China faces retail sales...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 24, 2026</span>
@@ -117,13 +126,6 @@ Imagine a future where SpaceX’s Starlink constellation, originally designed to
         <a href="/archive/frontier/2026-11-11-iran-unveils-underground-missile-complex" class="archive-link">Iran Unveils Underground Missile Complex Amid Growing EV/GRID Investment</a>
       </div>
       <div class="archive-preview">Exploring the orbital economy and advancing EV/grid technology, Iran's underground missile complex and BYD's solar-integrated charging...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 10, 2026</span>
-        <a href="/archive/frontier/2026-11-10-irans-missile-limit-expansion-lucids" class="archive-link">IRAN'S MISSILE LIMIT EXPANSION & LUCID'S ELECTRIC VEHICLE GROWTH</a>
-      </div>
-      <div class="archive-preview">Exploring new horizons in space and electric mobility, Iran's missile limit expansion mirrors Lucid's dynamic growth in understanding...</div>
     </div>
   </div>
 </div>
