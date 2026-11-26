@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-25 08:02 UTC | 11 active regions</div>
+        <div class="meta">Generated 2026-11-26 08:02 UTC | 14 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">11 events tracked</div>
+    <div id="event-count">14 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,26 +51,85 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israeli threats of Gaza displacement escalate amid conflict.",
+    "emojis": "⚔️",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "Israel",
+      "Hamas"
+    ],
+    "source_count": 39,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia faces multiple issues including military arrests, media closures, and international tensions.",
+    "emojis": "🪖🚀⚔️",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "US",
+      "Venezuela",
+      "China",
+      "Tajikistan"
+    ],
+    "source_count": 8,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran reports multiple oil tankers hit mines in Strait of Hormuz, tensions rise.",
+    "emojis": "💥⚔️⚡",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "Iran",
+      "U.S."
+    ],
+    "source_count": 12,
+    "timestamp": "08:01 AM"
+  },
+  {
     "title": "SITREP: CHINA",
-    "summary": "China faces AI chip competition, geopolitical tensions, and economic strategies.",
-    "emojis": "⚡",
+    "summary": "China threatens retaliation over US tariffs, amid trade tensions and geopolitical shifts.",
+    "emojis": "🚫⚡",
     "lat": 35.8,
     "lng": 104.1,
     "location": "CHINA",
     "actors": [
-      "Nvidia",
       "China",
-      "Europe",
-      "Japan",
-      "Solomon Islands"
+      "US"
     ],
-    "source_count": 23,
-    "timestamp": "08:02 AM"
+    "source_count": 27,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: UK",
+    "summary": "UK faces criticism over Zionism and supports Jordan amid nuclear reactor plans.",
+    "emojis": "⚔️☢️",
+    "lat": 55.3,
+    "lng": -3.4,
+    "location": "UK",
+    "actors": [
+      "UK government",
+      "Anti-Zionist Jews",
+      "Holocaust survivors",
+      "King of Jordan",
+      "UK industry"
+    ],
+    "source_count": 3,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: UKRAINE",
-    "summary": "Ukraine faces power shortages and ongoing conflicts while Russia increases attacks.",
-    "emojis": "🪖💥⚔️",
+    "summary": "Ukraine intercepts Russian drone, reports attacks on energy infrastructure.",
+    "emojis": "✈️⚔️",
     "lat": 48.3,
     "lng": 31.1,
     "location": "UKRAINE",
@@ -78,139 +137,120 @@
       "Ukraine",
       "Russia"
     ],
-    "source_count": 17,
-    "timestamp": "08:02 AM"
+    "source_count": 11,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel faces nuclear reactor age, security personnel trauma, and international scrutiny.",
-    "emojis": "🚢🚀⬅️",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
+    "title": "SITREP: YEMEN",
+    "summary": "UK sanctions Houthis amid attacks; Yemen sees ongoing clashes and blasts.",
+    "emojis": "💥⚔️💣",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
     "actors": [
-      "Israel",
-      "Amnesty International",
-      "Turkey",
-      "France"
+      "UK",
+      "Houthi",
+      "Yemeni warring sides"
     ],
-    "source_count": 18,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia appeals hockey ban, boosts crude exports.",
-    "emojis": "",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "International Ice Hockey Federation"
-    ],
-    "source_count": 21,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran faces multiple challenges including smuggling, international tensions, and domestic shortages.",
-    "emojis": "⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "Iraq",
-      "Afghanistan",
-      "Israel",
-      "United States",
-      "Jordan"
-    ],
-    "source_count": 21,
-    "timestamp": "08:02 AM"
+    "source_count": 3,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Chinese startup introduces foldable solar EV charger; Indian gov proposes battery storage for solar installations.",
+    "summary": "Toyota launches flex-fuel HEV in India, Delhi expands EV charging network, EY discusses scaling infrastructure sustainably, TDK showcases EV tech.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Chinese startup",
-      "Indian government"
+      "Toyota",
+      "Delhi",
+      "EY",
+      "TDK"
     ],
-    "source_count": 2,
-    "timestamp": "08:02 AM"
-  },
-  {
-    "title": "SITREP: UK",
-    "summary": "UK faces power grid strain, boosts battery deployment, warns of EV investment threats, and considers nuclear options.",
-    "emojis": "🚀⚔️☢️",
-    "lat": 55.3,
-    "lng": -3.4,
-    "location": "UK",
-    "actors": [
-      "UK Power Grid",
-      "Battery Deployers",
-      "SMMT",
-      "SGE SMR UK"
-    ],
-    "source_count": 4,
-    "timestamp": "08:02 AM"
+    "source_count": 5,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: GAZA",
-    "summary": "Israeli strike kills Hamas official and family.",
+    "summary": "Israeli strikes in Gaza kill 8, Jewish group challenges UK’s Hamas ban.",
     "emojis": "💥",
     "lat": 31.5,
     "lng": 34.46,
     "location": "GAZA",
     "actors": [
-      "Israel",
-      "Hamas"
+      "Israeli",
+      "Jewish group",
+      "UK"
     ],
-    "source_count": 1,
-    "timestamp": "08:02 AM"
+    "source_count": 2,
+    "timestamp": "08:01 AM"
   },
   {
-    "title": "SITREP: YEMEN",
-    "summary": "Yemeni government losses increase as Houthi militia advances.",
-    "emojis": "",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
+    "title": "SITREP: US-FL",
+    "summary": "Florida nuclear developer scours Cerro Gordo County sites.",
+    "emojis": "☢️",
+    "lat": 25.76,
+    "lng": -80.19,
+    "location": "US-FL",
     "actors": [
-      "Yemeni Government",
-      "Houthi Militia"
+      "Florida nuclear power plant developer",
+      "Cerro Gordo County"
     ],
     "source_count": 1,
-    "timestamp": "08:02 AM"
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: FRANCE",
+    "summary": "France enhances Chanukah security after canceling Paris concert.",
+    "emojis": "",
+    "lat": 46.2,
+    "lng": 2.2,
+    "location": "FRANCE",
+    "actors": [
+      "France",
+      "Paris"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: SYRIA",
+    "summary": "Israeli forces detonate minefield and barracks in southern Syria.",
+    "emojis": "",
+    "lat": 34.8,
+    "lng": 38.9,
+    "location": "SYRIA",
+    "actors": [
+      "Israeli forces",
+      "Syria"
+    ],
+    "source_count": 1,
+    "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: GERMANY",
-    "summary": "Germany banned Samidoun three years ago; impact assessed.",
+    "summary": "Germany considers investing in RWE-controlled power grid operator Amprion.",
     "emojis": "",
     "lat": 51.1,
     "lng": 10.4,
     "location": "GERMANY",
     "actors": [
       "Germany",
-      "Samidoun"
+      "RWE"
     ],
     "source_count": 1,
     "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: US-NY",
-    "summary": "Poland seeks permanent US base amid Russian incursions.",
+    "title": "SITREP: IRAQ",
+    "summary": "Iraq closes unofficial border crossings.",
     "emojis": "",
-    "lat": 40.71,
-    "lng": -74.0,
-    "location": "US-NY",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
     "actors": [
-      "Poland",
-      "US"
+      "Iraq"
     ],
     "source_count": 1,
     "timestamp": "08:02 AM"

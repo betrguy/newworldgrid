@@ -6,7 +6,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 # ⚡ State of the Grid Archive
 
-> The physical substrate beneath the news cycle. Energy infrastructure, compute accumulation, and geomagnetic state.
+> The physical substrate beneath the news cycle. U.S. grid capacity, energy infrastructure, compute accumulation, and global developments.
 
 [← Back to Today's Live Edition](/State-of-the-Grid)
 
@@ -14,7 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Nov 25, 2026** | [Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](/archive/grid/2026-11-25-oak-ridge-triso-haleu-testing) | Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. |
+| **Nov 26, 2026** | [Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](/archive/grid/2026-11-26-oak-ridge-triso-haleu-testing) | Primary developments across the U.S. power grid continue to focus on regional grid operators and regulatory shifts. |
 | **Nov 24, 2026** | [FERC OKs MISO Plan to Speed Renewable Interconnections Amid Grid Modernization Push](/archive/grid/2026-11-24-ferc-oks-miso-plan-to) | Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. |
 | **Nov 24, 2026** | [GHANA UNVEILS NUCLEAR POWER PLANS AS GLOBAL TRENDS DRIVE INDUSTRIAL GROWTH](/archive/grid/2026-11-24-ghana-unveils-nuclear-power-plans) | Paragraph 1: Ghana’s nuclear power preparations aim to drive industrial growth and create youth jobs, reflecting a gl... |
 | **Nov 24, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/grid/2026-11-24-lowcarbon-volcanic-rock-cement-ai) | Advanced nuclear reactor components arriving at the Rooppur plant in Bangladesh underscore the global push for enhanc... |

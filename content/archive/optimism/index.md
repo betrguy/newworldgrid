@@ -6,7 +6,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 # ✨ Daily Optimism Archive
 
-> The signal through the noise. Science, technological acceleration, and compounding breakthroughs.
+> The signal through the noise. Mathematical proofs solved by AI, frontier model discoveries, U.S. science, and global breakthroughs.
 
 [← Back to Today's Live Edition](/Optimism)
 
@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 26, 2026** | [AI Cracks 47-Year-Old Math Puzzle, Shrinks Riemann Hypothesis Proof](/archive/optimism/2026-11-26-ai-cracks-47yearold-math-puzzle) | This breakthrough underscores the potential of AI to tackle complex theoretical challenges, fundamentally changing ho... |
 | **Nov 25, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-25-lowcarbon-volcanic-rock-cement-ai) | This breakthrough could fundamentally change how we approach computational complexity, potentially unlocking new algo... |
 | **Nov 25, 2026** | [AI Solves 47-Year-Old Math Problem, Cracking Algebraic P≠NP](/archive/optimism/2026-11-25-ai-solves-47yearold-math-problem) | This breakthrough suggests a new era in computational complexity, where advanced AI can tackle previously intractable... |
 | **Nov 24, 2026** | [Anthropic's Claude has solved the VP vs VNP math conjecture & A...](/archive/optimism/2026-11-24-anthropics-claude-has-solved-the) | The U.S. has seen significant advancements in AI-assisted mathematical proofs, with researchers leveraging AI to tack... |

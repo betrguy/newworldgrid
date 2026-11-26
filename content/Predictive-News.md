@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: CHINA, RUSSIA & WEST CLASH OVER AI CHIPS & ENERGY EXPORTS. China, Russia, and the West engage in a multifaceted geopolitical struggle, with ..."
+description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Tensions escalate globally with Israel, Russia, Iran, China, and the UK grappl..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 25, 2026 — 08:02</span>
+  <span class="sotg-timestamp">November 26, 2026 — 08:02</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports emerging as key battlegrounds. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Tensions escalate globally with Israel, Russia, Iran, China, and the UK grappling with internal and international challenges, highlighting a multifaceted geopolitical landscape marked by conflict and economic pressures. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,18 +26,15 @@ China, Russia, and the West engage in a multifaceted geopolitical struggle, with
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 25, 2026
+## Daily Intelligence Brief - Nov 26, 2026
 
-Russia has restricted trade with 15 entities linked to its military and industry, tightening sanctions on Ukraine. This move aims to isolate Russia further and pressure it to end its war. The EU's action follows the U.S. shift away from business deals as incentives for a peace agreement, indicating a more punitive approach.
+Russian authorities have jailed a Colombian fighter for 20 years in connection with his role in the Ukraine war, signaling Russia’s continued assertiveness in legal and military arenas. Meanwhile, Russian President Putin faces internal challenges as a deputy commander of the Aerospace Forces is arrested on bribery charges, part of an ongoing crackdown on senior military officials.
 
-Ukraine continues to face significant challenges, battling to maintain power supply in Odesa despite Russian strikes. The Zaporizhzhia nuclear plant has lost external power for the 28th time since the 2022 invasion, highlighting the ongoing conflict’s impact on critical infrastructure.
+In the geopolitical landscape, Europe’s last dictator, Belarusian President Lukashenko, has criticized Putin’s logic for the war in Ukraine, suggesting potential rifts within the Russian sphere of influence. NATO and former President Trump both caution Russia over intensifying attacks on Ukraine’s energy infrastructure, indicating heightened tensions and international concern.
 
-The conflict in Ukraine has taken a toll, with nearly 500,000 Russian soldiers reportedly killed, according to leaked data. These figures underscore the severity of the war and its human cost.
+In the Middle East, two tankers are reported to be on fire in the Strait of Hormuz, with explosions claimed by Iran, highlighting potential flashpoints in energy security. This incident, coupled with strained airline operations due to rising fuel prices, underscores the broader economic impacts of regional conflicts.
 
-Watch for:
-- Further escalation of sanctions against Russian entities and individuals.
-- Potential military actions or diplomatic efforts by Israel, as hinted by Katz's calls for an Iran strike.
-- Continued disruptions to Zaporizhzhia nuclear plant operations and their broader implications for energy security.
+**Watch for:** Increased sanctions on Russia if the exchange of war dead does not lead to further peace talks. Escalation of energy-related tensions between Iran and its neighbors. Shifts in the military leadership of Russia following the arrest of the deputy commander.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -51,6 +48,13 @@ Watch for:
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 25, 2026</span>
+        <a href="/archive/predictive/2026-11-25-china-russia-west-clash-over" class="archive-link">CHINA, RUSSIA & WEST CLASH OVER AI CHIPS & ENERGY EXPORTS</a>
+      </div>
+      <div class="archive-preview">China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports emerging as key battlegrounds.</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 25, 2026</span>
@@ -85,13 +89,6 @@ Watch for:
         <a href="/archive/predictive/2026-11-22-russia-unleashes-drone-warfare-in" class="archive-link">RUSSIA UNLEASHES DRONE WARFARE IN UKRAINE & GULF</a>
       </div>
       <div class="archive-preview">Russian drone strikes and escalating tensions in the Gulf highlight intensifying conflicts in Ukraine and regional tensions involving...</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 21, 2026</span>
-        <a href="/archive/predictive/2026-11-21-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
-      </div>
-      <div class="archive-preview">Tensions escalate globally as Iran threatens force in response to US and Israeli actions, while Russia intensifies diplomatic and...</div>
     </div>
     <div class="archive-item">
       <div class="archive-item-header">

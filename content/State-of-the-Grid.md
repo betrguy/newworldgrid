@@ -1,37 +1,37 @@
 ---
 title: "State of the Grid"
 layout: page
-description: "State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. Primary developments across the U.S. power grid continue to focus on regulator..."
+description: "State of the Grid: Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale. Primary developments across the U.S. power grid continue to focus on regional ..."
 ---
 
 <!-- GRID_ENGINE_CONTENT -->
 <div class="sotg-byline">
   <span class="sotg-author">MERIDIAN</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 25, 2026 - 08:15</span>
+  <span class="sotg-timestamp">November 26, 2026 - 08:01</span>
   <span class="sotg-byline-role">Grid Intelligence System</span>
 </div>
 
-FirstEnergy's approval for a $2.5B gas plant in West Virginia contrasts with growing investments in solar and storage solutions across the U.S. grid. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
+Bright Horizon utility in Wyoming is expanding its data center capacity to 3 GW with additional opportunities, while Ghana plans a US$200 million investment in nuclear power preparations for 2027. <span class="meridian-attr">&mdash;&nbsp;MERIDIAN</span>
 
 <div class="energy-pulse">
-<p class="meridian-lede">Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. The Federal Energy Regulatory Commission (FERC) approved FirstEnergy’s $2.5 billion gas plant in West Virginia, despite opposition from consumer advocates and environmental groups. This approval underscores the ongoing debate over the role of natural gas in the grid's transition to cleaner energy sources. Concurrently, the expansion of solar and storage technologies in California Independent System Operator (CAISO) and Electric Reliability Council of Texas (ERCOT) regions highlights the growing reliance on renewable energy. These developments are driven by the need to reduce thermal plant reliance and enhance grid resilience, aligning with broader regulatory and market trends.</p>
+<p class="meridian-lede">Primary developments across the U.S. power grid continue to focus on regional grid operators and regulatory shifts. In the PJM Interconnection region, Bright Horizon utility has secured significant deals with Microsoft for data center expansion in Wyoming, aiming to build a 3-GW near-term data center pipeline and 2.5 GW of additional capacity. This project underscores the growing demand for reliable power in data centers and the strategic partnerships between utilities and tech companies. Meanwhile, the Federal Energy Regulatory Commission (FERC) and the Department of Energy (DOE) are closely monitoring these developments, with FERC approving FirstEnergy’s $2.5 billion gas plant in West Virginia, despite environmental concerns. This approval reflects the ongoing debate over the role of natural gas in the grid's transition to cleaner energy sources. Concurrently, CAISO and ERCOT regions are expanding solar and storage technologies, aligning with broader regulatory and market trends towards renewable energy.</p>
 
-U.S. data center power load and grid resilience are key areas of focus. Kodiak, a data center developer, has advanced a 76-megawatt data center power project in West Texas, which comes amid supply chain challenges. This project exemplifies the increasing demand for reliable power in the data center sector. Additionally, the U.S. continues to explore advanced nuclear energy options, with the Nuclear Regulatory Commission issuing the first small modular reactor (SMR) construction permit to TVA for a BWRX-300 reactor in Oak Ridge, Tennessee. This move underscores the potential for SMRs to provide stable, sustainable power sources, though the exact deployment plan remains uncertain. Battery storage systems are also gaining traction, supporting the integration of intermittent renewable energy sources and enhancing grid resilience.
+U.S. data center power load and grid resilience are key areas of focus. The expansion of data centers, such as the 76-megawatt project by Kodiak in West Texas, highlights the increasing demand for reliable power in the sector. Additionally, the U.S. is exploring advanced nuclear energy options, with the Nuclear Regulatory Commission issuing the first small modular reactor (SMR) construction permit to TVA for a BWRX-300 reactor in Oak Ridge, Tennessee. This move underscores the potential for SMRs to provide stable, sustainable power sources. Battery storage systems are also gaining traction, supporting the integration of intermittent renewable energy sources and enhancing grid resilience. The U.S. continues to invest in these technologies to ensure a reliable and sustainable energy future.
 <div class="sotg-bullets">
 <ul>
-  <li><strong>Why it matters:</strong> The approval of the gas plant and the expansion of renewable energy highlight the ongoing debate over the future of energy sources in the U.S.</li>
-  <li><strong>The big picture:</strong> These developments reflect a broader shift towards more sustainable and resilient energy systems globally, impacting both the environment and national security.</li>
-  <li><strong>What to watch:</strong> The deployment of the first small modular reactor and its impact on grid reliability and energy security.</li>
+  <li><strong>Why it matters:</strong> The growing demand for reliable power in data centers is driving strategic partnerships between utilities and tech companies.</li>
+  <li><strong>The big picture:</strong> These partnerships and investments are reshaping the energy landscape, emphasizing the transition to cleaner and more resilient power sources.</li>
+  <li><strong>What to watch:</strong> The integration of advanced nuclear energy options and battery storage technologies in grid resilience strategies.</li>
 </ul>
 </div>
 
 
-Global developments highlight the ongoing trend towards sustainable energy solutions. An Australian home’s off-grid power setup, costing $49,000 for 65 solar panels and battery storage, demonstrates the increasing affordability and accessibility of renewable energy technologies. This development underscores the global shift towards decentralized and sustainable energy systems, which are increasingly being adopted in both developed and developing countries.
+Global developments highlight the ongoing trend towards sustainable energy solutions. Ghana's investment of US$200 million in nuclear power preparations from 2027, as announced by Ato Forson, reflects the growing interest in nuclear energy across the globe. This development, alongside Armenia’s solar boom, which is facing grid bottleneck challenges, underscores the need for advanced storage solutions. Armenia’s situation illustrates the complexities of integrating renewable energy sources into existing grid infrastructure, necessitating investments in battery storage to manage the variability of solar power. These global trends indicate a continued shift towards cleaner and more resilient energy systems, driven by both technological advancements and regulatory support.
 </div>
 
 <div class="sotg-analyst">
-The current geomagnetic condition is unsettled, with a Kp index of 2.0, an average of 1.86, and a peak Kp of 3.0. This level can cause minor disruptions to satellites and potentially affect HF radio communications in higher latitudes. While power grid stability is generally maintained, operators should monitor for transient voltage changes.
+The current Kp index is 0.7, with a 24-hour average of 0.91 and a peak of 2.0, indicating a Quiet geomagnetic condition. During Quiet conditions, satellite operations, HF radio communications, and power grid stability remain unaffected.
 </div>
 <!-- /GRID_ENGINE_CONTENT -->
 
