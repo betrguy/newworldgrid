@@ -14,6 +14,7 @@ description: "Historical intelligence archive for Daily Optimism. Explore past s
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 27, 2026** | [AI has now proven the 47-year-old Algebraic P≠NP conjecture & A monumental...](/archive/optimism/2026-11-27-ai-has-now-proven-the) | This breakthrough, achieved through same-day proofs by advanced AI systems, suggests a new era of algorithmic and com... |
 | **Nov 26, 2026** | [AI Cracks 47-Year-Old Math Puzzle, Shrinks Riemann Hypothesis Proof](/archive/optimism/2026-11-26-ai-cracks-47yearold-math-puzzle) | This breakthrough underscores the potential of AI to tackle complex theoretical challenges, fundamentally changing ho... |
 | **Nov 25, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/optimism/2026-11-25-lowcarbon-volcanic-rock-cement-ai) | This breakthrough could fundamentally change how we approach computational complexity, potentially unlocking new algo... |
 | **Nov 25, 2026** | [AI Solves 47-Year-Old Math Problem, Cracking Algebraic P≠NP](/archive/optimism/2026-11-25-ai-solves-47yearold-math-problem) | This breakthrough suggests a new era in computational complexity, where advanced AI can tackle previously intractable... |

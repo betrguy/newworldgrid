@@ -14,7 +14,7 @@ description: "Historical intelligence archive for Predictive News. Explore past 
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
-| **Nov 26, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-11-26-strait-of-hormuz-flow-discrepancies) | Tensions escalate globally with Israel, Russia, Iran, China, and the UK grappling with internal and international cha... |
+| **Nov 27, 2026** | [Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows](/archive/predictive/2026-11-27-strait-of-hormuz-flow-discrepancies) | Russia's hybrid warfare tactics, nuclear posturing, and ongoing tensions escalate global geopolitical risks, while Ir... |
 | **Nov 25, 2026** | [CHINA, RUSSIA & WEST CLASH OVER AI CHIPS & ENERGY EXPORTS](/archive/predictive/2026-11-25-china-russia-west-clash-over) | China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports... |
 | **Nov 25, 2026** | [Low-Carbon Volcanic Rock Cement & AI Model Optimization](/archive/predictive/2026-11-25-lowcarbon-volcanic-rock-cement-ai) | China, Russia, and the West engage in a multifaceted geopolitical struggle, with AI chip dominance and energy exports... |
 | **Nov 24, 2026** | [EU DEEPENS IN RUSSIA CONFLICT AS THREATS ESCALATE](/archive/predictive/2026-11-24-eu-deepens-in-russia-conflict) | Ukraine conflict intensifies as Russia escalates threats, drawing EU deeper into strategic debates over involvement. |

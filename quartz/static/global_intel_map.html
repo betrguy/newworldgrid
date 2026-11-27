@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-26 08:02 UTC | 14 active regions</div>
+        <div class="meta">Generated 2026-11-27 08:02 UTC | 9 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">14 events tracked</div>
+    <div id="event-count">9 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,206 +51,129 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine faces多重威胁，包括俄招募、教堂轰炸和电力中断。",
+    "emojis": "⚔️💣",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "乌克兰",
+      "俄罗斯"
+    ],
+    "source_count": 10,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: IRAN",
+    "summary": "Iran faces多重局势，包括夺回油轮、国内活动家被捕、货币危机及国际紧张升级。",
+    "emojis": "🚢",
+    "lat": 32.4,
+    "lng": 53.6,
+    "location": "IRAN",
+    "actors": [
+      "伊朗",
+      "美国",
+      "欧盟",
+      "意大利"
+    ],
+    "source_count": 28,
+    "timestamp": "08:01 AM"
+  },
+  {
     "title": "SITREP: ISRAEL",
-    "summary": "Israeli threats of Gaza displacement escalate amid conflict.",
-    "emojis": "⚔️",
+    "summary": "Israel facing多重冲突，包括威胁加沙民众迁移、袭击加沙目标及内部政治纷争。",
+    "emojis": "",
     "lat": 31.0,
     "lng": 35.0,
     "location": "ISRAEL",
     "actors": [
-      "Israel",
-      "Hamas"
+      "以色列"
     ],
-    "source_count": 39,
+    "source_count": 21,
+    "timestamp": "08:01 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "China's 'national team' strategy faces challenges as economic index falls and stock market slides.",
+    "emojis": "⚔️",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China's national team",
+      "Stock market"
+    ],
+    "source_count": 30,
     "timestamp": "08:01 AM"
   },
   {
     "title": "SITREP: RUSSIA",
-    "summary": "Russia faces multiple issues including military arrests, media closures, and international tensions.",
-    "emojis": "🪖🚀⚔️",
+    "summary": "Russia faces tensions, nuclear warnings, and hybrid warfare concerns.",
+    "emojis": "⚔️☢️⚡",
     "lat": 61.5,
     "lng": 105.3,
     "location": "RUSSIA",
     "actors": [
       "Russia",
-      "US",
-      "Venezuela",
-      "China",
-      "Tajikistan"
-    ],
-    "source_count": 8,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: IRAN",
-    "summary": "Iran reports multiple oil tankers hit mines in Strait of Hormuz, tensions rise.",
-    "emojis": "💥⚔️⚡",
-    "lat": 32.4,
-    "lng": 53.6,
-    "location": "IRAN",
-    "actors": [
-      "Iran",
-      "U.S."
-    ],
-    "source_count": 12,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China threatens retaliation over US tariffs, amid trade tensions and geopolitical shifts.",
-    "emojis": "🚫⚡",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China",
+      "Western intelligence",
+      "Zelenskyy",
       "US"
     ],
-    "source_count": 27,
-    "timestamp": "08:01 AM"
+    "source_count": 15,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "UK faces criticism over Zionism and supports Jordan amid nuclear reactor plans.",
-    "emojis": "⚔️☢️",
+    "summary": "Andersen EV expands UK manufacturing, Suzuki introduces electric Ignis for 2027.",
+    "emojis": "",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "UK government",
-      "Anti-Zionist Jews",
-      "Holocaust survivors",
-      "King of Jordan",
-      "UK industry"
-    ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine intercepts Russian drone, reports attacks on energy infrastructure.",
-    "emojis": "✈️⚔️",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
-    "actors": [
-      "Ukraine",
-      "Russia"
-    ],
-    "source_count": 11,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: YEMEN",
-    "summary": "UK sanctions Houthis amid attacks; Yemen sees ongoing clashes and blasts.",
-    "emojis": "💥⚔️💣",
-    "lat": 15.5,
-    "lng": 48.5,
-    "location": "YEMEN",
-    "actors": [
-      "UK",
-      "Houthi",
-      "Yemeni warring sides"
-    ],
-    "source_count": 3,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: INDIA",
-    "summary": "Toyota launches flex-fuel HEV in India, Delhi expands EV charging network, EY discusses scaling infrastructure sustainably, TDK showcases EV tech.",
-    "emojis": "",
-    "lat": 20.5,
-    "lng": 78.9,
-    "location": "INDIA",
-    "actors": [
-      "Toyota",
-      "Delhi",
-      "EY",
-      "TDK"
-    ],
-    "source_count": 5,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli strikes in Gaza kill 8, Jewish group challenges UK’s Hamas ban.",
-    "emojis": "💥",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
-    "actors": [
-      "Israeli",
-      "Jewish group",
-      "UK"
+      "Andersen EV",
+      "Suzuki"
     ],
     "source_count": 2,
-    "timestamp": "08:01 AM"
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: US-FL",
-    "summary": "Florida nuclear developer scours Cerro Gordo County sites.",
+    "summary": "Florida nuclear developer explores Cerro Gordo County sites.",
     "emojis": "☢️",
     "lat": 25.76,
     "lng": -80.19,
     "location": "US-FL",
     "actors": [
-      "Florida nuclear power plant developer",
+      "Florida nuclear developer",
       "Cerro Gordo County"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: FRANCE",
-    "summary": "France enhances Chanukah security after canceling Paris concert.",
-    "emojis": "",
-    "lat": 46.2,
-    "lng": 2.2,
-    "location": "FRANCE",
-    "actors": [
-      "France",
-      "Paris"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: SYRIA",
-    "summary": "Israeli forces detonate minefield and barracks in southern Syria.",
-    "emojis": "",
-    "lat": 34.8,
-    "lng": 38.9,
-    "location": "SYRIA",
-    "actors": [
-      "Israeli forces",
-      "Syria"
-    ],
-    "source_count": 1,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: GERMANY",
-    "summary": "Germany considers investing in RWE-controlled power grid operator Amprion.",
-    "emojis": "",
-    "lat": 51.1,
-    "lng": 10.4,
-    "location": "GERMANY",
-    "actors": [
-      "Germany",
-      "RWE"
     ],
     "source_count": 1,
     "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: IRAQ",
-    "summary": "Iraq closes unofficial border crossings.",
+    "title": "SITREP: INDIA",
+    "summary": "Delhi to install 180 new EV charging stations, 540 points.",
     "emojis": "",
-    "lat": 33.2,
-    "lng": 43.6,
-    "location": "IRAQ",
+    "lat": 20.5,
+    "lng": 78.9,
+    "location": "INDIA",
     "actors": [
-      "Iraq"
+      "Delhi government"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "Israeli attacks kill Palestinian, wound several in Gaza.",
+    "emojis": "⚔️",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "Israeli",
+      "Palestinian"
     ],
     "source_count": 1,
     "timestamp": "08:02 AM"

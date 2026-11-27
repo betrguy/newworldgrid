@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Tensions escalate globally with Israel, Russia, Iran, China, and the UK grappl..."
+description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Russia's hybrid warfare tactics, nuclear posturing, and ongoing tensions escal..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 26, 2026 — 08:02</span>
+  <span class="sotg-timestamp">November 27, 2026 — 08:02</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Tensions escalate globally with Israel, Russia, Iran, China, and the UK grappling with internal and international challenges, highlighting a multifaceted geopolitical landscape marked by conflict and economic pressures. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Russia's hybrid warfare tactics, nuclear posturing, and ongoing tensions escalate global geopolitical risks, while Iran grapples with internal unrest, economic crises, and international tensions, complicating regional dynamics. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,15 +26,13 @@ Tensions escalate globally with Israel, Russia, Iran, China, and the UK grapplin
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 26, 2026
+## Daily Intelligence Brief - Nov 27, 2026
 
-Russian authorities have jailed a Colombian fighter for 20 years in connection with his role in the Ukraine war, signaling Russia’s continued assertiveness in legal and military arenas. Meanwhile, Russian President Putin faces internal challenges as a deputy commander of the Aerospace Forces is arrested on bribery charges, part of an ongoing crackdown on senior military officials.
+Russia continues to expand its military operations in the Ukraine conflict, now extending into maritime areas. The war has spilled across borders and into the Black Sea, indicating a more comprehensive strategic effort. Russian forces have reportedly bombed a Ukrainian church three times, and Western intelligence agencies warn of potential Russian nuclear threats, signaling heightened tensions and possible escalation.
 
-In the geopolitical landscape, Europe’s last dictator, Belarusian President Lukashenko, has criticized Putin’s logic for the war in Ukraine, suggesting potential rifts within the Russian sphere of influence. NATO and former President Trump both caution Russia over intensifying attacks on Ukraine’s energy infrastructure, indicating heightened tensions and international concern.
+Iran has stated it will deploy new air defense systems if war with the United States resumes, highlighting its readiness to escalate tensions in the region. An Iranian oil tanker reportedly exploded after hitting a naval mine in the Strait of Hormuz, suggesting possible sabotage or conflict in the region.
 
-In the Middle East, two tankers are reported to be on fire in the Strait of Hormuz, with explosions claimed by Iran, highlighting potential flashpoints in energy security. This incident, coupled with strained airline operations due to rising fuel prices, underscores the broader economic impacts of regional conflicts.
-
-**Watch for:** Increased sanctions on Russia if the exchange of war dead does not lead to further peace talks. Escalation of energy-related tensions between Iran and its neighbors. Shifts in the military leadership of Russia following the arrest of the deputy commander.
+**Watch for:** Increased naval activity in the Black Sea, further deployment of Russian air defense systems in Iran, and any actions by the U.S. or its allies in response to the warnings about Russian nuclear threats.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
