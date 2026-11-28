@@ -14,6 +14,7 @@ description: "Historical intelligence archive for State of the Grid. Explore pas
 
 | Date | Headline & Link | Core Finding |
 | :--- | :--- | :--- |
+| **Nov 28, 2026** | [CALIBRANT ENERGY SECURES $145 MILLION IN PJM REGIONAL BATTERY STORAGE FINANCING](/archive/grid/2026-11-28-calibrant-energy-secures-145-million) | Primary developments across the U.S. power grid continue to center on regional grid operators and regulatory shifts. |
 | **Nov 27, 2026** | [Grid Future Uncertain Amid EV Charging Costs & Nuclear Scrutiny](/archive/grid/2026-11-27-grid-future-uncertain-amid-ev) | Primary developments across the U.S. power grid continue to focus on regional grid operators and regulatory shifts. |
 | **Nov 26, 2026** | [Oak Ridge TRISO HALEU Testing & Grid Battery Storage Scale](/archive/grid/2026-11-26-oak-ridge-triso-haleu-testing) | Primary developments across the U.S. power grid continue to focus on regional grid operators and regulatory shifts. |
 | **Nov 24, 2026** | [FERC OKs MISO Plan to Speed Renewable Interconnections Amid Grid Modernization Push](/archive/grid/2026-11-24-ferc-oks-miso-plan-to) | Primary developments across the U.S. power grid continue to focus on regulatory and technological advancements. |

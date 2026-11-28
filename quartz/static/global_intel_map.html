@@ -38,12 +38,12 @@
     <div id="map"></div>
     <div id="header">
         <h1>Predictive News</h1>
-        <div class="meta">Generated 2026-11-27 08:02 UTC | 9 active regions</div>
+        <div class="meta">Generated 2026-11-28 08:03 UTC | 17 active regions</div>
     </div>
     <div class="controls">
         <button class="btn" onclick="fitBounds()">FIT VIEW</button>
     </div>
-    <div id="event-count">9 events tracked</div>
+    <div id="event-count">17 events tracked</div>
     <div id="ticker"><div id="ticker-content"></div></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,132 +51,254 @@
         // Embedded intel data (no backend required)
         var INTEL_DATA = [
   {
-    "title": "SITREP: UKRAINE",
-    "summary": "Ukraine faces多重威胁，包括俄招募、教堂轰炸和电力中断。",
-    "emojis": "⚔️💣",
-    "lat": 48.3,
-    "lng": 31.1,
-    "location": "UKRAINE",
+    "title": "SITREP: AFGHANISTAN",
+    "summary": "Explosion kills 10 students, injures over 100 in Afghanistan.",
+    "emojis": "💥",
+    "lat": 33.9,
+    "lng": 67.7,
+    "location": "AFGHANISTAN",
     "actors": [
-      "乌克兰",
-      "俄罗斯"
+      "Afghanistan Interior Ministry",
+      "Students"
     ],
-    "source_count": 10,
-    "timestamp": "08:01 AM"
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-CA",
+    "summary": "California renter faces restriction near EV outlet; Saudi Arabia invests in luxury EVs.",
+    "emojis": "",
+    "lat": 34.05,
+    "lng": -118.24,
+    "location": "US-CA",
+    "actors": [
+      "California renter",
+      "Saudi Arabia"
+    ],
+    "source_count": 2,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: CHINA",
+    "summary": "Chinese reactions to Taiwanese mayoral election, US submarine missile program, and North Korean leader visit speculations.",
+    "emojis": "🚢🚀",
+    "lat": 35.8,
+    "lng": 104.1,
+    "location": "CHINA",
+    "actors": [
+      "China",
+      "Taiwan",
+      "US",
+      "North Korea"
+    ],
+    "source_count": 36,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: ISRAEL",
+    "summary": "Israeli tensions rise amid IDF alert, Gaza strikes, and unity government talks stalemate.",
+    "emojis": "💥⚔️💀",
+    "lat": 31.0,
+    "lng": 35.0,
+    "location": "ISRAEL",
+    "actors": [
+      "IDF",
+      "Iran",
+      "Hamas",
+      "Doctors Without Borders",
+      "Israel",
+      "Palestinians"
+    ],
+    "source_count": 29,
+    "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: IRAN",
-    "summary": "Iran faces多重局势，包括夺回油轮、国内活动家被捕、货币危机及国际紧张升级。",
-    "emojis": "🚢",
+    "summary": "Iran faces多重动态：足球荣誉、军事争议、经济项目及内部冲突。",
+    "emojis": "✈️💥⚔️",
     "lat": 32.4,
     "lng": 53.6,
     "location": "IRAN",
     "actors": [
       "伊朗",
       "美国",
-      "欧盟",
-      "意大利"
-    ],
-    "source_count": 28,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: ISRAEL",
-    "summary": "Israel facing多重冲突，包括威胁加沙民众迁移、袭击加沙目标及内部政治纷争。",
-    "emojis": "",
-    "lat": 31.0,
-    "lng": 35.0,
-    "location": "ISRAEL",
-    "actors": [
       "以色列"
     ],
     "source_count": 21,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: CHINA",
-    "summary": "China's 'national team' strategy faces challenges as economic index falls and stock market slides.",
-    "emojis": "⚔️",
-    "lat": 35.8,
-    "lng": 104.1,
-    "location": "CHINA",
-    "actors": [
-      "China's national team",
-      "Stock market"
-    ],
-    "source_count": 30,
-    "timestamp": "08:01 AM"
-  },
-  {
-    "title": "SITREP: RUSSIA",
-    "summary": "Russia faces tensions, nuclear warnings, and hybrid warfare concerns.",
-    "emojis": "⚔️☢️⚡",
-    "lat": 61.5,
-    "lng": 105.3,
-    "location": "RUSSIA",
-    "actors": [
-      "Russia",
-      "Western intelligence",
-      "Zelenskyy",
-      "US"
-    ],
-    "source_count": 15,
     "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: UK",
-    "summary": "Andersen EV expands UK manufacturing, Suzuki introduces electric Ignis for 2027.",
-    "emojis": "",
+    "summary": "UK rejects Argentina's bid to halt Falklands oil exploration; US military repels suspected Iranian drones near UK airbase.",
+    "emojis": "🪖✈️",
     "lat": 55.3,
     "lng": -3.4,
     "location": "UK",
     "actors": [
-      "Andersen EV",
-      "Suzuki"
+      "UK",
+      "Argentina",
+      "US",
+      "Iran"
     ],
     "source_count": 2,
     "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: US-FL",
-    "summary": "Florida nuclear developer explores Cerro Gordo County sites.",
-    "emojis": "☢️",
-    "lat": 25.76,
-    "lng": -80.19,
-    "location": "US-FL",
+    "title": "SITREP: LEBANON",
+    "summary": "Iraq conducts staged military operations against Kata‘ib Hezbollah.",
+    "emojis": "🪖",
+    "lat": 33.8,
+    "lng": 35.8,
+    "location": "LEBANON",
     "actors": [
-      "Florida nuclear developer",
-      "Cerro Gordo County"
+      "Iraq",
+      "Kata‘ib Hezbollah"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: RUSSIA",
+    "summary": "Russia engages in diplomatic and military activities, with focus on trade, Arctic development, and tensions with Ukraine.",
+    "emojis": "🪖💀⚡",
+    "lat": 61.5,
+    "lng": 105.3,
+    "location": "RUSSIA",
+    "actors": [
+      "Russia",
+      "North Korea",
+      "Ukraine"
+    ],
+    "source_count": 14,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: UKRAINE",
+    "summary": "Ukraine reports tech advancements and deep strikes; Russia suffers losses.",
+    "emojis": "✈️💥⚔️",
+    "lat": 48.3,
+    "lng": 31.1,
+    "location": "UKRAINE",
+    "actors": [
+      "Ukraine",
+      "Russia"
+    ],
+    "source_count": 11,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: GAZA",
+    "summary": "MSF condemns Israeli strike killing two staff in Gaza clinic.",
+    "emojis": "💥💀",
+    "lat": 31.5,
+    "lng": 34.46,
+    "location": "GAZA",
+    "actors": [
+      "MSF",
+      "Israeli army"
+    ],
+    "source_count": 14,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: US-DC",
+    "summary": "Congress debates new workplace protections amid sexual misconduct allegations.",
+    "emojis": "",
+    "lat": 38.9,
+    "lng": -77.03,
+    "location": "US-DC",
+    "actors": [
+      "Congress",
+      "House members"
+    ],
+    "source_count": 1,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: IRAQ",
+    "summary": "Trump supports Iraq’s anti-smuggling efforts.",
+    "emojis": "",
+    "lat": 33.2,
+    "lng": 43.6,
+    "location": "IRAQ",
+    "actors": [
+      "Trump",
+      "Iraq"
     ],
     "source_count": 1,
     "timestamp": "08:02 AM"
   },
   {
     "title": "SITREP: INDIA",
-    "summary": "Delhi to install 180 new EV charging stations, 540 points.",
+    "summary": "Honda Cars India partners with Adani, Jio-bp, Tata Power to expand EV charging network.",
     "emojis": "",
     "lat": 20.5,
     "lng": 78.9,
     "location": "INDIA",
     "actors": [
-      "Delhi government"
+      "Honda Cars India",
+      "Adani",
+      "Jio-bp",
+      "Tata Power"
+    ],
+    "source_count": 2,
+    "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: YEMEN",
+    "summary": "Saudi coalition reports Houthi missile launch towards southern kingdom.",
+    "emojis": "🚀⚔️",
+    "lat": 15.5,
+    "lng": 48.5,
+    "location": "YEMEN",
+    "actors": [
+      "Saudi coalition",
+      "Houthi"
     ],
     "source_count": 1,
     "timestamp": "08:02 AM"
   },
   {
-    "title": "SITREP: GAZA",
-    "summary": "Israeli attacks kill Palestinian, wound several in Gaza.",
-    "emojis": "⚔️",
-    "lat": 31.5,
-    "lng": 34.46,
-    "location": "GAZA",
+    "title": "SITREP: US-GA",
+    "summary": "EV driver finds functioning chargers in Georgia amid hurricane damage.",
+    "emojis": "",
+    "lat": 33.74,
+    "lng": -84.38,
+    "location": "US-GA",
     "actors": [
-      "Israeli",
-      "Palestinian"
+      "EV driver",
+      "chargers"
     ],
     "source_count": 1,
     "timestamp": "08:02 AM"
+  },
+  {
+    "title": "SITREP: MEXICO",
+    "summary": "DOE reviews SociVolta’s US-Mexico power grid export plans.",
+    "emojis": "",
+    "lat": 23.6,
+    "lng": -102.5,
+    "location": "MEXICO",
+    "actors": [
+      "DOE",
+      "SociVolta"
+    ],
+    "source_count": 1,
+    "timestamp": "08:03 AM"
+  },
+  {
+    "title": "SITREP: TAIWAN",
+    "summary": "Taiwan holds local elections amid Chinese military pressure.",
+    "emojis": "🪖",
+    "lat": 23.6,
+    "lng": 120.9,
+    "location": "TAIWAN",
+    "actors": [
+      "Taiwan",
+      "China"
+    ],
+    "source_count": 1,
+    "timestamp": "08:03 AM"
   }
 ];
 

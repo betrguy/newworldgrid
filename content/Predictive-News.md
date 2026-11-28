@@ -1,18 +1,18 @@
 ---
 title: "Predictive News"
 layout: page
-description: "Predictive News: Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows. Russia's hybrid warfare tactics, nuclear posturing, and ongoing tensions escal..."
+description: "Predictive News: Iran faces escalating tensions over regional influence & Military disputes. Iran faces escalating tensions over regional influence, military..."
 ---
 
 <!-- ORACLE_BYLINE -->
 <div class="sotg-byline">
   <span class="sotg-author">ORACLE</span>
   <span class="sotg-byline-sep">/</span>
-  <span class="sotg-timestamp">November 27, 2026 — 08:02</span>
+  <span class="sotg-timestamp">November 28, 2026 — 08:03</span>
   <span class="sotg-byline-role">Predictive Intelligence System</span>
 </div>
 
-Russia's hybrid warfare tactics, nuclear posturing, and ongoing tensions escalate global geopolitical risks, while Iran grapples with internal unrest, economic crises, and international tensions, complicating regional dynamics. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
+Iran faces escalating tensions over regional influence, military disputes, and economic projects, while internal conflicts continue to simmer. <span class="meridian-attr">&mdash;&nbsp;ORACLE</span>
 <!-- /ORACLE_BYLINE -->
 
 
@@ -26,13 +26,27 @@ Russia's hybrid warfare tactics, nuclear posturing, and ongoing tensions escalat
 
 <div id="intelligence-brief"></div>
 
-## Daily Intelligence Brief - Nov 27, 2026
+## Daily Intelligence Brief - Nov 28, 2026
 
-Russia continues to expand its military operations in the Ukraine conflict, now extending into maritime areas. The war has spilled across borders and into the Black Sea, indicating a more comprehensive strategic effort. Russian forces have reportedly bombed a Ukrainian church three times, and Western intelligence agencies warn of potential Russian nuclear threats, signaling heightened tensions and possible escalation.
+Italy's Prime Minister Giorgia Meloni has urged Ukraine's President Volodymyr Zelenskyy to avoid escalating the conflict into the Mediterranean. This move highlights Italy's strategic positioning to mitigate wider regional involvement, leveraging its influence in NATO and the EU.
 
-Iran has stated it will deploy new air defense systems if war with the United States resumes, highlighting its readiness to escalate tensions in the region. An Iranian oil tanker reportedly exploded after hitting a naval mine in the Strait of Hormuz, suggesting possible sabotage or conflict in the region.
+Taiwan's local elections are under way, with candidates aligning their stances to avoid direct confrontation with China. The election results could indicate shifting loyalties and potential changes in Taiwan's relationship with both China and the United States.
 
-**Watch for:** Increased naval activity in the Black Sea, further deployment of Russian air defense systems in Iran, and any actions by the U.S. or its allies in response to the warnings about Russian nuclear threats.
+Russia reports a significant Ukrainian drone attack, escalating tensions in Libya as Russia threatens further sanctions. Russia's extension of its jet fuel export ban, coupled with statements from Novak, suggests a continued assertive stance, potentially impacting global energy dynamics.
+
+Ukraine confirms Russian troop losses, emphasizing the ongoing attrition. The reported 2,825 losses in a single day underscore the intensity of the conflict.
+
+A candidate criticized by China has conceded in Taipei's mayoral race, reflecting the ongoing competition between China and Taiwan. The outcome may influence future political dynamics in the region.
+
+The U.S. is pushing ahead with its submarine-launched nuclear cruise missile programme, amid concerns raised by Secretary of State Antony Blinken. This development could lead to increased geopolitical tensions, particularly with Russia and China.
+
+The U.S. is warning of potential escalation with Israel due to its Iran blockade, indicating heightened strategic maneuvers in the Middle East.
+
+Watch for: 
+- The outcome of Taiwan's local elections and its implications for cross-strait relations.
+- U.S. and Russian tensions in the Mediterranean, particularly regarding energy supply disruptions.
+- Any new sanctions or export bans announced by Russia, affecting global energy markets.
+- Changes in troop levels and strategic movements in Ukraine, reflecting the evolving conflict dynamics.
 
 <!-- NEWS_HUNTER_PREDICTIVE_END -->
 
@@ -46,6 +60,13 @@ Iran has stated it will deploy new air defense systems if war with the United St
     <a href="/archive/predictive" class="sotg-archive-view-all">[VIEW ALL]</a>
   </div>
   <div class="sotg-archive-list">
+    <div class="archive-item">
+      <div class="archive-item-header">
+        <span class="archive-date">Nov 27, 2026</span>
+        <a href="/archive/predictive/2026-11-27-strait-of-hormuz-flow-discrepancies" class="archive-link">Strait of Hormuz Flow Discrepancies & Sovereign Energy Flows</a>
+      </div>
+      <div class="archive-preview">Russia's hybrid warfare tactics, nuclear posturing, and ongoing tensions escalate global geopolitical risks, while Iran grapples with...</div>
+    </div>
     <div class="archive-item">
       <div class="archive-item-header">
         <span class="archive-date">Nov 25, 2026</span>
@@ -122,13 +143,6 @@ Iran has stated it will deploy new air defense systems if war with the United St
         <a href="/archive/predictive/2026-11-17-quad-leaders-unite-in-manila" class="archive-link">QUAD LEADERS UNITE IN MANILA AS CHINA TENSIONS ESCALATE</a>
       </div>
       <div class="archive-preview">Quad leaders' meeting in Manila precedes APEC summit, signaling enhanced Indo-Pacific cooperation amid growing tensions with China.</div>
-    </div>
-    <div class="archive-item">
-      <div class="archive-item-header">
-        <span class="archive-date">Nov 16, 2026</span>
-        <a href="/archive/predictive/2026-11-16-usiran-gulf-maritime-escalation-strategic" class="archive-link">US-Iran Gulf Maritime Escalation & Strategic Defense Alerts</a>
-      </div>
-      <div class="archive-preview">Iran's drone strikes on US radar in Bahrain escalate regional tensions, particularly with the US and Israel.</div>
     </div>
   </div>
 </div>
